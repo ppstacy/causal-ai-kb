@@ -6,6 +6,11 @@ description: >-
 url: "https://ppstacy.github.io"
 baseurl: "/causal-ai-kb"
 
+# Override the Cayman footer "maintained by" text + link
+github:
+  owner_name: Jing Pan
+  owner_url: https://www.linkedin.com/in/jingpan1019
+
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed

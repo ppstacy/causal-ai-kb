@@ -191,11 +191,19 @@ def write_weekly(out_dir: Path, week_label: str, body: str) -> None:
 
 
 def _extract_lead_paragraph(body: str, max_chars: int = 500) -> str:
-    """First non-header content paragraph from the markdown body."""
+    """First non-header content paragraph from the markdown body, skipping YAML frontmatter."""
+    lines = body.splitlines()
+    # Skip YAML frontmatter if present
+    start = 0
+    if lines and lines[0].strip() == "---":
+        for j in range(1, len(lines)):
+            if lines[j].strip() == "---":
+                start = j + 1
+                break
     out: list[str] = []
-    for line in body.splitlines():
+    for line in lines[start:]:
         stripped = line.strip()
-        if not stripped or stripped.startswith("#"):
+        if not stripped or stripped.startswith("#") or stripped.startswith(">"):
             if out:
                 break
             continue
@@ -251,3 +259,56 @@ def write_feed(out_dir: Path) -> None:
     weekly_dir.mkdir(parents=True, exist_ok=True)
     feed_xml = render_feed(weekly_dir)
     (weekly_dir / "feed.xml").write_text(feed_xml)
+
+
+def render_daily_feed(daily_dir: Path, limit: int = 21) -> str:
+    """Generate an RSS 2.0 feed of recent daily picks for Slack `/feed subscribe`."""
+    pick_files: list[tuple[str, Path]] = []
+    if daily_dir.exists():
+        for sub in sorted(daily_dir.iterdir(), reverse=True):
+            if not sub.is_dir():
+                continue
+            picks = sub / "picks.md"
+            if picks.exists():
+                pick_files.append((sub.name, picks))
+            if len(pick_files) >= limit:
+                break
+
+    rss = ET.Element("rss", version="2.0")
+    channel = ET.SubElement(rss, "channel")
+    ET.SubElement(channel, "title").text = "Causal AI daily picks"
+    ET.SubElement(channel, "link").text = REPO_URL
+    ET.SubElement(channel, "description").text = (
+        "Top-5 daily picks from new research, engineering posts, and tools "
+        "across causal inference, causal ML, causal language models, and "
+        "online experimentation."
+    )
+    ET.SubElement(channel, "language").text = "en-us"
+
+    for date_str, path in pick_files:
+        try:
+            pub = dt.date.fromisoformat(date_str)
+        except ValueError:
+            continue
+        body = path.read_text()
+        description = _extract_lead_paragraph(body) or f"Daily picks for {date_str}"
+        link = f"{REPO_URL}/blob/main/daily/{date_str}/picks.md"
+        item = ET.SubElement(channel, "item")
+        ET.SubElement(item, "title").text = f"Causal AI daily picks — {date_str}"
+        ET.SubElement(item, "link").text = link
+        ET.SubElement(item, "guid", isPermaLink="true").text = link
+        # Daily run targets 13:00 UTC = 06:00 PT
+        ET.SubElement(item, "pubDate").text = pub.strftime(
+            "%a, %d %b %Y 13:00:00 +0000"
+        )
+        ET.SubElement(item, "description").text = description
+
+    ET.indent(rss, space="  ")
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode")
+
+
+def write_daily_feed(out_dir: Path) -> None:
+    daily_dir = out_dir / "daily"
+    daily_dir.mkdir(parents=True, exist_ok=True)
+    feed_xml = render_daily_feed(daily_dir)
+    (daily_dir / "feed.xml").write_text(feed_xml)

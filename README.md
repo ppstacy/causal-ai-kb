@@ -92,19 +92,24 @@ generates two committed artifacts:
 - `weekly/feed.xml` — RSS 2.0 feed listing the most recent 20 digests
 
 Slack delivery uses the workspace's built-in **`/feed subscribe`**
-integration. **One-time setup:** in `#causal-ai`, run
+integration. **One-time setup** — in `#causal-ai`, subscribe to either
+or both feeds:
 
-```
-/feed subscribe https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/weekly/feed.xml
-```
+- **Daily picks** (top 5 each day, posts ~07:00 PT after the daily run):
+  ```
+  /feed subscribe https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/daily/feed.xml
+  ```
+- **Weekly digest** (Friday 3 PM PT):
+  ```
+  /feed subscribe https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/weekly/feed.xml
+  ```
 
-Slack polls that URL every ~10–30 minutes and auto-posts a card with
-the new digest's title + lead paragraph + link whenever a new entry
-appears. No bot, no token, no IT approval, no repo secret.
+Slack polls each URL every ~10–30 minutes and auto-posts a card with
+the new entry's title + lead paragraph + link. No bot, no token, no IT
+approval, no repo secret.
 
 To change destination channel: re-run `/feed subscribe …` in the new
-channel and `/feed remove …` in the old one. To stop entirely:
-`/feed remove` with the URL.
+channel and `/feed remove …` in the old one.
 
 ## Editing what gets fetched
 

@@ -8,7 +8,7 @@ import logging
 from pathlib import Path
 
 from fetch import fetch_all, load_sources
-from render import render_firehose, render_picks, write_daily
+from render import render_firehose, render_picks, write_daily, write_daily_feed
 from score import load_interests, merge, score_all
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -52,7 +52,8 @@ def main() -> None:
     state_dir = ROOT / "daily" / today.isoformat()
     (state_dir / "items.json").write_text(json.dumps(merged, indent=2))
 
-    logger.info("wrote daily/%s/{picks.md,firehose.md,items.json}", today.isoformat())
+    write_daily_feed(ROOT)
+    logger.info("wrote daily/%s/{picks.md,firehose.md,items.json} + daily/feed.xml", today.isoformat())
 
 
 if __name__ == "__main__":
