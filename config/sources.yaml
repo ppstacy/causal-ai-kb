@@ -1,0 +1,110 @@
+arxiv:
+  categories:
+    - stat.ML
+    - stat.ME
+    - econ.EM
+    - cs.LG
+    - cs.CL
+  days_lookback: 1
+  max_results_per_category: 80
+  keyword_filters:
+    - causal
+    - causality
+    - counterfactual
+    - treatment effect
+    - heterogeneous effect
+    - uplift
+    - instrumental variable
+    - regression discontinuity
+    - difference-in-differences
+    - synthetic control
+    - propensity score
+    - double machine learning
+    - dml
+    - meta-learner
+    - cate
+    - ate
+    - att
+    - experimentation
+    - a/b test
+    - randomized
+    - randomization
+    - incrementality
+    - attribution
+    - intervention
+    - do-calculus
+    - structural causal
+
+rss:
+  - name: Microsoft Research Blog
+    url: https://www.microsoft.com/en-us/research/feed/
+    keyword_filter: [causal, econml, dowhy, uplift, treatment, counterfactual, experimentation]
+  - name: Netflix Tech Blog
+    url: https://netflixtechblog.com/feed
+    keyword_filter: [causal, experimentation, ab test, a/b, incrementality, treatment]
+  - name: Uber Engineering
+    url: https://www.uber.com/blog/engineering/rss/
+    keyword_filter: [causal, uplift, experimentation, ab test, a/b, treatment]
+  - name: DoorDash Engineering
+    url: https://careersatdoordash.com/engineering-blog/feed/
+    keyword_filter: [causal, experimentation, ab test, a/b, uplift]
+  - name: Google Research Blog
+    url: http://feeds.feedburner.com/blogspot/gJZg
+    keyword_filter: [causal, experimentation, treatment, counterfactual, uplift]
+  - name: Spotify R&D
+    url: https://engineering.atspotify.com/feed/
+    keyword_filter: [causal, experimentation, ab test, a/b, treatment]
+  - name: Booking.com Data Science
+    url: https://booking.ai/feed
+    keyword_filter: [causal, experimentation, ab test, a/b, uplift, treatment]
+  - name: Stitch Fix MultiThreaded
+    url: https://multithreaded.stitchfix.com/feed.xml
+    keyword_filter: [causal, experimentation, ab test, a/b, uplift, treatment]
+  - name: Shopify Data Science
+    url: https://shopify.engineering/blog.atom
+    keyword_filter: [causal, experimentation, ab test, a/b, uplift, treatment]
+  - name: Towards Data Science (causal tag)
+    url: https://towardsdatascience.com/tagged/causal-inference/feed
+    keyword_filter: []
+  - name: Brady Neal Causal Inference
+    url: https://www.bradyneal.com/causal-inference-course.xml
+    keyword_filter: []
+
+github_trending:
+  topics:
+    - causal-inference
+    - causal-machine-learning
+    - causal-discovery
+    - uplift-modeling
+    - econometrics
+    - experimentation-platform
+    - ab-testing
+  days_lookback: 7
+  min_stars: 5
+
+semantic_scholar:
+  queries:
+    - causal inference machine learning
+    - heterogeneous treatment effects
+    - uplift modeling
+    - double machine learning
+    - causal language models
+    - online experimentation variance reduction
+    # Tracked authors (mirrors Google Scholar alerts) — surface anything new
+    - Susan Athey causal
+    - Stefan Wager treatment effects
+    - Guido Imbens causal
+    - Miguel Hernan causal inference
+    - Mark van der Laan targeted learning
+    - Vasilis Syrgkanis causal
+    - Nathan Kallus policy
+    - Elias Bareinboim causal
+    - Kun Zhang causal discovery
+    - Peng Ding causal inference
+  days_lookback: 2
+  limit_per_query: 25
+
+websites:
+  - name: Online Causal Inference Seminar (OCIS)
+    url: https://sites.google.com/view/ocis/
+    type: seminar

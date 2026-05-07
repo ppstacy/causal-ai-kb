@@ -1,0 +1,63 @@
+profile: |
+  Reader is an engineering manager on an ad-attribution / conversion-lift team.
+  Day job: causal measurement of ads (incrementality, uplift, double ML,
+  experimentation methodology). Wants a daily briefing that surfaces the most
+  relevant new research, blog posts, and tools across four overlapping areas:
+
+    1. Causal inference methodology (CATE, DML, IV, RDD, DiD, synthetic control,
+       propensity methods, sensitivity analysis, observational identification)
+    2. Uplift / heterogeneous treatment effects (meta-learners, conformal HTE,
+       policy learning, ad incrementality, conversion lift)
+    3. Online experimentation (A/B testing, variance reduction like CUPED/CUPAC,
+       sequential testing, interference, switchback, geo experiments)
+    4. Causal language models (causal reasoning in LLMs, counterfactual
+       generation, autoregressive decoders applied to causal tasks)
+
+  Reader is technically deep — prefers methodologically novel work, well-validated
+  empirical results, and engineering blog posts that show production patterns.
+  Less interested in: pure causal-discovery theory disconnected from estimation,
+  generic ML papers that mention "causal" only in passing, marketing fluff.
+
+tracked_authors:
+  # Mirrors the reader's Google Scholar alerts. Anything by these authors is
+  # high signal even if the abstract doesn't match keyword filters.
+  - Susan Athey
+  - Stefan Wager
+  - Guido Imbens
+  - Miguel Hernán
+  - Mark van der Laan
+  - Vasilis Syrgkanis
+  - Nathan Kallus
+  - Elias Bareinboim
+  - Kun Zhang
+  - Peng Ding
+  - Jeong-Yoon Lee
+
+scoring_rubric: |
+  Score each item 0-100 on relevance to the reader's interests above.
+
+   90-100  Directly advances one of the four areas with novel methodology, a
+           rigorous empirical result, or a well-engineered production system.
+           Reader will want to read the full paper / post.
+   70-89   Solid contribution in an adjacent area, or a useful survey/tutorial.
+           Worth a skim.
+   50-69   Tangentially related — touches one of the areas but not the core
+           interest, or weak validation.
+    0-49   Off-topic, low signal, or "causal" used loosely without substance.
+
+  Calibrate strictly. Most arXiv submissions in cs.LG / stat.ML are off-topic
+  and should score below 50. A typical day yields 3-8 items above 80.
+
+  Author boost: if any author appears in the tracked_authors list, floor the
+  score at 80 — these are people the reader explicitly follows on Scholar.
+
+  Also assign a primary topic tag from this set (use the closest match):
+    causal-inference, uplift, experimentation, causal-lm, tools, other
+
+  And a one-sentence why_relevant explaining the scoring decision in the
+  reader's voice (terse, no hedging).
+
+summary_style: |
+  Two to three sentences. State the contribution, the method, and what's
+  notable. No fluff like "this paper proposes" or "the authors show".
+  Lead with the result.

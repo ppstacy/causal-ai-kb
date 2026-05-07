@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Causal AI weekly digest</title>
+    <link>https://github.com/ppstacy/causal-ai-kb</link>
+    <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
+    <language>en-us</language>
+  </channel>
+</rss>
