@@ -2,6 +2,13 @@
 layout: default
 title: Experimentation
 permalink: /topics/experimentation/
+aliases:
+  - A/B Testing
+  - Online Experimentation
+  - Variance Reduction
+tags:
+  - topic
+  - experimentation
 ---
 
 # Experimentation

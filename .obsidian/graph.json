@@ -1,0 +1,27 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    { "query": "tag:#topic", "color": { "a": 1, "rgb": 5919394 } },
+    { "query": "tag:#weekly", "color": { "a": 1, "rgb": 14336372 } },
+    { "query": "tag:#daily", "color": { "a": 1, "rgb": 5431378 } },
+    { "query": "tag:#submission", "color": { "a": 1, "rgb": 14048593 } }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

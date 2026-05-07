@@ -2,6 +2,14 @@
 layout: default
 title: Uplift / HTE
 permalink: /topics/uplift/
+aliases:
+  - Uplift Modeling
+  - Heterogeneous Treatment Effects
+  - HTE
+  - CATE
+tags:
+  - topic
+  - uplift
 ---
 
 # Uplift / Heterogeneous Treatment Effects

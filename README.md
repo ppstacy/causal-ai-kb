@@ -166,6 +166,28 @@ Per item the variable cost is small (~1–3K tokens of abstract + the
 JSON-schema overhead). To trade quality for cost, set
 `CAUSAL_KB_MODEL=claude-haiku-4-5` as a repo variable — works the same way.
 
+## Using as an Obsidian vault
+
+The repo is also a working Obsidian vault. Clone it and open the directory
+in Obsidian — `.obsidian/` config is checked in so the graph view, tag
+pane, and backlinks work out of the box.
+
+What you get:
+
+- **Graph view** with color-coded nodes by tag (`#topic`, `#weekly`,
+  `#daily`, `#submission`)
+- **Backlinks** between weekly digests, topic pages, and submissions
+  (links use standard markdown so both Obsidian and the public Pages site
+  render them)
+- **Tags**: every auto-generated note carries semantic tags
+  (`#daily`, `#picks`, `#weekly`, `#causal-inference`, etc.)
+- **Aliases**: short forms for quick `[[wikilink]]` autocomplete
+- **Callouts**: "Why relevant" sections render as styled callouts
+  (`> [!note]`)
+
+`.obsidian/workspace.json` and the plugins dir are gitignored so personal
+layout state stays per-machine.
+
 ## Tuning
 
 After a week, look at items scored 60–80 and decide whether you want them

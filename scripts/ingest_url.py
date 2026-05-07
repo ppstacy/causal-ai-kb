@@ -116,23 +116,57 @@ def write_submission(url: str, data: dict, note: str) -> Path:
     today = dt.date.today()
     sub_dir = ROOT / "submissions" / today.isoformat()
     sub_dir.mkdir(parents=True, exist_ok=True)
-    slug = slugify(data.get("title") or url)
+    title = data.get("title") or "(no title)"
+    slug = slugify(title)
     path = sub_dir / f"{slug}.md"
 
+    topic = data.get("topic", "other")
+    keywords = data.get("keywords", [])
+    # Obsidian frontmatter — tags are a flat list; topic is its own tag too
+    tag_list = ["submission", topic] + [
+        re.sub(r"[^a-z0-9]+", "-", k.lower()).strip("-") for k in keywords if k
+    ]
+
+    fm_lines = ["---", f"title: {title.replace(chr(10), ' ')}"]
+    if data.get("authors_or_source"):
+        fm_lines.append(f"source: {data['authors_or_source']}")
+    if data.get("published"):
+        fm_lines.append(f"published: {data['published']}")
+    fm_lines += [
+        f"url: {url}",
+        f"saved: {today.isoformat()}",
+        f"score: {data.get('score', 0)}",
+        f"topic: {topic}",
+    ]
+    if note:
+        fm_lines.append(f"note: {note}")
+    fm_lines.append("tags:")
+    for t in tag_list:
+        fm_lines.append(f"  - {t}")
+    fm_lines.append(f"related:")
+    fm_lines.append(f'  - "[[{topic}]]"')
+    fm_lines.append("---")
+    fm = "\n".join(fm_lines) + "\n\n"
+
     body = (
-        f"# {data.get('title') or '(no title)'}\n\n"
-        f"- **URL:** {url}\n"
-        f"- **Source:** {data.get('authors_or_source', '')}\n"
-        f"- **Published:** {data.get('published', '')}\n"
-        f"- **Topic:** {data.get('topic', 'other')}\n"
-        f"- **Score:** {data.get('score', 0)}\n"
-        f"- **Saved:** {today.isoformat()}\n"
-        f"- **Note:** {note or '(none)'}\n\n"
+        f"# {title}\n\n"
+        f"| Field | Value |\n"
+        f"| --- | --- |\n"
+        f"| **URL** | {url} |\n"
+        f"| **Source** | {data.get('authors_or_source', '')} |\n"
+        f"| **Published** | {data.get('published', '')} |\n"
+        f"| **Topic** | [[{topic}]] |\n"
+        f"| **Score** | {data.get('score', 0)} |\n"
+        f"| **Saved** | {today.isoformat()} |\n"
+        f"| **Note** | {note or '(none)'} |\n\n"
         f"## Summary\n\n{data.get('summary', '').strip()}\n\n"
-        f"## Why relevant\n\n{data.get('why_relevant', '').strip()}\n\n"
-        f"## Keywords\n\n{', '.join(data.get('keywords', []))}\n"
+        f"## Why relevant\n\n"
+        f"> [!note] Why this is here\n"
+        f"> {data.get('why_relevant', '').strip().replace(chr(10), chr(10) + '> ')}\n\n"
+        f"## Keywords\n\n"
+        f"{' '.join('#' + re.sub(r'[^a-z0-9]+', '-', k.lower()).strip('-') for k in keywords if k)}\n"
     )
-    path.write_text(body)
+    path.write_text(fm + body)
     return path
 
 

@@ -29,13 +29,39 @@ def _format_authors(authors: list[str], limit: int = 4) -> str:
     return ", ".join(authors[:limit]) + f" et al. ({len(authors)} authors)"
 
 
+def _frontmatter(**fields) -> str:
+    """Render a YAML frontmatter block. Handles strings, lists, and dates."""
+    lines = ["---"]
+    for k, v in fields.items():
+        if v is None or v == "":
+            continue
+        if isinstance(v, list):
+            if not v:
+                continue
+            lines.append(f"{k}:")
+            for item in v:
+                lines.append(f"  - {item}")
+        else:
+            lines.append(f"{k}: {v}")
+    lines.append("---")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def render_picks(items: list[dict], date: dt.date) -> str:
     """Top-N picks for the day with summaries."""
     picks = items[:PICKS_PER_DAY]
+    fm = _frontmatter(
+        title=f"Daily picks — {date.isoformat()}",
+        date=date.isoformat(),
+        aliases=[f"Picks {date.isoformat()}"],
+        tags=["daily", "picks"],
+    )
     if not picks:
-        return f"# Daily picks — {date.isoformat()}\n\n_No picks today._\n"
+        return f"{fm}# Daily picks — {date.isoformat()}\n\n_No picks today._\n"
 
     lines = [
+        fm.rstrip("\n"),
         f"# Daily picks — {date.isoformat()}",
         "",
         f"Top {len(picks)} of {len(items)} items today, ranked by relevance.",
@@ -62,14 +88,19 @@ def render_picks(items: list[dict], date: dt.date) -> str:
 
 def render_firehose(items: list[dict], date: dt.date) -> str:
     """Full collected-and-scored list for the day."""
+    fm = _frontmatter(
+        title=f"Firehose — {date.isoformat()}",
+        date=date.isoformat(),
+        tags=["daily", "firehose"],
+    )
     if not items:
-        return f"# Firehose — {date.isoformat()}\n\n_No items today._\n"
+        return f"{fm}# Firehose — {date.isoformat()}\n\n_No items today._\n"
 
     by_topic: dict[str, list[dict]] = defaultdict(list)
     for item in items:
         by_topic[item.get("topic", "other")].append(item)
 
-    lines = [f"# Firehose — {date.isoformat()}", "", f"{len(items)} items total.", ""]
+    lines = [fm.rstrip("\n"), f"# Firehose — {date.isoformat()}", "", f"{len(items)} items total.", ""]
     for topic in ("causal-inference", "uplift", "experimentation", "causal-lm", "tools", "other"):
         bucket = by_topic.get(topic, [])
         if not bucket:
@@ -94,7 +125,16 @@ def render_weekly(daily_items_by_date: dict[dt.date, list[dict]], week_label: st
         all_items.extend(items)
     all_items.sort(key=lambda x: x["score"], reverse=True)
 
+    fm = _frontmatter(
+        layout="default",
+        title=f"Weekly digest — {week_label}",
+        permalink=f"/weekly/{week_label}/",
+        aliases=[f"Weekly {week_label}"],
+        tags=["weekly", "digest"],
+    )
+
     lines = [
+        fm.rstrip("\n"),
         f"# Weekly digest — {week_label}",
         "",
         f"Top items from the past week ({len(all_items)} scored items across "

@@ -8,3 +8,10 @@ venv/
 *.swp
 .pytest_cache/
 state.json
+
+# Obsidian: keep shared config (app.json, graph.json, etc.), ignore per-machine state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/
+.trash/

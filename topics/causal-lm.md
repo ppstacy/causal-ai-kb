@@ -2,6 +2,12 @@
 layout: default
 title: Causal LMs
 permalink: /topics/causal-lm/
+aliases:
+  - Causal Language Models
+  - LLMs for Causal Reasoning
+tags:
+  - topic
+  - causal-lm
 ---
 
 # Causal Language Models

@@ -22,6 +22,7 @@ header_pages:
 # Don't publish noisy / private content
 exclude:
   - .github/
+  - .obsidian/
   - scripts/
   - config/
   - daily/

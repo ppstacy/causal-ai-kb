@@ -2,6 +2,12 @@
 layout: default
 title: Causal Inference
 permalink: /topics/causal-inference/
+aliases:
+  - Causal Inference Methodology
+  - CI
+tags:
+  - topic
+  - causal-inference
 ---
 
 # Causal Inference
