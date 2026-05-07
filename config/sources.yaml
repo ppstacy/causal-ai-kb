@@ -105,9 +105,69 @@ semantic_scholar:
   limit_per_query: 25
 
 websites:
+  # Live seminar series
   - name: Online Causal Inference Seminar (OCIS)
     url: https://sites.google.com/view/ocis/
     type: seminar
+
+  # Personal paper-reading repos
   - name: ppstacy/paper_reading — causal_inference
     url: https://raw.githubusercontent.com/ppstacy/paper_reading/master/causal_inference/README.md
     type: paper-list
+
+  # KDD Causal-ML workshop accepted-paper pages
+  - name: KDD CMI Workshop 2025
+    url: https://causal-machine-learning.github.io/kdd2025-workshop/
+    type: workshop
+  - name: KDD CMI Workshop 2024
+    url: https://causal-machine-learning.github.io/kdd2024-workshop/
+    type: workshop
+  - name: KDD CMI Workshop 2023
+    url: https://causal-machine-learning.github.io/kdd2023-workshop/
+    type: workshop
+
+  # Curated awesome-lists (re-scraped weekly to surface new additions)
+  - name: matteocourthoud/awesome-causal-inference
+    url: https://raw.githubusercontent.com/matteocourthoud/awesome-causal-inference/main/README.md
+    type: awesome-list
+  - name: JackHCC/Awesome-Uplift-Model
+    url: https://raw.githubusercontent.com/JackHCC/Awesome-Uplift-Model/master/README.md
+    type: awesome-list
+  - name: station-10/awesome-marketing-machine-learning
+    url: https://raw.githubusercontent.com/station-10/awesome-marketing-machine-learning/main/README.md
+    type: awesome-list
+  - name: shakostats/Awesome-Marketing-Science
+    url: https://raw.githubusercontent.com/shakostats/Awesome-Marketing-Science/main/README.md
+    type: awesome-list
+  - name: jvpoulos/causal-ml
+    url: https://raw.githubusercontent.com/jvpoulos/causal-ml/master/README.md
+    type: awesome-list
+
+  # Course / book pages from major causal-ML educators
+  - name: Stefan Wager — teaching
+    url: https://web.stanford.edu/~swager/teaching.html
+    type: course
+  - name: Brady Neal — Intro to Causal Inference
+    url: https://www.bradyneal.com/causal-inference-course
+    type: course
+  - name: Causal-ML Book (Chernozhukov et al.)
+    url: https://causalml-book.org/
+    type: book
+  - name: Matheus Facure — Causal Inference for the Brave and True
+    url: https://matheusfacure.github.io/python-causality-handbook/
+    type: book
+
+# Canonical libraries — track for new releases / commits via the daily fetch
+github_releases:
+  repos:
+    - py-why/dowhy
+    - py-why/EconML
+    - py-why/causal-learn
+    - uber/causalml
+    - uber/orbit
+    - facebookincubator/GeoLift
+    - pymc-labs/CausalPy
+    - microsoft/showwhy
+    - WillianFuks/tfcausalimpact
+    - DataCanvasIO/YLearn
+  days_lookback: 7

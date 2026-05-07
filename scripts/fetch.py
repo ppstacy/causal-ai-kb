@@ -201,6 +201,45 @@ def fetch_semantic_scholar(cfg: dict, since: dt.datetime) -> Iterable[Item]:
             )
 
 
+def fetch_github_releases(cfg: dict, since: dt.datetime) -> Iterable[Item]:
+    """Track new releases on canonical causal-ML libraries."""
+    repos = cfg.get("repos", [])
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": UA}
+    for repo in repos:
+        try:
+            resp = requests.get(
+                f"https://api.github.com/repos/{repo}/releases",
+                params={"per_page": 5},
+                headers=headers,
+                timeout=20,
+            )
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            logger.warning("github releases fetch failed for %s: %s", repo, exc)
+            continue
+        for rel in resp.json():
+            published = rel.get("published_at") or rel.get("created_at") or ""
+            try:
+                pub = dateparser.parse(published).replace(tzinfo=None) if published else None
+            except (ValueError, TypeError):
+                pub = None
+            if pub and pub < since:
+                continue
+            tag = rel.get("tag_name", "")
+            name = rel.get("name") or tag or "release"
+            body = (rel.get("body") or "").strip()[:1500]
+            yield Item(
+                source="github_release",
+                source_name=f"{repo} releases",
+                id=f"ghrel:{repo}:{tag}",
+                title=f"{repo} {tag} — {name}" if name != tag else f"{repo} {tag}",
+                url=rel.get("html_url") or f"https://github.com/{repo}/releases",
+                summary=body,
+                published=pub.isoformat() if pub else "",
+                extras={"repo": repo, "tag": tag, "prerelease": rel.get("prerelease", False)},
+            )
+
+
 def fetch_websites(cfg: list[dict]) -> Iterable[Item]:
     """Scrape arbitrary HTML pages and use Claude to extract structured events/talks/papers.
 
@@ -321,6 +360,14 @@ def fetch_all(sources_cfg: dict, days_lookback: int = 1) -> list[Item]:
             ),
         ),
         ("websites", lambda: fetch_websites(sources_cfg.get("websites", []))),
+        (
+            "github_releases",
+            lambda: fetch_github_releases(
+                sources_cfg.get("github_releases", {}),
+                dt.datetime.utcnow()
+                - dt.timedelta(days=sources_cfg.get("github_releases", {}).get("days_lookback", 7)),
+            ),
+        ),
     ]
     for name, fn in fetchers:
         count = 0

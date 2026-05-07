@@ -18,8 +18,11 @@ profile: |
   generic ML papers that mention "causal" only in passing, marketing fluff.
 
 tracked_authors:
-  # Mirrors the reader's Google Scholar alerts. Anything by these authors is
-  # high signal even if the abstract doesn't match keyword filters.
+  # Anything by these authors is high signal even if the abstract doesn't
+  # match keyword filters. Curated from the reader's Google Scholar alerts
+  # plus prominent applied-causal-ML researchers (KDD CMI workshop authors,
+  # EconML / CausalML / DoWhy core teams).
+  # Academic / methodology
   - Susan Athey
   - Stefan Wager
   - Guido Imbens
@@ -30,7 +33,24 @@ tracked_authors:
   - Elias Bareinboim
   - Kun Zhang
   - Peng Ding
+  - Victor Chernozhukov
+  - Carlos Cinelli
+  - Yuta Saito
+  # EconML / CausalML / DoWhy team members (Microsoft, py-why)
+  - Greg Lewis
+  - Miruna Oprescu
+  - Eleanor Dillon
+  - Keith Battocchi
+  - Amit Sharma
+  # Industry applied-causal-ML
   - Jeong-Yoon Lee
+  - Totte Harinen
+  - Huigang Chen
+  - Yifeng Wu
+  - Zhenyu Zhao
+  - Winston Chou
+  - Apoorva Lal
+  - Dmitri Goldenberg
 
 scoring_rubric: |
   Score each item 0-100 on relevance to the reader's interests above.
