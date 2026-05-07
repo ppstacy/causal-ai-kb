@@ -60,6 +60,33 @@ topics/                   # topic README stubs
   ingest.yml              # workflow_dispatch + repository_dispatch
 ```
 
+## Running locally
+
+The default flow is to run `scripts/daily.py` on your laptop (no GH
+secret required). One-time setup:
+
+```bash
+cd ~/path/to/causal-ai-kb
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+cp .env.example .env
+# edit .env and put your ANTHROPIC_API_KEY in it (gitignored)
+```
+
+Daily run:
+
+```bash
+.venv/bin/python scripts/daily.py
+```
+
+The script auto-loads `.env`. To make it actually daily, drop a `launchd`
+plist or `cron` line that runs the same command. Outputs are written to
+`daily/<today>/` and `daily/feed.xml`; commit + push and Slack's
+`/feed subscribe` picks them up within ~10–30 min.
+
+To switch the scoring model (e.g. for cheaper Haiku-tier runs), set
+`CAUSAL_KB_MODEL=claude-haiku-4-5` in `.env`.
+
 ## Setup
 
 1. **Create the repo** on GitHub (`ppstacy/causal-ai-kb`), then push:

@@ -9,6 +9,15 @@ import os
 import sys
 from pathlib import Path
 
+# Auto-load a local .env file so `python scripts/daily.py` works without
+# explicit env-var prefix. .env is gitignored. The repo-root path is computed
+# relative to this script so it works regardless of CWD.
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parents[1] / ".env")
+except ImportError:
+    pass  # dotenv is optional; explicit env vars still work
+
 from fetch import fetch_all, load_sources
 from render import render_firehose, render_picks, write_daily, write_daily_feed
 from score import load_interests, merge, score_all
