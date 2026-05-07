@@ -17,11 +17,11 @@ under a budget constraint.
 
 ## Why relevant
 
-Direct precedent for the conversion-lift / ad-attribution use case: the
-goal is to identify users for whom a marketing treatment causally
-increases the outcome and target spend at them. The paper's stack
-(meta-learners → policy → constrained optimization) is the same shape as
-the production work the reader cares about.
+Direct precedent for the targeted-marketing / incrementality use case:
+identify users for whom a marketing treatment causally increases the
+outcome and allocate spend accordingly. The paper's stack (meta-learners →
+policy → constrained optimization) is a canonical pattern for production
+uplift systems.
 
 ## Keywords
 

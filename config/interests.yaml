@@ -1,8 +1,7 @@
 profile: |
-  Reader is an engineering manager on an ad-attribution / conversion-lift team.
-  Day job: causal measurement of ads (incrementality, uplift, double ML,
-  experimentation methodology). Wants a daily briefing that surfaces the most
-  relevant new research, blog posts, and tools across four overlapping areas:
+  Reader is a senior practitioner working on causal measurement and online
+  experimentation. Wants a daily briefing that surfaces the most relevant new
+  research, blog posts, and tools across four overlapping areas:
 
     1. Causal inference methodology (CATE, DML, IV, RDD, DiD, synthetic control,
        propensity methods, sensitivity analysis, observational identification)

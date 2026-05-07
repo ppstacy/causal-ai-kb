@@ -65,7 +65,7 @@ topics/                   # topic README stubs
 1. **Create the repo** on GitHub (`ppstacy/causal-ai-kb`), then push:
 
    ```bash
-   cd /Users/jpan2/Projects/causal-ai-kb
+   cd ~/path/to/causal-ai-kb
    git init && git add . && git commit -m "initial scaffold"
    git branch -M main
    git remote add origin https://github.com/ppstacy/causal-ai-kb.git
@@ -74,8 +74,7 @@ topics/                   # topic README stubs
 
 2. **Add one repo secret** (Settings → Secrets and variables → Actions):
 
-   - `ANTHROPIC_API_KEY` — personal Anthropic key (this is a personal repo,
-     not Snap; use a key you've created on console.anthropic.com)
+   - `ANTHROPIC_API_KEY` — personal Anthropic key from console.anthropic.com
 
    No Slack secret. Slack delivery uses the workspace's built-in
    `/feed subscribe` against the committed `weekly/feed.xml` (see
