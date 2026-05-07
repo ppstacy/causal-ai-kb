@@ -1,3 +1,9 @@
+---
+layout: default
+title: Experimentation
+permalink: /topics/experimentation/
+---
+
 # Experimentation
 
 Online experimentation methodology: A/B testing, variance reduction

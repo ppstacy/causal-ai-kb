@@ -1,0 +1,50 @@
+title: Causal AI Weekly
+description: >-
+  A weekly digest of new research, engineering posts, and tools across
+  causal inference, causal machine learning, causal language models, and
+  online experimentation. Auto-curated, hand-tuned.
+url: "https://ppstacy.github.io"
+baseurl: "/causal-ai-kb"
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Show the page tree in nav order
+header_pages:
+  - index.md
+  - weekly/index.md
+  - topics/index.md
+  - about.md
+
+# Don't publish noisy / private content
+exclude:
+  - .github/
+  - scripts/
+  - config/
+  - daily/
+  - submissions/
+  - requirements.txt
+  - .gitignore
+  - README.md
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  parse_block_html: true
+
+# Pretty permalinks for weekly digests: /weekly/2026-W19/
+defaults:
+  - scope:
+      path: "weekly"
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: "topics"
+      type: pages
+    values:
+      layout: default

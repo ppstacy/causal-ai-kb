@@ -1,3 +1,9 @@
+---
+layout: default
+title: Causal LMs
+permalink: /topics/causal-lm/
+---
+
 # Causal Language Models
 
 Two threads bundled here:

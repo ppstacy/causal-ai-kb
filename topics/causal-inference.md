@@ -1,3 +1,9 @@
+---
+layout: default
+title: Causal Inference
+permalink: /topics/causal-inference/
+---
+
 # Causal Inference
 
 Methodology for estimating causal effects from observational and experimental
