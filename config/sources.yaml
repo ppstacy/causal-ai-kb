@@ -108,3 +108,6 @@ websites:
   - name: Online Causal Inference Seminar (OCIS)
     url: https://sites.google.com/view/ocis/
     type: seminar
+  - name: ppstacy/paper_reading — causal_inference
+    url: https://raw.githubusercontent.com/ppstacy/paper_reading/master/causal_inference/README.md
+    type: paper-list

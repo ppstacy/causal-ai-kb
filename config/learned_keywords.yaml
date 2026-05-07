@@ -1,0 +1,20 @@
+keywords:
+  - auction theory
+  - bid optimization
+  - budget-constrained allocation
+  - conversion lift
+  - heterogeneous treatment effects
+  - incremental targeting
+  - mechanism design
+  - meta-learner
+  - no-regret algorithms
+  - online learning
+  - policy learning
+  - real-time bidding
+  - revenue maximization
+  - strategic agents
+  - treatment effect estimation
+  - uplift modeling
+  - user marketing
+seeded_from:
+  - https://github.com/ppstacy/paper_reading/tree/master/causal_inference
