@@ -5,6 +5,8 @@ from __future__ import annotations
 import datetime as dt
 import json
 import logging
+import os
+import sys
 from pathlib import Path
 
 from fetch import fetch_all, load_sources
@@ -18,6 +20,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main() -> None:
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        logger.error("ANTHROPIC_API_KEY not set — exiting without running daily refresh.")
+        logger.error("Run locally with `ANTHROPIC_API_KEY=... .venv/bin/python scripts/daily.py`.")
+        sys.exit(0)
+
     sources = load_sources(ROOT / "config" / "sources.yaml")
     interests = load_interests(ROOT / "config" / "interests.yaml")
 

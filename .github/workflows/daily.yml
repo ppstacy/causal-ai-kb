@@ -1,8 +1,10 @@
 name: Daily refresh
 
 on:
-  schedule:
-    - cron: "0 13 * * *"  # 13:00 UTC = 06:00 PT
+  # Cron disabled — running locally via launchd / manual invocation instead
+  # of storing ANTHROPIC_API_KEY as a repo secret.
+  # schedule:
+  #   - cron: "0 13 * * *"  # 13:00 UTC = 06:00 PT
   workflow_dispatch:
 
 permissions:
