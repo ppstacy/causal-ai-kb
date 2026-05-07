@@ -18,7 +18,7 @@ week land here.
 
 ## Latest digest
 
-{% assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/' and p.name contains '.md' and p.name != 'index.md'" | sort: 'name' | reverse %}
+{% assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/'" | where_exp: "p", "p.name contains '-W'" | sort: "name" | reverse %}
 {% if weeklies.size > 0 %}
 {% assign latest = weeklies | first %}
 > **[{{ latest.title | default: latest.name | replace: '.md', '' }}]({{ latest.url | relative_url }})**
