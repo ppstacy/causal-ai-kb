@@ -225,10 +225,10 @@ def _extract_picks_summary(body: str, max_picks: int = 3, max_chars: int = 1500)
                 break
     body_text = "\n".join(lines[start:])
 
-    # Match `## N. [title](url)` followed by the meta line (e.g.
-    # "**Topic** · score 88 · arXiv stat.ME · Susan Athey").
+    # Match `## N.` (daily picks) or `### N.` (weekly digest top picks),
+    # each followed by the meta line.
     pattern = re.compile(
-        r'^## (\d+)\. \[([^\]]+)\]\(([^)]+)\)\s*\n\s*\n([^\n]+)',
+        r'^#{2,3} (\d+)\. \[([^\]]+)\]\(([^)]+)\)\s*\n\s*\n([^\n]+)',
         re.MULTILINE,
     )
     out: list[str] = []

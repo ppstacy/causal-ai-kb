@@ -1,8 +1,10 @@
-title: Causal AI Weekly
+title: Causal AI
 description: >-
-  A weekly digest of new research, engineering posts, and tools across
-  causal inference, causal machine learning, causal language models, and
-  online experimentation. Auto-curated, hand-tuned.
+  A daily-curated knowledge base — top-5 picks every weekday plus a
+  Friday weekly digest — covering causal inference, causal machine
+  learning, causal language models, and online experimentation.
+  Auto-fetched from arXiv, RSS feeds, GitHub, and watched conference
+  pages; hand-tuned.
 url: "https://ppstacy.github.io"
 baseurl: "/causal-ai-kb"
 

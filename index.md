@@ -1,20 +1,29 @@
 ---
 layout: default
-title: Causal AI Weekly
+title: Causal AI
 ---
 
-# Causal AI Weekly
+# Causal AI
 
-A weekly-published digest of new research, engineering posts, and tools at the
-intersection of **causal inference**, **causal machine learning**, **causal
-language models**, and **online experimentation**.
+A daily-curated knowledge base of new research, engineering posts, and
+tools at the intersection of **causal inference**, **causal machine
+learning**, **causal language models**, and **online experimentation**.
 
-The KB ingests from arXiv, conference workshops, RSS feeds (engineering blogs
-from Netflix, Uber, Microsoft Research, DoorDash, Booking, Spotify, Stitch
-Fix, and others), GitHub trending, and Semantic Scholar. Every item is scored
-by a calibrated LLM rubric for relevance to the four areas above; the top
-items each day get short editorial summaries, and the most relevant of the
-week land here.
+Two cadences:
+
+- **Daily picks** — top 5 every weekday morning, plus a longer "also worth
+  checking" list. [Browse the daily archive]({{ '/daily/' | relative_url }}).
+- **Weekly digest** — published every Friday afternoon, rolling up the
+  week's picks. [Browse the weekly archive]({{ '/weekly/' | relative_url }}).
+
+The KB ingests from arXiv (with abstract-level keyword filtering),
+conference / workshop pages (KDD CMI, NeurIPS, ICML, AISTATS), RSS feeds
+(engineering blogs from Netflix, Uber, Microsoft Research, DoorDash,
+Booking, Spotify, Stitch Fix; industry-trend feeds like DeepLearning.AI,
+The Gradient, Stanford HAI, BAIR), GitHub trending (newly created repos)
+and releases of canonical libraries (DoWhy, EconML, CausalML, GeoLift,
+CausalPy, …), and Semantic Scholar paper search. Every item is scored
+for relevance and tagged by topic.
 
 ## Latest
 
@@ -43,8 +52,16 @@ Browse [daily picks]({{ '/daily/' | relative_url }}) and [weekly archive]({{ '/w
 
 ## Subscribe
 
-- **RSS**: [feed.xml]({{ '/weekly/feed.xml' | relative_url }})
-  — drop into any reader, or in Slack run
-  `/feed subscribe https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/weekly/feed.xml`
-- **Browse the archive**: [Weekly digests]({{ '/weekly/' | relative_url }})
-- **About this site**: [About]({{ '/about/' | relative_url }})
+Two RSS feeds — drop either (or both) into any reader, or in Slack run
+`/feed subscribe <URL>` in the channel where you want them delivered:
+
+- **Daily picks** — `https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/daily/feed.xml`
+  ([feed.xml]({{ '/daily/feed.xml' | relative_url }}))
+- **Weekly digest** — `https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/weekly/feed.xml`
+  ([feed.xml]({{ '/weekly/feed.xml' | relative_url }}))
+
+Each feed entry's preview includes the top picks inline, so the Slack
+card shows the headlines without click-through. The link goes to the
+rendered page on this site.
+
+[About this site →]({{ '/about/' | relative_url }})
