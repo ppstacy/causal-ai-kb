@@ -70,9 +70,27 @@ rss:
     url: https://www.bradyneal.com/causal-inference-course.xml
     keyword_filter: []
 
+  # Industry trend / AI commentary (broader than causal but high-signal)
+  - name: DeepLearning.AI — The Batch
+    url: https://www.deeplearning.ai/the-batch/feed/
+    keyword_filter: [causal, experimentation, treatment, counterfactual, uplift, attribution, ab test, a/b, incrementality]
+  - name: The Gradient
+    url: https://thegradient.pub/rss/
+    keyword_filter: [causal, experimentation, treatment, counterfactual, uplift, attribution]
+  - name: Stanford HAI
+    url: https://hai.stanford.edu/news/rss.xml
+    keyword_filter: [causal, experimentation, treatment, counterfactual, attribution]
+  - name: BAIR Blog (UC Berkeley AI Research)
+    url: https://bair.berkeley.edu/blog/feed.xml
+    keyword_filter: [causal, experimentation, treatment, counterfactual, attribution, uplift]
+  - name: Apple Machine Learning Research
+    url: https://machinelearning.apple.com/rss.xml
+    keyword_filter: [causal, experimentation, treatment, counterfactual]
+
 github_trending:
-  # Filters by "created:" (newly-created repos). Wider lookback because
-  # genuinely-new causal-ML repos are infrequent; adjust as you like.
+  # Filters by "created:" (newly-created repos). min_stars=3 keeps random
+  # one-off projects out; releases of established libraries flow through
+  # the github_releases source instead.
   topics:
     - causal-inference
     - causal-machine-learning
@@ -80,9 +98,8 @@ github_trending:
     - uplift-modeling
     - econometrics
     - experimentation-platform
-    - ab-testing
   days_lookback: 30
-  min_stars: 1
+  min_stars: 3
 
 semantic_scholar:
   queries:
@@ -145,6 +162,24 @@ websites:
     url: https://raw.githubusercontent.com/jvpoulos/causal-ml/master/README.md
     type: awesome-list
 
+  # Conference / workshop accepted-paper pages — extracted by Claude
+  # when ANTHROPIC_API_KEY is available. Update the year tags annually.
+  - name: NeurIPS 2025 — accepted papers
+    url: https://neurips.cc/virtual/2025/papers.html
+    type: conference
+  - name: ICML 2025 — accepted papers
+    url: https://icml.cc/virtual/2025/papers.html
+    type: conference
+  - name: WSDM 2026 — accepted papers
+    url: https://www.wsdm-conference.org/2026/accepted-papers/
+    type: conference
+  - name: AISTATS 2026 — accepted papers
+    url: https://aistats.org/aistats2026/accepted.html
+    type: conference
+  - name: NeurIPS Causal-ML workshop track
+    url: https://nips.cc/virtual/2025/events/workshop
+    type: conference
+
   # Course / book pages from major causal-ML educators
   - name: Stefan Wager — teaching
     url: https://web.stanford.edu/~swager/teaching.html
@@ -161,15 +196,26 @@ websites:
 
 # Canonical libraries — track for new releases / commits via the daily fetch
 github_releases:
+  # Old libraries with new releases / features show up here. Add freely —
+  # only repos that publish GitHub releases (semver tags) get picked up.
   repos:
+    # py-why ecosystem
     - py-why/dowhy
     - py-why/EconML
     - py-why/causal-learn
+    - py-why/causica
+    # Uber ecosystem
     - uber/causalml
     - uber/orbit
+    # Microsoft
+    - microsoft/showwhy
+    - microsoft/responsible-ai-toolbox
+    # Meta / community
     - facebookincubator/GeoLift
     - pymc-labs/CausalPy
-    - microsoft/showwhy
     - WillianFuks/tfcausalimpact
     - DataCanvasIO/YLearn
+    - BiomedSciAI/causallib
+    - amazon-science/azcausal
+    - mckinsey/causalnex
   days_lookback: 30

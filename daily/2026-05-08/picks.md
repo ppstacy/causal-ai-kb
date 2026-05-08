@@ -11,34 +11,51 @@ tags:
 ---
 # Daily picks — 2026-05-08
 
-Top 5 of 47 items today, ranked by relevance.
+Top 5 of 5 items today, ranked by relevance.
 
-## 1. [Causal Inference under Interference through Designed Markets ∗](https://www.semanticscholar.org/paper/ebb04953810a1d10873d53b06d6850ceb676649a)
+## 1. [Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling](http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/)
 
-**Experimentation** · score 88 · Semantic Scholar: Susan Athey causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
+**Causal LMs** · score 57 · BAIR Blog (UC Berkeley AI Research)
 
-Causal Inference under Interference through Designed Markets ∗
+Overview of adaptive parallel reasoning. 
+ 
 
-## 2. [Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries](https://www.semanticscholar.org/paper/20cd700fb299b1d5a1b91251333e3c2dc8c4c80b)
+ What if a reasoning model could decide  for itself  when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the field of parallel reasoning, especially Adaptive Parallel Reasoning. 
 
-**Other** · score 80 · Semantic Scholar: Susan Athey causal · Susan Athey, Bruno Fava, D. Karlan, Adam Osman et al. (5 authors)
+ 
 
-Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries
+ 
+Disclosure: this…
 
-## 3. [Score-Based Causal Discovery of Latent Variable Causal Models](https://www.semanticscholar.org/paper/e2ba33a9973e69378d2705a2341cf3b79ccc0902)
+## 2. [BiomedSciAI/causallib v0.10.0](https://github.com/BiomedSciAI/causallib/releases/tag/v0.10.0)
 
-**Other** · score 80 · Semantic Scholar: Kun Zhang causal discovery · Ignavier Ng, Xinshuai Dong, Haoyue Dai, Biwei Huang et al. (6 authors)
+**Other** · score 55 · BiomedSciAI/causallib releases
 
-Score-Based Causal Discovery of Latent Variable Causal Models
+Release v0.10.0
+https://pypi.org/project/causallib/0.10.0/
 
-## 4. [On Causal Discovery in the Presence of Deterministic Relations](https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807)
+## What's Changed
+* A Positivity filtering (trimming) module by @mmdanziger @liorness @Itaymanes @yoavkt @yishaishimoni in https://github.com/BiomedSciAI/causallib/pull/75
+* A BICauseTrees implementation by @LucileTerminassian @ehudkr @yishaishimoni @liranszlak @edenjenzohar in…
 
-**Other** · score 80 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+## 3. [amazon-science/azcausal v0.2.5 — VERSION 0.2.5](https://github.com/amazon-science/azcausal/releases/tag/v0.2.5)
 
-On Causal Discovery in the Presence of Deterministic Relations
+**Other** · score 55 · amazon-science/azcausal releases
 
-## 5. [On Causal Discovery in the Presence of Deterministic Relations](https://www.semanticscholar.org/paper/deb9e9261b851004322a476a7b7e5d35e530e2d4)
+Adding FSDID: Fast SDID with PGD solver and fast JackKnife.
 
-**Other** · score 80 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
+ - New ProjectedGradientDescent solver — drop-in replacement for FrankWolfe, ~50-100x faster, scales to 100K+ units
+ - FSDID estimator combines PGD solver + fast JackKnife
+ - FSDID documentation with benchmarks
 
-On Causal Discovery in the Presence of Deterministic Relations
+## 4. [A Large Scale Benchmark for Uplift Modeling](https://www.semanticscholar.org/paper/48b2ad924a345ab1611ce86ea8138ac6a66d20d6)
+
+**Uplift / HTE** · score 44 · Semantic Scholar: uplift modeling · E. Diemert
+
+A Large Scale Benchmark for Uplift Modeling
+
+## 5. [web3guru888/ATLAS — Active-inference Training with Learned Adaptive Stigmergy — Pure Rust AGI framework, 21 crates, 565 tests, 28 MCP tools, BF16 GPU inference (15.4 tok/s OLMo-3-7B on A100), OpenAI-compatible API, ZK proofs. Zero external dependencies.](https://github.com/web3guru888/ATLAS)
+
+**Other** · score 30 · GitHub topic:causal-inference
+
+Active-inference Training with Learned Adaptive Stigmergy — Pure Rust AGI framework, 21 crates, 565 tests, 28 MCP tools, BF16 GPU inference (15.4 tok/s OLMo-3-7B on A100), OpenAI-compatible API, ZK proofs. Zero external dependencies.

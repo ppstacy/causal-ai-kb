@@ -82,6 +82,28 @@ def render_picks(items: list[dict], date: dt.date) -> str:
         lines.append("")
         lines.append(item.get("llm_summary", "").strip())
         lines.append("")
+
+    # "Also worth checking" — items 6 onward, scored by relevance, no full
+    # summary. Caps at 25 to keep the page readable; full firehose still
+    # has everything.
+    rest = items[PICKS_PER_DAY:][:20]
+    if rest:
+        lines.append("---")
+        lines.append("")
+        lines.append("## Also worth checking")
+        lines.append("")
+        for item in rest:
+            topic = TOPIC_LABEL.get(item.get("topic", "other"), item.get("topic", "other"))
+            authors_short = _format_authors(item.get("authors", []), limit=2)
+            tail = f" — {authors_short}" if authors_short else ""
+            lines.append(
+                f"- **[{item['score']}]** [{item['title']}]({item['url']}) "
+                f"— *{topic}* · {item['source_name']}{tail}"
+            )
+        lines.append("")
+        lines.append(f"_Browse the full {len(items)}-item firehose: [firehose.md]"
+                     f"({REPO_URL}/blob/main/daily/{date.isoformat()}/firehose.md)._")
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -189,6 +211,43 @@ def write_weekly(out_dir: Path, week_label: str, body: str) -> None:
     (weekly_dir / f"{week_label}.md").write_text(body)
 
 
+def _extract_picks_summary(body: str, max_picks: int = 3, max_chars: int = 1500) -> str:
+    """Pull the top-N pick titles + meta from a picks/digest markdown body
+    so the RSS feed `<description>` (and therefore the Slack card preview)
+    contains the actual headlines, not just an intro sentence."""
+    import re
+    lines = body.splitlines()
+    start = 0
+    if lines and lines[0].strip() == "---":
+        for j in range(1, len(lines)):
+            if lines[j].strip() == "---":
+                start = j + 1
+                break
+    body_text = "\n".join(lines[start:])
+
+    # Match `## N. [title](url)` followed by the meta line (e.g.
+    # "**Topic** · score 88 · arXiv stat.ME · Susan Athey").
+    pattern = re.compile(
+        r'^## (\d+)\. \[([^\]]+)\]\(([^)]+)\)\s*\n\s*\n([^\n]+)',
+        re.MULTILINE,
+    )
+    out: list[str] = []
+    for m in pattern.finditer(body_text):
+        idx = m.group(1)
+        title = m.group(2).strip()
+        meta = m.group(4).strip()
+        # Strip markdown bold/italic from meta for plain-text RSS
+        meta = re.sub(r"\*+", "", meta)
+        # Truncate over-long titles (some GitHub repo "titles" are paragraph length)
+        if len(title) > 130:
+            title = title[:130].rsplit(" ", 1)[0] + "…"
+        out.append(f"{idx}. {title} — {meta}")
+        if int(idx) >= max_picks:
+            break
+    text = "\n".join(out)
+    return text[:max_chars]
+
+
 def _extract_lead_paragraph(body: str, max_chars: int = 500) -> str:
     """First non-header content paragraph from the markdown body, skipping YAML frontmatter."""
     lines = body.splitlines()
@@ -236,7 +295,11 @@ def render_feed(weekly_dir: Path, limit: int = 20) -> str:
             continue
 
         body = f.read_text()
-        description = _extract_lead_paragraph(body) or stem
+        description = (
+            _extract_picks_summary(body, max_picks=5)
+            or _extract_lead_paragraph(body)
+            or stem
+        )
         link = f"{PAGES_URL}/weekly/{stem}/"
 
         item = ET.SubElement(channel, "item")
@@ -290,7 +353,11 @@ def render_daily_feed(daily_dir: Path, limit: int = 21) -> str:
         except ValueError:
             continue
         body = path.read_text()
-        description = _extract_lead_paragraph(body) or f"Daily picks for {date_str}"
+        description = (
+            _extract_picks_summary(body, max_picks=5)
+            or _extract_lead_paragraph(body)
+            or f"Daily picks for {date_str}"
+        )
         link = f"{PAGES_URL}/daily/{date_str}/"
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"Causal AI daily picks — {date_str}"

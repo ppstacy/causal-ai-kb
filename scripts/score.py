@@ -143,8 +143,20 @@ _TOPIC_KEYWORDS = {
 _HIGH_QUALITY_SOURCE_HINTS = (
     "arXiv stat.ME", "arXiv stat.ML", "arXiv econ.EM", "Microsoft Research",
     "Netflix Tech", "Uber Engineering", "DoorDash", "Booking", "Airbnb",
-    "Spotify", "KDD", "NeurIPS", "ICML", "WSDM",
+    "Spotify", "KDD", "NeurIPS", "ICML", "WSDM", "BAIR Blog",
+    "DeepLearning.AI", "Stanford HAI", "The Gradient", "Apple Machine Learning",
 )
+
+# Source-type bias: new releases of established libraries and industry
+# posts on engineering blogs are higher-signal than random new GitHub repos.
+_SOURCE_TYPE_BOOST = {
+    "github_release": 25,   # new release of a canonical library
+    "rss": 15,              # blog post from a tracked industry / research source
+    "arxiv": 10,            # paper passing the keyword filter
+    "semantic_scholar": 10,
+    "website": 8,           # extracted from a watched conference / awesome-list page
+    "github": 0,            # newly-created repo — no automatic boost
+}
 
 
 def _topic_for(blob: str) -> str:
@@ -183,6 +195,12 @@ def score_heuristic(items: list[dict], interests: dict) -> list[Scored]:
         if any(h in item.get("source_name", "") for h in _HIGH_QUALITY_SOURCE_HINTS):
             score += 8
             why_bits.append("trusted source")
+
+        # Source-type boost — releases > blog posts > papers > new repos.
+        type_boost = _SOURCE_TYPE_BOOST.get(item.get("source"), 0)
+        if type_boost:
+            score += type_boost
+            why_bits.append(f"+{type_boost} source-type")
 
         score = min(score, 100)
         topic = _topic_for(blob)
