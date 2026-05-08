@@ -8,6 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 
 REPO_URL = "https://github.com/ppstacy/causal-ai-kb"
+PAGES_URL = "https://ppstacy.github.io/causal-ai-kb"
 
 PICKS_PER_DAY = 5
 
@@ -240,7 +241,7 @@ def render_feed(weekly_dir: Path, limit: int = 20) -> str:
 
         body = f.read_text()
         description = _extract_lead_paragraph(body) or stem
-        link = f"{REPO_URL}/blob/main/weekly/{stem}.md"
+        link = f"{PAGES_URL}/weekly/{stem}/"
 
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"Causal AI weekly digest — {stem}"
@@ -294,7 +295,7 @@ def render_daily_feed(daily_dir: Path, limit: int = 21) -> str:
             continue
         body = path.read_text()
         description = _extract_lead_paragraph(body) or f"Daily picks for {date_str}"
-        link = f"{REPO_URL}/blob/main/daily/{date_str}/picks.md"
+        link = f"{PAGES_URL}/daily/{date_str}/"
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"Causal AI daily picks — {date_str}"
         ET.SubElement(item, "link").text = link
