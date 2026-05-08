@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Daily picks — 2026-05-08
+permalink: /daily/2026-05-08/
 date: 2026-05-08
 aliases:
   - Picks 2026-05-08

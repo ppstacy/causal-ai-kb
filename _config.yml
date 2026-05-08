@@ -20,6 +20,7 @@ plugins:
 # Show the page tree in nav order
 header_pages:
   - index.md
+  - daily/index.md
   - weekly/index.md
   - topics/index.md
   - about.md
@@ -28,13 +29,16 @@ header_pages:
 exclude:
   - .github/
   - .obsidian/
+  - .venv/
   - scripts/
   - config/
-  - daily/
   - submissions/
   - requirements.txt
   - .gitignore
+  - .env.example
   - README.md
+  - "daily/*/firehose.md"
+  - "daily/*/items.json"
 
 # Markdown rendering
 markdown: kramdown

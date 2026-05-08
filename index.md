@@ -16,19 +16,23 @@ by a calibrated LLM rubric for relevance to the four areas above; the top
 items each day get short editorial summaries, and the most relevant of the
 week land here.
 
-## Latest digest
+## Latest
+
+{% assign dailies = site.pages | where_exp: "p", "p.path contains '/daily/'" | where_exp: "p", "p.path contains '/picks.md'" | sort: 'path' | reverse %}
+{% if dailies.size > 0 %}
+{% assign latest_daily = dailies | first %}
+- **Today's picks** — [{{ latest_daily.date | default: latest_daily.title }}]({{ latest_daily.url | relative_url }})
+{% endif %}
 
 {% assign weeklies = site.pages | where_exp: "p", "p.path contains 'weekly/'" | where_exp: "p", "p.name contains '-W'" | sort: "name" | reverse %}
 {% if weeklies.size > 0 %}
 {% assign latest = weeklies | first %}
-> **[{{ latest.title | default: latest.name | replace: '.md', '' }}]({{ latest.url | relative_url }})**
-{% if latest.excerpt %}{{ latest.excerpt | markdownify }}{% endif %}
-
-[Read the full digest →]({{ latest.url | relative_url }})
+- **Latest weekly digest** — [{{ latest.title | default: latest.name | replace: '.md', '' }}]({{ latest.url | relative_url }})
 {% else %}
-_The first weekly digest will publish on the next Friday after this site's
-launch. Check back then._
+- _The first weekly digest publishes on the next Friday._
 {% endif %}
+
+Browse [daily picks]({{ '/daily/' | relative_url }}) and [weekly archive]({{ '/weekly/' | relative_url }}).
 
 ## Topics
 

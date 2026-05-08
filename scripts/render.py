@@ -52,7 +52,9 @@ def render_picks(items: list[dict], date: dt.date) -> str:
     """Top-N picks for the day with summaries."""
     picks = items[:PICKS_PER_DAY]
     fm = _frontmatter(
+        layout="default",
         title=f"Daily picks — {date.isoformat()}",
+        permalink=f"/daily/{date.isoformat()}/",
         date=date.isoformat(),
         aliases=[f"Picks {date.isoformat()}"],
         tags=["daily", "picks"],
