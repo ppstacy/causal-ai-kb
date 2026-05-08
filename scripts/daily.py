@@ -30,9 +30,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main() -> None:
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        logger.error("ANTHROPIC_API_KEY not set — exiting without running daily refresh.")
-        logger.error("Run locally with `ANTHROPIC_API_KEY=... .venv/bin/python scripts/daily.py`.")
-        sys.exit(0)
+        logger.warning(
+            "ANTHROPIC_API_KEY not set — running with free heuristic scoring "
+            "(no LLM summaries, lower-quality picks). Set the key in .env when you can."
+        )
 
     sources = load_sources(ROOT / "config" / "sources.yaml")
     interests = load_interests(ROOT / "config" / "interests.yaml")

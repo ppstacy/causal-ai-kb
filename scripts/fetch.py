@@ -248,6 +248,13 @@ def fetch_websites(cfg: list[dict]) -> Iterable[Item]:
     """
     if not cfg:
         return
+    import os
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        logger.warning(
+            "ANTHROPIC_API_KEY not set — skipping website extraction "
+            "(KDD pages, awesome-lists, course pages need an LLM to parse)."
+        )
+        return
     try:
         import anthropic
     except ImportError:
@@ -255,7 +262,6 @@ def fetch_websites(cfg: list[dict]) -> Iterable[Item]:
         return
 
     import json as _json
-    import os
 
     client = anthropic.Anthropic()
     model = os.environ.get("CAUSAL_KB_MODEL", "claude-opus-4-7")

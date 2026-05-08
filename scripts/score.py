@@ -117,9 +117,100 @@ def score_batch(client: anthropic.Anthropic, system: list[dict], items: list[dic
     ]
 
 
+_TOPIC_KEYWORDS = {
+    "causal-lm": [
+        "language model", "llm", "large language", "counterfactual generation",
+        "transformer", "decoder-only", "autoregressive",
+    ],
+    "uplift": [
+        "uplift", "heterogeneous treatment", "cate", "ite ", " hte", "meta-learner",
+        "policy learning", "incremental", "incrementality", "conversion lift",
+        "doubly robust", "x-learner", "r-learner", "dr-learner",
+    ],
+    "experimentation": [
+        "a/b test", "ab test", "experimentation", "switchback", "geo experiment",
+        "geolift", "variance reduction", "cuped", "cupac", "sequential testing",
+        "interference", "sutva", "marketplace experiment", "randomized",
+    ],
+    "causal-inference": [
+        "causal inference", "double machine learning", "dml ", "instrumental variable",
+        "regression discontinuity", "difference-in-differences", "synthetic control",
+        "propensity", "treatment effect", "counterfactual", "do-calculus",
+        "sensitivity analysis", "structural causal",
+    ],
+}
+
+_HIGH_QUALITY_SOURCE_HINTS = (
+    "arXiv stat.ME", "arXiv stat.ML", "arXiv econ.EM", "Microsoft Research",
+    "Netflix Tech", "Uber Engineering", "DoorDash", "Booking", "Airbnb",
+    "Spotify", "KDD", "NeurIPS", "ICML", "WSDM",
+)
+
+
+def _topic_for(blob: str) -> str:
+    """Pick the topic with the most keyword hits; ties broken by enum order."""
+    counts = {t: sum(1 for kw in kws if kw in blob) for t, kws in _TOPIC_KEYWORDS.items()}
+    best = max(counts, key=counts.get)
+    return best if counts[best] > 0 else "other"
+
+
+def score_heuristic(items: list[dict], interests: dict) -> list[Scored]:
+    """Free, no-LLM scoring. Quality is lower than the Claude path but works
+    when no API key is available. Score = base + tracked-author boost +
+    keyword density + source-quality bump."""
+    tracked_authors = {a.lower() for a in interests.get("tracked_authors", [])}
+    out: list[Scored] = []
+    for item in items:
+        title = (item.get("title") or "").lower()
+        summary = (item.get("summary") or "").lower()
+        blob = f"{title} {summary}"
+        authors = {a.lower() for a in item.get("authors", [])}
+
+        score = 30  # base — every fetched item already passed the keyword filter
+        why_bits: list[str] = []
+
+        if tracked_authors & authors:
+            matched = (tracked_authors & authors).pop()
+            score += 50
+            why_bits.append(f"tracked author ({matched.title()})")
+
+        # keyword density across all topics — capped so it can't dominate
+        kw_hits = sum(1 for kws in _TOPIC_KEYWORDS.values() for kw in kws if kw in blob)
+        if kw_hits:
+            score += min(kw_hits, 5) * 4
+            why_bits.append(f"{kw_hits} keyword hits")
+
+        if any(h in item.get("source_name", "") for h in _HIGH_QUALITY_SOURCE_HINTS):
+            score += 8
+            why_bits.append("trusted source")
+
+        score = min(score, 100)
+        topic = _topic_for(blob)
+
+        # No-LLM "summary" — first ~400 chars of the abstract/post excerpt
+        excerpt = (item.get("summary") or "").strip()
+        if len(excerpt) > 400:
+            excerpt = excerpt[:400].rsplit(" ", 1)[0] + "…"
+        why_relevant = "; ".join(why_bits) if why_bits else "matches keyword filter"
+
+        out.append(Scored(
+            item_id=item["id"], score=score, topic=topic,
+            why_relevant=why_relevant, summary=excerpt or item.get("title", ""),
+        ))
+    return out
+
+
 def score_all(items: list[dict], interests: dict) -> list[Scored]:
+    """LLM scoring if ANTHROPIC_API_KEY is set, else free heuristic fallback."""
     if not items:
         return []
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        logger.warning(
+            "ANTHROPIC_API_KEY not set — using free heuristic scoring "
+            "(lower quality than LLM scoring; set the key when you can)."
+        )
+        return score_heuristic(items, interests)
+
     client = anthropic.Anthropic()
     system = _build_system(interests)
     out: list[Scored] = []

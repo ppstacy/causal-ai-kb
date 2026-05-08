@@ -1,0 +1,1047 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:shakostats/Awesome-Marketing-Science",
+    "title": "shakostats/Awesome-Marketing-Science \u2014 A curated list of awesome marketing science resources including geo incrementality testing, media mix models, multi-touch attribution, causal inference, and more from shakostats.com . Star \u2b50 the repo if it helps you, and feel free to contribute your own favorite resources",
+    "url": "https://github.com/shakostats/Awesome-Marketing-Science",
+    "summary": "A curated list of awesome marketing science resources including geo incrementality testing, media mix models, multi-touch attribution, causal inference, and more from shakostats.com . Star \u2b50 the repo if it helps you, and feel free to contribute your own favorite resources",
+    "authors": [],
+    "published": "2026-05-06T21:40:07Z",
+    "extras": {
+      "stars": 53,
+      "language": null,
+      "topic": "causal-inference"
+    },
+    "score": 46,
+    "topic": "uplift",
+    "why_relevant": "4 keyword hits",
+    "llm_summary": "A curated list of awesome marketing science resources including geo incrementality testing, media mix models, multi-touch attribution, causal inference, and more from shakostats.com . Star \u2b50 the repo if it helps you, and feel free to contribute your own favorite resources"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:py-why/dowhy",
+    "title": "py-why/dowhy \u2014 DoWhy is a Python library for causal inference that supports explicit modeling and testing of causal assumptions. DoWhy is based on a unified language for causal inference, combining causal graphical models and potential outcomes frameworks. ",
+    "url": "https://github.com/py-why/dowhy",
+    "summary": "DoWhy is a Python library for causal inference that supports explicit modeling and testing of causal assumptions. DoWhy is based on a unified language for causal inference, combining causal graphical models and potential outcomes frameworks. ",
+    "authors": [],
+    "published": "2026-05-08T13:29:55Z",
+    "extras": {
+      "stars": 8103,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "DoWhy is a Python library for causal inference that supports explicit modeling and testing of causal assumptions. DoWhy is based on a unified language for causal inference, combining causal graphical models and potential outcomes frameworks."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:pymc-labs/CausalPy",
+    "title": "pymc-labs/CausalPy \u2014 A Python package for causal inference in quasi-experimental settings",
+    "url": "https://github.com/pymc-labs/CausalPy",
+    "summary": "A Python package for causal inference in quasi-experimental settings",
+    "authors": [],
+    "published": "2026-05-07T09:15:05Z",
+    "extras": {
+      "stars": 1140,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "A Python package for causal inference in quasi-experimental settings"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:BiomedSciAI/causallib",
+    "title": "BiomedSciAI/causallib \u2014 A Python package for modular causal inference analysis and model evaluations",
+    "url": "https://github.com/BiomedSciAI/causallib",
+    "summary": "A Python package for modular causal inference analysis and model evaluations",
+    "authors": [],
+    "published": "2026-05-07T14:04:20Z",
+    "extras": {
+      "stars": 813,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "A Python package for modular causal inference analysis and model evaluations"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:amazon-science/azcausal",
+    "title": "amazon-science/azcausal \u2014 Causal Inference in Python",
+    "url": "https://github.com/amazon-science/azcausal",
+    "summary": "Causal Inference in Python",
+    "authors": [],
+    "published": "2026-05-01T17:08:46Z",
+    "extras": {
+      "stars": 46,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Causal Inference in Python"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:jordandeklerk/moderndid",
+    "title": "jordandeklerk/moderndid \u2014 Scalable, GPU-accelerated Python library for modern difference-in-differences.",
+    "url": "https://github.com/jordandeklerk/moderndid",
+    "summary": "Scalable, GPU-accelerated Python library for modern difference-in-differences.",
+    "authors": [],
+    "published": "2026-05-07T13:29:07Z",
+    "extras": {
+      "stars": 23,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Scalable, GPU-accelerated Python library for modern difference-in-differences."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:CITCOM-project/CausalTestingFramework",
+    "title": "CITCOM-project/CausalTestingFramework \u2014 A causal inference-driven framework for functional black-box testing of complex software.",
+    "url": "https://github.com/CITCOM-project/CausalTestingFramework",
+    "summary": "A causal inference-driven framework for functional black-box testing of complex software.",
+    "authors": [],
+    "published": "2026-05-08T10:51:05Z",
+    "extras": {
+      "stars": 19,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "A causal inference-driven framework for functional black-box testing of complex software."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:causalis-causalcraft/Causalis",
+    "title": "causalis-causalcraft/Causalis \u2014 Causalis - State-of-the-art robust causal inference for experiments and observational data in python",
+    "url": "https://github.com/causalis-causalcraft/Causalis",
+    "summary": "Causalis - State-of-the-art robust causal inference for experiments and observational data in python",
+    "authors": [],
+    "published": "2026-05-07T16:37:39Z",
+    "extras": {
+      "stars": 15,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Causalis - State-of-the-art robust causal inference for experiments and observational data in python"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:chupverse/gcomputation",
+    "title": "chupverse/gcomputation \u2014 An R package for causal inference by using G-computation",
+    "url": "https://github.com/chupverse/gcomputation",
+    "summary": "An R package for causal inference by using G-computation",
+    "authors": [],
+    "published": "2026-05-06T13:16:10Z",
+    "extras": {
+      "stars": 5,
+      "language": "R",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "An R package for causal inference by using G-computation"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:uplift-modeling",
+    "id": "github:xdityx/profit-uplift-modeling-system",
+    "title": "xdityx/profit-uplift-modeling-system \u2014 Causal uplift modeling system for customer targeting and marketing ROI optimization",
+    "url": "https://github.com/xdityx/profit-uplift-modeling-system",
+    "summary": "Causal uplift modeling system for customer targeting and marketing ROI optimization",
+    "authors": [],
+    "published": "2026-05-01T21:18:39Z",
+    "extras": {
+      "stars": 5,
+      "language": "Jupyter Notebook",
+      "topic": "uplift-modeling"
+    },
+    "score": 34,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Causal uplift modeling system for customer targeting and marketing ROI optimization"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:SepineTam/stata-mcp",
+    "title": "SepineTam/stata-mcp \u2014 Let LLM help you achieve your regression with Stata. Evolve from reg monkey to causal thinker.",
+    "url": "https://github.com/SepineTam/stata-mcp",
+    "summary": "Let LLM help you achieve your regression with Stata. Evolve from reg monkey to causal thinker.",
+    "authors": [],
+    "published": "2026-05-07T12:17:13Z",
+    "extras": {
+      "stars": 160,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 34,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Let LLM help you achieve your regression with Stata. Evolve from reg monkey to causal thinker."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:tmonk/mcp-stata",
+    "title": "tmonk/mcp-stata \u2014  A lightweight Model Context Protocol (MCP) server for Stata. Execute commands, inspect data, retrieve stored results (r()/e()), and view graphs in your chat interface. Built for economists who want to integrate LLM assistance into their Stata workflow. ",
+    "url": "https://github.com/tmonk/mcp-stata",
+    "summary": " A lightweight Model Context Protocol (MCP) server for Stata. Execute commands, inspect data, retrieve stored results (r()/e()), and view graphs in your chat interface. Built for economists who want to integrate LLM assistance into their Stata workflow. ",
+    "authors": [],
+    "published": "2026-05-08T18:06:40Z",
+    "extras": {
+      "stars": 59,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 34,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "A lightweight Model Context Protocol (MCP) server for Stata. Execute commands, inspect data, retrieve stored results (r()/e()), and view graphs in your chat interface. Built for economists who want to integrate LLM assistance into their Stata workflow."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:PostHog/posthog",
+    "title": "PostHog/posthog \u2014 \ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+    "url": "https://github.com/PostHog/posthog",
+    "summary": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+    "authors": [],
+    "published": "2026-05-08T18:14:17Z",
+    "extras": {
+      "stars": 34355,
+      "language": "Python",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "\ud83e\udd94 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:growthbook/growthbook",
+    "title": "growthbook/growthbook \u2014 Open Source Feature Flags, Experimentation, and Product Analytics",
+    "url": "https://github.com/growthbook/growthbook",
+    "summary": "Open Source Feature Flags, Experimentation, and Product Analytics",
+    "authors": [],
+    "published": "2026-05-08T17:45:42Z",
+    "extras": {
+      "stars": 7739,
+      "language": "TypeScript",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Open Source Feature Flags, Experimentation, and Product Analytics"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:fluxcd/flagger",
+    "title": "fluxcd/flagger \u2014 Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)",
+    "url": "https://github.com/fluxcd/flagger",
+    "summary": "Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)",
+    "authors": [],
+    "published": "2026-05-04T14:04:58Z",
+    "extras": {
+      "stars": 5336,
+      "language": "Go",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:openflagr/flagr",
+    "title": "openflagr/flagr \u2014 Flagr is a feature flagging, A/B testing and dynamic configuration microservice",
+    "url": "https://github.com/openflagr/flagr",
+    "summary": "Flagr is a feature flagging, A/B testing and dynamic configuration microservice",
+    "authors": [],
+    "published": "2026-05-05T22:49:04Z",
+    "extras": {
+      "stars": 2588,
+      "language": "Go",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Flagr is a feature flagging, A/B testing and dynamic configuration microservice"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:bucketeer-io/bucketeer",
+    "title": "bucketeer-io/bucketeer \u2014 Feature Flag Management and A/B Testing platform",
+    "url": "https://github.com/bucketeer-io/bucketeer",
+    "summary": "Feature Flag Management and A/B Testing platform",
+    "authors": [],
+    "published": "2026-05-08T08:52:00Z",
+    "extras": {
+      "stars": 472,
+      "language": "Go",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Feature Flag Management and A/B Testing platform"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:minhnv0807/fullstack-mkt-skills",
+    "title": "minhnv0807/fullstack-mkt-skills \u2014 20 production-ready AI marketing skills for Claude Code, ChatGPT, Gemini & Copilot. Generate content calendars, TikTok/Meta ad copy, UGC briefs, KPI calculators, A/B tests, pricing strategies & landing pages instantly. Vietnam-market benchmarks 2025-2026. Install as Claude Code plugin or use as standalone prompts for any AI agent.",
+    "url": "https://github.com/minhnv0807/fullstack-mkt-skills",
+    "summary": "20 production-ready AI marketing skills for Claude Code, ChatGPT, Gemini & Copilot. Generate content calendars, TikTok/Meta ad copy, UGC briefs, KPI calculators, A/B tests, pricing strategies & landing pages instantly. Vietnam-market benchmarks 2025-2026. Install as Claude Code plugin or use as standalone prompts for any AI agent.",
+    "authors": [],
+    "published": "2026-05-08T17:54:24Z",
+    "extras": {
+      "stars": 290,
+      "language": "PowerShell",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "20 production-ready AI marketing skills for Claude Code, ChatGPT, Gemini & Copilot. Generate content calendars, TikTok/Meta ad copy, UGC briefs, KPI calculators, A/B tests, pricing strategies & landing pages instantly. Vietnam-market benchmarks 2025-2026. Install as Claude Code plugin or use as standalone prompts for any AI agent."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:iheartradio/thomas",
+    "title": "iheartradio/thomas \u2014 Another A/B test library",
+    "url": "https://github.com/iheartradio/thomas",
+    "summary": "Another A/B test library",
+    "authors": [],
+    "published": "2026-05-07T09:04:28Z",
+    "extras": {
+      "stars": 25,
+      "language": "Scala",
+      "topic": "ab-testing"
+    },
+    "score": 34,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Another A/B test library"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:pgmpy/pgmpy",
+    "title": "pgmpy/pgmpy \u2014 Python Toolkit for Causal and Probabilistic Reasoning",
+    "url": "https://github.com/pgmpy/pgmpy",
+    "summary": "Python Toolkit for Causal and Probabilistic Reasoning",
+    "authors": [],
+    "published": "2026-05-08T08:21:49Z",
+    "extras": {
+      "stars": 3264,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Python Toolkit for Causal and Probabilistic Reasoning"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:py-why/causal-learn",
+    "title": "py-why/causal-learn \u2014 Causal Discovery in Python. Learning causality from data.",
+    "url": "https://github.com/py-why/causal-learn",
+    "summary": "Causal Discovery in Python. Learning causality from data.",
+    "authors": [],
+    "published": "2026-05-07T18:03:21Z",
+    "extras": {
+      "stars": 1587,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Causal Discovery in Python. Learning causality from data."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:carverauto/serviceradar",
+    "title": "carverauto/serviceradar \u2014 Zero-trust Opensource Network Management and Observability Platform",
+    "url": "https://github.com/carverauto/serviceradar",
+    "summary": "Zero-trust Opensource Network Management and Observability Platform",
+    "authors": [],
+    "published": "2026-05-08T15:18:32Z",
+    "extras": {
+      "stars": 861,
+      "language": "JavaScript",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Zero-trust Opensource Network Management and Observability Platform"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:mikenguyen13/data_analysis",
+    "title": "mikenguyen13/data_analysis \u2014 Streamline a data analysis process",
+    "url": "https://github.com/mikenguyen13/data_analysis",
+    "summary": "Streamline a data analysis process",
+    "authors": [],
+    "published": "2026-05-03T23:59:13Z",
+    "extras": {
+      "stars": 89,
+      "language": "Stata",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Streamline a data analysis process"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:nt-williams/lmtp",
+    "title": "nt-williams/lmtp \u2014 :package: Non-parametric Causal Effects Based on Modified Treatment Policies :crystal_ball:",
+    "url": "https://github.com/nt-williams/lmtp",
+    "summary": ":package: Non-parametric Causal Effects Based on Modified Treatment Policies :crystal_ball:",
+    "authors": [],
+    "published": "2026-05-06T17:02:48Z",
+    "extras": {
+      "stars": 83,
+      "language": "R",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": ":package: Non-parametric Causal Effects Based on Modified Treatment Policies :crystal_ball:"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:mmethodz/dreamgraph",
+    "title": "mmethodz/dreamgraph \u2014 DreamGraph is a graph-first cognitive layer (graph \u2192 MCP \u2192 CLI \u2192 dashboard \u2192 extension) that builds a persistent knowledge graph to reason, validate changes, and generate docs.",
+    "url": "https://github.com/mmethodz/dreamgraph",
+    "summary": "DreamGraph is a graph-first cognitive layer (graph \u2192 MCP \u2192 CLI \u2192 dashboard \u2192 extension) that builds a persistent knowledge graph to reason, validate changes, and generate docs.",
+    "authors": [],
+    "published": "2026-05-08T17:09:24Z",
+    "extras": {
+      "stars": 81,
+      "language": "TypeScript",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "DreamGraph is a graph-first cognitive layer (graph \u2192 MCP \u2192 CLI \u2192 dashboard \u2192 extension) that builds a persistent knowledge graph to reason, validate changes, and generate docs."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:stscl/spEDM",
+    "title": "stscl/spEDM \u2014 Spatial Empirical Dynamic Modeling",
+    "url": "https://github.com/stscl/spEDM",
+    "summary": "Spatial Empirical Dynamic Modeling",
+    "authors": [],
+    "published": "2026-05-06T04:09:10Z",
+    "extras": {
+      "stars": 66,
+      "language": "C++",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Spatial Empirical Dynamic Modeling"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:stscl/tEDM",
+    "title": "stscl/tEDM \u2014 Temporal Empirical Dynamic Modeling",
+    "url": "https://github.com/stscl/tEDM",
+    "summary": "Temporal Empirical Dynamic Modeling",
+    "authors": [],
+    "published": "2026-05-05T10:04:00Z",
+    "extras": {
+      "stars": 63,
+      "language": "C++",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Temporal Empirical Dynamic Modeling"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:agrumery/aGrUM",
+    "title": "agrumery/aGrUM \u2014 This repository is a mirror. If you want to raise an issue or contact us, we encourage you to do it on Gitlab (https://gitlab.com/agrumery/aGrUM). ",
+    "url": "https://github.com/agrumery/aGrUM",
+    "summary": "This repository is a mirror. If you want to raise an issue or contact us, we encourage you to do it on Gitlab (https://gitlab.com/agrumery/aGrUM). ",
+    "authors": [],
+    "published": "2026-05-04T08:49:30Z",
+    "extras": {
+      "stars": 54,
+      "language": "Jupyter Notebook",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "This repository is a mirror. If you want to raise an issue or contact us, we encourage you to do it on Gitlab (https://gitlab.com/agrumery/aGrUM)."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:cdeust/Cortex",
+    "title": "cdeust/Cortex \u2014 Persistent memory for Claude Code \u2014 41 neuroscience papers, 26 biological mechanisms with paper-bearing per-mechanism ablation evidence (E1 v3). LongMemEval R@10 98.4% / MRR 0.9124 (n=500). LoCoMo R@10 94.2% / MRR 0.8278 (n=1986). BEAM-10M +33.4% over flat retrieval. PostgreSQL + pgvector. Verified via 31-row two-benchmark ablation campaign.",
+    "url": "https://github.com/cdeust/Cortex",
+    "summary": "Persistent memory for Claude Code \u2014 41 neuroscience papers, 26 biological mechanisms with paper-bearing per-mechanism ablation evidence (E1 v3). LongMemEval R@10 98.4% / MRR 0.9124 (n=500). LoCoMo R@10 94.2% / MRR 0.8278 (n=1986). BEAM-10M +33.4% over flat retrieval. PostgreSQL + pgvector. Verified via 31-row two-benchmark ablation campaign.",
+    "authors": [],
+    "published": "2026-05-08T13:28:46Z",
+    "extras": {
+      "stars": 28,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Persistent memory for Claude Code \u2014 41 neuroscience papers, 26 biological mechanisms with paper-bearing per-mechanism ablation evidence (E1 v3). LongMemEval R@10 98.4% / MRR 0.9124 (n=500). LoCoMo R@10 94.2% / MRR 0.8278 (n=1986). BEAM-10M +33.4% over flat retrieval. PostgreSQL + pgvector. Verified via 31-row two-benchmark ablation campaign."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:disco-coders/causalDisco",
+    "title": "disco-coders/causalDisco \u2014 Tools for causal discovery in R",
+    "url": "https://github.com/disco-coders/causalDisco",
+    "summary": "Tools for causal discovery in R",
+    "authors": [],
+    "published": "2026-05-04T06:45:52Z",
+    "extras": {
+      "stars": 22,
+      "language": "R",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Tools for causal discovery in R"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:kkholst/targeted",
+    "title": "kkholst/targeted \u2014 Targeted inference (R package) https://kkholst.github.io/targeted/",
+    "url": "https://github.com/kkholst/targeted",
+    "summary": "Targeted inference (R package) https://kkholst.github.io/targeted/",
+    "authors": [],
+    "published": "2026-05-08T12:18:49Z",
+    "extras": {
+      "stars": 14,
+      "language": "R",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Targeted inference (R package) https://kkholst.github.io/targeted/"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:istallworthy/devMSMs",
+    "title": "istallworthy/devMSMs \u2014 Tools for using marginal structural models (MSMs) to answer causal questions in developmental science. ",
+    "url": "https://github.com/istallworthy/devMSMs",
+    "summary": "Tools for using marginal structural models (MSMs) to answer causal questions in developmental science. ",
+    "authors": [],
+    "published": "2026-05-01T16:57:30Z",
+    "extras": {
+      "stars": 8,
+      "language": "R",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Tools for using marginal structural models (MSMs) to answer causal questions in developmental science."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:CausalInference/SEQTaRget",
+    "title": "CausalInference/SEQTaRget \u2014 Estimation of the observational analogs of the intention-to-treat and per-protocol effects of hypothetical treatment strategies",
+    "url": "https://github.com/CausalInference/SEQTaRget",
+    "summary": "Estimation of the observational analogs of the intention-to-treat and per-protocol effects of hypothetical treatment strategies",
+    "authors": [],
+    "published": "2026-05-07T14:44:35Z",
+    "extras": {
+      "stars": 7,
+      "language": "R",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Estimation of the observational analogs of the intention-to-treat and per-protocol effects of hypothetical treatment strategies"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-discovery",
+    "id": "github:stscl/infoxtr",
+    "title": "stscl/infoxtr \u2014 Information-Theoretic Measures for Revealing Variable Interactions",
+    "url": "https://github.com/stscl/infoxtr",
+    "summary": "Information-Theoretic Measures for Revealing Variable Interactions",
+    "authors": [],
+    "published": "2026-05-05T16:37:39Z",
+    "extras": {
+      "stars": 53,
+      "language": "C++",
+      "topic": "causal-discovery"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Information-Theoretic Measures for Revealing Variable Interactions"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-discovery",
+    "id": "github:stscl/pc",
+    "title": "stscl/pc \u2014 Pattern Causality Analysis",
+    "url": "https://github.com/stscl/pc",
+    "summary": "Pattern Causality Analysis",
+    "authors": [],
+    "published": "2026-05-05T15:18:17Z",
+    "extras": {
+      "stars": 17,
+      "language": "C++",
+      "topic": "causal-discovery"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Pattern Causality Analysis"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-discovery",
+    "id": "github:hferdous/CDANs",
+    "title": "hferdous/CDANs \u2014 Temporal Causal Discovery from Autocorrelated and Non-Stationary Time Series Data",
+    "url": "https://github.com/hferdous/CDANs",
+    "summary": "Temporal Causal Discovery from Autocorrelated and Non-Stationary Time Series Data",
+    "authors": [],
+    "published": "2026-05-08T05:56:59Z",
+    "extras": {
+      "stars": 5,
+      "language": "Python",
+      "topic": "causal-discovery"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Temporal Causal Discovery from Autocorrelated and Non-Stationary Time Series Data"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:uplift-modeling",
+    "id": "github:markean/aimz",
+    "title": "markean/aimz \u2014 Scalable probabilistic impact modeling",
+    "url": "https://github.com/markean/aimz",
+    "summary": "Scalable probabilistic impact modeling",
+    "authors": [],
+    "published": "2026-05-08T03:47:28Z",
+    "extras": {
+      "stars": 6,
+      "language": "Python",
+      "topic": "uplift-modeling"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Scalable probabilistic impact modeling"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:Nixtla/statsforecast",
+    "title": "Nixtla/statsforecast \u2014 Lightning \u26a1\ufe0f fast forecasting with statistical and econometric models.",
+    "url": "https://github.com/Nixtla/statsforecast",
+    "summary": "Lightning \u26a1\ufe0f fast forecasting with statistical and econometric models.",
+    "authors": [],
+    "published": "2026-05-05T09:47:36Z",
+    "extras": {
+      "stars": 4773,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Lightning \u26a1\ufe0f fast forecasting with statistical and econometric models."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:aeturrell/coding-for-economists",
+    "title": "aeturrell/coding-for-economists \u2014 This repository hosts the code behind the online book, Coding for Economists.",
+    "url": "https://github.com/aeturrell/coding-for-economists",
+    "summary": "This repository hosts the code behind the online book, Coding for Economists.",
+    "authors": [],
+    "published": "2026-05-02T20:23:14Z",
+    "extras": {
+      "stars": 918,
+      "language": "Jupyter Notebook",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "This repository hosts the code behind the online book, Coding for Economists."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:py-econometrics/pyfixest",
+    "title": "py-econometrics/pyfixest \u2014 Fast High-Dimensional Fixed Effects Regression in Python following fixest-syntax",
+    "url": "https://github.com/py-econometrics/pyfixest",
+    "summary": "Fast High-Dimensional Fixed Effects Regression in Python following fixest-syntax",
+    "authors": [],
+    "published": "2026-05-07T13:19:15Z",
+    "extras": {
+      "stars": 320,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Fast High-Dimensional Fixed Effects Regression in Python following fixest-syntax"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:tmonk/stata-workbench",
+    "title": "tmonk/stata-workbench \u2014 A VS Code compatible extension (Cursor, Windsurf, Antigravity etc.) that allows Stata code to be run directly from the editor. Enables AI agents to directly interact with Stata. Powered by mcp-stata, https://github.com/tmonk/mcp-stata.",
+    "url": "https://github.com/tmonk/stata-workbench",
+    "summary": "A VS Code compatible extension (Cursor, Windsurf, Antigravity etc.) that allows Stata code to be run directly from the editor. Enables AI agents to directly interact with Stata. Powered by mcp-stata, https://github.com/tmonk/mcp-stata.",
+    "authors": [],
+    "published": "2026-05-08T13:56:11Z",
+    "extras": {
+      "stars": 29,
+      "language": "JavaScript",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A VS Code compatible extension (Cursor, Windsurf, Antigravity etc.) that allows Stata code to be run directly from the editor. Enables AI agents to directly interact with Stata. Powered by mcp-stata, https://github.com/tmonk/mcp-stata."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:pachadotdev/capybara",
+    "title": "pachadotdev/capybara \u2014 tldr; If you have a 2-4GB dataset and you need to estimate a (generalized) linear model with a large number of fixed effects, this package is for you.",
+    "url": "https://github.com/pachadotdev/capybara",
+    "summary": "tldr; If you have a 2-4GB dataset and you need to estimate a (generalized) linear model with a large number of fixed effects, this package is for you.",
+    "authors": [],
+    "published": "2026-05-05T18:11:02Z",
+    "extras": {
+      "stars": 22,
+      "language": "R",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "tldr; If you have a 2-4GB dataset and you need to estimate a (generalized) linear model with a large number of fixed effects, this package is for you."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:haoyu-haoyu/stata-ai-fusion",
+    "title": "haoyu-haoyu/stata-ai-fusion \u2014 MCP Server + Skill + VS Code Extension for Stata: AI-powered statistical analysis",
+    "url": "https://github.com/haoyu-haoyu/stata-ai-fusion",
+    "summary": "MCP Server + Skill + VS Code Extension for Stata: AI-powered statistical analysis",
+    "authors": [],
+    "published": "2026-05-03T14:19:06Z",
+    "extras": {
+      "stars": 21,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "MCP Server + Skill + VS Code Extension for Stata: AI-powered statistical analysis"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:gretl-project/gretl",
+    "title": "gretl-project/gretl \u2014 Official mirror of the actively maintained repo on sourceforge",
+    "url": "https://github.com/gretl-project/gretl",
+    "summary": "Official mirror of the actively maintained repo on sourceforge",
+    "authors": [],
+    "published": "2026-05-07T16:00:07Z",
+    "extras": {
+      "stars": 13,
+      "language": "C",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Official mirror of the actively maintained repo on sourceforge"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:nikhilxsunder/fedfred",
+    "title": "nikhilxsunder/fedfred \u2014 A feature-rich python package for interacting with the Federal Reserve Bank of St. Louis Economic Database: FRED",
+    "url": "https://github.com/nikhilxsunder/fedfred",
+    "summary": "A feature-rich python package for interacting with the Federal Reserve Bank of St. Louis Economic Database: FRED",
+    "authors": [],
+    "published": "2026-05-08T05:54:53Z",
+    "extras": {
+      "stars": 6,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A feature-rich python package for interacting with the Federal Reserve Bank of St. Louis Economic Database: FRED"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:jdansb/Econophysics",
+    "title": "jdansb/Econophysics \u2014 Econophysics can be understood as a specific set of unorthodox approaches within economics that conceive of the economic system as a complex system. Its specificity lies in its historical origin and methodological inspiration in physics and a strongly data-based orientation",
+    "url": "https://github.com/jdansb/Econophysics",
+    "summary": "Econophysics can be understood as a specific set of unorthodox approaches within economics that conceive of the economic system as a complex system. Its specificity lies in its historical origin and methodological inspiration in physics and a strongly data-based orientation",
+    "authors": [],
+    "published": "2026-05-08T02:56:48Z",
+    "extras": {
+      "stars": 5,
+      "language": "Jupyter Notebook",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Econophysics can be understood as a specific set of unorthodox approaches within economics that conceive of the economic system as a complex system. Its specificity lies in its historical origin and methodological inspiration in physics and a strongly data-based orientation"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:experimentation-platform",
+    "id": "github:juspay/superposition",
+    "title": "juspay/superposition \u2014 Superposition is a context-based configuration management system designed to facilitate safe and flexible rollout of config changes",
+    "url": "https://github.com/juspay/superposition",
+    "summary": "Superposition is a context-based configuration management system designed to facilitate safe and flexible rollout of config changes",
+    "authors": [],
+    "published": "2026-05-08T14:05:01Z",
+    "extras": {
+      "stars": 414,
+      "language": "Rust",
+      "topic": "experimentation-platform"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Superposition is a context-based configuration management system designed to facilitate safe and flexible rollout of config changes"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:featbit/featbit",
+    "title": "featbit/featbit \u2014 Enterprise-grade feature flag platform that you can self-host. Get started - free.",
+    "url": "https://github.com/featbit/featbit",
+    "summary": "Enterprise-grade feature flag platform that you can self-host. Get started - free.",
+    "authors": [],
+    "published": "2026-05-08T11:33:36Z",
+    "extras": {
+      "stars": 1797,
+      "language": "C#",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Enterprise-grade feature flag platform that you can self-host. Get started - free."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:MAIF/izanami",
+    "title": "MAIF/izanami \u2014 Izanami is a centralized versatile feature flag solution, well suited for micro service architectures.",
+    "url": "https://github.com/MAIF/izanami",
+    "summary": "Izanami is a centralized versatile feature flag solution, well suited for micro service architectures.",
+    "authors": [],
+    "published": "2026-05-07T16:01:00Z",
+    "extras": {
+      "stars": 204,
+      "language": "Scala",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Izanami is a centralized versatile feature flag solution, well suited for micro service architectures."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:microsoft/VirtualClient",
+    "title": "microsoft/VirtualClient \u2014 Benchmarking and monitoring automation, designed for cloud, built with .NET.",
+    "url": "https://github.com/microsoft/VirtualClient",
+    "summary": "Benchmarking and monitoring automation, designed for cloud, built with .NET.",
+    "authors": [],
+    "published": "2026-05-07T18:57:26Z",
+    "extras": {
+      "stars": 116,
+      "language": "C#",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Benchmarking and monitoring automation, designed for cloud, built with .NET."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:MiSikora/laboratory",
+    "title": "MiSikora/laboratory \u2014 Feature flags for multi-module Kotlin Android projects",
+    "url": "https://github.com/MiSikora/laboratory",
+    "summary": "Feature flags for multi-module Kotlin Android projects",
+    "authors": [],
+    "published": "2026-05-02T15:16:38Z",
+    "extras": {
+      "stars": 81,
+      "language": "Kotlin",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Feature flags for multi-module Kotlin Android projects"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:Betterment/test_track_rails_client",
+    "title": "Betterment/test_track_rails_client \u2014 The Ruby on Rails client for TestTrack",
+    "url": "https://github.com/Betterment/test_track_rails_client",
+    "summary": "The Ruby on Rails client for TestTrack",
+    "authors": [],
+    "published": "2026-05-08T16:12:24Z",
+    "extras": {
+      "stars": 37,
+      "language": "Ruby",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "The Ruby on Rails client for TestTrack"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:growthbook/growthbook-golang",
+    "title": "growthbook/growthbook-golang \u2014 Golang SDK for GrowthBook",
+    "url": "https://github.com/growthbook/growthbook-golang",
+    "summary": "Golang SDK for GrowthBook",
+    "authors": [],
+    "published": "2026-05-07T21:00:17Z",
+    "extras": {
+      "stars": 16,
+      "language": "Go",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Golang SDK for GrowthBook"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:marquesds/kaizen",
+    "title": "marquesds/kaizen \u2014 Real-time, self-hostable agent observability: retros and experiments to improve your repo, across Cursor, Claude Code, and Codex. SQLite; redact before any sync you enable.",
+    "url": "https://github.com/marquesds/kaizen",
+    "summary": "Real-time, self-hostable agent observability: retros and experiments to improve your repo, across Cursor, Claude Code, and Codex. SQLite; redact before any sync you enable.",
+    "authors": [],
+    "published": "2026-05-08T13:00:02Z",
+    "extras": {
+      "stars": 8,
+      "language": "Rust",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Real-time, self-hostable agent observability: retros and experiments to improve your repo, across Cursor, Claude Code, and Codex. SQLite; redact before any sync you enable."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:ab-testing",
+    "id": "github:gookit/greq",
+    "title": "gookit/greq \u2014 \ud83d\udee0   greq is a HTTP client request builder and sender. supports download, retry, batch, .http file and more",
+    "url": "https://github.com/gookit/greq",
+    "summary": "\ud83d\udee0   greq is a HTTP client request builder and sender. supports download, retry, batch, .http file and more",
+    "authors": [],
+    "published": "2026-05-05T01:56:44Z",
+    "extras": {
+      "stars": 5,
+      "language": "Go",
+      "topic": "ab-testing"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "\ud83d\udee0   greq is a HTTP client request builder and sender. supports download, retry, batch, .http file and more"
+  }
+]
