@@ -81,10 +81,6 @@ def render_picks(items: list[dict], date: dt.date) -> str:
         lines.append(" · ".join(meta_bits))
         lines.append("")
         lines.append(item.get("llm_summary", "").strip())
-        why = item.get("why_relevant", "").strip()
-        if why:
-            lines.append("")
-            lines.append(f"_Why:_ {why}")
         lines.append("")
     return "\n".join(lines)
 
