@@ -11,34 +11,34 @@ tags:
 ---
 # Daily picks — 2026-05-08
 
-Top 5 of 55 items today, ranked by relevance.
+Top 5 of 47 items today, ranked by relevance.
 
-## 1. [shakostats/Awesome-Marketing-Science — A curated list of awesome marketing science resources including geo incrementality testing, media mix models, multi-touch attribution, causal inference, and more from shakostats.com . Star ⭐ the repo if it helps you, and feel free to contribute your own favorite resources](https://github.com/shakostats/Awesome-Marketing-Science)
+## 1. [Causal Inference under Interference through Designed Markets ∗](https://www.semanticscholar.org/paper/ebb04953810a1d10873d53b06d6850ceb676649a)
 
-**Uplift / HTE** · score 46 · GitHub topic:causal-inference
+**Experimentation** · score 88 · Semantic Scholar: Susan Athey causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
 
-A curated list of awesome marketing science resources including geo incrementality testing, media mix models, multi-touch attribution, causal inference, and more from shakostats.com . Star ⭐ the repo if it helps you, and feel free to contribute your own favorite resources
+Causal Inference under Interference through Designed Markets ∗
 
-## 2. [py-why/dowhy — DoWhy is a Python library for causal inference that supports explicit modeling and testing of causal assumptions. DoWhy is based on a unified language for causal inference, combining causal graphical models and potential outcomes frameworks. ](https://github.com/py-why/dowhy)
+## 2. [Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries](https://www.semanticscholar.org/paper/20cd700fb299b1d5a1b91251333e3c2dc8c4c80b)
 
-**Causal Inference** · score 34 · GitHub topic:causal-inference
+**Other** · score 80 · Semantic Scholar: Susan Athey causal · Susan Athey, Bruno Fava, D. Karlan, Adam Osman et al. (5 authors)
 
-DoWhy is a Python library for causal inference that supports explicit modeling and testing of causal assumptions. DoWhy is based on a unified language for causal inference, combining causal graphical models and potential outcomes frameworks.
+Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries
 
-## 3. [pymc-labs/CausalPy — A Python package for causal inference in quasi-experimental settings](https://github.com/pymc-labs/CausalPy)
+## 3. [Score-Based Causal Discovery of Latent Variable Causal Models](https://www.semanticscholar.org/paper/e2ba33a9973e69378d2705a2341cf3b79ccc0902)
 
-**Causal Inference** · score 34 · GitHub topic:causal-inference
+**Other** · score 80 · Semantic Scholar: Kun Zhang causal discovery · Ignavier Ng, Xinshuai Dong, Haoyue Dai, Biwei Huang et al. (6 authors)
 
-A Python package for causal inference in quasi-experimental settings
+Score-Based Causal Discovery of Latent Variable Causal Models
 
-## 4. [BiomedSciAI/causallib — A Python package for modular causal inference analysis and model evaluations](https://github.com/BiomedSciAI/causallib)
+## 4. [On Causal Discovery in the Presence of Deterministic Relations](https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807)
 
-**Causal Inference** · score 34 · GitHub topic:causal-inference
+**Other** · score 80 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
 
-A Python package for modular causal inference analysis and model evaluations
+On Causal Discovery in the Presence of Deterministic Relations
 
-## 5. [amazon-science/azcausal — Causal Inference in Python](https://github.com/amazon-science/azcausal)
+## 5. [On Causal Discovery in the Presence of Deterministic Relations](https://www.semanticscholar.org/paper/deb9e9261b851004322a476a7b7e5d35e530e2d4)
 
-**Causal Inference** · score 34 · GitHub topic:causal-inference
+**Other** · score 80 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
 
-Causal Inference in Python
+On Causal Discovery in the Presence of Deterministic Relations

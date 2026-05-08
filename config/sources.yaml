@@ -71,6 +71,8 @@ rss:
     keyword_filter: []
 
 github_trending:
+  # Filters by "created:" (newly-created repos). Wider lookback because
+  # genuinely-new causal-ML repos are infrequent; adjust as you like.
   topics:
     - causal-inference
     - causal-machine-learning
@@ -79,8 +81,8 @@ github_trending:
     - econometrics
     - experimentation-platform
     - ab-testing
-  days_lookback: 7
-  min_stars: 5
+  days_lookback: 30
+  min_stars: 1
 
 semantic_scholar:
   queries:
@@ -170,4 +172,4 @@ github_releases:
     - microsoft/showwhy
     - WillianFuks/tfcausalimpact
     - DataCanvasIO/YLearn
-  days_lookback: 7
+  days_lookback: 30

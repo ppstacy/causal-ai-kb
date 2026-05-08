@@ -43,16 +43,39 @@ def _matches_keywords(text: str, keywords: list[str]) -> bool:
 
 
 def fetch_arxiv(cfg: dict, since: dt.datetime) -> Iterable[Item]:
+    """Query arXiv with keyword filter pushed into the search itself.
+
+    Previously we fetched the latest N submissions per category and post-
+    filtered by keywords — most days that returned 0 because none of the
+    latest cs.LG papers happened to mention "causal". Now the query is
+    `cat:X AND (abs:KW1 OR abs:KW2 ...)`, so arXiv returns only the
+    matching papers in submitted-date order.
+    """
     categories = cfg.get("categories", [])
     max_per = cfg.get("max_results_per_category", 80)
     keywords = cfg.get("keyword_filters", [])
+
+    # Build the abstract-keyword OR clause. arXiv search uses ti:/abs:/all:
+    # field tags. Quote multi-word phrases.
+    if keywords:
+        kw_clauses = []
+        for kw in keywords:
+            kw = kw.strip()
+            if not kw:
+                continue
+            phrase = f'"{kw}"' if " " in kw or "/" in kw else kw
+            kw_clauses.append(f"abs:{phrase}")
+        kw_query = " OR ".join(kw_clauses)
+    else:
+        kw_query = ""
 
     client = arxiv.Client(page_size=100, delay_seconds=3, num_retries=3)
     seen_ids: set[str] = set()
 
     for cat in categories:
+        query = f"cat:{cat} AND ({kw_query})" if kw_query else f"cat:{cat}"
         search = arxiv.Search(
-            query=f"cat:{cat}",
+            query=query,
             max_results=max_per,
             sort_by=arxiv.SortCriterion.SubmittedDate,
             sort_order=arxiv.SortOrder.Descending,
@@ -64,9 +87,6 @@ def fetch_arxiv(cfg: dict, since: dt.datetime) -> Iterable[Item]:
                     continue
                 short_id = result.get_short_id()
                 if short_id in seen_ids:
-                    continue
-                blob = f"{result.title}\n{result.summary}"
-                if not _matches_keywords(blob, keywords):
                     continue
                 seen_ids.add(short_id)
                 yield Item(
@@ -120,13 +140,20 @@ def fetch_rss(cfg: list[dict], since: dt.datetime) -> Iterable[Item]:
 
 
 def fetch_github_trending(cfg: dict, since: dt.datetime) -> Iterable[Item]:
+    """Fetch repos *created* (not just pushed) within the lookback window.
+
+    Querying `pushed:` returns every long-lived popular repo that got any
+    commit in the window — DoWhy, EconML, CausalML show up daily even
+    though they're not new. `created:` returns only freshly-launched repos,
+    which is what "what's new in causal-ML" actually means.
+    """
     topics = cfg.get("topics", [])
-    min_stars = cfg.get("min_stars", 5)
+    min_stars = cfg.get("min_stars", 1)  # new repos won't have many stars yet
     cutoff = since.strftime("%Y-%m-%d")
     headers = {"Accept": "application/vnd.github+json", "User-Agent": UA}
     seen: set[str] = set()
     for topic in topics:
-        q = f"topic:{topic} pushed:>={cutoff} stars:>={min_stars}"
+        q = f"topic:{topic} created:>={cutoff} stars:>={min_stars}"
         try:
             resp = requests.get(
                 "https://api.github.com/search/repositories",

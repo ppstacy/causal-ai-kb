@@ -22,6 +22,8 @@ from fetch import fetch_all, load_sources
 from render import render_firehose, render_picks, write_daily, write_daily_feed
 from score import load_interests, merge, score_all
 
+DEDUP_WINDOW_DAYS = 14
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger("daily")
 
@@ -51,8 +53,29 @@ def main() -> None:
     raw_items = fetch_all(sources, days_lookback=sources.get("arxiv", {}).get("days_lookback", 1))
     logger.info("fetched %d unique items", len(raw_items))
 
+    # Cross-day dedup: drop items that already appeared in any of the past
+    # DEDUP_WINDOW_DAYS daily runs. Keeps each day's picks genuinely fresh.
+    today = dt.date.today()
+    seen_ids: set[str] = set()
+    daily_root = ROOT / "daily"
+    for offset in range(1, DEDUP_WINDOW_DAYS + 1):
+        prior = daily_root / (today - dt.timedelta(days=offset)).isoformat() / "items.json"
+        if prior.exists():
+            try:
+                prior_items = json.loads(prior.read_text())
+                seen_ids.update(it.get("id") for it in prior_items if it.get("id"))
+            except json.JSONDecodeError:
+                pass
+    pre_dedup = len(raw_items)
+    raw_items = [it for it in raw_items if it.id not in seen_ids]
+    if pre_dedup != len(raw_items):
+        logger.info(
+            "dropped %d already-seen items (last %d days); %d remaining",
+            pre_dedup - len(raw_items), DEDUP_WINDOW_DAYS, len(raw_items),
+        )
+
     if not raw_items:
-        logger.info("nothing to score — exiting cleanly")
+        logger.info("nothing fresh to score today — exiting cleanly")
         return
 
     item_dicts = [it.to_dict() for it in raw_items]
