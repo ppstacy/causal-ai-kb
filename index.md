@@ -52,16 +52,27 @@ Browse [daily picks]({{ '/daily/' | relative_url }}) and [weekly archive]({{ '/w
 
 ## Subscribe
 
-Two RSS feeds — drop either (or both) into any reader, or in Slack run
-`/feed subscribe <URL>` in the channel where you want them delivered:
+In the Slack channel where you want delivery (or DM `@Slackbot` for a
+DM-only feed), paste these — copy-paste exactly:
 
-- **Daily picks** — `https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/daily/feed.xml`
-  ([feed.xml]({{ '/daily/feed.xml' | relative_url }}))
-- **Weekly digest** — `https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/weekly/feed.xml`
-  ([feed.xml]({{ '/weekly/feed.xml' | relative_url }}))
+**Daily picks** (top 5 each weekday):
+
+```
+/feed subscribe https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/daily/feed.xml
+```
+
+**Weekly digest** (Friday afternoon roll-up):
+
+```
+/feed subscribe https://raw.githubusercontent.com/ppstacy/causal-ai-kb/main/weekly/feed.xml
+```
 
 Each feed entry's preview includes the top picks inline, so the Slack
 card shows the headlines without click-through. The link goes to the
 rendered page on this site.
+
+To unsubscribe later, run `/feed list` in the same channel and
+`/feed remove <URL>` for the one you want to stop. To pull the feed
+into a desktop reader (Reeder, NetNewsWire, Feedly), use the same URLs.
 
 [About this site →]({{ '/about/' | relative_url }})
