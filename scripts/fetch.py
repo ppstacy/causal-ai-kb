@@ -187,21 +187,37 @@ def fetch_github_trending(cfg: dict, since: dt.datetime) -> Iterable[Item]:
 
 
 def fetch_semantic_scholar(cfg: dict, since: dt.datetime) -> Iterable[Item]:
+    import time
     queries = cfg.get("queries", [])
     limit = cfg.get("limit_per_query", 25)
     fields = "title,abstract,authors,url,publicationDate,externalIds,venue"
     seen: set[str] = set()
-    for query in queries:
-        try:
-            resp = requests.get(
-                "https://api.semanticscholar.org/graph/v1/paper/search",
-                params={"query": query, "limit": limit, "fields": fields},
-                headers={"User-Agent": UA},
-                timeout=30,
-            )
-            resp.raise_for_status()
-        except requests.RequestException as exc:
-            logger.warning("semantic scholar fetch failed for %r: %s", query, exc)
+    # Semantic Scholar's unauthenticated API allows ~1 req/sec. Sleep between
+    # queries to stay under the rate limit; retry once with backoff on 429.
+    for i, query in enumerate(queries):
+        if i > 0:
+            time.sleep(1.2)
+        resp = None
+        for attempt in range(2):
+            try:
+                resp = requests.get(
+                    "https://api.semanticscholar.org/graph/v1/paper/search",
+                    params={"query": query, "limit": limit, "fields": fields},
+                    headers={"User-Agent": UA},
+                    timeout=30,
+                )
+                if resp.status_code == 429 and attempt == 0:
+                    time.sleep(3)
+                    continue
+                resp.raise_for_status()
+                break
+            except requests.RequestException as exc:
+                if attempt == 1:
+                    logger.warning("semantic scholar fetch failed for %r: %s", query, exc)
+                    resp = None
+                else:
+                    time.sleep(3)
+        if resp is None:
             continue
         for paper in resp.json().get("data", []):
             pub_date = paper.get("publicationDate")

@@ -75,7 +75,16 @@ def main() -> None:
         )
 
     if not raw_items:
-        logger.info("nothing fresh to score today — exiting cleanly")
+        logger.info("nothing fresh to score today — writing a quiet-day stub")
+        # Still write a minimal picks.md + update feed.xml so subscribers
+        # see "quiet day" rather than nothing. firehose/items.json are
+        # written empty so the dedup logic still works tomorrow.
+        stub = render_picks([], today)
+        firehose = render_firehose([], today)
+        write_daily(ROOT, today, stub, firehose)
+        state_dir = ROOT / "daily" / today.isoformat()
+        (state_dir / "items.json").write_text("[]")
+        write_daily_feed(ROOT)
         return
 
     item_dicts = [it.to_dict() for it in raw_items]

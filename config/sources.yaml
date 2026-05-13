@@ -203,7 +203,7 @@ github_releases:
     - py-why/dowhy
     - py-why/EconML
     - py-why/causal-learn
-    - py-why/causica
+    # py-why/causica removed — no GitHub releases published yet
     # Uber ecosystem
     - uber/causalml
     - uber/orbit
