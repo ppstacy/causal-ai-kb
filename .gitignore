@@ -8,6 +8,7 @@ venv/
 *.swp
 .pytest_cache/
 state.json
+.logs/
 
 # Obsidian: keep shared config (app.json, graph.json, etc.), ignore per-machine state
 .obsidian/workspace.json
