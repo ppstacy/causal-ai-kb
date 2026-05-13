@@ -1,0 +1,45 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: heterogeneous treatment effects",
+    "id": "s2:d9e920aba0dd2df4cd65d9f92324c60a12f92886",
+    "title": "Stable Estimation of Heterogeneous Treatment Effects",
+    "url": "https://www.semanticscholar.org/paper/d9e920aba0dd2df4cd65d9f92324c60a12f92886",
+    "summary": "",
+    "authors": [
+      "Anpeng Wu",
+      "Kun Kuang",
+      "Ruoxuan Xiong",
+      "Bo Li",
+      "Fei Wu"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Machine Learning",
+      "query": "heterogeneous treatment effects"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Stable Estimation of Heterogeneous Treatment Effects"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:ashuiGordon/stata-cli",
+    "title": "ashuiGordon/stata-cli \u2014 Stata CLI for Agent; Stata CLI Is All Reg Monkeys Need",
+    "url": "https://github.com/ashuiGordon/stata-cli",
+    "summary": "Stata CLI for Agent; Stata CLI Is All Reg Monkeys Need",
+    "authors": [],
+    "published": "2026-05-13T07:35:14Z",
+    "extras": {
+      "stars": 7,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Stata CLI for Agent; Stata CLI Is All Reg Monkeys Need"
+  }
+]

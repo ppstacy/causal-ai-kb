@@ -1,0 +1,133 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1d013babf24d1a80421115003ec723881f6bb6f6",
+    "title": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology",
+    "url": "https://www.semanticscholar.org/paper/1d013babf24d1a80421115003ec723881f6bb6f6",
+    "summary": "",
+    "authors": [
+      "Miguel A. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:49ff23bf9908cf101b16700b7efe14164011eadb",
+    "title": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data",
+    "url": "https://www.semanticscholar.org/paper/49ff23bf9908cf101b16700b7efe14164011eadb",
+    "summary": "",
+    "authors": [
+      "L. Cain",
+      "J. Robins",
+      "E. Lanoy",
+      "R. Logan",
+      "D. Costagliola",
+      "M. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "title": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach.",
+    "url": "https://www.semanticscholar.org/paper/418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "summary": "",
+    "authors": [
+      "T. VanderWeele",
+      "M. Hern\u00e1n",
+      "E. T. Tchetgen Tchetgen",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Journal of Epidemiology",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach."
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "title": "Longitudinal Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "summary": "",
+    "authors": [
+      "M. Hern\u00e1n",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Longitudinal Causal Inference"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:696fd36e27e3c5e524b5bf97c6a37ff8a1984a38",
+    "title": "Biases in Randomized Trials: A Conversation Between Trialists and Epidemiologists.",
+    "url": "https://www.semanticscholar.org/paper/696fd36e27e3c5e524b5bf97c6a37ff8a1984a38",
+    "summary": "",
+    "authors": [
+      "M. Mansournia",
+      "J. Higgins",
+      "J. Sterne",
+      "M. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Epidemiology",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Biases in Randomized Trials: A Conversation Between Trialists and Epidemiologists."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:rajsubediresearch/dag-builder",
+    "title": "rajsubediresearch/dag-builder \u2014 DAG Builder",
+    "url": "https://github.com/rajsubediresearch/dag-builder",
+    "summary": "DAG Builder",
+    "authors": [],
+    "published": "2026-05-06T19:18:50Z",
+    "extras": {
+      "stars": 3,
+      "language": "JavaScript",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "DAG Builder"
+  }
+]
