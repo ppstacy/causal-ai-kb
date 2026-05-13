@@ -1,20 +1,26 @@
 keywords:
   - auction theory
+  - autonomous ml
   - bid optimization
   - budget-constrained allocation
   - conversion lift
   - heterogeneous treatment effects
+  - hypothesis generation
   - incremental targeting
+  - llm agents
   - mechanism design
   - meta-learner
   - no-regret algorithms
   - online learning
   - policy learning
   - real-time bidding
+  - reward design
   - revenue maximization
+  - self-evolving
   - strategic agents
   - treatment effect estimation
   - uplift modeling
   - user marketing
 seeded_from:
   - https://github.com/ppstacy/paper_reading/tree/master/causal_inference
+  - https://arxiv.org/abs/2602.10226
