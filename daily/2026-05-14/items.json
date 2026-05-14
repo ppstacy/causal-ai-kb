@@ -1,0 +1,241 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Vasilis Syrgkanis causal",
+    "id": "s2:edc2ca77e1f67cb3a71dbb7288992e0865269fca",
+    "title": "Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity",
+    "url": "https://www.semanticscholar.org/paper/edc2ca77e1f67cb3a71dbb7288992e0865269fca",
+    "summary": "We study causal representation learning, the task of recovering high-level latent variables and their causal relationships in the form of a causal graph from low-level observed data (such as text and images), assuming access to observations generated from multiple environments. Prior results on the identifiability of causal representations typically assume access to single-node interventions which is rather unrealistic in practice, since the latent variables are unknown in the first place. In this work, we consider the task of learning causal representation learning with data collected from general environments . We show that even when the causal model and the mixing function are both linear, there exists a surrounded-node ambiguity (SNA) [46] which is basically unavoidable in our setting. On the other hand, in the same linear case, we show that identification up to SNA is possible under mild conditions, and propose an algorithm, LiNGCReL which provably achieves such identifiability guarantee. We conduct extensive experiments on synthetic data and demonstrate the effectiveness of LiNGCReL in the finite-sample regime.",
+    "authors": [
+      "Jikai Jin",
+      "Vasilis Syrgkanis"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Vasilis Syrgkanis causal"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Vasilis Syrgkanis); +10 source-type",
+    "llm_summary": "We study causal representation learning, the task of recovering high-level latent variables and their causal relationships in the form of a causal graph from low-level observed data (such as text and images), assuming access to observations generated from multiple environments. Prior results on the identifiability of causal representations typically assume access to single-node interventions\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Vasilis Syrgkanis causal",
+    "id": "s2:4f6177c134653299974c315ab623fe1c1545c2f9",
+    "title": "Orthogonal Causal Calibration (Extended Abstract)",
+    "url": "https://www.semanticscholar.org/paper/4f6177c134653299974c315ab623fe1c1545c2f9",
+    "summary": "",
+    "authors": [
+      "Justin Whitehouse",
+      "Christopher Jung",
+      "Vasilis Syrgkanis",
+      "Bryan Wilder",
+      "Zhiwei Steven Wu"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Conference Computational Learning Theory",
+      "query": "Vasilis Syrgkanis causal"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Vasilis Syrgkanis); +10 source-type",
+    "llm_summary": "Orthogonal Causal Calibration (Extended Abstract)"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:e2ba33a9973e69378d2705a2341cf3b79ccc0902",
+    "title": "Score-Based Causal Discovery of Latent Variable Causal Models",
+    "url": "https://www.semanticscholar.org/paper/e2ba33a9973e69378d2705a2341cf3b79ccc0902",
+    "summary": "",
+    "authors": [
+      "Ignavier Ng",
+      "Xinshuai Dong",
+      "Haoyue Dai",
+      "Biwei Huang",
+      "Peter Spirtes",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Machine Learning",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "Score-Based Causal Discovery of Latent Variable Causal Models"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "summary": "",
+    "authors": [
+      "Loka Li",
+      "Haoyue Dai",
+      "Hanin Al Ghothani",
+      "Biwei Huang",
+      "Jiji Zhang",
+      "Shahar Harel",
+      "Isaac Bentwich",
+      "Guan-Hong Chen",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:deb9e9261b851004322a476a7b7e5d35e530e2d4",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/deb9e9261b851004322a476a7b7e5d35e530e2d4",
+    "summary": "",
+    "authors": [
+      "Hanin Al Ghothani",
+      "Isaac Bentwich",
+      "Guan-Hong Chen",
+      "Haoyue Dai",
+      "Shahar Harel",
+      "Biwei Huang",
+      "Loka Li",
+      "Jiji Zhang",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "title": "Variance Reduction for Experiments with One-Sided Triggering using CUPED",
+    "url": "https://www.semanticscholar.org/paper/0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "summary": "",
+    "authors": [
+      "Alex Deng",
+      "Lo-Hua Yuan",
+      "Alexandre Salama-Manteau"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 48,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Variance Reduction for Experiments with One-Sided Triggering using CUPED"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "title": "Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks",
+    "url": "https://www.semanticscholar.org/paper/22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first formulate local optimization problems at each node, which are subsequently addressed using the Alternating Direction Method of Multipliers (ADMM). Three subproblems naturally arise from ADMM, each resolved in an online manner with low computational costs. Specifically, the first one is solved using stochastic gradient descent (SGD), while the other two are handled using the conjugate gradient descent method to avoid matrix inversion operations. To further enhance performance, a variance reduction algorithm is incorporated into the SGD. Simulation results validate the effectiveness of the proposed algorithm.",
+    "authors": [
+      "Yitong Chen",
+      "Danqi Jin",
+      "Jie Chen",
+      "C\u00e9dric Richard",
+      "Wen Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "IEEE Signal Processing Letters",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:111478dfeba28a12cb8398893eead2de62087b85",
+    "title": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction",
+    "url": "https://www.semanticscholar.org/paper/111478dfeba28a12cb8398893eead2de62087b85",
+    "summary": "",
+    "authors": [
+      "Yichen Wu",
+      "Long-Kai Huang",
+      "Renzhen Wang",
+      "Deyu Meng",
+      "Ying Wei"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Learning Representations",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "title": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "summary": "",
+    "authors": [
+      "M. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:f234db401ac60834029d495faf6739ec661b1306",
+    "title": "Causal Identification under Markov equivalence: Calculus, Algorithm, and Completeness",
+    "url": "https://www.semanticscholar.org/paper/f234db401ac60834029d495faf6739ec661b1306",
+    "summary": "One common task in many data sciences applications is to answer questions about the effect of new interventions, like: \u2018what would happen to Y if we make X equal to x while observing covariates Z = z ?\u2019. Formally, this is known as conditional effect identification , where the goal is to determine whether a post-interventional distribution is computable from the combination of an observational distribution and assumptions about the underlying domain represented by a causal diagram. A plethora of methods was developed for solving this problem, including the celebrated do-calculus [Pearl, 1995]. In practice, these results are not always applicable since they require a fully specified causal diagram as input, which is usually not available. In this paper, we assume as the input of the task a less informative structure known as a partial ancestral graph (PAG), which represents a Markov equivalence class of causal diagrams, learnable from observational data. We make the following contributions under this relaxed setting. First, we introduce a new causal calculus, which subsumes the current state-of-the-art, PAG-calculus. Second, we develop an algorithm for conditional effect identification given a PAG and prove it to be both sound and complete. In words, failure of the algorithm to identify a certain effect implies that this effect is not identifiable by any method. Third, we prove the proposed calculus to be complete for the same task.",
+    "authors": [
+      "Amin Jaber",
+      "A. Ribeiro",
+      "Jiji Zhang",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "One common task in many data sciences applications is to answer questions about the effect of new interventions, like: \u2018what would happen to Y if we make X equal to x while observing covariates Z = z ?\u2019. Formally, this is known as conditional effect identification , where the goal is to determine whether a post-interventional distribution is computable from the combination of an observational\u2026"
+  }
+]
