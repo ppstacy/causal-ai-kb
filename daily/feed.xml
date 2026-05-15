@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-05-15</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-15/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-15/</guid>
+      <pubDate>Fri, 15 May 2026 13:00:00 +0000</pubDate>
+      <description>1. A Practical Guide to Instrumental Variables Methods with Heterogeneous Treatment Effects — Causal Inference · score 60 · arXiv stat.ME · Tymon Słoczyński, Liyang Sun, S. Derya Uysal
+2. Generalizing conditional average treatment effects from nested randomized trials to all trial-eligible individuals — Uplift / HTE · score 60 · arXiv stat.ME · Lan Wen, Issa J. Dahabreh, Yu-Han Chiu
+3. In-Context Learning for Data-Driven Censored Inventory Control — Causal LMs · score 56 · arXiv stat.ML · Sohom Mukherjee, Anh-Duy Pham, Richard Pibernik, Yunbei Xu
+4. Monetary Policy in the Media Spotlight: Sentiments, Signals, and Economic Impact — Causal LMs · score 56 · arXiv econ.EM · Firmin Ayivodji, Etienne Briand, Kevin Moran, Dalibor Stevanovic
+5. MeMo: Memory as a Model — Causal LMs · score 56 · arXiv cs.LG · Ryan Wei Heng Quek, Sanghyuk Lee, Alfred Wei Lun Leong, Arun Verma et al. (9 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-14</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-14/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-14/</guid>
