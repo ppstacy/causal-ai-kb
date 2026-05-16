@@ -1,0 +1,59 @@
+[
+  {
+    "source": "github_release",
+    "source_name": "pymc-labs/CausalPy releases",
+    "id": "ghrel:pymc-labs/CausalPy:0.8.1",
+    "title": "pymc-labs/CausalPy 0.8.1",
+    "url": "https://github.com/pymc-labs/CausalPy/releases/tag/0.8.1",
+    "summary": "## Overview\r\nPatch release on the 0.8.x line. No new inference features\u2014this release tightens supported PyMC and PyTensor versions so installs stay on the 5.x / 2.x stacks until the library is updated for upcoming PyMC 6 and PyTensor 3 major releases.\r\n\r\n## Packaging\r\n* Upper bounds added so runtime dependencies stay on the current major versions: pymc >= 5.15.1, < 6 and pytensor >= 2.38.1, < 3 (see `pyproject.toml` and synced `environment.yml`).\r\n* Version bumped to 0.8.1 for PyPI and `causalpy.__version__`.\r\n\r\n## Upgrade notes\r\n* If you rely on installing PyMC 6+ or PyTensor 3+ together with CausalPy, this release will constrain the solver to 5.x / 2.x; that is intentional for stability on the 0.8 line.\r\n\r\n## Thanks\r\n* Dependency pin change from #906 (issue #873).\r\n\r\n---\r\n\r\nNote: Fixes that landed on main after 0.8.0 (for example #919: public plot() for SyntheticDifferenceInDifferences, Ruff cleanup for sdid_pymc.ipynb) are not in this 0.8.1 artifact if you ship only from release-0.8.1. They belong in whatever next release you cut from main (e.g. 0.8.2 or 0.9.0). If you want draft notes for that main drop too, say which version number you\u2019re targeting.",
+    "authors": [],
+    "published": "2026-05-15T13:39:03",
+    "extras": {
+      "repo": "pymc-labs/CausalPy",
+      "tag": "0.8.1",
+      "prerelease": false
+    },
+    "score": 55,
+    "topic": "other",
+    "why_relevant": "+25 source-type",
+    "llm_summary": "## Overview\r\nPatch release on the 0.8.x line. No new inference features\u2014this release tightens supported PyMC and PyTensor versions so installs stay on the 5.x / 2.x stacks until the library is updated for upcoming PyMC 6 and PyTensor 3 major releases.\r\n\r\n## Packaging\r\n* Upper bounds added so runtime dependencies stay on the current major versions: pymc >= 5.15.1, < 6 and pytensor >= 2.38.1, < 3\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:Lambenthan/empericalwiki",
+    "title": "Lambenthan/empericalwiki \u2014 \u7ecf\u7ba1\u5b9e\u8bc1\u7814\u7a76\u7684 AI \u77e5\u8bc6\u5e93 \u2014 \u4ece\u6587\u732e\u9605\u8bfb\u5230 Stata \u6267\u884c\uff0c\u4e00\u6761\u6d41\u6c34\u7ebf\u4e32\u5230\u5e95\u3002\u57fa\u4e8e Karpathy \u7684 LLM-Wiki \u7406\u5ff5\uff0c\u6309\u5b9e\u8bc1\u7814\u7a76 10 \u7c7b\u5b9e\u4f53\uff08\u53d8\u91cf / \u6570\u636e\u96c6 / \u6a21\u578b / \u673a\u5236 / \u5047\u8bbe / \u8bc6\u522b\u7b56\u7565 / \u7a33\u5065\u6027 / \u5f02\u8d28\u6027 / \u8868\u683c / \u8bba\u6587\uff09\u5b9a\u5236",
+    "url": "https://github.com/Lambenthan/empericalwiki",
+    "summary": "\u7ecf\u7ba1\u5b9e\u8bc1\u7814\u7a76\u7684 AI \u77e5\u8bc6\u5e93 \u2014 \u4ece\u6587\u732e\u9605\u8bfb\u5230 Stata \u6267\u884c\uff0c\u4e00\u6761\u6d41\u6c34\u7ebf\u4e32\u5230\u5e95\u3002\u57fa\u4e8e Karpathy \u7684 LLM-Wiki \u7406\u5ff5\uff0c\u6309\u5b9e\u8bc1\u7814\u7a76 10 \u7c7b\u5b9e\u4f53\uff08\u53d8\u91cf / \u6570\u636e\u96c6 / \u6a21\u578b / \u673a\u5236 / \u5047\u8bbe / \u8bc6\u522b\u7b56\u7565 / \u7a33\u5065\u6027 / \u5f02\u8d28\u6027 / \u8868\u683c / \u8bba\u6587\uff09\u5b9a\u5236",
+    "authors": [],
+    "published": "2026-05-16T03:12:54Z",
+    "extras": {
+      "stars": 8,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 34,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "\u7ecf\u7ba1\u5b9e\u8bc1\u7814\u7a76\u7684 AI \u77e5\u8bc6\u5e93 \u2014 \u4ece\u6587\u732e\u9605\u8bfb\u5230 Stata \u6267\u884c\uff0c\u4e00\u6761\u6d41\u6c34\u7ebf\u4e32\u5230\u5e95\u3002\u57fa\u4e8e Karpathy \u7684 LLM-Wiki \u7406\u5ff5\uff0c\u6309\u5b9e\u8bc1\u7814\u7a76 10 \u7c7b\u5b9e\u4f53\uff08\u53d8\u91cf / \u6570\u636e\u96c6 / \u6a21\u578b / \u673a\u5236 / \u5047\u8bbe / \u8bc6\u522b\u7b56\u7565 / \u7a33\u5065\u6027 / \u5f02\u8d28\u6027 / \u8868\u683c / \u8bba\u6587\uff09\u5b9a\u5236"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:antonbarr-data/dqt",
+    "title": "antonbarr-data/dqt \u2014 A Data Quality Tool that tells you what and surfaces the why",
+    "url": "https://github.com/antonbarr-data/dqt",
+    "summary": "A Data Quality Tool that tells you what and surfaces the why",
+    "authors": [],
+    "published": "2026-05-14T16:16:08Z",
+    "extras": {
+      "stars": 7,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A Data Quality Tool that tells you what and surfaces the why"
+  }
+]
