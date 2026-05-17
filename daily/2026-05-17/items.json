@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github_release",
+    "source_name": "py-why/causal-learn releases",
+    "id": "ghrel:py-why/causal-learn:0.1.4.6",
+    "title": "py-why/causal-learn 0.1.4.6 \u2014 causal-learn 0.1.4.6",
+    "url": "https://github.com/py-why/causal-learn/releases/tag/0.1.4.6",
+    "summary": "Add RLCD for causal discovery with hidden variables",
+    "authors": [],
+    "published": "2026-05-17T14:25:58",
+    "extras": {
+      "repo": "py-why/causal-learn",
+      "tag": "0.1.4.6",
+      "prerelease": false
+    },
+    "score": 55,
+    "topic": "other",
+    "why_relevant": "+25 source-type",
+    "llm_summary": "Add RLCD for causal discovery with hidden variables"
+  }
+]
