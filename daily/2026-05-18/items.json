@@ -1,0 +1,22 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: uplift modeling",
+    "id": "s2:48b2ad924a345ab1611ce86ea8138ac6a66d20d6",
+    "title": "A Large Scale Benchmark for Uplift Modeling",
+    "url": "https://www.semanticscholar.org/paper/48b2ad924a345ab1611ce86ea8138ac6a66d20d6",
+    "summary": "",
+    "authors": [
+      "E. Diemert"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "uplift modeling"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "A Large Scale Benchmark for Uplift Modeling"
+  }
+]
