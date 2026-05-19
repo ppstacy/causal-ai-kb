@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-05-19</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-19/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-19/</guid>
+      <pubDate>Tue, 19 May 2026 13:00:00 +0000</pubDate>
+      <description>1. Offline Contextual Bandits in the Presence of New Actions — Uplift / HTE · score 98 · arXiv cs.LG · Ren Kishimoto, Tatsuhiro Shimizu, Kazuki Kawamura, Takanori Muroi et al. (9 authors)
+2. Estimating Item Difficulty with Large Language Models as Experts — Causal LMs · score 60 · arXiv stat.ME · Diana Kolesnikova, Kirill Fedyanin, Abe D. Hofman, Matthieu J. S. Brinkhuis et al. (5 authors)
+3. Sensitivity analysis for causal mediation: bridge score, sharp sensitivity bounds, and calibration — Causal Inference · score 56 · arXiv stat.ME · Yuki Ohnishi, Fan Li
+4. Stable Causal Discovery via Directed Acyclic Graph Aggregation — Uplift / HTE · score 52 · arXiv stat.ML · Yunan Wu, Yue Wang, Chunlin Li, Chenglong Ye
+5. Adaptive Experimentation for Censored Survival Outcomes — Experimentation · score 52 · arXiv stat.ML · Yuxin Wang, Dennis Frauen, Jonas Schweisthal, Maresa Schröder et al. (6 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-18</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-18/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-18/</guid>
