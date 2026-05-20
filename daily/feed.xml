@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-05-20</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-20/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-20/</guid>
+      <pubDate>Wed, 20 May 2026 13:00:00 +0000</pubDate>
+      <description>1. Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents — Causal LMs · score 56 · arXiv cs.CL · Wenjie Tang, Minne Li, Sijie Huang, Liquan Xiao et al. (5 authors)
+2. Component over Composite: Mitigating Type I Error Inflation when Imputing "Days Alive and at Home" — Uplift / HTE · score 52 · arXiv stat.ME · Mia S. Tackney, Sarah Dawson, Letao Yuan, Dominique-Laurent Couturier et al. (5 authors)
+3. Identifying Interventional Joint Distributions via Extended Bridge Functions — Causal Inference · score 52 · arXiv stat.ME · Constantin Schott
+4. Estimating treatment duration effects via clone-censor-weight: a breast cancer case study — Uplift / HTE · score 52 · arXiv stat.ME · Charlotte Voinot, Noémie Simon-Tillaux, Emma Torrini, Stefan Michiels et al. (7 authors)
+5. PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents — Causal LMs · score 52 · arXiv cs.LG · Zhuohan Gu, Qizheng Zhang, Omar Khattab, Samuel Madden</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-19</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-19/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-19/</guid>
