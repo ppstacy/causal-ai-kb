@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-05-21</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-21/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-21/</guid>
+      <pubDate>Thu, 21 May 2026 13:00:00 +0000</pubDate>
+      <description>1. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
+2. Metaphors in Literary Post-Editing: Opening Pandora's Box? — Causal LMs · score 60 · arXiv cs.CL · Aletta G. Dorst, Mayra O. Nas, Katinka Zeven
+3. TCARD: Nearly Balanced Two-Level Designs with Treatment Cardinality Constraints with an Application to LLM Prompt Engineering — Causal LMs · score 56 · arXiv stat.ME · Kexin Xie, Ryan Lekivetz, Xinwei Deng
+4. TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization — Causal LMs · score 56 · arXiv cs.LG · Lucheng Fu, Ye Yu, Yiyang Wang, Yiqiao Jin et al. (7 authors)
+5. Mem-$π$: Adaptive Memory through Learning When and What to Generate — Causal LMs · score 56 · arXiv cs.CL · Xiaoqiang Wang, Chao Wang, Hadi Nekoei, Christopher Pal et al. (8 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-20</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-20/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-20/</guid>
