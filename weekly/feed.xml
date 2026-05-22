@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W21</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W21/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W21/</guid>
+      <pubDate>Fri, 22 May 2026 22:00:00 +0000</pubDate>
+      <description>1. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
+2. Offline Contextual Bandits in the Presence of New Actions — Uplift / HTE · score 98 · arXiv cs.LG · Ren Kishimoto, Tatsuhiro Shimizu, Kazuki Kawamura, Takanori Muroi et al. (9 authors)
+3. Metaphors in Literary Post-Editing: Opening Pandora's Box? — Causal LMs · score 60 · arXiv cs.CL · Aletta G. Dorst, Mayra O. Nas, Katinka Zeven
+4. Estimating Item Difficulty with Large Language Models as Experts — Causal LMs · score 60 · arXiv stat.ME · Diana Kolesnikova, Kirill Fedyanin, Abe D. Hofman, Matthieu J. S. Brinkhuis et al. (5 authors)
+5. TCARD: Nearly Balanced Two-Level Designs with Treatment Cardinality Constraints with an Application to LLM Prompt Engineering — Causal LMs · score 56 · arXiv stat.ME · Kexin Xie, Ryan Lekivetz, Xinwei Deng</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W20</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W20/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W20/</guid>
