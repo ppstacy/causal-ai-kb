@@ -6,6 +6,16 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-05-22</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-22/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-22/</guid>
+      <pubDate>Fri, 22 May 2026 13:00:00 +0000</pubDate>
+      <description>1. Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation — Causal LMs · score 52 · arXiv stat.ML · Samson Gourevitch, Yazid Janati, Dario Shariatian, Umut Simsekli et al. (7 authors)
+2. The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning — Other · score 48 · arXiv stat.ML · Vishal Rajput
+3. Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models — Other · score 48 · arXiv stat.ML · Krishnakumar Balasubramanian
+4. Proxy-Based Approximation of Shapley and Banzhaf Interactions — Other · score 48 · arXiv stat.ML · Santo M. A. R. Thies, Hubert Baniecki, R. Teal Witter, Eyke Hüllermeier et al. (6 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-21</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-21/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-21/</guid>
