@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-05-26</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-26/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-26/</guid>
+      <pubDate>Tue, 26 May 2026 13:00:00 +0000</pubDate>
+      <description>1. Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning — Causal LMs · score 60 · arXiv cs.LG · Jun-Tao Tang, Yu-Cheng Shi, Zhen-Hao Xie, Da-Wei Zhou
+2. Causal methods for LLM development and evaluation — Causal LMs · score 60 · arXiv cs.LG · Dennis Frauen, Marie Brockschmidt, Konstantin Hess, Haorui Ma et al. (13 authors)
+3. When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills — Causal LMs · score 56 · arXiv cs.CL · Yunfei Wang, Xiaohao Xu, Yang Li, Xiaonan Huang
+4. Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing — Causal LMs · score 52 · arXiv cs.LG · Michał Brzozowski, Zuzanna Dubanowska, Enrico Cassano, Neo Christopher Chung
+5. Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning — Uplift / HTE · score 52 · arXiv cs.LG · Manuel Noseda, Nathan Soldati, Marco Paina</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-25</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-25/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-25/</guid>

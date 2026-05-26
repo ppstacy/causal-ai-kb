@@ -1,0 +1,802 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26110v1",
+    "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning",
+    "url": "http://arxiv.org/abs/2605.26110v1",
+    "summary": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requires continuous adaptation to emerging tasks, motivating Multimodal Continual Instruction Tuning (MCIT). Despite its growing importance, current MCIT research is hindered by severe engineering bottlenecks. Existing methods are typically implemented by directly modifying the base MLLM codebase, which imposes substantial implementation overhead and yields method-specific architectures that severely limit code reuse and fair comparison. To address this, we introduce Prism, a plug-in reproducible codebase specifically designed for scalable MCIT research. It separates algorithmic development from the backbone implementation via a lightweight plugin registration mechanism, enabling new strategies to be integrated as independent plugins without modifying the underlying MLLM codebase, thereby eliminating structural fragmentation and accelerating method development. Prism natively supports widely used large-scale training pipeline, thereby enabling reproducible and scalable MCIT experimentation. Code is available at https://github.com/LAMDA-CL/Prism.",
+    "authors": [
+      "Jun-Tao Tang",
+      "Yu-Cheng Shi",
+      "Zhen-Hao Xie",
+      "Da-Wei Zhou"
+    ],
+    "published": "2026-05-25T17:59:28",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Multimodal Large Language Models (MLLMs) achieve versatility by reformulating diverse tasks into a unified instruction-following framework via instruction tuning. However, real-world deployment requires continuous adaptation to emerging tasks, motivating Multimodal Continual Instruction Tuning (MCIT). Despite its growing importance, current MCIT research is hindered by severe engineering\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25998v1",
+    "title": "Causal methods for LLM development and evaluation",
+    "url": "http://arxiv.org/abs/2605.25998v1",
+    "summary": "Large language model (LLM) development is currently driven by large-scale empirical iteration over data mixtures, reward models, routing strategies, and evaluation pipelines. Here, we argue that many central questions in LLM development and evaluation are inherently causal: What is the effect of adding a data domain during pretraining? How do annotator preferences change when LLMs generate text in a different style? Should a prompt be routed to a larger or smaller model given inference cost constraints? In general, causal methods are well-suited to such settings where interventions change outcomes but, surprisingly, are underrepresented in LLM development. Our contribution is threefold: (1) We explain how causal methods can help develop modern LLM development and evaluation: LLM development relies heavily on logged data, which are often subject to confounding and distribution shifts; evaluation uses learned but potentially biased judges; and deployment environments are non-stationary. These conditions make purely predictive approaches fragile and create opportunities for principled identification and estimation methods from causal inference. (2) We further map opportunities for causal methods in the entire LLM development pipeline, including pretraining, alignment, routing, agentic workflows, and evaluation. (3) We discuss new research opportunities around leveraging causal methods for LLM development and evaluation. Overall, we argue that causal methods are potentially underutilized for the LLM development and evaluation pipeline, despite the fact that such methods can ensure a reliable and scientifically grounded design.",
+    "authors": [
+      "Dennis Frauen",
+      "Marie Brockschmidt",
+      "Konstantin Hess",
+      "Haorui Ma",
+      "Yuchen Ma",
+      "Abdurahman Maarouf",
+      "Maresa Schr\u00f6der",
+      "Jonas Schweisthal",
+      "Yuxin Wang",
+      "Athiya Deviyani",
+      "Sonali Parbhoo",
+      "Rahul G. Krishnan",
+      "Stefan Feuerriegel"
+    ],
+    "published": "2026-05-25T16:15:44",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Large language model (LLM) development is currently driven by large-scale empirical iteration over data mixtures, reward models, routing strategies, and evaluation pipelines. Here, we argue that many central questions in LLM development and evaluation are inherently causal: What is the effect of adding a data domain during pretraining? How do annotator preferences change when LLMs generate text\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.25832v1",
+    "title": "When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills",
+    "url": "http://arxiv.org/abs/2605.25832v1",
+    "summary": "Large language models (LLMs) are increasingly used as proposal generators for evolutionary robot design, yet most loops remain memoryless: simulator results shape the next population but are not preserved as reusable design knowledge. We present Auto-Robotist, a self-evolving LLM agent that distills morphology-search traces into an explicit natural-language skill library. Each skill stores a structural archetype, evidence-grounded positive and negative rules, and the evaluated designs that support them, making design memory inspectable rather than implicit in a population. During search, the agent retrieves skills to condition LLM edits of elite bodies while retaining a Genetic Algorithm (GA) mutation path for exploration; after evaluation, it updates the library through Add, Diagnose, and Merge. Across seven EvoGym tasks spanning locomotion, traversal, and object interaction, Auto-Robotist improves cold-start 5x5 search and transfers learned skills to 10x10 design spaces, where reference-conditioned transfer outperforms GA on every task. These results suggest that LLM agents can convert expensive physical evaluations into reusable, auditable design principles. Our code will be released upon acceptance.",
+    "authors": [
+      "Yunfei Wang",
+      "Xiaohao Xu",
+      "Yang Li",
+      "Xiaonan Huang"
+    ],
+    "published": "2026-05-25T13:29:45",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.RO"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) are increasingly used as proposal generators for evolutionary robot design, yet most loops remain memoryless: simulator results shape the next population but are not preserved as reusable design knowledge. We present Auto-Robotist, a self-evolving LLM agent that distills morphology-search traces into an explicit natural-language skill library. Each skill stores a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25902v1",
+    "title": "Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing",
+    "url": "http://arxiv.org/abs/2605.25902v1",
+    "summary": "Narrowly finetuned language models memorize implanted content verbatim, but auditing what a deployed model has been taught, without access to its weights or training data, remains an open challenge. Recent work shows that activation differences between base and finetuned models carry readable traces of the finetuning domain; the state-of-the-art Activation Difference Lens (ADL) recovers a vague domain-level description but requires full \"white-box\" access to model internals. We introduce Contrastive Decoding Diffing (CDD), a model diffing method that operates on output-level logit distributions only, with no weight access, no layer selection, and no per-model tuning, yet recovers implanted facts. CDD consists of three ideas: bypassing the chat template to expose the raw finetuning prior, seeding generation with maximally vague pre-fills, and amplifying the logit-space difference between finetuned and base models at each decoding step. A single default configuration recovers implanted facts verbatim -- exact drug names, vote counts, physical measurements, and procedural details -- across four architectures (1B--32B parameters), uniformly outperforming ADL despite less access and running ~170x faster. Furthermore, CDD surfaces unintended data pipeline artifacts: a fictional persona introduced by the LLM data generator via mode collapse leaked into model weights and was extracted by CDD, constituting to our knowledge the first demonstrated end-to-end fingerprinting chain from data generator artifact to model weights to recovered output. We validate on real-domain finetuning settings, achieving near-perfect recovery across all single-dataset non-CoT variants and correctly identifying all four datasets in the mixed-dataset setting. CDD's success as a grey-box method outperforming white-box baselines underscores its practical utility for transparency and accountability in AI systems.",
+    "authors": [
+      "Micha\u0142 Brzozowski",
+      "Zuzanna Dubanowska",
+      "Enrico Cassano",
+      "Neo Christopher Chung"
+    ],
+    "published": "2026-05-25T14:29:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Narrowly finetuned language models memorize implanted content verbatim, but auditing what a deployed model has been taught, without access to its weights or training data, remains an open challenge. Recent work shows that activation differences between base and finetuned models carry readable traces of the finetuning domain; the state-of-the-art Activation Difference Lens (ADL) recovers a vague\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25894v1",
+    "title": "Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning",
+    "url": "http://arxiv.org/abs/2605.25894v1",
+    "summary": "Predicting stock price movements during Earnings Announcements (EAs) is a significant challenge due to market noise and high-impact price discontinuities. In this study, we evaluate whether pre-announcement news sentiment, firm fundamentals, and recent market dynamics jointly predict the directional price movement of equities on EA days. We construct a multi-modal feature space combining 15 fundamental metrics, 3 price-based technical indicators and sentiment scores derived from financial news articles processed using FinBERT. We compare a Long Short-Term Memory (LSTM) network and a Transformer-based architecture against a logistic regression baseline, and further assess all models with and without sentiment features to quantify their incremental value. Our results indicate that while the LSTM demonstrates higher precision through a conservative safe-bet strategy, the Transformer model exhibits superior sensitivity in identifying volatile movements, achieving a higher macro F1-score, with ablation experiments showing a consistent benefit from incorporating news sentiment.",
+    "authors": [
+      "Manuel Noseda",
+      "Nathan Soldati",
+      "Marco Paina"
+    ],
+    "published": "2026-05-25T14:25:25",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Predicting stock price movements during Earnings Announcements (EAs) is a significant challenge due to market noise and high-impact price discontinuities. In this study, we evaluate whether pre-announcement news sentiment, firm fundamentals, and recent market dynamics jointly predict the directional price movement of equities on EA days. We construct a multi-modal feature space combining 15\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25864v1",
+    "title": "When Self-Belief Misleads: Active Label Acquisition for Reinforcement Learning with Verifiable Rewards",
+    "url": "http://arxiv.org/abs/2605.25864v1",
+    "summary": "Large Language Models (LLMs) have achieved remarkable advancements in reasoning capabilities empowered by Reinforcement Learning with Verifiable Rewards (RLVR). Nonetheless, RLVR intrinsically relies on ground-truth labels for reward computation, the acquisition of which is often prohibitively expensive in real-world scenarios. While unsupervised RLVR paradigms attempt to circumvent this by training on pseudo-labels, they are notoriously susceptible to training collapse. Moreover, different samples often exhibit varying annotation values. In this paper, we propose Reinforcement Learning with Active Verifiable Rewards (RLAVR), which actively acquires ground-truth labels for a small set of selected samples and integrates them with pseudo-labels, thereby stabilizing training dynamics and improving performance under limited annotation budgets. To identify valuable samples, we propose the Corrective Advantage Gap (CAG) metric and analyze the sample-level supervision value. Building on this, we introduce Correction-Aware Reliability Estimation for RLAVR (CARE), which translates the oracle CAG criterion into a practical pre-query acquisition policy to substantially improve training stability. Extensive experiments across diverse domains, model families, and model scales demonstrate the effectiveness and generality of our approach. Our code is available at https://github.com/Lumina04/CARE.",
+    "authors": [
+      "Li Wang",
+      "Xiaodong Lu",
+      "Xiaohan Wang",
+      "Yikun Ban",
+      "Jiajun Chai",
+      "Wei Lin",
+      "Tianhao Peng",
+      "Guojun Yin"
+    ],
+    "published": "2026-05-25T13:55:12",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large Language Models (LLMs) have achieved remarkable advancements in reasoning capabilities empowered by Reinforcement Learning with Verifiable Rewards (RLVR). Nonetheless, RLVR intrinsically relies on ground-truth labels for reward computation, the acquisition of which is often prohibitively expensive in real-world scenarios. While unsupervised RLVR paradigms attempt to circumvent this by\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25831v1",
+    "title": "Clarify, Abstain or Answer? Strategising in Conversation with Belief-Augmented Generation",
+    "url": "http://arxiv.org/abs/2605.25831v1",
+    "summary": "Large language models (LLMs) define a distribution over text, which can be viewed as a probabilistic representation of uncertainty: sampling K responses yields a belief state - responses a model deems plausible. Existing work exploits this representation for narrow tasks like either decoding or selective prediction, and often requires manual interventions, not controlling generation directly. We propose Belief-Augmented Generation (BAG): grounding LLMs in their own belief state via the prompt and letting them reason over these K samples to decide on a conversational strategy: answer, clarify, or abstain. In a multi-turn ambiguous QA setting, we find that LLMs by default rarely clarify or abstain, ignoring uncertainty about the input or facts. BAG improves QA accuracy across six models and yields strategy decisions more faithful to the belief state than prompt-only baselines. Disentangling when to clarify from when to abstain, however, remains challenging.",
+    "authors": [
+      "Joris Baan",
+      "Wilker Aziz",
+      "Barbara Plank",
+      "Raquel Fern\u00e1ndez"
+    ],
+    "published": "2026-05-25T13:29:02",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) define a distribution over text, which can be viewed as a probabilistic representation of uncertainty: sampling K responses yields a belief state - responses a model deems plausible. Existing work exploits this representation for narrow tasks like either decoding or selective prediction, and often requires manual interventions, not controlling generation directly. We\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.26070v1",
+    "title": "WhoSaidIt: Human-LLM Collaborative Annotation for Text-Based Multilingual Speaker-Attribute Classification",
+    "url": "http://arxiv.org/abs/2605.26070v1",
+    "summary": "Annotating speaker attributes from text is inherently ambiguous, particularly in multilingual settings where demographic and social cues are implicit and culturally variable. We propose a human-large language model (LLM) collaborative re-annotation framework for stabilizing multilingual speaker-attribute labels under practical resource constraints. Starting from a noisy corpus, we use LLMs to surface recurring annotation rationales through iterative interaction with experts, and apply disagreement-focused sampling for targeted re-annotation. Using this framework, we construct WhoSaidIt, a multilingual dataset covering nine speaker-attribute labels. We quantify divergence between original and revised annotations, benchmark recent LLMs, and analyze the effect of explicit rationales on model behavior. Our results reveal substantial cross-lingual differences in annotation decisions and demonstrate both the strengths and limitations of LLMs in speaker-attribute classification.",
+    "authors": [
+      "Lingyu Gao",
+      "Will Monroe",
+      "David Smith",
+      "Meghan Jemison",
+      "Jackie Lee"
+    ],
+    "published": "2026-05-25T17:37:45",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Annotating speaker attributes from text is inherently ambiguous, particularly in multilingual settings where demographic and social cues are implicit and culturally variable. We propose a human-large language model (LLM) collaborative re-annotation framework for stabilizing multilingual speaker-attribute labels under practical resource constraints. Starting from a noisy corpus, we use LLMs to\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.25969v1",
+    "title": "Triplet-Block Diffusion RWKV",
+    "url": "http://arxiv.org/abs/2605.25969v1",
+    "summary": "Causal Transformer language models suffer from strictly sequential decoding and a quadratic per-step attention cost. While linear-time causal models and discrete diffusion models each address these weaknesses, their integration remains inherently inconsistent: diffusion requires bidirectional attention, while causal models are unidirectional. To unify these architectures, we propose $B^3D-RWKV$, a diffusion RWKV variant that integrates the model's $O(L)$ inference efficiency with parallel, bidirectional discrete-diffusion through a \\emph{triplet-block layout} method. $B^3D-RWKV-7.2B$ reaches comparable accuracy on an 8-task suite versus existing models while significantly outperforming baselines in decoding throughput with an average of $\\mathbf{1.6\\times}$ speedup.",
+    "authors": [
+      "Ke Lin",
+      "Yiyang Luo",
+      "Zhaolong Su",
+      "Yunya Song",
+      "Anyi Rao"
+    ],
+    "published": "2026-05-25T15:44:41",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Causal Transformer language models suffer from strictly sequential decoding and a quadratic per-step attention cost. While linear-time causal models and discrete diffusion models each address these weaknesses, their integration remains inherently inconsistent: diffusion requires bidirectional attention, while causal models are unidirectional. To unify these architectures, we propose $B^3D-RWKV$,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.25891v1",
+    "title": "Causal Tongue-Tie: LLMs Can Encode Causal Direction, But Their Yes/No Outputs Fail to Express",
+    "url": "http://arxiv.org/abs/2605.25891v1",
+    "summary": "We find a mismatch between what large language models encode about a causal question and what they answer. On anti-commonsense CLadder items, a fixed linear probe recovers the evidence-supported answer from the model's hidden state (accuracy approximately 0.97), while the spoken Yes/No reverts to the commonsense one (accuracy approximately 0.5). We call this approximately +0.5 gap Causal Tongue-Tie: a wrong Yes/No decomposes into two separable failure modes: no internal signal versus a signal the verbal interface cannot say. The implication cuts both ways for output-only causal benchmarks: a benchmark \"correct\" need not mean the model has understood, and a benchmark \"wrong\" need not mean it cannot. Sweeping claims about whether LLMs can do causal reasoning, drawn from a single accuracy number, deserve a second look.",
+    "authors": [
+      "Ziyi Ding",
+      "Xiao-Ping Zhang"
+    ],
+    "published": "2026-05-25T14:19:51",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "We find a mismatch between what large language models encode about a causal question and what they answer. On anti-commonsense CLadder items, a fixed linear probe recovers the evidence-supported answer from the model's hidden state (accuracy approximately 0.97), while the spoken Yes/No reverts to the commonsense one (accuracy approximately 0.5). We call this approximately +0.5 gap Causal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25819v1",
+    "title": "On Reliability of Efficient Membership Inference Vulnerability Evaluation",
+    "url": "http://arxiv.org/abs/2605.25819v1",
+    "summary": "Membership inference attacks (MIAs) are popular methods for empirically assessing the leakage of sensitive information in the training data through models or statistics learned from the data. The MIA vulnerability is often evaluated through false positive rate (FPR) and true positive rate (TPR) of a binary classifier that tries to predict whether a particular sample was in the training data. However, in order to reliably estimate the TPR especially for low FPR values, a lot of observations are needed, which in case of MIA translates to many target models, leading to large computational cost. To avoid excessive compute requirements, the MIA scores are often averaged over multiple individuals and multiple targeted models. We demonstrate two key weaknesses in this efficient MIA evaluation pipeline. First, we show that evaluating the TPR based on MIA scores concatenated across multiple individuals, commonly used to study vulnerabilities in the very low FPR regime, is not calibrated across the per-sample FPRs. This makes it unreliable as a tool for auditing differential privacy. To solve this, we propose a post-processing method to effectively calibrate the FPR across different samples. Second, we identify a finite population bias in the commonly used efficient likelihood-ratio attack (LiRA) implementation proposed by Carlini et al. 2022, leading to a positive bias in the per-sample vulnerability.",
+    "authors": [
+      "Joonas J\u00e4lk\u00f6",
+      "Gauri Pradhan",
+      "Ossi R\u00e4is\u00e4",
+      "Antti Honkela"
+    ],
+    "published": "2026-05-25T13:16:39",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Membership inference attacks (MIAs) are popular methods for empirically assessing the leakage of sensitive information in the training data through models or statistics learned from the data. The MIA vulnerability is often evaluated through false positive rate (FPR) and true positive rate (TPR) of a binary classifier that tries to predict whether a particular sample was in the training data.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.26029v1",
+    "title": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists",
+    "url": "http://arxiv.org/abs/2605.26029v1",
+    "summary": "We introduce CausaLab, a scalable environment for evaluating interactive causal discovery by LLM agents. Unlike prior evaluations, CausaLab evaluates both whether an agent can solve a problem using causal evidence and whether its answer is supported by a correct hypothesis about the underlying causal mechanism. Each episode places an agent in a synthetic laboratory: it receives prior measurement records, intervenes on a manipulator crystal, and predicts the resonance frequency of a held-out reactor crystal governed by the same mechanism. The hidden data-generating process is a randomly sampled structural causal model (SCM), so success requires recovering both a causal graph and structural equations rather than recalling prior knowledge. CausaLab also includes a domain-specific language that records the agent's evolving SCM hypothesis, making trajectories inspectable and comparable with ground truth. Experiments show a persistent gap between prediction and mechanism recovery: in the purely observational 6-node setting, GPT-5.2-high reaches 92% task accuracy but only 0.471 all-edge $F_1$. This observation further motivates our exploration of different interaction strategies: Mixed observation--intervention strategies improve structural fidelity: in the mixed 6-node setting, GPT-5.2-high achieves 80% on both task accuracy and all-edge $F_1$. Yet even strong agents struggle to design informative interventions, as pure intervention strategies perform poorly on both task accuracy and all-edge $F_1$. We identify premature stopping as a major weakness of agents, and show that asking the model to verify the consistency between its hypothesis and past data can help mitigate this issue. CausaLab therefore separates predictive success from causal understanding and exposes current LLM agents' limits as experimental causal reasoners.",
+    "authors": [
+      "Junlin Yang",
+      "Dylan Zhang",
+      "Xiangchen Song",
+      "Qirun Dai",
+      "Xiao Liu",
+      "Yuen Chen",
+      "Aniket Vashishtha",
+      "Jing Shi",
+      "Chenhao Tan",
+      "Hao Peng"
+    ],
+    "published": "2026-05-25T16:57:06",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "We introduce CausaLab, a scalable environment for evaluating interactive causal discovery by LLM agents. Unlike prior evaluations, CausaLab evaluates both whether an agent can solve a problem using causal evidence and whether its answer is supported by a correct hypothesis about the underlying causal mechanism. Each episode places an agent in a synthetic laboratory: it receives prior measurement\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.25842v1",
+    "title": "MuCRASP: Multimodal Chain-of-thought Reasoning aware Structured Pruning",
+    "url": "http://arxiv.org/abs/2605.25842v1",
+    "summary": "Vision-language models (VLMs) increasingly rely on chain-of-thought (CoT) reasoning to solve complex multimodal tasks, but their large parameter sizes make deployment expensive. Structured pruning offers a natural solution; however, existing methods fail to preserve CoT reasoning accuracy in VLMs. We identify two key reasons: (1) CoT consistency depends on sparse transition points (pivot tokens) in the generation trajectory, while existing pruning methods are CoT-agnostic; and (2) pruning methods designed for unimodal LLMs do not account for activation-distribution differences across visual and textual modalities. Motivated by these observations, we propose MuCRASP, a structured pruning framework that targets reasoning-critical components while preserving cross-modal alignment and accounting for layer-wise sensitivity under a global parameter budget. Experiments on four VLMs across three reasoning benchmarks show that MuCRASP consistently preserves reasoning quality under increasing compression. At 30% pruning on Qwen2.5-VL-7B, MuCRASP achieves an LLM-as-a-Judge score of 8.87 versus 7.32 for the strongest baseline on physical reasoning tasks. Furthermore, MuCRASP maintains high reasoning consistency up to 50% pruning, significantly outperforming prior pruning approaches while exhibiting lower perplexity degradation.",
+    "authors": [
+      "Aritra Dutta",
+      "Somak Aditya"
+    ],
+    "published": "2026-05-25T13:36:46",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Vision-language models (VLMs) increasingly rely on chain-of-thought (CoT) reasoning to solve complex multimodal tasks, but their large parameter sizes make deployment expensive. Structured pruning offers a natural solution; however, existing methods fail to preserve CoT reasoning accuracy in VLMs. We identify two key reasons: (1) CoT consistency depends on sparse transition points (pivot tokens)\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26087v1",
+    "title": "DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking",
+    "url": "http://arxiv.org/abs/2605.26087v1",
+    "summary": "Frontier LLMs now perform strongly across a wide range of physics evaluations, but it is hard to disentangle genuine reasoning from recall of established science. We introduce DiscoverPhysics, an interactive benchmark that asks a LLM agent to discover the laws of motion of a simulated world whose physics deliberately deviates from our own. We construct 22 worlds governed by, among others, screened and fractional-power gravity, multi-species couplings, hidden dark-matter-like particles, non-coordinate-free physics, and time-varying interactions. Each world is generated on demand by an N-body simulator, for which the agent proposes several rounds of experiments, observes raw trajectory data, and ultimately submits both a natural-language explanation of the world's physics and a Python implementation of the inferred law. Because solving a world requires the agent to design informative experiments and revise its hypotheses, the benchmark probes long-horizon reasoning over an experimental history. We evaluate submissions along two complementary axes: trajectory MSE on held-out particles and an LLM-judged explanation score following an expert-written rubric assessing conceptual understanding of each world. Across eleven frontier models, we find that the strongest agents pass only half of the worlds and consistently fail on those where latent structure must be uncovered. Open-source models lag substantially behind commercial models, both in their ability to design informative experiments and in extracting conclusions from the data. We further find that good predictive accuracy does not guarantee high explanation quality and that conceptual understanding depends on hypothesis refinement through well-chosen experiments.",
+    "authors": [
+      "Matt L. Wiemann",
+      "Lindsay M. Smith",
+      "Peter Melchior",
+      "Siddharth Mishra-Sharma",
+      "Andrew Gordon Wilson",
+      "Pavel Izmailov",
+      "Carolina Cuesta-L\u00e1zaro"
+    ],
+    "published": "2026-05-25T17:50:07",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "stat.ML"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Frontier LLMs now perform strongly across a wide range of physics evaluations, but it is hard to disentangle genuine reasoning from recall of established science. We introduce DiscoverPhysics, an interactive benchmark that asks a LLM agent to discover the laws of motion of a simulated world whose physics deliberately deviates from our own. We construct 22 worlds governed by, among others,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26067v1",
+    "title": "Conditional KRR: Injecting Unpenalized Features into Kernel Methods with Applications to Kernel Thresholding",
+    "url": "http://arxiv.org/abs/2605.26067v1",
+    "summary": "Conditionally positive definite (CPD) kernels are defined with respect to a function class $\\mathcal{F}$. It is well known that such a kernel $K$ is associated with its native space (defined analogously to an RKHS), which in turn gives rise to a learning method -- called conditional kernel ridge regression (conditional KRR) due to its analogy with KRR -- where the estimated regression function is penalized by the square of its native space norm. This method is of interest because it can be viewed as classical linear regression, with features specified by $\\mathcal{F}$, followed by the application of standard KRR to the residual (unexplained) component of the target variable. Methods of this type have recently attracted increasing attention.   We study the statistical properties of this method by reducing its behavior to that of KRR with another fixed kernel, called the residual kernel. Our main theoretical result shows that such a reduction is indeed possible, at the cost of an additional term in the expected test risk, bounded by $\\mathcal{O}(1/\\sqrt{N})$, where $N$ is the sample size and the hidden constant depends on the class $\\mathcal{F}$ and the input distribution.   This reduction enables us to analyze conditional KRR in the case where $K$ is positive definite and $\\mathcal{F}$ is given by the first $k$ principal eigenfunctions in the Mercer decomposition of $K$. We also consider the setting where $\\mathcal{F}$ consists of $k$ random features from a random feature representation of $K$. It turns out that these two settings are closely related. Both our theoretical analysis and experiments confirm that conditional KRR outperforms standard KRR in these cases whenever the $\\mathcal{F}$-component of the regression function is more pronounced than the residual part.",
+    "authors": [
+      "Rustem Takhanov",
+      "Zhenisbek Assylbekov"
+    ],
+    "published": "2026-05-25T17:31:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Conditionally positive definite (CPD) kernels are defined with respect to a function class $\\mathcal{F}$. It is well known that such a kernel $K$ is associated with its native space (defined analogously to an RKHS), which in turn gives rise to a learning method -- called conditional kernel ridge regression (conditional KRR) due to its analogy with KRR -- where the estimated regression function is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26036v1",
+    "title": "CITYREP: A Unified Benchmark for Urban Representations Across Cities, Tasks, and Modalities",
+    "url": "http://arxiv.org/abs/2605.26036v1",
+    "summary": "Urban representation learning encodes complex urban environments into general-purpose embeddings for diverse downstream tasks and emerging urban foundation models. However, current evaluations are limited, typically focusing on one or two cities and tasks and relying on random splits that introduce spatial leakage, leading to inflated performance and weak support for cross-location generalization and fair comparison. To address this, we propose CityRep, a unified benchmark that evaluates urban representations across data modalities, cities, and tasks using spatially structured splits. CityRep consists of three key components: (1) a spatial unit-agnostic evaluation framework that supports heterogeneous urban representations through a standardized alignment module; (2) a unified evaluation protocol using block-based spatial splits to mitigate spatial leakage and enable rigorous model comparison; and (3) an extensible multi-city, multi-task benchmark suite spanning 8 cities and 8 tasks across regression, classification, and distribution prediction. We evaluate 11 representative urban representation models. Results show that performance is highly sensitive to the split protocol, with random splits inflating scores and altering model rankings. We also observe substantial variability across cities and tasks, underscoring the need for generalization-aware evaluation. CityRep is released as a reproducible benchmark with datasets, evaluation pipelines, and diagnostic tools to facilitate fair comparison and support future research in urban representation learning towards urban foundation models.",
+    "authors": [
+      "Junyuan Liu",
+      "Xinglei Wang",
+      "Zichao Zeng",
+      "Jiazhuang Feng",
+      "Quan Qin",
+      "Ilya Ilyankou",
+      "Guangsheng Dong",
+      "Tao Cheng"
+    ],
+    "published": "2026-05-25T17:03:46",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Urban representation learning encodes complex urban environments into general-purpose embeddings for diverse downstream tasks and emerging urban foundation models. However, current evaluations are limited, typically focusing on one or two cities and tasks and relying on random splits that introduce spatial leakage, leading to inflated performance and weak support for cross-location generalization\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26032v1",
+    "title": "Everything at Every Scale: Scale-Invariant Diffusion with Continuous Super-Resolution",
+    "url": "http://arxiv.org/abs/2605.26032v1",
+    "summary": "Creating images from noise is image generation; reconstructing fine details from coarse inputs is super-resolution. Despite their practical differences, both can be understood as reversing information loss across scales. We introduce $\\textbf{SKILD}$, a $\\textbf{S}$cale-invariant $\\textbf{K}$-Space $\\textbf{I}$mage $\\textbf{L}$earning $\\textbf{D}$iffusion model that unifies generation and continuous super-resolution within a single unconditional framework. Both natural images and critical physical systems exhibit scale invariance, and we leverage it to design a forward process that attenuates image content from fine to coarse scales while injecting spectrum-matched Gaussian noise, making scale an explicit coordinate of the diffusion dynamics. The same trained reverse process performs generation and continuous super-resolution by varying only the starting timestep: $\\textit{no task-specific architecture, no conditioning branch, no classifier-free guidance, no retraining per scale factor}$. Empirically, SKILD reaches FID $2.65$ and Inception Score $9.63$ on unconditional CIFAR-10, performs $2\\times$--$8\\times$ super-resolution on ImageNet from a single unconditional checkpoint while outperforming conditional models across perceptual metrics, and reconstructs critical Ising models whose connected four-point correlations closely track the ground truth.",
+    "authors": [
+      "Zixin Jessie Chen",
+      "Zhuo Chen",
+      "Archer Wang",
+      "Jeff Gore",
+      "William T. Freeman",
+      "Congyue Deng",
+      "Marin Solja\u010di\u0107"
+    ],
+    "published": "2026-05-25T17:01:21",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Creating images from noise is image generation; reconstructing fine details from coarse inputs is super-resolution. Despite their practical differences, both can be understood as reversing information loss across scales. We introduce $\\textbf{SKILD}$, a $\\textbf{S}$cale-invariant $\\textbf{K}$-Space $\\textbf{I}$mage $\\textbf{L}$earning $\\textbf{D}$iffusion model that unifies generation and\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25966v1",
+    "title": "Mapping the Schedule x Bit-Width Boundary in Sub-100M Quantisation-Aware Training",
+    "url": "http://arxiv.org/abs/2605.25966v1",
+    "summary": "We test whether the optimal learning-rate schedule depends on bit-width during from-initialisation quantisation-aware training (QAT) for sub-100M decoder language models. A 720-run factorial grid (Phase 2) over bit-width x warmdown fraction x LR magnitude x model size x seed (FP16/INT8/INT6, 15M-100M, 5 seeds) finds the optimal warmdown is 33% at every (bit-width, size) cell. The primary hypothesis -- that INT6 QAT requires a different schedule than higher-precision training -- is falsified at FP16/INT8/INT6. A 625-run follow-up (Phase 5) probes the null along five axes: optimiser (AdamW), schedule shape (cosine), training length (up to 9x more iterations), an extended size sweep (5M-350M), and an INT4 sweep from 3M to 100M. The null is robust under all three setup changes. The INT6 penalty follows a log-linear scaling law whose fit on Phase 2 predicts the five held-out Phase 5 sizes (5M, 8M, 175M, 250M, 350M) within their 95% prediction intervals (5/5). For INT4 the picture is sharper than the higher precisions: at 50M and 100M, wd33 is decisively optimal (paired z ~ 12-15, 10/10 seeds); below 50M, across the six tested sizes from 3M to 30M, no individual size shows a statistically significant schedule preference and the per-size mean penalty oscillates within seed-level noise. The boundary is therefore a transition between a noise-dominated regime below 50M and a decisive wd33 regime at and above 50M, not a clean wd10 region. A weight-to-grid-distance probe falsifies the simplest mechanism for the FP16/INT8/INT6 null result (rapid grid-snapping): pre-warmdown, INT6-QAT weights sit at essentially the same distance from the INT6 grid as FP16 weights (ratio ~ 1.04). Practical recommendation: at sub-100M scale, tune the LR schedule once at FP16 and apply unchanged to INT8/INT6 QAT; for INT4 at 50M+ use wd33; for INT4 below 50M the schedule choice is in the noise.",
+    "authors": [
+      "Christian Brandt Thomassen"
+    ],
+    "published": "2026-05-25T15:42:34",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We test whether the optimal learning-rate schedule depends on bit-width during from-initialisation quantisation-aware training (QAT) for sub-100M decoder language models. A 720-run factorial grid (Phase 2) over bit-width x warmdown fraction x LR magnitude x model size x seed (FP16/INT8/INT6, 15M-100M, 5 seeds) finds the optimal warmdown is 33% at every (bit-width, size) cell. The primary\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25924v1",
+    "title": "Does Continued Pretraining on a Learner Corpus Improve Automated Essay Scoring on English Proficiency Tests? Evidence from EFCAMDAT",
+    "url": "http://arxiv.org/abs/2605.25924v1",
+    "summary": "Recent automated essay scoring (AES) studies increasingly use pretrained transformer models, but these models are usually pretrained on general-domain English and may under-represent second-language learner writing. This study investigates whether domain-adaptive continued pretraining (DAPT) on the EFCAMDAT learner corpus improves transformer-based AES for English proficiency tests. We apply DAPT to three transformer encoders and evaluate them on FCE and IELTS in both in-domain scoring and few-shot cross-dataset transfer. Full-corpus DAPT produces mixed results across models, datasets, and metrics. Further analyses suggest that these mixed effects are partly explained by mismatches in proficiency, genre, and communicative purpose between EFCAMDAT and the downstream datasets. A proficiency-based ablation shows that targeted DAPT using CEFR-aligned subsets improves downstream scoring more reliably than full-corpus DAPT, especially for FCE with B1--B2 data. However, these gains do not consistently improve cross-dataset transfer. Overall, the findings suggest that continued pretraining on a learner-writing corpus can benefit in-domain AES for English assessment when the pretraining data is sufficiently aligned with the downstream assessment settings. However, it does not automatically improve transferability across different English proficiency test datasets.",
+    "authors": [
+      "Duy Anh Nguyen"
+    ],
+    "published": "2026-05-25T15:04:37",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Recent automated essay scoring (AES) studies increasingly use pretrained transformer models, but these models are usually pretrained on general-domain English and may under-represent second-language learner writing. This study investigates whether domain-adaptive continued pretraining (DAPT) on the EFCAMDAT learner corpus improves transformer-based AES for English proficiency tests. We apply DAPT\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25916v1",
+    "title": "Joint Optimization of Training and Inference in Federated Edge Learning via Constrained Multi-Objective Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2605.25916v1",
+    "summary": "Federated edge learning (FEEL) has recently emerged as a promising paradigm for achieving edge intelligence (EI) via enabling collaborative model training across edge devices while protecting data privacy. In this paper, we put forth an online optimization framework that jointly manages federated training and inference on resource-constrained edge devices. We introduce a tandem-queue-inspired conversion mechanism that bridges inference requests and training data, and further incorporate both data and model freshness into the accuracy formulation to capture temporal dynamics in real-world environments. To maximize inference accuracy while minimizing latency and energy consumption, the mode selections, communication, and computation resource allocations of edge devices are jointly optimized. We formulate this optimization as a multi-objective optimization problem, which is NP-hard and further complicated by the online setting. To address these challenges, we transform the problem into a multi-objective Markov decision process (MOMDP) and develop a \\underline{c}onstrained \\underline{m}ulti-\\underline{o}bjective \\underline{p}roximal \\underline{p}olicy \\underline{o}ptimization (C-MOPPO) algorithm. Specifically, C-MOPPO first learns a set of policies with different preferences across three objectives, then leverages constrained policy optimization to enrich the Pareto front and obtain high-quality, dense solutions. Extensive experiments demonstrate that C-MOPPO achieves well-balanced trade-offs among objectives and significantly outperforms baselines under various system configurations.",
+    "authors": [
+      "Zhen Li",
+      "Jun Cai",
+      "Chao Yang",
+      "Haoran Gao"
+    ],
+    "published": "2026-05-25T14:51:07",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Federated edge learning (FEEL) has recently emerged as a promising paradigm for achieving edge intelligence (EI) via enabling collaborative model training across edge devices while protecting data privacy. In this paper, we put forth an online optimization framework that jointly manages federated training and inference on resource-constrained edge devices. We introduce a tandem-queue-inspired\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25848v1",
+    "title": "Geometric Evolution Maps: Extracting Stable Concept Probes from Transformer Residual Streams",
+    "url": "http://arxiv.org/abs/2605.25848v1",
+    "summary": "Concept probes extracted from transformer residual streams are only as reliable as the layer from which they are extracted. The common practice of probing at a fixed late layer or at the peak of a separation score function ignores a fundamental structural feature: concept representations undergo substantial directional rotation during their assembly phase, and do not settle into a stable direction until a characteristic handoff layer after the primary Concept Allocation Zone (CAZ). We introduce Geometric Evolution Maps (GEMs), which track the full directional trajectory of a concept through residual stream activations, identify the handoff layer where rotation ceases, and extract the settled probe direction from that layer. Across 23 architectures spanning 70M to 14B parameters and 17 concept types, the entry-to-exit cosine similarity within CAZs has a mean of 0.233, showing that probe direction at CAZ entry does not reliably predict probe direction at exit. Ablation experiments across 391 concept x model pairs (23 models x 17 concepts) show that GEM-extracted probes are at least as precise as peak-layer probes in 268/391 trials (68.5%), and strictly outperform in 259/391 (66.2%). The architecture split is pronounced: MHA models favour the handoff in 173/221 trials (78.3%); GQA models favour the handoff in only 56/119 trials (47.1%). Model-level Wilcoxon: W=214, N=23, p=0.010 (one-sided). An adaptive ablation width rule targets the 79/391 near-final-layer cases: it improves probe quality in 60/79 triggered cases (75.9%), mean gain +7.44pp. A direction-specificity control confirms the ablation effect is concept-direction specific: median 377x suppression rate versus random-direction ablation (99.1% of concept directions beat all 10 random seeds). Reference implementation: rosetta_tools v1.3.1 (doi:10.5281/zenodo.20361433).",
+    "authors": [
+      "James Henry"
+    ],
+    "published": "2026-05-25T13:40:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Concept probes extracted from transformer residual streams are only as reliable as the layer from which they are extracted. The common practice of probing at a fixed late layer or at the peak of a separation score function ignores a fundamental structural feature: concept representations undergo substantial directional rotation during their assembly phase, and do not settle into a stable\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25835v1",
+    "title": "Context-Instrumental Data Distillation for Kubernetes Manifest Generation: Method and Experimental Evaluation",
+    "url": "http://arxiv.org/abs/2605.25835v1",
+    "summary": "This paper examines the specialization of Small Language Models (SLMs) with up to 4 billion parameters for generating artifacts in domain-specific languages (DSL). Kubernetes manifests are chosen as the target domain. We propose the context-instrumental data distillation method: the source corpus is formed through synthetic generation and, in an extended scheme, through reverse instruction generation from real Kubernetes YAML files, with pairs included in training only upon passing external validators and matching the domain context model. Unlike classical KL-divergence knowledge distillation, the baseline implementation reduces to supervised fine-tuning on instrumentally verified examples. The experimental section presents a pilot implementation under resource-constrained conditions: the DeepSeek-V4 Flash API serves as the teacher for synthetic generation, while Qwen2.5-Coder-1.5B-Instruct is fine-tuned via LoRA on CPU. On the K8s-Distill-Pilot corpus (train_1200, validation_100, test_200), we achieved full-pass@1 = 91.5% (183/200) with a stricter prompt formulation and max_new_tokens=768. The key empirical finding is that for Kubernetes YAML, result quality in the pilot depended more on strict output format requirements than on simply increasing the number of training examples.",
+    "authors": [
+      "Andrey Kozachok",
+      "Anatoliy Bakaev",
+      "Aleksandr Kozachok",
+      "Shamil Magomedov",
+      "Artem Noev"
+    ],
+    "published": "2026-05-25T13:30:38",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "This paper examines the specialization of Small Language Models (SLMs) with up to 4 billion parameters for generating artifacts in domain-specific languages (DSL). Kubernetes manifests are chosen as the target domain. We propose the context-instrumental data distillation method: the source corpus is formed through synthetic generation and, in an extended scheme, through reverse instruction\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.26074v1",
+    "title": "StakeBench: Evaluating Language Understanding Grounded in Market Commitment",
+    "url": "http://arxiv.org/abs/2605.26074v1",
+    "summary": "Existing financial NLP benchmarks often rely on labels supplied by outside observers, measuring how language is perceived rather than what speakers have committed to in the market. We introduce StakeBench, an evaluation framework for language understanding grounded in market commitment. StakeBench links 560,876 comments from 2,261 resolved markets to verified position, action, and market-odds records across Polymarket and Manifold. Supervision is derived from observable market behavior. Position sides, post-comment trading actions, and market-odds trajectories replace human annotation. Four diagnostic tasks test whether models detect market commitment, identify the revealed side, anticipate future action, and perform collective odds projection. Three commitment-aware metrics measure alignment with revealed preferences rather than perceived sentiment. Validity audits and explicit interpretation boundaries help distinguish observable commitment signals from latent belief and causal market-odds impact. Across 15 LLMs and 18 topics and platform settings, models partially recover position-side signals, with Directed Accuracy from 0.506 to 0.599, but show structural failures on later tasks. Ten of the fifteen models collapse to one or two action labels in future action anticipation, and no model consistently improves on the naive odds-direction baseline in collective odds projection. Model scale is not correlated with performance, finance-domain tuning does not improve revealed-side identification, and platform incentives strongly shape higher-order results. StakeBench is packaged with evaluation code and dataset under CC-BY 4.0.",
+    "authors": [
+      "Yunhua Pei",
+      "Jingyu Hu",
+      "Yiwei Shi",
+      "Hongnan Ma",
+      "Weiru Liu",
+      "John Cartlidge"
+    ],
+    "published": "2026-05-25T17:38:30",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Existing financial NLP benchmarks often rely on labels supplied by outside observers, measuring how language is perceived rather than what speakers have committed to in the market. We introduce StakeBench, an evaluation framework for language understanding grounded in market commitment. StakeBench links 560,876 comments from 2,261 resolved markets to verified position, action, and market-odds\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.26045v1",
+    "title": "Confidence and Calibration of Activation Oracles for Reliable Interpretation of Language Model Internals",
+    "url": "http://arxiv.org/abs/2605.26045v1",
+    "summary": "Activation oracles aim to make the activations of other models legible to humans and yield promising results compared to white-box interpretability techniques. However, uncertainty quantification (UQ) for the natural-language outputs of such activation oracles is so far understudied. Here, we investigate 6 different methods for estimating the confidence of activation oracles and evaluate how well-calibrated their confidence scores are. Our experiments on 6,000 samples per oracle (varying verbalizer and context prompts) reveal that bootstrap mode frequency is the best-calibrated method among those tested (ECE 5.7% vs. 25.5% for the answer-word log-probability on Qwen3-8B; 10.3% vs. 13.1% on Qwen3.6-27B), and that the log-prob baseline can serve as a fast triage signal at a fraction of the cost.   Code and the patched trainer are available at https://github.com/federicotorrielli/probabilistic_activation_oracles.",
+    "authors": [
+      "Federico Torrielli",
+      "Peter Schneider-Kamp",
+      "Lukas Galke Poech"
+    ],
+    "published": "2026-05-25T17:08:47",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Activation oracles aim to make the activations of other models legible to humans and yield promising results compared to white-box interpretability techniques. However, uncertainty quantification (UQ) for the natural-language outputs of such activation oracles is so far understudied. Here, we investigate 6 different methods for estimating the confidence of activation oracles and evaluate how\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.26037v1",
+    "title": "Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use",
+    "url": "http://arxiv.org/abs/2605.26037v1",
+    "summary": "We test the standard RLVR tool-use recipe -- GRPO on Qwen2.5-7B-Instruct -- on a deliberately minimal knowledge-graph tool API: four Freebase navigation verbs over Complex WebQuestions. Under a self-verifiable retrieval reward, the policy's tool-grounded answer rate climbs from $3.8\\%$ to $9.6\\%$ over 250 steps, then collapses to $0\\%$ within a single 50-step window -- a \\emph{peak-then-collapse} pattern replicated across four seeds. Across seven reward designs, we find four recurring failure modes: adding denser or more targeted proxy rewards shifts the failure mode rather than eliminating it. We argue that a key difference from Python interpreters, web search, and JSON APIs is interface feedback: their failures often leak natural-language signal the model saw in pretraining. A Python traceback names the failing line; an empty Freebase result \\texttt{[]} does not. Stripping away that surface exposes a degradation regime that same-family reward redesigns do not fix. A direct oracle ablation rules out relation selection: injecting gold relations at every retrieval call lifts exact-match accuracy by only $+0.20$~pp, and $95.4\\%$ of retrieval-dependent errors are retrieval-composition failures rather than answer-extraction failures. As a mitigation, one-iteration self-distillation reaches $40.0\\%$ EM at 7B and is capacity-invariant: doubling capacity to 14B improves EM by only $0.25$~pp, and initialization barely matters -- the ceiling appears interface-bound within the 7B--14B range tested.",
+    "authors": [
+      "Tianda Sun",
+      "Dimitar Kazakov"
+    ],
+    "published": "2026-05-25T17:05:35",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We test the standard RLVR tool-use recipe -- GRPO on Qwen2.5-7B-Instruct -- on a deliberately minimal knowledge-graph tool API: four Freebase navigation verbs over Complex WebQuestions. Under a self-verifiable retrieval reward, the policy's tool-grounded answer rate climbs from $3.8\\%$ to $9.6\\%$ over 250 steps, then collapses to $0\\%$ within a single 50-step window -- a \\emph{peak-then-collapse}\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.25869v1",
+    "title": "Mitigating Provenance-Role Collapse in Long-Term Agents via Typed Memory Representation",
+    "url": "http://arxiv.org/abs/2605.25869v1",
+    "summary": "Long-term memory is essential for persistent LLM agents, yet prevailing architectures store historical interactions as unstructured, flat text. This unconstrained storage induces provenance-role collapse, a critical failure mode where agents suffer from source-monitoring errors. To resolve this cognitive vulnerability at the architectural level, we propose MemIR, a typed Memory Intermediate Representation that operationalizes source monitoring as a structural constraint. MemIR writes long-term memory into grounded atoms that separate raw evidence, retrieval cues, and truth-bearing claims, with factual authorization restricted to supported claim atoms. It then applies multi-route atomic projection and provenance-scoped utilization to transform heterogeneous retrieval hits into claim-centered candidate bundles and a normalized fact interface for answer generation. Experiments on LoCoMo and BEAM-100K demonstrate that MemIR consistently outperforms existing memory baselines, especially on tasks requiring source tracking, temporal grounding, and aggregation of fragmented evidence.",
+    "authors": [
+      "Zhengda Jin",
+      "Bingbing Wang",
+      "Jing Li",
+      "Ruifeng Xu",
+      "Min Zhang"
+    ],
+    "published": "2026-05-25T13:56:31",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Long-term memory is essential for persistent LLM agents, yet prevailing architectures store historical interactions as unstructured, flat text. This unconstrained storage induces provenance-role collapse, a critical failure mode where agents suffer from source-monitoring errors. To resolve this cognitive vulnerability at the architectural level, we propose MemIR, a typed Memory Intermediate\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2605.25836v1",
+    "title": "TTPrint: Evidence-Grounded TTP Extraction via Diverge-then-Converge Verification",
+    "url": "http://arxiv.org/abs/2605.25836v1",
+    "summary": "Extracting MITRE ATT&CK techniques from cyber threat intelligence (CTI) reports is an open-set, multi-label problem requiring both high recall (not missing techniques) and high precision (not hallucinating unsupported ones). Existing methods--rule-based, supervised, and LLM-based--struggle to achieve both: rule-based and supervised approaches lack generalizability across diverse attack descriptions, while LLM-based approaches that couple candidate generation and validation within a single inference step suffer from limited recall and precision simultaneously. We propose TTPrint, which addresses this challenge through a diverge-then-converge design inspired by how human analysts work: first extracting broadly, then verifying rigorously. In the divergent phase, reports are decomposed into atomic behaviors and candidate techniques are proposed broadly. A deterministic span localization stage then anchors each candidate to a specific evidence window in the source text. A convergent verification stage retains only candidates supported by both the localized evidence and the authoritative MITRE definition. We contribute two evaluation resources--a cleaned TRAM benchmark (TRAM-Clean) and a new annotated dataset (TTPrint-Bench)--to address known annotation noise in existing benchmarks and elevate the task to document-level TTP extraction. On TRAM-Clean and TTPrint-Bench, TTPrint achieves 76.48% and 87.39% macro-F1 respectively, outperforming the leading baseline by 63.5% and 29.4%. A multi-backbone analysis across six LLMs and a threshold sensitivity study further demonstrate generalizability across model choices and provide practical guidance for parameter selection.",
+    "authors": [
+      "Yutong Cheng",
+      "Changze Li",
+      "Raihan Sultan Pasha Basuki",
+      "Qian Cui",
+      "Wei Ding",
+      "Peng Gao"
+    ],
+    "published": "2026-05-25T13:31:49",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CR"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Extracting MITRE ATT&CK techniques from cyber threat intelligence (CTI) reports is an open-set, multi-label problem requiring both high recall (not missing techniques) and high precision (not hallucinating unsupported ones). Existing methods--rule-based, supervised, and LLM-based--struggle to achieve both: rule-based and supervised approaches lack generalizability across diverse attack\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:e0c6d440beab22b36278e06cb216694321911b76",
+    "title": "Unified Covariate Adjustment for Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/e0c6d440beab22b36278e06cb216694321911b76",
+    "summary": "",
+    "authors": [
+      "Yonghan Jung",
+      "Jin Tian",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Unified Covariate Adjustment for Causal Inference"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26093v1",
+    "title": "Goal-driven Bayesian Optimal Experimental Design for Robust Decision-Making Under Model Uncertainty",
+    "url": "http://arxiv.org/abs/2605.26093v1",
+    "summary": "Bayesian optimal experimental design (BOED) selects experiments to maximize information gain about model parameters. However, in decision-critical settings, reducing parameter uncertainty does not necessarily improve downstream decisions, as only specific parameter directions relevant to the objective truly matter. We propose GoBOED, a goal-driven BOED framework that directly optimizes experimental designs for a specified decision-making objective. GoBOED combines an amortized variational posterior surrogate with a differentiable convex decision layer, enabling gradient-based design optimization that is fully decision-focused. We theoretically show that GoBOED gradients are insensitive to parameter directions irrelevant to the decision objective, providing a formal justification for why goal-driven design achieves equivalent decision quality over a wider set of experimental designs than information-gain maximization. Empirically, across source localization, epidemic management, and pharmacokinetic control, GoBOED identifies designs that better align with downstream decision objectives and reveals that near-optimal design windows are substantially wider than those predicted by goal-agnostic BOED approaches.",
+    "authors": [
+      "Jinwoo Go",
+      "Xiaoning Qian",
+      "Byung-Jun Yoon"
+    ],
+    "published": "2026-05-25T17:53:18",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Bayesian optimal experimental design (BOED) selects experiments to maximize information gain about model parameters. However, in decision-critical settings, reducing parameter uncertainty does not necessarily improve downstream decisions, as only specific parameter directions relevant to the objective truly matter. We propose GoBOED, a goal-driven BOED framework that directly optimizes\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.26068v1",
+    "title": "Rethinking Weak Supervision in Anomaly Detection: A Comprehensive Benchmark",
+    "url": "http://arxiv.org/abs/2605.26068v1",
+    "summary": "Weakly supervised anomaly detection (WSAD) has developed in three primary directions: incomplete, inexact, and inaccurate supervision. However, these directions remain isolated, lacking a unified framework to assess whether they address unique challenges or share fundamental mechanics. This paper introduces WSADBench, the first benchmark that unifies evaluation across distinct weakly supervised scenarios, benchmarking diverse approaches from specialized WSAD methods to advanced tabular foundation models. WSADBench establishes standardized protocols to evaluate 36 algorithms across 4 modalities by systematically varying label quantity, granularity, and quality, revealing the performance boundaries of various methods. Based on over 700K experiments, WSADBench reveals four critical insights: (i) Strong intrinsic correlations exist between these weak supervision scenarios, challenging the isolation of current research directions. (ii) Specialized WSAD algorithms excel only in extreme label-scarcity regimes but are quickly dominated by tabular foundation models and general classification methods as supervision increases or in OOD scenarios. (iii) Unlabeled data shows inconsistent utility across settings, with marginal gains compared to label refinement. (iv) Models exhibit asymmetric sensitivity to different types of label noise. We release WSADBench as an open-source benchmark with code and datasets to facilitate future WSAD research: https://github.com/SUFE-AILAB/WSADBench.",
+    "authors": [
+      "Xu Yao",
+      "Siyuan Zhou",
+      "Wu Zhenbo",
+      "Chaochuan Hou",
+      "Shuang Liang",
+      "Shiping wang",
+      "Hailiang Huang",
+      "Songqiao Han",
+      "Minqi Jiang"
+    ],
+    "published": "2026-05-25T17:32:58",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Weakly supervised anomaly detection (WSAD) has developed in three primary directions: incomplete, inexact, and inaccurate supervision. However, these directions remain isolated, lacking a unified framework to assess whether they address unique challenges or share fundamental mechanics. This paper introduces WSADBench, the first benchmark that unifies evaluation across distinct weakly supervised\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25868v1",
+    "title": "The Timing Dependencies of Trust: Speed, Accuracy, and cBCI Neuro-Decoupling in Human-AI Teams",
+    "url": "http://arxiv.org/abs/2605.25868v1",
+    "summary": "The speed and accuracy of an artificial teammate fundamentally alter the failure states of Human-AI integration. While high-speed AI interventions risk inducing reflexive blind compliance, delayed interventions can induce ambiguous cognitive conflict. This study investigates how the fundamental characteristics of an in-task AI assistant, Fast/Less-Accurate (FLA-AI) versus Slow/Accurate (SA-AI) impact the synergy of Collaborative Brain-Computer Interface (cBCI) teams in a Virtual Reality drone task. Seventeen operators completed continuous search tasks under high cognitive workload while their spatial covariance was mapped using a 2D Adaptive Riemannian Oracle. The results mathematically demonstrate that AI timing dictates the mechanism of team failure. Fast AI induced instant, blind compliance; human accuracy under deception collapsed to 50.2%, and pure behavioural teams (N=8) failed to scale beyond 74.1%. In contrast, Slow AI induced delayed cognitive conflict; humans hesitated (61.1% accuracy), but N=8 behavioural teams eventually recovered to 100.0%. Crucially, the Riemannian Oracle mathematically adapted to these states: it heavily restricted temporal windows (< 0.8s) to intercept fast reflexive compliance, while widening windows (> 1.2s) to capture delayed cognitive conflict. Integrating these isolated veridical signals via Hybrid Fusion successfully rescued the Fast AI team (+7.6% at N=8) and significantly accelerated the recovery of smaller Slow AI teams (+6.9% at N=4). These findings prove that cBCI synergy is heavily contingent on the temporal dynamics of trust, providing a critical framework for designing dynamically gated Human-AI systems.",
+    "authors": [
+      "Christopher Baker",
+      "Stephen Hinton",
+      "Akashdeep Nijjar",
+      "Riccardo Poli",
+      "Caterina Cinel",
+      "Tom Reed",
+      "Stephen Fairclough"
+    ],
+    "published": "2026-05-25T13:56:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.HC"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "The speed and accuracy of an artificial teammate fundamentally alter the failure states of Human-AI integration. While high-speed AI interventions risk inducing reflexive blind compliance, delayed interventions can induce ambiguous cognitive conflict. This study investigates how the fundamental characteristics of an in-task AI assistant, Fast/Less-Accurate (FLA-AI) versus Slow/Accurate (SA-AI)\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2605.25866v1",
+    "title": "UNATE: UNsupervised ATomic Embedding for crystal structures property prediction",
+    "url": "http://arxiv.org/abs/2605.25866v1",
+    "summary": "Accurately predicting crystal properties is critical for accelerating materials discovery, but it is often limited by scarce labeled data and costly theoretical calculations. To alleviate this, we propose UNATE (Unsupervised Atomic Embedding), a framework that leverages structural information extracted from unlabeled crystal structures. UNATE integrates an unsupervised denoising autoencoder with self-supervised contrastive learning to learn robust atomic representations, which are then used as input features for downstream property prediction. Experimental results show that replacing raw atomic numbers with UNATE-pretrained node embeddings yields a 2.7\\% improvement over the full-data baseline. Notably, the benefits become more pronounced in scenarios with limited labeled data, reaching improvements of up to 10\\% when only 25\\% of the labeled data is used.",
+    "authors": [
+      "Laura Sol\u00e0-Garcia",
+      "\u00c0lex Sol\u00e9",
+      "Javier Ruiz-Hidalgo"
+    ],
+    "published": "2026-05-25T13:55:56",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Accurately predicting crystal properties is critical for accelerating materials discovery, but it is often limited by scarce labeled data and costly theoretical calculations. To alleviate this, we propose UNATE (Unsupervised Atomic Embedding), a framework that leverages structural information extracted from unlabeled crystal structures. UNATE integrates an unsupervised denoising autoencoder with\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "title": "Experimental Design for Learning Causal Graphs with Latent Variables",
+    "url": "https://www.semanticscholar.org/paper/12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "summary": "",
+    "authors": [
+      "Murat Kocaoglu",
+      "Karthikeyan Shanmugam",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Experimental Design for Learning Causal Graphs with Latent Variables"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:Ci2Lab/Causal-Intelligence-Course",
+    "title": "Ci2Lab/Causal-Intelligence-Course \u2014 Course materials for Causal Intelligence: causal inference, causal discovery, causal machine learning, counterfactual reasoning, robust AI, explainable AI, and decision intelligence.",
+    "url": "https://github.com/Ci2Lab/Causal-Intelligence-Course",
+    "summary": "Course materials for Causal Intelligence: causal inference, causal discovery, causal machine learning, counterfactual reasoning, robust AI, explainable AI, and decision intelligence.",
+    "authors": [],
+    "published": "2026-05-26T17:11:18Z",
+    "extras": {
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topic": "causal-inference"
+    },
+    "score": 38,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits",
+    "llm_summary": "Course materials for Causal Intelligence: causal inference, causal discovery, causal machine learning, counterfactual reasoning, robust AI, explainable AI, and decision intelligence."
+  }
+]
