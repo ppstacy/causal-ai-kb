@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W22</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W22/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W22/</guid>
+      <pubDate>Fri, 29 May 2026 22:00:00 +0000</pubDate>
+      <description>1. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Guido Imbens causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
+2. Causal Imitation for Markov Decision Processes: a Partial Identification Approach — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, Elias Bareinboim
+3. Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Junzhe Zhang, Elias Bareinboim
+4. Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning — Causal LMs · score 60 · arXiv cs.LG · Jun-Tao Tang, Yu-Cheng Shi, Zhen-Hao Xie, Da-Wei Zhou
+5. Causal methods for LLM development and evaluation — Causal LMs · score 60 · arXiv cs.LG · Dennis Frauen, Marie Brockschmidt, Konstantin Hess, Haorui Ma et al. (13 authors)</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W21</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W21/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W21/</guid>
