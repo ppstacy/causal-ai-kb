@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-02</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-02/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-02/</guid>
+      <pubDate>Tue, 02 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. When Do Treatment Changes Identify Causal Effects? — Causal Inference · score 56 · arXiv stat.ME · Martin Huber
+2. Iteris: Agentic Research Loops for Computational Mathematics — Causal LMs · score 56 · arXiv cs.LG · Leheng Chen, Zihao Liu, Wanyi He, Bin Dong
+3. A Local Perturbation Theory for Cross-Domain Interference and Recovery in Multi-Domain RL — Causal LMs · score 56 · arXiv cs.LG · Lei Yang, Siyu Ding, Deyi Xiong
+4. From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression — Causal LMs · score 56 · arXiv cs.CL · Elia Cunegatti, Marcus Vukojevic, Erik Nielsen, Giovanni Iacca
+5. SimSD: Simple Speculative Decoding in Diffusion Language Models — Causal LMs · score 56 · arXiv cs.CL · Junxia Cui, Haotian Ye, Runchu Tian, Hongcan Guo et al. (12 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-01</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-01/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-01/</guid>
