@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-01</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-01/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-01/</guid>
+      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Modeling Covariate Transition for Efficient Estimation of Longitudinal Treatment Effects in Randomized Experiments — Experimentation · score 64 · arXiv econ.EM · Naoki Chihara, Tatsushi Oka, Yasuko Matsubara, Yasushi Sakurai et al. (5 authors)
+2. LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards — Causal LMs · score 60 · arXiv cs.LG · Nianyi Lin, Jiajie Zhang, Lei Hou, Juanzi Li
+3. Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization — Causal LMs · score 56 · arXiv cs.LG · Felipe Urrutia, Juan José Alegría, Cinthia Sanchez Macias, Jorge Salas et al. (6 authors)
+4. BlueFin: Benchmarking LLM Agents on Financial Spreadsheets — Causal LMs · score 56 · arXiv cs.LG · Srivatsa Kundurthy, Clara Na, Colton Moraine, Anoushka Mohta et al. (9 authors)
+5. MLIPilot: LLM-Driven Auto-Research for Machine-Learned Interatomic Potentials — Causal LMs · score 56 · arXiv cs.LG · Etinosa Osaro, Santosh Adhikari, Stamatia Zavitsanou, Kelsey Parker et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-05-26</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-26/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-26/</guid>
