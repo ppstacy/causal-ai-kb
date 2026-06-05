@@ -1,0 +1,232 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "title": "Variance Reduction for Experiments with One-Sided Triggering using CUPED",
+    "url": "https://www.semanticscholar.org/paper/0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "summary": "",
+    "authors": [
+      "Alex Deng",
+      "Lo-Hua Yuan",
+      "Alexandre Salama-Manteau"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 48,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Variance Reduction for Experiments with One-Sided Triggering using CUPED"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: uplift modeling",
+    "id": "s2:48b2ad924a345ab1611ce86ea8138ac6a66d20d6",
+    "title": "A Large Scale Benchmark for Uplift Modeling",
+    "url": "https://www.semanticscholar.org/paper/48b2ad924a345ab1611ce86ea8138ac6a66d20d6",
+    "summary": "",
+    "authors": [
+      "E. Diemert"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "uplift modeling"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "A Large Scale Benchmark for Uplift Modeling"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "title": "Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks",
+    "url": "https://www.semanticscholar.org/paper/22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first formulate local optimization problems at each node, which are subsequently addressed using the Alternating Direction Method of Multipliers (ADMM). Three subproblems naturally arise from ADMM, each resolved in an online manner with low computational costs. Specifically, the first one is solved using stochastic gradient descent (SGD), while the other two are handled using the conjugate gradient descent method to avoid matrix inversion operations. To further enhance performance, a variance reduction algorithm is incorporated into the SGD. Simulation results validate the effectiveness of the proposed algorithm.",
+    "authors": [
+      "Yitong Chen",
+      "Danqi Jin",
+      "Jie Chen",
+      "C\u00e9dric Richard",
+      "Wen Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "IEEE Signal Processing Letters",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:111478dfeba28a12cb8398893eead2de62087b85",
+    "title": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction",
+    "url": "https://www.semanticscholar.org/paper/111478dfeba28a12cb8398893eead2de62087b85",
+    "summary": "",
+    "authors": [
+      "Yichen Wu",
+      "Long-Kai Huang",
+      "Renzhen Wang",
+      "Deyu Meng",
+      "Ying Wei"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Learning Representations",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1d013babf24d1a80421115003ec723881f6bb6f6",
+    "title": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology",
+    "url": "https://www.semanticscholar.org/paper/1d013babf24d1a80421115003ec723881f6bb6f6",
+    "summary": "",
+    "authors": [
+      "Miguel A. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "title": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach.",
+    "url": "https://www.semanticscholar.org/paper/418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "summary": "",
+    "authors": [
+      "T. VanderWeele",
+      "M. Hern\u00e1n",
+      "E. T. Tchetgen Tchetgen",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Journal of Epidemiology",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach."
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "title": "Longitudinal Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "summary": "",
+    "authors": [
+      "M. Hern\u00e1n",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Longitudinal Causal Inference"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:Lambenthan/empiricalwiki",
+    "title": "Lambenthan/empiricalwiki \u2014 \u7ecf\u7ba1\u5b9e\u8bc1\u7814\u7a76\u7684 AI \u77e5\u8bc6\u5e93 \u2014 \u4ece\u6587\u732e\u9605\u8bfb\u5230 Stata \u6267\u884c\uff0c\u4e00\u6761\u6d41\u6c34\u7ebf\u4e32\u5230\u5e95\u3002\u57fa\u4e8e Karpathy \u7684 LLM-Wiki \u7406\u5ff5\uff0c\u6309\u5b9e\u8bc1\u7814\u7a76 10 \u7c7b\u5b9e\u4f53\uff08\u53d8\u91cf / \u6570\u636e\u96c6 / \u6a21\u578b / \u673a\u5236 / \u5047\u8bbe / \u8bc6\u522b\u7b56\u7565 / \u7a33\u5065\u6027 / \u5f02\u8d28\u6027 / \u8868\u683c / \u8bba\u6587\uff09\u5b9a\u5236",
+    "url": "https://github.com/Lambenthan/empiricalwiki",
+    "summary": "\u7ecf\u7ba1\u5b9e\u8bc1\u7814\u7a76\u7684 AI \u77e5\u8bc6\u5e93 \u2014 \u4ece\u6587\u732e\u9605\u8bfb\u5230 Stata \u6267\u884c\uff0c\u4e00\u6761\u6d41\u6c34\u7ebf\u4e32\u5230\u5e95\u3002\u57fa\u4e8e Karpathy \u7684 LLM-Wiki \u7406\u5ff5\uff0c\u6309\u5b9e\u8bc1\u7814\u7a76 10 \u7c7b\u5b9e\u4f53\uff08\u53d8\u91cf / \u6570\u636e\u96c6 / \u6a21\u578b / \u673a\u5236 / \u5047\u8bbe / \u8bc6\u522b\u7b56\u7565 / \u7a33\u5065\u6027 / \u5f02\u8d28\u6027 / \u8868\u683c / \u8bba\u6587\uff09\u5b9a\u5236",
+    "authors": [],
+    "published": "2026-05-30T03:05:05Z",
+    "extras": {
+      "stars": 39,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 34,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "\u7ecf\u7ba1\u5b9e\u8bc1\u7814\u7a76\u7684 AI \u77e5\u8bc6\u5e93 \u2014 \u4ece\u6587\u732e\u9605\u8bfb\u5230 Stata \u6267\u884c\uff0c\u4e00\u6761\u6d41\u6c34\u7ebf\u4e32\u5230\u5e95\u3002\u57fa\u4e8e Karpathy \u7684 LLM-Wiki \u7406\u5ff5\uff0c\u6309\u5b9e\u8bc1\u7814\u7a76 10 \u7c7b\u5b9e\u4f53\uff08\u53d8\u91cf / \u6570\u636e\u96c6 / \u6a21\u578b / \u673a\u5236 / \u5047\u8bbe / \u8bc6\u522b\u7b56\u7565 / \u7a33\u5065\u6027 / \u5f02\u8d28\u6027 / \u8868\u683c / \u8bba\u6587\uff09\u5b9a\u5236"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:brycewang-stanford/Auto-Research-Skills",
+    "title": "brycewang-stanford/Auto-Research-Skills \u2014 A curated hub of autonomous-research skills & agents \u2014 from idea to paper, on autopilot. | \u81ea\u4e3b\u79d1\u7814\u6280\u80fd\u4e0e\u667a\u80fd\u4f53\u7cbe\u9009\u5e93 \u2014\u2014 \u4ece\u7075\u611f\u5230\u8bba\u6587\uff0c\u5168\u7a0b\u81ea\u52a8\u9a7e\u9a76\u3002",
+    "url": "https://github.com/brycewang-stanford/Auto-Research-Skills",
+    "summary": "A curated hub of autonomous-research skills & agents \u2014 from idea to paper, on autopilot. | \u81ea\u4e3b\u79d1\u7814\u6280\u80fd\u4e0e\u667a\u80fd\u4f53\u7cbe\u9009\u5e93 \u2014\u2014 \u4ece\u7075\u611f\u5230\u8bba\u6587\uff0c\u5168\u7a0b\u81ea\u52a8\u9a7e\u9a76\u3002",
+    "authors": [],
+    "published": "2026-06-03T07:31:49Z",
+    "extras": {
+      "stars": 3,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A curated hub of autonomous-research skills & agents \u2014 from idea to paper, on autopilot. | \u81ea\u4e3b\u79d1\u7814\u6280\u80fd\u4e0e\u667a\u80fd\u4f53\u7cbe\u9009\u5e93 \u2014\u2014 \u4ece\u7075\u611f\u5230\u8bba\u6587\uff0c\u5168\u7a0b\u81ea\u52a8\u9a7e\u9a76\u3002"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:ErdunGAO/R-Design",
+    "title": "ErdunGAO/R-Design \u2014 [KDD26] Observationally Informed Adaptive Causal Experimental Design",
+    "url": "https://github.com/ErdunGAO/R-Design",
+    "summary": "[KDD26] Observationally Informed Adaptive Causal Experimental Design",
+    "authors": [],
+    "published": "2026-06-01T08:11:28Z",
+    "extras": {
+      "stars": 3,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "[KDD26] Observationally Informed Adaptive Causal Experimental Design"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:ericluo04/claude-academic-workflow",
+    "title": "ericluo04/claude-academic-workflow \u2014 Public Claude Code workflow for academic research: 32 skills, 4 sub-agents, 3 hooks, MCP catalog (stdio + claude.ai OAuth), Notion + Telegram task orchestration. Fork-and-adapt; cross-platform (Windows + macOS). Personalization via ~/.claude/state/personal_config.json.",
+    "url": "https://github.com/ericluo04/claude-academic-workflow",
+    "summary": "Public Claude Code workflow for academic research: 32 skills, 4 sub-agents, 3 hooks, MCP catalog (stdio + claude.ai OAuth), Notion + Telegram task orchestration. Fork-and-adapt; cross-platform (Windows + macOS). Personalization via ~/.claude/state/personal_config.json.",
+    "authors": [],
+    "published": "2026-06-05T05:23:02Z",
+    "extras": {
+      "stars": 3,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Public Claude Code workflow for academic research: 32 skills, 4 sub-agents, 3 hooks, MCP catalog (stdio + claude.ai OAuth), Notion + Telegram task orchestration. Fork-and-adapt; cross-platform (Windows + macOS). Personalization via ~/.claude/state/personal_config.json."
+  }
+]
