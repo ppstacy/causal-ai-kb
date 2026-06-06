@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-06</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-06/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-06/</guid>
+      <pubDate>Sat, 06 Jun 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-05</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-05/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-05/</guid>
@@ -207,17 +214,6 @@
 3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
 4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
 5. A Paradox from Randomization-Based Causal Inference 1 — Causal Inference · score 94 · Semantic Scholar: Peng Ding causal inference · Peng Ding</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-08</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-08/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-08/</guid>
-      <pubDate>Fri, 08 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Causal Imitation for Markov Decision Processes: a Partial Identification Approach — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, Elias Bareinboim
-2. Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Junzhe Zhang, Elias Bareinboim
-3. Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling — Causal LMs · score 57 · BAIR Blog (UC Berkeley AI Research)
-4. BiomedSciAI/causallib v0.10.0 — Other · score 55 · BiomedSciAI/causallib releases
-5. amazon-science/azcausal v0.2.5 — VERSION 0.2.5 — Other · score 55 · amazon-science/azcausal releases</description>
     </item>
   </channel>
 </rss>
