@@ -1,0 +1,147 @@
+[
+  {
+    "source": "github_release",
+    "source_name": "uber/orbit releases",
+    "id": "ghrel:uber/orbit:v1.1.5.1",
+    "title": "uber/orbit v1.1.5.1",
+    "url": "https://github.com/uber/orbit/releases/tag/v1.1.5.1",
+    "summary": "## v1.1.5.1 Change Logs\r\n\r\n## What's Changed\r\n* Add support for Python 3.13 by @sluo1250 in https://github.com/uber/orbit/pull/894\r\n* bump version to 1.1.5.1; update changelog by @swotai in https://github.com/uber/orbit/pull/895\r\n\r\n## New Contributors\r\n* @sluo1250 made their first contribution in https://github.com/uber/orbit/pull/894\r\n\r\n**Full Changelog**: https://github.com/uber/orbit/compare/v1.1.5.0...v1.1.5.1",
+    "authors": [],
+    "published": "2026-05-22T22:23:55",
+    "extras": {
+      "repo": "uber/orbit",
+      "tag": "v1.1.5.1",
+      "prerelease": false
+    },
+    "score": 55,
+    "topic": "other",
+    "why_relevant": "+25 source-type",
+    "llm_summary": "## v1.1.5.1 Change Logs\r\n\r\n## What's Changed\r\n* Add support for Python 3.13 by @sluo1250 in https://github.com/uber/orbit/pull/894\r\n* bump version to 1.1.5.1; update changelog by @swotai in https://github.com/uber/orbit/pull/895\r\n\r\n## New Contributors\r\n* @sluo1250 made their first contribution in https://github.com/uber/orbit/pull/894\r\n\r\n**Full Changelog**:\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:04b2bd089a2a84f3ca518c85045c81e6edac5775",
+    "title": "Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome",
+    "url": "https://www.semanticscholar.org/paper/04b2bd089a2a84f3ca518c85045c81e6edac5775",
+    "summary": "",
+    "authors": [
+      "M. J. Laan",
+      "Alexander Luedtke"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:9a8385e082bbc4479d7054cc9d8c64ec9ed0b7b3",
+    "title": "Online Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/9a8385e082bbc4479d7054cc9d8c64ec9ed0b7b3",
+    "summary": "",
+    "authors": [
+      "M. J. Laan",
+      "S. Lendle"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Online Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:396207031c986b8e4edb94b3f233a3e0659ee137",
+    "title": "Online targeted learning for time series",
+    "url": "https://www.semanticscholar.org/paper/396207031c986b8e4edb94b3f233a3e0659ee137",
+    "summary": "",
+    "authors": [
+      "M. J. Laan",
+      "A. Chambaz",
+      "S. Lendle"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Online targeted learning for time series"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fbfcb895fe963cf46bbbf3c3171a2e43d1fe6184",
+    "title": "Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints",
+    "url": "https://www.semanticscholar.org/paper/fbfcb895fe963cf46bbbf3c3171a2e43d1fe6184",
+    "summary": "",
+    "authors": [
+      "Boriska Toth",
+      "M. J. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:eddc2deb1dc88b61137df2877ec6970d669a8997",
+    "title": "Targeted Learning for Causality and Statistical Analysis in Medical Research",
+    "url": "https://www.semanticscholar.org/paper/eddc2deb1dc88b61137df2877ec6970d669a8997",
+    "summary": "",
+    "authors": [
+      "Sherri Rose",
+      "R. Starmans",
+      "M. J. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning for Causality and Statistical Analysis in Medical Research"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:lianxhcn/china-policy-shocks",
+    "title": "lianxhcn/china-policy-shocks \u2014 A curated database of China policy shocks for economics, finance, and policy evaluation research.",
+    "url": "https://github.com/lianxhcn/china-policy-shocks",
+    "summary": "A curated database of China policy shocks for economics, finance, and policy evaluation research.",
+    "authors": [],
+    "published": "2026-05-30T02:44:46Z",
+    "extras": {
+      "stars": 18,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A curated database of China policy shocks for economics, finance, and policy evaluation research."
+  }
+]
