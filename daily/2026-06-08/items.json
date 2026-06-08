@@ -1,0 +1,379 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:ebda8d187f83876e37922c4105b171e6d7f99b05",
+    "title": "DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention",
+    "url": "https://www.semanticscholar.org/paper/ebda8d187f83876e37922c4105b171e6d7f99b05",
+    "summary": "Large language models (LLMs) often require 001 task-relevant knowledge to augment their inter-002 nal knowledge through prompts. However, sim-003 ply injecting external knowledge into prompts 004 does not guarantee that LLMs can identify 005 and use relevant information in the prompts to 006 conduct chain-of-thought reasoning, especially 007 when the LLM\u2019s internal knowledge is derived 008 from the biased information on the pretraining 009 data. In this paper, we propose a novel causal 010 view to formally explain the internal knowl-011 edge bias of LLMs via a Structural Causal 012 Model (SCM). We review the chain-of-thought 013 (CoT) prompting from a causal perspective, and 014 discover that the biased information from pre-015 trained models can impair LLMs\u2019 reasoning 016 abilities. When the CoT reasoning paths are 017 misled by irrelevant information from prompts 018 and are logically incorrect, simply editing fac-019 tual information is insufficient to reach the cor-020 rect answer. To estimate the confounding effect 021 on CoT reasoning in LLMs, we use external 022 knowledge as an instrumental variable. We fur-023 ther introduce CoT as a mediator to conduct 024 front-door adjustment and generate logically 025 correct CoTs where the spurious correlation be-026 tween LLMs\u2019 pretrained knowledge and task 027 queries is reduced. With extensive experiments, 028 we validate that our approach enables more 029 accurate CoT reasoning and enhances LLM 030 generation on knowledge-int",
+    "authors": [
+      "Tamera Lanham",
+      "Anna Chen",
+      "Ansh Radhakrishnan",
+      "Benoit Steiner",
+      "Carson E. Denison",
+      "Danny Hernan-720 dez",
+      "Dustin Li",
+      "Esin Durmus",
+      "Evan Hubinger",
+      "Xingxuan Li",
+      "Yew Ruochen Zhao",
+      "Bosheng Ken Chia",
+      "Zhoubo Li",
+      "Ningyu Zhang",
+      "Yunzhi Yao",
+      "Mengru Wang",
+      "Kaixin Ma",
+      "Hao Cheng",
+      "Xiaodong Liu",
+      "Eric Nyberg",
+      "Alex Troy Mallen",
+      "Akari Asai",
+      "V. Zhong",
+      "Rajarshi Das",
+      "Stephen L. Morgan",
+      "Christopher Winship",
+      "Weijia Shi",
+      "Xiaochuang Han",
+      "Mike Lewis",
+      "L. Tsvetkov",
+      "Z. Scott",
+      "Wen-tau",
+      "Xin Su",
+      "Tiep Le",
+      "Steven Bethard",
+      "Yifan Kai Sun",
+      "Ethan Xu",
+      "Hanwen Zha",
+      "Yue Liu",
+      "Hugo Touvron",
+      "Louis Martin",
+      "Kevin R. Stone",
+      "Peter Al-845 bert",
+      "Amjad Almahairi",
+      "Yasmine Babaei",
+      "Nikolay",
+      "Cunxiang Wang",
+      "Xiaoze Liu",
+      "Xian-871 Yuanhao Yue",
+      "Keheng Wang",
+      "Feiyu Duan",
+      "Peiguang Sirui Wang",
+      "Junda Wu",
+      "Tong Yu",
+      "Shuai Li",
+      "Deconfounded",
+      "Suhang Wu",
+      "Min Peng",
+      "Yue Chen",
+      "Jinsong Su",
+      "Shicheng Xu",
+      "Liang Pang",
+      "Huawei Shen",
+      "Xueqi Cheng",
+      "Zhilin Yang",
+      "Peng Qi",
+      "Sai Zhang",
+      "Yoshua Ben-959",
+      "William Cohen",
+      "R. Salakhutdinov",
+      "Jia-Yu Yao",
+      "Kun-Peng Ning",
+      "Zhen-Hui Liu",
+      "Chenhan Yuan",
+      "Qianqian Xie",
+      "Jimin Huang",
+      "Li-Yan Yuan",
+      "Yangyi Chen",
+      "Ganqu Cui",
+      "Hongcheng",
+      "Fangyuan Gao",
+      "Xingyi Zou",
+      "Heng-tze Cheng",
+      "Ji"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) often require 001 task-relevant knowledge to augment their inter-002 nal knowledge through prompts. However, sim-003 ply injecting external knowledge into prompts 004 does not guarantee that LLMs can identify 005 and use relevant information in the prompts to 006 conduct chain-of-thought reasoning, especially 007 when the LLM\u2019s internal knowledge is derived 008 from\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:3a74772a6011675ce2bdc87100fffcf4d18f5907",
+    "title": "Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey",
+    "url": "https://www.semanticscholar.org/paper/3a74772a6011675ce2bdc87100fffcf4d18f5907",
+    "summary": "Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has signi\ufb01cantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on evaluating and improving LLMs from a causal view in the following areas: understanding and improving the LLMs\u2019 reasoning capacity, addressing fairness and safety issues in LLMs, complementing LLMs with explanations, and handling multimodality. Meanwhile, LLMs\u2019 strong reasoning capacities can in turn contribute to the \ufb01eld of causal inference by aiding causal relationship discovery and causal e\ufb00ect estimations. This review explores the interplay between causal inference frameworks and LLMs from both perspectives, emphasizing their collective potential to further the development of more advanced and equitable arti\ufb01cial intelligence systems.",
+    "authors": [
+      "Xiaoyu Liu",
+      "Paiheng Xu",
+      "Junda Wu",
+      "Jiaxin Yuan",
+      "Yifan Yang",
+      "Yuhang Zhou",
+      "Fuxiao Liu",
+      "Tianrui Guan",
+      "Haoliang Wang",
+      "Tong Yu",
+      "Julian J. McAuley",
+      "Wei Ai",
+      "Furong Huang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has signi\ufb01cantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:2efeab0a6209177211e8c688cc6be625e1dba3bc",
+    "title": "CausalBench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models",
+    "url": "https://www.semanticscholar.org/paper/2efeab0a6209177211e8c688cc6be625e1dba3bc",
+    "summary": "Causal reasoning, a core aspect of human cognition, is essential for advancing large language models (LLMs) towards artificial general intelligence (AGI) and reducing their propensity for generating hallucinations. However, existing datasets for evaluating causal reasoning in LLMs are limited by narrow domain coverage and a focus on cause-to-effect reasoning through textual problems, which does not comprehensively assess whether LLMs truly grasp causal relationships or merely guess correct answers. To address these shortcomings, we introduce a novel benchmark that spans textual, mathematical, and coding problem domains. Each problem is crafted to probe causal understanding from four perspectives: cause-to-effect, effect-to-cause, cause-to-effect with intervention, and effect-to-cause with intervention. This multi-dimensional evaluation method ensures that LLMs must exhibit a genuine understanding of causal structures by correctly answering questions across all four dimensions, mitigating the possibility of correct responses by chance. Furthermore, our benchmark explores the relationship between an LLM\u2019s causal reasoning performance and its tendency to produce hallucinations. We present evaluations of state-of-the-art LLMs using our benchmark, providing valuable insights into their current causal reasoning capabilities across diverse domains. The dataset is publicly available for download at https://huggingface.co/datasets/CCLV/CausalBench",
+    "authors": [
+      "Zeyu Wang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Workshop on Chinese Language Processing",
+      "query": "causal language models"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Causal reasoning, a core aspect of human cognition, is essential for advancing large language models (LLMs) towards artificial general intelligence (AGI) and reducing their propensity for generating hallucinations. However, existing datasets for evaluating causal reasoning in LLMs are limited by narrow domain coverage and a focus on cause-to-effect reasoning through textual problems, which does\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:5a6c4782577663d7e5d930a2db951ef88a421d35",
+    "title": "Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification",
+    "url": "https://www.semanticscholar.org/paper/5a6c4782577663d7e5d930a2db951ef88a421d35",
+    "summary": "",
+    "authors": [
+      "Ruichu Cai",
+      "Shengyin Yu",
+      "Jiahao Zhang",
+      "Wei Chen",
+      "Boyan Xu",
+      "Keli Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:7bf7fc6aaac51ae971358bdea0cd79d946c4334b",
+    "title": "Clusters Emerge in Transformer-based Causal Language Models",
+    "url": "https://www.semanticscholar.org/paper/7bf7fc6aaac51ae971358bdea0cd79d946c4334b",
+    "summary": "",
+    "authors": [
+      "Xinbo Wu",
+      "Lav R. Varshney"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "causal language models"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Clusters Emerge in Transformer-based Causal Language Models"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:ee7781e4d7fafead334077502e048ed5bd8fb8bc",
+    "title": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds",
+    "url": "https://www.semanticscholar.org/paper/ee7781e4d7fafead334077502e048ed5bd8fb8bc",
+    "summary": "",
+    "authors": [
+      "G. Imbens",
+      "D. Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 48,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:1cba5922682a730623a284d56c421f7f040eef7f",
+    "title": "Evaluating Pretrained Causal Language Models for Synonymy",
+    "url": "https://www.semanticscholar.org/paper/1cba5922682a730623a284d56c421f7f040eef7f",
+    "summary": "",
+    "authors": [
+      "I. Ivan",
+      "Carlos Ramisch",
+      "Alexis Nasr"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Evaluating Pretrained Causal Language Models for Synonymy"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:9ba91627485dee6d4d6a5e1bf75ebcc0d5c15930",
+    "title": "Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil",
+    "url": "https://www.semanticscholar.org/paper/9ba91627485dee6d4d6a5e1bf75ebcc0d5c15930",
+    "summary": "",
+    "authors": [
+      "W. Guido",
+      "Imbens",
+      "B. Donald",
+      "Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:adcf035b8aed1a23ba4d85cd18c5eec5b080df83",
+    "title": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning",
+    "url": "https://www.semanticscholar.org/paper/adcf035b8aed1a23ba4d85cd18c5eec5b080df83",
+    "summary": "",
+    "authors": [
+      "Drago Ple\u010dko",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Found. Trends Mach. Learn.",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:381ba148f67e9f96e8cd190f84d49a51469a7231",
+    "title": "Causal Imitation Learning via Inverse Reinforcement Learning",
+    "url": "https://www.semanticscholar.org/paper/381ba148f67e9f96e8cd190f84d49a51469a7231",
+    "summary": "",
+    "authors": [
+      "Kangrui Ruan",
+      "Junzhe Zhang",
+      "Xuan Di",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Learning Representations",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Imitation Learning via Inverse Reinforcement Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:e4525fe4d2ade0c5b7c824a958df1a7103c078c0",
+    "title": "Disentangled Representation Learning in Non-Markovian Causal Systems",
+    "url": "https://www.semanticscholar.org/paper/e4525fe4d2ade0c5b7c824a958df1a7103c078c0",
+    "summary": "",
+    "authors": [
+      "Adam Li",
+      "Yushu Pan",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Disentangled Representation Learning in Non-Markovian Causal Systems"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:1816156806a8d70316bc2abf8efa36240ab4c435",
+    "title": "Causal Imitation for Markov Decision Processes: a Partial Identification Approach",
+    "url": "https://www.semanticscholar.org/paper/1816156806a8d70316bc2abf8efa36240ab4c435",
+    "summary": "Imitation learning enables an agent to learn from expert demonstrations when the performance measure is unknown and the reward signal is not specified. Standard imitation methods do not generally apply when the learner and the expert\u2019s sensory capabilities mismatch and demonstrations are contaminated with unobserved confounding bias. To address these challenges, recent advancements in causal imitation learning have been pursued. However, these methods often require access to underlying causal structures that might not always be available, posing practical challenges. In this paper, we investigate robust imitation learning within the framework of canonical Markov Decision Processes (MDPs) using partial identification, allowing the agent to achieve expert performance even when the system dynamics are not uniquely determined from the confounded expert demonstrations. Specifically, first, we theoretically demonstrate that when unobserved confounders (UCs) exist in an MDP, the learner is generally unable to imitate expert performance. We then explore imitation learning in partially identifiable settings \u2014 either transition distribution or reward function is non-identifiable from the available data and knowledge. Augmenting the celebrated GAIL method (Ho & Ermon, 2016), our analysis leads to two novel causal imitation algorithms that can obtain effective policies guaranteed to achieve expert performance.",
+    "authors": [
+      "Kangrui Ruan",
+      "Junzhe Zhang",
+      "Xuan Di",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Imitation learning enables an agent to learn from expert demonstrations when the performance measure is unknown and the reward signal is not specified. Standard imitation methods do not generally apply when the learner and the expert\u2019s sensory capabilities mismatch and demonstrations are contaminated with unobserved confounding bias. To address these challenges, recent advancements in causal\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:c2747bb5851e676691aa7e9434252dd1a8a75871",
+    "title": "Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation",
+    "url": "https://www.semanticscholar.org/paper/c2747bb5851e676691aa7e9434252dd1a8a75871",
+    "summary": "",
+    "authors": [
+      "Junzhe Zhang",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Conference on Uncertainty in Artificial Intelligence",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation"
+  }
+]

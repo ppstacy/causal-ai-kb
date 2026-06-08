@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-08</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-08/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-08/</guid>
+      <pubDate>Mon, 08 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner et al. (84 authors)
+2. Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey — Causal LMs · score 56 · Semantic Scholar: causal language models · Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan et al. (13 authors)
+3. CausalBench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models — Causal LMs · score 56 · Semantic Scholar: causal language models · Zeyu Wang
+4. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
+5. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xinbo Wu, Lav R. Varshney</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-07</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-07/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-07/</guid>
@@ -202,17 +213,6 @@
 3. Re: Causality and causal inference in epidemiology: the need for a pluralistic approach. — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · T. VanderWeele, M. Hernán, E. T. Tchetgen Tchetgen, J. Robins
 4. Longitudinal Causal Inference — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Hernán, J. Robins
 5. Biases in Randomized Trials: A Conversation Between Trialists and Epidemiologists. — Experimentation · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Mansournia, J. Higgins, J. Sterne, M. Hernán</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-11</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-11/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-11/</guid>
-      <pubDate>Mon, 11 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Real vs. Semi-Simulated: Rethinking Evaluation for Treatment Effect Estimation — Uplift / HTE · score 68 · arXiv stat.ML · George Panagopoulos
-2. What should post-training optimize? A test-time scaling law perspective — Causal LMs · score 60 · arXiv stat.ML · Muheng Li, Jian Qian, Wenlong Mou
-3. When Can Digital Personas Reliably Approximate Human Survey Findings? — Causal LMs · score 60 · arXiv stat.ML · Mumin Jia, Yilin Chen, Divya Sharma, Jairo Diaz-Rodriguez
-4. Extended Wasserstein-GAN Approach to Causal Distribution Learning: Density-Free Estimation and Minimax Optimality — Causal Inference · score 60 · arXiv stat.ML · Shu Tamano, Masaaki Imaizumi
-5. Sample size and power calculations for causal inference with time-to-event outcomes — Causal Inference · score 60 · arXiv stat.ME · Chengxin Yang, Bo Liu, Fan Li</description>
     </item>
   </channel>
 </rss>
