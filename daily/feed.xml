@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-09</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-09/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-09/</guid>
+      <pubDate>Tue, 09 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
+2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
+3. A Synthetic Control Approach to Conditional Distributional Treatment Effects — Causal Inference · score 60 · arXiv stat.ME · Dominik Wied
+4. Muon Learns More Robust and Transferable Features than Adam — Causal LMs · score 60 · arXiv cs.LG · Tianyu Ruan, Fengzhuo Zhang, Shuche Wang, Shihua Zhang
+5. Where Does the Answer Come From? Benchmarking View-Level Visual Evidence Identification in Multi-View MLLMs for Autonomous Driving — Causal LMs · score 60 · arXiv cs.CL · Yimu Wang, Yee Man Choi, Barry Zhang, Mozhgan Nasr Azadani et al. (6 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-08</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-08/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-08/</guid>
@@ -202,17 +213,6 @@
       <pubDate>Wed, 13 May 2026 13:00:00 +0000</pubDate>
       <description>1. Stable Estimation of Heterogeneous Treatment Effects — Uplift / HTE · score 48 · Semantic Scholar: heterogeneous treatment effects · Anpeng Wu, Kun Kuang, Ruoxuan Xiong, Bo Li et al. (5 authors)
 2. ashuiGordon/stata-cli — Stata CLI for Agent; Stata CLI Is All Reg Monkeys Need — Other · score 30 · GitHub topic:econometrics</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-12</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-12/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-12/</guid>
-      <pubDate>Tue, 12 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Agent-Based Models for Causal Inference — Reweighting Data and Theory in Epidemiology — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · Miguel A. Hernán
-2. The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of… — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · L. Cain, J. Robins, E. Lanoy, R. Logan et al. (6 authors)
-3. Re: Causality and causal inference in epidemiology: the need for a pluralistic approach. — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · T. VanderWeele, M. Hernán, E. T. Tchetgen Tchetgen, J. Robins
-4. Longitudinal Causal Inference — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Hernán, J. Robins
-5. Biases in Randomized Trials: A Conversation Between Trialists and Epidemiologists. — Experimentation · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Mansournia, J. Higgins, J. Sterne, M. Hernán</description>
     </item>
   </channel>
 </rss>
