@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-10</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-10/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-10/</guid>
+      <pubDate>Wed, 10 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Limitations of Learning Tanh Neural Networks with Finite Precision — Uplift / HTE · score 56 · arXiv stat.ML · Philipp Grohs, Matěj Trödler
+2. Empirical stratification for treatment effect heterogeneity with post-treatment variables — Uplift / HTE · score 56 · arXiv stat.ME · Chao Cheng, Rui Wang, Yichi Zhang
+3. Mind the Gap: Can Frontier LLMs Pass a Standardized Office Proficiency Exam? — Causal LMs · score 56 · arXiv cs.CL · Tengchao Lv, Dongdong Zhang, Jiayu Ding, Yilin Jia et al. (13 authors)
+4. It Takes One to Bias Them All: Breaking Bad with One-Shot GRPO — Causal LMs · score 56 · arXiv cs.CL · Naihao Deng, Yilun Zhu, Naichen Shi, Clayton Scott et al. (5 authors)
+5. Flexible Kernels for Protein Property Prediction — Uplift / HTE · score 52 · arXiv stat.ML · Martin Jankowiak, Yerdos Ordabayev, Rudraksh Tuwani, Henry N. Ward et al. (7 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-09</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-09/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-09/</guid>
@@ -205,14 +216,6 @@
 3. Score-Based Causal Discovery of Latent Variable Causal Models — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Ignavier Ng, Xinshuai Dong, Haoyue Dai, Biwei Huang et al. (6 authors)
 4. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
 5. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-13</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-13/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-13/</guid>
-      <pubDate>Wed, 13 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Stable Estimation of Heterogeneous Treatment Effects — Uplift / HTE · score 48 · Semantic Scholar: heterogeneous treatment effects · Anpeng Wu, Kun Kuang, Ruoxuan Xiong, Bo Li et al. (5 authors)
-2. ashuiGordon/stata-cli — Stata CLI for Agent; Stata CLI Is All Reg Monkeys Need — Other · score 30 · GitHub topic:econometrics</description>
     </item>
   </channel>
 </rss>
