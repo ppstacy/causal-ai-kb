@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-11</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-11/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-11/</guid>
+      <pubDate>Thu, 11 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. How Useful is Causal Invariance for Domain Adaptation in Finite-Sample Settings? — Other · score 98 · arXiv stat.ML · Julia Kostin, Kasra Jalaldoust, Elias Bareinboim, Samory Kpotufe et al. (5 authors)
+2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+3. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
+4. When Representative Samples Produce Worse Outcomes: Scale-up Decisions and Testing in Small-Budget RCTs — Experimentation · score 64 · arXiv stat.ME · Hannah Li, Hongseok Namkoong, Isaac Scheinfeld
+5. TimeROME-DLM: Temporal Causal Tracing and Low-Rank Inference-Time Knowledge Editing for Masked Diffusion Language Models — Causal LMs · score 60 · arXiv cs.LG · Zhengtao Yao, Liuyang Song, Hongbo Zhang, Chenhao Wei et al. (7 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-10</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-10/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-10/</guid>
@@ -205,17 +216,6 @@
 3. In-Context Learning for Data-Driven Censored Inventory Control — Causal LMs · score 56 · arXiv stat.ML · Sohom Mukherjee, Anh-Duy Pham, Richard Pibernik, Yunbei Xu
 4. Monetary Policy in the Media Spotlight: Sentiments, Signals, and Economic Impact — Causal LMs · score 56 · arXiv econ.EM · Firmin Ayivodji, Etienne Briand, Kevin Moran, Dalibor Stevanovic
 5. MeMo: Memory as a Model — Causal LMs · score 56 · arXiv cs.LG · Ryan Wei Heng Quek, Sanghyuk Lee, Alfred Wei Lun Leong, Arun Verma et al. (9 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-14</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-14/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-14/</guid>
-      <pubDate>Thu, 14 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
-2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
-3. Score-Based Causal Discovery of Latent Variable Causal Models — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Ignavier Ng, Xinshuai Dong, Haoyue Dai, Biwei Huang et al. (6 authors)
-4. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
-5. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)</description>
     </item>
   </channel>
 </rss>
