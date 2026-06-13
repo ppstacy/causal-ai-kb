@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-13</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</guid>
+      <pubDate>Sat, 13 Jun 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-12</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-12/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-12/</guid>
@@ -203,15 +210,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-17/</guid>
       <pubDate>Sun, 17 May 2026 13:00:00 +0000</pubDate>
       <description>1. py-why/causal-learn 0.1.4.6 — causal-learn 0.1.4.6 — Other · score 55 · py-why/causal-learn releases</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-16</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-16/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-16/</guid>
-      <pubDate>Sat, 16 May 2026 13:00:00 +0000</pubDate>
-      <description>1. pymc-labs/CausalPy 0.8.1 — Other · score 55 · pymc-labs/CausalPy releases
-2. Lambenthan/empericalwiki — 经管实证研究的 AI 知识库 — 从文献阅读到 Stata 执行，一条流水线串到底。基于 Karpathy 的 LLM-Wiki 理念，按实证研究 10 类实体（变量 / 数据集 / 模型 / 机制 /… — Causal LMs · score 34 · GitHub topic:econometrics
-3. antonbarr-data/dqt — A Data Quality Tool that tells you what and surfaces the why — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
