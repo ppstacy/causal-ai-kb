@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-14</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-14/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-14/</guid>
+      <pubDate>Sun, 14 Jun 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-13</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</guid>
@@ -203,13 +210,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-18/</guid>
       <pubDate>Mon, 18 May 2026 13:00:00 +0000</pubDate>
       <description>1. A Large Scale Benchmark for Uplift Modeling — Uplift / HTE · score 44 · Semantic Scholar: uplift modeling · E. Diemert</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-17</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-17/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-17/</guid>
-      <pubDate>Sun, 17 May 2026 13:00:00 +0000</pubDate>
-      <description>1. py-why/causal-learn 0.1.4.6 — causal-learn 0.1.4.6 — Other · score 55 · py-why/causal-learn releases</description>
     </item>
   </channel>
 </rss>
