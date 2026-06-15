@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-15</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-15/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-15/</guid>
+      <pubDate>Mon, 15 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. A Comment on: 
+ “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
+2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
+3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
+4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-14</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-14/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-14/</guid>
@@ -203,13 +214,6 @@
 3. Sensitivity analysis for causal mediation: bridge score, sharp sensitivity bounds, and calibration — Causal Inference · score 56 · arXiv stat.ME · Yuki Ohnishi, Fan Li
 4. Stable Causal Discovery via Directed Acyclic Graph Aggregation — Uplift / HTE · score 52 · arXiv stat.ML · Yunan Wu, Yue Wang, Chunlin Li, Chenglong Ye
 5. Adaptive Experimentation for Censored Survival Outcomes — Experimentation · score 52 · arXiv stat.ML · Yuxin Wang, Dennis Frauen, Jonas Schweisthal, Maresa Schröder et al. (6 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-18</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-18/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-18/</guid>
-      <pubDate>Mon, 18 May 2026 13:00:00 +0000</pubDate>
-      <description>1. A Large Scale Benchmark for Uplift Modeling — Uplift / HTE · score 44 · Semantic Scholar: uplift modeling · E. Diemert</description>
     </item>
   </channel>
 </rss>
