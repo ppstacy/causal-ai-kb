@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-16</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-16/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-16/</guid>
+      <pubDate>Tue, 16 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. From Tokens to Policy: Causal and Interpretable Heterogeneous Treatment Effects Identification — Uplift / HTE · score 56 · arXiv cs.LG · Riccardo Cadei, Frank Otchere, Nyasha Tirivayi, Gustavo Angeles Tagliaferro et al. (6 authors)
+2. Speaking the Language of Science: Toward a General-Purpose Generative Foundation Model for the Natural Sciences — Causal LMs · score 56 · arXiv cs.CL · Mingyang Li, Yurou Liu, Jieping Ye, Bing Su et al. (6 authors)
+3. A nonparametric two-sample test using a parametric integral probability metric — Uplift / HTE · score 52 · arXiv stat.ML · Yuha Park, Yongdai Kim
+4. Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations — Causal LMs · score 52 · arXiv stat.ME · Yanan Long
+5. Scalable Circuit Learning for Interpreting Large Language Models — Causal LMs · score 52 · arXiv cs.LG · Naiyu Yin, Dennis Wei, Tian Gao, Amit Dhurandhar et al. (6 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-15</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-15/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-15/</guid>
@@ -203,17 +214,6 @@
 3. Identifying Interventional Joint Distributions via Extended Bridge Functions — Causal Inference · score 52 · arXiv stat.ME · Constantin Schott
 4. Estimating treatment duration effects via clone-censor-weight: a breast cancer case study — Uplift / HTE · score 52 · arXiv stat.ME · Charlotte Voinot, Noémie Simon-Tillaux, Emma Torrini, Stefan Michiels et al. (7 authors)
 5. PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents — Causal LMs · score 52 · arXiv cs.LG · Zhuohan Gu, Qizheng Zhang, Omar Khattab, Samuel Madden</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-19</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-19/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-19/</guid>
-      <pubDate>Tue, 19 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Offline Contextual Bandits in the Presence of New Actions — Uplift / HTE · score 98 · arXiv cs.LG · Ren Kishimoto, Tatsuhiro Shimizu, Kazuki Kawamura, Takanori Muroi et al. (9 authors)
-2. Estimating Item Difficulty with Large Language Models as Experts — Causal LMs · score 60 · arXiv stat.ME · Diana Kolesnikova, Kirill Fedyanin, Abe D. Hofman, Matthieu J. S. Brinkhuis et al. (5 authors)
-3. Sensitivity analysis for causal mediation: bridge score, sharp sensitivity bounds, and calibration — Causal Inference · score 56 · arXiv stat.ME · Yuki Ohnishi, Fan Li
-4. Stable Causal Discovery via Directed Acyclic Graph Aggregation — Uplift / HTE · score 52 · arXiv stat.ML · Yunan Wu, Yue Wang, Chunlin Li, Chenglong Ye
-5. Adaptive Experimentation for Censored Survival Outcomes — Experimentation · score 52 · arXiv stat.ML · Yuxin Wang, Dennis Frauen, Jonas Schweisthal, Maresa Schröder et al. (6 authors)</description>
     </item>
   </channel>
 </rss>
