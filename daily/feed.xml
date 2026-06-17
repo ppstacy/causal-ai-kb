@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-17</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-17/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-17/</guid>
+      <pubDate>Wed, 17 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Beyond Parallel Trends in Staggered Difference-in-Differences: Identification under Higher-Order Parallelism — Causal Inference · score 56 · arXiv econ.EM · Zecharias Anteneh
+2. Evaluating Open-Source LLMs for Multi-Label ATT&amp;CK Technique Classification on CTI Reports — Causal LMs · score 56 · arXiv cs.LG · Ahmed Ryan, Saad Sakib Noor, Md Erfan, Shaswata Mitra et al. (6 authors)
+3. OmniPlan: An Adaptive Framework for Timely and Near-Optimal Network Planning Optimization — Causal LMs · score 56 · arXiv cs.LG · Longlong Zhu, Jiashuo Yu, Zedi Chen, Yuhan Wu et al. (15 authors)
+4. SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs — Causal LMs · score 56 · arXiv cs.LG · Mikołaj Zasada, Łukasz Struski, Jacek Tabor, Marcin Kurdziel
+5. Variable-Width Transformers — Causal LMs · score 56 · arXiv cs.CL · Zhaofeng Wu, Oliver Sieberling, Shawn Tan, Rameswar Panda et al. (6 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-16</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-16/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-16/</guid>
@@ -203,17 +214,6 @@
 3. TCARD: Nearly Balanced Two-Level Designs with Treatment Cardinality Constraints with an Application to LLM Prompt Engineering — Causal LMs · score 56 · arXiv stat.ME · Kexin Xie, Ryan Lekivetz, Xinwei Deng
 4. TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization — Causal LMs · score 56 · arXiv cs.LG · Lucheng Fu, Ye Yu, Yiyang Wang, Yiqiao Jin et al. (7 authors)
 5. Mem-$π$: Adaptive Memory through Learning When and What to Generate — Causal LMs · score 56 · arXiv cs.CL · Xiaoqiang Wang, Chao Wang, Hadi Nekoei, Christopher Pal et al. (8 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-20</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-20/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-20/</guid>
-      <pubDate>Wed, 20 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Rewarding Beliefs, Not Actions: Consistency-Guided Credit Assignment for Long-Horizon Agents — Causal LMs · score 56 · arXiv cs.CL · Wenjie Tang, Minne Li, Sijie Huang, Liquan Xiao et al. (5 authors)
-2. Component over Composite: Mitigating Type I Error Inflation when Imputing "Days Alive and at Home" — Uplift / HTE · score 52 · arXiv stat.ME · Mia S. Tackney, Sarah Dawson, Letao Yuan, Dominique-Laurent Couturier et al. (5 authors)
-3. Identifying Interventional Joint Distributions via Extended Bridge Functions — Causal Inference · score 52 · arXiv stat.ME · Constantin Schott
-4. Estimating treatment duration effects via clone-censor-weight: a breast cancer case study — Uplift / HTE · score 52 · arXiv stat.ME · Charlotte Voinot, Noémie Simon-Tillaux, Emma Torrini, Stefan Michiels et al. (7 authors)
-5. PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents — Causal LMs · score 52 · arXiv cs.LG · Zhuohan Gu, Qizheng Zhang, Omar Khattab, Samuel Madden</description>
     </item>
   </channel>
 </rss>
