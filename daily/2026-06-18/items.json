@@ -1,0 +1,621 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.19117v1",
+    "title": "Wasserstein Policy Learning for Distributional Outcomes",
+    "url": "http://arxiv.org/abs/2606.19117v1",
+    "summary": "Offline policy learning has received growing attention in causal inference. The primary objective is to learn a policy (individualized treatment rule) as a mapping from covariates to treatment that maximizes the empirical welfare defined as the mean of scalar-valued potential outcomes. In this paper, we study offline policy learning with distribution-valued outcomes, where each potential outcome is a probability measure on $\\mathbb{R}$ and the reward is defined through a utility functional applied to the Wasserstein barycenter of induced outcome distributions. We establish statistical guarantees for the policy learning framework based on both Inverse Probability Weighting (IPW) and Doubly Robust (DR) estimators. By handling the challenging uniform deviation over the product of the combinatorial policy class and the infinite-dimensional quantile domain, we prove that the finite-sample regret has leading dependence $\\widetilde{\\mathcal{O}}(\\sqrt{\\mathrm{N\\text{-}dim}(\u03a0)/N})$. In the one-dimensional Wasserstein setting and under the stated regularity conditions, the leading regret rate is still governed by the policy-class complexity. Moreover, we provide a minimax lower bound establishing the sharpness of the leading dependence on $N$ and $\\mathrm{N\\text{-}dim}(\u03a0)$.",
+    "authors": [
+      "Yiyan Huang",
+      "Cheuk Hang Leung",
+      "Qi Wu",
+      "Zhiheng Zhang"
+    ],
+    "published": "2026-06-17T14:31:53",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ME"
+    },
+    "score": 60,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Offline policy learning has received growing attention in causal inference. The primary objective is to learn a policy (individualized treatment rule) as a mapping from covariates to treatment that maximizes the empirical welfare defined as the mean of scalar-valued potential outcomes. In this paper, we study offline policy learning with distribution-valued outcomes, where each potential outcome\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2606.19087v1",
+    "title": "What does ethnic density represent? Spatial co-occurrence networks of a widely used contextual measure using harmonised UK small-area census data",
+    "url": "http://arxiv.org/abs/2606.19087v1",
+    "summary": "Ethnic density is widely used in epidemiology and health geography as a contextual exposure, yet it is rarely examined as a measurement problem in its own right. Equivalent percentage values may represent different neighbourhood contexts across groups and places, particularly where migration, religion, language, household structure and socioeconomic conditions are spatially co-located. Using the harmonised Unified UK Census Data release, I analysed 239,023 small-area census data to examine ethnic density as an exploratory contextual co-occurrence construct. I estimated UK-wide mixed graphical models (MGM) for eight ethnic-density targets using 239,019 complete cases and 32 nodes per target-specific model. England-only spatial analyses then used k-nearest-neighbour Output Area centroids (k = 8) to estimate LISA and spatially adjusted residual networks. Ethnic density did not behave as a single contextual scalar. In the UK-wide MGM, the strongest retained target-neighbour edges differed across groups. Asian density was linked most strongly with Middle East/Asia-born share (0.59), Indian density with Hindu share (0.55), Pakistani density with Muslim share (0.47), Bangladeshi density with Muslim share (0.23), Black density with Africa-born share (0.42), and White density with Middle East/Asia-born share (0.35). England-only ethnic-density measures were strongly spatially autocorrelated, with Global Moran's I ranging from 0.57 for Mixed share to 0.90 for White share. After residualising against English region and local spatial lag, 64.3% to 96.4% of original target-node edges persisted across ethnic-density networks. Equivalent percentage values are not necessarily comparable across ethnic groups. This has implications for estimand definition, adjustment strategies, and the interpretation of ethnic density and other bundled contextual measures in urban health research.",
+    "authors": [
+      "Joseph Lam"
+    ],
+    "published": "2026-06-17T13:57:44",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Ethnic density is widely used in epidemiology and health geography as a contextual exposure, yet it is rarely examined as a measurement problem in its own right. Equivalent percentage values may represent different neighbourhood contexts across groups and places, particularly where migration, religion, language, household structure and socioeconomic conditions are spatially co-located. Using the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.19147v1",
+    "title": "On Local Population-Risk Certificates",
+    "url": "http://arxiv.org/abs/2606.19147v1",
+    "summary": "This paper develops local certificates for population-risk increments around a current model. For a local candidate set \\(\\mathcal D\\), the certificate is a two-sided confidence band for \\(P({\\ell_{\u03b8+v}-\\ell_\u03b8})\\) over \\(v\\in\\mathcal D\\). As an application, the upper endpoint of this band yields a risk-controlled update rule: an update is accepted only when its certified upper endpoint is nonpositive; otherwise the current model is retained.",
+    "authors": [
+      "Mingzhi Song"
+    ],
+    "published": "2026-06-17T14:50:17",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "This paper develops local certificates for population-risk increments around a current model. For a local candidate set \\(\\mathcal D\\), the certificate is a two-sided confidence band for \\(P({\\ell_{\u03b8+v}-\\ell_\u03b8})\\) over \\(v\\in\\mathcal D\\). As an application, the upper endpoint of this band yields a risk-controlled update rule: an update is accepted only when its certified upper endpoint is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19168v1",
+    "title": "Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection",
+    "url": "http://arxiv.org/abs/2606.19168v1",
+    "summary": "To achieve deeper safety alignment for large language models (LLMs), recent efforts have studied how to push safety interventions earlier into the pretraining stage, primarily by filtering unsafe data or rewriting it into safer forms. We argue that pretraining-stage alignment should go beyond making the data safe: LLMs may compose seemingly benign knowledge and capabilities into unsafe behaviors. To this end, we propose Safety Reflection Pretraining, a pretraining-stage alignment method which regularly inserts short safety reflections into pretraining corpora to integrate self-monitoring directly into language modeling, establishing a foundational capability that is subsequently reinforced by compatible post-training. Our experiments with 1.7B models pretrained on FineWeb-Edu show that Safety Reflection Pretraining improves safety classification accuracy and substantially reduces the success rates of inference-stage and finetuning attacks. Complementary to our real-world experiments, we also introduce a fully controlled synthetic environment, MedSafetyWorld, with a clear definition of safety and a reasoning structure under which models can easily generalize unsafe behaviors from safe data. Ablations in MedSafetyWorld further demonstrate a clear advantage of Safety Reflection Pretraining in preventing models from acting on unsafe behaviors generalized from safe data, compared with data filtering and rewriting. Taken together, our findings suggest that pretraining alignment should not only make the training data safe, but also shape the behaviors that models are likely to acquire from safe data.",
+    "authors": [
+      "Jinhan Li",
+      "Kexian Tang",
+      "Yihan Xu",
+      "Zhuorui Ye",
+      "Kaifeng Lyu"
+    ],
+    "published": "2026-06-17T15:11:43",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "To achieve deeper safety alignment for large language models (LLMs), recent efforts have studied how to push safety interventions earlier into the pretraining stage, primarily by filtering unsafe data or rewriting it into safer forms. We argue that pretraining-stage alignment should go beyond making the data safe: LLMs may compose seemingly benign knowledge and capabilities into unsafe behaviors.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.19336v1",
+    "title": "Learning User Simulators with Turing Rewards",
+    "url": "http://arxiv.org/abs/2606.19336v1",
+    "summary": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing approaches generally do so by training a large language model (LLM) to match a single ground truth response, either by maximizing the log probability or by using a similarity reward. We instead propose {Turing-RL}: a Turing-Test-based reinforcement learning approach for training user simulator models. {Turing-RL} uses a discriminative Turing reward with an LLM judge to score how indistinguishable a generated response is from the real user's given the user's history, and the user simulator LLM learns to produce responses indistinguishable from what the user could have said with such rewards. Across two different domains--conversational chat and Reddit forum discussion--we find that {Turing-RL} consistently outperforms baseline methods on both LLM and human evaluation metrics. Our study suggests that optimizing for indistinguishability, rather than response matching, is effective for learning user simulators.",
+    "authors": [
+      "Yingshan Susan Wang",
+      "Cedegao E. Zhang",
+      "Linlu Qiu",
+      "Zexue He",
+      "Pengyuan Li",
+      "Alex Pentland",
+      "Roger P. Levy",
+      "Yoon Kim"
+    ],
+    "published": "2026-06-17T17:58:48",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing approaches generally do so by training a large language model (LLM) to match a single ground truth response, either by maximizing the log probability or by using a similarity reward. We instead propose\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.19157v1",
+    "title": "IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages",
+    "url": "http://arxiv.org/abs/2606.19157v1",
+    "summary": "AudioLLMs enable speech recognition conditioned on textual prompts such as domain descriptions or entity lists. However, it remains unclear whether these models genuinely utilise such context or rely on parametric knowledge learned during pretraining. Existing benchmarks cannot answer this question because they evaluate transcription under fixed prompting conditions and rarely include explicit contextual inputs. We introduce IndicContextEval, a 56-hour multilingual benchmark of natural speech from 555 speakers across 8 Indian languages and 23 professional domains. We design a 7-level prompting framework that progressively introduces contextual signals, including metadata, natural-language descriptions, entity lists in English and native script, and adversarial prompts with incorrect entities. Evaluating five models reveals substantial differences in context utilisation behaviour, highlighting the need for explicit evaluation of contextual grounding in AudioLLMs.",
+    "authors": [
+      "Sakshi Joshi",
+      "Dhruv Subhash Rathi",
+      "Sanskar Singh",
+      "Eldho Ittan George",
+      "R J Hari",
+      "Kaushal Bhogale",
+      "Mitesh M. Khapra"
+    ],
+    "published": "2026-06-17T14:59:37",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "eess.AS"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "AudioLLMs enable speech recognition conditioned on textual prompts such as domain descriptions or entity lists. However, it remains unclear whether these models genuinely utilise such context or rely on parametric knowledge learned during pretraining. Existing benchmarks cannot answer this question because they evaluate transcription under fixed prompting conditions and rarely include explicit\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.19230v1",
+    "title": "A Human-in-the-Loop Bayesian Optimization Framework for Constraint-Aware Bioprocess Development",
+    "url": "http://arxiv.org/abs/2606.19230v1",
+    "summary": "This work presents an extension to Pareto Front Guided Sampling (PFGS), a Human-in-the-Loop (HitL) Bayesian Optimization (BO) framework in which Gaussian process (GP) surrogate-derived quantities are reformulated as objectives of a multi-objective optimization problem, and the resulting Pareto front is exposed to a domain expert for interactive candidate selection rather than returning a single automated recommendation. The framework is extended in two directions: constrained optimization is addressed by incorporating the posterior probability of satisfying output specification limits as an explicit Pareto objective, computed analytically from the GP posterior distribution; robust optimization is addressed by a Monte Carlo sampling strategy that estimates expected lower-confidence performance over a user-defined variability of input perturbations, capturing performance degradation under likely implementation deviations. The resulting multi-dimensional Pareto representation renders trade-offs between predicted performance, model uncertainty, probabilistic constraint satisfaction, and input robustness simultaneously visible through pairwise two-dimensional projections on an interactive dashboard, enabling selection criteria to be iteratively refined as the surrogate model improves and development objectives evolve. The framework is showcased on an eight-dimensional fed-batch Chinese Hamster Ovary (CHO) cell culture simulator demonstrating systematic identification of high-performing, feasibility-compliant, and perturbation-resilient operating conditions, and illustrating how expert-defined requirements provide a principled stopping criterion and support informed allocation of experimental resources.",
+    "authors": [
+      "Samuel Stricker",
+      "Claus Wirnsperger",
+      "Alessandro Butt\u00e9",
+      "Laura Helleckes",
+      "Gonzalo Guill\u00e9n Gos\u00e1lbez",
+      "Antonio del Rio Chanona",
+      "Mehmet Mercang\u00f6z"
+    ],
+    "published": "2026-06-17T16:06:41",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "This work presents an extension to Pareto Front Guided Sampling (PFGS), a Human-in-the-Loop (HitL) Bayesian Optimization (BO) framework in which Gaussian process (GP) surrogate-derived quantities are reformulated as objectives of a multi-objective optimization problem, and the resulting Pareto front is exposed to a domain expert for interactive candidate selection rather than returning a single\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.19105v1",
+    "title": "Smoothness-Based Derandomization of PAC-Bayes Bounds",
+    "url": "http://arxiv.org/abs/2606.19105v1",
+    "summary": "We study PAC-Bayes derandomization for smooth loss functions. Our goal is to obtain generalization bounds that hold with high probability for deterministic predictors by exploiting smoothness properties of both the loss and the predictor class. We show that passing from the Gibbs predictor to the deterministic predictor at the posterior mean has a precise cost, given by the generalization gap of the Jensen gap class. We control this class through its Rademacher complexity, leading to bounds for deterministic predictors that involve flatness quantities expressed in terms of parameter Jacobians and Hessians of the score map. The framework applies to both bounded and unbounded smooth loss functions, and we specialize the results to linear predictors and smooth neural networks. Finally, the Jacobian and Hessian quantities appearing in the theory motivate a practical regularizer. For BatchNorm networks, we compute this regularizer with respect to effective BatchNorm weights obtained by folding the BatchNorm transformation into the adjacent affine weights. Experiments on CIFAR-10 illustrate the behavior of this regularizer under different batch sizes.",
+    "authors": [
+      "Alexandre Lemire Paquin",
+      "Brahim Chaib-Draa",
+      "Philippe Gigu\u00e8re"
+    ],
+    "published": "2026-06-17T14:17:44",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We study PAC-Bayes derandomization for smooth loss functions. Our goal is to obtain generalization bounds that hold with high probability for deterministic predictors by exploiting smoothness properties of both the loss and the predictor class. We show that passing from the Gibbs predictor to the deterministic predictor at the posterior mean has a precise cost, given by the generalization gap of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19118v1",
+    "title": "Analysing drivers and interdependencies in European electricity markets using XAI",
+    "url": "http://arxiv.org/abs/2606.19118v1",
+    "summary": "Electricity markets are inherently complex systems characterised by strong nonlinearities, high-dimensional interactions, and increasing interdependence across regions. While deep neural networks (DNNs) have demonstrated strong predictive capabilities for electricity prices, their lack of interpretability limits their usefulness for understanding the underlying drivers of price formation. This paper addresses this gap by combining DNN models with explainable artificial intelligence (XAI) techniques to analyse the determinants of electricity prices across 39 European bidding zones. We employ SHAP (SHapley Additive exPlanations) to quantify feature contributions and apply and extend SSHAP, an aggregation framework to improve interpretability in high-dimensional settings. The analysis identifies that renewable energy sources, particularly solar, play a disproportionately important role in price formation despite their lower share in total power generation. Gas prices remain a dominant and consistent driver across electricity markets, while interconnections significantly shape price dynamics, highlighting the strong interdependence of European electricity systems. In addition, a synthetic EU-wide electricity market is constructed to explore the counterfactual scenario of a fully integrated market with a single price.",
+    "authors": [
+      "Antoine Pesenti",
+      "Aidan O'Sullivan"
+    ],
+    "published": "2026-06-17T14:32:39",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Electricity markets are inherently complex systems characterised by strong nonlinearities, high-dimensional interactions, and increasing interdependence across regions. While deep neural networks (DNNs) have demonstrated strong predictive capabilities for electricity prices, their lack of interpretability limits their usefulness for understanding the underlying drivers of price formation. This\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19108v1",
+    "title": "JourneyFormer: Encoding Airbnb Guest Journey with Sequence Modeling",
+    "url": "http://arxiv.org/abs/2606.19108v1",
+    "summary": "Sequence modeling has become increasingly popular in recommendation and ranking algorithms, owing to its capacity to model users' historical behaviors and infer user intentions. Despite its theoretical simplicity, the practical deployment of a sequence model in production is non-trivial due to complexity of the sequence and sparse labels. For example, in Airbnb, guest sequences are often long, exploratory and complex, and we focus on booking labels, which are sparse. As such, we are often required to make various design decisions regarding data and modeling to strike a balance between effectiveness and scalability. This work delved into these production challenges and deployed JourneyFormer, a sequence modeling solution for search ranking at Airbnb. We detail crucial design considerations, covering aspects such as guest event selection, ID embeddings, model architecture, and label attribution. Additionally, we describe several tailored strategies to accelerate model training and inference. JourneyFormer has been successfully deployed within Airbnb's production, where its effectiveness and impact have been evidenced not only by improved offline ranking metrics but also by significant gains in key business metrics through online A/B testing across 2 production surfaces.",
+    "authors": [
+      "Daochen Zha",
+      "Chun How Tan",
+      "Xin Liu",
+      "Bin Xu",
+      "Han Zhao",
+      "Xiaowei Liu",
+      "Tracy Yu",
+      "Hui Gao",
+      "Huiji Gao",
+      "Liwei He",
+      "Stephanie Moyerman",
+      "Sanjeev Katariya"
+    ],
+    "published": "2026-06-17T14:22:18",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Sequence modeling has become increasingly popular in recommendation and ranking algorithms, owing to its capacity to model users' historical behaviors and infer user intentions. Despite its theoretical simplicity, the practical deployment of a sequence model in production is non-trivial due to complexity of the sequence and sparse labels. For example, in Airbnb, guest sequences are often long,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19334v1",
+    "title": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
+    "url": "http://arxiv.org/abs/2606.19334v1",
+    "summary": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable corpora: local ordinances. Local codes govern zoning, housing, business licensing, public health, noise, animal control, and many other domains of everyday regulation, but they are fragmented across vendor platforms designed for human browsing rather than bulk research access. We introduce LOCUS - the Local Ordinance Corpus for the United States - a comprehensive corpus and county-harmonized access layer for U.S. municipal and county ordinance codes. The raw corpus, available for release to researchers, represents nearly all publicly available municipal and county ordinance codes. The resulting raw corpus contains codes from 9,239 cities and counties. A smaller county-harmonized LOCUS access layer provides coverage for the largest 2,309 of 3,144 U.S. counties, accounting for a majority of the population. We use OCR to handle the myriad of document formats that have kept the law from being a public resource. We release the corpus with coverage metadata to support reproducibility, downstream legal AI research, and the incremental expansion of machine-readable access to local law. We train a collection of ModernBERT-based classifiers and scorers to facilitate analyzing U.S. local law among several dimensions, such as opacity and paternalism, that have not previously been studied at this scale. LOCUS-v1 and its derivative models are available at: https://huggingface.co/datasets/LocalLaws/LOCUS-v1",
+    "authors": [
+      "Denis Peskoff",
+      "Joe Barrow",
+      "Christopher Vu",
+      "Diag Davenport"
+    ],
+    "published": "2026-06-17T17:58:22",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable corpora: local ordinances. Local codes govern zoning, housing, business licensing, public health, noise, animal control, and many other domains of everyday regulation, but they are fragmented across\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19302v1",
+    "title": "Optimal scenario design for climate emulation",
+    "url": "http://arxiv.org/abs/2606.19302v1",
+    "summary": "As deep learning for physical systems continues to grow in popularity, efforts to improve generalizability have primarily focused on designing architectures that embed physical constraints. However, for machine-learning surrogate climate models (emulators), we show that the low structural diversity in existing scenarios commonly used to generate training data places a ceiling on predictive skill. Here, we examine whether training datasets themselves can be optimized to improve generalization. We introduce a method to create datasets that produce emulators capable of generalizing to new, structurally different scenarios absent from the training data. We use a differentiable Simple Climate Model (SCM) to calculate the sensitivity of emulator loss to perturbations in the training data, iteratively updating the training data to maximize emulator skill. For an SCM, training on one scenario optimized in this fashion outperforms an emulator trained on six standard ScenarioMIP pathways. We achieve this higher predictive skill despite training on a smaller dataset, finding that our emulator successfully isolates distinct physical behaviors of different climate forcing agents (e.g., greenhouse gases vs. aerosols) without single-forcing runs. We then demonstrate that scenarios optimized using an SCM, when used to drive an intermediate-complexity climate model, produce a training dataset that yields a more skillful emulator than training on ScenarioMIP outputs. Our results suggest that, in the compute-constrained environment of running full-scale climate models, generating a small number of dynamically rich scenarios provides greater marginal value for emulation and characterizing system responses than expanding the suite of traditional emissions pathways.",
+    "authors": [
+      "Christopher B. Womack",
+      "Shahine Bouabid",
+      "Andrei Sokolov",
+      "Popat Salunke",
+      "Glenn Flierl",
+      "Sebastian D. Eastham",
+      "Noelle E. Selin"
+    ],
+    "published": "2026-06-17T17:26:22",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "physics.ao-ph"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "As deep learning for physical systems continues to grow in popularity, efforts to improve generalizability have primarily focused on designing architectures that embed physical constraints. However, for machine-learning surrogate climate models (emulators), we show that the low structural diversity in existing scenarios commonly used to generate training data places a ceiling on predictive skill.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19300v1",
+    "title": "Confidence is Not Reliability: Rethinking MC Dropout in Brain Tumour Segmentation",
+    "url": "http://arxiv.org/abs/2606.19300v1",
+    "summary": "Glioma segmentation in multiparametric MRI is a critical component of treatment planning. A segmentation model that fails silently on treatment-critical sub-regions represents a patient safety risk that overlap-based metrics such as Dice scores cannot expose. We ask whether voxel-level uncertainty estimation via Monte Carlo (MC) Dropout can reliably identify segmentation errors in clinically critical sub-regions, and whether calibration failure modes are detectable from standard reporting metrics alone. In an empirical two-model case study on 126 BraTS21 patients, we evaluate a high-performance pretrained SegResNet and a locally trained UNet with residual units (UNet-Res). MC dropout preserved segmentation accuracy ($|\u0394\\text{Dice}|$ $<0.01$) while achieving strong uncertainty-error alignment (AUROC for entropy (H) $\\approx$0.97), indicating uncertainty correctly ranks erroneous voxels above correct ones. Entropy-based patient stratification identified a high-uncertainty subgroup with substantially lower segmentation performance (median whole-tumour Dice $0.835$ vs. $0.925$), supporting uncertainty as a practical triage signal. However, global alignment can mask important region-specific differences. Despite similar AUROC, UNet-Res exhibited near-zero enhancing tumour entropy ($0.054$) and Expected Calibration Error (ECE) of $0.915$, with a Dice of only $0.714$, indicating severely miscalibrated confidence on the most clinically critical sub-region, a failure mode invisible to standard Dice and AUROC reporting. These findings demonstrate that strong uncertainty-error alignment is necessary but insufficient for clinical safety: sub-region-specific calibration assessment must accompany AUROC evaluation when selecting models for clinical deployment.",
+    "authors": [
+      "Xin Ci Wong",
+      "Duygu Sarikaya",
+      "Kieran Zucker",
+      "Marc De Kamps",
+      "Nishant Ravikumar"
+    ],
+    "published": "2026-06-17T17:24:41",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Glioma segmentation in multiparametric MRI is a critical component of treatment planning. A segmentation model that fails silently on treatment-critical sub-regions represents a patient safety risk that overlap-based metrics such as Dice scores cannot expose. We ask whether voxel-level uncertainty estimation via Monte Carlo (MC) Dropout can reliably identify segmentation errors in clinically\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19150v1",
+    "title": "Complementary Attention Head Pruning for Efficient Transformers",
+    "url": "http://arxiv.org/abs/2606.19150v1",
+    "summary": "The remarkable success of Transformer-based models in natural language processing stems from architectural scaling, which leads to a large number of parameters and hinders deployment in resource-constrained environments. While structured pruning offers a pathway to compression, existing state-of-the-art methods often rely on gradient-based importance ranking or stochastic gating, which suffer from instability, structural degeneration, and the need for extensive manual hyperparameter tuning. In this paper, we introduce CAHP (Complementary Attention Head Pruning), a novel post-hoc framework that redefines head selection as a global graph-theoretical problem. Rather than evaluating heads in isolation, CAHP utilizes graph-based clustering combined with information-theoretic distance measures to identify and preserve a topologically diverse subset of complementary attention heads. Without requiring a predefined sparsity level or pruning ratio, the framework automatically determines the number of selected attention heads across layers by identifying a diminishing marginal performance curve, where pruning additional heads leads to a sharp degradation in performance, as determined by the chosen polynomial degree. Extensive evaluations on the SST-5 and MNLI benchmarks, across different Transformer model scales, demonstrate that CAHP consistently outperforms competitive baselines, particularly in high-compression regimes. Furthermore, our structural analysis shows that CAHP avoids the \"proximity bias\" of gradient-based pruning methods, which tend to preserve heads mainly in layers close to the output, and instead retains a functionally critical set of attention heads in the model's intermediate layers.",
+    "authors": [
+      "Yaniv Livertovsky",
+      "Shahar Somin",
+      "Gonen Singer"
+    ],
+    "published": "2026-06-17T14:56:27",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The remarkable success of Transformer-based models in natural language processing stems from architectural scaling, which leads to a large number of parameters and hinders deployment in resource-constrained environments. While structured pruning offers a pathway to compression, existing state-of-the-art methods often rely on gradient-based importance ranking or stochastic gating, which suffer\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.19218v1",
+    "title": "RECOM: A Validity Discrimination Tradeoff in Automatic Metrics for Open Ended Reddit Question Answering",
+    "url": "http://arxiv.org/abs/2606.19218v1",
+    "summary": "Automatic metrics are the default for evaluating LLM-generated text, yet a metric is quietly asked to do two jobs: tell genuine content alignment from surface coincidence (validity), and tell a better system from a worse one (discriminative power). On open-ended, opinion-driven question answering, the two are in tension. We introduce RECOM (Reddit Evaluation for Correspondence of Models), a contamination-free evaluation dataset of 15,000 r/AskReddit questions (September 2025), each paired with its authentic community replies, which postdate every evaluated model's training cutoff. Scoring five open-source LLMs (7--10B) against every reply each metric paired with a random-derangement noise floor we find that no metric does both jobs well. Cosine similarity separates real from random answers (Cohen's $d \\approx 2$) but cannot rank the five models ($|d| < 0.1$); BERTScore precision appears to rank the models (raw $|d|$ up to 0.63), but once response length is controlled this collapses to $|d| = 0.09$ and its validity is weak ($d \\approx 0.8$, versus cosine's $\\approx 2$). Because every metric scores the same outputs, this validity--discrimination tradeoff is a property of the metrics, not the models, and we argue it stems from representation design. Three independent LLM judges reproduce the validity gap and likewise separate the five models only weakly. We recommend reporting metrics on both axes, with an explicit random-baseline floor. RECOM is publicly available at https://anonymous.4open.science/r/recom-D4B0",
+    "authors": [
+      "Pushwitha Krishnappa",
+      "Amit Das",
+      "Vinija Jain",
+      "Aman Chadha",
+      "Tathagata Mukherjee"
+    ],
+    "published": "2026-06-17T15:55:33",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Automatic metrics are the default for evaluating LLM-generated text, yet a metric is quietly asked to do two jobs: tell genuine content alignment from surface coincidence (validity), and tell a better system from a worse one (discriminative power). On open-ended, opinion-driven question answering, the two are in tension. We introduce RECOM (Reddit Evaluation for Correspondence of Models), a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.19051v1",
+    "title": "Which Sections of a Research Paper Best Reveal Its Research Methods? Evidence from Library and Information Science",
+    "url": "http://arxiv.org/abs/2606.19051v1",
+    "summary": "Research methods are essential carriers of knowledge contribution in academic papers. Automatic multi-label classification of research methods can support knowledge services such as method retrieval, review generation, and research intelligence analysis. While existing studies primarily rely on titles and abstracts, abstracts often provide only limited methodological information, whereas utilizing full-text content faces challenges related to excessive length and information redundancy. Therefore, this paper proposes a segment combination strategy by partitioning the full-text content according to its physical postion. Using an annotated corpus of 1,954 full-text articles from three representative journals in Library and Information Science (JASIST, LISR, and JDoc), we evaluate the classification performance of various segments and their combinations across multiple models. Experimental results indicate that methodological information is distributed unevenly within the full-text content, with the middle-to-late and final segments exhibiting greater discriminative power. Furthermore, integrating bibliographic metadata with cross-segment combination strategies effectively enhances classification performance.",
+    "authors": [
+      "Qiuyu Fang",
+      "Jiayi Hao",
+      "Chengzhi Zhang"
+    ],
+    "published": "2026-06-17T13:17:41",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Research methods are essential carriers of knowledge contribution in academic papers. Automatic multi-label classification of research methods can support knowledge services such as method retrieval, review generation, and research intelligence analysis. While existing studies primarily rely on titles and abstracts, abstracts often provide only limited methodological information, whereas\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19329v1",
+    "title": "The Chandra-Gaia Catalog of Counterparts: Resolving ambiguous Gaia matches to X-ray sources in the Chandra Source Catalog using Machine Learning",
+    "url": "http://arxiv.org/abs/2606.19329v1",
+    "summary": "We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such as magnitudes, colors, and distances to identify true counterparts, detect chance coincidences, and resolve ambiguities when multiple plausible candidates exist. We define a training set of high-confidence matches using NWAY, a Bayesian cross-matching framework that accounts for positional errors and source densities. We train a gradient-boosted classifier (LightGBM) on a variety of features from both catalogs. Of the ~$254$k unique X-ray sources, we find counterparts for ~$113$k sources, of which plausible multiple counterparts are found for ~$7$k. We find no counterparts for ~$20$k sources for which separation-based cross-matching does find a match, and attribute half of these to chance coincidences. We validate the pipeline on the Chandra Orion Ultradeep Project (COUP), where the machine-learning matches reproduce 95% of NWAY cross-matches without using any positional information. We release a catalog of the ~$113$k Chandra-Gaia counterparts, together with ~$7$k alternative matches and ~$20$k ambiguous NWAY associations, supporting future population studies of sources detectable by both Chandra and Gaia. We discuss limitations and provide a generalization of the framework that is applicable in other cross-matching scenarios.",
+    "authors": [
+      "V. Samuel P\u00e9rez-D\u00edaz",
+      "Vinay L. Kashyap",
+      "Joshua D. Ingram",
+      "David Fouhey",
+      "Juan Rafael Mart\u00ednez-Galarza",
+      "Pavlos Protopapas",
+      "Jeremy J. Drake",
+      "Dong-Woo Kim",
+      "Cecilia Garraffo"
+    ],
+    "published": "2026-06-17T17:54:52",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "astro-ph.IM"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such as magnitudes, colors, and distances to identify true counterparts, detect chance coincidences, and resolve ambiguities when multiple plausible candidates exist. We define a training set of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19328v1",
+    "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2606.19328v1",
+    "summary": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample efficiency, especially during the early stages of learning. We introduce a model-based approach that actively directs exploration by jointly reasoning over uncertainties in the reward, dynamics, and value functions. Our method, Uncertainty-Balanced Preference Planning (UBP2), uses ensembles of reward, dynamics, and value function models to evaluate candidate trajectories according to a unified score that combines expected reward, terminal value, and epistemic uncertainty. Planning under this objective yields an explicit tradeoff between exploitation and information acquisition without requiring ad hoc exploration heuristics. Under standard regularity assumptions, we establish sublinear regret guarantees for both finite-horizon and infinite-horizon settings. Empirically, experiments on the Meta-World benchmark show UBP2 achieves substantially higher sample efficiency than model-free preference-based methods and non-optimistic model-based baselines.",
+    "authors": [
+      "Mohamed Nabail",
+      "Leo Cheng",
+      "Jingmin Wang",
+      "Nicholas Rhinehart"
+    ],
+    "published": "2026-06-17T17:54:32",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Preference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample efficiency, especially during the early stages of learning. We introduce a model-based approach that actively directs exploration by jointly\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19245v1",
+    "title": "TxBench-PP: Analyzing AI Agent Performance on Small-Molecule Preclinical Pharmacology",
+    "url": "http://arxiv.org/abs/2606.19245v1",
+    "summary": "Artificial intelligence (AI) agents promise to accelerate drug discovery by compressing interpretation and decision-making loops, but practical deployment requires trusted evaluation on realistic program decisions. We introduce TherapeuticsBench Preclinical Pharmacology (TxBench-PP), a verifiable benchmark for small-molecule preclinical pharmacology and the first focused slice of a broader TherapeuticsBench effort across drug-discovery stages and therapeutic modalities. TxBench-PP tests whether agents can recover accurate conclusions from real-world assay data rather than memorized facts from literature. The benchmark contains 100 evaluations indexed by program stage, assay type, and task structure, spanning mechanism-of-action (MoA) and pharmacodynamic (PD) reasoning, compound-target engagement, causal target validation, developability and safety, and translational efficacy. Agents receive realistic workflow snapshots, inspect files in a coding environment, and return structured answers graded deterministically. Across 16 model-harness configurations, comprising 11 models and 4,800 trajectories, no system reliably recovered preclinical pharmacology decisions. The strongest configuration, Claude Opus 4.8 / Pi, passed 59.3\\% of endpoint attempts (178/300; 95\\% CI, 51.1-67.6), followed by GPT-5.5 / Pi at 55.3\\% (166/300; 47.0-63.6).",
+    "authors": [
+      "Hannah Le",
+      "Ramesh Ramasamy",
+      "Alex Urrutia",
+      "Mahsa Yazdani",
+      "Tim Proctor",
+      "Kenny Workman"
+    ],
+    "published": "2026-06-17T16:23:45",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Artificial intelligence (AI) agents promise to accelerate drug discovery by compressing interpretation and decision-making loops, but practical deployment requires trusted evaluation on realistic program decisions. We introduce TherapeuticsBench Preclinical Pharmacology (TxBench-PP), a verifiable benchmark for small-molecule preclinical pharmacology and the first focused slice of a broader\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19222v1",
+    "title": "Mechanism-Guided Selective Unlearning for RLVR-Induced Reasoning",
+    "url": "http://arxiv.org/abs/2606.19222v1",
+    "summary": "We propose MAST (Mechanism-Aligned Selective Targeting), a mechanism-guided method for unlearning RLVR-induced reasoning with substantially lower collateral damage than standard full-parameter updates. In matched SFT/RLVR checkpoints on Qwen2.5-Math-1.5B and Qwen3-1.7B-Base, the SFT-to-RLVR increment differs sharply from the SFT update in token-level delta-log-probability, and full-parameter gradient ascent forgets only by damaging retain MATH and GSM8K. MAST ranks attention-projection tensors by off-principal energy, update magnitude, and forget-gradient coupling magnitude, then updates only the top-ranked subset. On the primary model, MAST induces statistically significant target forgetting (MATH forget 45/150 to 37/150; McNemar p=0.0078) while preserving GSM8K (+0.8 pp) and MATH retain (-0.5 pp). The advantage reproduces across seeds, NPO/SimNPO objectives, and Qwen3, where MAST preserves GSM8K while full-parameter unlearning collapses it.",
+    "authors": [
+      "Chenyu Zhou",
+      "Qiliang Jiang",
+      "Shuning Wu",
+      "Xu Zhou"
+    ],
+    "published": "2026-06-17T15:59:21",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We propose MAST (Mechanism-Aligned Selective Targeting), a mechanism-guided method for unlearning RLVR-induced reasoning with substantially lower collateral damage than standard full-parameter updates. In matched SFT/RLVR checkpoints on Qwen2.5-Math-1.5B and Qwen3-1.7B-Base, the SFT-to-RLVR increment differs sharply from the SFT update in token-level delta-log-probability, and full-parameter\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19186v1",
+    "title": "Learning to Annotate Delayed and False AEB Events: A Practical System for Extreme Class Imbalance and Asymmetric Label Noise",
+    "url": "http://arxiv.org/abs/2606.19186v1",
+    "summary": "Autonomous Emergency Braking (AEB) optimization relies on accurately annotated real-world trigger events, particularly rare but critical delayed and false AEB triggers that expose system deficiencies. However, these minority samples comprise less than 5% of thousands of daily triggers, making manual annotation prohibitively expensive at scale. We present the first automated AEB annotation framework to address this problem. During development, we identified two fundamental challenges that severely impair delayed/false trigger annotation accuracy: (1) Extreme class imbalance where delayed/false triggers are overwhelmed by true triggers; (2) Asymmetric label noise where mislabeled majority samples (true triggers) suppress minority samples (delayed/false triggers) learning. To overcome these challenges, we propose two key innovations: (1) Specific data augmentation that synthesizes realistic samples by manipulating focal target attributes, transplanting ego-vehicle dynamics, and masking non-focal agents; (2) noise suppression using stable hardness estimation and probe-guided adaptive threshold to clean mislabeled true trigger samples. Crucially, we deploy our model as a practical annotation system with full-stack architecture, efficiently identifying critical delayed/false triggers from thousands of daily AEB events. Production results demonstrate 80% improvement in recall of delayed/false triggers and 50% reduction in manual workload. Beyond immediate gains, the system enables continuous self-improvement through accumulated high-quality annotations, establishing a necessary data foundation for on-vehicle AEB system optimization",
+    "authors": [
+      "Mengxiang Hao",
+      "Xin Jiang",
+      "Xinghao Huang",
+      "Wenliang Su",
+      "Zhiteng Wang",
+      "Junjie Rao",
+      "Xiaotian Yang",
+      "Wei Liao",
+      "Chengyu Han",
+      "Gen Liang",
+      "Yulun Song",
+      "Zhitao Xu",
+      "Xianpeng Lang"
+    ],
+    "published": "2026-06-17T15:27:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.RO"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Autonomous Emergency Braking (AEB) optimization relies on accurately annotated real-world trigger events, particularly rare but critical delayed and false AEB triggers that expose system deficiencies. However, these minority samples comprise less than 5% of thousands of daily triggers, making manual annotation prohibitively expensive at scale. We present the first automated AEB annotation\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19140v1",
+    "title": "ChronoSurv: A Clinical Pathway-Guided Graph Framework for Multimodal Survival Analysis",
+    "url": "http://arxiv.org/abs/2606.19140v1",
+    "summary": "Accurate survival prediction is essential for personalized treatment planning in head and neck cancer, yet remains challenging due to the heterogeneous and high-dimensional nature of multimodal clinical data. While deep survival models have improved predictive performance over classical statistical approaches, existing methods typically rely on static fusion strategies or temporally agnostic modeling, limiting their ability to capture structured clinical workflows. In this work, we propose ChronoSurv, a heterogeneous hierarchical directed graph framework for multimodal survival analysis. ChronoSurv represents patient care as a progression-aware clinical trajectory using directed graphs aligned with key diagnostic steps. A hierarchical topology incorporates fine-grained, coarse, and global representations, further supporting flexible adaptation to missing modalities, while heterogeneous message passing models complex and asymmetric relationships across modalities and clinical steps. Experimental results on two public datasets demonstrate that ChronoSurv achieves state-of-the-art discriminative performance while maintaining statistically reliable calibration. Comprehensive ablation studies further confirm the contribution of each architectural component, highlighting the potential of trajectory-aware graph modeling for multimodal survival prediction.",
+    "authors": [
+      "Hugo Miccinilli",
+      "Theo Di Piazza"
+    ],
+    "published": "2026-06-17T14:46:47",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Accurate survival prediction is essential for personalized treatment planning in head and neck cancer, yet remains challenging due to the heterogeneous and high-dimensional nature of multimodal clinical data. While deep survival models have improved predictive performance over classical statistical approaches, existing methods typically rely on static fusion strategies or temporally agnostic\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19134v1",
+    "title": "Pareto Q-Learning with Reward Machines",
+    "url": "http://arxiv.org/abs/2606.19134v1",
+    "summary": "We present Pareto Q-Learning with Reward Machines (PQLRM), a multi-objective reinforcement learning algorithm for tasks whose reward structure is specified by a set of reward machines (RMs). PQLRM combines Pareto Q-Learning (PQL), which maintains sets of vector-valued Q-estimates to approximate the Pareto front, with enhancements from Q-Learning with Reward Machines (QRM), which exploits the factored automaton structure of the reward signal. This yields a multi-policy algorithm that remains sample-efficient under non-Markovian, RM-encoded rewards. Experimental trials show that PQLRM converges faster than a naive PQL baseline applied to the cross-product MDP and can synthesize Pareto-optimal policies that QRM cannot.",
+    "authors": [
+      "Arnaud Lequen",
+      "Cl\u00e9ment Legrand-Lixon",
+      "L\u00e9o Sauli\u00e8res"
+    ],
+    "published": "2026-06-17T14:44:31",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We present Pareto Q-Learning with Reward Machines (PQLRM), a multi-objective reinforcement learning algorithm for tasks whose reward structure is specified by a set of reward machines (RMs). PQLRM combines Pareto Q-Learning (PQL), which maintains sets of vector-valued Q-estimates to approximate the Pareto front, with enhancements from Q-Learning with Reward Machines (QRM), which exploits the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19129v1",
+    "title": "Giskard : Byzantine Robust and Confidential Aggregation for Large-Scale Decentralized Learning",
+    "url": "http://arxiv.org/abs/2606.19129v1",
+    "summary": "Dealing simultaneously with confidentiality and Byzantine behaviors in decentralized learning is a challenging problem. Indeed, in decentralized learning, clients train a machine learning model while keeping their data locally and share their model parameters or gradients with a set of neighbors. While enforcing confidentiality calls for hiding the exchanged model parameters/gradients (e.g., by using cryptographic techniques), dealing with Byzantine contributions often requires inspecting the latter. Hence, most research works address these objectives separately. A recent line of work proposes to employ secure multi-party computation (MPC) to implement robust aggregators against model poisoning, thereby enforcing both confidentiality and Byzantine resilience. However, these solutions scale badly: they either require all-to-all communication between participants or delegate the entire computation to a small subset, whose computational and communication load grows proportionally with the size of the network.   In this paper, we present Giskard, a protocol for confidential and Byzantine-robust decentralized aggregation. Giskard organizes $n$ parties into a tree of committees of size $O(\\log n)$ and evaluates a coordinate-wise approximate median via a committee-adapted distributed binary search over the value domain, using BGW-style MPC within each committee. We assess Giskard both theoretically by proving its security and confidentiality properties and experimentally through extensive experiments involving up to one million participants. Compared to its closest competitors, Giskard reduces per-party communication complexity asymptotically while exhibiting comparable model utility under up to $n/4$ Byzantine parties.",
+    "authors": [
+      "Ousmane Touat",
+      "C\u00e9sar Sabater",
+      "Mohamed Maouche",
+      "Sonia Ben Mokhtar"
+    ],
+    "published": "2026-06-17T14:40:19",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CR"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Dealing simultaneously with confidentiality and Byzantine behaviors in decentralized learning is a challenging problem. Indeed, in decentralized learning, clients train a machine learning model while keeping their data locally and share their model parameters or gradients with a set of neighbors. While enforcing confidentiality calls for hiding the exchanged model parameters/gradients (e.g., by\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.19101v1",
+    "title": "Structure Over Nonlinearity: Explicit Interaction Architectures for Dynamical Learning",
+    "url": "http://arxiv.org/abs/2606.19101v1",
+    "summary": "Most learning architectures for dynamical systems rely on generic nonlinear function approximation, often requiring high model complexity to capture structured behaviors. In this work, we propose an alternative paradigm in which modeling capability arises primarily from structure rather than from expressive nonlinearities. We introduce a class of explicit structured dynamical units based on wave-inspired interaction structures with internal state. Inspired by wave-based computational principles, the proposed units adopt a strictly causal organization that eliminates algebraic loops, yielding fully explicit models that can be evaluated without implicit solvers. Stacking such units produces layered dynamical architectures with emergent hierarchical behavior. Through experiments on a nonlinear system identification task, we show that depth improves both representation quality and generalization, even under limited parameter optimization. In particular, the proposed architectures produce informative internal representations even under readout-only fitting, indicating that useful dynamical structure emerges from the organization of interactions prior to substantial parameter optimization. These results suggest that structure-first design provides a viable and effective alternative to conventional black-box approaches for learning dynamical systems, highlighting the role of interaction structure as a primary source of model expressivity.",
+    "authors": [
+      "Augusto Sarti"
+    ],
+    "published": "2026-06-17T14:12:27",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "eess.SP"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Most learning architectures for dynamical systems rely on generic nonlinear function approximation, often requiring high model complexity to capture structured behaviors. In this work, we propose an alternative paradigm in which modeling capability arises primarily from structure rather than from expressive nonlinearities. We introduce a class of explicit structured dynamical units based on\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.19139v1",
+    "title": "Urdu Katib Handwritten Dataset: A Historical Document Dataset for Offline Urdu Handwritten Text Recognition with CRNN-Based Baseline Evaluation",
+    "url": "http://arxiv.org/abs/2606.19139v1",
+    "summary": "Automatic Handwritten Text Recognition (HTR) is inherently a challenging task, and its complexity is further increased when dealing with cursive scripts. Although significant efforts have been made on various cursive scripts, research regarding Urdu Handwritten Text Recognition (UHTR) has been relatively limited. This lag of research is primarily due to the unique challenges posed by its script, and the scarcity and unavailability of benchmark datasets. Therefore, to advance research in UHTR, this study presents a specialized real dataset called the Urdu Katib Handwritten Dataset (UKHD). To the best of our knowledge, this is the first offline Urdu handwritten text lines dataset specifically curated from the materials written by Katibs in historical times. It encompasses a diverse range of flat nib writing variations in the Nastalique calligraphic style. Additionally, the effectiveness of different CRNN-based hybrid models has been evaluated to identify the optimal architecture for Urdu Katib Handwriting Recognition (UKHR). Among the analyzed models, the CNN-BGRU-CTC model showed more robust performance, with low Character Error Rate (CER) and Word Error Rate (WER). This research work aims to support and encourage the research community in developing a robust recognition system for preserving Urdu handwritten literature.",
+    "authors": [
+      "Ramza Basharat",
+      "Muhammad Usman Ali"
+    ],
+    "published": "2026-06-17T14:46:29",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Automatic Handwritten Text Recognition (HTR) is inherently a challenging task, and its complexity is further increased when dealing with cursive scripts. Although significant efforts have been made on various cursive scripts, research regarding Urdu Handwritten Text Recognition (UHTR) has been relatively limited. This lag of research is primarily due to the unique challenges posed by its script,\u2026"
+  }
+]

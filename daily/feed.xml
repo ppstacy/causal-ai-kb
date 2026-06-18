@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-18</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-18/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-18/</guid>
+      <pubDate>Thu, 18 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Wasserstein Policy Learning for Distributional Outcomes — Uplift / HTE · score 60 · arXiv stat.ML · Yiyan Huang, Cheuk Hang Leung, Qi Wu, Zhiheng Zhang
+2. What does ethnic density represent? Spatial co-occurrence networks of a widely used contextual measure using harmonised UK… — Uplift / HTE · score 56 · arXiv stat.ME · Joseph Lam
+3. On Local Population-Risk Certificates — Uplift / HTE · score 52 · arXiv stat.ML · Mingzhi Song
+4. Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection — Causal LMs · score 52 · arXiv cs.LG · Jinhan Li, Kexian Tang, Yihan Xu, Zhuorui Ye et al. (5 authors)
+5. Learning User Simulators with Turing Rewards — Causal LMs · score 52 · arXiv cs.CL · Yingshan Susan Wang, Cedegao E. Zhang, Linlu Qiu, Zexue He et al. (8 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-17</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-17/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-17/</guid>
@@ -203,17 +214,6 @@
 2. The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning — Other · score 48 · arXiv stat.ML · Vishal Rajput
 3. Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models — Other · score 48 · arXiv stat.ML · Krishnakumar Balasubramanian
 4. Proxy-Based Approximation of Shapley and Banzhaf Interactions — Other · score 48 · arXiv stat.ML · Santo M. A. R. Thies, Hubert Baniecki, R. Teal Witter, Eyke Hüllermeier et al. (6 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-21</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-21/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-21/</guid>
-      <pubDate>Thu, 21 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
-2. Metaphors in Literary Post-Editing: Opening Pandora's Box? — Causal LMs · score 60 · arXiv cs.CL · Aletta G. Dorst, Mayra O. Nas, Katinka Zeven
-3. TCARD: Nearly Balanced Two-Level Designs with Treatment Cardinality Constraints with an Application to LLM Prompt Engineering — Causal LMs · score 56 · arXiv stat.ME · Kexin Xie, Ryan Lekivetz, Xinwei Deng
-4. TextReg: Mitigating Prompt Distributional Overfitting via Regularized Text-Space Optimization — Causal LMs · score 56 · arXiv cs.LG · Lucheng Fu, Ye Yu, Yiyang Wang, Yiqiao Jin et al. (7 authors)
-5. Mem-$π$: Adaptive Memory through Learning When and What to Generate — Causal LMs · score 56 · arXiv cs.CL · Xiaoqiang Wang, Chao Wang, Hadi Nekoei, Christopher Pal et al. (8 authors)</description>
     </item>
   </channel>
 </rss>
