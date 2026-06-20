@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-19</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-19/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-19/</guid>
+      <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
+2. Apparent Psychological Profiles of Large Language Models are Largely a Measurement Artifact — Causal LMs · score 60 · arXiv cs.CL · Jelena Meyer, David Garcia, Dirk U. Wulff
+3. Optimal Deterministic Multicalibration and Omniprediction — Uplift / HTE · score 56 · arXiv stat.ML · Georgy Noarov, Aaron Roth
+4. Anchors Away: Navigating Unanchored Indirect Comparisons with Multilevel Unanchored Meta-Regression (ML-UMR) — Experimentation · score 56 · arXiv stat.ME · Conor Chandler, Jack Ishak
+5. Leveraging tails for adaptation — Uplift / HTE · score 52 · arXiv stat.ML · Sergios Agapiou, Ismaël Castillo, Paul Egels</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-18</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-18/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-18/</guid>
@@ -204,16 +215,6 @@
 3. BiomedSciAI/causallib v0.10.0 — Other · score 55 · BiomedSciAI/causallib releases
 4. amazon-science/azcausal v0.2.5 — VERSION 0.2.5 — Other · score 55 · amazon-science/azcausal releases
 5. Causal Inference for Statistics, Social, and Biomedical Sciences: Instrumental Variables Analysis of Randomized Experiments with… — Causal Inference · score 52 · Semantic Scholar: Guido Imbens causal · G. Imbens, D. Rubin</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-22</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-22/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-22/</guid>
-      <pubDate>Fri, 22 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation — Causal LMs · score 52 · arXiv stat.ML · Samson Gourevitch, Yazid Janati, Dario Shariatian, Umut Simsekli et al. (7 authors)
-2. The Matching Principle: A Geometric Theory of Loss Functions for Nuisance-Robust Representation Learning — Other · score 48 · arXiv stat.ML · Vishal Rajput
-3. Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models — Other · score 48 · arXiv stat.ML · Krishnakumar Balasubramanian
-4. Proxy-Based Approximation of Shapley and Banzhaf Interactions — Other · score 48 · arXiv stat.ML · Santo M. A. R. Thies, Hubert Baniecki, R. Teal Witter, Eyke Hüllermeier et al. (6 authors)</description>
     </item>
   </channel>
 </rss>
