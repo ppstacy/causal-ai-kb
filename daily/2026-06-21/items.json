@@ -1,0 +1,87 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "title": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "summary": "",
+    "authors": [
+      "M. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:77d8191e1127630b4d5404616a0fc162c45eba5b",
+    "title": "Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders",
+    "url": "https://www.semanticscholar.org/paper/77d8191e1127630b4d5404616a0fc162c45eba5b",
+    "summary": "",
+    "authors": [
+      "A. Chambaz",
+      "Sherri Rose",
+      "J. Bouyer",
+      "M. J. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:78162d4873a44139739711c37f3203cb451336f5",
+    "title": "Submitted to the Annals of Statistics TARGETED SEQUENTIAL DESIGN FOR TARGETED LEARNING INFERENCE OF THE OPTIMAL TREATMENT RULE AND ITS MEAN REWARD / SUPPLEMENTAL ARTICLE By",
+    "url": "https://www.semanticscholar.org/paper/78162d4873a44139739711c37f3203cb451336f5",
+    "summary": "",
+    "authors": [
+      "A. Chambaz",
+      "Wenjing Zheng",
+      "M. V. der",
+      "Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Submitted to the Annals of Statistics TARGETED SEQUENTIAL DESIGN FOR TARGETED LEARNING INFERENCE OF THE OPTIMAL TREATMENT RULE AND ITS MEAN REWARD / SUPPLEMENTAL ARTICLE By"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:SantanderAI/causal-perception-implementation",
+    "title": "SantanderAI/causal-perception-implementation \u2014 Machine learning research code for causal perception: comparing competing structural causal models (SCMs) via interventional and counterfactual distributions, applied to fair credit decisions. Open source by Santander AI Lab.",
+    "url": "https://github.com/SantanderAI/causal-perception-implementation",
+    "summary": "Machine learning research code for causal perception: comparing competing structural causal models (SCMs) via interventional and counterfactual distributions, applied to fair credit decisions. Open source by Santander AI Lab.",
+    "authors": [],
+    "published": "2026-06-21T11:36:08Z",
+    "extras": {
+      "stars": 8,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 38,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits",
+    "llm_summary": "Machine learning research code for causal perception: comparing competing structural causal models (SCMs) via interventional and counterfactual distributions, applied to fair credit decisions. Open source by Santander AI Lab."
+  }
+]
