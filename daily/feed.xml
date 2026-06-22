@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-22</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-22/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-22/</guid>
+      <pubDate>Mon, 22 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. lianxhcn/china-policy-shocks — A curated database of China policy shocks for economics, finance, and policy evaluation research. — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-21</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-21/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-21/</guid>
@@ -207,13 +214,6 @@
 3. When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills — Causal LMs · score 56 · arXiv cs.CL · Yunfei Wang, Xiaohao Xu, Yang Li, Xiaonan Huang
 4. Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing — Causal LMs · score 52 · arXiv cs.LG · Michał Brzozowski, Zuzanna Dubanowska, Enrico Cassano, Neo Christopher Chung
 5. Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning — Uplift / HTE · score 52 · arXiv cs.LG · Manuel Noseda, Nathan Soldati, Marco Paina</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-25</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-25/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-25/</guid>
-      <pubDate>Mon, 25 May 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
     </item>
   </channel>
 </rss>

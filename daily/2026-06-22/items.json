@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:lianxhcn/china-policy-shocks",
+    "title": "lianxhcn/china-policy-shocks \u2014 A curated database of China policy shocks for economics, finance, and policy evaluation research.",
+    "url": "https://github.com/lianxhcn/china-policy-shocks",
+    "summary": "A curated database of China policy shocks for economics, finance, and policy evaluation research.",
+    "authors": [],
+    "published": "2026-05-30T02:44:46Z",
+    "extras": {
+      "stars": 24,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A curated database of China policy shocks for economics, finance, and policy evaluation research."
+  }
+]
