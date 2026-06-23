@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-23</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-23/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-23/</guid>
+      <pubDate>Tue, 23 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Causal Discovery in the Era of Agents — Causal LMs · score 100 · arXiv cs.LG · Yujia Zheng, Vishal Verma, Mantej Gill, Haoyue Dai et al. (6 authors)
+2. A generalized multiple-intervention stepped wedge design framework for treatment effect estimation in the presence of non-uniform… — Causal LMs · score 60 · arXiv stat.ME · Samantha M. Levy, Jose-Miguel Yamal
+3. HyperQuant: A Rate-Distortion-Optimal Quantization Pipeline for Large Language and Diffusion Models — Causal LMs · score 60 · arXiv cs.LG · Yuval Domb, Hadar Sackstein, Tomer Solberg
+4. Causal Inference with Multiple Misclassified Exposures: A Control Variate-Adjusted Calibration Weighting Approach — Experimentation · score 56 · arXiv stat.ME · Nandini Murali, Keith Barnatchez, Jordana E. Hoppe, Brandie D. Wagner et al. (6 authors)
+5. Randomized YaRN Improves Length Generalization for Long-Context Reasoning — Causal LMs · score 56 · arXiv cs.CL · Manas Mehta, Fangcong Yin, Greg Durrett</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-22</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-22/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-22/</guid>
@@ -203,17 +214,6 @@
 3. Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization — Causal LMs · score 56 · arXiv cs.LG · Felipe Urrutia, Juan José Alegría, Cinthia Sanchez Macias, Jorge Salas et al. (6 authors)
 4. BlueFin: Benchmarking LLM Agents on Financial Spreadsheets — Causal LMs · score 56 · arXiv cs.LG · Srivatsa Kundurthy, Clara Na, Colton Moraine, Anoushka Mohta et al. (9 authors)
 5. MLIPilot: LLM-Driven Auto-Research for Machine-Learned Interatomic Potentials — Causal LMs · score 56 · arXiv cs.LG · Etinosa Osaro, Santosh Adhikari, Stamatia Zavitsanou, Kelsey Parker et al. (5 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-05-26</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-05-26/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-05-26/</guid>
-      <pubDate>Tue, 26 May 2026 13:00:00 +0000</pubDate>
-      <description>1. Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning — Causal LMs · score 60 · arXiv cs.LG · Jun-Tao Tang, Yu-Cheng Shi, Zhen-Hao Xie, Da-Wei Zhou
-2. Causal methods for LLM development and evaluation — Causal LMs · score 60 · arXiv cs.LG · Dennis Frauen, Marie Brockschmidt, Konstantin Hess, Haorui Ma et al. (13 authors)
-3. When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills — Causal LMs · score 56 · arXiv cs.CL · Yunfei Wang, Xiaohao Xu, Yang Li, Xiaonan Huang
-4. Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing — Causal LMs · score 52 · arXiv cs.LG · Michał Brzozowski, Zuzanna Dubanowska, Enrico Cassano, Neo Christopher Chung
-5. Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning — Uplift / HTE · score 52 · arXiv cs.LG · Manuel Noseda, Nathan Soldati, Marco Paina</description>
     </item>
   </channel>
 </rss>
