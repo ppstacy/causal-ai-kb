@@ -1,0 +1,379 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24610v1",
+    "title": "Same Lesson, Different Story: Cross-Lingual Reconstruction of Cultural Narratives in Large Language Models",
+    "url": "http://arxiv.org/abs/2606.24610v1",
+    "summary": "The evaluation of cultural grounding context becomes complex when multiple cultures convey the same moral lesson. This challenge is particularly relevant to large language models (LLMs), which produce narratives across a wide range of languages and cultural contexts. However, it remains uncertain whether these models preserve culturally grounded meaning when equivalent moral lessons are conveyed through distinct cultural forms. This study introduces a multilingual evaluation narrative framework that integrates a cross-linguistic collection of 414 proverbs spanning 15 languages and uses four LLMs to generate 13k narratives. By employing semantically equivalent proverbs as culturally grounded prompts, the analysis assesses whether models preserve meaning across languages, how cross-lingual conditioning influences narrative realization, and whether different model families converge on similar interpretations. Results indicate that cross-lingual prompting largely preserves proverb-level semantic meaning while systematically redistributing agency, social positioning, and narrative structure. Additionally, strong inter-model convergence is observed in both monolingual and cross-lingual settings, suggesting that multilingual LLMs rely on shared semantic abstractions despite architectural and linguistic differences. These findings shed light on the need for more comprehensive evaluations of cultural grounding. Relying exclusively on semantic similarity in multilingual narrative assessments may overestimate cultural preservation by neglecting culturally meaningful variations in narrative expression.",
+    "authors": [
+      "Jory Alshaalan",
+      "Haya Albaker",
+      "Abeer Aldayel",
+      "Aljawharah Alabdullatif",
+      "Rehab Alahmadi"
+    ],
+    "published": "2026-06-23T14:10:34",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "The evaluation of cultural grounding context becomes complex when multiple cultures convey the same moral lesson. This challenge is particularly relevant to large language models (LLMs), which produce narratives across a wide range of languages and cultural contexts. However, it remains uncertain whether these models preserve culturally grounded meaning when equivalent moral lessons are conveyed\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2606.24871v1",
+    "title": "Sequential Probability Ratio Test using Z-Statistics (SPRT-z): A Practical Approach for Online Experimentation",
+    "url": "http://arxiv.org/abs/2606.24871v1",
+    "summary": "Modern online experimentation platforms produce data at scale and continuously. However, practitioners routinely apply Fixed Horizon Testing (FHT) under repeated peeking, inflating Type I error and reducing decision quality. Popular always valid sequential methods control Type I error under peeking and enable early stopping for efficacy, but do not natively support early futility stopping, launch criteria tied to a business-relevant minimum detectable effect, or Type II error control. As an alternative that satisfies these useful properties, we revive Wald's Sequential Probability Ratio Test (SPRT) for online experimentation with three novel contributions: (1) SPRT-z, an adaptation of Hajnal's sequential $t$-test, leverages large sample normal approximation to eliminate computational bottlenecks inherent to the scale of modern A/B tests and enables the Brownian motion-based methods used in (2) and (3); (2) Scale-Free Horizon Calibration (SFHC) is a Monte Carlo bisection procedure on the standardised $Z$-scale that sets a maximum sample size preserving nominal power under discrete monitoring with futility stopping; (3) A Brownian Median Unbiased Estimator and accompanying confidence intervals correct the upward bias induced by early stopping across all stopping regions via a six-region stagewise ordering of the sample space. A simulation study shows this workflow appropriately controls Type I and II error, reduces sample size relative to FHT, and ameliorates estimation bias from early stopping with close-to-nominal confidence interval coverage in most scenarios studied.",
+    "authors": [
+      "Derek L. Ho",
+      "Emma G. Thomas"
+    ],
+    "published": "2026-06-23T17:49:42",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Modern online experimentation platforms produce data at scale and continuously. However, practitioners routinely apply Fixed Horizon Testing (FHT) under repeated peeking, inflating Type I error and reducing decision quality. Popular always valid sequential methods control Type I error under peeking and enable early stopping for efficacy, but do not natively support early futility stopping, launch\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2606.24867v1",
+    "title": "Bounds for Standard Errors in Combined Data",
+    "url": "http://arxiv.org/abs/2606.24867v1",
+    "summary": "We propose methods for constructing lower bounds on the standard errors of parameters estimated from moment conditions obtained across different samples. Sharp explicit bounds are derived by exploiting geometric inequalities when no information about correlations across samples is available. Furthermore, we develop computationally tractable sharp bounds for more general settings with no or partial correlation information, which can be obtained by solving a simple semidefinite program. Finally, we illustrate the practical usefulness of our method through three empirical cases: two macroeconomics examples involving menu cost and Heterogeneous Agent New-Keynesian models; and a two sample instrumental variable microeconomic study.",
+    "authors": [
+      "Jooyoung Cha",
+      "Yuya Sasaki",
+      "Nelson Matthew P. Tan"
+    ],
+    "published": "2026-06-23T17:47:54",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "We propose methods for constructing lower bounds on the standard errors of parameters estimated from moment conditions obtained across different samples. Sharp explicit bounds are derived by exploiting geometric inequalities when no information about correlations across samples is available. Furthermore, we develop computationally tractable sharp bounds for more general settings with no or\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2606.24785v1",
+    "title": "Group-Level Treatment Effect Heterogeneity in Difference-in-Differences: A Balanced Approach",
+    "url": "http://arxiv.org/abs/2606.24785v1",
+    "summary": "Understanding how treatment effects vary across groups is central to policy evaluation. In Difference-in-Differences designs, heterogeneity is often studied using subgroup or triple-difference analyses, which can suffer from conservative inference, reliance on parametric interaction structures, and sensitivity to differences in covariate distributions across groups. We propose the Balanced Group Average Treatment Effect on the Treated (BGATT), a new estimand that isolates heterogeneity in treatment responses from differences in covariate composition and is identified under standard conditional parallel-trends assumptions. BGATT provides a transparent target for comparing group-specific treatment effects. We derive an influence-function representation and develop estimators that are $\\sqrt{n}$-consistent and asymptotically normal under flexible machine-learning estimation of high-dimensional nuisance components, enabling valid inference on both group-specific effects and differences across groups. Simulation evidence shows favorable finite-sample performance.",
+    "authors": [
+      "Nora Bearth",
+      "Nadja van 't Hoff",
+      "Torben S. D. Johansen"
+    ],
+    "published": "2026-06-23T16:44:50",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 56,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Understanding how treatment effects vary across groups is central to policy evaluation. In Difference-in-Differences designs, heterogeneity is often studied using subgroup or triple-difference analyses, which can suffer from conservative inference, reliance on parametric interaction structures, and sensitivity to differences in covariate distributions across groups. We propose the Balanced Group\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.24655v1",
+    "title": "AI-PAVE-Br: Leveraging Large Language Models for Enhanced Product Attribute Value Extraction through a Golden Set Approach",
+    "url": "http://arxiv.org/abs/2606.24655v1",
+    "summary": "The explosive growth and complexity of product data within the dynamic Brazilian e-commerce landscape demand robust and specialized methods for structured information extraction. Traditional approaches to Product Attribute Value Extraction (PAVE) often struggle with the linguistic nuances and sheer diversity of product descriptions in Portuguese. To address this critical gap, this paper introduces two major contributions. First, we present AI-PAVEBr, a specialized system engineered with Large Language Models (LLMs) to perform high-accuracy PAVE specifically for Brazilian e-commerce catalogs. Second, to facilitate reproducible research and provide a definitive benchmark, we introduce and share the Golden Set, a new, meticulously curated, and manually annotated dataset for PAVE in Portuguese. We detail the creation process and structure (Entity, Category, Subcategories) of this high-quality reference set. Our experiments conclusively show that AI-PAVE-Br, leveraging targeted prompt engineering, dramatically outperforms conventional Named Entity Recognition (NER) baselines. This work not only delivers a superior, scalable solution for a major non-English market but also enriches the NLP community with a valuable, publicly available resource for future PAVE research.",
+    "authors": [
+      "Murilo Gazzola",
+      "Hugo Gobato Souto",
+      "Samuel Silva",
+      "J\u00falia Schubert Peixoto",
+      "Felipe Siqueira",
+      "Andr\u00e9 Luis Pedroso de Morais",
+      "Caio Gomes"
+    ],
+    "published": "2026-06-23T14:48:37",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "The explosive growth and complexity of product data within the dynamic Brazilian e-commerce landscape demand robust and specialized methods for structured information extraction. Traditional approaches to Product Attribute Value Extraction (PAVE) often struggle with the linguistic nuances and sheer diversity of product descriptions in Portuguese. To address this critical gap, this paper\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24775v1",
+    "title": "Are We Ready For An Agent-Native Memory System?",
+    "url": "http://arxiv.org/abs/2606.24775v1",
+    "summary": "Memory for large language model (LLM) agents has rapidly evolved from simple retrieval-augmented mechanisms into a data management system that supports persistent information storage, retrieval, update, consolidation, and dynamic lifecycle governance throughout agent execution. Despite this evolution, existing evaluations still benchmark agent memory mainly through end-to-end task success metrics (e.g., F1, BLEU), while treating the underlying system as a monolithic black box. As a result, critical system-level concerns, including operational costs, architectural trade-offs across memory modules, and robustness under dynamic knowledge updates, remain insufficiently explored. In this paper, we present a systematic experimental study of agent memory from a data management perspective. We propose an analytical framework that decomposes agent memory into four core modules: memory representation and storage, extraction, retrieval and routing, and maintenance. Under this framework, we evaluate 12 representative memory systems and two reference baselines across five benchmark workloads spanning 11 datasets. Our extensive end-to-end evaluation shows that no single architecture dominates across all scenarios; instead, effectiveness depends heavily on how well the memory structure aligns with the workload bottleneck. Furthermore, through fine-grained ablation studies, we quantify their individual effects on representation fidelity, retrieval precision, update correctness, and long-horizon stability. Finally, we reveal cost-performance trade-offs under realistic workloads, showing localized maintenance is more cost-efficient than global reorganization. Based on these findings, we identify promising directions towards building truly agent-native memory systems. The code is publicly available at https://github.com/OpenDataBox/MemoryData.",
+    "authors": [
+      "Wei Zhou",
+      "Xuanhe Zhou",
+      "Shaokun Han",
+      "Hongming Xu",
+      "Guoliang Li",
+      "Zhiyu Li",
+      "Feiyu Xiong",
+      "Fan Wu"
+    ],
+    "published": "2026-06-23T16:34:55",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Memory for large language model (LLM) agents has rapidly evolved from simple retrieval-augmented mechanisms into a data management system that supports persistent information storage, retrieval, update, consolidation, and dynamic lifecycle governance throughout agent execution. Despite this evolution, existing evaluations still benchmark agent memory mainly through end-to-end task success metrics\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24667v1",
+    "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling",
+    "url": "http://arxiv.org/abs/2606.24667v1",
+    "summary": "Dense retrieval embedding models are a fundamental component of modern retrieval-based AI systems. Most dense retrievers are trained with contrastive objectives, which require labeled positive and negative document pairs that are often costly and difficult to obtain. In this work, we investigate whether the autoregressive next-token prediction objective of a large language model (LLM) can provide supervision for dense retrieval. The intuition is simple: if a document contains information relevant to a query, conditioning on that document should make the target output easier for the LLM to predict. A key challenge is that the next-token prediction loss is computed inside the LLM, while the retriever is a separate embedding model. To address this challenge, we propose DREAM (Dense Retrieval Embeddings via Autoregressive Modeling), which injects retriever-generated query-document similarity scores into selected attention heads of a frozen LLM. During training, these scores determine how much attention each candidate document receives while the LLM predicts the target output. The resulting prediction loss provides gradients for retriever training through the attention mechanism. We evaluate DREAM on retrieval benchmarks BEIR and RTEB using embedding backbones ranging from 0.5B to 3B parameters. DREAM consistently outperforms existing baselines across different model scales. These results demonstrate that DREAM provides a promising approach for training dense retrievers through autoregressive modeling.",
+    "authors": [
+      "Yixuan Tang",
+      "Yi Yang"
+    ],
+    "published": "2026-06-23T15:00:30",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Dense retrieval embedding models are a fundamental component of modern retrieval-based AI systems. Most dense retrievers are trained with contrastive objectives, which require labeled positive and negative document pairs that are often costly and difficult to obtain. In this work, we investigate whether the autoregressive next-token prediction objective of a large language model (LLM) can provide\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2606.24768v1",
+    "title": "Strong duality for the GROW criterion",
+    "url": "http://arxiv.org/abs/2606.24768v1",
+    "summary": "This paper presents general strong duality results when testing hypotheses by betting against them. A bet is an e-variable for a composite null hypothesis $\\mathcal{P}$: a nonnegative random variable $X$ whose expected value is at most one under every $\u00b6\\in \\Pcal$. Following Kelly, Breiman, Cover, Shafer, Gr\u00fcnwald and others, we study a natural minimax \\emph{log-optimality} criterion: given a composite alternative $\\Qcal$, we characterize the ``GROW value'' $\\sup_{X} \\inf_{\\Q} \\E_{\\Q}[\\log X]$. This paper generalizes the results of \\cite{larsson2025numeraire} from (arbitrary $\\Pcal$ and) simple $\\Qcal$ to arbitrary $\\Qcal$. We identify a weak-$*$ joint information projection pair between arbitrary $\\Pcal$ and $\\Qcal$ that always exists and show that the GROW value for \\emph{bounded} e-variables always equals the relative entropy of this pair, without any restrictions on $\\Pcal$ or $\\Qcal$. We also prove a similarly general strong duality for the REGROW criterion with bounded e-variables and arbitrary bounded offsets. Under various assumptions our results extend to unbounded e-variables, and examples show that without any assumptions such extensions fail. Our results are analogous to those in~\\cite{larsson2026complete}, swapping tests for bounded e-variables, minimax risk for the GROW criterion, and total variation for relative entropy.",
+    "authors": [
+      "Ashwin Ram",
+      "Martin Larsson",
+      "Johannes Ruf",
+      "Aaditya Ramdas"
+    ],
+    "published": "2026-06-23T16:28:56",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "math.ST"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "This paper presents general strong duality results when testing hypotheses by betting against them. A bet is an e-variable for a composite null hypothesis $\\mathcal{P}$: a nonnegative random variable $X$ whose expected value is at most one under every $\u00b6\\in \\Pcal$. Following Kelly, Breiman, Cover, Shafer, Gr\u00fcnwald and others, we study a natural minimax \\emph{log-optimality} criterion: given a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24820v1",
+    "title": "SHERLOC: Structured Diagnostic Localization for Code Repair Agents",
+    "url": "http://arxiv.org/abs/2606.24820v1",
+    "summary": "LLM agents solve repository-level coding tasks through multi-turn tool use, but utilize half their budget on locating faults before editing. Dedicated localization frameworks have emerged, yet are still evaluated as file retrieval rather than actionable diagnosis, producing locations without the diagnostic context a repair agent needs. We introduce SHERLOC (Structured Hypothesis-driven Exploration and Reasoning for Localization), a training-free framework pairing a reasoning LLM with compact repository tools and self-recovery, without fine-tuning or multi-agent orchestration. SHERLOC reaches state-of-the-art localization across model scales: 84.33% accuracy@1 on SWE-Bench Lite and 81.27% recall@1 on SWE-Bench Verified; at ~30B parameters, it matches or outperforms other agentic methods. Injecting our locations and diagnostic findings into repair agents yields, on average, +5.95 pp resolve rate on SWE-Bench Verified while cutting localization and total tokens by 36.7% and 23.1%.",
+    "authors": [
+      "Hovhannes Tamoyan",
+      "Sean Narenthiran",
+      "Erik Arakelyan",
+      "Mira Mezini",
+      "Boris Ginsburg"
+    ],
+    "published": "2026-06-23T17:05:50",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "LLM agents solve repository-level coding tasks through multi-turn tool use, but utilize half their budget on locating faults before editing. Dedicated localization frameworks have emerged, yet are still evaluated as file retrieval rather than actionable diagnosis, producing locations without the diagnostic context a repair agent needs. We introduce SHERLOC (Structured Hypothesis-driven\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.24715v1",
+    "title": "Model selection with proper scoring rules on data sets of time series",
+    "url": "http://arxiv.org/abs/2606.24715v1",
+    "summary": "We consider the problem of model selection between probabilistic models on data sets of time series. Chosen a proper scoring rule, we denote by the term \\textit{score} the average value of the scoring rule on the test of an individual time series. For model selection, we need aggregating the values of the scores across multiple time series. Three summary statistics are commonly used for model selection: mean score, median score, and mean rank. Results in previous papers show that these statistics can yield conflicting decisions; we show how the conflicting conclusions are due to the skewness of the distribution of scores. We also show that as the test set of each time series of the data set increases, the different model selection criteria progressively converge to the same conclusion. However, for short tests sets, only the mean score identifies the true model as the best.   We illustrate these phenomena with an analysis on intermittent time series, including the data set of the M5 competition, where we underline the importance of having a large test set. In such experiments, we further notice that model selection based on mean ranks remains unchanged using different scaling factors.",
+    "authors": [
+      "Giorgio Corani",
+      "Stefano Damato",
+      "Dario Azzimonti",
+      "Lorenzo Zambon"
+    ],
+    "published": "2026-06-23T15:36:28",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We consider the problem of model selection between probabilistic models on data sets of time series. Chosen a proper scoring rule, we denote by the term \\textit{score} the average value of the scoring rule on the test of an individual time series. For model selection, we need aggregating the values of the scores across multiple time series. Three summary statistics are commonly used for model\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24623v1",
+    "title": "Privacy-Preserving RAG via Multi-Agent Semantic Rewriting: Achieving Confidentiality Without Compromising Contextual Fidelity",
+    "url": "http://arxiv.org/abs/2606.24623v1",
+    "summary": "Retrieval-Augmented Generation enhances large language models by incorporating external knowledge, but deploying it in sensitive scenarios risks privacy leakage via malicious prompts. To address this, we propose a multi-agent framework that sanitizes retrieved content through semantic rewriting. By employing three specialized agents for privacy extraction, semantic analysis, and reconstruction, our approach collaboratively removes sensitive identifiers while preserving the semantic core. We evaluate the framework on the ChatDoctor and Wiki-PII datasets across six large language models. Experimental results demonstrate a significant reduction in privacy leakage under targeted attacks. For instance, we reduced targeted information exposure in LLaMA-3-8B from 144 instances in the baseline to just 1. Furthermore, we maintain strong contextual fidelity with a BLEU-1 score of 0.122, outperforming the existing SAGE method's 0.117. Finally, the framework operates as an asynchronous preprocessing module, introducing no additional latency to online inference, as all rewriting is executed as a one-time offline preprocessing step. To promote reproducibility, the source code of this work is publicly available at https://github.com/foursoils/Privacy-Preserving-RAG.",
+    "authors": [
+      "Yuanhe Zhao",
+      "Tianyu Zhang",
+      "Huafei Xing",
+      "Derek F. Wong",
+      "Jianbin Li",
+      "Tao Fang"
+    ],
+    "published": "2026-06-23T14:21:41",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Retrieval-Augmented Generation enhances large language models by incorporating external knowledge, but deploying it in sensitive scenarios risks privacy leakage via malicious prompts. To address this, we propose a multi-agent framework that sanitizes retrieved content through semantic rewriting. By employing three specialized agents for privacy extraction, semantic analysis, and reconstruction,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24595v1",
+    "title": "MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery",
+    "url": "http://arxiv.org/abs/2606.24595v1",
+    "summary": "Long-term memory promises LLM agents that grow more capable across sessions, maintaining an accurate, evolving understanding of the user that interaction forms. In practice, however, this memory is evaluated mostly through downstream behavior, such as later answers, personalization quality, or task success, which tests that understanding only indirectly and leaves the memory artifact itself largely unaudited. We argue that long-term memory should instead be evaluated as an auditable post-interaction artifact: after ordinary assistance, what structured user state can be reconstructed from the memory the agent leaves behind? We instantiate this view in MEMPROBE, a benchmark in which a memory-equipped agent assists simulated users, each carrying a hidden, taxonomy-anchored user-state bank, across a trajectory of leak-controlled tasks, after which that bank is reconstructed from the agent's resulting memory under both full-store and top-k access. Built on synthetic ground truth for efficient, scalable measurement, MEMPROBE spans 50 simulated users with 31 hidden dimensions each (1,550 recovery targets) and tests 5 representative memory systems. Testing state-of-the-art memory agents, we find that successful assistance and recoverable memory behave as distinct capabilities. Task completion nearly saturates, even for a memoryless baseline, while category-balanced recovery stays moderate (about 0.6) and drops further under top-k retrieval. MEMPROBE is the first benchmark to study memory recovery directly, reconstructing the user state a system retains and scoring it against ground truth. We see recovery as a concrete objective for future memory agents to optimize, and MEMPROBE as a step toward an environment where agents are trained to remember their users, growing more faithful the longer they know them.",
+    "authors": [
+      "Enze Ma",
+      "Yufan Zhou",
+      "Wei-Chieh Huang",
+      "Jie Yang",
+      "Huanhuan Ma",
+      "Zixuan Wang",
+      "Chengze Li",
+      "Chunyu Miao",
+      "Philip S. Yu",
+      "Zhen Wang"
+    ],
+    "published": "2026-06-23T13:52:46",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Long-term memory promises LLM agents that grow more capable across sessions, maintaining an accurate, evolving understanding of the user that interaction forms. In practice, however, this memory is evaluated mostly through downstream behavior, such as later answers, personalization quality, or task success, which tests that understanding only indirectly and leaves the memory artifact itself\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.24601v1",
+    "title": "ASALT: Adaptive State Alignment for Lateral Transfer in Multi-agent Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2606.24601v1",
+    "summary": "Multi-agent reinforcement learning (MARL) addresses the problem of training multiple agents that pursue collaborative, competitive, or mixed objectives. Prior work has investigated transfer learning between source and target domains in MARL; however, the majority of existing approaches impose the constraint that the dimensionalities of the observation space and the global state space must be identical across domains. In this paper, we introduce a method that explicitly accommodates mismatched state-space dimensionalities between source and target domains. The proposed approach, ASALT, incorporates both observation-level and state-level adapters that map the target-domain observations and global states into a shared embedding space, thereby enabling more effective transfer of knowledge across both actors and critics. These adapters can generate embeddings that support efficient strategy transfer across heterogeneous domains. Experimental results on multiple configurations in standard benchmark environments demonstrate that ASALT surpasses existing baselines in terms of sample efficiency and global return in cooperative settings, but its effectiveness depends on the degree of mismatch between source and target domains. Furthermore, our findings indicate that ASALT mitigates negative transfer, which frequently constitutes a major obstacle when transferring policies between domains with differing observation and action spaces.",
+    "authors": [
+      "Anurag Akula",
+      "Satheesh K. Perepu",
+      "Abhishek Sarkar",
+      "Kaushik Dey"
+    ],
+    "published": "2026-06-23T14:03:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Multi-agent reinforcement learning (MARL) addresses the problem of training multiple agents that pursue collaborative, competitive, or mixed objectives. Prior work has investigated transfer learning between source and target domains in MARL; however, the majority of existing approaches impose the constraint that the dimensionalities of the observation space and the global state space must be\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.24851v1",
+    "title": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
+    "url": "http://arxiv.org/abs/2606.24851v1",
+    "summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real Discrete Hartley Transform and learns a single real multiplier per retained spectral mode, with no complex arithmetic. Because the real Hartley spectrum is not halved by conjugate symmetry, HNO retains twice as many frequency corners as FNO but one real weight where FNO carries a complex pair, so the two operators are iso-parametric at equal width and differ only in spectral basis. Our central thesis is that the best basis is a property of the operator. Self-adjoint elliptic operators (Poisson, biharmonic) have real, symmetric Green's functions that the real Hartley multiplier diagonalizes exactly, and HNO is favored there. Time-dependent operators carry phase, from oscillation in the wave equation to transport in advection, Burgers, and Navier-Stokes, which a real diagonal multiplier cannot represent, so FNO is favored there, and increasingly so with the operator's phase content, leaving the phaseless heat equation as the borderline case. Training both operators identically and benchmarking across PDE classes, initial-condition families, and boundary conditions, we find an elliptic-versus-time-dependent split that is monotone in operator phase content and matches the Green's-function theory we develop. Rather than a universal winner, our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.",
+    "authors": [
+      "Jason Sulskis",
+      "Sathya Ravi"
+    ],
+    "published": "2026-06-23T17:29:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.24586v1",
+    "title": "EERLoss: A Novel Loss Function for Training Deep Biometric Models. A Case Study in Keystroke Dynamics",
+    "url": "http://arxiv.org/abs/2606.24586v1",
+    "summary": "Deep learning approaches to biometric verification are commonly trained by optimizing indirect objectives, creating a misalignment between the optimization process and the primary evaluation metric, typically the Equal Error Rate (EER). This paper introduces EERLoss: a subdifferentiable, arbitrarily accurate approximation to EER for training deep biometric models. Furthermore, this framework has the potential to be adapted to optimize any specific operating point on the DET curve, enhancing its generalizability. To validate this approach, EERLoss is evaluated on a particularly demanding behavioral biometric modality: keystroke dynamics verification. This task is characterized by its high intra-class and low inter-class variability. Experiments are conducted on the large-scale KVC-onGoing benchmark, incorporating data from over 185,000 subjects across different scenarios. A comprehensive ablation study initially demonstrates the superiority of EERLoss in comparison to existing state-of-the-art loss functions. It also converges substantially faster compared to other losses, reducing the overall training cost. Additionally, a comparison is made between the proposed loss and the KVC-winning architecture by re-training it with EERLoss, demonstrating that the proposed approach significantly outperforms the original SoTA, achieving a relative EER reduction of up to approx. 30\\%. This improvement on a challenging, large-scale benchmark validates the effectiveness of EERLoss as a task-aligned training objective specifically suited for high-variance biometric traits.",
+    "authors": [
+      "Nahuel Gonzalez",
+      "Marta Robledo-Moreno",
+      "Ivan DeAndres-Tame",
+      "Ruben Vera-Rodriguez",
+      "Ruben Tolosana"
+    ],
+    "published": "2026-06-23T13:47:42",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Deep learning approaches to biometric verification are commonly trained by optimizing indirect objectives, creating a misalignment between the optimization process and the primary evaluation metric, typically the Equal Error Rate (EER). This paper introduces EERLoss: a subdifferentiable, arbitrarily accurate approximation to EER for training deep biometric models. Furthermore, this framework has\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.24828v1",
+    "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+    "url": "http://arxiv.org/abs/2606.24828v1",
+    "summary": "Scientific long-document summarization datasets commonly treat author-written abstracts as gold reference summaries, although their quality and alignment with the source article vary. At the same time, publicly available scientific summarization datasets remain limited in scale and structure for modern long-context models. In this work, we address both challenges by a) constructing and releasing one of the largest biomedical and life science datasets for long-document summarization, containing 1.88 million PMC articles, and b) analyzing the reference quality of author-written abstracts with source-grounded and model-based metrics. We show that author-written abstracts vary in their alignment with the full article and that these quality signals can guide training-data selection. Training on selected high-quality subsets outperforms random sampling at matched training sizes and can match or exceed larger random subsets on factuality-oriented metrics. Our findings suggest that reference quality is an important factor in scientific summarization and that quality-aware data selection can improve training efficiency.",
+    "authors": [
+      "Maria Nefeli Paraskevopoulou",
+      "Tatiana Passali",
+      "Grigorios Tsoumakas"
+    ],
+    "published": "2026-06-23T17:12:06",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Scientific long-document summarization datasets commonly treat author-written abstracts as gold reference summaries, although their quality and alignment with the source article vary. At the same time, publicly available scientific summarization datasets remain limited in scale and structure for modern long-context models. In this work, we address both challenges by a) constructing and releasing\u2026"
+  }
+]

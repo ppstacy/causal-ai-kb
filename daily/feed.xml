@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-24</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-24/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-24/</guid>
+      <pubDate>Wed, 24 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Same Lesson, Different Story: Cross-Lingual Reconstruction of Cultural Narratives in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Jory Alshaalan, Haya Albaker, Abeer Aldayel, Aljawharah Alabdullatif et al. (5 authors)
+2. Sequential Probability Ratio Test using Z-Statistics (SPRT-z): A Practical Approach for Online Experimentation — Experimentation · score 56 · arXiv stat.ME · Derek L. Ho, Emma G. Thomas
+3. Bounds for Standard Errors in Combined Data — Uplift / HTE · score 56 · arXiv econ.EM · Jooyoung Cha, Yuya Sasaki, Nelson Matthew P. Tan
+4. Group-Level Treatment Effect Heterogeneity in Difference-in-Differences: A Balanced Approach — Causal Inference · score 56 · arXiv econ.EM · Nora Bearth, Nadja van 't Hoff, Torben S. D. Johansen
+5. AI-PAVE-Br: Leveraging Large Language Models for Enhanced Product Attribute Value Extraction through a Golden Set Approach — Causal LMs · score 56 · arXiv cs.LG · Murilo Gazzola, Hugo Gobato Souto, Samuel Silva, Júlia Schubert Peixoto et al. (7 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-23</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-23/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-23/</guid>
@@ -203,17 +214,6 @@
 3. A Local Perturbation Theory for Cross-Domain Interference and Recovery in Multi-Domain RL — Causal LMs · score 56 · arXiv cs.LG · Lei Yang, Siyu Ding, Deyi Xiong
 4. From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression — Causal LMs · score 56 · arXiv cs.CL · Elia Cunegatti, Marcus Vukojevic, Erik Nielsen, Giovanni Iacca
 5. SimSD: Simple Speculative Decoding in Diffusion Language Models — Causal LMs · score 56 · arXiv cs.CL · Junxia Cui, Haotian Ye, Runchu Tian, Hongcan Guo et al. (12 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-01</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-01/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-01/</guid>
-      <pubDate>Mon, 01 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Modeling Covariate Transition for Efficient Estimation of Longitudinal Treatment Effects in Randomized Experiments — Experimentation · score 64 · arXiv econ.EM · Naoki Chihara, Tatsushi Oka, Yasuko Matsubara, Yasushi Sakurai et al. (5 authors)
-2. LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards — Causal LMs · score 60 · arXiv cs.LG · Nianyi Lin, Jiajie Zhang, Lei Hou, Juanzi Li
-3. Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization — Causal LMs · score 56 · arXiv cs.LG · Felipe Urrutia, Juan José Alegría, Cinthia Sanchez Macias, Jorge Salas et al. (6 authors)
-4. BlueFin: Benchmarking LLM Agents on Financial Spreadsheets — Causal LMs · score 56 · arXiv cs.LG · Srivatsa Kundurthy, Clara Na, Colton Moraine, Anoushka Mohta et al. (9 authors)
-5. MLIPilot: LLM-Driven Auto-Research for Machine-Learned Interatomic Potentials — Causal LMs · score 56 · arXiv cs.LG · Etinosa Osaro, Santosh Adhikari, Stamatia Zavitsanou, Kelsey Parker et al. (5 authors)</description>
     </item>
   </channel>
 </rss>
