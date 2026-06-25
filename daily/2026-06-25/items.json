@@ -1,0 +1,376 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25832v1",
+    "title": "MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources",
+    "url": "http://arxiv.org/abs/2606.25832v1",
+    "summary": "Achieving strong optimization generalization across diverse optimization problems while requiring limited training resources remains a challenging problem for optimization-oriented large language models (LLMs). Existing approaches typically rely on large-scale supervised datasets, costly reasoning annotations, and expensive intermediate step verification, resulting in substantial training overhead. To address these challenges, we propose MiniOpt, a reinforcement learning framework that learns to solve optimization problems through an \"reasoning-to-model-and-solve\" paradigm. MiniOpt decomposes optimization reasoning into structured optimization modeling and executable solver generation. Building upon this paradigm, we introduce OptReward, a reward function with hierarchical score structure that jointly evaluates formulation and solution, enabling effective policy learning without expert demonstrations. We further develop an optimization-oriented policy optimization strategy that improves exploration efficiency and stabilizes reinforcement learning for compact models. Extensive experiments show that MiniOpt-3B exhibits strong optimization generalization across various optimization types, problem scenarios, and task domains. For models with fewer than 10B parameters, MiniOpt series achieves the highest average solving accuracy (SA). For models with more than 10B parameters, MiniOpt still shows competitive performance. These results suggest that optimization-oriented reward design and reinforcement learning provide an effective pathway for developing compact optimization-specialized language models with strong optimization generalization capabilities. The code is available at https://github.com/Hsiang-1/MiniOpt.",
+    "authors": [
+      "Ke Zhao",
+      "Zixiang Di",
+      "Hong Qian",
+      "Xiang Shu",
+      "Yaolin Wen",
+      "Qitao Shi",
+      "Bingdong Li",
+      "Xingyu Lu",
+      "Xiangfeng Wang",
+      "Jun Zhou",
+      "Ke Tang",
+      "Yang Yu"
+    ],
+    "published": "2026-06-24T13:48:06",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Achieving strong optimization generalization across diverse optimization problems while requiring limited training resources remains a challenging problem for optimization-oriented large language models (LLMs). Existing approaches typically rely on large-scale supervised datasets, costly reasoning annotations, and expensive intermediate step verification, resulting in substantial training\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.26053v1",
+    "title": "When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification?",
+    "url": "http://arxiv.org/abs/2606.26053v1",
+    "summary": "Synthetic data augmentation is widely used to mitigate class imbalance, but its theoretical effects on score-based classification remain poorly understood. This paper develops a framework for characterizing when synthetic minority augmentation can improve threshold-integrated and threshold-optimized metrics, including AUROC, AUPRC, best-threshold balanced accuracy, and best-threshold \\(\\F_1\\) score. We separate the effect of augmentation into two components: a change in effective class weighting and a discrepancy between the synthetic and true minority distributions. Under well-specified score models, the raw estimator already targets the likelihood-ratio ordering, which is population-optimal for the metrics considered. Consequently, augmentation cannot provide a fundamental population-level improvement beyond possible finite-sample variance reduction, and may introduce additional bias through synthetic distributional error. We further establish minimax lower bounds showing that the raw estimator already achieves the optimal metric-regret rate in the well-specified regime. Under misspecification, however, augmentation can play a qualitatively different role: by changing the effective class balance, it can alter the restricted-class projection and correct ranking errors induced by the raw imbalanced objective. We provide explicit improvement bounds quantifying the roles of approximation error, finite-sample estimation error, and synthetic distributional error. Simulation studies corroborate the theory, demonstrating limited gains under well-specification and nontrivial but nonmonotone improvements under misspecification.",
+    "authors": [
+      "Zhengchi Ma",
+      "Pengfei Lyu",
+      "Anru R. Zhang"
+    ],
+    "published": "2026-06-24T17:30:36",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 52,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Synthetic data augmentation is widely used to mitigate class imbalance, but its theoretical effects on score-based classification remain poorly understood. This paper develops a framework for characterizing when synthetic minority augmentation can improve threshold-integrated and threshold-optimized metrics, including AUROC, AUPRC, best-threshold balanced accuracy, and best-threshold \\(\\F_1\\)\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.26080v1",
+    "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+    "url": "http://arxiv.org/abs/2606.26080v1",
+    "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the ingredients for effective step-level scoring, eliminating the need for dedicated reward model training altogether. Concretely, we derive an implicit advantage under a general stochastic Markov decision process, which we term progress advantage -- log-probability ratio between the RL-trained policy and its reference policy exactly recovers the optimal advantage function. This formulation makes the resulting signal annotation-free, domain-agnostic, and available as a byproduct of the standard RL post-training pipeline. We validate the effectiveness of the progress advantage across three different applications: test-time scaling, uncertainty quantification, and failure attribution on five benchmarks and four model families. Across all settings, it consistently outperforms confidence-based baselines and, despite requiring no task-specific training, surpasses dedicated trained reward models. We complement these results with deeper analyses on characteristics of progress advantage, offering practical guidance for adoption in real-world agentic systems.",
+    "authors": [
+      "Changdae Oh",
+      "Wendi Li",
+      "Seongheon Park",
+      "Samuel Yeh",
+      "Tanwi Mallick",
+      "Sharon Li"
+    ],
+    "published": "2026-06-24T17:54:08",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25984v1",
+    "title": "InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
+    "url": "http://arxiv.org/abs/2606.25984v1",
+    "summary": "Large language models are increasingly deployed as investment research assistants, yet no benchmark tests whether they can accurately reconstruct and apply the specific procedural decision frameworks of expert investors. We introduce InvestPhilBench, a multi-layer dynamic benchmark spanning eight cognitive tiers, from principle identification (L1) to novel framework extrapolation (L8). The v0.6 release comprises 118 primary-source-verified investment principle cards, 25 decision framework cards with explicit topology metadata, and 243 QA questions (197 dev / 46 held-out test). For reproducible scoring at scale we introduce the Benchmark Automated Scoring Pipeline (BASP) -- five algorithmic metrics (OGRS, KCCS, SAP@k, IVP, CKCA) -- the Failure Mode Detection Protocol (FMDP) with computable rules for six failure modes, and Gate Reconstruction Accuracy (GRA), a per-gate metric for questions with gold reasoning programs. In this release, InvestPhilBench is primarily a benchmark-and-methodology contribution. A four-model sanity wave on the 188-question development split shows a sharp provider-tier split (BASP 0.906 vs. 0.438); these mixed-judge numbers are confounded upper bounds. The central finding: the BASP composite saturates at the frontier (Claude L4 = 0.932) while GRA still exposes a procedural deficit (frontier L4 GRA approx. 0.77, L7 GRA 0.57-0.62) -- composite scoring rewards fluent prose and hides the procedural gap. v0.6 implements a unified judge and true model-in-the-loop retrieval/oracle conditions; the de-confounded multi-model leaderboard and full three-condition run are v1.0 deliverables. On a 100-item expert-annotated gold set the automated BASP composite tracks the human reference at Pearson r = 0.72 (MAE = 0.10), with attribution (SAP@3) the weakest sub-metric and the failure-mode detector running sensitive-but-over-flagging.",
+    "authors": [
+      "Mingguang Chen",
+      "Bo Qu"
+    ],
+    "published": "2026-06-24T15:53:20",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large language models are increasingly deployed as investment research assistants, yet no benchmark tests whether they can accurately reconstruct and apply the specific procedural decision frameworks of expert investors. We introduce InvestPhilBench, a multi-layer dynamic benchmark spanning eight cognitive tiers, from principle identification (L1) to novel framework extrapolation (L8). The v0.6\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.26071v1",
+    "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+    "url": "http://arxiv.org/abs/2606.26071v1",
+    "summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a concerning action can arise from benign causes such as confusion. This motivates model forensics: investigating whether the action was driven by malign intent. In this paper, we propose a baseline protocol for model forensics consisting of two steps, iterated as needed. First, we read the chain of thought (CoT) to generate hypotheses about what drives model behavior. Second, we make edits to the prompt or environment to test these hypotheses. While the CoT is not always faithful, it is a rich source of unsupervised insight that can guide the collection of more rigorous evidence. To evaluate our protocol, we create a suite of six agentic environments where models exhibit concerning behavior, and apply it to each. We establish that Kimi K2 Thinking takes shortcuts due to a genuine disposition towards low-effort actions, by showing this hypothesis successfully predicts its behavior. Through counterfactual experiments, we show DeepSeek R1 deceives out of a desire to be consistent with a previous instance of itself. Our methods nonetheless leave significant room for refinement. For example, when we test whether Kimi K2 Thinking believes it is violating user intent, we find no evidence of such a belief, but without positive controls we cannot confirm our tests would detect it. Overall, we find our simple protocol provides a strong baseline that we hope future work will improve upon. More broadly, our work is a concrete step in developing the growing field of model forensics.",
+    "authors": [
+      "Aditya Singh",
+      "Gerson Kroiz",
+      "Senthooran Rajamanoharan",
+      "Neel Nanda"
+    ],
+    "published": "2026-06-24T17:45:47",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a concerning action can arise from benign causes such as confusion. This motivates model forensics: investigating whether the action was driven by malign intent. In this paper, we propose a baseline\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25852v1",
+    "title": "Semantic Consistency Policy Optimization for Reinforcement Learning of LLM Agents",
+    "url": "http://arxiv.org/abs/2606.25852v1",
+    "summary": "Group-based reinforcement learning effectively post-trains LLM agents for long-horizon, sparse-reward tasks by deriving step-level credit from trajectory outcomes. However, this ties a step's credit to its rollout's final outcome: semantically near-identical intermediate steps receive opposite credit depending on whether their trajectory eventually succeeded or failed. Such semantic credit inconsistency sends conflicting gradients to similar actions and wastes the partially-correct progress inside failed rollouts. Motivated by this, we propose Semantic Consistency Policy Optimization (SCPO), a value-free reward-shaping method that mitigates this inconsistency by recovering step-level credit from successful siblings in the same rollout group. Concretely, SCPO scores each failed step against a successful sibling and adds positive step-level credit for new progress along that sibling. On ALFWorld and WebShop, SCPO matches or exceeds strong group-based baselines, reaching 93.7+/-4.1 percent success on ALFWorld and 74.8+/-2.0 percent on WebShop at 1.5B parameters, with gains concentrated on the hardest multi-step tasks.",
+    "authors": [
+      "Peng Xu",
+      "Sijia Chen",
+      "Junzhuo Li",
+      "Xuming Hu"
+    ],
+    "published": "2026-06-24T14:02:13",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Group-based reinforcement learning effectively post-trains LLM agents for long-horizon, sparse-reward tasks by deriving step-level credit from trajectory outcomes. However, this ties a step's credit to its rollout's final outcome: semantically near-identical intermediate steps receive opposite credit depending on whether their trajectory eventually succeeded or failed. Such semantic credit\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.26003v1",
+    "title": "Dziri Voicebot: An End-to-End Low-Resource Speech-to-Speech Conversational System for Algerian Dialect",
+    "url": "http://arxiv.org/abs/2606.26003v1",
+    "summary": "Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of building a complete speech-to-speech conversational system for Algerian Dialect. We propose a modular pipeline integrating automatic speech recognition, natural language understanding, retrieval-augmented generation, and text-to-speech synthesis within a unified architecture. This work is the continuation of our previous work on Algerian dialectal conversational systems Bechiri and Lanasri [2026], extending it from text-based dialogue modeling to full speech-based interaction. We constructed dedicated datasets for ASR, NLU, and TTS in the telecom domain and fine-tune pretrained models for each component. The ASR system is built on Whisper-based adaptation, while the NLU module combines transformer-based embeddings with a task-oriented dialogue framework. A neural TTS system is trained on a newly collected dialectal corpus to enable spoken response generation. Experimental results show strong performance across all components, including low word error rate for ASR, high intent classification and entity recognition scores for NLU, and stable speech synthesis quality. The proposed system provides a reproducible baseline for end-to-end conversational modeling in Algerian Dialect.",
+    "authors": [
+      "Dihia Lanasri",
+      "Fairouz Taki",
+      "Asma Kemmoum"
+    ],
+    "published": "2026-06-24T16:19:31",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Automatic speech and language technologies are still heavily biased toward high-resource languages, limiting their applicability to dialectal and low-resource settings such as Algerian Dialect. This language presents additional challenges including lack of standardized orthography, frequent codeswitching with French, and scarcity of annotated speech resources. This paper addresses the problem of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.26094v1",
+    "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+    "url": "http://arxiv.org/abs/2606.26094v1",
+    "summary": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in a game environment, can a learner reconstruct the underlying decision program as executable code, and how much does this reconstruction improve with the ability to design controlled experiments? We introduce RevengeBench, a benchmark of 75 LLM generated, Elo-calibrated policies across five game environments, drawn from CodeClash tournament trajectories. The learner observes the hidden target policy play against sampled opponents and designs behavioral probes in the form of custom opponent policies that elicit informative behavior. It then submits an executable hypothesis, which is evaluated using continuous action-distance metrics. We further validate that recovered code carries informative signal in downstream player-versus-player tournaments. Across twelve frontier LLMs, recovery quality varies substantially (34 to 72% of initial distance closed), with reconstructed policies yielding measurable competitive advantage, particularly for weaker models that otherwise struggle to design effective counter-strategies. Our benchmark positions behavioral recovery of programmatic policies as a tractable inverse problem in code-space, opening a path to opponent modeling, policy interpretability, and the broader question of inferring latent mechanisms from observations.",
+    "authors": [
+      "Babak Rahmani",
+      "Sebastian Dziadzio",
+      "Joschka Str\u00fcber",
+      "Sergio Hern\u00e1ndez-Guti\u00e9rrez",
+      "Matthias Bethge"
+    ],
+    "published": "2026-06-24T17:59:46",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in a game environment, can a learner reconstruct the underlying decision program as executable code,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25996v1",
+    "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+    "url": "http://arxiv.org/abs/2606.25996v1",
+    "summary": "We introduce Autodata, a general method that enables AI agents to act as data scientists who build high quality training and evaluation data. We show how to train (meta-optimize) such a data scientist agent, so that it learns to create even stronger data. We describe the overall formulation, and a specific practical implementation, Agentic Self-Instruct. We conduct experiments on computer science research tasks, legal reasoning tasks and reasoning with mathematical objects, where we obtain improved results compared to classical synthetic dataset creation methods. Further, meta-optimizing the data scientist agent itself delivers an even larger performance uplift. Agentic data creation provides a way to convert increased inference compute into higher quality model training. Overall, we believe this direction has the potential to change the way we build AI data.",
+    "authors": [
+      "Ilia Kulikov",
+      "Chenxi Whitehouse",
+      "Tianhao Wu",
+      "Yixin Nie",
+      "Swarnadeep Saha",
+      "Eryk Helenowski",
+      "Weizhe Yuan",
+      "Olga Golovneva",
+      "Jack Lanchantin",
+      "Yoram Bachrach",
+      "Jakob Foerster",
+      "Xian Li",
+      "Han Fang",
+      "Sainbayar Sukhbaatar",
+      "Jason Weston"
+    ],
+    "published": "2026-06-24T16:08:31",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We introduce Autodata, a general method that enables AI agents to act as data scientists who build high quality training and evaluation data. We show how to train (meta-optimize) such a data scientist agent, so that it learns to create even stronger data. We describe the overall formulation, and a specific practical implementation, Agentic Self-Instruct. We conduct experiments on computer science\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25886v1",
+    "title": "A 3D-Printable Dataset for Fair Testing and Comparisons of Tactile Sensors",
+    "url": "http://arxiv.org/abs/2606.25886v1",
+    "summary": "Existing texture datasets for tactile sensing primarily consist of sensor readings from a specific sensor interacting with available surfaces/objects rather than describing the textures themselves, limiting fair comparison between tactile sensors and hindering reproducible research. In this work, we introduce a 3D-printable dataset of mathematically defined textures designed to be fabricated reliably across different printers and filament types. The dataset consists of six parametrically generated surface patterns derived from combinations of sine-wave and Fourier-based functions, giving controlled variation in spatial frequency, amplitude, and directional structure. We evaluate the reproducibility of these textures across three popular 3D printers and multiple filament types by measuring variance in images captured using an optical TacTip sensor under controlled contact conditions. Our results show that print quality, particularly peak sharpness and stringing, affects tactile variance, with higher-end printers producing significantly more consistent signatures. Classification experiments using neural networks and PCA-based models further demonstrate that high-quality prints support strong within-printer generalisation, while cross-printer generalisation remains challenging due to geometric inconsistencies. This work establishes the first openly available, physically reproducible 3D-printed texture benchmark, providing a foundation for fair comparison of tactile sensors.",
+    "authors": [
+      "Dexter R. Shepherd",
+      "Nicolas Herzig",
+      "Phil Husbands",
+      "Andrew Philippides",
+      "Chris Johnson",
+      "William Kimbell"
+    ],
+    "published": "2026-06-24T14:27:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.RO"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Existing texture datasets for tactile sensing primarily consist of sensor readings from a specific sensor interacting with available surfaces/objects rather than describing the textures themselves, limiting fair comparison between tactile sensors and hindering reproducible research. In this work, we introduce a 3D-printable dataset of mathematically defined textures designed to be fabricated\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.25821v1",
+    "title": "SARA: Unlocking Multilingual Knowledge in Mixture-of-Experts via Semantically Anchored Routing Alignment",
+    "url": "http://arxiv.org/abs/2606.25821v1",
+    "summary": "Sparse Mixture-of-Experts (MoE) architectures have emerged as an increasingly influential paradigm as they offer a strategic balance between parameter scalability and computational efficiency. However, low-resource languages, which suffer from a scarcity of high-quality training data, often have their tokens routed to different experts than those predominantly activated by high-resource inputs, which limits cross-lingual expert sharing. This cross-lingual routing divergence consequently hinders their efficacy in multilingual contexts. To address this issue, we propose SARA (Semantically Anchored Routing Alignment), a framework designed to transfer specialized capabilities from high-resource languages as anchors to low-resource languages. SARA explicitly aligns the routing distribution of multilingual inputs with high-resource semantic anchors using a symmetric Jensen-Shannon (JS) divergence constraint. Unlike traditional distillation methods that operate on output logits, SARA directly aligns the internal routing distributions of MoE layers, encouraging mechanistic consistency in expert selection across languages. We conduct experiments on 2 LLMs across 5 low-resource languages and 3 benchmarks. Experiment results demonstrate that SARA outperforms standard instruction tuning, e.g., +0.8% on Qwen3-30B-A3B and +1.2% on Phi-3.5-MoE-instruct on Global-MMLU. Further analyses show that SARA effectively addresses performance bottlenecks in low-resource languages, providing a scalable pathway to enhance multilingual capabilities in sparse architectures.",
+    "authors": [
+      "Tianyu Dong",
+      "Yangyang Liu",
+      "Jiang Zhou",
+      "Xinwei Wu",
+      "Xiaohu Zhao",
+      "Hao Wang",
+      "Heng Liu",
+      "Linlong Xu",
+      "Longyue Wang",
+      "Weihua Luo",
+      "Shaolin Zhu",
+      "Deyi Xiong"
+    ],
+    "published": "2026-06-24T13:36:46",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Sparse Mixture-of-Experts (MoE) architectures have emerged as an increasingly influential paradigm as they offer a strategic balance between parameter scalability and computational efficiency. However, low-resource languages, which suffer from a scarcity of high-quality training data, often have their tokens routed to different experts than those predominantly activated by high-resource inputs,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.26009v1",
+    "title": "Is Variational Monte Carlo Robust? Sharp Moment Thresholds and Heavy-tailed Stochastic Optimization",
+    "url": "http://arxiv.org/abs/2606.26009v1",
+    "summary": "Variational Monte Carlo (VMC) is a central algorithm in electronic structure theory and has gained renewed importance through modern neural-network ans\u00e4tze such as FermiNet. At its core, VMC seeks ground states by minimizing the Rayleigh quotient by stochastic optimization. In this work, we show that the resulting stochastic optimization problem is intrinsically governed by the nodal geometry of the underlying wave function. More precisely, we establish that properties of the nodal set determine the integrability of the local energy and gradient estimators that drive VMC. For broad and practically relevant ansatz classes, including Slater-Jastrow wave functions with variable-exponent Slater-type orbitals, we prove that these estimators are generically heavy-tailed and fail to admit higher moments. At the same time, for general analytic ans\u00e4tze, we prove weak moment bounds for the relevant estimators and identify precise low-moment regimes, showing how generic and degenerate nodal structures lead to different integrability thresholds. Building on this analysis, we introduce a new robust variant of VMC $\\unicode{x2013}$ coined PS-Clip-VMC $\\unicode{x2013}$ which is based on clipping both the local energy and the gradient random variable. We prove that PS-Clip-VMC converges both in expectation and with high probability in the weak moment regime of VMC. Preliminary experiments for training FermiNet on Atoms with up to 18 electrons suggest that PS-Clip-VMC is significantly more robust than standard methods.",
+    "authors": [
+      "Philipp Grohs",
+      "Davide Nobile"
+    ],
+    "published": "2026-06-24T16:29:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Variational Monte Carlo (VMC) is a central algorithm in electronic structure theory and has gained renewed importance through modern neural-network ans\u00e4tze such as FermiNet. At its core, VMC seeks ground states by minimizing the Rayleigh quotient by stochastic optimization. In this work, we show that the resulting stochastic optimization problem is intrinsically governed by the nodal geometry of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25956v1",
+    "title": "Pulmonary Embolism Risk Stratification from CTPA and Medical Records: Vascular Graphs Are Not All You Need",
+    "url": "http://arxiv.org/abs/2606.25956v1",
+    "summary": "Risk stratification for pulmonary embolism (PE) is critical for clinical decision-making. Stratification guidelines are based on patient medical records, parameters measured from computed tomography pulmonary angiography (CTPA), and blood tests. However, blood tests are often missing in routine practice. This work studies whether state-of-the-art models can accurately classify risk stratification from only medical records and biomarkers extracted from CTPA images. We benchmark different approaches to combine medical records and cardiac biomarkers with rich pulmonary vascular information; we add vascular biomarkers to tabular models and apply graph neural networks (GNNs) on the vascular tree's intrinsic graph representation. We use a private dataset (n=353) with uniquely complete data for PE risk stratification. Our results show that, among global features, medical records and cardiac biomarkers are the most significant predictors, while vascular biomarkers do not further improve stratification. Even more surprising, even GNNs on vascular graphs fail to outperform strong tabular baseline on global features. We consider hypotheses, on both models and data, that could explain this suboptimal performance. Our investigation suggests that, counter-intuitively, vascular graphs might hold no discriminative information for PE risk stratification. Code is available from https://github.com/creatis-myriad/GENESIS.",
+    "authors": [
+      "Nathan Painchaud",
+      "Tristan Hab\u00e9mont",
+      "Morgane des Ligneris",
+      "Allan Serva",
+      "Pierre Croisille",
+      "Laurent Bertoletti",
+      "Thomas Lampert",
+      "Johannes F. Lutzeyer",
+      "Odyss\u00e9e Merveille"
+    ],
+    "published": "2026-06-24T15:28:27",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Risk stratification for pulmonary embolism (PE) is critical for clinical decision-making. Stratification guidelines are based on patient medical records, parameters measured from computed tomography pulmonary angiography (CTPA), and blood tests. However, blood tests are often missing in routine practice. This work studies whether state-of-the-art models can accurately classify risk stratification\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25923v1",
+    "title": "$\\text{DT}^2$: Decision-Targeted Digital Twins",
+    "url": "http://arxiv.org/abs/2606.25923v1",
+    "summary": "A digital twin (DT) is a virtual model of a real-world system that can assist decision-making by simulating scenarios induced by different policies. However, typical machine learning-based DTs do not optimise for this use case. We prove that, when model capacity is limited, training DTs to minimise one-step transition errors can produce suboptimal models for ranking sets of policies according to a reward function. We further show that this holds empirically, even with expressive model classes. To address this, we introduce $\\text{DT}^2$, a decision-targeted DT training paradigm. Firstly, $\\text{DT}^2$ uses fitted Q-evaluation to estimate values of candidate policies from offline data. A DT is then trained to generate rollouts that preserve pairwise policy rankings derived from these proxy ground-truth values with an architecture-agnostic loss function. We empirically demonstrate the efficacy of our method across a range of settings and architectures. $\\text{DT}^2$ consistently improves policy ranking and reduces decision regret during policy selection relative to conventional DT training, both for policies used during training and for unseen policies, while maintaining a good level of raw simulation fidelity.",
+    "authors": [
+      "Harry Amad",
+      "Mihaela van der Schaar"
+    ],
+    "published": "2026-06-24T15:02:24",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "A digital twin (DT) is a virtual model of a real-world system that can assist decision-making by simulating scenarios induced by different policies. However, typical machine learning-based DTs do not optimise for this use case. We prove that, when model capacity is limited, training DTs to minimise one-step transition errors can produce suboptimal models for ranking sets of policies according to\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.25808v1",
+    "title": "Generating Input Distributions for Explaining Portfolio Optimization Pipelines",
+    "url": "http://arxiv.org/abs/2606.25808v1",
+    "summary": "We propose a predict-optimize-explain framework that uses gradient-based sample generation to interpret various portfolio models by identifying macroeconomic conditions that induce specified portfolio outcomes. Unlike traditional feature-importance methods, this approach directly probes decision pipelines (predictive models coupled with portfolio optimization) by constructing economically meaningful what-if questions. We focus on four such questions: under what macroeconomic conditions a predict-then-optimize pipeline closes or reverses its return gap with a predict-and-optimize pipeline; what conditions lead a pipeline to diversify rather than concentrate its allocation; when a pipeline trained on calm markets overtakes one trained through crises; and what conditions would let a pipeline match a benchmark return. These examples illustrate how our framework uncovers key behavioral differences between various decision pipelines. Beyond these cases, the proposed framework is flexible and can support a wide range of probing questions tailored to specific portfolio objectives. Our findings highlight the value of integrating prediction, optimization, and explanation to produce more robust and transparent portfolio strategies.",
+    "authors": [
+      "Batuhan Ata\u015f",
+      "Nur\u015fen Ayd\u0131n",
+      "E. Mehmet K\u0131ral",
+      "\u015e. \u0130lker Birbil"
+    ],
+    "published": "2026-06-24T13:23:19",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "math.OC"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We propose a predict-optimize-explain framework that uses gradient-based sample generation to interpret various portfolio models by identifying macroeconomic conditions that induce specified portfolio outcomes. Unlike traditional feature-importance methods, this approach directly probes decision pipelines (predictive models coupled with portfolio optimization) by constructing economically\u2026"
+  }
+]

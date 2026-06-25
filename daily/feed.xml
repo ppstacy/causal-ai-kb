@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-25</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-25/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-25/</guid>
+      <pubDate>Thu, 25 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources — Causal LMs · score 56 · arXiv cs.LG · Ke Zhao, Zixiang Di, Hong Qian, Xiang Shu et al. (12 authors)
+2. When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification? — Experimentation · score 52 · arXiv stat.ML · Zhengchi Ma, Pengfei Lyu, Anru R. Zhang
+3. Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents — Uplift / HTE · score 52 · arXiv cs.LG · Changdae Oh, Wendi Li, Seongheon Park, Samuel Yeh et al. (6 authors)
+4. InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment… — Causal LMs · score 52 · arXiv cs.LG · Mingguang Chen, Bo Qu
+5. Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment — Uplift / HTE · score 48 · arXiv cs.LG · Aditya Singh, Gerson Kroiz, Senthooran Rajamanoharan, Neel Nanda</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-24</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-24/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-24/</guid>
@@ -203,17 +214,6 @@
 3. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
 4. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
 5. Agent-Based Models for Causal Inference — Reweighting Data and Theory in Epidemiology — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · Miguel A. Hernán</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-02</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-02/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-02/</guid>
-      <pubDate>Tue, 02 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. When Do Treatment Changes Identify Causal Effects? — Causal Inference · score 56 · arXiv stat.ME · Martin Huber
-2. Iteris: Agentic Research Loops for Computational Mathematics — Causal LMs · score 56 · arXiv cs.LG · Leheng Chen, Zihao Liu, Wanyi He, Bin Dong
-3. A Local Perturbation Theory for Cross-Domain Interference and Recovery in Multi-Domain RL — Causal LMs · score 56 · arXiv cs.LG · Lei Yang, Siyu Ding, Deyi Xiong
-4. From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression — Causal LMs · score 56 · arXiv cs.CL · Elia Cunegatti, Marcus Vukojevic, Erik Nielsen, Giovanni Iacca
-5. SimSD: Simple Speculative Decoding in Diffusion Language Models — Causal LMs · score 56 · arXiv cs.CL · Junxia Cui, Haotian Ye, Runchu Tian, Hongcan Guo et al. (12 authors)</description>
     </item>
   </channel>
 </rss>
