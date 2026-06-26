@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-26</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-26/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-26/</guid>
+      <pubDate>Fri, 26 Jun 2026 13:00:00 +0000</pubDate>
+      <description>1. Cross-Head Attention Uplift Network with Inverse Propensity Score under Unobserved Confounding — Causal Inference · score 60 · arXiv cs.LG · Haoran Zhang, Chuanpu Li, Yuxin Fu, Bin Tong et al. (7 authors)
+2. Autoregressive Boltzmann Generators — Causal LMs · score 56 · arXiv cs.LG · Danyal Rehman, Charlie B. Tan, Yoshua Bengio, Avishek Joey Bose et al. (5 authors)
+3. RSPC: A Benchmark for Modeling Stress and Psychiatric Conditions in Digitally Mediated Relationships using Psychiatrist… — Causal LMs · score 56 · arXiv cs.LG · Parmitha Vangapandu, Sai Ganesh Mokkapati, Sathwik Narkedimilli, MSVPJ Sathvik et al. (7 authors)
+4. The Riddle Riddle: Testing Flexible Reasoning in Large Language Models and Humans — Causal LMs · score 56 · arXiv cs.CL · Bella Fascendini, Kathryn McGregor, Max D. Gupta, Thomas L. Griffiths
+5. NuclearQAv2: A Structured Benchmark for Evaluating Domain-Science Competence in Large Language Models — Causal LMs · score 56 · arXiv cs.CL · Henry Shaowu Yuchi, Michal Kucer, Benjamin H. Sims, Selma Peterson et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-25</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-25/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-25/</guid>
@@ -203,17 +214,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-06/</guid>
       <pubDate>Sat, 06 Jun 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-05</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-05/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-05/</guid>
-      <pubDate>Fri, 05 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
-2. A Large Scale Benchmark for Uplift Modeling — Uplift / HTE · score 44 · Semantic Scholar: uplift modeling · E. Diemert
-3. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
-4. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
-5. Agent-Based Models for Causal Inference — Reweighting Data and Theory in Epidemiology — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · Miguel A. Hernán</description>
     </item>
   </channel>
 </rss>
