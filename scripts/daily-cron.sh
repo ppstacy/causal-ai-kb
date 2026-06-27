@@ -25,6 +25,9 @@ exec >> .logs/daily.out 2>> .logs/daily.err
 
 echo "===== $(date -u +%FT%TZ) — daily-cron run ====="
 
+echo "syncing with origin/main before run..."
+git pull --rebase --autostash origin main
+
 .venv/bin/python scripts/daily.py
 
 # Stage and commit only if there are changes
@@ -34,5 +37,7 @@ if git diff --cached --quiet; then
   exit 0
 fi
 git commit -m "daily: $(date -u +%Y-%m-%d) (launchd)"
-git push
+echo "syncing with origin/main before push..."
+git pull --rebase --autostash origin main
+git push origin main
 echo "pushed."
