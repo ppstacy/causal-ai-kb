@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-28</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</guid>
+      <pubDate>Sun, 28 Jun 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-27</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-27/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-27/</guid>
@@ -203,17 +210,6 @@
 3. CausalBench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models — Causal LMs · score 56 · Semantic Scholar: causal language models · Zeyu Wang
 4. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
 5. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xinbo Wu, Lav R. Varshney</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-07</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-07/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-07/</guid>
-      <pubDate>Sun, 07 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. uber/orbit v1.1.5.1 — Other · score 55 · uber/orbit releases
-2. Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. J. Laan, Alexander Luedtke
-3. Online Targeted Learning — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. J. Laan, S. Lendle
-4. Online targeted learning for time series — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. J. Laan, A. Chambaz, S. Lendle
-5. Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · Boriska Toth, M. J. Laan</description>
     </item>
   </channel>
 </rss>
