@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-06-29</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-29/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-29/</guid>
+      <pubDate>Mon, 29 Jun 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-28</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</guid>
@@ -199,17 +206,6 @@
 3. A Synthetic Control Approach to Conditional Distributional Treatment Effects — Causal Inference · score 60 · arXiv stat.ME · Dominik Wied
 4. Muon Learns More Robust and Transferable Features than Adam — Causal LMs · score 60 · arXiv cs.LG · Tianyu Ruan, Fengzhuo Zhang, Shuche Wang, Shihua Zhang
 5. Where Does the Answer Come From? Benchmarking View-Level Visual Evidence Identification in Multi-View MLLMs for Autonomous Driving — Causal LMs · score 60 · arXiv cs.CL · Yimu Wang, Yee Man Choi, Barry Zhang, Mozhgan Nasr Azadani et al. (6 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-08</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-08/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-08/</guid>
-      <pubDate>Mon, 08 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner et al. (84 authors)
-2. Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey — Causal LMs · score 56 · Semantic Scholar: causal language models · Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan et al. (13 authors)
-3. CausalBench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models — Causal LMs · score 56 · Semantic Scholar: causal language models · Zeyu Wang
-4. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
-5. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xinbo Wu, Lav R. Varshney</description>
     </item>
   </channel>
 </rss>
