@@ -1,0 +1,806 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "summary": "",
+    "authors": [
+      "Loka Li",
+      "Haoyue Dai",
+      "Hanin Al Ghothani",
+      "Biwei Huang",
+      "Jiji Zhang",
+      "Shahar Harel",
+      "Isaac Bentwich",
+      "Guan-Hong Chen",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.30627v1",
+    "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
+    "url": "http://arxiv.org/abs/2606.30627v1",
+    "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of conservatism ($\u03b2\\in \\{\u03b2_{\\mathrm{lo}}, \u03b2_{\\mathrm{mid}}, \u03b2_{\\mathrm{hi}}\\}$ derived from empirical log-ratio percentiles), then adapt each checkpoint online against a learned reward ensemble (3\\,$\\times$\\,Qwen3-1.7B) while measuring true performance on GSM8K exact-answer accuracy. We find that \\emph{higher offline conservatism monotonically increases reward-hacking damage}, measured by the Goodhart gap and its area under the curve (AUGC), with Spearman $\u03c1= 1.0$ across all three conditions. Mechanistic analysis reveals a three-link causal chain: (i) high-$\u03b2$ DPO compresses policy entropy, (ii) Low-entropy policies generate responses with reduced diversity, concentrating in a narrow region of the reward model's training distribution (lower pairwise cosine distance), and (iii) despite this proximity, ensemble disagreement (epistemic uncertainty) increases with $\u03b2$ and is exploited faster during online optimisation. We further fit a power-law curve to the $(\u03b2, \\augc)$ data and identify a practical optimal conservatism level $\u03b2^{\\star}$ that balances alignment fidelity against hacking vulnerability. Our results suggest that the field needs \\emph{calibrated}, not \\emph{maximal}, conservatism.",
+    "authors": [
+      "Subramanyam Sahoo",
+      "Aman Chadha",
+      "Vinija Jain",
+      "Divya Chaudhary"
+    ],
+    "published": "2026-06-29T17:56:03",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30266v1",
+    "title": "Towards Continual Motion-Language Agents: LoRA Variants for Incremental Motion Understanding and Generation",
+    "url": "http://arxiv.org/abs/2606.30266v1",
+    "summary": "Motion-language agents must possess the bidirectional capability to both understand human movement (motion-to-text, M2T) and generate it from natural language (text-to-motion, T2M). While foundational models have achieved strong performance in static settings, autonomous agents operating in dynamic environments must continuously incorporate new motion concepts -- such as novel athletic styles or specialized gestures -- without catastrophic forgetting of previously acquired skills. We investigate the stability-plasticity trade-off in bidirectional motion-language learning under sequential task exposure. Building on a frozen large language model backbone, we introduce low-rank adaptation (LoRA) variants designed to mitigate inter-task interference. We specifically propose mixture-of-experts architectures that utilize an autoencoder-based router to select task-specific experts at inference time, so that no task-label is needed. To evaluate these methods, we establish a reproducible five-task benchmark derived from HumanML3D through semantic clustering of motion descriptions. Our experimental results demonstrate near-zero forgetting across both M2T and T2M directions while maintaining high generation and captioning quality. Furthermore, we show that hard expert selection via routing significantly outperforms soft expert blending in quality metrics, indicating that preserving expert isolation is critical for maintaining performance in our continual learning setting. Finally, we observe that a divergence between token-level accuracy and downstream generation quality may occur, highlighting the need for more comprehensive evaluation protocols in future research on lifelong motion-language agents.",
+    "authors": [
+      "Bertram Taetz",
+      "Hugo Albuquerque Cosme da Silva",
+      "Gabriele Bleser-Taetz"
+    ],
+    "published": "2026-06-29T13:14:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Motion-language agents must possess the bidirectional capability to both understand human movement (motion-to-text, M2T) and generate it from natural language (text-to-motion, T2M). While foundational models have achieved strong performance in static settings, autonomous agents operating in dynamic environments must continuously incorporate new motion concepts -- such as novel athletic styles or\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.30388v1",
+    "title": "A Stochastic--Geometric Theory of Scaling Laws in Grokking",
+    "url": "http://arxiv.org/abs/2606.30388v1",
+    "summary": "Delayed generalization (\\ie~grokking) refers to the phenomenon in which a neural network fits its training data early in training but only begins to generalize after a prolonged delay, often through an abrupt transition. Despite extensive empirical study, its underlying mechanism remains poorly understood. In this work, we first theoretically characterize a shell--core topological configuration of the reachable solution space induced by Adam's optimization dynamics with weight-shrinkage regularization, supported by empirical evidence. This optimization-induced topological configuration gives rise to grokking. In model's parameter space, random initialization solutions concentrate on a thin outer spherical shell, enclosing another spherical shell of memorization solutions, which in turn contains a core corresponding to the generalization solutions. Leveraging stopping-time theory, we then analyze the geometry of this topological configuration and the solution transition time at which optimization trajectories escape the memorization manifold and first reach the boundary of the generalization manifold. Our theoretical analysis derives grokking scaling laws for the learning rate, batch size, and $\\ell_2$ regularization coefficient, which are further validated through experiments and shown to recover results from prior literature.",
+    "authors": [
+      "R\u00f3is\u00edn Luo",
+      "Christian Gagn\u00e9",
+      "Jonas Ngnaw\u00e9",
+      "Ihsan Ullah",
+      "Karyn Morrissey"
+    ],
+    "published": "2026-06-29T14:43:02",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Delayed generalization (\\ie~grokking) refers to the phenomenon in which a neural network fits its training data early in training but only begins to generalize after a prolonged delay, often through an abrupt transition. Despite extensive empirical study, its underlying mechanism remains poorly understood. In this work, we first theoretically characterize a shell--core topological configuration\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30420v1",
+    "title": "Experience Augmented Policy Optimization for LLM Reasoning",
+    "url": "http://arxiv.org/abs/2606.30420v1",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm for improving the reasoning capabilities of large language models (LLMs). However, existing RLVR methods typically rely on on-policy optimization from scratch, resulting in high sampling costs and inefficient utilization of accumulated experience. As model capabilities and policy behaviors evolve during training, recent attempts to reuse experience via fixed reasoning trajectories further suffer from policy mismatch. Motivated by these limitations, we argue that experience in RLVR should not be reused as fixed reasoning trajectories, but instead expressed in a policy-adaptive manner. In this work, we propose Experience-Augmented Policy Optimization (EAPO), which leverages a prior RL-optimized policy as an action-level experience prior and selectively injects experience at critical decision points during rollout. To ensure stable and unbiased learning from experience-augmented rollouts, EAPO further incorporates an adapted importance sampling scheme. Experiments on using Qwen-2.5-math 7b and Qwen-3-8B on five different benchmarks demonstrate that EAPO consistently improves reasoning performance over state-of-the-art RLVR methods.",
+    "authors": [
+      "Jinda Lu",
+      "Kexin Huang",
+      "Junkang Wu",
+      "Shuo Yang",
+      "Jinghan Li",
+      "Chiyu Ma",
+      "Shaohang Wei",
+      "Xiang Wang",
+      "Guoyin Wang",
+      "Jingren Zhou"
+    ],
+    "published": "2026-06-29T15:05:28",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm for improving the reasoning capabilities of large language models (LLMs). However, existing RLVR methods typically rely on on-policy optimization from scratch, resulting in high sampling costs and inefficient utilization of accumulated experience. As model capabilities and policy behaviors evolve during training, recent\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.30556v1",
+    "title": "Poller: Are LLMs Suitable for Evaluating the Poetry Understanding Task?",
+    "url": "http://arxiv.org/abs/2606.30556v1",
+    "summary": "Traditional automatic evaluation methods have been shown to be unsuitable for modern Chinese poetry because of the distinct nature of this literary genre. Human evaluation remains reliable, but is expensive and not applicable to large-scale data. In this paper, we propose Poller (Poetry LLM Evaluator), a novel method leveraging large language models (LLMs) to evaluate the poetry understanding task. Specifically, our method requires LLMs to play the role of a poem's author with detailed information, thereby emulating human evaluation and judgment by adopting the poet's perspective. We conducted comprehensive experiments on multiple LLMs, evaluating the interpretations of poems across eight specialized dimensions. Experimental results demonstrate that our method effectively reduces the evaluation error between LLMs and humans. Especially for specific dimension evaluation, Poller-based LLMs achieve a 94.55% and 89.53% error reduction for rhetorical techniques and defamiliarization, respectively, compared to baseline methods. These performances are unattainable by conventional LLM evaluation methods. Experimental results from multiple LLMs across various dimensions validate the efficacy of our method. This work bridges the gap between automated efficiency and human expertise, establishing a foundation for automated evaluation in poetry-related tasks.",
+    "authors": [
+      "Shanshan Wang",
+      "Derek F. Wong",
+      "Jingming Yao",
+      "Lidia S. Chao"
+    ],
+    "published": "2026-06-29T16:51:31",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Traditional automatic evaluation methods have been shown to be unsuitable for modern Chinese poetry because of the distinct nature of this literary genre. Human evaluation remains reliable, but is expensive and not applicable to large-scale data. In this paper, we propose Poller (Poetry LLM Evaluator), a novel method leveraging large language models (LLMs) to evaluate the poetry understanding\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.30559v1",
+    "title": "Convergence of Continual Learning in Homogeneous Deep Networks",
+    "url": "http://arxiv.org/abs/2606.30559v1",
+    "summary": "We characterize weakly regularized continual classification in homogeneous models as sequential projections onto task margin sets. This result generalizes prior analyses restricted to either stationary (single-task) deep models or continual linear models. We show that global convergence generally fails, even for simple models linear in data but nonlinear in parameters. Nevertheless, by leveraging results from nonconvex projection theory, we identify regularity properties of homogeneous deep networks that guarantee local linear convergence under random and cyclic task sequences. Finally, we extend our analysis to continual regression, unifying the framework for homogeneous models.",
+    "authors": [
+      "Matan Schliserman",
+      "Gon Buzaglo",
+      "Itay Evron",
+      "Daniel Soudry"
+    ],
+    "published": "2026-06-29T16:55:45",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We characterize weakly regularized continual classification in homogeneous models as sequential projections onto task margin sets. This result generalizes prior analyses restricted to either stationary (single-task) deep models or continual linear models. We show that global convergence generally fails, even for simple models linear in data but nonlinear in parameters. Nevertheless, by leveraging\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.30467v1",
+    "title": "Non-parametric recovery of causal diffusion mechanisms from steady-state observations",
+    "url": "http://arxiv.org/abs/2606.30467v1",
+    "summary": "We consider sparse multivariate stochastic systems that evolve in continuous time according to a causal mechanism and present methodology to recover the system's time-infinitesimal transition mechanism from mere cross-sectional data. This observational paradigm is motivated by applications such as gene expression analysis, where destructive experimental techniques may only allow recording data once over a cell's lifetime. Precisely, we assume the system follows a time-homogeneous diffusion process that has reached an equilibrium distribution at observation time. Further, we assume the causal mechanism is fully described by the diffusion drift, is acyclic, and its causal structure graph is known. In this setting, we prove that the full causal mechanism, i.e., the drift function, can be non-parametrically identified under a weak non-explosion criterion. We derive a non-parametric kernel estimator for this challenging inverse problem and prove its consistency. Moreover, we propose a cross-validation scheme for hyperparameter tuning, illustrate the behavior of our estimator in simulations, and we discuss connections with irreversible generative diffusion models and low-frequency sampled data.",
+    "authors": [
+      "Richard Schwank",
+      "Mathias Drton"
+    ],
+    "published": "2026-06-29T15:30:02",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We consider sparse multivariate stochastic systems that evolve in continuous time according to a causal mechanism and present methodology to recover the system's time-infinitesimal transition mechanism from mere cross-sectional data. This observational paradigm is motivated by applications such as gene expression analysis, where destructive experimental techniques may only allow recording data\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2606.30310v1",
+    "title": "Highly Data Parallelizable Estimation of the Sliced-Wasserstein Distance Using Cumulative Distribution Functions",
+    "url": "http://arxiv.org/abs/2606.30310v1",
+    "summary": "The Sliced Wasserstein (SW) distance has emerged as a computationally attractive alternative to the Wasserstein distance by leveraging one-dimensional optimal transport along random projections. Standard estimators of the SW distance rely on Monte Carlo averages of one-dimensional Wasserstein distances computed via quantile functions, which require sorting projected samples and access to full datasets. In this work, we introduce a new class of estimators for the Sliced Wasserstein distance based on cumulative distribution functions (CDFs) of projected measures, that avoid sorting and scale via massive dataset parallelism. This class includes several estimators, some of them being indexed by hyperparameters controlling their variance or smoothness. We show that they are especially well suited to scenarios in which CDFs are more tractable than quantile functions, such as mixtures of Gaussians, and moreover that they are also naturally compatible with federated learning, since CDFs of projected data can be computed and aggregated locally without requiring the exchange of raw samples.",
+    "authors": [
+      "Christophe Vauthier",
+      "Quentin M\u00e9rigot",
+      "Anna Korba"
+    ],
+    "published": "2026-06-29T13:53:29",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "The Sliced Wasserstein (SW) distance has emerged as a computationally attractive alternative to the Wasserstein distance by leveraging one-dimensional optimal transport along random projections. Standard estimators of the SW distance rely on Monte Carlo averages of one-dimensional Wasserstein distances computed via quantile functions, which require sorting projected samples and access to full\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2606.30399v1",
+    "title": "Multiscale Dynamic Dependence Estimation over Networks",
+    "url": "http://arxiv.org/abs/2606.30399v1",
+    "summary": "In numerous scientific and industrial settings, observed multivariate time series are often nonstationary in nature, i.e., comprise data whose second order properties vary over time. An additional feature of many modern datasets is that the cross-dependencies of such series are structured by an underlying network, giving rise to complex interactions between temporal dynamics and network topology. In this article we propose Locally Stationary Wavelet processes on Networks (Net-LSW), a new framework for modelling multiscale, time-varying dependencies that explicitly incorporates the network structure. Unlike traditional multivariate approaches, the Net-LSW process encodes the graph directly in the covariance structure of the process's random increments. We also introduce the concept of the local partial correlation graph, which connects edges in the graph to non-zero entries in the time- and scale-dependent dependence structure of a nonstationary process. For inference on the local cross-nodal (partial) dependence, we develop a novel subprocess-based estimation scheme and establish its desirable consistency properties. Simulation studies further demonstrate that the proposed framework accurately recovers evolving dependence structures whilst respecting the underlying graph topology. Finally, we apply our framework to daily stock price volatilities across a global bank network, demonstrating its ability to capture multiscale, highly nonstationary dependencies and identify time-varying systemic shifts during major financial shocks, including Brexit and the COVID-19 pandemic.",
+    "authors": [
+      "Cristian F. Jim\u00e9nez-Var\u00f3n",
+      "Marina I. Knight",
+      "Matthew A. Nunes"
+    ],
+    "published": "2026-06-29T14:47:08",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "In numerous scientific and industrial settings, observed multivariate time series are often nonstationary in nature, i.e., comprise data whose second order properties vary over time. An additional feature of many modern datasets is that the cross-dependencies of such series are structured by an underlying network, giving rise to complex interactions between temporal dynamics and network topology.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30460v1",
+    "title": "HSAP: A Hierachical Sequence-aware Parallelism for Hybrid-Context Generative Models",
+    "url": "http://arxiv.org/abs/2606.30460v1",
+    "summary": "In this paper, we aim to combine the advantages of existing sequence parallelism paradigms and overcomes their drawbacks, the most serious of which is the incapability to correctly compute causal attention on the hybrid-context packed sequences, in a stronger sequence parallelism framework. The practical technique of packing sequences for efficiently pretraining and fine-tuning large language models causes cross-contamination problem in attention computation, which can be effectively solved when no parallelism in the sequence length dimension is taken. However, in sequence parallelism, existing approaches either ignore the scenario of hybrid-context sequences or conversely sacrifice and limit parallelism degree for supporting the scenario. To this end, we innovatively propose an efficient Sequence-Aware Parallelism algorithm to conquer the obstacles of intensive tensor transmission and partial attention computation across multiple device groups. Our algorithm utilizes JIT (Just-In-Time) compilation to optimize the communication strategy of all device groups in NCCL level. Further, we integrate existing sequence parallelism paradigms into a Hierachical Sequence-Aware Parallelism framework which benefits from our sequence-aware algorithm. We additionally elaborate on the memory and communication overhead management of the hierachical framework to optimize its performance. Through multiple experiments, we demonstrate that our proposed approach outperform other state-of-the-arts sequence parallelism approches in multiple metrics.",
+    "authors": [
+      "Songxin Zhang",
+      "Zejian Xie",
+      "Zhuoyang Song",
+      "Cong lin",
+      "Junyu Lu",
+      "Jiaxing Zhang",
+      "Bingyi Jing"
+    ],
+    "published": "2026-06-29T15:26:55",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "In this paper, we aim to combine the advantages of existing sequence parallelism paradigms and overcomes their drawbacks, the most serious of which is the incapability to correctly compute causal attention on the hybrid-context packed sequences, in a stronger sequence parallelism framework. The practical technique of packing sequences for efficiently pretraining and fine-tuning large language\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30389v1",
+    "title": "Predict, Reuse, and Repair: Accelerating Dynamic Sparse Attention for Long-Context LLM Decoding",
+    "url": "http://arxiv.org/abs/2606.30389v1",
+    "summary": "Dynamic sparse attention (DSA) accelerates long-context LLM decoding by attending to only the top-K KV blocks relevant to each query, but it introduces a serialized selection-to-attention dependency that emerges as a new latency bottleneck. We present PRR, a speculate-reuse-repair runtime that exploits temporal locality in DSA selections to predict likely blocks, speculate the attention over them while selection is in flight, and incrementally repair missed blocks once the true selected set is known. PRR uses a lightweight EMA-based predictor, a profiling-guided speculation budget that keeps speculative work off the critical path, and a FlashAttention-based repair kernel that folds missed blocks into the partial attention state using online-softmax statistics. Across long-context benchmarks and representative DSA methods, PRR reduces per-token decoding latency by up to 40% while preserving downstream task accuracy. Github: https://github.com/Tianyu9748/Incremental_FlashAttention",
+    "authors": [
+      "Tianyu Wang",
+      "Gourav Rattihalli",
+      "Aditya Dhakal",
+      "Junbo Li",
+      "Zhiwei Ren",
+      "Dejan Milojicic",
+      "Longfei Shangguan"
+    ],
+    "published": "2026-06-29T14:43:25",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Dynamic sparse attention (DSA) accelerates long-context LLM decoding by attending to only the top-K KV blocks relevant to each query, but it introduces a serialized selection-to-attention dependency that emerges as a new latency bottleneck. We present PRR, a speculate-reuse-repair runtime that exploits temporal locality in DSA selections to predict likely blocks, speculate the attention over them\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30358v1",
+    "title": "Learning the structure of open quantum systems",
+    "url": "http://arxiv.org/abs/2606.30358v1",
+    "summary": "We design an algorithm for learning the coefficients of an $n$-qubit constant-local Lindbladian to $\\varepsilon$ error with $O(g d^2 \\log(n) / \\varepsilon^2)$ total evolution time, where $g$ is the single-site energy and $d$ is the (approximate) degree of the interaction graph. Though Lindbladians present new challenges not present in the special case of Hamiltonians, our algorithm achieves the suite of desiderata attained by state-of-the-art Hamiltonian learning algorithms: (1) it uses non-adaptive, ancilla-free randomized Pauli measurement circuits with a time resolution of only $\u0398(1/g)$; (2) it works without knowledge of the structure of the unknown Lindbladian; (3) it depends on a smooth form of degree, thereby supporting the learning of quasi-local and power-law Lindbladians.   Our algorithm is a simple iterative method, where the objective function consists of Fourier coefficients of the Lindbladian restricted to few-site regions. Its analysis identifies the difficulty unique to open systems, which we call \"confusing\" terms. For settings where the \"confusion\" is limited, the performance of the algorithm improves. We demonstrate this for the case of structure learning of Hamiltonians from access to real-time evolution, where we obtain a new algorithm that is significantly simpler than previous work. In addition, using the same iterative method, we design the first efficient algorithm for structure learning Hamiltonians from high-temperature Gibbs states.",
+    "authors": [
+      "Laura Lewis",
+      "Ewin Tang",
+      "John Wright"
+    ],
+    "published": "2026-06-29T14:25:24",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "quant-ph"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "We design an algorithm for learning the coefficients of an $n$-qubit constant-local Lindbladian to $\\varepsilon$ error with $O(g d^2 \\log(n) / \\varepsilon^2)$ total evolution time, where $g$ is the single-site energy and $d$ is the (approximate) degree of the interaction graph. Though Lindbladians present new challenges not present in the special case of Hamiltonians, our algorithm achieves the\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:ee7781e4d7fafead334077502e048ed5bd8fb8bc",
+    "title": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds",
+    "url": "https://www.semanticscholar.org/paper/ee7781e4d7fafead334077502e048ed5bd8fb8bc",
+    "summary": "",
+    "authors": [
+      "G. Imbens",
+      "D. Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 48,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30566v1",
+    "title": "Forensic Trajectory Signatures for Agent Memory Poisoning Detection",
+    "url": "http://arxiv.org/abs/2606.30566v1",
+    "summary": "We discover a behavioral invariant in LLM agents under persistent memory poisoning: in architectures where routing information is retrieved through observable memory-tool invocations, successful attacks require calling memory_recall_fact before email_send_email, a transition that non-exfiltrating sessions rarely exhibit. Under the evaluated architecture, this invariant follows from the attack's information-retrieval dependency rather than being merely an empirical correlation, and suppressing it breaks the attack. A simple rule exploiting this invariant alone achieves AUC = 0.9563. A Random Forest classifier over 19 trajectory features refines it to AUC = 0.9904 (BCa 95% CI [0.987, 0.993], N=10,000 resamples), demonstrating that the attack imprints on multiple independent behavioral channels. The signature is overdetermined: removing all recall-related features (half the feature set) leaves AUC unchanged at 0.990, confirming that memory poisoning induces a distributed trajectory signature rather than a single observable anomaly. Cross-model hold-out on 9 models (7B-120B parameters) confirms AUC = 1.000 on 6/9 hold-out splits, with all three exceptions mechanistically explained. The invariant generalizes to frontier models (GPT-4.1, GPT-4o) without retraining. A strictly prefix-only variant achieves AUC = 0.934, suggesting that real-time blocking is feasible with moderate degradation. The boundary is forensically useful: prompt-injection attacks that bypass memory produce a distinct trajectory (score = 0.541), enabling incident responders to distinguish memory-channel attacks from prompt-injection attacks using tool-call logs alone.",
+    "authors": [
+      "Jun Wen Leong"
+    ],
+    "published": "2026-06-29T17:09:03",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CR"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We discover a behavioral invariant in LLM agents under persistent memory poisoning: in architectures where routing information is retrieved through observable memory-tool invocations, successful attacks require calling memory_recall_fact before email_send_email, a transition that non-exfiltrating sessions rarely exhibit. Under the evaluated architecture, this invariant follows from the attack's\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30537v1",
+    "title": "Learning from Mistakes: Rollout-Retrieval Lifelong Policy Learning for Autonomous Driving",
+    "url": "http://arxiv.org/abs/2606.30537v1",
+    "summary": "Autonomous driving policies should be able to improve continually as deployment exposes them to increasingly diverse and long-tail traffic situations. However, most learning-based policies are trained or fine-tuned on expert demonstrations and then rely largely on generalization to handle challenging closed-loop scenarios, lacking an explicit mechanism to correct and retain the mistakes exposed in these scenarios. This paper studies autonomous driving policy improvement from a lifelong learning perspective: Can a pretrained policy improve continually by accumulating corrective knowledge derived from its own mistakes, while retaining previously acquired driving competence? To answer this question, we propose Rollout-Retrieval Lifelong Policy Learning (R$^2$LPL), a policy learning framework that retrieves corrective targets from recoverable policy-induced mistakes and retains the resulting knowledge through lifelong policy learning. R^2LPL addresses a key bottleneck in continual policy improvement: closed-loop mistakes reveal where the policy is weak, but do not directly specify what the policy should learn. By filtering recoverable mistake-related states and retrieving feasible corrective targets, R$^2$LPL turns sparse failure evidence into compact supervised knowledge for stable and sample-efficient policy improvement. We evaluate R$^2$LPL on large-scale closed-loop nuPlan benchmarks. With only a few rollout and continual-learning cycles, R$^2$LPL elevates a learning-based planner with moderate initial performance to state-of-the-art performance across the evaluated benchmarks, especially on the challenging and long-tail Test14-hard split. These results demonstrate the effectiveness of R$^2$LPL in converting recoverable closed-loop mistakes into corrective knowledge for sustained policy improvement.",
+    "authors": [
+      "Cheng Gong",
+      "Haoyang Wang",
+      "Chao Lu",
+      "Zirui Li",
+      "Jianwei Gong"
+    ],
+    "published": "2026-06-29T16:37:50",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.RO"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Autonomous driving policies should be able to improve continually as deployment exposes them to increasingly diverse and long-tail traffic situations. However, most learning-based policies are trained or fine-tuned on expert demonstrations and then rely largely on generalization to handle challenging closed-loop scenarios, lacking an explicit mechanism to correct and retain the mistakes exposed\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30528v1",
+    "title": "$\u03bc$Flow: Leveraging Average Images for Improving Generalisation of Deepfake Faces Detectors",
+    "url": "http://arxiv.org/abs/2606.30528v1",
+    "summary": "Current generative models, including GANs and diffusion models, have reached an outstanding level of photorealism, posing significant risks to privacy and security. To ensure real-world applicability, deepfake detectors must generalise effectively to unseen generators. However, most existing approaches rely on supervised training with both real and fake images, which limits their generalisation especially across generators categories (e.g. GANs vs DMs). In this work, we introduce $\u03bc$Flow, a one-class deepfake detector trained only on real images without relying on pseudo-deepfakes or synthetic artifacts. Our approach builds on the observation that averaging multiple images amplifies consistent generative traces, producing highly discriminative feature representations. We leverage this property by modelling the distribution of features extracted from averaged images and training a normalizing flow to align the feature space of individual images with this distribution. This alignment yields a likelihood-based criterion that separates real and fake samples while promoting strong generalisation. We evaluate $\u03bc$Flow on a fully out-of-distribution setting, where both real and fake datasets are unseen during training. Experimental results show that our method significantly outperforms SOTA detectors. Project page: https://opontorno.github.io/MuFlow.",
+    "authors": [
+      "Orazio Pontorno",
+      "Mattia Litrico",
+      "Luca Guarnera",
+      "Mario Valerio Giuffrida",
+      "Sebastiano Battiato"
+    ],
+    "published": "2026-06-29T16:31:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Current generative models, including GANs and diffusion models, have reached an outstanding level of photorealism, posing significant risks to privacy and security. To ensure real-world applicability, deepfake detectors must generalise effectively to unseen generators. However, most existing approaches rely on supervised training with both real and fake images, which limits their generalisation\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30509v1",
+    "title": "Muon learns balanced solutions in matrix factorization without slow saddle-to-saddle dynamics",
+    "url": "http://arxiv.org/abs/2606.30509v1",
+    "summary": "Matrix factorization (i.e., problems of the form $\\min_{\\mathbf{P},\\mathbf{Q}} \\|\\mathbf{M}^\\star - \\mathbf{P}^\\top\\mathbf{Q}\\|_\\mathrm{F}^2$) is a minimal learning problem that exhibits both nonlinear parameter dynamics and representation learning. In this setting, we study how parameter trajectories under the Muon optimizer differ from those of gradient descent. We identify three main dynamical differences: 1) Muon avoids the slow saddle-to-saddle dynamics from small initialization. Muon instead learns all the top modes of $\\mathbf{M}^\\star$ at the same rate, with the smaller modes converging first. 2) Muon remains stable even when the learning rate exceeds the critical threshold set by the local loss sharpness. This frees the learning rate from the condition number of the problem, enabling rapid convergence via exponential learning rate annealing. 3) Once the weights are aligned with each other and the target, Muon flow conserves the matrix quantity $\\sqrt{\\mathbf{P}^\\top \\mathbf{P}}-\\sqrt{\\mathbf{Q}^\\top \\mathbf{Q}}$, while gradient flow is known to conserve the matrix $\\mathbf{P}^\\top\\mathbf{P} - \\mathbf{Q}^\\top\\mathbf{Q}$. Despite having distinct conserved quantities, both optimizers find the so-called \\textit{balanced} solution from vanishing initialization. When training from small random initialization, the weights spontaneously align early in training. We derive the alignment rates in simple settings and show that they predict the empirical alignment rates in general. Finally, we exploit structural properties of Muon to construct a learning rate schedule that achieves near-perfect alignment in only two optimization steps.",
+    "authors": [
+      "Mark Rhee",
+      "Jamie Simon",
+      "Dhruva Karkada"
+    ],
+    "published": "2026-06-29T16:17:38",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Matrix factorization (i.e., problems of the form $\\min_{\\mathbf{P},\\mathbf{Q}} \\|\\mathbf{M}^\\star - \\mathbf{P}^\\top\\mathbf{Q}\\|_\\mathrm{F}^2$) is a minimal learning problem that exhibits both nonlinear parameter dynamics and representation learning. In this setting, we study how parameter trajectories under the Muon optimizer differ from those of gradient descent. We identify three main dynamical\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30473v1",
+    "title": "Field Order Should Not Matter: Permutation-Invariant Embedding Model Fine-Tuning for Structured Metadata Retrieval",
+    "url": "http://arxiv.org/abs/2606.30473v1",
+    "summary": "We study retrieval over catalogs of structured metadata, where each record is a small schema whose fields answer different kinds of query. Embedding a record with a text encoder first serializes its fields into a string, which forces a choice of field order. We show this choice, usually treated as an implementation detail, silently controls retrieval quality once the encoder is fine-tuned. A standard fine-tune loses 7.4 nDCG@10 points when the index is rebuilt under a different field order, because it reads absolute position instead of the field labels. We propose permutation-invariant fine-tuning ($\\textbf{PI-FT}$), which serializes each record under a freshly sampled field order with random field dropout, so meaning binds to the labels rather than to position. The change is about two lines in the data loader; it costs negligible in-distribution accuracy and cuts the order-change penalty to 0.2 points. We study this in the discovery of development statistics, a catalog of nearly 10,000 indicators that should be searchable in many languages by a model small enough to self-host. As AI assistants and agents increasingly mediate access to public data and statistics, this retrieval step decides whether an answer is grounded in the right indicator or series, making discoverability a precondition for disseminating data through AI. Because usage logs cannot provide training signal for indicators no one has searched, we generate the queries instead. $\\textbf{DevDataBench}$ is a fully LLM-generated benchmark of grounded, facet-targeted queries across 15 languages, covering every indicator for both training and evaluation. A fine-tuned 118M-parameter CPU encoder outperforms every zero-shot baseline, including $\\texttt{text-embedding-3-large}$ (0.707 vs.\\ 0.556 nDCG@10), with the largest gains in low-resource languages. We release the benchmark, pipeline, models, and a reusable PI-FT framework.",
+    "authors": [
+      "Aivin V. Solatorio",
+      "Olivier Dupriez",
+      "Rafael Macalaba"
+    ],
+    "published": "2026-06-29T15:33:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We study retrieval over catalogs of structured metadata, where each record is a small schema whose fields answer different kinds of query. Embedding a record with a text encoder first serializes its fields into a string, which forces a choice of field order. We show this choice, usually treated as an implementation detail, silently controls retrieval quality once the encoder is fine-tuned. A\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.30639v1",
+    "title": "Self-Evolving World Models for LLM Agent Planning",
+    "url": "http://arxiv.org/abs/2606.30639v1",
+    "summary": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.",
+    "authors": [
+      "Xuan Zhang",
+      "Wenxuan Zhang",
+      "See-Kiong Ng",
+      "Yang Deng"
+    ],
+    "published": "2026-06-29T17:58:43",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.30395v1",
+    "title": "Uncovering Salience-Driven Dynamics in Consumer Confidence with Generative Social Simulation",
+    "url": "http://arxiv.org/abs/2606.30395v1",
+    "summary": "Consumer confidence is typically modeled as a persistent macroeconomic index, yet its movements arise from households that interpret economic information through heterogeneous constraints, exposures, prior beliefs, and attention. We introduce ConsumerSim, a generative Human--Environment response framework that reconstructs Consumer Confidence Index (CCI) dynamics from a microdata-calibrated synthetic population, time-stamped macroeconomic, financial, policy, and news signals, survey-like response generation, post-stratified belief expansion, and behavioral inertia alignment. Across U.S., EU27, and Japanese official CCI target series, ConsumerSim ranks first among persistence, time-series, regression, and information-augmented baselines on the reported reconstruction metrics, with clear gains around high-salience shocks. Its reconstructed signal also improves short-horizon prediction of real activity, most consistently for housing outcomes. Mechanism analyses show that CCI movements concentrate around salient events; subgroup trajectories often align in direction while differing in magnitude; and signal sensitivity varies across income, homeownership, education, and political-alignment groups. Population-expansion and ablation results indicate that representative aggregation, situational signals, persona heterogeneity, and inertia are necessary for both accuracy and diagnosis. The findings support a behavioral view of consumer confidence as an interpretable Human--Environment response process rather than a purely aggregate time series.",
+    "authors": [
+      "Yixu Huang",
+      "Yunlu Yin",
+      "Jiayu Lin",
+      "Xinnong Zhang",
+      "Jia Wang",
+      "Siyuan Wang",
+      "Xuanjing Huang",
+      "Liyin Jin",
+      "Zhongyu Wei"
+    ],
+    "published": "2026-06-29T14:46:22",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CY"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Consumer confidence is typically modeled as a persistent macroeconomic index, yet its movements arise from households that interpret economic information through heterogeneous constraints, exposures, prior beliefs, and attention. We introduce ConsumerSim, a generative Human--Environment response framework that reconstructs Consumer Confidence Index (CCI) dynamics from a microdata-calibrated\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:9ba91627485dee6d4d6a5e1bf75ebcc0d5c15930",
+    "title": "Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil",
+    "url": "https://www.semanticscholar.org/paper/9ba91627485dee6d4d6a5e1bf75ebcc0d5c15930",
+    "summary": "",
+    "authors": [
+      "W. Guido",
+      "Imbens",
+      "B. Donald",
+      "Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30551v1",
+    "title": "Bridging the NISQ and Fault-Tolerant Regimes: Generative-ML-Assisted Quantum Selected CI for Molecular Simulations",
+    "url": "http://arxiv.org/abs/2606.30551v1",
+    "summary": "Calculation of binding energies for protein-ligand molecular systems requires accurate treatment of the electronic structure, a quantum chemistry problem that scales exponentially on classical hardware, while current quantum hardware remains too noisy for the required circuit depths. This report presents a hybrid quantum-classical workflow performed on the Fujitsu FX700 ideal state-vector simulator using QARP that addresses two structural inefficiencies in quantum-sampling-based diagonalization workflows. First, we integrate the Linear Scaling CNOT UCCSD (LCNot-UCCSD) ansatz into the QSCI framework, replacing the $\\mathcal{O}(N^6)$ CCSD parameter initialization of the competing LUCJ ansatz approach with $\\mathcal{O}(N^4)$ MP2-amplitude initialization. Second, we introduce QSCI-RBM, a variant that replaces the configuration recovery of the SQD framework with a Restricted Boltzmann Machine (RBM) acting as a compact generative subspace expansion model. Both are evaluated on eight different molecules in STO-3G across 14 controlled artificial error levels with 100 independent runs each, validated on potential energy surface scans of the N$_2$ molecule in cc-pVDZ, and embedded within DMET to treat the FDA-approved antiviral Amantadine (C$_{10}$H$_{17}$N, 11 DMET fragments) and the active region of the SARS-CoV-2 main protease complexed with its covalent inhibitor Carmofur (PDB: 7BUY, C$_{15}$H$_{28}$N$_4$O$_5$S, 10 fragments). To our knowledge, this is the first deployment of LCNot-UCCSD within QSCI on a quantum computing simulator, and the first DMET-QSCI(LCNot-UCCSD)-RBM application to an industry-relevant protein-ligand system. By utilizing a fraction of the classical computing resources required by the current state-of-the-art work by Cleveland Clinic, RIKEN, and IBM Quantum, this approach enables more efficient and economical drug discovery simulations for the industry.",
+    "authors": [
+      "Anurag K. S. V.",
+      "Ashish Kumar Patra",
+      "Manas Mukherjee",
+      "Ruchika Bhat",
+      "Sai Shankar P.",
+      "Rahul Maitra",
+      "Jaiganesh G"
+    ],
+    "published": "2026-06-29T16:48:44",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "quant-ph"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Calculation of binding energies for protein-ligand molecular systems requires accurate treatment of the electronic structure, a quantum chemistry problem that scales exponentially on classical hardware, while current quantum hardware remains too noisy for the required circuit depths. This report presents a hybrid quantum-classical workflow performed on the Fujitsu FX700 ideal state-vector\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30499v1",
+    "title": "Discovering Collaboration from Novelty: Random Network Distillation for Clustered Federated Learning",
+    "url": "http://arxiv.org/abs/2606.30499v1",
+    "summary": "Federated Learning often suffers under non-independently and identically distributed data, where a single global model may fail to represent the diversity of client distributions. Clustered Federated Learning mitigates this issue by training specialized models for groups of similar clients, but existing approaches often couple cluster assignment with the main training loop, increasing computational and communication costs. We propose a lightweight clustering approach based on Random Network Distillation. Each client trains a compact Random Network Distillation predictor on its local data and uses its prediction error as a novelty signal to estimate similarity with other clients. This enables the discovery of meaningful client groups before federated training, without sharing raw data or repeatedly evaluating the main model. Crucially, the resulting federations emerge from local novelty estimates at runtime, making the method suitable for autonomous large-scale distributed systems where neither the number of clusters nor the collaboration structure can be specified a priori. Overall, by decoupling clustering from learning, the method provides a task-agnostic and efficient mechanism for autonomous collaboration under non-independently and identically distributed data.",
+    "authors": [
+      "Davide Domini",
+      "Gianluca Aguzzi",
+      "Ivana Dusparic",
+      "Danilo Pianini",
+      "Mirko Viroli"
+    ],
+    "published": "2026-06-29T16:02:44",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Federated Learning often suffers under non-independently and identically distributed data, where a single global model may fail to represent the diversity of client distributions. Clustered Federated Learning mitigates this issue by training specialized models for groups of similar clients, but existing approaches often couple cluster assignment with the main training loop, increasing\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30452v1",
+    "title": "Exploring Differences Between Tabular Enterprise Data and Public Benchmarks",
+    "url": "http://arxiv.org/abs/2606.30452v1",
+    "summary": "Tabular data dominate the landscape of data science, increasingly attracting innovative machine learning models and tailored benchmarks. Yet, little is known for enterprise data, where tables constitute the backbone of business operations. To broaden the benchmarking landscape for business applications, this work aims to actualize the characteristics of enterprise data by providing an analysis of data statistics and performance measurements of tabular models such as TabPFN, TabICL and ConTextTab. Through our analysis, we find enterprise data markedly differ from tabular benchmarks and we demonstrate that a tabular model that performs well on typical tabular benchmarks may perform poorly on real world enterprise data -- and vice versa. This lack of generalization underlines the need for additional benchmarks with enterprise-grade characteristics.",
+    "authors": [
+      "Myung Jun Kim",
+      "Maximilian Schambach",
+      "Frank Essenberger",
+      "Andre Sres",
+      "Johannes H\u00f6hne"
+    ],
+    "published": "2026-06-29T15:21:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Tabular data dominate the landscape of data science, increasingly attracting innovative machine learning models and tailored benchmarks. Yet, little is known for enterprise data, where tables constitute the backbone of business operations. To broaden the benchmarking landscape for business applications, this work aims to actualize the characteristics of enterprise data by providing an analysis of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30449v1",
+    "title": "Internal-State Probes Read the Situation, Not the Action: Three Negative Results for Pre-Action Misalignment Monitoring",
+    "url": "http://arxiv.org/abs/2606.30449v1",
+    "summary": "Probes on model internals could help monitor agentic systems if they identify harmful text or tool actions before those actions are generated. We ask when an internal readout supports this stronger pre-action claim, rather than merely describing the prompt, construction contrast, or current trajectory. We test three methods across three model families: a Qwen2.5-Coder-32B-Instruct fine-tune/base direction, Llama-3.1-8B-Instruct probes at the last token of unsafe prefills, and Gemma-3-27B-IT emotion-concept vectors used for projection and steering in a blackmail tool-action scenario. Across these cases, construction validity, semantic legibility, and steering effects do not become robust pre-action monitors: each is undercut by a generalization or specificity check. The Qwen direction separates fine-tune from base at AUC 1.000, yet crosses its threshold on 0/143 audited pre-assistant turn contexts and on 0/342 Qwen prefill rows where the model continues the unsafe trajectory. The Llama features decode prompt domain almost perfectly (AUC 0.999), while the best future-behavior probe reaches AUC 0.801 and only +5.1 pp accuracy lift over majority; single-source cross-domain transfer is non-positive on five of six ordered pairs. Gemma emotion projections are semantically meaningful, but a shared-prefix minimal pair has indistinguishable states before the first differing input, and steering specificity weakens against unrelated learned directions such as cats}, weather, sports, and geography. We contribute a methodology for converting internal-readout claims into pre-action tests, and report scoped negative results: monitor claims must survive both scenario/action generalization and concept-specificity controls. Code is released at https://github.com/maxf-zn/misalignment_monitoring",
+    "authors": [
+      "Max Fomin",
+      "Elad David",
+      "Amit LeVi"
+    ],
+    "published": "2026-06-29T15:18:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Probes on model internals could help monitor agentic systems if they identify harmful text or tool actions before those actions are generated. We ask when an internal readout supports this stronger pre-action claim, rather than merely describing the prompt, construction contrast, or current trajectory. We test three methods across three model families: a Qwen2.5-Coder-32B-Instruct fine-tune/base\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30430v1",
+    "title": "CAN We Trust Your Results? A Cross-Dataset Study of Automotive IDS Evaluation",
+    "url": "http://arxiv.org/abs/2606.30430v1",
+    "summary": "The increasing connectivity of modern vehicles has made securing in-vehicle communication networks a critical challenge. Intrusion Detection Systems (IDS) have been widely studied as a defense mechanism for detecting malicious activities on the Controller Area Network (CAN) bus. However, the evaluation of CAN IDS methods remains difficult due to inconsistencies in experimental setups and the lack of standardized benchmarking frameworks. As a result, reported performance often depends on dataset-specific characteristics and may not reflect how detection methods behave in different environments. This work introduces a benchmarking framework for consistent evaluation of CAN IDSs across multiple datasets. Using the proposed framework, we integrate seven publicly available CAN IDS datasets collected under different experimental conditions and perform cross-dataset evaluation of five conceptually different IDS approaches. Our results highlight how detection performance can vary significantly across datasets, demonstrating the importance of cross-dataset benchmarking for assessing the robustness and generalization capabilities of CAN IDS methods.",
+    "authors": [
+      "Beatrix Koltai",
+      "Gergely Acs",
+      "Andras Gazdag"
+    ],
+    "published": "2026-06-29T15:09:31",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CR"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "The increasing connectivity of modern vehicles has made securing in-vehicle communication networks a critical challenge. Intrusion Detection Systems (IDS) have been widely studied as a defense mechanism for detecting malicious activities on the Controller Area Network (CAN) bus. However, the evaluation of CAN IDS methods remains difficult due to inconsistencies in experimental setups and the lack\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30322v1",
+    "title": "Hybrid Active-Online Learning Framework for Label-Efficient Concept Drift Adaptation in Optical Network Failure Detection",
+    "url": "http://arxiv.org/abs/2606.30322v1",
+    "summary": "We propose a hybrid active-online learning framework for label-efficient concept drift adaptation in optical network failure detection. Using margin-based selective labeling, our method achieves nearceiling accuracy and AUC scores while querying only 3.4% of streaming samples, with negligible latency overhead compared to static inference.",
+    "authors": [
+      "Yousuf Moiz Ali",
+      "Jaroslaw E. Prilepsky",
+      "Jo\u00e3o Pedro",
+      "Sasipim Srivallapanondh",
+      "Antonio Napoli",
+      "Sergei K. Turitsyn",
+      "Pedro Freire"
+    ],
+    "published": "2026-06-29T14:04:08",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We propose a hybrid active-online learning framework for label-efficient concept drift adaptation in optical network failure detection. Using margin-based selective labeling, our method achieves nearceiling accuracy and AUC scores while querying only 3.4% of streaming samples, with negligible latency overhead compared to static inference."
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2606.30313v1",
+    "title": "TRACE: A Concept Bottleneck Model for Longitudinal 3D Glioblastoma Response Assessment",
+    "url": "http://arxiv.org/abs/2606.30313v1",
+    "summary": "Longitudinal glioblastoma response assessment requires comparing subtle tumor changes across MRI time points using structured clinical criteria such as RANO. However, most deep learning methods predict response labels directly from imaging features, which limits clinical inspection, verification, and correction. We introduce TRACE, a RANO 2.0-aligned concept bottleneck model for interpretable 4-class glioblastoma response classification on longitudinal 3D MRI. TRACE processes paired baseline and follow-up multimodal MRI scans with a shared 3D vision encoder, predicts clinically meaningful tumor measurements as root concepts, computes downstream RANO-derived concepts through deterministic rules, and incorporates scan interval and new-lesion information as passthrough concepts. This design frames response assessment as structured concept reasoning rather than direct image-to-label prediction.   Using 5-fold patient-wise cross-validation on the LUMIERE dataset, TRACE achieves a 4-class macro F1 of 0.4769 and a binary progression-versus-non-progression macro F1 of 0.7085. It improves over a concept bottleneck baseline and remains within the range of published non-interpretable deep learning approaches. Ablation studies show that the expert RANO graph and intervention-consistency training are important for performance, while intervention experiments demonstrate that correcting concepts can improve downstream predictions. These results suggest that structured concept bottlenecks offer a transparent and clinically aligned direction for longitudinal glioblastoma response assessment, while highlighting the need for larger protocol-aligned datasets and external validation.",
+    "authors": [
+      "Alia Tarek",
+      "Hamsa Saberr",
+      "Hamza Elghonemy",
+      "Youssef Afify",
+      "Tamer Basha",
+      "Omair Shahzad Bhatti",
+      "Abdulrahman M. Selim",
+      "Hasan Md Tusfiqur Alam Daniel Sonntag"
+    ],
+    "published": "2026-06-29T13:56:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Longitudinal glioblastoma response assessment requires comparing subtle tumor changes across MRI time points using structured clinical criteria such as RANO. However, most deep learning methods predict response labels directly from imaging features, which limits clinical inspection, verification, and correction. We introduce TRACE, a RANO 2.0-aligned concept bottleneck model for interpretable\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.30616v1",
+    "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+    "url": "http://arxiv.org/abs/2606.30616v1",
+    "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K tokens. Based on this, we train Agents-A1 with a three-stage recipe. First, we perform full-domain supervised fine-tuning to align the base model with broad agentic behaviors. Second, we train domain-level teacher models to capture specialized expertise in each domain. Third, we propose a multi-teacher domain-routed on-policy distillation with salient vocabulary alignment to improve knowledge transfer efficiency across different domains, unifying six heterogeneous domains into one deployable student model. Agents-A1 achieves strong and broad performance for long-horizon agent benchmarks. Compared with 1T-parameter model such as Kimi-K2.6 and DeepSeek-V4-pro, Agents-A1 achieves leading results on SEAL-0 (56.4), IFBench (80.6), HiPhO (46.4), FrontierScience-Olympiad (79.0), and MolBench-Bind (56.8), and remains highly competitive on SciCode (44.3), HLE (47.6) and BrowseComp (75.5). We hope this work provides the community with a practical path for scaling the horizon using a 35B agent that can reach or match the performance of 1T models on long-horizon tasks.",
+    "authors": [
+      "Lei Bai",
+      "Zongsheng Cao",
+      "Yang Chen",
+      "Zhiyao Cui",
+      "Shangheng Du",
+      "Yue Fan",
+      "Shiyang Feng",
+      "Zijie Guo",
+      "Haonan He",
+      "Liang He",
+      "Xiaohan He",
+      "Shuyue Hu",
+      "Yusong Hu",
+      "Songtao Huang",
+      "Yichen Jiang",
+      "Hao Li",
+      "Xin Li",
+      "Dahua Lin",
+      "Weihao Lin",
+      "Fenghua Ling",
+      "Dongrui Liu",
+      "Zhuo Liu",
+      "Runmin Ma",
+      "Chunjiang Mu",
+      "Haoyang Peng",
+      "Tianshuo Peng",
+      "Jinxin Shi",
+      "Luohe Shi",
+      "Boyuan Sun",
+      "Zelin Tan",
+      "Shengji Tang",
+      "Qianyi Wang",
+      "Yiming Wu",
+      "Yi Xie",
+      "Xiangchao Yan",
+      "Jingqi Ye",
+      "Peng Ye",
+      "Fangchen Yu",
+      "Jiakang Yuan",
+      "Bihao Zhan",
+      "Bo Zhang",
+      "Chen Zhang",
+      "Shufei Zhang",
+      "Shuaiyu Zhang",
+      "Wenlong Zhang",
+      "Yiqun Zhang",
+      "Junpeng Zhao",
+      "Zhijie Zhong",
+      "Bowen Zhou",
+      "Yuhao Zhou"
+    ],
+    "published": "2026-06-29T17:50:54",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2606.30543v1",
+    "title": "TRACE: Temporal Relationship-Aware Conversational Entrainment Detection in Dyadic Speech",
+    "url": "http://arxiv.org/abs/2606.30543v1",
+    "summary": "With the proliferation of speech AI agents, understanding emotional entrainment in conversational interaction has become increasingly important. Emotional entrainment is shaped by social relationships and conversational context, influencing affective coordination over time. We introduce DyadEE, a dataset for emotional entrainment detection in dyadic speech interactions, containing both emotionally entrained conversations and synthetic interactions where entrainment is disrupted through partner swapping and emotion resynthesis. We further propose TRACE, a window-level framework that models dyadic interaction as ordered sequences of acoustic embeddings derived from emotion fine-tuned Whisper representations, treating each sample as an interaction trace rather than pooled utterances. Experimental results on DyadEE show that incorporating conversational context and relationship information improves emotional entrainment detection, with TRACE achieving the best accuracy of 97.01%.",
+    "authors": [
+      "Sathvik Manikantan Napa Ugandhar",
+      "Hao Zhang",
+      "Alison Gunzler",
+      "Yuzhe Wang",
+      "Thomas Thebaud",
+      "Georgi Tinchev",
+      "Venkatesh Ravichandran",
+      "Laureano Moro-Vel\u00e1zquez"
+    ],
+    "published": "2026-06-29T16:42:24",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "With the proliferation of speech AI agents, understanding emotional entrainment in conversational interaction has become increasingly important. Emotional entrainment is shaped by social relationships and conversational context, influencing affective coordination over time. We introduce DyadEE, a dataset for emotional entrainment detection in dyadic speech interactions, containing both\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:Stunspot/stunspots-guide-to-investigative-news-intelligence",
+    "title": "Stunspot/stunspots-guide-to-investigative-news-intelligence \u2014 A model-facing canon for investigative news intelligence, evidence reasoning, public-reality mapping, and AI/RAG use.",
+    "url": "https://github.com/Stunspot/stunspots-guide-to-investigative-news-intelligence",
+    "summary": "A model-facing canon for investigative news intelligence, evidence reasoning, public-reality mapping, and AI/RAG use.",
+    "authors": [],
+    "published": "2026-06-30T16:06:37Z",
+    "extras": {
+      "stars": 3,
+      "language": null,
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A model-facing canon for investigative news intelligence, evidence reasoning, public-reality mapping, and AI/RAG use."
+  }
+]
