@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-01</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-01/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-01/</guid>
+      <pubDate>Wed, 01 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. A Conformal Selection Framework for Individual Treatment Beneficiaries with Auxiliary External Data — Uplift / HTE · score 64 · arXiv stat.ME · Jiajun Liu, Ke Zhu, Xiaofei Wang
+2. Signed-Permutation Coordinate Transport for RMSNorm Transformers — Causal LMs · score 56 · arXiv stat.ML · John Sweeney
+3. When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors — Causal LMs · score 56 · arXiv cs.CL · Yuqing Yang, Qi Zhu, Zhen Han, Boran Han et al. (8 authors)
+4. Random Reshuffling Dominates Stochastic Gradient Descent — Uplift / HTE · score 52 · arXiv stat.ML · Zijian Liu
+5. Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision — Causal LMs · score 52 · arXiv cs.LG · Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-06-30</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-30/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-30/</guid>
@@ -195,17 +206,6 @@
 3. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
 4. When Representative Samples Produce Worse Outcomes: Scale-up Decisions and Testing in Small-Budget RCTs — Experimentation · score 64 · arXiv stat.ME · Hannah Li, Hongseok Namkoong, Isaac Scheinfeld
 5. TimeROME-DLM: Temporal Causal Tracing and Low-Rank Inference-Time Knowledge Editing for Masked Diffusion Language Models — Causal LMs · score 60 · arXiv cs.LG · Zhengtao Yao, Liuyang Song, Hongbo Zhang, Chenhao Wei et al. (7 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-10</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-10/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-10/</guid>
-      <pubDate>Wed, 10 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Limitations of Learning Tanh Neural Networks with Finite Precision — Uplift / HTE · score 56 · arXiv stat.ML · Philipp Grohs, Matěj Trödler
-2. Empirical stratification for treatment effect heterogeneity with post-treatment variables — Uplift / HTE · score 56 · arXiv stat.ME · Chao Cheng, Rui Wang, Yichi Zhang
-3. Mind the Gap: Can Frontier LLMs Pass a Standardized Office Proficiency Exam? — Causal LMs · score 56 · arXiv cs.CL · Tengchao Lv, Dongdong Zhang, Jiayu Ding, Yilin Jia et al. (13 authors)
-4. It Takes One to Bias Them All: Breaking Bad with One-Shot GRPO — Causal LMs · score 56 · arXiv cs.CL · Naihao Deng, Yilun Zhu, Naichen Shi, Clayton Scott et al. (5 authors)
-5. Flexible Kernels for Protein Property Prediction — Uplift / HTE · score 52 · arXiv stat.ML · Martin Jankowiak, Yerdos Ordabayev, Rudraksh Tuwani, Henry N. Ward et al. (7 authors)</description>
     </item>
   </channel>
 </rss>
