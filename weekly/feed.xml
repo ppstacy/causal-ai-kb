@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W27</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W27/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W27/</guid>
+      <pubDate>Fri, 03 Jul 2026 22:00:00 +0000</pubDate>
+      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+2. Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models — Uplift / HTE · score 56 · arXiv stat.ML · Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary
+3. Towards Continual Motion-Language Agents: LoRA Variants for Incremental Motion Understanding and Generation — Causal LMs · score 56 · arXiv cs.LG · Bertram Taetz, Hugo Albuquerque Cosme da Silva, Gabriele Bleser-Taetz
+4. A Stochastic--Geometric Theory of Scaling Laws in Grokking — Uplift / HTE · score 52 · arXiv stat.ML · Róisín Luo, Christian Gagné, Jonas Ngnawé, Ihsan Ullah et al. (5 authors)
+5. Experience Augmented Policy Optimization for LLM Reasoning — Causal LMs · score 52 · arXiv cs.LG · Jinda Lu, Kexin Huang, Junkang Wu, Shuo Yang et al. (10 authors)</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W22</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W22/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W22/</guid>
