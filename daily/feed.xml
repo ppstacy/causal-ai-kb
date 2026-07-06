@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-06</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-06/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-06/</guid>
+      <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. A More Accurate Algorithm Comparison through A/B Testing using Offline Evaluation Methods — Experimentation · score 94 · arXiv cs.LG · Koki Konishi, Masataka Ushiku, Yuta Saito
+2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
+3. Inference for Group Interaction Experiments — Experimentation · score 64 · arXiv stat.ME · Jiawei Fu, Cyrus Samii, Ye Wang
+4. An Instrumental Variable Approach to Account for Informative Treatment Switching in Real-world Evidence — Causal Inference · score 64 · arXiv stat.ME · Yang Liu, Andrew Ying, Zongqi Xia, Jue Hou
+5. Sensitivity Analysis and Optimization of Stochastic Epidemic Models under Parameter Uncertainty — Uplift / HTE · score 60 · arXiv stat.ME · Nicholas R. Wu, Michael C. Fu</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-01</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-01/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-01/</guid>
@@ -195,17 +206,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-12/</guid>
       <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-11</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-11/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-11/</guid>
-      <pubDate>Thu, 11 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. How Useful is Causal Invariance for Domain Adaptation in Finite-Sample Settings? — Other · score 98 · arXiv stat.ML · Julia Kostin, Kasra Jalaldoust, Elias Bareinboim, Samory Kpotufe et al. (5 authors)
-2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
-3. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
-4. When Representative Samples Produce Worse Outcomes: Scale-up Decisions and Testing in Small-Budget RCTs — Experimentation · score 64 · arXiv stat.ME · Hannah Li, Hongseok Namkoong, Isaac Scheinfeld
-5. TimeROME-DLM: Temporal Causal Tracing and Low-Rank Inference-Time Knowledge Editing for Masked Diffusion Language Models — Causal LMs · score 60 · arXiv cs.LG · Zhengtao Yao, Liuyang Song, Hongbo Zhang, Chenhao Wei et al. (7 authors)</description>
     </item>
   </channel>
 </rss>
