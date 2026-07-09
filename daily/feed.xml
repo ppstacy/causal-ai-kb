@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-09</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-09/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-09/</guid>
+      <pubDate>Thu, 09 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. uber/causalml v0.17.0 — Uplift / HTE · score 63 · uber/causalml releases
+2. Does Bielik Know What It Doesn't Know? Activation Dispersion Separates Entity Familiarity from Factual Reliability Across Model… — Causal LMs · score 60 · arXiv cs.LG · Grzegorz Brzezinka
+3. Equivalence testing in pesticide risk assessment -- Evaluation and practical guidance for design, analysis and interpretation — Uplift / HTE · score 56 · arXiv stat.ME · Dimitry Wintermantel, Julia Osterman, Magdalena M. Mair, Florian Hartig
+4. Adjusting for Outcome Reporting Bias in Meta-analysis: A Multiple Imputation Approach — Uplift / HTE · score 56 · arXiv stat.ME · Cora Burgwinkel, Saverio Fontana, Leonhard Held
+5. Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning — Causal LMs · score 52 · arXiv cs.LG · Zhenyu Hou, Yujiang Li, Jie Tang, Yuxiao Dong</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-06</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-06/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-06/</guid>
@@ -198,13 +209,6 @@
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</guid>
       <pubDate>Sat, 13 Jun 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-12</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-12/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-12/</guid>
-      <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
     </item>
   </channel>
