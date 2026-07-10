@@ -1,0 +1,694 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Stefan Wager treatment effects",
+    "id": "s2:d3cea138ee0ec015d7548b98147bf28e993df86c",
+    "title": "Average Treatment Effects in the Presence of Interference",
+    "url": "https://www.semanticscholar.org/paper/d3cea138ee0ec015d7548b98147bf28e993df86c",
+    "summary": "",
+    "authors": [
+      "Yuchen Hu",
+      "Shuangning Li",
+      "Stefan Wager"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Stefan Wager treatment effects"
+    },
+    "score": 98,
+    "topic": "experimentation",
+    "why_relevant": "tracked author (Stefan Wager); 2 keyword hits; +10 source-type",
+    "llm_summary": "Average Treatment Effects in the Presence of Interference"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Stefan Wager treatment effects",
+    "id": "s2:45c4c656b9e9c619615a3d4cec94ab83bdf77914",
+    "title": "Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in High Dimensions via Approximate Residual Balancing Title: One-step Targeted Mle and the Highly Adaptive Lasso",
+    "url": "https://www.semanticscholar.org/paper/45c4c656b9e9c619615a3d4cec94ab83bdf77914",
+    "summary": "",
+    "authors": [
+      "M. Laan",
+      "Stefan Wager",
+      "Sherri RoseMark",
+      "vander Laan",
+      "M. Laan",
+      "Xiaoru Wu",
+      "M. Hudgens",
+      "David Choi",
+      "Fan Li",
+      "P. Rosenbaum",
+      "J. Angrist",
+      "Dylan S. Small",
+      "Jamie Robins",
+      "G. Chan",
+      "D. Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Stefan Wager treatment effects"
+    },
+    "score": 94,
+    "topic": "causal-inference",
+    "why_relevant": "tracked author (Stefan Wager); 1 keyword hits; +10 source-type",
+    "llm_summary": "Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in High Dimensions via Approximate Residual Balancing Title: One-step Targeted Mle and the Highly Adaptive Lasso"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Stefan Wager treatment effects",
+    "id": "s2:19fcedcaf9c7fecdfd315f996f299ec3a52c1ce6",
+    "title": "Causal Inference with High-Dimensional Controls and Parameters of Interest",
+    "url": "https://www.semanticscholar.org/paper/19fcedcaf9c7fecdfd315f996f299ec3a52c1ce6",
+    "summary": "",
+    "authors": [
+      "C. Rudin",
+      "A. Belloni",
+      "Eric B. Laber",
+      "Stefan Wager"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Stefan Wager treatment effects"
+    },
+    "score": 94,
+    "topic": "causal-inference",
+    "why_relevant": "tracked author (Stefan Wager); 1 keyword hits; +10 source-type",
+    "llm_summary": "Causal Inference with High-Dimensional Controls and Parameters of Interest"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Stefan Wager treatment effects",
+    "id": "s2:a9b79bb734cb46f057e1393f2f81d01195729b01",
+    "title": "Average Direct and Indirect Causal Effects",
+    "url": "https://www.semanticscholar.org/paper/a9b79bb734cb46f057e1393f2f81d01195729b01",
+    "summary": "",
+    "authors": [
+      "Yuchen Hu",
+      "Shuangning Li",
+      "Stefan Wager"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Stefan Wager treatment effects"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Stefan Wager); +10 source-type",
+    "llm_summary": "Average Direct and Indirect Causal Effects"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08665v1",
+    "title": "Resample or Reroute? Budget-Aware Test-Time Model Selection for Large Language Models",
+    "url": "http://arxiv.org/abs/2607.08665v1",
+    "summary": "Routing among large language models (LLMs) trades response quality against serving cost, motivated by the reported gap between deployed routers and a per-instance oracle. Recent analysis shows that test-time resampling can recover per-instance selection headroom that no single-commit router captures; however, that guarantee holds only under an idealized oracle equipped with correctness labels and an unconstrained budget, neither of which a deployed system has. To the best of our knowledge, no previous work treats resampling the committed model and rerouting to an alternative model as competing uses of a single per-query cost budget. Therefore, this work formulates budget-aware test-time model selection: given a per-query budget and an imperfect verifier, allocate each unit of budget between resampling and rerouting so that expected correctness is maximized. An online resample-or-reroute (RoR) allocation policy driven by estimated marginal correctness per unit cost is proposed, and its behavior is grounded in the recoverability asymmetry between selection and sampling. Replay experiments on newly regenerated multi-draw correctness tensors from an eleven-model open-weight pool over four benchmarks of differing difficulty show that the proposed RoR policy attains a favorable cost-quality Pareto front relative to single-route, one-commit-router, budget-aware best-of-K, cascade, and random-allocation baselines for the tested pools, with the largest gains on the most heterogeneous benchmark; an ablation further shows the gains are verifier-gated, shrinking as verifier quality degrades, and robustness replays under a provider price vector and a label-free agreement verifier delineate where the conclusions carry over.",
+    "authors": [
+      "Teng-Ruei Chen"
+    ],
+    "published": "2026-07-09T16:34:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Routing among large language models (LLMs) trades response quality against serving cost, motivated by the reported gap between deployed routers and a per-instance oracle. Recent analysis shows that test-time resampling can recover per-instance selection headroom that no single-commit router captures; however, that guarantee holds only under an idealized oracle equipped with correctness labels and\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2607.08722v1",
+    "title": "Accounting for overdispersion and clustering in binomial data from N-of-1 trials",
+    "url": "http://arxiv.org/abs/2607.08722v1",
+    "summary": "N-of-1 trials are patient centered randomized controlled trials. Although the primary goal of N-of-1 trials is to obtain the results for each patient separately, pooling the results across patients also has relevance. In this paper, we present two analytical strategies to pool the results across N-of-1 trials, when the main outcome for each patient is a binomial variable. Our first method takes into account the extra-binomial variation, while as the second approach takes into account hierarchical clustering in addition to overdispersion. We illustrate the methods using real data analysis and compare the methods using simulations.",
+    "authors": [
+      "Majnu John",
+      "Heejung Bang",
+      "Stephanie Winkelbeiner",
+      "Philipp Homan"
+    ],
+    "published": "2026-07-09T17:29:26",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.AP"
+    },
+    "score": 52,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "N-of-1 trials are patient centered randomized controlled trials. Although the primary goal of N-of-1 trials is to obtain the results for each patient separately, pooling the results across patients also has relevance. In this paper, we present two analytical strategies to pool the results across N-of-1 trials, when the main outcome for each patient is a binomial variable. Our first method takes\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2607.08719v1",
+    "title": "Severity estimation in dependent collective risk models",
+    "url": "http://arxiv.org/abs/2607.08719v1",
+    "summary": "The collective risk model represents the aggregate loss of an insurance portfolio as a random sum of individual claim severities. When claim counts and severities are dependent, the claims pooled across policies are no longer a sample from the marginal severity distribution. We show that their empirical distribution converges to the law of an arbitrary observed claim, a size-biased mixture of the conditional severity distributions, so any procedure that fits the severity margin directly to pooled claims is inconsistent in general. The same result identifies the distribution that the pooled claims do sample, and we build a composite likelihood estimation procedure on that distribution. We establish consistency and asymptotic normality, with Godambe information in which the policy, rather than the claim, is the sampling unit. In a Sarmanov collective risk model, the observed-claim density and the aggregate mean are in closed form. A simulation study measures the bias of naive pooled-severity fitting, its correction by the composite likelihood, and the coverage of the policy-level standard errors.",
+    "authors": [
+      "Christopher Blier-Wong"
+    ],
+    "published": "2026-07-09T17:28:31",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "The collective risk model represents the aggregate loss of an insurance portfolio as a random sum of individual claim severities. When claim counts and severities are dependent, the claims pooled across policies are no longer a sample from the marginal severity distribution. We show that their empirical distribution converges to the law of an arbitrary observed claim, a size-biased mixture of the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2607.08700v1",
+    "title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
+    "url": "http://arxiv.org/abs/2607.08700v1",
+    "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the judge must be and how biased it is. We study this calibration question for citation quality in deep-research systems, where a search-grounded LLM must support each claim it writes with a cited source. Citation quality is a structured rubric task in which each attribution-citation pair is judged along two dimensions that require an LLM, source relevance and factual support. On an adversarial long-form benchmark, we score 8 off-the-shelf LLM judges from 3 model families against gold labels over 1,248 rubric decisions, all of which were human-reviewed and 378 of which were hard cases adjudicated from judge disagreements. Cheaper judges remain competitive across both dimensions, with GPT-5-mini attaining the strongest source-relevance pass-class F1 at 0.908 ($\u03ba$=0.636), while on factual support the judges are statistically indistinguishable (overlapping confidence intervals), so no single model dominates. At comparable F1, the judges still differ substantially in pass-rate drift, false positive rate, and false negative rate. Scalar F1 obscures this directional bias, yet it is exactly what a downstream reinforcement learning loop would reinforce. Calibrating the judge is therefore a prerequisite for using citation rubrics as reward signals, and our results show that this calibration does not require the most expensive available model.",
+    "authors": [
+      "Ethan Leung",
+      "Elias Lumer",
+      "Corey Feld",
+      "Austin Huber",
+      "Vamse Kumar Subbiah",
+      "Kevin Paul"
+    ],
+    "published": "2026-07-09T17:01:40",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the judge must be and how biased it is. We study this calibration question for citation quality in deep-research systems, where a search-grounded LLM must support each claim it writes\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2607.08640v1",
+    "title": "A Design-Based Approach to Testing and Inference in (Quasi-)Experiments with Spillovers",
+    "url": "http://arxiv.org/abs/2607.08640v1",
+    "summary": "Economic policies rarely affect only their direct targets. To study these spillovers, researchers summarize who else was treated with a simple exposure measure, such as the share of treated neighbors within a radius. But for many settings, economic theory provides little guidance on choosing the functional form (e.g., ring) of that measure or its parameters (e.g., radius). We show that the data can inform both choices. Correctly specified exposure measures imply orthogonality conditions that can be used for both estimation and testing. We establish consistency and asymptotic normality of the resulting estimator under spatial and network dependence in a design-based framework, with all randomness arising from treatment assignment. We then characterize the efficient moment conditions. Applied to two large-scale anti-poverty programs, the framework supports some prior radius estimates but rejects others. In the latter case, the revised radius yields substantively different policy-effect estimates.",
+    "authors": [
+      "Yechan Park"
+    ],
+    "published": "2026-07-09T16:16:17",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "econ.EM"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Economic policies rarely affect only their direct targets. To study these spillovers, researchers summarize who else was treated with a simple exposure measure, such as the share of treated neighbors within a radius. But for many settings, economic theory provides little guidance on choosing the functional form (e.g., ring) of that measure or its parameters (e.g., radius). We show that the data\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2607.08642v1",
+    "title": "DominoTree: Conditional Tree-Structured Drafting with Domino for Speculative Decoding",
+    "url": "http://arxiv.org/abs/2607.08642v1",
+    "summary": "Speculative decoding accelerates LLM inference by drafting several tokens and verifying them in parallel. Block-diffusion drafters such as DFlash produce   a draft block in one pass but model only per-position marginals; best-first tree methods such as DDTree expand candidate trees from those marginals. The   released Domino drafter adds a GRU-based causal correction that makes each draft token's distribution path-dependent, a structure DDTree's factorized   formulation cannot represent. We introduce DominoTree, a training-free best-first draft tree scored by Domino's conditional, non-factorized correction   along each root-to-node path, made practical by restricting the per-node correction to a candidate top-M. On Qwen3-4B across eight benchmarks, DominoTree   reaches up to 6.6x speedup over autoregressive decoding and the highest mean accept length of any evaluated method, up to 10.7 tokens per round, at every   temperature we test. DominoTree constructs its tree with a GPU-native, CUDA-graph builder that is bit-identical to a reference Python implementation, so   acceptance is unchanged, while keeping per-round tree construction cheap. With this builder as default, DominoTree wins throughput over the released   Domino decoder at every temperature, 9-10% overall on Qwen3-4B and up to +22% on Alpaca, and over DDTree/CaDDTree at every temperature we test. On Qwen3-   8B, DominoTree keeps the highest accepted length at every temperature and adds a decisive throughput win at T=0, +24% over DDTree; at higher temperature   that edge over DDTree/CaDDTree narrows to a tie and a small loss, while its Overall aggregate wins over DFlash and Domino persist.",
+    "authors": [
+      "Saw S. Lin",
+      "Jyh-Shing Roger Jang"
+    ],
+    "published": "2026-07-09T16:16:35",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Speculative decoding accelerates LLM inference by drafting several tokens and verifying them in parallel. Block-diffusion drafters such as DFlash produce   a draft block in one pass but model only per-position marginals; best-first tree methods such as DDTree expand candidate trees from those marginals. The   released Domino drafter adds a GRU-based causal correction that makes each draft token's\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08733v1",
+    "title": "Super Weights in LLMs and the Failure of Selective Training",
+    "url": "http://arxiv.org/abs/2607.08733v1",
+    "summary": "Recent work identified Super Weights, individual parameters whose removal degrades model performance by orders of magnitude. We show that this degradation due to pruning Super Weights does not universally apply to all LLMs. Furthermore, if these parameters are so important, Super Weight-aware training should be effective. We show the opposite. Training Super Weights in isolation (100 to 8,192 parameters) drops accuracy to random-guessing levels on both OLMo-1B and OLMo-7B, and expanding to local neighborhoods of up to 36K parameters provides no improvement. The failure is specific to Super Weight coordinates: training an equal number of randomly chosen positions in the same down_proj layers instead improves over the baseline, so the collapse comes from targeting Super Weights, not from sparsity itself. Vanilla LoRA, updating every position in attention weight matrices through low-rank structure, succeeds with only 0.16% of parameters, and applying the same low-rank update to down_proj succeeds as well. A 10-seed ablation confirms that constraining LoRA updates at positions corresponding to Super Weight coordinates yields statistically indistinguishable results. These findings establish that parameter importance does not imply parameter trainability in isolation, and that effective fine-tuning relies on structured decompositions over entire layers rather than targeting individually important weights.",
+    "authors": [
+      "Shreyas Subramanian",
+      "Adewale Akinfaderin",
+      "Akarsha Sehwag"
+    ],
+    "published": "2026-07-09T17:35:00",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Recent work identified Super Weights, individual parameters whose removal degrades model performance by orders of magnitude. We show that this degradation due to pruning Super Weights does not universally apply to all LLMs. Furthermore, if these parameters are so important, Super Weight-aware training should be effective. We show the opposite. Training Super Weights in isolation (100 to 8,192\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08725v1",
+    "title": "Pose-to-Biomechanics: Bridging 3D Human Pose Estimation and Biomechanical Attribute Prediction",
+    "url": "http://arxiv.org/abs/2607.08725v1",
+    "summary": "Recent progress in 3D human pose estimation has made markerless recovery of skeletal motion increasingly accurate and scalable. However, most pose estimators remain optimized for geometric keypoint accuracy, while many real-world applications in rehabilitation, sports science, ergonomics, and clinical movement analysis require biomechanical quantities that describe how the body moves, loads, and activates. In this work, we propose BioModule, a lightweight plug-in temporal transformer that attaches downstream of any 3D pose estimator and predicts biomechanical attributes from standard 17-joint 3D skeletons. BioModule is estimator-agnostic and requires no modification of the upstream pose model, enabling existing pose estimators to be extended toward physically interpretable motion analysis.   To train and evaluate BioModule, we construct a large-scale aligned dataset pairing Human3.6M video and 3D keypoints with the biomechanical label space of Human3.6Mplus. We establish and verify anatomical correspondence between coordinate systems of the two datasets, enabling frame-accurate cross-modal supervision. Using this aligned supervision, BioModule predicts biomechanical quantities. We further benchmark BioModule across seven state-of-the-art 3D pose estimators, providing the first systematic analysis of how upstream pose estimation quality propagates to downstream biomechanical prediction fidelity. The results position BioModule as a compact, modular bridge between vision-based pose estimation and biomechanically meaningful human motion analysis.",
+    "authors": [
+      "Ayda Eghbalian",
+      "Kevin Desai"
+    ],
+    "published": "2026-07-09T17:31:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Recent progress in 3D human pose estimation has made markerless recovery of skeletal motion increasingly accurate and scalable. However, most pose estimators remain optimized for geometric keypoint accuracy, while many real-world applications in rehabilitation, sports science, ergonomics, and clinical movement analysis require biomechanical quantities that describe how the body moves, loads, and\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08555v1",
+    "title": "CAAD: Causality-Aware Multivariate Time Series Anomaly Detection via Multi-Scale Alignment and Structural Causal Consistency",
+    "url": "http://arxiv.org/abs/2607.08555v1",
+    "summary": "The operational integrity of complex industrial systems relies on precise anomaly detection and diagnosis. The vast majority of existing methods narrowly focus on capturing temporal similarities of representations, often overlooking the disruption of internal causal relationships, which characterizes system failures and latent anomalies. In this paper, we propose a novel framework (CAAD) that reframes anomaly detection as the continuous verification of Granger causality consistency through exogenous variables.   Specifically, the CAAD framework models exogenous time-series variables as residuals, identifying anomalies as significant deviations caused by external interventions. The proposed framework leverages multi-scale alignment to internalize system dynamics and utilizes a gradient-based matrix to monitor internal causal relationship breakdowns. By quantifying causal deviations of both dynamic evolution and relational topology, the CAAD is able to capture subtle causal shifts to achieve precise anomaly detection. Extensive experiments on real-world industrial datasets demonstrate that the CAAD achieves high-precision anomaly detection, outperforming most state-of-the-art baselines.",
+    "authors": [
+      "Xin Wang",
+      "Yunshi Wen",
+      "Yanan He",
+      "Haotian Xu",
+      "Youlan Zhao",
+      "Michel Ferreira Cardia Haddad",
+      "Tengfei Ma"
+    ],
+    "published": "2026-07-09T14:46:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The operational integrity of complex industrial systems relies on precise anomaly detection and diagnosis. The vast majority of existing methods narrowly focus on capturing temporal similarities of representations, often overlooking the disruption of internal causal relationships, which characterizes system failures and latent anomalies. In this paper, we propose a novel framework (CAAD) that\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2607.08535v1",
+    "title": "When the Judge Changes, So Does the Measurement: Auditing LLM-as-Judge Reliability",
+    "url": "http://arxiv.org/abs/2607.08535v1",
+    "summary": "An LLM-as-judge score can move even when the candidate responses stay fixed, simply because the evaluator has changed. We treat this evaluator-replacement ambiguity as a measurement-validity problem. Across four judgment datasets, we compare two upgrade paths available in practice: scaling Qwen3 dense judges from 1.7B to 32B parameters and moving across MiniMax M2-M2.7 released APIs. The main pattern is that judge upgrades are not interchangeable: only Qwen3 1.7B to 4B gives a robust adjacent gain, while MiniMax adjacent releases do not. Stronger judges reduce but do not remove position and verbosity bias. Repeated-sample juries add little when errors are correlated. Structured debate can move decisions substantially, but without parser and fallback logs those shifts cannot be attributed to deliberation. We argue that LLM-as-judge reports should include dataset slices, bias probes, error-dependence estimates, and protocol audit trails.",
+    "authors": [
+      "Zongyou Yang",
+      "Yinghan Hou",
+      "Xiaokun Yang"
+    ],
+    "published": "2026-07-09T14:31:05",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "An LLM-as-judge score can move even when the candidate responses stay fixed, simply because the evaluator has changed. We treat this evaluator-replacement ambiguity as a measurement-validity problem. Across four judgment datasets, we compare two upgrade paths available in practice: scaling Qwen3 dense judges from 1.7B to 32B parameters and moving across MiniMax M2-M2.7 released APIs. The main\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2607.08456v1",
+    "title": "Two Axes of LLM Abstention: Answer Correctness and Question Answerability",
+    "url": "http://arxiv.org/abs/2607.08456v1",
+    "summary": "A model should refuse two different things: answers it would get wrong, and questions it should not answer at all, such as unanswerable ones or ones resting on a false premise. The usual recipe thresholds a single confidence score, which cannot tell these apart. Across five instruction-tuned models from three families (2B to 14B), we find they are separate axes. Ordinary answer-confidence tracks whether an answer is right but is nearly blind to whether the question is answerable; a linear probe on hidden states does the reverse. The blind spot does not shrink with scale. It is worst on naturally occurring false-premise questions (CREPE). There, answer-confidence, P(IK), P(True), and even asking the model outright whether a premise is false all stay near chance, while a hidden-state probe reaches 0.69 to 0.77 AUROC: the model represents a problem it will not report. This turns out to be fixable. Instructing a model to check premises backfires, because it then disputes sound and false premises alike (57% false challenges), unable to tell them apart; routing the same instruction with the probe roughly triples challenge precision. We turn the two axes into a calibrated policy that answers only when an answerability score and a correctness score each clear a separately certifies behave differently: the unanswerable-answer rate is controllable at every scale, while the wrong-answer rate is capped by model accuracy, so the guarantee tightens as threshold policy certifies both budgets at 0.75 coverage of correct answers, against 0.31 for a single threshold; at 14B it is the only policy that certifies at all.",
+    "authors": [
+      "Benedikt J. Wagner"
+    ],
+    "published": "2026-07-09T13:17:56",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "A model should refuse two different things: answers it would get wrong, and questions it should not answer at all, such as unanswerable ones or ones resting on a false premise. The usual recipe thresholds a single confidence score, which cannot tell these apart. Across five instruction-tuned models from three families (2B to 14B), we find they are separate axes. Ordinary answer-confidence tracks\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1d013babf24d1a80421115003ec723881f6bb6f6",
+    "title": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology",
+    "url": "https://www.semanticscholar.org/paper/1d013babf24d1a80421115003ec723881f6bb6f6",
+    "summary": "",
+    "authors": [
+      "Miguel A. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:49ff23bf9908cf101b16700b7efe14164011eadb",
+    "title": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data",
+    "url": "https://www.semanticscholar.org/paper/49ff23bf9908cf101b16700b7efe14164011eadb",
+    "summary": "",
+    "authors": [
+      "L. Cain",
+      "J. Robins",
+      "E. Lanoy",
+      "R. Logan",
+      "D. Costagliola",
+      "M. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "title": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach.",
+    "url": "https://www.semanticscholar.org/paper/418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "summary": "",
+    "authors": [
+      "T. VanderWeele",
+      "M. Hern\u00e1n",
+      "E. T. Tchetgen Tchetgen",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Journal of Epidemiology",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach."
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "title": "Longitudinal Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "summary": "",
+    "authors": [
+      "M. Hern\u00e1n",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Longitudinal Causal Inference"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08647v1",
+    "title": "Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning",
+    "url": "http://arxiv.org/abs/2607.08647v1",
+    "summary": "As autonomous agents are increasingly deployed across diverse operational contexts, aligning their behavior with human intent demands reward functions that remain robust to such changes rather than overfitting to any single environment. Inverse reinforcement learning (IRL) provides a principled way to infer such objectives from human feedback. However, existing analyses of optimal teaching approaches for IRL focus on single-environment, demonstration-only settings, leaving underexplored how heterogeneous feedback modalities and environment dynamics jointly constrain reward functions that generalize across multiple environments. Because demonstrations in one MDP entangle reward information with that environments specific structure, the resulting rewards frequently fail to generalize when the agent is deployed in a new setting. We first analyze how different feedback modalities constrain rewards, showing that, in the unlimited-data regime, comparisons impose strictly stronger global constraints than other modalities. Beyond this theoretical analysis, we introduce a hierarchical machine teaching algorithm for reward learning that operates across multiple MDPs. The algorithm first greedily selects informative environments that expose complementary reward constraints, then strategically queries low-cost feedback within those environments. Empirically, our method achieves substantially lower regret and stronger generalization to held-out environments than uniform teaching baselines under identical feedback budgets, demonstrating the importance of multi-environment, multi-modal teaching for learning dynamics-robust reward functions.",
+    "authors": [
+      "Ali Larian",
+      "Qian Lin",
+      "Chang Zong Wu",
+      "Daniel S. Brown"
+    ],
+    "published": "2026-07-09T16:18:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "As autonomous agents are increasingly deployed across diverse operational contexts, aligning their behavior with human intent demands reward functions that remain robust to such changes rather than overfitting to any single environment. Inverse reinforcement learning (IRL) provides a principled way to infer such objectives from human feedback. However, existing analyses of optimal teaching\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08595v1",
+    "title": "Federated Deep Learning for Privacy-Preserving Cardiovascular Disease Risk Prediction",
+    "url": "http://arxiv.org/abs/2607.08595v1",
+    "summary": "Cardiovascular disease risk prediction models often rely on data from a single institution or centrally pooled datasets. Extending these models across institutions could be limited by privacy regulations and constraints on sharing patient-level data. Federated learning enables collaborative model development without transferring sensitive patient data, but its application in healthcare remains challenging because datasets often differ in size, population characteristics, and outcome definitions. In this study, we present a federated deep learning approach for privacy-preserving cardiovascular disease risk prediction that integrates two population-based cohorts with different characteristics: Lifelines, including 148,230 participants meeting the study inclusion criteria with self-reported outcomes, and the Rotterdam Study, including a smaller cohort of 10,155 participants with digitally linked clinical outcomes. Model performance was primarily evaluated on the Rotterdam Study because of its complete follow-up. Deep survival models trained using federated learning achieved higher predictive performance than models trained locally without federation. For the Rotterdam Study, the C-statistic increased from 0.728 (95% CI: 0.717-0.739) to 0.739 (95% CI: 0.728-0.749). For Lifelines, the C-statistic increased from 0.783 (95% CI: 0.775-0.791) to 0.787 (95% CI: 0.780-0.792). These findings suggest that federated deep learning across heterogeneous cohorts can improve cardiovascular disease risk prediction while preserving the privacy of individual-level patient data.",
+    "authors": [
+      "Hyunho Mo",
+      "Djura Smits",
+      "Mahlet A. Birhanu",
+      "Maarten J. G. Leening",
+      "Daniel Bos",
+      "Pim van der Harst",
+      "Esther E. Bron"
+    ],
+    "published": "2026-07-09T15:29:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Cardiovascular disease risk prediction models often rely on data from a single institution or centrally pooled datasets. Extending these models across institutions could be limited by privacy regulations and constraints on sharing patient-level data. Federated learning enables collaborative model development without transferring sensitive patient data, but its application in healthcare remains\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08590v1",
+    "title": "Robust Bayesian Decision Making under Adversarial Uncertainty",
+    "url": "http://arxiv.org/abs/2607.08590v1",
+    "summary": "Scientific experiments are often designed to maximize information gain, yet in many applications the primary objective is to support reliable downstream decision-making. Existing decision-aware experimental design and active learning methods typically assume well-specified outcome models and implicitly rely on the stability of the optimal decision under real-world perturbations. In practice, however, experimental outcomes are frequently influenced by hidden or weakly modeled effects, which can substantially alter decision optimality and lead to misleading conclusions. We study sequential adversarially robust decision-aware experimental design, where data acquisition has to take into account information gain against plausible worst-case unexpected effects, modeled here as variation in adversarial variables. Building on Bayesian decision theory, we formalize an adversarially robust optimal decision under this setting and derive a principled Bayesian experimental design criterion. The criterion explicitly targets decision stability rather than nominal optimality. Experiments on synthetic and real-world scientific datasets show that conventional decision-aware design can converge rapidly to high confidence yet fragile decisions, while our robustness-aware approach yields decisions that are significantly more stable and reliable under adversarial variation.",
+    "authors": [
+      "Haripriya Harikumar",
+      "Sammie Katt",
+      "Yasir Zubayr Barlas",
+      "Samuel Kaski"
+    ],
+    "published": "2026-07-09T15:25:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Scientific experiments are often designed to maximize information gain, yet in many applications the primary objective is to support reliable downstream decision-making. Existing decision-aware experimental design and active learning methods typically assume well-specified outcome models and implicitly rely on the stability of the optimal decision under real-world perturbations. In practice,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08581v1",
+    "title": "Spectral Stability of Pseudoinverse-Based Extreme Learning Machine",
+    "url": "http://arxiv.org/abs/2607.08581v1",
+    "summary": "Extreme Learning Machine (ELM) computes output weights analytically using the Moore-Penrose pseudoinverse. Although this leads to fast training, its numerical stability depends strongly on the conditioning of the hidden layer matrix. This paper studies pseudoinverse-based ELM from a spectral perspective. We show that the smallest singular value governs perturbation amplification in the output weights, while the condition number provides a quantitative measure of hidden-layer instability. We compare SVD-based pseudoinverse computation with iterative hyperpower methods and discuss width-dependent conditioning through a random feature interpretation. Experiments on synthetic matrices and ELM benchmarks show that SVD-based methods remain the most reliable under ill conditioning, while iterative methods are more sensitive to spectral properties. The results suggest that ELM stability is fundamentally governed by the singular value structure of the hidden layer matrix.",
+    "authors": [
+      "Bich Van Nguyen",
+      "Ngoc Anh Khong"
+    ],
+    "published": "2026-07-09T15:15:25",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Extreme Learning Machine (ELM) computes output weights analytically using the Moore-Penrose pseudoinverse. Although this leads to fast training, its numerical stability depends strongly on the conditioning of the hidden layer matrix. This paper studies pseudoinverse-based ELM from a spectral perspective. We show that the smallest singular value governs perturbation amplification in the output\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08579v1",
+    "title": "ImputeViz: A Visual Analytics Dashboard for Diagnosing Missing Data and Comparing Imputation Methods",
+    "url": "http://arxiv.org/abs/2607.08579v1",
+    "summary": "Missing data is a persistent obstacle in scientific, social science, and public health research, often biasing analyses and placing accountability on analysts for how they handle missing values. We introduce ImputeViz, an integrated visual analytics dashboard that supports diagnosing missingness, configuring imputation models, and evaluating results. The system brings together widely used methods, including MICE, Random Forest, XGBoost, and kNN, within an interactive environment that makes missingness patterns explicit. To support geospatial reasoning, we introduce gKNN, a geographically informed kNN variant that blends socioeconomic and spatial distances and exposes donor contributions, enabling provenance-based visual accountability by showing which regions drive each estimate. Our primary contribution is a method-agnostic visual analytics environment that makes cross-method comparison a first-class visual task and integrates gKNN alongside standard methods. Coordinated views reveal missingness structure through heatmaps, co-missingness summaries, and distributional diagnostics that help analysts reason about missingness patterns (MCAR/MAR) and cases where missingness may be non-random (MNAR). Users can compare and tune models and interrogate results via distributional overlays, a Method Comparison Summary reporting MAE, RMSE, Delta RMSE, and runtime for each algorithm on the current target and mask, along with variable-level discrepancy views. Cached per-method results and locked axis scales reduce cognitive overhead from shifting ranges during method switching. These comparisons highlight where methods disagree, which variables are sensitive, and how imputation choices affect downstream summaries. Case studies demonstrate how ImputeViz helps analysts select effective strategies, surface sensitive variables, and assess model robustness.",
+    "authors": [
+      "Aitik Dandapat",
+      "Lalith Punepalle Raveendrareddy",
+      "Mithilesh Kumar Singh",
+      "Klaus Mueller"
+    ],
+    "published": "2026-07-09T15:14:56",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.HC"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Missing data is a persistent obstacle in scientific, social science, and public health research, often biasing analyses and placing accountability on analysts for how they handle missing values. We introduce ImputeViz, an integrated visual analytics dashboard that supports diagnosing missingness, configuring imputation models, and evaluating results. The system brings together widely used\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08545v1",
+    "title": "Structural Bottlenecks on Frequency Representation in End-to-End Audio Models",
+    "url": "http://arxiv.org/abs/2607.08545v1",
+    "summary": "End-to-end neural audio models achieve high-fidelity compression and generation. We might read that performance as evidence they directly represent interpretable features such as pitch and timbre, but a model can produce plausible outputs without doing so. A model may encode these features in any reachable basis, but regardless of which, the features are well described as compositions of time-frequency-localized primitives. Whether state-of-the-art encoders preserve access to these primitives, and thus to compositions of them, remains unclear. Through theoretical analysis and controlled experiments, we show that several state-of-the-art strided convolutional encoders impose two structural bottlenecks, both predictable from architecture and signal structure, on access to these primitives: (1) they collapse primitives into alias equivalence classes, establishing a bound on representational capacity, and (2) they limit the frequency resolution available to learned filters, restricting separability. For well structured data, we find collapse rates of 31-35% and filter bandwidths 10-35x above the theoretical resolution bound, confirming that both bottlenecks arise under realistic signal conditions. We then introduce Gabor Latent Refactorization (GLRF), a lightweight post-hoc intervention that re-expresses encoder latents in a frequency-localized basis, reducing filter bandwidths from 10-35x to 1.5-3x of the theoretical resolution bound while preserving reconstruction fidelity and improving control over attributes like pitch. These results show that the encoders in question predictably degrade access to frequency-localized primitives, entangling the features that depend on them, and that a lightweight, retraining-free intervention can recover much of that access, improving steerability and interpretability.",
+    "authors": [
+      "Nicole Cosme-Clifford"
+    ],
+    "published": "2026-07-09T14:38:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.SD"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "End-to-end neural audio models achieve high-fidelity compression and generation. We might read that performance as evidence they directly represent interpretable features such as pitch and timbre, but a model can produce plausible outputs without doing so. A model may encode these features in any reachable basis, but regardless of which, the features are well described as compositions of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08533v1",
+    "title": "AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism",
+    "url": "http://arxiv.org/abs/2607.08533v1",
+    "summary": "Understanding perceptual differences between autistic and neurotypical adults requires behavioral assays that are sensitive, reliable, and mechanistically informative. Facial emotion perception is a useful test case because group differences have been reported, but findings vary across studies. Here we show that this variability may reflect image-level sparsity: autistic-neurotypical differences in emotion judgments were concentrated in a small subset of diagnostic facial expressions rather than spread uniformly across stimuli. We trained population-specific artificial neural network models to predict image-level judgments for autistic and neurotypical participants, then used these models to select novel faces predicted to maximize group separation. In an independent cohort, model-selected images produced larger behavioral differences than matched random images. We then used the same models with a generative adversarial network to transform diagnostic images toward greater predicted group agreement. In phenotype-matched validation, synthesized images reduced behavioral separation relative to their matched originals. These results establish a model-guided framework for discovering and transforming stimuli that reveal population-specific perceptual differences. More broadly, they show how behavioral phenotyping can move beyond averaging across fixed stimulus sets toward optimized assays that identify the conditions under which neurodivergent perception diverges or converges.",
+    "authors": [
+      "Kushin Mukherjee",
+      "Na Yeon Kim",
+      "Maren Wehrheim",
+      "Ralph Adolphs",
+      "Kohitij Kar"
+    ],
+    "published": "2026-07-09T14:29:31",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Understanding perceptual differences between autistic and neurotypical adults requires behavioral assays that are sensitive, reliable, and mechanistically informative. Facial emotion perception is a useful test case because group differences have been reported, but findings vary across studies. Here we show that this variability may reflect image-level sparsity: autistic-neurotypical differences\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08475v1",
+    "title": "Frequency-Domain Multi-Modality Transportation Modeling",
+    "url": "http://arxiv.org/abs/2607.08475v1",
+    "summary": "Multi-modality transportation refers to urban systems composed of multiple transportation modes, such as traffic flow and public transit, whose dynamics are coupled by shared temporal patterns. Accurate multi-modality transportation forecasting remains challenging because (1) different modalities exhibit distinct spectral characteristics and (2) interact unevenly across frequencies, whereas most existing methods operate primarily in the time domain or rely on coarse feature fusion. To address these limitations, we propose a lightweight yet effective Frequency-Domain Multi-Modality modeling (FreMo) that explicitly exploits the frequency domain to enable adaptive and selective cross-modality synergy. FreMo disentangles modality-wise spectral refinement from cross-modality synergy and supports plug-and-play integration with general time series backbones. Specifically, FreMo introduces a Modality-Wise Frequency Filter (MFF) to adaptively refine spectral components within each modality, emphasizing informative frequencies while suppressing noise. FreMo further incorporates a Frequency-Guided Synergy Integrator (FSI) that selectively aggregates information across modalities based on their relative contribution at each frequency, facilitating effective cross-modality knowledge sharing while mitigating negative transfer. Extensive experiments on real-world datasets show that FreMo consistently outperforms state-of-the-art baselines, with superior performance and generalization across diverse forecasting scenarios. The code is available at https://github.com/beginner-sketch/FreMo.",
+    "authors": [
+      "Jiewen Deng",
+      "Hangchen Liu",
+      "Junchen Li",
+      "Boyuan Zhang",
+      "Renhe Jiang"
+    ],
+    "published": "2026-07-09T13:30:42",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Multi-modality transportation refers to urban systems composed of multiple transportation modes, such as traffic flow and public transit, whose dynamics are coupled by shared temporal patterns. Accurate multi-modality transportation forecasting remains challenging because (1) different modalities exhibit distinct spectral characteristics and (2) interact unevenly across frequencies, whereas most\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2607.08470v1",
+    "title": "MatBind: A Shared Embedding Space for Multimodal Materials Characterization",
+    "url": "http://arxiv.org/abs/2607.08470v1",
+    "summary": "Fully characterizing a crystalline material requires integrating heterogeneous data sources -- atomic structures, diffraction patterns, electronic density of states, and natural language -- each of which captures a different facet of the same physical object. In practice, however, these modalities are stored and analyzed in isolation, making it difficult to relate or query materials across representational boundaries. We present MatBind, a contrastive learning framework that aligns four materials modalities -- crystal structure, powder X-ray diffraction (pXRD) simulated from structures, density of states (DOS), and text -- into a unified embedding space using crystal structure as the central physical anchor. The framework induces alignment between modalities never explicitly paired during training, enabling emergent zero-shot cross-modal retrieval as a direct consequence of the shared representation. The learned embedding space organizes materials according to physically meaningful properties without explicit supervision, and retrieval performance improves systematically when modalities are combined at query time. These results demonstrate that treating heterogeneous materials data as complementary projections of a single physical reality, rather than as isolated data sources, is not a practical choice but is consistent with the underlying physics.",
+    "authors": [
+      "Le Yang",
+      "Anoop K. Chandran",
+      "Jona \u00d6streicher",
+      "Evgenii Sovetkin",
+      "Adrian Mirza",
+      "Sebastien Bompas",
+      "Bashir Kazimi",
+      "Pascal Friederich",
+      "Stefan Kesselheim",
+      "Kevin Maik Jablonka",
+      "Stefan Sandfeld"
+    ],
+    "published": "2026-07-09T13:28:14",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Fully characterizing a crystalline material requires integrating heterogeneous data sources -- atomic structures, diffraction patterns, electronic density of states, and natural language -- each of which captures a different facet of the same physical object. In practice, however, these modalities are stored and analyzed in isolation, making it difficult to relate or query materials across\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2607.08716v1",
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "url": "http://arxiv.org/abs/2607.08716v1",
+    "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action agent, updating a structured memory bank from the recent trajectory and deciding whether to inject a memory-grounded reminder or remain silent. The module is plug-and-play with frontier action agents and existing agent harnesses. Across Terminal-Bench 2.0 and $\u03c4^2$-Bench, it improves pass@1 for both weaker and stronger action agents, with gains of +8.3 pp on Terminal-Bench and +6.8 pp on $\u03c4^2$-Bench. Ablations show that selective intervention outperforms passive bank exposure, always-on injection, advisor-only guidance, and general retrieval. As an early step toward open-weight memory policies, we train Qwen3.5-27B on SETA using SFT and GRPO, improving validation reward and achieving partial transfer to Terminal-Bench.",
+    "authors": [
+      "Yifan Wu",
+      "Lizhu Zhang",
+      "Yuhang Zhou",
+      "Mingyi Wang",
+      "Bo Peng",
+      "Serena Li",
+      "Xiangjun Fan",
+      "Zhuokai Zhao"
+    ],
+    "published": "2026-07-09T17:26:28",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2607.08499v1",
+    "title": "Cross-seed explainability using Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoders",
+    "url": "http://arxiv.org/abs/2607.08499v1",
+    "summary": "We present a Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoder (SAE) for extracting cross-seed universal features from independently trained BERT models. Cross-seed feature universality is a fundamental challenge in mechanistic interpretability: because dictionary learning is non-convex, independently trained networks learn misaligned feature spaces, so apparently identical features may differ by random initialization. We address this by computing an orthogonal Procrustes rotation between seeds' activation spaces before joint SAE training, combining Top-K sparsity, end-to-end downstream optimization, and an auxiliary dead-feature revival loss based on previous SAE literature. Evaluating on five independent seed pairs (ten BERT models) across three benchmark datasets (SST-2, Stanford Politeness, TweetEval Emotion), our full pipeline produces more universal features (Pearson r $\\geq$ 0.70 across seeds) than post-hoc alignment baselines on all three datasets. A minimal qualitative analysis confirms that high-universality features encode interpretable sociolinguistic patterns.",
+    "authors": [
+      "Bendeg\u00faz V\u00e1radi",
+      "Zolt\u00e1n Kmetty"
+    ],
+    "published": "2026-07-09T13:59:08",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We present a Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoder (SAE) for extracting cross-seed universal features from independently trained BERT models. Cross-seed feature universality is a fundamental challenge in mechanistic interpretability: because dictionary learning is non-convex, independently trained networks learn misaligned feature spaces, so apparently identical\u2026"
+  }
+]

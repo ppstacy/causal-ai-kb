@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-10</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-10/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-10/</guid>
+      <pubDate>Fri, 10 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
+2. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
+3. Causal Inference with High-Dimensional Controls and Parameters of Interest — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · C. Rudin, A. Belloni, Eric B. Laber, Stefan Wager
+4. Average Direct and Indirect Causal Effects — Other · score 90 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
+5. Resample or Reroute? Budget-Aware Test-Time Model Selection for Large Language Models — Causal LMs · score 56 · arXiv cs.LG · Teng-Ruei Chen</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-09</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-09/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-09/</guid>
@@ -202,13 +213,6 @@
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-14/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-14/</guid>
       <pubDate>Sun, 14 Jun 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-13</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-13/</guid>
-      <pubDate>Sat, 13 Jun 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
     </item>
   </channel>
