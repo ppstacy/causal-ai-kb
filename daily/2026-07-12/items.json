@@ -1,0 +1,179 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:e0c6d440beab22b36278e06cb216694321911b76",
+    "title": "Unified Covariate Adjustment for Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/e0c6d440beab22b36278e06cb216694321911b76",
+    "summary": "",
+    "authors": [
+      "Yonghan Jung",
+      "Jin Tian",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Unified Covariate Adjustment for Causal Inference"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:c1b7291e42b65406bfdc8ab8dea328590583248e",
+    "title": "NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS",
+    "url": "https://www.semanticscholar.org/paper/c1b7291e42b65406bfdc8ab8dea328590583248e",
+    "summary": "",
+    "authors": [
+      "S. Athey",
+      "M. Bayati",
+      "Nikolay Doudchenko",
+      "G. Imbens",
+      "Khashayar Khosravi"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:6f916e23f6eb0d6a386014bae9ad4fdf0e6d45e1",
+    "title": "Rubin Causal Model",
+    "url": "https://www.semanticscholar.org/paper/6f916e23f6eb0d6a386014bae9ad4fdf0e6d45e1",
+    "summary": "",
+    "authors": [
+      "G. Imbens",
+      "D. Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Encyclopedia of Statistical Science",
+      "query": "Guido Imbens causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Rubin Causal Model"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:1816156806a8d70316bc2abf8efa36240ab4c435",
+    "title": "Causal Imitation for Markov Decision Processes: a Partial Identification Approach",
+    "url": "https://www.semanticscholar.org/paper/1816156806a8d70316bc2abf8efa36240ab4c435",
+    "summary": "Imitation learning enables an agent to learn from expert demonstrations when the performance measure is unknown and the reward signal is not specified. Standard imitation methods do not generally apply when the learner and the expert\u2019s sensory capabilities mismatch and demonstrations are contaminated with unobserved confounding bias. To address these challenges, recent advancements in causal imitation learning have been pursued. However, these methods often require access to underlying causal structures that might not always be available, posing practical challenges. In this paper, we investigate robust imitation learning within the framework of canonical Markov Decision Processes (MDPs) using partial identification, allowing the agent to achieve expert performance even when the system dynamics are not uniquely determined from the confounded expert demonstrations. Specifically, first, we theoretically demonstrate that when unobserved confounders (UCs) exist in an MDP, the learner is generally unable to imitate expert performance. We then explore imitation learning in partially identifiable settings \u2014 either transition distribution or reward function is non-identifiable from the available data and knowledge. Augmenting the celebrated GAIL method (Ho & Ermon, 2016), our analysis leads to two novel causal imitation algorithms that can obtain effective policies guaranteed to achieve expert performance.",
+    "authors": [
+      "Kangrui Ruan",
+      "Junzhe Zhang",
+      "Xuan Di",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Imitation learning enables an agent to learn from expert demonstrations when the performance measure is unknown and the reward signal is not specified. Standard imitation methods do not generally apply when the learner and the expert\u2019s sensory capabilities mismatch and demonstrations are contaminated with unobserved confounding bias. To address these challenges, recent advancements in causal\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:af23e97c4864eea679880c7526c7a5cc26b34aae",
+    "title": "On Measuring Causal Contributions via do-interventions",
+    "url": "https://www.semanticscholar.org/paper/af23e97c4864eea679880c7526c7a5cc26b34aae",
+    "summary": "",
+    "authors": [
+      "Yonghan Jung",
+      "S. Kasiviswanathan",
+      "Jin Tian",
+      "D. Janzing",
+      "Patrick Bl\u00f6baum",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Machine Learning",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "On Measuring Causal Contributions via do-interventions"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:c2747bb5851e676691aa7e9434252dd1a8a75871",
+    "title": "Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation",
+    "url": "https://www.semanticscholar.org/paper/c2747bb5851e676691aa7e9434252dd1a8a75871",
+    "summary": "",
+    "authors": [
+      "Junzhe Zhang",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Conference on Uncertainty in Artificial Intelligence",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "title": "Experimental Design for Learning Causal Graphs with Latent Variables",
+    "url": "https://www.semanticscholar.org/paper/12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "summary": "",
+    "authors": [
+      "Murat Kocaoglu",
+      "Karthikeyan Shanmugam",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Experimental Design for Learning Causal Graphs with Latent Variables"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:shogunlancercorridor/EViews-Econometrics-Professional-Complete-Setup",
+    "title": "shogunlancercorridor/EViews-Econometrics-Professional-Complete-Setup \u2014 EViews \u2014 econometric analysis with time-series modeling, forecasting and panel-data tools.",
+    "url": "https://github.com/shogunlancercorridor/EViews-Econometrics-Professional-Complete-Setup",
+    "summary": "EViews \u2014 econometric analysis with time-series modeling, forecasting and panel-data tools.",
+    "authors": [],
+    "published": "2026-07-04T10:17:06Z",
+    "extras": {
+      "stars": 17,
+      "language": null,
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "EViews \u2014 econometric analysis with time-series modeling, forecasting and panel-data tools."
+  }
+]

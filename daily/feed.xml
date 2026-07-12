@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-12</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-12/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-12/</guid>
+      <pubDate>Sun, 12 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. Unified Covariate Adjustment for Causal Inference — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, Jin Tian, E. Bareinboim
+2. NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS — Other · score 40 · Semantic Scholar: Guido Imbens causal · S. Athey, M. Bayati, Nikolay Doudchenko, G. Imbens et al. (5 authors)
+3. Rubin Causal Model — Other · score 40 · Semantic Scholar: Guido Imbens causal · G. Imbens, D. Rubin
+4. Causal Imitation for Markov Decision Processes: a Partial Identification Approach — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, E. Bareinboim
+5. On Measuring Causal Contributions via do-interventions — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, S. Kasiviswanathan, Jin Tian, D. Janzing et al. (6 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-11</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-11/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-11/</guid>
@@ -207,17 +218,6 @@
 3. A nonparametric two-sample test using a parametric integral probability metric — Uplift / HTE · score 52 · arXiv stat.ML · Yuha Park, Yongdai Kim
 4. Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations — Causal LMs · score 52 · arXiv stat.ME · Yanan Long
 5. Scalable Circuit Learning for Interpreting Large Language Models — Causal LMs · score 52 · arXiv cs.LG · Naiyu Yin, Dennis Wei, Tian Gao, Amit Dhurandhar et al. (6 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-15</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-15/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-15/</guid>
-      <pubDate>Mon, 15 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. A Comment on: 
- “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
-2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
-3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
-4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)</description>
     </item>
   </channel>
 </rss>
