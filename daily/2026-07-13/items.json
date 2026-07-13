@@ -1,0 +1,42 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: double machine learning",
+    "id": "s2:4e123f6bc48d99d846417fdf4b36526e6248c38b",
+    "title": "Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine learning",
+    "url": "https://www.semanticscholar.org/paper/4e123f6bc48d99d846417fdf4b36526e6248c38b",
+    "summary": "",
+    "authors": [
+      "Shu Mo",
+      "Xinghua Liu"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Energy Policy",
+      "query": "double machine learning"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine learning"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:lianxhcn/stata-ai",
+    "title": "lianxhcn/stata-ai \u2014 using Stata with AI-Agent",
+    "url": "https://github.com/lianxhcn/stata-ai",
+    "summary": "using Stata with AI-Agent",
+    "authors": [],
+    "published": "2026-07-12T10:45:47Z",
+    "extras": {
+      "stars": 5,
+      "language": "CSS",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "using Stata with AI-Agent"
+  }
+]

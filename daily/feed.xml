@@ -6,6 +6,14 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-13</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-13/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-13/</guid>
+      <pubDate>Mon, 13 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine… — Causal Inference · score 44 · Semantic Scholar: double machine learning · Shu Mo, Xinghua Liu
+2. lianxhcn/stata-ai — using Stata with AI-Agent — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-12</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-12/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-12/</guid>
@@ -207,17 +215,6 @@
 3. OmniPlan: An Adaptive Framework for Timely and Near-Optimal Network Planning Optimization — Causal LMs · score 56 · arXiv cs.LG · Longlong Zhu, Jiashuo Yu, Zedi Chen, Yuhan Wu et al. (15 authors)
 4. SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs — Causal LMs · score 56 · arXiv cs.LG · Mikołaj Zasada, Łukasz Struski, Jacek Tabor, Marcin Kurdziel
 5. Variable-Width Transformers — Causal LMs · score 56 · arXiv cs.CL · Zhaofeng Wu, Oliver Sieberling, Shawn Tan, Rameswar Panda et al. (6 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-16</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-16/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-16/</guid>
-      <pubDate>Tue, 16 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. From Tokens to Policy: Causal and Interpretable Heterogeneous Treatment Effects Identification — Uplift / HTE · score 56 · arXiv cs.LG · Riccardo Cadei, Frank Otchere, Nyasha Tirivayi, Gustavo Angeles Tagliaferro et al. (6 authors)
-2. Speaking the Language of Science: Toward a General-Purpose Generative Foundation Model for the Natural Sciences — Causal LMs · score 56 · arXiv cs.CL · Mingyang Li, Yurou Liu, Jieping Ye, Bing Su et al. (6 authors)
-3. A nonparametric two-sample test using a parametric integral probability metric — Uplift / HTE · score 52 · arXiv stat.ML · Yuha Park, Yongdai Kim
-4. Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations — Causal LMs · score 52 · arXiv stat.ME · Yanan Long
-5. Scalable Circuit Learning for Interpreting Large Language Models — Causal LMs · score 52 · arXiv cs.LG · Naiyu Yin, Dennis Wei, Tian Gao, Amit Dhurandhar et al. (6 authors)</description>
     </item>
   </channel>
 </rss>
