@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-16</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-16/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-16/</guid>
+      <pubDate>Thu, 16 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. Analogical Deep Research: Retrieving and Integrating Historical Analogies for Foresight Analysis — Causal LMs · score 100 · arXiv cs.LG · Yongqiang Chen, Guangyi Chen, Yuewen Sun, Kun Zhang
+2. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
+3. Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries — Other · score 90 · Semantic Scholar: Susan Athey causal · Susan Athey, Bruno Fava, D. Karlan, Adam Osman et al. (5 authors)
+4. Epistemic Stance Flexibility Probing: Measuring Prompt-Conditioned Register Shift in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Binwen Liu, Yilin Ren
+5. Traffic-Aware Randomized Smoothing for LLM-Based Network Intrusion Detection — Causal LMs · score 56 · arXiv cs.LG · Zhenpeng Li</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-13</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-13/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-13/</guid>
@@ -204,17 +215,6 @@
 3. On Local Population-Risk Certificates — Uplift / HTE · score 52 · arXiv stat.ML · Mingzhi Song
 4. Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection — Causal LMs · score 52 · arXiv cs.LG · Jinhan Li, Kexian Tang, Yihan Xu, Zhuorui Ye et al. (5 authors)
 5. Learning User Simulators with Turing Rewards — Causal LMs · score 52 · arXiv cs.CL · Yingshan Susan Wang, Cedegao E. Zhang, Linlu Qiu, Zexue He et al. (8 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-17</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-17/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-17/</guid>
-      <pubDate>Wed, 17 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Beyond Parallel Trends in Staggered Difference-in-Differences: Identification under Higher-Order Parallelism — Causal Inference · score 56 · arXiv econ.EM · Zecharias Anteneh
-2. Evaluating Open-Source LLMs for Multi-Label ATT&amp;CK Technique Classification on CTI Reports — Causal LMs · score 56 · arXiv cs.LG · Ahmed Ryan, Saad Sakib Noor, Md Erfan, Shaswata Mitra et al. (6 authors)
-3. OmniPlan: An Adaptive Framework for Timely and Near-Optimal Network Planning Optimization — Causal LMs · score 56 · arXiv cs.LG · Longlong Zhu, Jiashuo Yu, Zedi Chen, Yuhan Wu et al. (15 authors)
-4. SoftMoE: Soft Differentiable Routing for Mixture-of-Experts in LLMs — Causal LMs · score 56 · arXiv cs.LG · Mikołaj Zasada, Łukasz Struski, Jacek Tabor, Marcin Kurdziel
-5. Variable-Width Transformers — Causal LMs · score 56 · arXiv cs.CL · Zhaofeng Wu, Oliver Sieberling, Shawn Tan, Rameswar Panda et al. (6 authors)</description>
     </item>
   </channel>
 </rss>
