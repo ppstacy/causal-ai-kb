@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W30</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W30/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W30/</guid>
+      <pubDate>Fri, 24 Jul 2026 22:00:00 +0000</pubDate>
+      <description>1. Efficient difference-in-differences estimation under partial interference with incremental propensity score policies — Causal Inference · score 68 · arXiv econ.EM · Junjie Li, Yukitoshi Matsushita
+2. GAUGER: Generalized Regression Adjustment via Graph-Weighted Exposure-Level Residualization for Design-Based Inference Under… — Experimentation · score 64 · arXiv stat.ME · Lei Shi, Rita Lyu, Sizhu Lu
+3. Identifying Treatment and Spillover Effects with Control-Based and Forecast-Based Counterfactuals — Causal Inference · score 64 · arXiv econ.EM · Viviana Celli, Augusto Cerqua, Guido Pellegrini
+4. A Variance-Based Test for Heterogeneous Treatment Effects — Uplift / HTE · score 64 · arXiv econ.EM · Fangzhou Yu
+5. In-House LLM Serving at Netflix — Causal LMs · score 61 · Netflix Tech Blog</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W29</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W29/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W29/</guid>
