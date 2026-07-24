@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-07-23</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-23/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-23/</guid>
+      <pubDate>Thu, 23 Jul 2026 13:00:00 +0000</pubDate>
+      <description>1. Efficient difference-in-differences estimation under partial interference with incremental propensity score policies — Causal Inference · score 68 · arXiv econ.EM · Junjie Li, Yukitoshi Matsushita
+2. GAUGER: Generalized Regression Adjustment via Graph-Weighted Exposure-Level Residualization for Design-Based Inference Under… — Experimentation · score 64 · arXiv stat.ME · Lei Shi, Rita Lyu, Sizhu Lu
+3. Identifying Treatment and Spillover Effects with Control-Based and Forecast-Based Counterfactuals — Causal Inference · score 64 · arXiv econ.EM · Viviana Celli, Augusto Cerqua, Guido Pellegrini
+4. A Variance-Based Test for Heterogeneous Treatment Effects — Uplift / HTE · score 64 · arXiv econ.EM · Fangzhou Yu
+5. In-House LLM Serving at Netflix — Causal LMs · score 61 · Netflix Tech Blog</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-16</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-16/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-16/</guid>
@@ -204,17 +215,6 @@
 3. Optimal Deterministic Multicalibration and Omniprediction — Uplift / HTE · score 56 · arXiv stat.ML · Georgy Noarov, Aaron Roth
 4. Anchors Away: Navigating Unanchored Indirect Comparisons with Multilevel Unanchored Meta-Regression (ML-UMR) — Experimentation · score 56 · arXiv stat.ME · Conor Chandler, Jack Ishak
 5. Leveraging tails for adaptation — Uplift / HTE · score 52 · arXiv stat.ML · Sergios Agapiou, Ismaël Castillo, Paul Egels</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-18</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-18/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-18/</guid>
-      <pubDate>Thu, 18 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Wasserstein Policy Learning for Distributional Outcomes — Uplift / HTE · score 60 · arXiv stat.ML · Yiyan Huang, Cheuk Hang Leung, Qi Wu, Zhiheng Zhang
-2. What does ethnic density represent? Spatial co-occurrence networks of a widely used contextual measure using harmonised UK… — Uplift / HTE · score 56 · arXiv stat.ME · Joseph Lam
-3. On Local Population-Risk Certificates — Uplift / HTE · score 52 · arXiv stat.ML · Mingzhi Song
-4. Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection — Causal LMs · score 52 · arXiv cs.LG · Jinhan Li, Kexian Tang, Yihan Xu, Zhuorui Ye et al. (5 authors)
-5. Learning User Simulators with Turing Rewards — Causal LMs · score 52 · arXiv cs.CL · Yingshan Susan Wang, Cedegao E. Zhang, Linlu Qiu, Zexue He et al. (8 authors)</description>
     </item>
   </channel>
 </rss>
