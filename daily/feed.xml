@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-01</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</guid>
+      <pubDate>Sat, 01 Aug 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-07-31</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-31/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-31/</guid>
@@ -209,13 +216,6 @@
 3. HyperQuant: A Rate-Distortion-Optimal Quantization Pipeline for Large Language and Diffusion Models — Causal LMs · score 60 · arXiv cs.LG · Yuval Domb, Hadar Sackstein, Tomer Solberg
 4. Causal Inference with Multiple Misclassified Exposures: A Control Variate-Adjusted Calibration Weighting Approach — Experimentation · score 56 · arXiv stat.ME · Nandini Murali, Keith Barnatchez, Jordana E. Hoppe, Brandie D. Wagner et al. (6 authors)
 5. Randomized YaRN Improves Length Generalization for Long-Context Reasoning — Causal LMs · score 56 · arXiv cs.CL · Manas Mehta, Fangcong Yin, Greg Durrett</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-22</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-22/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-22/</guid>
-      <pubDate>Mon, 22 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. lianxhcn/china-policy-shocks — A curated database of China policy shocks for economics, finance, and policy evaluation research. — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
