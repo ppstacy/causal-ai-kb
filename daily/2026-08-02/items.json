@@ -1,0 +1,205 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "title": "Variance Reduction for Experiments with One-Sided Triggering using CUPED",
+    "url": "https://www.semanticscholar.org/paper/0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "summary": "",
+    "authors": [
+      "Alex Deng",
+      "Lo-Hua Yuan",
+      "Alexandre Salama-Manteau"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 48,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Variance Reduction for Experiments with One-Sided Triggering using CUPED"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:ee7781e4d7fafead334077502e048ed5bd8fb8bc",
+    "title": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds",
+    "url": "https://www.semanticscholar.org/paper/ee7781e4d7fafead334077502e048ed5bd8fb8bc",
+    "summary": "",
+    "authors": [
+      "G. Imbens",
+      "D. Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 48,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "title": "Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks",
+    "url": "https://www.semanticscholar.org/paper/22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first formulate local optimization problems at each node, which are subsequently addressed using the Alternating Direction Method of Multipliers (ADMM). Three subproblems naturally arise from ADMM, each resolved in an online manner with low computational costs. Specifically, the first one is solved using stochastic gradient descent (SGD), while the other two are handled using the conjugate gradient descent method to avoid matrix inversion operations. To further enhance performance, a variance reduction algorithm is incorporated into the SGD. Simulation results validate the effectiveness of the proposed algorithm.",
+    "authors": [
+      "Yitong Chen",
+      "Danqi Jin",
+      "Jie Chen",
+      "C\u00e9dric Richard",
+      "Wen Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "IEEE Signal Processing Letters",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:111478dfeba28a12cb8398893eead2de62087b85",
+    "title": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction",
+    "url": "https://www.semanticscholar.org/paper/111478dfeba28a12cb8398893eead2de62087b85",
+    "summary": "",
+    "authors": [
+      "Yichen Wu",
+      "Long-Kai Huang",
+      "Renzhen Wang",
+      "Deyu Meng",
+      "Ying Wei"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Learning Representations",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:9ba91627485dee6d4d6a5e1bf75ebcc0d5c15930",
+    "title": "Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil",
+    "url": "https://www.semanticscholar.org/paper/9ba91627485dee6d4d6a5e1bf75ebcc0d5c15930",
+    "summary": "",
+    "authors": [
+      "W. Guido",
+      "Imbens",
+      "B. Donald",
+      "Rubin"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1d013babf24d1a80421115003ec723881f6bb6f6",
+    "title": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology",
+    "url": "https://www.semanticscholar.org/paper/1d013babf24d1a80421115003ec723881f6bb6f6",
+    "summary": "",
+    "authors": [
+      "Miguel A. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:49ff23bf9908cf101b16700b7efe14164011eadb",
+    "title": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data",
+    "url": "https://www.semanticscholar.org/paper/49ff23bf9908cf101b16700b7efe14164011eadb",
+    "summary": "",
+    "authors": [
+      "L. Cain",
+      "J. Robins",
+      "E. Lanoy",
+      "R. Logan",
+      "D. Costagliola",
+      "M. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "title": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach.",
+    "url": "https://www.semanticscholar.org/paper/418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "summary": "",
+    "authors": [
+      "T. VanderWeele",
+      "M. Hern\u00e1n",
+      "E. T. Tchetgen Tchetgen",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Journal of Epidemiology",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach."
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "title": "Longitudinal Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "summary": "",
+    "authors": [
+      "M. Hern\u00e1n",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Longitudinal Causal Inference"
+  }
+]

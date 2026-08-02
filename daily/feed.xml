@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-02</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-02/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-02/</guid>
+      <pubDate>Sun, 02 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
+2. Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds — Causal Inference · score 48 · Semantic Scholar: Guido Imbens causal · G. Imbens, D. Rubin
+3. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
+4. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
+5. Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil — Causal Inference · score 44 · Semantic Scholar: Guido Imbens causal · W. Guido, Imbens, B. Donald, Rubin</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-01</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</guid>
@@ -205,17 +216,6 @@
 3. Bounds for Standard Errors in Combined Data — Uplift / HTE · score 56 · arXiv econ.EM · Jooyoung Cha, Yuya Sasaki, Nelson Matthew P. Tan
 4. Group-Level Treatment Effect Heterogeneity in Difference-in-Differences: A Balanced Approach — Causal Inference · score 56 · arXiv econ.EM · Nora Bearth, Nadja van 't Hoff, Torben S. D. Johansen
 5. AI-PAVE-Br: Leveraging Large Language Models for Enhanced Product Attribute Value Extraction through a Golden Set Approach — Causal LMs · score 56 · arXiv cs.LG · Murilo Gazzola, Hugo Gobato Souto, Samuel Silva, Júlia Schubert Peixoto et al. (7 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-23</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-23/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-23/</guid>
-      <pubDate>Tue, 23 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Causal Discovery in the Era of Agents — Causal LMs · score 100 · arXiv cs.LG · Yujia Zheng, Vishal Verma, Mantej Gill, Haoyue Dai et al. (6 authors)
-2. A generalized multiple-intervention stepped wedge design framework for treatment effect estimation in the presence of non-uniform… — Causal LMs · score 60 · arXiv stat.ME · Samantha M. Levy, Jose-Miguel Yamal
-3. HyperQuant: A Rate-Distortion-Optimal Quantization Pipeline for Large Language and Diffusion Models — Causal LMs · score 60 · arXiv cs.LG · Yuval Domb, Hadar Sackstein, Tomer Solberg
-4. Causal Inference with Multiple Misclassified Exposures: A Control Variate-Adjusted Calibration Weighting Approach — Experimentation · score 56 · arXiv stat.ME · Nandini Murali, Keith Barnatchez, Jordana E. Hoppe, Brandie D. Wagner et al. (6 authors)
-5. Randomized YaRN Improves Length Generalization for Long-Context Reasoning — Causal LMs · score 56 · arXiv cs.CL · Manas Mehta, Fangcong Yin, Greg Durrett</description>
     </item>
   </channel>
 </rss>
