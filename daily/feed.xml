@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-03</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-03/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-03/</guid>
+      <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-02</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-02/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-02/</guid>
@@ -205,17 +212,6 @@
 3. Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents — Uplift / HTE · score 52 · arXiv cs.LG · Changdae Oh, Wendi Li, Seongheon Park, Samuel Yeh et al. (6 authors)
 4. InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment… — Causal LMs · score 52 · arXiv cs.LG · Mingguang Chen, Bo Qu
 5. Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment — Uplift / HTE · score 48 · arXiv cs.LG · Aditya Singh, Gerson Kroiz, Senthooran Rajamanoharan, Neel Nanda</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-24</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-24/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-24/</guid>
-      <pubDate>Wed, 24 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. Same Lesson, Different Story: Cross-Lingual Reconstruction of Cultural Narratives in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Jory Alshaalan, Haya Albaker, Abeer Aldayel, Aljawharah Alabdullatif et al. (5 authors)
-2. Sequential Probability Ratio Test using Z-Statistics (SPRT-z): A Practical Approach for Online Experimentation — Experimentation · score 56 · arXiv stat.ME · Derek L. Ho, Emma G. Thomas
-3. Bounds for Standard Errors in Combined Data — Uplift / HTE · score 56 · arXiv econ.EM · Jooyoung Cha, Yuya Sasaki, Nelson Matthew P. Tan
-4. Group-Level Treatment Effect Heterogeneity in Difference-in-Differences: A Balanced Approach — Causal Inference · score 56 · arXiv econ.EM · Nora Bearth, Nadja van 't Hoff, Torben S. D. Johansen
-5. AI-PAVE-Br: Leveraging Large Language Models for Enhanced Product Attribute Value Extraction through a Golden Set Approach — Causal LMs · score 56 · arXiv cs.LG · Murilo Gazzola, Hugo Gobato Souto, Samuel Silva, Júlia Schubert Peixoto et al. (7 authors)</description>
     </item>
   </channel>
 </rss>
