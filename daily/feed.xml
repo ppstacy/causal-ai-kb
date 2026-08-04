@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-04</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-04/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-04/</guid>
+      <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
+3. GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning — Causal LMs · score 56 · arXiv cs.LG · Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang et al. (7 authors)
+4. Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation — Experimentation · score 52 · arXiv stat.ML · Jiachen Hu, Han Zhong
+5. Exact Likelihood and Sampling for Riemannian Gaussian Distributions on Correlation Matrices — Uplift / HTE · score 52 · arXiv stat.ME · Kisung You</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-03</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-03/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-03/</guid>
@@ -201,17 +212,6 @@
 3. RSPC: A Benchmark for Modeling Stress and Psychiatric Conditions in Digitally Mediated Relationships using Psychiatrist… — Causal LMs · score 56 · arXiv cs.LG · Parmitha Vangapandu, Sai Ganesh Mokkapati, Sathwik Narkedimilli, MSVPJ Sathvik et al. (7 authors)
 4. The Riddle Riddle: Testing Flexible Reasoning in Large Language Models and Humans — Causal LMs · score 56 · arXiv cs.CL · Bella Fascendini, Kathryn McGregor, Max D. Gupta, Thomas L. Griffiths
 5. NuclearQAv2: A Structured Benchmark for Evaluating Domain-Science Competence in Large Language Models — Causal LMs · score 56 · arXiv cs.CL · Henry Shaowu Yuchi, Michal Kucer, Benjamin H. Sims, Selma Peterson et al. (5 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-25</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-25/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-25/</guid>
-      <pubDate>Thu, 25 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources — Causal LMs · score 56 · arXiv cs.LG · Ke Zhao, Zixiang Di, Hong Qian, Xiang Shu et al. (12 authors)
-2. When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification? — Experimentation · score 52 · arXiv stat.ML · Zhengchi Ma, Pengfei Lyu, Anru R. Zhang
-3. Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents — Uplift / HTE · score 52 · arXiv cs.LG · Changdae Oh, Wendi Li, Seongheon Park, Samuel Yeh et al. (6 authors)
-4. InvestPhilBench: A Multi-Layer Dynamic Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment… — Causal LMs · score 52 · arXiv cs.LG · Mingguang Chen, Bo Qu
-5. Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment — Uplift / HTE · score 48 · arXiv cs.LG · Aditya Singh, Gerson Kroiz, Senthooran Rajamanoharan, Neel Nanda</description>
     </item>
   </channel>
 </rss>
