@@ -6,6 +6,18 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-06</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-06/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-06/</guid>
+      <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. A Comment on: 
+ “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
+2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
+3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
+4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
+5. Protoreasoning in Tiny Transformers — Causal LMs · score 60 · arXiv cs.LG · Eduardo Valle, Fergal Reid</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-05</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-05/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-05/</guid>
@@ -205,13 +217,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</guid>
       <pubDate>Sun, 28 Jun 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-27</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-27/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-27/</guid>
-      <pubDate>Sat, 27 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. shogunlancercorridor/EViews-Econometrics-Professional-Complete-Setup — EViews — econometric analysis with time-series modeling,… — Other · score 30 · GitHub topic:econometrics</description>
     </item>
   </channel>
 </rss>
