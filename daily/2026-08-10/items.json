@@ -1,0 +1,568 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.06290v1",
+    "title": "Learning Latent Memory States from Longitudinal Athlete Monitoring Data",
+    "url": "http://arxiv.org/abs/2608.06290v1",
+    "summary": "We propose a new unit of analysis for longitudinal data: the Latent Memory Table. The scientific contribution is not the encoder. It is that table, treated as a reusable statistical object on the same footing as a matrix of principal-component scores, a table of estimated random effects, or a table of predicted probabilities. We estimate a statistical table that summarizes recent longitudinal history and is intended to be stored, queried, analysed and reused throughout the statistical workflow. A memory operator maps each masked windowed history to a finite-dimensional state; collecting those states with uncertainty yields the Latent Memory Table. Validation is organized around six properties---recoverability, personalization, temporal coherence, interpretability, stability and reusability---summarized by a composite quality index \\(Q\\); the Transformer, the SoccerMon case study and the simulations exist to argue that this table deserves that status. Classical exponentially weighted moving averages and related short- and long-horizon scalar summaries arise as restricted, typically univariate special cases of the same operator class. A simulation study with known memory mechanisms shows that \\(Q\\) and rotation-invariant recovery scores discriminate genuine multivariate or personalized memory from negative controls and from misspecified windows, whereas regime classification accuracy alone does not. SoccerMon serves as an empirical case study: a constructed Latent Memory Table attains \\(Q\\approx 0.73\\) versus about \\(0.40\\) for classical and lagged principal-component baselines, with incremental held-out value for some wellness targets and Procrustes ensembles for row-wise reliability.",
+    "authors": [
+      "Dae-Jin Lee"
+    ],
+    "published": "2026-08-06T17:14:54",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.CO"
+    },
+    "score": 60,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "We propose a new unit of analysis for longitudinal data: the Latent Memory Table. The scientific contribution is not the encoder. It is that table, treated as a reusable statistical object on the same footing as a matrix of principal-component scores, a table of estimated random effects, or a table of predicted probabilities. We estimate a statistical table that summarizes recent longitudinal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.06288v1",
+    "title": "Surv-IPTB: An Attention-Based Model for Estimating Individual Probability of Treatment Benefit with Survival Data",
+    "url": "http://arxiv.org/abs/2608.06288v1",
+    "summary": "This work presents a novel attention-based framework for estimating the Individual Probability of Treatment Benefit (IPTB) in survival analysis contexts. The proposed model, called Surv-IPTB, directly quantifies the probability that a specific patient will experience extended survival time under treatment versus control. We reformulate IPTB estimation as a binary classification problem, leveraging pairwise patient comparisons across treatment and control cohorts. The framework incorporates a principled handling of right-censored observations through imprecise probability representations, where uncertain treatment effects are characterized by interval-valued probabilities. An attention mechanism with learnable query-key transformations enables flexible, data-driven aggregation of pairwise comparisons, while simultaneously learning soft class probabilities for censored cases. Through extensive experiments on synthetic datasets with complex nonlinear structures, including spiral, bell-shaped, and circular feature spaces, we demonstrate that our approach maintains robust performance across varying censoring rates and treatment effect strengths. The model consistently outperforms meta-learner baselines (T-learner and S-learner) equipped with random survival forests, Cox proportional hazards, and Beran estimators, particularly in challenging nonlinear scenarios where conventional methods exhibit significant degradation. The results establish the proposed attention-based framework as a scalable and statistically principled solution for personalized treatment benefit assessment in survival settings. The code implementing the model is publicly available.",
+    "authors": [
+      "Lev V. Utkin",
+      "Stanislav K. Kogan",
+      "Andrei V. Konstantinov"
+    ],
+    "published": "2026-08-06T17:13:44",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "This work presents a novel attention-based framework for estimating the Individual Probability of Treatment Benefit (IPTB) in survival analysis contexts. The proposed model, called Surv-IPTB, directly quantifies the probability that a specific patient will experience extended survival time under treatment versus control. We reformulate IPTB estimation as a binary classification problem,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06223v1",
+    "title": "TS-RAG: Retrieval Augmented Generation for Time Series Forecasting",
+    "url": "http://arxiv.org/abs/2608.06223v1",
+    "summary": "While deep learning models, particularly transformer-based architectures, have shown impressive performance in time series forecasting, the application of retrieval-augmented generation (RAG) in this domain remains limited. Since RAG has proven effective in enhancing the capabilities of large language models by incorporating relevant external information, retrieving similar time series sequences as references might also improve accuracy in time series forecasting tasks. However, most time series models are constrained by limited training data, smaller parameter scales, and a lack of the extensive generative capabilities found in large language models. Simply concatenating reference sequences into the prompt, as done in language models, may not yield the expected results. To address these challenges, we propose a novel approach, TS-RAG, which leverages RAG to enhance forecasting performance. The framework introduces specially designed reference tokens to effectively fuse information from the input sequence with that from retrieved similar sequences, enabling a more robust capture of complex temporal dynamics. Experimental results demonstrate that TS-RAG achieves consistent state-of-the-art performance across several real-world forecasting benchmarks.",
+    "authors": [
+      "Yixiong Xiao",
+      "Congxi Xiao",
+      "Jingbo Zhou"
+    ],
+    "published": "2026-08-06T16:12:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "While deep learning models, particularly transformer-based architectures, have shown impressive performance in time series forecasting, the application of retrieval-augmented generation (RAG) in this domain remains limited. Since RAG has proven effective in enhancing the capabilities of large language models by incorporating relevant external information, retrieving similar time series sequences\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.06292v1",
+    "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+    "url": "http://arxiv.org/abs/2608.06292v1",
+    "summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to verify and cannot be reliably attributed to specific evidence. Moreover, missing user-specific context is rarely detected systematically, often leading to incomplete or incorrect output.   We propose NeSy-RAG, a modular neuro-symbolic RAG framework that synthesizes attributable Prolog modules from retrieved text chunks. For each chunk, the system generates semantically meaningful predicates that encode Boolean claims, which may depend on user facts. Using joint natural language-code embeddings, predicates are retrieved and composed into Prolog queries. To address incomplete user context, we introduce a symbolic knowledge-gap detection mechanism that identifies missing user facts whose truth values affect the query outcome and automatically triggers follow-up interactions.   Executing the resulting Prolog queries yields deterministic answers together with transparent execution traces that link each reasoning step to its originating source. On the ShARC benchmark, without domain-specific training, NeSy-RAG achieves 61.1% accuracy, outperforming a same-model RAG baseline that achieves 42.8% accuracy.",
+    "authors": [
+      "Jonas Gann",
+      "Michael Gertz"
+    ],
+    "published": "2026-08-06T17:16:28",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to verify and cannot be reliably attributed to specific evidence. Moreover, missing user-specific context is rarely detected systematically, often\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.06123v1",
+    "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+    "url": "http://arxiv.org/abs/2608.06123v1",
+    "summary": "Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce Poli-Bias, a counterfactual framework for measuring whether LLMs treat legally equivalent conflict scenarios differently depending on the countries involved. Poli-Bias compares responses to paired prompts in which country identities are systematically swapped across diverse geopolitical relationships, legal violations, and reasoning tasks. Rather than reducing bias to a single judgment, our framework decomposes response disparities into five interpretable dimensions, revealing how and where unequal treatment manifests. Across 13 contemporary LLMs spanning diverse model families and sizes, we find that country identities and user affiliations can systematically affect how equivalent actions are described, evaluated, and defended under international law. Our results thus establish Poli-Bias as a fine-grained framework for auditing political even-handedness and sycophancy in LLMs.",
+    "authors": [
+      "Massi-Nissa Abboud",
+      "Aladin Djuhera",
+      "Elena Cabrio",
+      "Holger Boche"
+    ],
+    "published": "2026-08-06T14:54:30",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce Poli-Bias, a counterfactual framework for measuring whether LLMs treat legally equivalent conflict scenarios differently depending on the countries\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.06337v1",
+    "title": "Optimal Rates for Learning with Monotone Adversaries",
+    "url": "http://arxiv.org/abs/2608.06337v1",
+    "summary": "A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not exchangeable. Larsen, Pabbaraju, and Shetty, who introduced this model, showed that empirical risk minimization attains expected error $O((d/n)\\log(n/d))$ for classes of VC dimension $d$, and that every known optimal learner can be pushed away from the $\u0398(d/n)$ rate, optimal for PAC learning. They asked whether the extra logarithm is an artifact of those particular algorithms or an inherent consequence of the lack of exchangeability.   We show that this additional cost is inherent beyond VC dimension one. In the worst case over classes of VC dimension $d$ and over known finite insertion budgets, the minimax expected error is $\u0398(1/n)$ at $d=1$ and $\u0398((d/n)\\log(n/d))$ for $d\\geq 2$. The same rates hold with Littlestone dimension $d_{\\mathrm L}$ in place of $d$, so the clean online-to-batch rate $O(d_{\\mathrm L}/n)$ is unattainable as well. Thus, somewhat counterintuitively, adding correctly labeled examples can make learning harder by a logarithmic factor, even for classes that admit finite mistake bounds in online learning. The dimension-one upper bound is achieved by a simple improper learner whose analysis adapts the leave-one-out argument underlying the one-inclusion graph. All of our lower bounds are elementary and come from a single construction: an explicit class and prior on which two target hypothesis, which differ a point of nonnegligible mass, produce the same sample.",
+    "authors": [
+      "Anay Mehrotra"
+    ],
+    "published": "2026-08-06T17:45:32",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06015v1",
+    "title": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+    "url": "http://arxiv.org/abs/2608.06015v1",
+    "summary": "Deep Reinforcement Learning (RL) is notoriously sample inefficient. One contributing factor is that RL agents are typically initialized from scratch, forcing them to acquire task-relevant knowledge through online interaction. Existing approaches obtain informative initializations through pre-collected datasets, high-fidelity simulators, or meta-learning over related tasks, but these prerequisites may be difficult to access or even unavailable. In this paper, we propose Programmatic Dynamics Priors for Value Network Initialization (ProDVI), a framework that leverages the commonsense and domain knowledge encoded in large language models to initialize RL agents without relying on these resources. Specifically, ProDVI prompts a code-generating language model to produce executable Python functions that encode coarse hypotheses about environment dynamics. These functions are then used to generate synthetic transitions. Based on these transitions, we construct an auxiliary dynamics prediction objective to pretrain the state-action encoder of the value network in an actor-critic framework. The learned representation provides dynamics-aware inductive biases before online RL begins. Importantly, the generated programs are used only for representation pretraining and are not required to faithfully simulate the target environment. While the generated programs may be inaccurate, their induced initialization can be corrected through online learning from real transitions and rewards. Experiments on OpenAI Gym and DeepMind Control Suite tasks show that ProDVI can effectively improve the sample efficiency of model-free RL algorithms.",
+    "authors": [
+      "Xinwei Liu",
+      "Junyuan Liang",
+      "Jianting Zhang",
+      "Wuhui Chen"
+    ],
+    "published": "2026-08-06T13:19:29",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Deep Reinforcement Learning (RL) is notoriously sample inefficient. One contributing factor is that RL agents are typically initialized from scratch, forcing them to acquire task-relevant knowledge through online interaction. Existing approaches obtain informative initializations through pre-collected datasets, high-fidelity simulators, or meta-learning over related tasks, but these prerequisites\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.06195v1",
+    "title": "Handling Missing Data in Probabilistic Regression Trees",
+    "url": "http://arxiv.org/abs/2608.06195v1",
+    "summary": "Probabilistic Regression Trees (PRTrees) are a smooth and consistent alternative to classical regression trees, producing continuous predictions through probabilistic split assignments. This paper extends the PRTree framework to accommodate missing predictor values directly during tree construction, eliminating the need for prior imputation. Three strategies are proposed, each exploiting the available information differently: a uniform-probability approach, a partial-observation approach, and a dimension-reduced smoothing approach. These modifications are defined to preserve the fundamental probabilistic properties of the original methodology, including probability conservation and marginal compatibility, under arbitrary patterns of missing covariate values. The proposed methods are evaluated on several real-world datasets exhibiting different levels of missingness and are compared with classical regression trees. The results show that the effectiveness of probabilistic tree construction depends strongly on the treatment of missing observations. Across the considered datasets, the fill strategy emerged as the dominant modeling component, often exerting a larger influence on predictive performance than either the smoothing distribution or the proxy-selection criterion. In datasets where a substantial proportion of observations contained missing predictor values, the proposed methods frequently outperformed CART, while maintaining the interpretability and flexibility of tree-based models.",
+    "authors": [
+      "Taiane Schaedler Prass",
+      "Alisson Silva Neimaier",
+      "Guilherme Pumi"
+    ],
+    "published": "2026-08-06T15:54:12",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Probabilistic Regression Trees (PRTrees) are a smooth and consistent alternative to classical regression trees, producing continuous predictions through probabilistic split assignments. This paper extends the PRTree framework to accommodate missing predictor values directly during tree construction, eliminating the need for prior imputation. Three strategies are proposed, each exploiting the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2608.06116v1",
+    "title": "Bartlett Couplings of the Onion and Vine LKJ Samplers",
+    "url": "http://arxiv.org/abs/2608.06116v1",
+    "summary": "The extended-onion and C-vine constructions of Lewandowski, Kurowicka and Joe (2009) are standard methods for sampling from the $\\mathrm{LKJ}_n(\u03b7)$ distribution on correlation matrices. We show that both arise from the simpler row-normalized Bartlett construction associated with the restricted-Wishart representation of Wang, Wu and Chu (2018), which reuses random quantities that the classical samplers regenerate. Two exact row-wise couplings establish this: the squared norm of the Gaussian vector supplying the onion's direction has exactly the Gamma law required for one component of the Beta radius, and the same vector, with one chi-squared variate, generates the entire row of mutually independent C-vine partial correlations with their required symmetric-Beta laws. Under gamma-ratio accounting, normalized Bartlett, the onion, and the conventional symmetric-Beta C-vine require $n-1$, $2(n-1)$, and $n(n-1)$ Gamma-equivalent calls. Controlled benchmarks confirm a low-dimensional advantage over the onion implementation and a persistent advantage over the C-vine implementations examined; direct Bartlett normalization also avoids subtractive complements, moving the small-$\u03b7$ zero-diagonal threshold from machine-epsilon scale toward the subnormal range. The sampler is valid for every real $\u03b7>0$ and requires only standard normal and chi-squared variates.",
+    "authors": [
+      "Peter Reinhard Hansen"
+    ],
+    "published": "2026-08-06T14:48:22",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "math.ST"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "The extended-onion and C-vine constructions of Lewandowski, Kurowicka and Joe (2009) are standard methods for sampling from the $\\mathrm{LKJ}_n(\u03b7)$ distribution on correlation matrices. We show that both arise from the simpler row-normalized Bartlett construction associated with the restricted-Wishart representation of Wang, Wu and Chu (2018), which reuses random quantities that the classical\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06362v1",
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "url": "http://arxiv.org/abs/2608.06362v1",
+    "summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact. The Action-Informed Value Assessment Tool (AIVAT) reduces variance in imperfect-information games through conditional mean-zero corrections, by a median $54\\times$ across 15 LLM agent configurations spanning 71,439 paired Heads-Up No-Limit Hold'em (HUNL) hands, but does not say when to stop. We combine AIVAT with continuously monitored Confidence Sequences (CSs) into anytime-valid AIVAT (AV-AIVAT), whose online value model learns only from past games so that no game scores its own correction. At the nominal 95\\% level and a target precision of $\\pm1$ Big Blind, raw outcomes need a median $74\\times$ as many hands as AIVAT-corrected outcomes to stop under the Asymptotic CS (AsympCS). Exact finite-sample certification uses the Empirical-Bernstein CS (EB-CS), which needs an independently justified bound on corrected payoffs. We establish such a bound structurally for Leduc hold'em and characterize a width floor set by the CS's bet cap and that bound, which governs how much of a variance gain becomes earlier stopping; the descriptive HUNL EB-CS runs show a median $1.37\\times$ stopping-time ratio. AV-AIVAT turns variance reduction into efficient, auditable early stopping while separating asymptotic screening from exact certification, so an evaluation can stop the moment its evidence suffices and hand a third party everything needed to recheck the verdict at that very stopping time.",
+    "authors": [
+      "Boning Li",
+      "Yu Chen",
+      "Longbo Huang"
+    ],
+    "published": "2026-08-06T17:57:11",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.GT"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06262v1",
+    "title": "Hypothesis Testing with Conditional Queries: Learnability and the Value of Interaction",
+    "url": "http://arxiv.org/abs/2608.06262v1",
+    "summary": "Model evaluations may fix all tests before observing any responses or select later tests using earlier responses. We study this choice in a conditional-query model on a finite outcome space $\\mathcal{X}$ with $|\\mathcal{X}|=N$. We first ask which pairs of distribution classes can be reliably distinguished. We then ask how many additional queries are required to match an adaptive tester when all queried events must be fixed in advance. We show that learnability holds if and only if the two classes have positive separation in their pairwise conditional probabilities. When this separation is zero, the optimal worst-case error is exactly $1/2$ at every finite query budget. For any $T$-query adaptive policy and any $\u03c1\\in (0,1)$, we construct a randomized non-adaptive procedure using $O(N^2(T + \\log(1/\u03c1)))$ pair queries chosen before any response is observed. Its simulated transcript is within $\u03c1$ in total variation of the adaptive transcript, uniformly over all distributions in the model. We also construct a matching family with constant adaptive query complexity and $\u03a9_\\varepsilon(N^2)$ non-adaptive query complexity. Consequently, the worst-case fixed-error adaptivity gap is $\u0398_\\varepsilon(N^2)$. Thus interaction can reduce the required number of tests by a quadratic factor, but the apparent exponential branching of an interactive evaluation does not yield an exponential query advantage.",
+    "authors": [
+      "Zonghuan Xu"
+    ],
+    "published": "2026-08-06T16:54:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Model evaluations may fix all tests before observing any responses or select later tests using earlier responses. We study this choice in a conditional-query model on a finite outcome space $\\mathcal{X}$ with $|\\mathcal{X}|=N$. We first ask which pairs of distribution classes can be reliably distinguished. We then ask how many additional queries are required to match an adaptive tester when all\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06216v1",
+    "title": "Continual Learning in Transition",
+    "url": "http://arxiv.org/abs/2608.06216v1",
+    "summary": "Classical continual learning (CL) has primarily focused on enabling models to update and retain knowledge through parameter-centric mechanisms, e.g., training strategies, architectural designs, and weight adaptation. However, emerging paradigms are reshaping the scope of CL beyond this traditional model adaptation view. For instance, on-policy learning broadens the space of update mechanisms; test-time training extends CL from the training phase to inference; and external harness components such as memory, skill libraries, and interaction protocols extend the evolutionary boundaries of model capabilities far beyond the static parameter space. Collectively, these developments indicate a transition from parameter-centric learning toward system-level adaptation. To characterize this transition, we examine the evolution of continual learning through three dimensions: When, How, and Where learning occurs. The How dimension encompasses off-policy, on-policy, and beyond-gradient optimization mechanics. The When dimension captures evolution across pre-training, post-training, and inference-time stages. The Where dimension delineates updates occurring within internal parameters versus external structural constraints. Anchored by this tri-axial framework, we systematically survey representative methods, trace the ongoing transition of continual learning, and discuss the key challenges, broader implications, and future directions arising from this paradigm shift.",
+    "authors": [
+      "Zhiyan Hou",
+      "Dan Zhang",
+      "Tao Feng",
+      "Liyuan Wang",
+      "Wei Li",
+      "Xiangzhao Hao",
+      "Hongyan An",
+      "Junfeng Fang",
+      "Haokai Ma",
+      "Zhaohui Xu",
+      "Haiyun Guo",
+      "Jinqiao Wang",
+      "Tat-Seng Chua"
+    ],
+    "published": "2026-08-06T16:07:26",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Classical continual learning (CL) has primarily focused on enabling models to update and retain knowledge through parameter-centric mechanisms, e.g., training strategies, architectural designs, and weight adaptation. However, emerging paradigms are reshaping the scope of CL beyond this traditional model adaptation view. For instance, on-policy learning broadens the space of update mechanisms;\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06004v1",
+    "title": "Do Tabular Foundation Models Agree with Themselves?",
+    "url": "http://arxiv.org/abs/2608.06004v1",
+    "summary": "Tabular Foundation Models (TFMs) are currently the best approach to tabular prediction problems. They are constructed as transformers that approximate the Bayesian posterior predictive distribution based on a pre-training prior. These univariate predictors can be converted into multivariate ones autoregressively by sampling one target and adding it to the features.   However, the faithfulness of the resulting joint has not been investigated. Furthermore, TFMs cannot be evaluated against the posterior itself, at least not on real-world datasets, because the ground-truth distribution is unknown. We therefore propose asking a different question: could a model's predictions result from any joint distribution? To answer this question, we pose two requirements that any such model must satisfy. The first is marginalization consistency, which demands that marginalized conditionals are equal to directly predicted marginals. The second is factorization consistency, which demands that different factorization orders result in equal joint distributions. Every TFM that we evaluate violates both of these requirements for both classification and regression across all datasets.",
+    "authors": [
+      "Christian Kl\u00f6tergens",
+      "Vijaya Krishna Yalavarthi",
+      "Lars Schmidt-Thieme",
+      "Tom Hanika"
+    ],
+    "published": "2026-08-06T13:09:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Tabular Foundation Models (TFMs) are currently the best approach to tabular prediction problems. They are constructed as transformers that approximate the Bayesian posterior predictive distribution based on a pre-training prior. These univariate predictors can be converted into multivariate ones autoregressively by sampling one target and adding it to the features.   However, the faithfulness of\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:013b1e73a335ad3874b52075546c3e9f108480d6",
+    "title": "Causal discovery from observational and interventional data across multiple environments",
+    "url": "https://www.semanticscholar.org/paper/013b1e73a335ad3874b52075546c3e9f108480d6",
+    "summary": "A fundamental problem in many sciences is the learning of causal structure underlying a system, typically through observation and experimentation. Commonly, one even collects data across multiple domains, such as gene sequencing from different labs, or neural recordings from different species. Although there exist methods for learning the equivalence class of causal diagrams from observational and experimental data, they are meant to operate in a single domain. In this paper, we develop a fundamental approach to structure learning in non-Markovian systems (i.e. when there exist latent confounders) leveraging observational and interventional data collected from multiple domains. Specifically, we start by showing that learning from observational data in multiple domains is equivalent to learning from interventional data with unknown targets in a single domain. But there are also subtleties when considering observational and experimental data. Using causal invariances derived from do-calculus, we define a property called S-Markov that connects interventional distributions from multiple-domains to graphical criterion on a selection diagram. Leveraging the S-Markov property, we introduce a new constraint-based causal discovery algorithm, S-FCI, that can learn from observational and interventional data from different domains. We prove that the algorithm is sound and subsumes existing constraint-based causal discovery algorithms.",
+    "authors": [
+      "Adam Li",
+      "Amin Jaber",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 48,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "A fundamental problem in many sciences is the learning of causal structure underlying a system, typically through observation and experimentation. Commonly, one even collects data across multiple domains, such as gene sequencing from different labs, or neural recordings from different species. Although there exist methods for learning the equivalence class of causal diagrams from observational\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06020v1",
+    "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
+    "url": "http://arxiv.org/abs/2608.06020v1",
+    "summary": "Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling heterogeneous agents, their beliefs and actions, and the market and institutional mechanisms through which their interactions produce aggregate outcomes. This paper develops an implementation roadmap for building economic world models as generative engines in which heterogeneous agents act, interact, adapt, and co-evolve with markets and institutions, thereby producing economic dynamics from the inside. We organize EWM systems into a six-level capability ladder, from fixed rule-based agent worlds to adaptive and LLM-based agent worlds, self-evolving agents, evolving institutional worlds, and sim-to-real economic twins aligned with real observations. A systematic literature survey across these levels reveals that existing work remains concentrated in lower-level agent and simulation environments, while systems with self-evolving agents, endogenous institutions, persistent empirical alignment, and validated economic mechanisms remain rare. By translating the EWM agenda into an implementation blueprint, this paper aims to accelerate the development of the next generation of economic simulation environments that can serve as high-fidelity sandboxes for human decision-makers and as training, planning, evaluation, and safety substrates for AI agents. We release a curated paper list and related resources to support future research.",
+    "authors": [
+      "Jiale Han",
+      "Xiang Li",
+      "Jing Qian",
+      "Wenyuan Gu",
+      "Pin Gao",
+      "Ye Luo",
+      "Hongyuan Zha",
+      "Dacheng Tao",
+      "Benyou Wang",
+      "Lin William Cong"
+    ],
+    "published": "2026-08-06T13:26:46",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling heterogeneous agents, their beliefs and actions, and the market and institutional mechanisms through which their interactions produce aggregate outcomes. This paper develops an implementation roadmap for building economic world models as generative engines in which heterogeneous\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06291v1",
+    "title": "BaKron: Efficient Quantization with Kronecker-Factored Hessians",
+    "url": "http://arxiv.org/abs/2608.06291v1",
+    "summary": "We accelerate a family of algorithms for neural network quantization whose geometry is informed by any Kronecker-factored approximation of the Hessian. GPTQ-style adaptive rounding typically uses one-sided information derived from input activations. Two-sided Kronecker-factored Hessian approximations can additionally capture correlations across output coordinates, but applying GPTQ directly in the vectorized weight domain is computationally expensive. Building on the two-sided adaptive-rounding formulation used by BoA and YAQA, we introduce BaKron, an efficient solver that combines anti-diagonal parallelism with a recursive divide-and-conquer construction. For an $m\\times n$ weight matrix, BaKron uses $O(m+n)$ sequential steps while reducing the total work from $O(m^2n^2)$ to $O(mn(m+n))$. Thus, it matches the cubic scaling of GPTQ while exploiting richer curvature information. Moreover, BaKron is modular with respect to both the base quantizer and the Hessian estimator. We also provide practical benchmarks, consider a range of Hessians that BaKron can be called with, find an efficient technique to compute these Hessians, and evaluate the algorithm experimentally.",
+    "authors": [
+      "Johann Birnick",
+      "Rayan Saab"
+    ],
+    "published": "2026-08-06T17:15:37",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We accelerate a family of algorithms for neural network quantization whose geometry is informed by any Kronecker-factored approximation of the Hessian. GPTQ-style adaptive rounding typically uses one-sided information derived from input activations. Two-sided Kronecker-factored Hessian approximations can additionally capture correlations across output coordinates, but applying GPTQ directly in\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06264v1",
+    "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+    "url": "http://arxiv.org/abs/2608.06264v1",
+    "summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a technique widely regarded as a way to improve model training. It includes simple transformations like spatial operations or intensity modifications, but also more advanced synthesis techniques. Their goal is to generate new realistic samples from an existing dataset to diversify the images used during training. Among them, several propose different mixing strategies to combine real samples. However, one of their major shortcomings is to yield limited variability in terms of generated lesion shapes and locations. In this work, we introduce a novel image synthesis method, called OTLesMix, that leverages Wasserstein barycenter and optimal transport plan to generate realistic and diverse samples. We evaluated our method on three brain lesion segmentation tasks, on which it improves the Dice score compared to a model trained without synthetic data by 2.9 to 6.6 points, and outperforms state-of-the-art mix-based methods.",
+    "authors": [
+      "Robin Trombetta",
+      "Carole Lartizien"
+    ],
+    "published": "2026-08-06T16:54:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "The development of deep learning over the past decade has revolutionized medical imaging segmentation, allowing the extraction of precise descriptors from large volumes to characterize pathologies. Data augmentation is a technique widely regarded as a way to improve model training. It includes simple transformations like spatial operations or intensity modifications, but also more advanced\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06182v1",
+    "title": "On Same-Sample and Independent-Sample Stochastic Extragradient for Monotone Variational Inequalities",
+    "url": "http://arxiv.org/abs/2608.06182v1",
+    "summary": "We study stochastic extragradient (SEG) methods for solving monotone variational inequality problems (VIPs) over a feasible set. Although extragradient is a foundational algorithm for VIPs and its deterministic convergence theory is well developed, its stochastic counterpart remains less understood. Most existing analyses focus on independent-sample SEG (I-SEG) and assume either that the domain is compact or that the variance of the stochastic operator is uniformly bounded. The behavior of same-sample SEG (S-SEG), a natural variant with materially different properties, has received far less attention. In this work, we address these gaps in the literature. We first show that S-SEG is sensitive to samplewise Lipschitz parameters: mean Lipschitzness and bounded variance alone do not ensure convergence, even on a compact set. Then, for possibly unbounded domains, we establish a high-probability restricted-gap convergence for each SEG variant under a relaxed set of assumptions, and show that certain fundamental improvements to these results are impossible in general. Finally, we show that a known asymmetric double step-size selection that guarantees almost sure last-iterate convergence for I-SEG can fail for S-SEG: there exists a stochastic monotone VIP for which S-SEG diverges almost surely even under the modified step-sizes.",
+    "authors": [
+      "TaeHo Yoon",
+      "Nicolas Loizou"
+    ],
+    "published": "2026-08-06T15:42:40",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "math.OC"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We study stochastic extragradient (SEG) methods for solving monotone variational inequality problems (VIPs) over a feasible set. Although extragradient is a foundational algorithm for VIPs and its deterministic convergence theory is well developed, its stochastic counterpart remains less understood. Most existing analyses focus on independent-sample SEG (I-SEG) and assume either that the domain\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06107v1",
+    "title": "Kastor: An efficient fine-tuning strategy for generative emulation of PDE simulations",
+    "url": "http://arxiv.org/abs/2608.06107v1",
+    "summary": "Machine learning offers a promising avenue to accelerate physical simulations by replacing computationally expensive traditional Partial Differential Equation (PDE) solvers with fast, differentiable surrogate models. However, standard auto-regressive ML emulators often suffer from error accumulation over long horizons and struggle to capture the stochasticity of complex physical systems. In this paper, we propose Kastor, a comprehensive methodology to adapt a deterministic physics foundation model into a highly efficient and accurate generative surrogate. First, we introduce a two-stage inference scheme that combines a large-stride causal auto-regressive model with a non-causal temporal super-resolution network, significantly reducing error accumulation while minimizing computational cost. Second, we present Mean prediction regularization (MPR), a novel training objective that constrains the generative model to predict the deterministic distribution mean under null noise conditioning. This regularization dramatically improves the performance and stability of both Functional Generative Networks (FGN) and diffusion-based emulators. Finally, we demonstrate that incorporating spatial gradient matching improves the accuracy and physical fidelity of the simulations as measured by power spectrum density. Extensive evaluations on diverse simulation datasets of the benchmark The Well show that with these components, our model outperforms competing methods in forecasting accuracy, spectral consistency, and computational efficiency. Our model achieves a 42.9% average reduction in forecasting compared to our reference based on the Walrus finetuning methodology, and outperforms Walrus for 8 out of 10 datasets on variance-normalized RMSE (VRMSE).",
+    "authors": [
+      "Guillaume Couairon",
+      "Alexis Jacq",
+      "Yu-Han Wu",
+      "Renu Singh",
+      "Yana Hasson",
+      "Quentin Berthet",
+      "Romuald Elie"
+    ],
+    "published": "2026-08-06T14:41:11",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Machine learning offers a promising avenue to accelerate physical simulations by replacing computationally expensive traditional Partial Differential Equation (PDE) solvers with fast, differentiable surrogate models. However, standard auto-regressive ML emulators often suffer from error accumulation over long horizons and struggle to capture the stochasticity of complex physical systems. In this\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06105v1",
+    "title": "Does Latent Context Help? A Controlled Evaluation of Inverse Reinforcement Learning in Arctic Shipping",
+    "url": "http://arxiv.org/abs/2608.06105v1",
+    "summary": "Artificial Intelligence (AI)-assisted navigation can help Arctic shipping adapt to rapidly changing sea-ice conditions, but reliable deployment requires reward models that are interpretable and robust to changing environments. Inverse reinforcement learning (IRL) provides a framework for recovering such rewards from vessel trajectories, while recent meta-IRL methods introduce latent context variables to capture behavioral heterogeneity. However, it remains unclear whether these latent representations recover genuinely hidden preferences or simply re-encode information already available in the observed state. We conduct a controlled evaluation on 3,186 AIS-derived voyages from 202 vessels across nine Arctic shipping seasons, comparing a linear shared reward, a nonlinear shared reward, and a latent-context model built on the same nonlinear architecture. The nonlinear reward improves held-out likelihood by 50.9% over the linear baseline, whereas adding vessel-specific latent context reduces performance by 16.5%. Behavioral analysis, context probes, and a pre-registered feature-hiding ablation show that apparent vessel-level variation is largely explained by observable route and environmental conditions rather than hidden vessel-specific factors. Moreover, predictive accuracy, route fidelity, and reward transfer yield different model rankings, demonstrating that no single metric is sufficient to evaluate learned rewards. These findings motivate testing whether the observed route, environmental, and vessel features already explain behavioral variation before adding per-vessel latent context. This supports more trustworthy AI deployment in safety-critical domains.",
+    "authors": [
+      "Vaishnav Vaidheeswaran",
+      "Dilith Jayakody",
+      "Biruk Ambaw",
+      "Jaswanth Kumar",
+      "Md Mahbub Alam",
+      "Gabriel Spadon"
+    ],
+    "published": "2026-08-06T14:39:55",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Artificial Intelligence (AI)-assisted navigation can help Arctic shipping adapt to rapidly changing sea-ice conditions, but reliable deployment requires reward models that are interpretable and robust to changing environments. Inverse reinforcement learning (IRL) provides a framework for recovering such rewards from vessel trajectories, while recent meta-IRL methods introduce latent context\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.06037v1",
+    "title": "Integrating Implicit and Explicit Relational Biases through Graph-Based Multiple Instance Learning: A Case Study in Skin Lesion Diagnosis",
+    "url": "http://arxiv.org/abs/2608.06037v1",
+    "summary": "Relational inductive biases are essential for capturing structural dependencies among data. This study investigates a dual-level relational framework for image classification, bridging the gap between implicit representation learning and explicit structural modelling. We begin by establishing a baseline using an EfficientNetB3 architecture. To move beyond standard convolutional biases, we adopt a patch-based strategy, employing a convolutional masked autoencoder to learn implicit inter-patch relationships through self-supervised reconstruction. We then extend this approach by incorporating explicit relational modelling, organizing the learned embeddings into various graph topologies, including grid-based, random, and k-nearest neighbour structures. Experimental results on the ISIC-2018 and ISIC-2019 skin lesion diagnosis benchmarks show that combining implicit inter-patch modelling with explicit graph-based message passing yields the best performance. On the ISIC-2018 test set, the baseline model achieves a balanced accuracy of 76.17%, which improves to 77.12% with implicit patch-based relational modelling. The fully integrated grid-structured Graph Attention Network further increases performance to 79.27%. Similarly, on ISIC-2019, the implicit approach reaches 59.84% balanced accuracy, while the combination of implicit and explicit modelling yields 60.67%.",
+    "authors": [
+      "Rafa\u0142 Buler",
+      "Jakub Buler",
+      "Maciej Bobowicz",
+      "Micha\u0142 Grochowski"
+    ],
+    "published": "2026-08-06T13:47:18",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Relational inductive biases are essential for capturing structural dependencies among data. This study investigates a dual-level relational framework for image classification, bridging the gap between implicit representation learning and explicit structural modelling. We begin by establishing a baseline using an EfficientNetB3 architecture. To move beyond standard convolutional biases, we adopt a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.06171v1",
+    "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+    "url": "http://arxiv.org/abs/2608.06171v1",
+    "summary": "Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and WebArena and ask what choosing per task would buy. The modes are complementary: each solves tasks the others miss, they fail in structurally different ways, and the best choice reverses between task sets. The obvious prize, an oracle that picks a winning mode for every task, looks large but is inflated by run-to-run noise: rerunning the same mode on the same tasks changes 12-14% of outcomes, so a second run of a mode already in hand gains about as much as adding a new one. What survives is a cost bound: sending only the tasks no mode solves to the cheapest mode cuts cost by 9.5-30.6% in 8 of 8 cells at unchanged success. We then test five routing policies (picking the mode, deciding when to spend on the strong mode, a zero-cost rule read off the task text, a confidence cascade, and pooled cost tiers), and none robustly beats simply fixing one well-chosen mode; the one exception is a fragile result in our sparsest cell. The central obstruction is that routing supervision is produced at the agent's success rate: the weaker the agent, the fewer labels a router gets, exactly where routing would be most valuable. This limit belongs to today's agents rather than to routing itself. Label supply and routing opportunity rise together (correlation 0.95 across cells), so a stronger agent can overturn the result, and we report the rerun noise bands and the full measurement protocol.",
+    "authors": [
+      "Jiaming Wei",
+      "Zekun Wu",
+      "Adriano Koshiyama",
+      "Maria Perez-Ortiz"
+    ],
+    "published": "2026-08-06T15:37:04",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and WebArena and ask what choosing per task would buy. The modes are complementary: each solves tasks the others miss, they fail in structurally different ways, and the best choice reverses\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.06167v1",
+    "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
+    "url": "http://arxiv.org/abs/2608.06167v1",
+    "summary": "We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a gold standard. The schema, serving as an information model encoding domain knowledge, provides a unified, systematic, and consistent framework for extraction of hierarchical, nested information, with attributes of variable cardinality, and subsequent evaluation of the results. Information extraction from a document is performed in a single call to the model, in zero-shot mode.   In the evaluation step, we introduce a path-based semantic matching algorithm to align the nested, variable-cardinality attributes in the extracted results with those in the gold standard. We use generative AI for semantic comparison of the extracted and gold standard values of an attribute, and introduce a rubric to classify the result of the comparison, according to domain-specific considerations, as an exact, semantic, useful, or non-match.   We were able to extract 12 out of 14 attributes with an F1 score of $>$90\\% from documents published by the health technology assessment organisation NICE, using the generative AI model Claude Opus 3. The time needed to extract the attributes from a document was $\\sim$30 times lower than the time taken by a human domain expert. We further demonstrate generalisability of this framework across different generative AI models and transferability across different HTA organisations and languages.",
+    "authors": [
+      "Modhurita Mitra",
+      "Jan-Willem Versteeg",
+      "Maarten D. Schermer",
+      "Shiva Nadi Najafabadi",
+      "Marie L. De Bruin",
+      "Lourens T. Bloem"
+    ],
+    "published": "2026-08-06T15:33:30",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a gold standard. The schema, serving as an information model encoding domain knowledge, provides a unified, systematic, and consistent framework for extraction of hierarchical, nested\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:adcf035b8aed1a23ba4d85cd18c5eec5b080df83",
+    "title": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning",
+    "url": "https://www.semanticscholar.org/paper/adcf035b8aed1a23ba4d85cd18c5eec5b080df83",
+    "summary": "",
+    "authors": [
+      "Drago Ple\u010dko",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Found. Trends Mach. Learn.",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:ZhenyuanPAN822/macrotrace",
+    "title": "ZhenyuanPAN822/macrotrace \u2014 White-box US macro research compiler: questions to real-data models, diagnostics, evidence graph, and auditable conclusions.",
+    "url": "https://github.com/ZhenyuanPAN822/macrotrace",
+    "summary": "White-box US macro research compiler: questions to real-data models, diagnostics, evidence graph, and auditable conclusions.",
+    "authors": [],
+    "published": "2026-07-16T15:36:40Z",
+    "extras": {
+      "stars": 7,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "White-box US macro research compiler: questions to real-data models, diagnostics, evidence graph, and auditable conclusions."
+  }
+]

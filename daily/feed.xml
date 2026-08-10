@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-10</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-10/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-10/</guid>
+      <pubDate>Mon, 10 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Learning Latent Memory States from Longitudinal Athlete Monitoring Data — Uplift / HTE · score 60 · arXiv stat.ML · Dae-Jin Lee
+2. Surv-IPTB: An Attention-Based Model for Estimating Individual Probability of Treatment Benefit with Survival Data — Uplift / HTE · score 56 · arXiv stat.ML · Lev V. Utkin, Stanislav K. Kogan, Andrei V. Konstantinov
+3. TS-RAG: Retrieval Augmented Generation for Time Series Forecasting — Causal LMs · score 56 · arXiv cs.LG · Yixiong Xiao, Congxi Xiao, Jingbo Zhou
+4. NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering — Causal LMs · score 56 · arXiv cs.CL · Jonas Gann, Michael Gertz
+5. Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts — Causal LMs · score 56 · arXiv cs.CL · Massi-Nissa Abboud, Aladin Djuhera, Elena Cabrio, Holger Boche</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-06</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-06/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-06/</guid>
@@ -209,13 +220,6 @@
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-29/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-29/</guid>
       <pubDate>Mon, 29 Jun 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-28</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-28/</guid>
-      <pubDate>Sun, 28 Jun 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
     </item>
   </channel>
