@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-12</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-12/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-12/</guid>
+      <pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Conditional Independence Tests for Constraint-Based Causal Discovery: A Survey — Causal Inference · score 52 · arXiv stat.ML · Pavel Averin, Theodoros Moysiadis, Ioannis Katakis
+2. Self-Normalized Inference for Constant-Stepsize Temporal-Difference Learning under Markovian Sampling — Causal LMs · score 52 · arXiv stat.ML · Min Zeng, Yichen Zhang, Xiaofeng Shao
+3. Finite-sample correction for the covariate-adjusted log-rank test — Experimentation · score 52 · arXiv stat.ME · Pavla Krotka, Dominic Magirr
+4. Scheduling Mixed RL Rollouts Beyond Prefix Locality — Causal LMs · score 52 · arXiv cs.LG · Zetao Hong, Song Yuan, Yuanhao Ding, Yibo Zhu et al. (7 authors)
+5. The Illusion of Cross-Lingual Safety in Low-Resource Languages — Causal LMs · score 52 · arXiv cs.CL · Abigail Oppong, P Sam Sahil, Tadesse Destaw Belay, Maryam Ibrahim Mukhtar et al. (15 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-11</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-11/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-11/</guid>
@@ -214,17 +225,6 @@
 3. When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors — Causal LMs · score 56 · arXiv cs.CL · Yuqing Yang, Qi Zhu, Zhen Han, Boran Han et al. (8 authors)
 4. Random Reshuffling Dominates Stochastic Gradient Descent — Uplift / HTE · score 52 · arXiv stat.ML · Zijian Liu
 5. Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision — Causal LMs · score 52 · arXiv cs.LG · Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-06-30</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-06-30/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-06-30/</guid>
-      <pubDate>Tue, 30 Jun 2026 13:00:00 +0000</pubDate>
-      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
-2. Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models — Uplift / HTE · score 56 · arXiv stat.ML · Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary
-3. Towards Continual Motion-Language Agents: LoRA Variants for Incremental Motion Understanding and Generation — Causal LMs · score 56 · arXiv cs.LG · Bertram Taetz, Hugo Albuquerque Cosme da Silva, Gabriele Bleser-Taetz
-4. A Stochastic--Geometric Theory of Scaling Laws in Grokking — Uplift / HTE · score 52 · arXiv stat.ML · Róisín Luo, Christian Gagné, Jonas Ngnawé, Ihsan Ullah et al. (5 authors)
-5. Experience Augmented Policy Optimization for LLM Reasoning — Causal LMs · score 52 · arXiv cs.LG · Jinda Lu, Kexin Huang, Junkang Wu, Shuo Yang et al. (10 authors)</description>
     </item>
   </channel>
 </rss>
