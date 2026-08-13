@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-13</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-13/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-13/</guid>
+      <pubDate>Thu, 13 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. pymc-labs/CausalPy 0.9.0 — Causal Inference · score 59 · pymc-labs/CausalPy releases
+2. Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge — Causal LMs · score 52 · arXiv cs.CL · Arda Uzunoglu, Benjamin van Durme, Daniel Khashabi
+3. SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges — Uplift / HTE · score 52 · arXiv cs.CL · Yuchao Wu, Junqin Li, XingCheng Liang, Yongjie Chen et al. (7 authors)
+4. Faithful, Sufficient and Understandable: Rethinking Graph Counterfactual Explanations via Discrete Diffusion Inversion — Uplift / HTE · score 48 · arXiv cs.LG · David Bechtoldt, Sidney Bender
+5. Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and… — Causal LMs · score 48 · arXiv cs.CL · Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-12</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-12/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-12/</guid>
@@ -214,17 +225,6 @@
 3. Inference for Group Interaction Experiments — Experimentation · score 64 · arXiv stat.ME · Jiawei Fu, Cyrus Samii, Ye Wang
 4. An Instrumental Variable Approach to Account for Informative Treatment Switching in Real-world Evidence — Causal Inference · score 64 · arXiv stat.ME · Yang Liu, Andrew Ying, Zongqi Xia, Jue Hou
 5. Sensitivity Analysis and Optimization of Stochastic Epidemic Models under Parameter Uncertainty — Uplift / HTE · score 60 · arXiv stat.ME · Nicholas R. Wu, Michael C. Fu</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-01</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-01/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-01/</guid>
-      <pubDate>Wed, 01 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. A Conformal Selection Framework for Individual Treatment Beneficiaries with Auxiliary External Data — Uplift / HTE · score 64 · arXiv stat.ME · Jiajun Liu, Ke Zhu, Xiaofei Wang
-2. Signed-Permutation Coordinate Transport for RMSNorm Transformers — Causal LMs · score 56 · arXiv stat.ML · John Sweeney
-3. When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors — Causal LMs · score 56 · arXiv cs.CL · Yuqing Yang, Qi Zhu, Zhen Han, Boran Han et al. (8 authors)
-4. Random Reshuffling Dominates Stochastic Gradient Descent — Uplift / HTE · score 52 · arXiv stat.ML · Zijian Liu
-5. Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision — Causal LMs · score 52 · arXiv cs.LG · Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li</description>
     </item>
   </channel>
 </rss>
