@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W33</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W33/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W33/</guid>
+      <pubDate>Fri, 14 Aug 2026 22:00:00 +0000</pubDate>
+      <description>1. Chance-constrained selection of sequential intervention strategies from counterfactual estimates — Uplift / HTE · score 64 · arXiv stat.ML · Minkyoung Kim, Beakcheol Jang
+2. Bias-robust causal inference for panel data — Causal Inference · score 64 · arXiv stat.ME · Angelos Alexopoulos
+3. Local conformal prediction for individual causal effects — Uplift / HTE · score 64 · arXiv stat.ME · Fernando Delbianco, Fernando Tohmé
+4. When Can LLMs Replace Humans in A/B Tests? — Causal LMs · score 61 · Spotify R&amp;D
+5. Learning about Treatment Effects in Panels under Unknown Interference — Uplift / HTE · score 60 · arXiv econ.EM · Shengbin Wei</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W32</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W32/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W32/</guid>
