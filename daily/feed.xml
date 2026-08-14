@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-14</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-14/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-14/</guid>
+      <pubDate>Fri, 14 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Chance-constrained selection of sequential intervention strategies from counterfactual estimates — Uplift / HTE · score 64 · arXiv stat.ML · Minkyoung Kim, Beakcheol Jang
+2. When Can LLMs Replace Humans in A/B Tests? — Causal LMs · score 61 · Spotify R&amp;D
+3. Learning about Treatment Effects in Panels under Unknown Interference — Uplift / HTE · score 60 · arXiv econ.EM · Shengbin Wei
+4. Defensive Boosting for Online Probabilistic Forecasting — Uplift / HTE · score 56 · arXiv stat.ML · Georgy Noarov, Aaron Roth
+5. Causal Mediation Analysis for Network Data with Graph Neural Network — Uplift / HTE · score 56 · arXiv stat.ME · Peikai Wu, Zhiguo Xiao</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-13</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-13/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-13/</guid>
@@ -214,17 +225,6 @@
 3. Equivalence testing in pesticide risk assessment -- Evaluation and practical guidance for design, analysis and interpretation — Uplift / HTE · score 56 · arXiv stat.ME · Dimitry Wintermantel, Julia Osterman, Magdalena M. Mair, Florian Hartig
 4. Adjusting for Outcome Reporting Bias in Meta-analysis: A Multiple Imputation Approach — Uplift / HTE · score 56 · arXiv stat.ME · Cora Burgwinkel, Saverio Fontana, Leonhard Held
 5. Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning — Causal LMs · score 52 · arXiv cs.LG · Zhenyu Hou, Yujiang Li, Jie Tang, Yuxiao Dong</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-06</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-06/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-06/</guid>
-      <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. A More Accurate Algorithm Comparison through A/B Testing using Offline Evaluation Methods — Experimentation · score 94 · arXiv cs.LG · Koki Konishi, Masataka Ushiku, Yuta Saito
-2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
-3. Inference for Group Interaction Experiments — Experimentation · score 64 · arXiv stat.ME · Jiawei Fu, Cyrus Samii, Ye Wang
-4. An Instrumental Variable Approach to Account for Informative Treatment Switching in Real-world Evidence — Causal Inference · score 64 · arXiv stat.ME · Yang Liu, Andrew Ying, Zongqi Xia, Jue Hou
-5. Sensitivity Analysis and Optimization of Stochastic Epidemic Models under Parameter Uncertainty — Uplift / HTE · score 60 · arXiv stat.ME · Nicholas R. Wu, Michael C. Fu</description>
     </item>
   </channel>
 </rss>
