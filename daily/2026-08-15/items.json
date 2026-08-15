@@ -1,0 +1,104 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "title": "Experimental Design for Learning Causal Graphs with Latent Variables",
+    "url": "https://www.semanticscholar.org/paper/12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "summary": "",
+    "authors": [
+      "Murat Kocaoglu",
+      "Karthikeyan Shanmugam",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Experimental Design for Learning Causal Graphs with Latent Variables"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:7fd5e4347783caedf5ac1756f34d4db1b9556cc1",
+    "title": "Characterization and Learning of Causal Graphs with Latent Variables from Soft Interventions",
+    "url": "https://www.semanticscholar.org/paper/7fd5e4347783caedf5ac1756f34d4db1b9556cc1",
+    "summary": "",
+    "authors": [
+      "Murat Kocaoglu",
+      "Amin Jaber",
+      "Karthikeyan Shanmugam",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Characterization and Learning of Causal Graphs with Latent Variables from Soft Interventions"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:likhechman/sargwr",
+    "title": "likhechman/sargwr \u2014 Spatial Autoregressive Geographically Weighted Regression (SARGWR) implemented in Python.",
+    "url": "https://github.com/likhechman/sargwr",
+    "summary": "Spatial Autoregressive Geographically Weighted Regression (SARGWR) implemented in Python.",
+    "authors": [],
+    "published": "2026-07-29T16:07:50Z",
+    "extras": {
+      "stars": 3,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 34,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Spatial Autoregressive Geographically Weighted Regression (SARGWR) implemented in Python."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:hanlulong/econ-auto-research",
+    "title": "hanlulong/econ-auto-research \u2014 Vision: an economist-directed AI system that takes an economics research question from idea to working paper \u2014 identification judgment, adversarial self-refereeing, and total number provenance. Star if you want this to exist; open an issue with the feature you'd want first.",
+    "url": "https://github.com/hanlulong/econ-auto-research",
+    "summary": "Vision: an economist-directed AI system that takes an economics research question from idea to working paper \u2014 identification judgment, adversarial self-refereeing, and total number provenance. Star if you want this to exist; open an issue with the feature you'd want first.",
+    "authors": [],
+    "published": "2026-07-16T03:05:57Z",
+    "extras": {
+      "stars": 16,
+      "language": null,
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Vision: an economist-directed AI system that takes an economics research question from idea to working paper \u2014 identification judgment, adversarial self-refereeing, and total number provenance. Star if you want this to exist; open an issue with the feature you'd want first."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:cacoleman16/tsecon",
+    "title": "cacoleman16/tsecon \u2014 High-performance time series econometrics: Rust core, Python-first API \u2014 validated estimators, a 15-chapter guide, and honest inference by default",
+    "url": "https://github.com/cacoleman16/tsecon",
+    "summary": "High-performance time series econometrics: Rust core, Python-first API \u2014 validated estimators, a 15-chapter guide, and honest inference by default",
+    "authors": [],
+    "published": "2026-08-14T02:44:30Z",
+    "extras": {
+      "stars": 83,
+      "language": "Rust",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "High-performance time series econometrics: Rust core, Python-first API \u2014 validated estimators, a 15-chapter guide, and honest inference by default"
+  }
+]
