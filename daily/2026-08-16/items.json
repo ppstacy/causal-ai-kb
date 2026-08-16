@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:rodrigorissettoterra/ai-model-studies",
+    "title": "rodrigorissettoterra/ai-model-studies \u2014 Experiments and studies on Machine Learning, Deep Learning and Generative AI models.",
+    "url": "https://github.com/rodrigorissettoterra/ai-model-studies",
+    "summary": "Experiments and studies on Machine Learning, Deep Learning and Generative AI models.",
+    "authors": [],
+    "published": "2026-08-16T08:49:48Z",
+    "extras": {
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Experiments and studies on Machine Learning, Deep Learning and Generative AI models."
+  }
+]
