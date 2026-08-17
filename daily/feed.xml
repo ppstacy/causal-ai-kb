@@ -6,6 +6,14 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-17</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-17/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-17/</guid>
+      <pubDate>Mon, 17 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
+2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-16</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-16/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-16/</guid>
@@ -210,17 +218,6 @@
 3. Rubin Causal Model — Other · score 40 · Semantic Scholar: Guido Imbens causal · G. Imbens, D. Rubin
 4. Causal Imitation for Markov Decision Processes: a Partial Identification Approach — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, E. Bareinboim
 5. On Measuring Causal Contributions via do-interventions — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, S. Kasiviswanathan, Jin Tian, D. Janzing et al. (6 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-11</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-11/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-11/</guid>
-      <pubDate>Sat, 11 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. py-why/causal-learn 0.1.4.8 — causal-learn 0.1.4.8 — Other · score 55 · py-why/causal-learn releases
-2. getrecast/geolift-simulation-study — Testing open source geo-experimentation tools for our readers — Experimentation · score 38 · GitHub topic:causal-inference
-3. csmar432/finai-research — End-to-end AI workflow for economic &amp; finance research: 43 MCP data sources, 47 econometric methods… — Causal LMs · score 34 · GitHub topic:causal-inference
-4. brycewang-stanford/Paper-WorkFlow — 经管/社科实证论文 · 从一句话 idea 到可投稿全文的 AI 全流程总编排器 — an end-to-end meta-orchestrator that turns a… — Other · score 30 · GitHub topic:causal-inference
-5. noumenal-ai/causal-worlds — Generate fictional-but-coherent causal operations worlds (executable sim + time-series + ground-truth… — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
