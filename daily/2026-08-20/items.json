@@ -1,0 +1,776 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16643v1",
+    "title": "Toward Better Assessment of LLMs' Performance in Clinical Error Detection",
+    "url": "http://arxiv.org/abs/2608.16643v1",
+    "summary": "Automated detection of errors in clinical documentation is a promising application of large language models (LLMs), yet decisions to deploy such models rest on benchmarks that evaluate each clinical note in isolation. Error-detection benchmarks are typically constructed by injecting errors into notes, such that each erroneous note has a natural counterpart. Aggregate discriminative metrics (e.g., balanced accuracy or F1) do not exploit this structure. We show that this omission is consequential. In particular, evaluating 15 diverse LLMs on 4 standardized clinical error-detection test sets across 3 languages, we find that 13 of 15 models fall below the level of random pairwise discrimination, even while achieving F1 scores that standard practice would read as moderate. We also observe that the underlying bias patterns differ across languages: the same model can default to \"no error\" on one language and over-flag errors on another. To diagnose where discrimination breaks down, we further introduce a procedure to score the evidence models cite in their outputs. We find that while models consistently locate error-relevant content, they fail to produce the corresponding correct verdict on the clean counterpart. Finally, we show that F1 and pairwise accuracy are driven in opposite directions by the same underlying bias, so that ranking models by F1 may systematically promote the weakest discriminators. For safety-critical clinical NLP applications, we advocate for supplementing aggregate metrics with paired evaluations in benchmark reporting. Code and analysis scripts are available at https://github.com/healthylaife/paired-clinical-eval.",
+    "authors": [
+      "Yifan Zhang",
+      "Rahmatollah Beheshti"
+    ],
+    "published": "2026-08-17T14:41:53",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Automated detection of errors in clinical documentation is a promising application of large language models (LLMs), yet decisions to deploy such models rest on benchmarks that evaluate each clinical note in isolation. Error-detection benchmarks are typically constructed by injecting errors into notes, such that each erroneous note has a natural counterpart. Aggregate discriminative metrics (e.g.,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.16819v1",
+    "title": "Pattern-Based Sequential Multiple Imputation for Missing Data in Clinical Trials: An Extension for Baseline-Only Early Dropout Subjects",
+    "url": "http://arxiv.org/abs/2608.16819v1",
+    "summary": "Under the ICH E9 (R1) addendum, treatment policy strategies for intercurrent events target the treatment effect regardless of treatment discontinuation. Sequential multiple imputation (MI) models that condition each visit's imputation on discontinuation status or pattern reduce bias relative to mixed models and standard MI, but require every subject to contribute at least one post-baseline observation, an assumption violated by subjects who withdraw before any post-baseline assessment, a baseline-only early dropout pattern common in chronic-disease trials. We propose Extended Pattern-based Sequential Multiple Imputation (EPSMI), which reconstructs missing data for baseline-only early dropouts using covariate-matched, same-arm donors before applying an extended discontinuation-pattern indicator within eight sequential MI models. Two strategies were evaluated: EPSMI-Full, imputing the entire post-baseline trajectory from a donor, and EPSMI-Y1, imputing only the first visit and leaving later visits to the pattern-extended MI engine. A simulation study grounded in published Sjogren's syndrome trials evaluated bias, coverage, precision, power, and Type I error across 24 scenarios, comparing EPSMI against MMRM, standard MI, and sequential MI after excluding early dropouts (No Early). Under random early dropout, both EPSMI strategies reduced bias relative to No Early. Under informative early dropout the strategies diverged: EPSMI-Y1 remained robust, matching or exceeding No Early coverage with only mild Type I error inflation, whereas EPSMI-Full's deterministic reconstruction produced larger bias, narrower intervals from underestimated variance, lower coverage, and clear Type I error inflation. EPSMI-Y1 is recommended as the primary analysis strategy for baseline-only early dropout, keeping estimation faithful to the treatment policy estimand over the full randomized population.",
+    "authors": [
+      "Chen Zhang",
+      "Junyu Nie",
+      "Kexuan Li",
+      "Ning Ding"
+    ],
+    "published": "2026-08-17T17:07:11",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Under the ICH E9 (R1) addendum, treatment policy strategies for intercurrent events target the treatment effect regardless of treatment discontinuation. Sequential multiple imputation (MI) models that condition each visit's imputation on discontinuation status or pattern reduce bias relative to mixed models and standard MI, but require every subject to contribute at least one post-baseline\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.16688v1",
+    "title": "NP-LEAP: Nonparametric Latent Exchangeability Prior for Model-Lean Borrowing from Historical Data",
+    "url": "http://arxiv.org/abs/2608.16688v1",
+    "summary": "Bayesian dynamic borrowing (BDB) methods leverage historical data to reduce treatment effect uncertainty, yet existing approaches rely on parametric outcome models susceptible to misspecification. We propose the nonparametric latent exchangeability prior (NP-LEAP), an outcome-agnostic, assumption-lean framework to borrow information from historical data. The NP-LEAP performs individual-level exchangeability assessment, inducing Bayesian model averaging over all possible partitions of the historical data into exchangeable and nonexchangeable subsets. Although applicable to a variety of data types with choice of appropriate kernel, the NP-LEAP is particularly well-suited for studies with time-to-event outcomes, where parametric BDB is potentially triply misspecified - imposing a parametric baseline hazard, the proportional hazards structure, and blanket exchangeability. We establish posterior consistency under mild regularity conditions. Simulation studies demonstrate favorable operating characteristics relative to parametric borrowing methods and nonborrowing semiparametric frequentist methods. We illustrate the method by augmenting the control arm in a randomized trial of patients with non-small cell lung cancer.",
+    "authors": [
+      "Ethan M. Alt",
+      "Miheer Dewaskar",
+      "Jacob M. Maronge",
+      "Yuelin Lu",
+      "Matthew A. Psioda"
+    ],
+    "published": "2026-08-17T15:09:02",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Bayesian dynamic borrowing (BDB) methods leverage historical data to reduce treatment effect uncertainty, yet existing approaches rely on parametric outcome models susceptible to misspecification. We propose the nonparametric latent exchangeability prior (NP-LEAP), an outcome-agnostic, assumption-lean framework to borrow information from historical data. The NP-LEAP performs individual-level\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.16573v1",
+    "title": "Bessel-Debiased Pseudo-Marginal MCMC for Generalised Bayesian Inference",
+    "url": "http://arxiv.org/abs/2608.16573v1",
+    "summary": "Generalized Bayesian inference uses weights of the form $\\exp\\{-\u03b2_n\\ell_{n}(\u03b8)\\}$, even when the loss is available only through simulation, numerical integration, or subsampling. Exponentiating an unbiased loss estimate changes the target, and when $\u03b2_n\\asymp n$ an ordinary Monte Carlo (MC) loss estimate with $M^{-1}$ variance needs a per-proposal budget of order $n^2$ to keep the leading log-weight variance bounded. We introduce the Sign-Corrected Bessel Debiasing (SCBD) algorithm, a signed pseudo-marginal method based on $K$ independent block estimates of the loss, and study its independently randomized Randomised Quasi-Monte-Carlo (RQMC) implementation. Under an iid Gaussian block model, a Bessel factor constructed from the block sample variance exactly removes the Gaussian exponential bias. For general finite MC or RQMC blocks, signed averages instead target a density proportional to $\u03c0_n(\u03b8)w_M(\u03b8)$, where $w_M$ is the finite-block target factor remaining after the signed correction; its posterior variation is assessed separately from sign efficiency. If an RQMC block estimator, based on $d$-dimensional randomized inputs, has variance $O\\{B^{-\u03b1}(\\log B)^{d-1}\\}$, a sufficient budget for bounded leading log-weight variance has order $n^{2/\u03b1}$, up to logarithmic factors. We give a finite-block total-variation bound on the approximation and show the separate improvements from the debiasing correction and RQMC. The numerical examples show that, when the RQMC representation is favorable, the selected budget for stabilizing the estimated log weight can inherit this order, and that the Bessel correction can matter even when the RQMC variance rate is close to that of ordinary Monte Carlo.",
+    "authors": [
+      "Yingkai Lu",
+      "Jeong Eun Lee",
+      "Geoff K. Nicholls"
+    ],
+    "published": "2026-08-17T13:36:50",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.CO"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Generalized Bayesian inference uses weights of the form $\\exp\\{-\u03b2_n\\ell_{n}(\u03b8)\\}$, even when the loss is available only through simulation, numerical integration, or subsampling. Exponentiating an unbiased loss estimate changes the target, and when $\u03b2_n\\asymp n$ an ordinary Monte Carlo (MC) loss estimate with $M^{-1}$ variance needs a per-proposal budget of order $n^2$ to keep the leading\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.16529v1",
+    "title": "Randomization inference for treatment effects on survival outcomes",
+    "url": "http://arxiv.org/abs/2608.16529v1",
+    "summary": "The log-rank test and Kaplan--Meier plot are standard tools for analyzing time-to-event data in randomized clinical trials, yet neither provides a summary of the magnitude of the treatment effect. Practitioners typically fill this gap by reporting a hazard ratio from a Cox proportional-hazards model or an acceleration factor from an accelerated failure time (AFT) model, but both require assumptions beyond those needed for the log-rank test or Kaplan--Meier estimator. We propose two nonparametric confidence intervals for scalar effect-size summaries, an additive shift c and a multiplicative factor $\u03c1$, obtained by inverting the log-rank test under sharp null hypotheses of constant treatment effects. Building on the randomization-inference framework of Li and Small (2023), both intervals are valid under the randomization distribution alone, requiring no assumptions for the event-time distribution. We evaluate the proposed multiplicative interval via simulation, finding that it maintains nominal coverage across a range of censoring rates and sample sizes, including under data-generating processes that misspecify a parametric AFT model, while incurring only a modest efficiency loss compared to parametric AFT inference under correct specification. We illustrate the approach using data from a randomized trial of rhDNase for cystic fibrosis and provide R code and a Shiny application for ease of implementation.",
+    "authors": [
+      "Lucy D'Agostino McGowan",
+      "Joseph Rigdon",
+      "Xinran Li",
+      "Dylan Small"
+    ],
+    "published": "2026-08-17T13:08:08",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "The log-rank test and Kaplan--Meier plot are standard tools for analyzing time-to-event data in randomized clinical trials, yet neither provides a summary of the magnitude of the treatment effect. Practitioners typically fill this gap by reporting a hazard ratio from a Cox proportional-hazards model or an acceleration factor from an accelerated failure time (AFT) model, but both require\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2608.16867v1",
+    "title": "Trading Scope for Credibility in Difference-in-Differences",
+    "url": "http://arxiv.org/abs/2608.16867v1",
+    "summary": "When parallel trends fails for some treated cohorts but not others, the average treatment effect on the treated (ATT), an average over all of them, is exactly the target that becomes hard to recover. We propose changing the estimand rather than defending it. The credible-subpopulation local ATT (LATT) is the effect for the subpopulation of cohorts whose parallel trends is credible, and it is point-identified under parallel trends for the selected cohorts alone, a weaker requirement that can hold when the ATT's fails. It is estimated by reweighting standard group-time effects toward those cohorts, and paired with honest sensitivity bounds on the residual violation that a pre-trend screen cannot rule out. The method's advantage grows with how informative pre-trends are about post-treatment violations, as simulations confirm. In an application, a significantly positive pooled estimate of the shale boom's effect on local house prices proves to rest on cohorts already trending before onset, and the credible subpopulation reveals no effect.",
+    "authors": [
+      "Parush Arora",
+      "Abhishek Chand"
+    ],
+    "published": "2026-08-17T17:48:45",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 56,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "When parallel trends fails for some treated cohorts but not others, the average treatment effect on the treated (ATT), an average over all of them, is exactly the target that becomes hard to recover. We propose changing the estimand rather than defending it. The credible-subpopulation local ATT (LATT) is the effect for the subpopulation of cohorts whose parallel trends is credible, and it is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16747v1",
+    "title": "Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments",
+    "url": "http://arxiv.org/abs/2608.16747v1",
+    "summary": "Many areas of AI research, such as language model interpretability and chain of thought faithfulness, seek to explain model behaviors. But what constitutes a \"good\" explanation? In this work, we evaluate explanations through the lens of counterfactual simulatability-whether the explanation is useful for predicting model behaviors on related counterfactual inputs. To this end, we introduce CHIVE (Counterfactual Hypothesis Investigation Via Edits), a novel agentic pipeline that identifies unexpected model behaviors in the wild and investigates them with counterfactual prompt edits. This yields thousands of high-quality explanations for naturally-occurring model behaviors along with supporting counterfactual evidence. We apply CHIVE in two ways. First, we evaluate whether common LLM interpretability techniques improve an agent's ability to predict counterfactual model behaviors. Surprisingly, we find no uplift from any of the interpretability techniques studied. Second, we use CHIVE to generate training data. We find that training models to predict outcomes of CHIVE-generated counterfactual experiments generalizes to various out-of-distribution settings. Overall, CHIVE automatically discovers explanations of naturally-occurring LLM behaviors, enabling us to evaluate and improve methods for explaining LLM behaviors.",
+    "authors": [
+      "Adam Karvonen",
+      "Euan Ong",
+      "Subhash Kantamneni",
+      "Samuel Marks"
+    ],
+    "published": "2026-08-17T15:57:06",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Many areas of AI research, such as language model interpretability and chain of thought faithfulness, seek to explain model behaviors. But what constitutes a \"good\" explanation? In this work, we evaluate explanations through the lens of counterfactual simulatability-whether the explanation is useful for predicting model behaviors on related counterfactual inputs. To this end, we introduce CHIVE\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.16707v1",
+    "title": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
+    "url": "http://arxiv.org/abs/2608.16707v1",
+    "summary": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. However, existing work has raised questions about how LLMs actually balance exploration and exploitation. Unlike classical agents, LLM agents engage with tasks through natural language, exposing them to semantic information with no formal counterpart in the task structure. We introduce the semantic bandit, an extension of the multi-armed bandit setting that explicitly considers the textual labels assigned to actions, and use it to study how semantic priors --- inductive biases arising from associations between language and expected reward learned during pre-training, shape LLM exploration behaviour. We find that semantically informative action labels reduce exploration in favour of exploitation, improving performance when aligned with the reward structure and severely degrading it when misaligned. We further find that negative rewards trigger substantially more exploration than equivalent positive rewards, consistent with an expected-scale bias induced by reward conventions common in pre-training data. Overall, we argue that the use of language to define the environment and rewards introduces unavoidable biases derived from the fact that the model is trained on word co-occurence, with implications for the reliability and robustness of LLM agents in real-world decision-making settings.",
+    "authors": [
+      "David Eric Austin",
+      "Kaheer Suleman",
+      "Jackie Chi Kit Cheung"
+    ],
+    "published": "2026-08-17T15:25:18",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. However, existing work has raised questions about how LLMs actually balance exploration and exploitation. Unlike classical agents, LLM agents engage with tasks through natural language, exposing them to semantic information with no formal counterpart\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.16577v1",
+    "title": "BabelSteering: Multilingual Safety Alignment via English Steering Vectors",
+    "url": "http://arxiv.org/abs/2608.16577v1",
+    "summary": "Large language models (LLMs) are deployed globally in high-stakes settings, yet most safety research and alignment efforts remain concentrated on English. Thus, users interacting with LLMs in other languages may encounter weaker safeguards despite relying on the same systems for similarly sensitive tasks. In this work, we investigate whether safety signals learned from a high-resource language, like English, can improve multilingual safety. We propose BabelSteering, an activation steering method that acts as a lightweight inference- time intervention, using refusal directions derived from English safety supervision to generalize across languages. Our evaluation includes eight languages and jointly measures refusal of harmful requests, over-refusal, and general task utility. The results show that BabelSteering increases the refusal of harmful requests across languages, with only a marginal to no reduction in task utility but with some increase in refusal of pseudo-harmful prompts. For example, for Gemma 7B, we see an average increase in the refusal of harmful prompts across languages of 11 percentage points (pp), with individual languages like Bengali seeing an increase of 17 pp, with no loss of utility on Global MMLU, while pseudo-harmful refusals increase by 13 pp on average. We also introduce a multilingual translation-and-evaluation pipeline to facilitate future work on cross-lingual safety interventions. Overall, our findings suggest that activation steering may provide a practical, low- cost mechanism for extending English-derived safety signals to other languages. Warning: this paper contains examples with unsafe content",
+    "authors": [
+      "Emma V. Stein",
+      "Dominik Meier",
+      "Terry Ruas",
+      "Jan Philip Wahle",
+      "Bela Gipp"
+    ],
+    "published": "2026-08-17T13:40:16",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) are deployed globally in high-stakes settings, yet most safety research and alignment efforts remain concentrated on English. Thus, users interacting with LLMs in other languages may encounter weaker safeguards despite relying on the same systems for similarly sensitive tasks. In this work, we investigate whether safety signals learned from a high-resource language,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.16864v1",
+    "title": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+    "url": "http://arxiv.org/abs/2608.16864v1",
+    "summary": "In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single number. Quantile-based modeling instead describes the full conditional distribution on the original time scale, but existing censored-data methods are either inflexible or produce logically inconsistent crossing quantile curves. We propose a Censored Non-crossing Quantile (CNQ) framework for right-censored data that jointly estimates several conditional survival quantiles and guarantees valid ordering by construction, with flexibility supplied by Kolmogorov-Arnold and Transformer backbones, and we establish a finite-sample excess-risk bound holding jointly across all fitted quantile levels. Across 27 simulation settings and six cohorts the framework attains lower pinball loss than quantile-, hazard- and tree-based competitors whenever the conditional distribution is asymmetric, with interval coverage closer to nominal on all six. In two clinical case studies (METABRIC, breast cancer; FLCHAIN, population mortality) it recovers covariate effects that vary across the survival distribution and would be hidden by a single hazard ratio, and yields coherent individualized quantile milestones. Code: https://github.com/BIG-S2/deepcnq",
+    "authors": [
+      "Shuai Huang",
+      "Zhe Qu",
+      "Zhaowei Hua",
+      "Guohao Shen",
+      "Rui Tang",
+      "Hongtu Zhu"
+    ],
+    "published": "2026-08-17T17:46:41",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single number. Quantile-based modeling instead describes the full conditional distribution on the original time scale, but existing censored-data methods are either inflexible or produce logically inconsistent\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2608.16708v1",
+    "title": "Quantile restrictions, revealed rankings, and the limits of multinomial choice",
+    "url": "http://arxiv.org/abs/2608.16708v1",
+    "summary": "This paper analyzes when choice probabilities reveal rankings of deterministic utility indices in semiparametric discrete choice models. It begins with binary choice, where quantile thresholds guarantee ranking recovery, and shows that such thresholds can arise either from behavioral departures from utility maximization (e.g., limited attention) under exchangeable unobservables, or from non-exchangeable unobservables under standard utility maximization. These behavioral and distributional routes are then extended to multinomial choice. Under limited attention, balance restrictions on attention probabilities yield global linear ranking partitions which are robust to the distribution of unobservables and, given sufficiently rich joint variation in the differences of utility indices, are also necessary. Absent the required attention restrictions, opposite rankings can produce overlapping probability images. Under non-exchangeable unobservables, a comparable distribution-uniform partition generally need not exist.   Holding the distribution fixed, however, ranking recovery remains possible via an injective nonlinear map from normalized utility differences to choice probabilities under both behavioral and distributional extensions. Together, the results distinguish distribution-robust global ranking partitions from ranking recovery with a fixed distribution of unobservables and clarify the limits of extending binary quantile restrictions to multinomial choice.",
+    "authors": [
+      "Tatiana Komarova"
+    ],
+    "published": "2026-08-17T15:25:23",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "This paper analyzes when choice probabilities reveal rankings of deterministic utility indices in semiparametric discrete choice models. It begins with binary choice, where quantile thresholds guarantee ranking recovery, and shows that such thresholds can arise either from behavioral departures from utility maximization (e.g., limited attention) under exchangeable unobservables, or from\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16844v1",
+    "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+    "url": "http://arxiv.org/abs/2608.16844v1",
+    "summary": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy too many degrees of freedom and \"pollute\" the memory state, leaving little capacity for later context and increasing interference between what is stored and what arrives next. We study a new paradigm of incremental memory activation, where the effective capacity of memory is progressively expanded as the context grows. Imposing an early bottleneck forces the model to compress history more effectively, while unlocking fresh capacity over time reduces interference and improves retention of later context. We instantiate this paradigm in Proteus, a straightforward mechanism that can be incorporated into a broad class of neural memory architectures at no additional cost. We apply Proteus to state-of-the-art models, including SWLA, Comba, Titans, and Hope-Attention, and observe consistent improvements on standard language modeling and reasoning, as well as on long-context retrieval and understanding, with gains that grow at longer context lengths. Overall, our results show that static memory is suboptimal and that scheduling effective capacity is a simple and broadly applicable tool for sequence modeling.",
+    "authors": [
+      "Reza Bayat",
+      "Ali Behrouz",
+      "Vahab Mirrokni",
+      "Aaron Courville"
+    ],
+    "published": "2026-08-17T17:30:43",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy too many degrees of freedom and \"pollute\" the memory state,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.16868v1",
+    "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+    "url": "http://arxiv.org/abs/2608.16868v1",
+    "summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a modular feed-forward neural network and a transformer-based model. Both architectures are trained on the same arithmetic task with a mandatory pathway through two discrete intermediate states, allowing different internal paths to produce the same answer. We deliberately switch between these paths, authenticate the state actually used, and let that verified state determine a subtle statistical pattern in the generated text that can later be detected. The feed-forward and transformer systems each passed all 128 matched pairs in both their public and separately sealed protected end-to-end evaluations, with the detector recovering the signal associated with the authenticated internal state. The required causal computation also reproduced across five independently trained feed-forward models and three independently trained transformers. In a separate answer-only transformer experiment, our linear probes did not recover a naturally learned intermediate state. These results provide a controlled proof of concept that information about a verified, causally relevant internal state can be preserved in generated text even when the answer is unchanged.",
+    "authors": [
+      "Benjamin Belay"
+    ],
+    "published": "2026-08-17T17:50:04",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a modular feed-forward neural network and a transformer-based model.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.16871v1",
+    "title": "Biophysics-informed deep operator learning for inverse problems with application to electrophysiological source reconstruction",
+    "url": "http://arxiv.org/abs/2608.16871v1",
+    "summary": "Electrophysiological brain signals are typically acquired through indirect and noisy measurements, providing transformed representations of the underlying neural activity. Source reconstruction---the inverse problem of resolving underlying neural signals from these measurements---is essential for mapping brain function but remains challenging because it is ill-posed and sensitive to noise. Deep learning methods have shown promise across a range of inverse problems, yet many do not explicitly incorporate the biophysical principles governing data generation, limiting data efficiency and adaptation across subjects. Here, we introduce DeepOp-Informed, a biophysics-informed geometric deep operator learning framework that embeds the biophysics of the sensing process into the model through a custom differentiable layer, enabling more efficient learning and improved reconstruction performance. This layer enables the neural network to adapt to subject-specific variations in the physics of signal generation, resulting from differences in brain anatomy and sensor positioning. In realistic magnetoencephalography simulations, DeepOp-Informed generalizes to forward models from held-out subjects, reducing reconstruction error relative to several neural-network and classical baselines. Applied to adolescent auditory-evoked recordings, it produces anatomically plausible reconstructions localized to the auditory cortex. While our application focuses on magnetoencephalography, the framework is general and may be adaptable to other imaging modalities.",
+    "authors": [
+      "Eardi Lila",
+      "Erica R. Peterson",
+      "Alexis N. Bosseler",
+      "J. Nathan Kutz",
+      "Samu Taulu"
+    ],
+    "published": "2026-08-17T17:52:44",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Electrophysiological brain signals are typically acquired through indirect and noisy measurements, providing transformed representations of the underlying neural activity. Source reconstruction---the inverse problem of resolving underlying neural signals from these measurements---is essential for mapping brain function but remains challenging because it is ill-posed and sensitive to noise. Deep\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.16537v1",
+    "title": "Bayesian epidemic alignment for causal evaluation of seasonal infectious-disease interventions",
+    "url": "http://arxiv.org/abs/2608.16537v1",
+    "summary": "Seasonal infectious-disease interventions are commonly evaluated with interrupted time-series or pre--post designs that align epidemics by calendar week. When epidemic onset, speed or peak timing differs between seasons, such comparisons confound a shift in epidemic phase with a change in disease burden. We propose a Bayesian causal count model in which season-specific affine transformations map calendar time to a latent epidemic clock, and intervention effects are estimated on that clock rather than on the calendar. The alignment is a model component rather than a preprocessing step, so uncertainty about epidemic timing propagates into every causal contrast. The model uses a negative-binomial observation distribution, hierarchical area, season and area-season effects, a shrunk Fourier epidemic curve, and a continuous programme-intensity exposure. Posterior g-computation yields prevented cases, prevented fractions, peak attenuation and epidemic displacement, under both a controlled contrast and a dynamic contrast that propagates disease history within each arm. A two-tier simulation study evaluates bias, root mean squared error, interval coverage and parameter recovery under stable timing, epidemic-clock variation, intensity-dependent ascertainment and area-level confounding. We illustrate the framework using open Catalan primary-care surveillance and respiratory syncytial virus immunisation data, with explicit attention to the overlap in programme intensity that identifies the effect.",
+    "authors": [
+      "David Mori\u00f1a"
+    ],
+    "published": "2026-08-17T13:12:27",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Seasonal infectious-disease interventions are commonly evaluated with interrupted time-series or pre--post designs that align epidemics by calendar week. When epidemic onset, speed or peak timing differs between seasons, such comparisons confound a shift in epidemic phase with a change in disease burden. We propose a Bayesian causal count model in which season-specific affine transformations map\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16760v1",
+    "title": "On the Principles Behind Neural Network Optimizers",
+    "url": "http://arxiv.org/abs/2608.16760v1",
+    "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new designs. First, we revisit Adam's divergence--convergence debate and show the existence of a problem-dependent phase transition: with properly chosen, batch-size-dependent hyperparameters, Adam converges, whereas under small-$\u03b2_2$ regimes it can diverge. Second, we investigate why Adam substantially outperforms SGD on Transformers through Hessian structure. We find that the Hessian evolves toward a near-block-diagonal form along training, accompanied by strong block heterogeneity. We prove that this structure makes Adam's diagonal preconditioner effective. We further show that this special Hessian structure originates from consecutive multiplications of large matrix variables, and we provide a rigorous analysis based on random matrix theory. Finally, these insights motivate Adam-mini, a new optimizer that reduces Adam's memory footprint by 50\\% while preserving its performance. Our results also have broader implications beyond Adam: they reveal new local structures in matrix-based nonconvex problems, and also help understand and improve recent NN optimizers, such as Muon.",
+    "authors": [
+      "Yushun Zhang"
+    ],
+    "published": "2026-08-17T16:07:25",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new designs. First, we revisit Adam's divergence--convergence debate and show the existence of a problem-dependent phase transition: with properly chosen, batch-size-dependent\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16696v1",
+    "title": "UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures",
+    "url": "http://arxiv.org/abs/2608.16696v1",
+    "summary": "Physical AI systems such as autonomous vehicles and robots rely on timely exchange of high-dimensional sensory signals under tight bandwidth, latency, and energy budgets. Because the task driving downstream decisions evolves over time, a task-specific codec is brittle and retraining one per task is infeasible in the field. We propose UniTAC, a single learned image codec spanning universal (task-agnostic) to task-specialized operation, re-targeted at runtime without retraining. The task is abstracted as a per-component importance vector, derived, e.g., from gradient attribution of any downstream model, and transmitted as low-overhead side information that conditions both encoder and decoder. Trained once over a broad, randomized family of such vectors against weighted-reconstruction distortion, UniTAC keeps a fixed backbone and a single human-viewable reconstruction whose fidelity is steered to the active task by swapping the injected vector. We analyze the underlying weighted rate-distortion problem, characterizing when a diagonal weighted distortion is task-consistent and how weights relate to task sensitivity. Guided by this, we design a Vision Transformer (ViT) codec whose token-level conditioning natively realizes this weight-driven code. On a localized task at 0.034 bpp, a single UniTAC model reaches 91.4% accuracy, only 1.9% below a task-based codec (93.3%) and above universal codecs (76.9%).",
+    "authors": [
+      "Homa Esfahanizadeh",
+      "Matin Mortaheb",
+      "Jinfeng Du",
+      "Harish Viswanathan"
+    ],
+    "published": "2026-08-17T15:14:05",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Physical AI systems such as autonomous vehicles and robots rely on timely exchange of high-dimensional sensory signals under tight bandwidth, latency, and energy budgets. Because the task driving downstream decisions evolves over time, a task-specific codec is brittle and retraining one per task is infeasible in the field. We propose UniTAC, a single learned image codec spanning universal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.16627v1",
+    "title": "When Do Explanations Help In-Context Learning? A Comparative Study of Natural Language Explanation Types and Faithfulness",
+    "url": "http://arxiv.org/abs/2608.16627v1",
+    "summary": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL). However, it remains unclear how different types of NLEs compare in their effects on downstream model performance in explanation-augmented prompting. Therefore, we provide a comparative evaluation across six benchmarks and four instruction-tuned models, studying how NLE source (human-written when available, self-generated explanations, generated by an external LLM) and NLE selection (random vs faithfulness-based filtering) affect downstream utility of NLEs when used in ICL settings. Our extensive evaluation shows that, on classification-style benchmarks, adding NLEs to few-shot prompts often improves accuracy over few-shot prompting without explanations; among NLE sources, externally generated LLM-NLEs often provide strong downstream utility and remain competitive with human rationales where both are available, whereas self-NLEs are more sensitive to the selection strategy. On math reasoning, the effects are more model- and source-dependent. We further show that faithfulness-based selection of self-NLEs yields small average gains overall, but can improve or reduce performance depending on the metric, task, and model. Different faithfulness metrics can disagree substantially, affecting which self-NLE examples are selected and their downstream predictive utility. Robustness tests with randomly swapped and out-of-distribution rationales indicate partial robustness, suggesting that semantic alignment contributes to performance gains. Overall, our results provide insights for selecting and reporting explanations that influence model behavior in practical prompting pipelines.",
+    "authors": [
+      "Mahdi Dhaini",
+      "Adam Dejl",
+      "Juraj Vladika",
+      "Volkan \u00d6zer",
+      "Barbara Plank",
+      "Gjergji Kasneci"
+    ],
+    "published": "2026-08-17T14:30:03",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL). However, it remains unclear how different types of NLEs compare in their effects on downstream model performance in explanation-augmented prompting. Therefore, we provide a comparative evaluation across six benchmarks and four\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16876v1",
+    "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+    "url": "http://arxiv.org/abs/2608.16876v1",
+    "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, yet the search typically retains little beyond the resulting formula and score, losing the scientific record, such as motivations and probes, that inform what to try next. AutoSR preserves this record in a \\textbf{Research State}, coupling each candidate equation with the reasoning, computational evidence, and independent review developed along its branch. Proposer--reviewer agents develop these states under progressive-widening Monte Carlo tree search (PW-MCTS), which allocates computation across competing investigations, while the accumulated research record is ultimately synthesized into a final report that explains the leading relation and the basis for its selection. Across nine selected challenges from two benchmark suites, AutoSR recovers algebraically equivalent relations in every case, including three cp3-bench problems that no published system recovers and six structurally diverse LSR-Transform problems. Overall, AutoSR extends symbolic regression from equation-level search toward automated scientific investigation, allowing scientific knowledge and accumulated evidence to shape both what is explored and how the resulting equation is justified.",
+    "authors": [
+      "Kejia Zhang",
+      "Youran Sun",
+      "Xinyu Ren",
+      "Chugang Yi",
+      "Haizhao Yang"
+    ],
+    "published": "2026-08-17T17:55:26",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.SC"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16824v1",
+    "title": "GEO-Flag: Detecting and Measuring GEO-Optimized Web Content",
+    "url": "http://arxiv.org/abs/2608.16824v1",
+    "summary": "Generative Engine Optimization (GEO) modifies web content to increase its likelihood of being selected and cited by generative search engines. This can give strategically optimized pages visibility disproportionate to their authority or relevance and even make weak or false information appear well supported. Unlike conventional search, generative search synthesizes information into direct answers rather than presenting competing sources, which can further amplify these risks, as assessing source provenance and authority requires additional user interaction. Despite these concerns, systematic methods for detecting GEO-optimized webpages remain underexplored. We introduce \\texttt{GEOFlagBench}, a benchmark of 3,200 webpages spanning 400 queries, four domains, and eight GEO optimizer families, and use it to systematically evaluate existing GEO detection methods. Although the strongest baseline achieves an aggregate F1 of 0.880, method-level and authorship-conditioned evaluations reveal substantial weaknesses and potential reliance on authorship-related shortcuts. We therefore propose \\emph{Intervention-Paired Training} (IPT), which supervises detector responses to GEO interventions and non-GEO AI polishing; on ModernBERT, IPT improves F1 from 0.862 to 0.944 and worst-group accuracy from 0.725 to 0.883. We develop a GEO-gated Agent system for auditing the Source Tier and verifiability of Citation URLs in detected GEO pages. Finally, we deploy the complete pipeline on released Google Search and Gemini-grounded retrieval results for 1,000 real-user queries. Across 10,095 available pages, we estimate an overall GEO prevalence of 8.90\\%, reaching 16.36\\% among pages modified in 2026. Our results establish a foundation for systematically detecting, auditing, and measuring GEO in real-world search ecosystems.",
+    "authors": [
+      "Junjie Chu",
+      "Ye Leng",
+      "Mingjie Li",
+      "Yun Shen",
+      "Xinyue Shen",
+      "Yang Zhang"
+    ],
+    "published": "2026-08-17T17:12:11",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Generative Engine Optimization (GEO) modifies web content to increase its likelihood of being selected and cited by generative search engines. This can give strategically optimized pages visibility disproportionate to their authority or relevance and even make weak or false information appear well supported. Unlike conventional search, generative search synthesizes information into direct answers\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16700v1",
+    "title": "Learning to Unlearn: Machine Unlearning via Learning the Unlearning Behaviors",
+    "url": "http://arxiv.org/abs/2608.16700v1",
+    "summary": "Various machine unlearning techniques have been developed in response to privacy legislation requirements, enabling individuals to exercise their legal right to have their data $D_f$ removed from a machine learning model. This process is typically accomplished via the use of an unlearning function denoted as $U$. Existing methods focus on designing an intricate $U$ to unlearn $D_f \\subset D$ from a previous model $A(D)$, so that the unlearned model performs as closely as possible to the retrained model $A(D \\setminus D_f)$. However, these methods often suffer from high computational costs when dealing with massive training data, as the complex structures of $U$ become a bottleneck even for models with fewer parameters.   Inspired by Learning to Optimize, we introduce the first learning-based model-agnostic approach, Learning-to-UnLearn (L2UL). Our core insight is to shift from manually designing $U$ to learning the unlearning behaviors from a distribution perspective, thereby acquiring a simple and efficient $U$ via learning. Our experimental results demonstrate that the accuracy achieved by L2UL is comparable to that of retraining while exhibiting impressive efficiency, particularly in data-intensive scenarios. Furthermore, we validate the performance and scalability of our method on larger models ResNet.",
+    "authors": [
+      "Hang Zhang",
+      "Kaifeng Zhang",
+      "Yixiao Ma",
+      "Weijie Xu",
+      "Ye Zhu",
+      "Kai Ming Ting"
+    ],
+    "published": "2026-08-17T15:18:34",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Various machine unlearning techniques have been developed in response to privacy legislation requirements, enabling individuals to exercise their legal right to have their data $D_f$ removed from a machine learning model. This process is typically accomplished via the use of an unlearning function denoted as $U$. Existing methods focus on designing an intricate $U$ to unlearn $D_f \\subset D$ from\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16699v1",
+    "title": "Learning to Price with Persuasion",
+    "url": "http://arxiv.org/abs/2608.16699v1",
+    "summary": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al. (2022), where in addition to the menu of quality-price pairs, the seller offers information on the value of the match between product quality and buyer's taste via a signaling scheme. We relax the assumption that the seller knows the buyers' belief about the distribution of tastes and study the sample requirements of designing a revenue maximizing scheme. We consider both the batch setting where we have access to data from a set of i.i.d. buyers and an online demand query model where we observe the buyers' behaviors to seller's schemes. Despite the apparent non-convexity of the problem, we also give the first FPTAS to compute a scheme that maximizes the revenue within an arbitrarily small additive loss, which was left open by Bergemann et al. (2022). Overall, this brings a new learning perspective in asymmetric economic settings where buyers and sellers know different types of information.",
+    "authors": [
+      "Maria-Florina Balcan",
+      "Tejas Pagare",
+      "Karan Singh"
+    ],
+    "published": "2026-08-17T15:17:07",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.GT"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Motivated by modern marketplaces, where the platform or the seller routinely gathers detailed user profiles, we study a novel learning theoretic model that simultaneously involves information and mechanism design. Specifically, we consider the economic setting recently introduced by Bergemann et al. (2022), where in addition to the menu of quality-price pairs, the seller offers information on the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16664v1",
+    "title": "Random Quadratic Form with random forcing: Metastable synchronization by noise",
+    "url": "http://arxiv.org/abs/2608.16664v1",
+    "summary": "We study the Random Quadratic Form (RQF) on a sphere in the presence of random Brownian forcing. We show that the forcing does not effectively change the law of the process but affects the synchronization properties of the system. While the RQF without forcing exhibits partial synchronization due to the intrinsic symmetries, the introduction of an arbitrarily small forcing results in long-term symmetry breaking and leads to full synchronization.   In this work we focus on the small forcing regime and recover the multiscale behavior of the two-point process. We show that in the first stage the model converges to an anti-polar configuration due to the symmetries of the RQF and in the second stage the two clusters meet due to the symmetry breaking phenomenon.   The model is motivated by continuous-time machine learning models such as Neural ODEs and continuous-time formulations of transformers. In particular, the results of this work explain the role of the bias and the scale of its initialization.",
+    "authors": [
+      "Anna Shalova"
+    ],
+    "published": "2026-08-17T14:55:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "math.PR"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We study the Random Quadratic Form (RQF) on a sphere in the presence of random Brownian forcing. We show that the forcing does not effectively change the law of the process but affects the synchronization properties of the system. While the RQF without forcing exhibits partial synchronization due to the intrinsic symmetries, the introduction of an arbitrarily small forcing results in long-term\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16659v1",
+    "title": "Hoeffding adaptive splitting trees for data stream classification with concept drift and ensemble learning",
+    "url": "http://arxiv.org/abs/2608.16659v1",
+    "summary": "Ensembles of decision trees are well-established methods for data stream classification. In ensemble learning, Hoeffding Trees are widely adopted as base learners, performing periodic split attempts according to the Hoeffding bound. Recent studies, however, indicate that this standard splitting mechanism lacks adaptability, while adaptive trees that trigger splits in response to performance degradation have achieved superior results. In this paper, we identify limitations in the use of adaptive-splitting decision trees as ensemble base learners, showing that change detectors often fail to promote sufficient diversity within ensembles. To address this issue, we propose two novel decision tree models, termed Hoeffding Adaptive Splitting Trees. These models combine the periodic splitting strategy of Hoeffding Trees, which fosters ensemble diversity, with adaptive splitting mechanisms that employ change detection algorithms to identify performance decay and determine split points. Experimental results demonstrate that Hoeffding Adaptive Splitting Trees enhance ensemble performance and achieve state-of-the-art results across a comprehensive evaluation, including benchmark comparisons, computational cost analysis, and concept drift adaptation.",
+    "authors": [
+      "Daniel Nowak Assis",
+      "Jean Paul Barddal",
+      "Fabr\u00edcio Enembreck"
+    ],
+    "published": "2026-08-17T14:53:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Ensembles of decision trees are well-established methods for data stream classification. In ensemble learning, Hoeffding Trees are widely adopted as base learners, performing periodic split attempts according to the Hoeffding bound. Recent studies, however, indicate that this standard splitting mechanism lacks adaptability, while adaptive trees that trigger splits in response to performance\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.16831v1",
+    "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
+    "url": "http://arxiv.org/abs/2608.16831v1",
+    "summary": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve structure of generalized policy iteration. PIHF uses a pretrained language model as its execution substrate and moves persistent revision to a versioned natural-language policy and tool set. A language-model critic and clinical expert review complete-panel reasoning and tool-use trajectories to localize recurrent failures and form candidate revisions; the expert may reinterpret the evidence and retains authority over admission and rollback, while Recall@1 and Recall@5 validate outcomes after candidate execution.   Across cumulative ablations and ultra-rare-disease benchmarks, a PIHF-derived policy improved Recall@1 in one proprietary executor and three open-weight executors spanning 3 to 49 billion active parameters. Gains were 32.7 percentage points for GPT-5.4 and 31.1 points for Qwen3.6-35B, a difference of 1.7 points. These results support the feasibility of using pretrained language models as fixed-weight execution substrates for expert-guided policy development in rare-disease diagnosis.",
+    "authors": [
+      "Minh-Ha Nguyen",
+      "Cathy Shyr"
+    ],
+    "published": "2026-08-17T17:16:43",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve structure of generalized policy iteration. PIHF uses a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.16671v1",
+    "title": "Does the LM Head Create a Harmful Gradient Bottleneck? A Causal Test",
+    "url": "http://arxiv.org/abs/2608.16671v1",
+    "summary": "The language-model head maps a hidden state of width D to a vocabulary of size V, so its transpose can return at most D independent directions to the Transformer. Godey and Artzi argue that this severe projection is a harmful optimization bottleneck. We separate the geometry from the causal claim. Our backward-only intervention keeps the ordinary logits and the exact LM-head parameter update while reducing only the rank of the gradient sent into the Transformer. Across five paired seeds on byte-level and BPE-8192 WikiText-2 models, reducing backward rank increases validation loss. An equally ranked factorized forward head, however, increases loss substantially more. At half rank in the larger model, the backward-only loss increase is 0.0586 (95% CI [0.0167, 0.1005]), while the factorized forward head increases loss by 0.1795 ([0.1547, 0.2042]). The vocabulary-space residual also contributes to the ordinary LM-head update, and removing that contribution is harmful. Additional controls show that repeated-token failures are confounded by the number of independently sampled symbols, that adding never-target output classes does not impair learning, and that projection diagnostics do not reliably predict progress in our runs. Tested auxiliary feedback routes do not beat tuned backpropagation. These results confirm strong geometric compression but do not establish that it is a harmful optimization bottleneck.",
+    "authors": [
+      "Anand Murugan"
+    ],
+    "published": "2026-08-17T14:59:59",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The language-model head maps a hidden state of width D to a vocabulary of size V, so its transpose can return at most D independent directions to the Transformer. Godey and Artzi argue that this severe projection is a harmful optimization bottleneck. We separate the geometry from the causal claim. Our backward-only intervention keeps the ordinary logits and the exact LM-head parameter update\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16870v1",
+    "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
+    "url": "http://arxiv.org/abs/2608.16870v1",
+    "summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle course that transforms subtle biophysical characteristics of CTCs, including size and deformability, into distinct kinematic trajectories. However, the highly nonlinear fluid structure interactions governing these trajectories make the inverse problem of inferring cellular phenotype from trajectory data analytically intractable. While deep neural networks (DNNs) have emerged as a powerful approach for addressing this inverse problem, their effectiveness is constrained by the limited availability of trajectory data and the lack of physical interpretability.   To address these challenges, we propose an interpretable and data efficient DNN framework for trajectory based CTC classification. To mitigate the scarcity of data, we develop Subsequence (SubSeq), a targeted augmentation strategy that randomly extracts informative local trajectory segments during training to promote learning from localized patterns. We further apply Gradient Weighted Class Activation Mapping to identify the trajectory features and physical regions of the microfluidic device that drive model predictions. Experimental results demonstrate that SubSeq improves classification accuracy over the evaluated baseline and augmentation methods. Furthermore, interpretability analysis suggests that localized trajectory segments contain substantial biophysical information relevant to accurate classification. This provides justification for SubSeq and also highlights the redundancy of full-length trajectories. More broadly, the proposed framework views microfluidic geometries as physical encoders of cellular mechanical properties, providing mechanistic insights that may inform the future design of diagnostic devices.",
+    "authors": [
+      "Serena Su",
+      "Yifan Wang",
+      "Senwei Liang"
+    ],
+    "published": "2026-08-17T17:51:49",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Accurate classification of circulating tumor cell (CTC) phenotypes can provide valuable information for assessing metastatic potential. Label free microfluidic devices provide a hydrodynamic obstacle course that transforms subtle biophysical characteristics of CTCs, including size and deformability, into distinct kinematic trajectories. However, the highly nonlinear fluid structure interactions\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16833v1",
+    "title": "Time-Aware Validation of Machine Learning Fuel Consumption Models: Evidence from 1\\,Hz Operational Data, CCGS \\textit{Sir Wilfrid Laurier}",
+    "url": "http://arxiv.org/abs/2608.16833v1",
+    "summary": "Ship fuel consumption (SFC) prediction supports vessel operation optimisation, emissions estimation, and decision support systems (DSS) for sustainable maritime transportation. Numerous data-driven fuel models have been developed over the past two decades, but a critical and often overlooked limitation lies in their validation practices: most studies evaluate performance using random train--test splits, which, applied to high-frequency records, admit temporal leakage and yield optimistic results that do not reflect deployment conditions. This paper examines that gap using time-aware evaluation, specifically Time Series Cross-Validation (TSCV) and Blocked TSCV (BTSCV). Using the Canadian Coast Guard Ship (CCGS) \\textit{Sir Wilfrid Laurier} as a case study, six regression models and a physics baseline are tuned under three time-aware schemes and three feature configurations, then evaluated on a common chronological hold-out set drawn from approximately 3.88 million steady-state 1\\,Hz records.",
+    "authors": [
+      "Samarasimha Reddy Chittamuru",
+      "Ayhan Akinturk",
+      "Allison Kennedy",
+      "Joshua Barnes",
+      "Matthew Hamilton"
+    ],
+    "published": "2026-08-17T17:18:05",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Ship fuel consumption (SFC) prediction supports vessel operation optimisation, emissions estimation, and decision support systems (DSS) for sustainable maritime transportation. Numerous data-driven fuel models have been developed over the past two decades, but a critical and often overlooked limitation lies in their validation practices: most studies evaluate performance using random train--test\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16709v1",
+    "title": "MIRROR: Multimodal Intelligent Radiology Reasoning and Observation Reporter",
+    "url": "http://arxiv.org/abs/2608.16709v1",
+    "summary": "A radiologist reading a model's output faces two problems. The model returns a number and no reason, and any system that turns that number into readable prose can quietly add claims the model never made. MIRROR is a research prototype built to separate those failures. It chains a multi-label classifier, a Grad-CAM localizer that turns each positive finding into a named anatomical region, and a report writer that receives the labels, probabilities, and regions but never the image. Because the language layer cannot see pixels, it cannot assert a finding the classifier did not make. We are precise about what that buys: a MIRROR report's findings are auditable against the probability vector, while the sentences framing them are ordinary generated text, and we show one stating a cardiothoracic ratio the system never measured. One registry holds the taxonomy, anatomy, and phrasing for chest X-ray, brain MRI, and head CT, so adding a modality is a data change; all three are routed and tested, one is trained. On ChestMNIST that classifier reaches macro AUROC 0.729 and ranks better than chance on all 14 labels, at 1.6 to 6.8 times the precision a random ranker would get. Yet at the default 0.5 threshold it emits no positive prediction at all for 11 of them, and its excellent-looking Brier score of 0.045 sits beside the 0.047 earned by a predictor that ignores the image. The discrimination is real; the decisions are not. Under the class imbalance normal in radiology, aggregate metrics flatter models that do nothing, and should be reported against that floor.",
+    "authors": [
+      "Vignesh Nagarajan",
+      "Sriram Venkatapathy"
+    ],
+    "published": "2026-08-17T15:25:38",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "A radiologist reading a model's output faces two problems. The model returns a number and no reason, and any system that turns that number into readable prose can quietly add claims the model never made. MIRROR is a research prototype built to separate those failures. It chains a multi-label classifier, a Grad-CAM localizer that turns each positive finding into a named anatomical region, and a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16630v1",
+    "title": "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
+    "url": "http://arxiv.org/abs/2608.16630v1",
+    "summary": "Repository-scale coding requires an agent to keep tests, imports, configuration, and migration rules consistent within a bounded context window. We model this as reconstructing a coupled-fact graph: at each edit, a required fact comes from recent context or parametric memory, and the facts covered by neither form coherence debt. We supply and withhold each channel and inject faults across seven models and five harnesses. As expected, no model completes a task on an unseen API with both channels empty, and putting the facts in the prompt restores success. When a rename defeats what models memorized about a real library, all seven fail in the same place, passing and missing the same tests. Availability decides the outcome and distance does not: withholding a fact costs exactly the work it supports, and a supplied fact works as well far from the edit as next to it. Harnesses pay unequal prices for it: configurations that all pass every test differ more than tenfold in tokens consumed because they rebuild the same content at different rates, and spending more recovers nothing when facts are withheld. A missing fact produces wrong work rather than absent work: an agent asked to act acts, fabricating the file or guessing the value, so instruments built on reads look for a hole already filled. How often it says it is blocked instead is a property of the model, from every trial to none. Availability does not settle every edit: where standard and code disagree, agents follow the standard even when it prescribes the worse code, so a stale convention file costs more than no file. Because parametric memory substitutes for reading, on SWE-bench, where models likely know the repositories, reads no longer predict success. Harnesses should keep the facts an edit depends on available when the agent writes, and check that availability against what the agent produces rather than what it reads.",
+    "authors": [
+      "Bardia Mohammadi",
+      "Lars Klein",
+      "Aman Chadha",
+      "Akhil Arora",
+      "Laurent Bindschaedler"
+    ],
+    "published": "2026-08-17T14:30:41",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.SE"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Repository-scale coding requires an agent to keep tests, imports, configuration, and migration rules consistent within a bounded context window. We model this as reconstructing a coupled-fact graph: at each edit, a required fact comes from recent context or parametric memory, and the facts covered by neither form coherence debt. We supply and withhold each channel and inject faults across seven\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16606v1",
+    "title": "Variational Outlier-Robust Gaussian Process Regression with Generative Modeling",
+    "url": "http://arxiv.org/abs/2608.16606v1",
+    "summary": "Outliers can substantially distort Gaussian process regression (GPR) due to its conventional Gaussian observation likelihood, leading to inaccurate model learning and prediction. To address this limitation, this article introduces a generative GPR model that captures observation-specific contamination and adaptively mitigates the influence of outliers. Subsequently, a variational generalized expectation-maximization procedure is used to learn the latent variables and GPR model parameters. Experiments on synthetic and real datasets under different contamination settings demonstrate that the proposed method remains competitive with-and in several cases outperforms-robust GPR baselines in prediction accuracy. Moreover, the proposed method shares the cubic computational scaling of the compared GPR methods.",
+    "authors": [
+      "Arslan Majal",
+      "Aamir Hussain Chughtai"
+    ],
+    "published": "2026-08-17T14:03:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Outliers can substantially distort Gaussian process regression (GPR) due to its conventional Gaussian observation likelihood, leading to inaccurate model learning and prediction. To address this limitation, this article introduces a generative GPR model that captures observation-specific contamination and adaptively mitigates the influence of outliers. Subsequently, a variational generalized\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16546v1",
+    "title": "Supervising the Path to Fine Scales: GalerkinFlow for Scientific-Field and Image Super-Resolution",
+    "url": "http://arxiv.org/abs/2608.16546v1",
+    "summary": "Most super-resolution models learn from paired data by supervising only the final high-resolution output. This provides little control over how the prediction should evolve between the downsampled observation and its fine target. We introduce GalerkinFlow, an equation-agnostic framework that turns each coarse--fine pair into supervision along an entire reconstruction path. At a random sample of intermediate states on the reconstruction path, the model predicts the coarse-to-fine residual velocity and uses coarse-anchor point to define a pseudo-endpoint. We show that the reconstruction loss of this pseudo-endpoint is exactly related to the intermediate velocity loss through a known time-dependent weight. Consequently, every intermediate state contributes supervision toward the same fine target, rather than serving only as an internal step toward an endpoint loss. Because intermediate states already reveal part of the missing fine-scale structure, we additionally supervise the coarse endpoint used during one-step inference. A finite-difference objective further constrains local spatial variation. GalerkinFlow combines convolutional features with scale-conditioned Galerkin operator mixing and requires no governing equation or physical metadata. It achieves the lowest raw-space errors among the evaluated equation-agnostic baselines on Navier--Stokes and Darcy Flow, while remaining competitive on DIV2K.",
+    "authors": [
+      "Zikang Zhan"
+    ],
+    "published": "2026-08-17T13:18:58",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Most super-resolution models learn from paired data by supervising only the final high-resolution output. This provides little control over how the prediction should evolve between the downsampled observation and its fine target. We introduce GalerkinFlow, an equation-agnostic framework that turns each coarse--fine pair into supervision along an entire reconstruction path. At a random sample of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.16519v1",
+    "title": "Data-Driven Reconstruction of Spatially Resolved Electron and Ion Energy Distributions from Macroscopic Plasma Quantities with Deep Neural Networks",
+    "url": "http://arxiv.org/abs/2608.16519v1",
+    "summary": "Spatially resolved EEDFs/IEDFs provide essential kinetic information about low-temperature plasmas (LTPs) and play a central role in determining transport, chemical reaction rates, and plasma surface interactions. While kinetic simulations directly resolve these distributions, experimental measurements remain challenging and are often invasive, spatially limited, or require assumptions regarding the distribution shape such as a Maxwellian. However, several macroscopic plasma observables can be measured non-invasively using advanced diagnostic techniques, providing spatially resolved information about the plasma state. An important inverse problem is therefore whether readily measurable macroscopic plasma quantities contain sufficient information to reconstruct the underlying kinetic state. In this work, we investigate this problem by learning a nonlinear mapping from spatially resolved macroscopic plasma observables to the corresponding spatially resolved EEDFs/IEDFs using a deep learning framework. Paired datasets comprising 2D macroscopic observables and spatially resolved EDFs are generated using 2D-3V PIC-MCC simulations. Three representative learning paradigms, a U-Net, a FNO, and a MeshGraphNet, are employed in this study to learn this inverse mapping. The predicted EDFs reproduce both bulk plasma and sheath characteristics with good agreement to the PIC-MCC reference data, with the FNO providing the best overall performance. Beyond conventional metrics, physics-based validation demonstrates that the reconstructed EDFs accurately recover the corresponding density and temperature, and rate coefficients. These results demonstrate that macroscopic plasma observables encode sufficient information to infer important kinetic properties in LTPs, providing a potential foundation for surrogate kinetic modeling and next-generation plasma diagnostics.",
+    "authors": [
+      "Libin Varghese",
+      "Kaushik Prajapati",
+      "Bhaskar Chaudhury"
+    ],
+    "published": "2026-08-17T13:02:12",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "physics.plasm-ph"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Spatially resolved EEDFs/IEDFs provide essential kinetic information about low-temperature plasmas (LTPs) and play a central role in determining transport, chemical reaction rates, and plasma surface interactions. While kinetic simulations directly resolve these distributions, experimental measurements remain challenging and are often invasive, spatially limited, or require assumptions regarding\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:iridae-dev/antecedent",
+    "title": "iridae-dev/antecedent \u2014 With Antecedent, you can take analysis from causal structure through estimation, diagnostics, interventions, and counterfactuals.  Antecedent is an identification-first causal inference engine for Python and Rust.",
+    "url": "https://github.com/iridae-dev/antecedent",
+    "summary": "With Antecedent, you can take analysis from causal structure through estimation, diagnostics, interventions, and counterfactuals.  Antecedent is an identification-first causal inference engine for Python and Rust.",
+    "authors": [],
+    "published": "2026-08-20T18:02:20Z",
+    "extras": {
+      "stars": 3,
+      "language": "Rust",
+      "topic": "causal-inference"
+    },
+    "score": 38,
+    "topic": "causal-inference",
+    "why_relevant": "2 keyword hits",
+    "llm_summary": "With Antecedent, you can take analysis from causal structure through estimation, diagnostics, interventions, and counterfactuals.  Antecedent is an identification-first causal inference engine for Python and Rust."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:h3dk4ndi/chronos2-cpp",
+    "title": "h3dk4ndi/chronos2-cpp \u2014 C++17 realised-volatility forecasting pipeline: Bloomberg BLPAPI \u2192 SQLite \u2192 feature engineering \u2192 Chronos-2 inference via ONNX Runtime, benchmarked against HAR-RV and persistence with Diebold-Mariano tests.",
+    "url": "https://github.com/h3dk4ndi/chronos2-cpp",
+    "summary": "C++17 realised-volatility forecasting pipeline: Bloomberg BLPAPI \u2192 SQLite \u2192 feature engineering \u2192 Chronos-2 inference via ONNX Runtime, benchmarked against HAR-RV and persistence with Diebold-Mariano tests.",
+    "authors": [],
+    "published": "2026-08-20T14:52:42Z",
+    "extras": {
+      "stars": 3,
+      "language": "C++",
+      "topic": "econometrics"
+    },
+    "score": 34,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "C++17 realised-volatility forecasting pipeline: Bloomberg BLPAPI \u2192 SQLite \u2192 feature engineering \u2192 Chronos-2 inference via ONNX Runtime, benchmarked against HAR-RV and persistence with Diebold-Mariano tests."
+  }
+]

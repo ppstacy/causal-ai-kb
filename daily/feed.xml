@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-20</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-20/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-20/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Toward Better Assessment of LLMs' Performance in Clinical Error Detection — Causal LMs · score 60 · arXiv cs.LG · Yifan Zhang, Rahmatollah Beheshti
+2. Pattern-Based Sequential Multiple Imputation for Missing Data in Clinical Trials: An Extension for Baseline-Only Early Dropout… — Experimentation · score 56 · arXiv stat.ME · Chen Zhang, Junyu Nie, Kexuan Li, Ning Ding
+3. NP-LEAP: Nonparametric Latent Exchangeability Prior for Model-Lean Borrowing from Historical Data — Experimentation · score 56 · arXiv stat.ME · Ethan M. Alt, Miheer Dewaskar, Jacob M. Maronge, Yuelin Lu et al. (5 authors)
+4. Bessel-Debiased Pseudo-Marginal MCMC for Generalised Bayesian Inference — Uplift / HTE · score 56 · arXiv stat.ME · Yingkai Lu, Jeong Eun Lee, Geoff K. Nicholls
+5. Randomization inference for treatment effects on survival outcomes — Experimentation · score 56 · arXiv stat.ME · Lucy D'Agostino McGowan, Joseph Rigdon, Xinran Li, Dylan Small</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-17</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-17/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-17/</guid>
@@ -207,17 +218,6 @@
       <pubDate>Mon, 13 Jul 2026 13:00:00 +0000</pubDate>
       <description>1. Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine… — Causal Inference · score 44 · Semantic Scholar: double machine learning · Shu Mo, Xinghua Liu
 2. lianxhcn/stata-ai — using Stata with AI-Agent — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-12</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-12/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-12/</guid>
-      <pubDate>Sun, 12 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. Unified Covariate Adjustment for Causal Inference — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, Jin Tian, E. Bareinboim
-2. NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS — Other · score 40 · Semantic Scholar: Guido Imbens causal · S. Athey, M. Bayati, Nikolay Doudchenko, G. Imbens et al. (5 authors)
-3. Rubin Causal Model — Other · score 40 · Semantic Scholar: Guido Imbens causal · G. Imbens, D. Rubin
-4. Causal Imitation for Markov Decision Processes: a Partial Identification Approach — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, E. Bareinboim
-5. On Measuring Causal Contributions via do-interventions — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, S. Kasiviswanathan, Jin Tian, D. Janzing et al. (6 authors)</description>
     </item>
   </channel>
 </rss>
