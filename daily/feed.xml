@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-21</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-21/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-21/</guid>
+      <pubDate>Fri, 21 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Causal inference via propensity scores for case-control studies — Causal Inference · score 60 · arXiv stat.ME · Yan Liu, Anita Koushik, Philippe Boileau, Cong Jiang et al. (8 authors)
+2. py-why/EconML v0.17.0 — Uplift / HTE · score 59 · py-why/EconML releases
+3. Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving — Causal LMs · score 56 · arXiv cs.CL · Mehdi Azarafza, Faezeh Pasandideh, Ali Ehteshami Bejnordi, Stefan Henkler et al. (5 authors)
+4. Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records — Causal LMs · score 52 · arXiv cs.LG · Jun Ni Du, Lukas Adamek, Maxim Kryukov, Flavio Dormont et al. (7 authors)
+5. Decoding silent reading from non-invasive EEG — Causal LMs · score 52 · arXiv cs.LG · Ingo Marquardt, Anthilia Alchanat, Priyanka Jain</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-20</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-20/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-20/</guid>
@@ -210,14 +221,6 @@
 3. Profits and Social Impacts: Complements vs. Tradeoffs for Lenders in Three Countries — Other · score 90 · Semantic Scholar: Susan Athey causal · Susan Athey, Bruno Fava, D. Karlan, Adam Osman et al. (5 authors)
 4. Epistemic Stance Flexibility Probing: Measuring Prompt-Conditioned Register Shift in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Binwen Liu, Yilin Ren
 5. Traffic-Aware Randomized Smoothing for LLM-Based Network Intrusion Detection — Causal LMs · score 56 · arXiv cs.LG · Zhenpeng Li</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-13</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-13/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-13/</guid>
-      <pubDate>Mon, 13 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine… — Causal Inference · score 44 · Semantic Scholar: double machine learning · Shu Mo, Xinghua Liu
-2. lianxhcn/stata-ai — using Stata with AI-Agent — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>

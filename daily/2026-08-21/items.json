@@ -1,0 +1,547 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.20080v1",
+    "title": "Causal inference via propensity scores for case-control studies",
+    "url": "http://arxiv.org/abs/2608.20080v1",
+    "summary": "Propensity score methods for causal inference are increasingly being used in cohort and experimental designs, but their development and uptake in outcome-dependent sampling schemes, such as case-control studies, remains limited. Case-control studies involve the sampling of individuals with and without an outcome of interest with the goal of estimating the effects of past exposures. When the design is observational, statistical adjustment for confounding bias is necessary. In case-control studies, propensity score models can be fit using control data under the assumption that the controls are representative of the source population with respect to their exposure distribution conditional on covariates (\"control exchangeability\"). In this paper, we first demonstrate that relative effects, such as causal risk ratios, are estimable under three different case-control design variants using control-fitted propensity scores. We appropriate two existing estimators for these designs: inverse probability of treatment weighting and an efficient and doubly robust estimator. We also introduce a novel two-step propensity score caliper-matching procedure for case-control designs. We introduce novel diagnostic tools to verify two necessary types of overlap. We then contrast our estimators using simulated data and apply them to examine the association between regular aspirin use and ovarian cancer risk.",
+    "authors": [
+      "Yan Liu",
+      "Anita Koushik",
+      "Philippe Boileau",
+      "Cong Jiang",
+      "Miceline M\u00e9sidor",
+      "Claudia Waddingham",
+      "Denis Talbot",
+      "Mireille E. Schnitzer"
+    ],
+    "published": "2026-08-20T14:13:40",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 60,
+    "topic": "causal-inference",
+    "why_relevant": "3 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Propensity score methods for causal inference are increasingly being used in cohort and experimental designs, but their development and uptake in outcome-dependent sampling schemes, such as case-control studies, remains limited. Case-control studies involve the sampling of individuals with and without an outcome of interest with the goal of estimating the effects of past exposures. When the\u2026"
+  },
+  {
+    "source": "github_release",
+    "source_name": "py-why/EconML releases",
+    "id": "ghrel:py-why/EconML:v0.17.0",
+    "title": "py-why/EconML v0.17.0",
+    "url": "https://github.com/py-why/EconML/releases/tag/v0.17.0",
+    "summary": "This is a major update to EconML, with new features, support for updated versions of our dependencies, and several bugfixes.\r\n\r\n## What's Changed\r\n\r\n### New features\r\n* DRLearner now supports sample trimming. PR by @kbattocchi in https://github.com/py-why/EconML/pull/1021\r\n* EconML supports updated versions of our dependencies; in particular sklearn versions 1.7, 1.8, and 1.9 are supported! This was the work of several people across a number of commits: @kbattocchi in https://github.com/py-why/EconML/pull/1017 and https://github.com/py-why/EconML/pull/1047 (incorporating an idea proposed by @genrichez in https://github.com/py-why/EconML/pull/1046), @justinchen033 in https://github.com/py-why/EconML/pull/1031, and @immu4989 in https://github.com/py-why/EconML/pull/1042\r\n* The MultiModelWrapper utility class has been extended to handle the scenarios formerly handled by the SeparateModel utility class; now SeparateModel has been deprecated. PR by @kbattocchi in https://github.com/py-why/EconML/pull/1039\r\n\r\n### Bug fixes\r\n\r\n* Set include_bias correctly in docs by @kbattocchi in https://github.com/py-why/EconML/pull/1013\r\n* Fix Equation Typo by @HinnyTsang in https://github.com/py-why/EconML/pull/1015\r\n* Make the intent-to-treat terminology clearer by @joonro in https://github.com/py-why/EconML/pull/1020\r\n* Fix off-by-one in score_nuisances for discrete treatments (closes #1006) by @immu4989 in https://github.com/py-why/EconML/pull/1029\r\n* Fix drtester dataframe by @michaelellis00",
+    "authors": [],
+    "published": "2026-08-04T22:40:58",
+    "extras": {
+      "repo": "py-why/EconML",
+      "tag": "v0.17.0",
+      "prerelease": false
+    },
+    "score": 59,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +25 source-type",
+    "llm_summary": "This is a major update to EconML, with new features, support for updated versions of our dependencies, and several bugfixes.\r\n\r\n## What's Changed\r\n\r\n### New features\r\n* DRLearner now supports sample trimming. PR by @kbattocchi in https://github.com/py-why/EconML/pull/1021\r\n* EconML supports updated versions of our dependencies; in particular sklearn versions 1.7, 1.8, and 1.9 are supported! This\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.20129v1",
+    "title": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+    "url": "http://arxiv.org/abs/2608.20129v1",
+    "summary": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal information and generating contextual reasoning, however, their use for direct vehicle control can introduce latency and hallucination risks. To address these limitations, a hybrid framework is proposed. This system uses an orchestrator to coordinate PPO-trained reinforcement learning and PID control, with LLM common-sense reasoning applied throughout the framework. LLM reasoning is further employed iteratively to refine the RL reward function for dynamic driving environments. The proposed framework is evaluated in highly randomized CARLA scenarios under diverse environmental and traffic conditions. The results demonstrate the potential of integrating LLM-based reasoning with conventional autonomous driving methods while retaining structured control and safety mechanism.",
+    "authors": [
+      "Mehdi Azarafza",
+      "Faezeh Pasandideh",
+      "Ali Ehteshami Bejnordi",
+      "Stefan Henkler",
+      "Achim Rettberg"
+    ],
+    "published": "2026-08-20T14:56:15",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.MA"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Autonomous vehicles require robust perception and decision-making capabilities to operate in diverse and unseen scenarios. While reinforcement learning and rule-based methods can provide effective control and safety mechanisms, their performance may degrade in situations requiring contextual reasoning. Large Language Models (LLMs) have demonstrated strong capabilities in understanding multimodal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20315v1",
+    "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
+    "url": "http://arxiv.org/abs/2608.20315v1",
+    "summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that encodes laboratory test results as discrete tokens while retaining graded information through percentile-based binning, paired with Integrated Gradients for token-level attributions grounded in the input EHR sequence. We benchmark our approach on the public EHRShot benchmark suite and on an asthma severity progression study based on real-world data. This addresses a methodological gap in EHR foundation-style modeling by unifying laboratory value representation and explainability in a single framework, while assessing whether both predictive performance and explanations generalize beyond standard clinical prediction tasks. Across EHRShot and asthma tasks, BERT-LER achieves predictive performance that is competitive with, and on laboratory-related tasks often exceeds, publicly available benchmark models, and provides attributions that align with clinically known risk factors. Our architecture and explainability approach can be applied to many therapeutic areas and prediction tasks using language models trained on structured EHRs.",
+    "authors": [
+      "Jun Ni Du",
+      "Lukas Adamek",
+      "Maxim Kryukov",
+      "Flavio Dormont",
+      "Ziv Bar-Joseph",
+      "Sven Jager",
+      "Brandon Rufino"
+    ],
+    "published": "2026-08-20T17:54:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20186v1",
+    "title": "Decoding silent reading from non-invasive EEG",
+    "url": "http://arxiv.org/abs/2608.20186v1",
+    "summary": "Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person's spontaneous inner monologue cannot be collected, and the available proxy paradigms (cued repetitive and retrospectively reported generative inner speech) are slow to acquire, poorly time-locked, and subject compliance is unverifiable. We therefore treat silent reading as a scalable proxy task and ask how much lexical and semantic information a contrastive decoder can extract from it. We report an open-vocabulary analysis of approximately 240,000 word presentations recorded from a single densely-sampled participant across 393 runs (ca. 49 h) of 19-channel dry-electrode EEG. Words from continuous narrative text were presented in rapid serial visual presentation, with typography randomised on every trial to partially decorrelate word identity from low-level visual form. A convolutional EEG encoder, optionally followed by a causal transformer, was trained with a CLIP-style contrastive objective to align short EEG windows with hidden-state embeddings of the presented word taken from a large language model. Decoding, evaluated as word-grouped top-10 retrieval against permutation baselines, was reliably above chance, extended to mid-frequency and rare words, and scaled log-linearly with training-data volume with no sign of saturation. Removing occipital and posterior-temporal electrodes reduced the word-level gain by roughly one third but left context tracking unchanged. Control analyses separate word-level decoding from narrative context tracking and from a non-neural positional prior introduced by the transformer's positional embedding. These results establish that open-vocabulary word-level information is recoverable from EEG during silent reading, and that decoding is data-limited rather than saturated.",
+    "authors": [
+      "Ingo Marquardt",
+      "Anthilia Alchanat",
+      "Priyanka Jain"
+    ],
+    "published": "2026-08-20T15:41:05",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Non-invasive decoding of inner speech faces a fundamental data problem: a corpus pairing brain activity with a person's spontaneous inner monologue cannot be collected, and the available proxy paradigms (cued repetitive and retrospectively reported generative inner speech) are slow to acquire, poorly time-locked, and subject compliance is unverifiable. We therefore treat silent reading as a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20054v1",
+    "title": "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+    "url": "http://arxiv.org/abs/2608.20054v1",
+    "summary": "Multi-module systems often expose every module to the full input. We test whether restricting evidence visibility changes which solutions gradient-based training discovers. Four-cell societies share one frozen pretrained language model and one low-rank adapter, communicating only through two model-width continuous vectors in a fixed relay. On a prospectively sealed natural-language function-composition task, we train ten matched restricted/global pairs sharing initialization bytes, training order, token layout, parameters, and computation; only the attention mask differs. Restricted societies outperform their globally visible twins by at least 20 points at both depths in 9 of 10 pairs, with median paired advantages of 0.7648 and 0.6050. Cutting communication reduces every restricted society to chance, and the depth-three advantage remains 0.558 on programs whose composite function never appeared in training. Across six audited restricted societies, same-value packet transplants preserve behavior at 0.94-1.00 across all tested interfaces; destructive interventions collapse performance; and counterfactual packets redirect outputs toward the mathematically predicted answer. The sole high-performing global model also requires communication, but its same-value packets are not interchangeable across episodes. Restricted visibility is thus not necessary for composition; under this protocol it substantially increases the probability of a generalizing relay and favors a reusable, value-indexed interface. The complete preregistered battery nevertheless formally fails because restricted-arm median depth-three accuracy is 0.6988, below the 0.70 floor. An earlier qualification cohort likewise yielded 0/10 complete passes: one model met every task-performance gate, but all ten failed ordinary-language preservation, confining the system to explicitly task-gated use.",
+    "authors": [
+      "Narcis Marincat"
+    ],
+    "published": "2026-08-20T13:51:45",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Multi-module systems often expose every module to the full input. We test whether restricting evidence visibility changes which solutions gradient-based training discovers. Four-cell societies share one frozen pretrained language model and one low-rank adapter, communicating only through two model-width continuous vectors in a fixed relay. On a prospectively sealed natural-language\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.20320v1",
+    "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+    "url": "http://arxiv.org/abs/2608.20320v1",
+    "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations. Weather-related associations were analyzed using a multinomial logit model, while logistic regression and random forest provided machine-learning benchmarks. Nine locally deployed large language models (LLMs), ranging from 2 to 35 billion parameters, were evaluated across four zero-shot prompt-and-context conditions and extended through persona, few-shot, and vision-based configurations. Random forest achieved 69.6% five-class accuracy, while the best text-only zero-shot LLM reached 69.9% without task-specific fitting. Habitual travel information produced the most consistent gains, Expert framing generally outperformed Role-Play, and persona information was most useful when habitual travel information was unavailable. Few-shot prompting improved prediction for several models, with gains stabilizing after a small number of examples. Using the same weather images shown to respondents, the best vision-based configuration reached 71.5% five-class accuracy, indicating that visual context may provide additional predictive information for selected models. Overall, the study shows how conversational surveys, structured data processing, conventional behavioral modeling, machine learning, and multimodal LLM prediction can be coordinated within an auditable multi-agent workflow.",
+    "authors": [
+      "Narges Ahmadi",
+      "Yubo Jiao",
+      "J\u00f4natas Augusto Manzolli",
+      "Jiangbo Yu",
+      "Luis Miranda-Moreno"
+    ],
+    "published": "2026-08-20T17:57:42",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.20274v1",
+    "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
+    "url": "http://arxiv.org/abs/2608.20274v1",
+    "summary": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains an open question. We conduct a comprehensive and controlled study of how the way skills are induced shapes their transfer across tasks. Specifically, we compare task-level with subtask-level skill induction and text with code skill formats, the two axes along which existing methods differ. Task-level skills mostly reduce the agent's performance below its no-memory baseline while subtask-level skills raise it above on average, and text skills transfer better than code skills. To further understand our findings, we examine two complementary properties of the induced skills: specificity, which measures how closely a skill matches real tasks, and abstractness, which measures how evenly its relevance spreads across tasks. Neither property alone predicts task success, but their combined effect does, which we propose as a skill utility score. The score correlates consistently with task success when skills are transferred, and subtask-level and text skills score higher. Computing skill utility only needs the skills and task descriptions but not any task execution, so our score serves as a practical diagnostic of a skill memory before any new task runs.",
+    "authors": [
+      "Yiyang Feng",
+      "Biddut Sarker Bijoy",
+      "Niranjan Balasubramanian",
+      "Jiawei Zhou"
+    ],
+    "published": "2026-08-20T17:12:08",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains an open question. We conduct a comprehensive and controlled study of how the way skills are induced\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.20116v1",
+    "title": "When Text and Numbers Disagree: Evidence Arbitration in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.20116v1",
+    "summary": "Large language models (LLMs) are increasingly used in settings where textual summaries, numerical observations, and external tool outputs may provide conflicting evidence. We study how LLMs arbitrate between such sources when they support opposing decisions. To do so, we introduce a controlled synthetic benchmark in which latent risk trajectories generate both numerical time series and natural language summaries, allowing us to construct conflicts where exactly one evidence source is aligned with the ground-truth label. This design lets us independently manipulate modality, temporal recency, source reliability, and evidence provenance. Across open-weight instruction-tuned models, we find that arbitration behaviour is systematic rather than random: models exhibit distinct text-versus-number preferences, follow temporal recency more consistently than explicit reliability cues, and can over-rely on external forecasts even when they conflict with direct contextual evidence. These results suggest that current LLMs often rely on heuristic arbitration strategies when integrating heterogeneous evidence, highlighting a failure mode for tool-augmented decision systems.",
+    "authors": [
+      "Mattia Carletti",
+      "Edward Phillips",
+      "Fredrik K. Gustafsson",
+      "Patitapaban Palo",
+      "Lei Clifton",
+      "Danielle Belgrave",
+      "Xiao Gu",
+      "David A. Clifton"
+    ],
+    "published": "2026-08-20T14:48:30",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) are increasingly used in settings where textual summaries, numerical observations, and external tool outputs may provide conflicting evidence. We study how LLMs arbitrate between such sources when they support opposing decisions. To do so, we introduce a controlled synthetic benchmark in which latent risk trajectories generate both numerical time series and natural\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.20258v1",
+    "title": "DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers",
+    "url": "http://arxiv.org/abs/2608.20258v1",
+    "summary": "Decision tree-based models are widely used in machine learning due to their interpretability and strong empirical performance. However, training decision trees can be computationally expensive, particularly for large and high-dimensional datasets, largely due to the exhaustive search over candidate splits at each node. To improve computational efficiency, we propose Data-Informed Centroid Splitting (DICS), a clustering-based framework that constructs a compact and informative set of candidate splits using data-driven priors. By incorporating class-aware structure, DICS significantly reduces the split search space for classification tasks while preserving predictive performance. We further provide theoretical analysis showing that under the stated assumptions, DICS does not degrade the performance of classification trees compared to exhaustive split search. DICS can be incorporated into classification trees, random forests, and gradient-boosting models. Extensive experiments demonstrate that DICS achieves comparable accuracy while substantially reducing training time across synthetic and benchmark datasets, highlighting the benefit of integrating data-informed priors into split selection for scalable classification tree learning.",
+    "authors": [
+      "MD Saifur Rahman Mazumder",
+      "Feng Yu"
+    ],
+    "published": "2026-08-20T16:54:17",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Decision tree-based models are widely used in machine learning due to their interpretability and strong empirical performance. However, training decision trees can be computationally expensive, particularly for large and high-dimensional datasets, largely due to the exhaustive search over candidate splits at each node. To improve computational efficiency, we propose Data-Informed Centroid\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.20260v1",
+    "title": "From Kriging to Spatial AI: Fifty Years of Spatial Statistics for Complex Dependent Data",
+    "url": "http://arxiv.org/abs/2608.20260v1",
+    "summary": "Spatial statistics has grown from kriging for spatial prediction into a broad framework for learning from complex dependent data. This article traces that development from random fields and spectral methods to Bayesian hierarchical models and scalable computation. It then connects these foundations to Spatial AI, where graph learning and neural networks are being adapted to spatially dependent data. The article introduces the main ideas behind kriging and nonstationarity and explains how data fusion and uncertainty quantification extend spatial inference to more complex settings. The central contribution is a unified account of how these developments lead naturally to new forms of Spatial AI. Rather than treating spatial statistics and machine learning as separate traditions, we show how both learn from dependence while preserving interpretable structure. We also examine how spatial geometry and physical knowledge can guide flexible representation learning and support scientifically meaningful prediction.",
+    "authors": [
+      "Montserrat Fuentes",
+      "Veronica B. Patterson"
+    ],
+    "published": "2026-08-20T16:54:36",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Spatial statistics has grown from kriging for spatial prediction into a broad framework for learning from complex dependent data. This article traces that development from random fields and spectral methods to Bayesian hierarchical models and scalable computation. It then connects these foundations to Spatial AI, where graph learning and neural networks are being adapted to spatially dependent\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.20187v1",
+    "title": "Multi-Method Causal Evidence Synthesis: Ranking Candidate Drivers by Convergent Cross-Method Evidence from Observational Data",
+    "url": "http://arxiv.org/abs/2608.20187v1",
+    "summary": "Practitioners inferring causality from observational data usually rely on a single method and treat its output as causal truth. Recent tools select an optimal method for a dataset, and recent ensembles aggregate multiple causal-discovery algorithms into one graph, but little work pools evidence across different mathematical traditions, including non-causal ones. We present Multi-Method Causal Evidence Synthesis (MCES), a framework that ranks which candidate drivers in an observational system are most likely relevant to a set of outcomes, and with what strength of evidence. MCES runs eleven methods across eight mathematical traditions on observational panel data and pools their outputs into a Convergent Evidence Score (CES), a linear opinion pool. CES quantifies convergence of evidence across analytical lenses: the degree to which methods with different assumptions point to the same driver-outcome relationship. It does not claim causal identification in the interventionist sense; it supports hypothesis prioritization, not a transferable probability of causation. MCES first applies Structural-Behavioral Decomposition to remove definitional (algebraic) relationships, then runs all methods, normalizes outputs to [0,1], and pools them. We distinguish MCES from method selection, structural ensembles, prediction ensembles, and literature synthesis. Using synthetic data with embedded ground truth, the Sachs protein-signaling benchmark, six Bayesian-network structure benchmarks, and two further synthetic domains, we show MCES ranks true edges near the top (Precision@5 = 1.0, Precision@10 = 0.96 on the primary scenario), with a low empirical rate of null pairs reaching Moderate-or-higher convergence. Our central point is not that the pool beats every individual method, but that no single method is uniformly best across the evaluated scenarios, so MCES offers a method-agnostic default.",
+    "authors": [
+      "Manish Gupta",
+      "Dipanjan De"
+    ],
+    "published": "2026-08-20T15:41:18",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Practitioners inferring causality from observational data usually rely on a single method and treat its output as causal truth. Recent tools select an optimal method for a dataset, and recent ensembles aggregate multiple causal-discovery algorithms into one graph, but little work pools evidence across different mathematical traditions, including non-causal ones. We present Multi-Method Causal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20280v1",
+    "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
+    "url": "http://arxiv.org/abs/2608.20280v1",
+    "summary": "Semantic caches reuse an LLM response when the incoming query embedding lies near a cached query, but proposed eviction policies have rarely been compared under one protocol. Using CLEVER, we evaluate FIFO, LRU, LFU, ARC, GDSF, a single-pass streaming adaptation of SISO, and a semantic-redundancy policy across three ordered, deduplicated query corpora, three cache capacities, and two encoders. No evaluated policy improves on LFU by more than 0.041 percentage points in any of the eighteen settings. Replacement is not irrelevant: FIFO and streaming SISO trail LFU by as much as 8.67 and 8.55 points, respectively, at tight capacity.   We explain the missing upside with a conditional packing result. Under exact lookup and insert-on-miss, a newly inserted entry cannot have a resident neighbor within the hit radius, so a geometry-aware eviction rule receives little new redundancy signal. A separate audit exposes a larger problem with the evaluated operating point. At MiniLM's median nearest-neighbor threshold, only 2.1-3.9% of sampled LMSYS and QQP hits are judged answer-substitutable, reducing raw hit rates of 51-60% to quality-adjusted rates of 1.1-2.2%. The cross-encoder study further shows that thresholds do not transfer between embedding models. LFU is the strongest simple default in this protocol; deployment decisions should first establish answer validity and then test sub-point policy differences with exact search.",
+    "authors": [
+      "Yash Kulkarni",
+      "Shubham Harkare",
+      "Arvind Suresh Yogesh Babu"
+    ],
+    "published": "2026-08-20T17:14:19",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.DB"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Semantic caches reuse an LLM response when the incoming query embedding lies near a cached query, but proposed eviction policies have rarely been compared under one protocol. Using CLEVER, we evaluate FIFO, LRU, LFU, ARC, GDSF, a single-pass streaming adaptation of SISO, and a semantic-redundancy policy across three ordered, deduplicated query corpora, three cache capacities, and two encoders. No\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20169v1",
+    "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+    "url": "http://arxiv.org/abs/2608.20169v1",
+    "summary": "We present a novel approach to efficient LLM agent harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling substantial performance gains without updating the underlying model weights. Existing approaches, however, evaluate a fixed validation set in full at every iteration, incurring substantial evaluation costs even on tasks that become less discriminative as the harness evolves. We propose $\\textbf{Task-CoEvolve}$, which co-evolves the validation tasks with the harness by addressing two challenges: selecting informative tasks and estimating full-set performance from partial evaluations. Task-CoEvolve builds on the observation that tasks on which candidate harnesses disagree are more informative for distinguishing among them than tasks that are consistently solved or failed. It uses variance-weighted sampling based on past outcomes to focus evaluation on tasks near the agent's capability frontier, with the sampling distribution adapting as the harness evolves. It then estimates full-set scores from the sampled tasks by accounting for their sampling probabilities, enabling consistent comparisons across iterations despite evaluating different subsets. Experiments on online text classification and Terminal-Bench 2.1 show that Task-CoEvolve consistently outperforms fixed-subset baselines and matches the final performance of full-set search while reducing the number of evaluations during optimization by 80%. Code will be released at https://github.com/Agent4Science-UTokyo/Task-CoEvolve.",
+    "authors": [
+      "Atsuyuki Miyai",
+      "Kiyoharu Aizawa",
+      "Toshihiko Yamasaki"
+    ],
+    "published": "2026-08-20T15:24:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "We present a novel approach to efficient LLM agent harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling substantial performance gains without updating the underlying model weights. Existing approaches, however, evaluate a fixed validation set in full at every iteration, incurring\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20337v1",
+    "title": "Information on trajectories: martingales and random times",
+    "url": "http://arxiv.org/abs/2608.20337v1",
+    "summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step conditional divergences. The discarded slack has an exact form in each of three geometries: a Gibbs tilt for the Azuma-Hoeffding and PAC-Bayes bounds, the crossing itself for Ville's and for pooled tests, and a dominating certificate for the $L^p$ maximal bound. That certificate's optional-stopping deficit resolves per step into Bregman divergences of the running maximum. On a path-time space, the same identity gains one factor that prices anticipation: an arbitrary random time carries an e-process ``peeking penalty.'' The partition function can be read as a coalescent--a prefix-sharing probability of independent copies--and geometric mixtures of test martingales gain a pooling benefit for multi-model safe testing.",
+    "authors": [
+      "Akshay Balsubramani"
+    ],
+    "published": "2026-08-20T17:59:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "math.PR"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20322v1",
+    "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+    "url": "http://arxiv.org/abs/2608.20322v1",
+    "summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addition, the performance of ceiling-mounted radars, despite their practical deployment and cost advantages in healthcare environments, remain underexplored. Therefore, this paper presents a controlled comparison and analysis of ceiling-mounted FMCW, IR-UWB, and Wi-Fi sensing using synchronized recordings from 20 participants across six room layouts. All technologies are evaluated with the same convolutional neural network (CNN) on both a fine-grained 10-class human activity recognition (HAR) task and a coarse 4-class sleep monitoring task. IR-UWB achieves the highest cross-subject activity recognition performance (89.0% macro F1), while FMCW generalizes best to unseen room layouts (83.8% macro F1). For sleep monitoring, all technologies exceed 92% macro F1 in unseen environments. The results reveal a fundamental trade-off between recognition performance and environmental robustness, which can be explained through differences in range resolution, antenna diversity, Doppler resolution, and spatial information retention. These findings provide practical guidelines for the design of healthcare-oriented RF sensing systems.",
+    "authors": [
+      "Anton Lambrecht",
+      "Reda El Hail",
+      "Xianjun Jiao",
+      "Pieter Crombez",
+      "Dominique Schreurs",
+      "Peter Karsmakers",
+      "Adnan Shahid",
+      "Eli De Poorter"
+    ],
+    "published": "2026-08-20T17:58:22",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20285v1",
+    "title": "Dynamic Structural Causal Modeling for Sleep",
+    "url": "http://arxiv.org/abs/2608.20285v1",
+    "summary": "The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in causal structure across sex and age subcohorts. We do so using the PCMCI+ algorithm on windowed fractional variables derived from 105 HSAT recordings, exploiting domain knowledge via edge blacklisting and employing bootstrap aggregation to address small subcohort sizes. The learned graphs show that temporal self-dependencies and the apnea-desaturation relationship persist across all cohorts, while other relationships vary substantially.",
+    "authors": [
+      "Ranveer Singh",
+      "Saurabh Mathur",
+      "Pranuthi Tenali",
+      "Arun Badi",
+      "Sriraam Natarajan"
+    ],
+    "published": "2026-08-20T17:20:09",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in causal structure across sex and age subcohorts. We do so using the PCMCI+ algorithm on windowed\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20104v1",
+    "title": "Structured Affinity for Unsupervised Visual Class-Incremental Memory in Deep Artificial Immune Networks",
+    "url": "http://arxiv.org/abs/2608.20104v1",
+    "summary": "Artificial immune networks (AINs) are naturally memory-forming systems, but conventional visual AINs often rely on flattened vector affinity that ignores spatial structure. This paper studies whether structured, gradient-free immune affinity can make Deep AINs viable as replay-free visual class-incremental representation-memory learners. Visual B-cells are formalized as structured templates, including shifted-template affinity, zero-normalized cross-correlation (ZNCC) filters, and feature-map binding profiles. A repertoire is treated both as memory and as a representation-inducing basis, while depth is obtained by passing binding-profile response maps to subsequent immune layers. The resulting Deep AIN exhibits adaptive latent coordinate reorganization: as new classes arrive, the binding-profile space evolves while retaining recoverable structure for earlier classes. Experiments on sklearn digits, MNIST, Fashion-MNIST, and KMNIST show that preserving response maps is critical. Scalar binding-profile variants underperform, whereas feature-map Deep AINs learn class-discriminative visual memory without replay, label-driven immune updates, or backpropagation through the immune layers. On sklearn digits, downstream probes fitted on the learned binding profiles reach 0.939 final balanced accuracy with logistic regression and 0.902 with 1-nearest-neighbour after all ten classes are encountered, with initial-class retention of 0.978. Adaptive layer-wise scale calibration further improves the two-layer feature-map Deep AIN to 0.978 balanced accuracy. With the same calibration rule, Fashion-MNIST reaches 0.814 and KMNIST reaches 0.853. These probes are external validation tools, not components of the AIN. The results identify structured affinity, response-map preservation, adaptive latent reorganization, and layer-wise scale calibration as key mechanisms for replay-free visual immune memory.",
+    "authors": [
+      "Siphesihle Sithungu"
+    ],
+    "published": "2026-08-20T14:34:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Artificial immune networks (AINs) are naturally memory-forming systems, but conventional visual AINs often rely on flattened vector affinity that ignores spatial structure. This paper studies whether structured, gradient-free immune affinity can make Deep AINs viable as replay-free visual class-incremental representation-memory learners. Visual B-cells are formalized as structured templates,\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: double machine learning",
+    "id": "s2:4e123f6bc48d99d846417fdf4b36526e6248c38b",
+    "title": "Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine learning",
+    "url": "https://www.semanticscholar.org/paper/4e123f6bc48d99d846417fdf4b36526e6248c38b",
+    "summary": "",
+    "authors": [
+      "Shu Mo",
+      "Xinghua Liu"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Energy Policy",
+      "query": "double machine learning"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Strengthening the resilience of urban energy systems amid renewable energy transition: A new method based on double machine learning"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20295v1",
+    "title": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
+    "url": "http://arxiv.org/abs/2608.20295v1",
+    "summary": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the same selected support. We develop resolution-aware physical-support inference that jointly accounts for uncertainty in the learned dictionary and in the representation of a deployment signal. Our cross-dictionary confidence correspondence retains calibration-compatible dictionaries and deployment-compatible sparse representations, then projects the surviving explanations onto physical-support space. For local coherent-atom classes with separation scale s, once the deployment data resolve the coherent-block explanation and its atom support, the minimax physical resolution from N calibration signals satisfies $\u03b4_{\\mathrm{opt}}(N,s)\\asymp\\min\\{s,\\frac{1}{\\sqrt{N}s^2}\\}$, with relative resolution governed by the orientation-information scale $Ns^6$. Deployment replication improves physical localization only when orientation changes cannot be absorbed by adjusting the active coefficients. For computation, we introduce active endpoint bracketing (AEB), an adaptive finite-bank procedure that evaluates only candidates that can still affect the physical report and otherwise safely coarsens or abstains. Finite-bank experiments, including a four-region synthetic application, show that a point-valued plug-in selector can be physically overprecise, whereas AEB avoids unsupported refinement with fewer candidate evaluations.",
+    "authors": [
+      "Guan-Ju Peng"
+    ],
+    "published": "2026-08-20T17:35:26",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the same selected support. We develop resolution-aware physical-support inference that jointly accounts\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20024v1",
+    "title": "Systematic Evaluation of TabPFN-TS for Zero-Shot Probabilistic Heat Load Forecasting in District Heating Networks",
+    "url": "http://arxiv.org/abs/2608.20024v1",
+    "summary": "District heating energy hubs require reliable heat load forecasts for efficient operational scheduling. Conventional forecasting workflows train system-specific models on historical data, which can become burdensome when networks change through new consumers, retrofits, or changing operating regimes. Zero-shot time-series foundation models and in-context forecasting offer a promising alternative: they can adapt at inference time from recent observations rather than by repeated retraining. This study systematically evaluates TabPFN-TS against time-series foundation models and trained machine-learning baselines for probabilistic heat load forecasting in district heating networks. Unlike foundation models pretrained on large collections of real time series, TabPFN-TS relies on synthetic pretraining data, which avoids direct pretraining-test overlap but raises the question of whether the learned prior captures district heating dynamics. We analyze covariate choice, context length, temporal resolution, and prediction horizon on representative operating weeks, validate the selected configuration over a full year, and test transferability on a second network. The results identify hourly 24-hour forecasting with a 12-week rolling context and ambient temperature as a parsimonious high-performing configuration; longer context windows do not improve accuracy. TabPFN-TS remains close to Chronos-2 in deterministic accuracy, reaching CVRMSE values of 13.06% versus 12.48% on the main dataset, and lies within the critical-difference threshold in the daily-rank comparison. Although Chronos-2 achieves the lowest aggregate full-year error, TabPFN-TS shows better empirical calibration. Finally, the diagnostic findings motivate a Multi-Resolution Residual-Correction Forecaster that combines a low-frequency Base Forecaster with a short-horizon Residual Forecaster to improve longer-horizon planning accuracy.",
+    "authors": [
+      "Ben Spoek",
+      "Karim K. Ben Hicham",
+      "Kai Derzsi",
+      "Philipp Althaus",
+      "Alexander Mitsos",
+      "Dirk M\u00fcller"
+    ],
+    "published": "2026-08-20T13:33:37",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "District heating energy hubs require reliable heat load forecasts for efficient operational scheduling. Conventional forecasting workflows train system-specific models on historical data, which can become burdensome when networks change through new consumers, retrofits, or changing operating regimes. Zero-shot time-series foundation models and in-context forecasting offer a promising alternative:\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.20005v1",
+    "title": "Scale-Aware Pretraining of Time Series Foundation Models via Multi-Patch Token Alignment and Hybrid Masking",
+    "url": "http://arxiv.org/abs/2608.20005v1",
+    "summary": "Pretraining time series foundation models across heterogeneous datasets necessitates effective handling of varying sampling frequencies. Current methods either employ dataset-specific patch sizes and separate FFNs, leading to fragmented representations, or enforce a fixed patch size that neglects inherent temporal variations. To address this, we propose SATS, featuring a scale-aware token alignment mechanism that treats patch size as an explicit notion of scale. By incorporating a contrastive-inspired alignment regularizer, SATS aligns representation spaces across scales while preserving distinct modeling capacities. Furthermore, a hybrid masking strategy combining random and contiguous masking is introduced to capture multi-scale temporal structures. Experimental results on LSTF benchmarks demonstrate that SATS achieves a 9.2% improvement in MSE and an 8.3% gain in GIFT-Eval MASE compared to competitive baselines. Notably, SATS consistently delivers SOTA performance while achieving a 65.6% increase in model efficiency over advanced baselines, highlighting its effectiveness and scalability in time series pretraining.",
+    "authors": [
+      "Taihua Chen",
+      "Xiang Ma",
+      "Yixin Zhang",
+      "Tailin Zhan",
+      "Manyu Sun",
+      "Lizhen Cui"
+    ],
+    "published": "2026-08-20T13:20:58",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Pretraining time series foundation models across heterogeneous datasets necessitates effective handling of varying sampling frequencies. Current methods either employ dataset-specific patch sizes and separate FFNs, leading to fragmented representations, or enforce a fixed patch size that neglects inherent temporal variations. To address this, we propose SATS, featuring a scale-aware token\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.20331v1",
+    "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+    "url": "http://arxiv.org/abs/2608.20331v1",
+    "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical reports in accurate and accessible language based on a user's query and dialogue history. These two objectives differ fundamentally in their verifiability, yet remain tightly coupled, making them difficult to optimize jointly under conventional supervised fine-tuning and holistic reinforcement learning paradigms. To address this challenge, we propose G-CARL, a grounded, checklist-aligned reinforcement learning framework that combines multi-source retrieval for atomic claim verification with context-aware, instance-specific weighted checklists for response coverage, providing structured supervision for factuality, user-demand satisfaction, and expression quality without constraining response diversity. We further construct MMedReport, a real-world PMRI benchmark, along with a clinician-designed three-dimensional evaluation protocol. Extensive experiments demonstrate that G-CARL consistently outperforms existing post-training baselines in overall quality, claim-level precision, and checklist recall. Pairwise preference evaluation by clinicians further confirms that G-CARL produces interpretations that are more accurate and better aligned with patient needs.",
+    "authors": [
+      "Shiao Xie",
+      "Siyu Chen",
+      "Jianwei Lv",
+      "Bo Yuan",
+      "Yujin Wang",
+      "Xiandong Li"
+    ],
+    "published": "2026-08-20T17:59:46",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:Shaky77/Weiwen-s_Law",
+    "title": "Shaky77/Weiwen-s_Law \u2014 AI\u7cfb\u7edf\u7ed3\u6784\u5316\u56e0\u679c\u903b\u8f91\u6846\u67b6\u2014\u2014\u53ef\u5ba1\u8ba1\u3001\u53ef\u8ffd\u6eaf\u7684\u63a8\u7406\uff0c\u65e0\u9700\u66ff\u6362\u73b0\u6709\u6a21\u578b\u3002\u5b88\u771f\u00b7\u7a33\u6001\uff08KISS's Law\uff09\u3002\u6781\u7701Token\uff0c\u4e0e\u9ed1\u7bb1\u5171\u5b58\u3002",
+    "url": "https://github.com/Shaky77/Weiwen-s_Law",
+    "summary": "AI\u7cfb\u7edf\u7ed3\u6784\u5316\u56e0\u679c\u903b\u8f91\u6846\u67b6\u2014\u2014\u53ef\u5ba1\u8ba1\u3001\u53ef\u8ffd\u6eaf\u7684\u63a8\u7406\uff0c\u65e0\u9700\u66ff\u6362\u73b0\u6709\u6a21\u578b\u3002\u5b88\u771f\u00b7\u7a33\u6001\uff08KISS's Law\uff09\u3002\u6781\u7701Token\uff0c\u4e0e\u9ed1\u7bb1\u5171\u5b58\u3002",
+    "authors": [],
+    "published": "2026-08-19T08:04:41Z",
+    "extras": {
+      "stars": 5,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "AI\u7cfb\u7edf\u7ed3\u6784\u5316\u56e0\u679c\u903b\u8f91\u6846\u67b6\u2014\u2014\u53ef\u5ba1\u8ba1\u3001\u53ef\u8ffd\u6eaf\u7684\u63a8\u7406\uff0c\u65e0\u9700\u66ff\u6362\u73b0\u6709\u6a21\u578b\u3002\u5b88\u771f\u00b7\u7a33\u6001\uff08KISS's Law\uff09\u3002\u6781\u7701Token\uff0c\u4e0e\u9ed1\u7bb1\u5171\u5b58\u3002"
+  }
+]
