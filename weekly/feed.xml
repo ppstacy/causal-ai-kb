@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W34</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W34/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W34/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:00:00 +0000</pubDate>
+      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
+2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
+3. Causal inference via propensity scores for case-control studies — Causal Inference · score 60 · arXiv stat.ME · Yan Liu, Anita Koushik, Philippe Boileau, Cong Jiang et al. (8 authors)
+4. Toward Better Assessment of LLMs' Performance in Clinical Error Detection — Causal LMs · score 60 · arXiv cs.LG · Yifan Zhang, Rahmatollah Beheshti
+5. py-why/EconML v0.17.0 — Uplift / HTE · score 59 · py-why/EconML releases</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W33</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W33/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W33/</guid>
