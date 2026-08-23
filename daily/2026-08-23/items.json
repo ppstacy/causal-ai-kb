@@ -1,0 +1,255 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "summary": "",
+    "authors": [
+      "Loka Li",
+      "Haoyue Dai",
+      "Hanin Al Ghothani",
+      "Biwei Huang",
+      "Jiji Zhang",
+      "Shahar Harel",
+      "Isaac Bentwich",
+      "Guan-Hong Chen",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:deb9e9261b851004322a476a7b7e5d35e530e2d4",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/deb9e9261b851004322a476a7b7e5d35e530e2d4",
+    "summary": "",
+    "authors": [
+      "Hanin Al Ghothani",
+      "Isaac Bentwich",
+      "Guan-Hong Chen",
+      "Haoyue Dai",
+      "Shahar Harel",
+      "Biwei Huang",
+      "Loka Li",
+      "Jiji Zhang",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "title": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "summary": "",
+    "authors": [
+      "M. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Guido Imbens causal",
+    "id": "s2:c1b7291e42b65406bfdc8ab8dea328590583248e",
+    "title": "NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS",
+    "url": "https://www.semanticscholar.org/paper/c1b7291e42b65406bfdc8ab8dea328590583248e",
+    "summary": "",
+    "authors": [
+      "S. Athey",
+      "M. Bayati",
+      "Nikolay Doudchenko",
+      "G. Imbens",
+      "Khashayar Khosravi"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Guido Imbens causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:04b2bd089a2a84f3ca518c85045c81e6edac5775",
+    "title": "Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome",
+    "url": "https://www.semanticscholar.org/paper/04b2bd089a2a84f3ca518c85045c81e6edac5775",
+    "summary": "",
+    "authors": [
+      "M. J. Laan",
+      "Alexander Luedtke"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:9a8385e082bbc4479d7054cc9d8c64ec9ed0b7b3",
+    "title": "Online Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/9a8385e082bbc4479d7054cc9d8c64ec9ed0b7b3",
+    "summary": "",
+    "authors": [
+      "M. J. Laan",
+      "S. Lendle"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Online Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:396207031c986b8e4edb94b3f233a3e0659ee137",
+    "title": "Online targeted learning for time series",
+    "url": "https://www.semanticscholar.org/paper/396207031c986b8e4edb94b3f233a3e0659ee137",
+    "summary": "",
+    "authors": [
+      "M. J. Laan",
+      "A. Chambaz",
+      "S. Lendle"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Online targeted learning for time series"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fbfcb895fe963cf46bbbf3c3171a2e43d1fe6184",
+    "title": "Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints",
+    "url": "https://www.semanticscholar.org/paper/fbfcb895fe963cf46bbbf3c3171a2e43d1fe6184",
+    "summary": "",
+    "authors": [
+      "Boriska Toth",
+      "M. J. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:eddc2deb1dc88b61137df2877ec6970d669a8997",
+    "title": "Targeted Learning for Causality and Statistical Analysis in Medical Research",
+    "url": "https://www.semanticscholar.org/paper/eddc2deb1dc88b61137df2877ec6970d669a8997",
+    "summary": "",
+    "authors": [
+      "Sherri Rose",
+      "R. Starmans",
+      "M. J. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning for Causality and Statistical Analysis in Medical Research"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:77d8191e1127630b4d5404616a0fc162c45eba5b",
+    "title": "Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders",
+    "url": "https://www.semanticscholar.org/paper/77d8191e1127630b4d5404616a0fc162c45eba5b",
+    "summary": "",
+    "authors": [
+      "A. Chambaz",
+      "Sherri Rose",
+      "J. Bouyer",
+      "M. J. Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:78162d4873a44139739711c37f3203cb451336f5",
+    "title": "Submitted to the Annals of Statistics TARGETED SEQUENTIAL DESIGN FOR TARGETED LEARNING INFERENCE OF THE OPTIMAL TREATMENT RULE AND ITS MEAN REWARD / SUPPLEMENTAL ARTICLE By",
+    "url": "https://www.semanticscholar.org/paper/78162d4873a44139739711c37f3203cb451336f5",
+    "summary": "",
+    "authors": [
+      "A. Chambaz",
+      "Wenjing Zheng",
+      "M. V. der",
+      "Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Submitted to the Annals of Statistics TARGETED SEQUENTIAL DESIGN FOR TARGETED LEARNING INFERENCE OF THE OPTIMAL TREATMENT RULE AND ITS MEAN REWARD / SUPPLEMENTAL ARTICLE By"
+  }
+]
