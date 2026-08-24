@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-24</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-24/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-24/</guid>
+      <pubDate>Mon, 24 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. JingxuanC/causal-memory — Causal memory layer for AI agents — MCP server that records decision→outcome relationships. Survives… — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-23</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-23/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-23/</guid>
@@ -211,17 +218,6 @@
 3. Tools Are Not Islands: Set-Level Tool Retrieval for LLM Agents via Query-Conditioned Hyperedge Prediction — Causal LMs · score 56 · arXiv cs.LG · Xinyi Hong, Pinjun Dong, Xinyang Yu, Binyan Jiang
 4. Can Deep Generative Models Reproduce Non-Stationary Gaussian Random Fields? — Other · score 48 · arXiv stat.ML · Daniel Kua, Yan Song
 5. Testing Microbiome Community Differences in High Dimensions: A Bootstrap Approach for Compositional Data — Other · score 48 · arXiv stat.ME · Monika Bhattacharjee, Nilanjan Chakraborty, Sayan Das, Sounak Chakraborty et al. (9 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-28</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-28/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-28/</guid>
-      <pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. uber/causalml v0.17.0 — Uplift / HTE · score 63 · uber/causalml releases
-2. MMOE: Modernizing Diffusion Transformers with Efficient Expert Design — Causal LMs · score 56 · arXiv cs.LG · Yanhao Jia, Jiepeng Wang, Haibin Huang, Chi Zhang et al. (6 authors)
-3. py-why/causal-learn 0.1.4.8 — causal-learn 0.1.4.8 — Other · score 55 · py-why/causal-learn releases
-4. Variance for Estimation and Prediction in Linear Mixed Effects Models Under MAR — Causal Inference · score 52 · arXiv stat.ME · Yongqiang Tang
-5. Debiased Machine Learning: Identification, Estimation, and Shape Constraints — Causal Inference · score 52 · arXiv stat.ME · Qihui Chen, Ka Yan Cheng, Zheng Fang</description>
     </item>
   </channel>
 </rss>

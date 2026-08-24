@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:JingxuanC/causal-memory",
+    "title": "JingxuanC/causal-memory \u2014 Causal memory layer for AI agents \u2014 MCP server that records decision\u2192outcome relationships. Survives compaction.",
+    "url": "https://github.com/JingxuanC/causal-memory",
+    "summary": "Causal memory layer for AI agents \u2014 MCP server that records decision\u2192outcome relationships. Survives compaction.",
+    "authors": [],
+    "published": "2026-08-24T11:01:36Z",
+    "extras": {
+      "stars": 47,
+      "language": "Rust",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Causal memory layer for AI agents \u2014 MCP server that records decision\u2192outcome relationships. Survives compaction."
+  }
+]
