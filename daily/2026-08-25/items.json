@@ -1,0 +1,771 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.23453v1",
+    "title": "Transporting Randomized Trial Effects to Real-World Populations via Riesz-Calibrated Optimal Transport",
+    "url": "http://arxiv.org/abs/2608.23453v1",
+    "summary": "Randomized trials support causal inference, but differences between trial and target populations can limit the transportability of treatment effects to real-world settings. Many existing approaches model the propensity of trial participation and can therefore be sensitive to model misspecification and weak overlap of the covariate distributions. Optimal Transport (OT) offers a different route by comparing the trial and target populations directly in covariate space. We develop RICOT, a Riesz-calibrated OT procedure transporting treatment effects to a treated target population. We consider a semi-unbalanced OT with entropic regularization where the source marginals are relaxed. We show that the uncalibrated OT introduces a bias which does not shrink with increasing sample size. RICOT removes this bias by imposing calibration equations directly within the transport problem. With a growing calibration sieve, the calibrated weight consistently estimates the target-to-trial density ratio, equivalently the Riesz representer of the target expectation functional, even when the entropic and source-relaxation parameters remain fixed and positive. Combined with outcome regression, the resulting estimator is doubly robust and attains the semiparametric efficiency bound under suitable rate conditions. Its variance is estimated directly from the influence function, without resampling or repeated OT optimization. Simulations show low bias and near-nominal coverage across a range of overlap and misspecification settings, including settings in which sampling-score methods perform poorly. We illustrate RICOT in a real-world application involving a rare progressive cardiomyopathy, comparing conventional IPW and AIPW estimators with our OT-based IPW and doubly robust estimators for transporting the randomized treatment effect to a real-world population receiving the same treatment.",
+    "authors": [
+      "Anik Burman",
+      "Margaret Gamalo",
+      "Promit Ghosal",
+      "Prosenjit Kundu"
+    ],
+    "published": "2026-08-24T16:24:20",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 68,
+    "topic": "causal-inference",
+    "why_relevant": "5 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Randomized trials support causal inference, but differences between trial and target populations can limit the transportability of treatment effects to real-world settings. Many existing approaches model the propensity of trial participation and can therefore be sensitive to model misspecification and weak overlap of the covariate distributions. Optimal Transport (OT) offers a different route by\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2608.23420v1",
+    "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
+    "url": "http://arxiv.org/abs/2608.23420v1",
+    "summary": "Green-patent indicators built on Cooperative Patent Classification Y02 tags are widely used in research, policy, and investment, yet their construct validity has not been audited at corpus scale. We assess whether Y02 is systematically biased and whether that bias may reinforce the ESG innovation disconnect. We introduce an Error-as-Signal framework that treats disagreement between an administrative label and an independent model as diagnostic evidence of measurement error. Screening 9,075,421 USPTO granted patents (1962-2024) with a fine-tuned domain model against Y02 yields 517,772 disagreements. Two independent open-weight large language models then judge by consensus whether each flagged invention has a direct climate-mitigation or adaptation function. We identify 180,384 administrative Type I errors (False Green), concentrated in digital data processing, wireless networks, digital communications, and semiconductors, and 29,465 Type II errors (Silent Green), concentrated in separation processes, catalysis, exhaust control, heat pumps, power systems, and batteries. Correcting consensus-attributed errors reduces the measured green-patent population by 25.5% (592,387 to 441,468 patents; sensitivity bounds 390,540-508,126), with ICT energy efficiency (Y02D) falling 67.6%. Omission follows an inverted-U relationship with technological atypicality, making complex and unconventional inventions especially likely to go unlabelled. Event tests show no discrete jump in misclassification when green classification became salient and only a small rise in green framing after the 2013 CPC launch. The bias primarily reflects classification capacity rather than applicant strategy and structurally under-recognizes heavy industry.",
+    "authors": [
+      "Hamid Bekamiri",
+      "Jan Auernhammer",
+      "Milad Abbasiharofteh",
+      "Jesper Lindgaard Christensen"
+    ],
+    "published": "2026-08-24T16:01:41",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Green-patent indicators built on Cooperative Patent Classification Y02 tags are widely used in research, policy, and investment, yet their construct validity has not been audited at corpus scale. We assess whether Y02 is systematically biased and whether that bias may reinforce the ESG innovation disconnect. We introduce an Error-as-Signal framework that treats disagreement between an\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.23554v1",
+    "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+    "url": "http://arxiv.org/abs/2608.23554v1",
+    "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $\u03c4$-leaping sampler scale linearly with the ambient dimension $d$, raising the question of whether this dependence is intrinsic to the forward process. We answer this question in the negative. We consider a first-order sampler based on the leave-one-out denoiser for uniform and remasking processes whose coordinate updates can be performed in parallel. In both cases, the sampler can correct denoising mistakes during the sampling process, which becomes necessary when many coordinates are updated together. Our main result establishes an adaptive sampling guarantee: up to logarithmic factors, $N = O(\\mathrm{DTC}(X_0) / \\varepsilon)$ discretization steps suffice to achieve sampling error $O(\\varepsilon_{\\mathrm{score}}+\\varepsilon)$, where $\\varepsilon_{\\mathrm{score}}$ is the error in score estimation. Thus, the sampling complexity is governed by the intrinsic dependence structure of the target distribution, as measured by its dual total correlation $\\mathrm{DTC}(X_0)$, rather than directly by the ambient dimension $d$. Our analysis proceeds through a Bayes-optimal auxiliary sampler that separates discretization error from score-estimation error. We also derive an exact information-theoretic representation of the discretization error in terms of the mutual information between different coordinates of the forward process at different times. This representation applies to general forward processes and, in the uniform and remasking cases, can be controlled by $\\mathrm{DTC}(X_0)$. Numerical experiments on structured synthetic distributions illustrate the predicted dimension-adaptive behavior.",
+    "authors": [
+      "Daniil Dmitriev",
+      "Zhihan Huang",
+      "Yuting Wei"
+    ],
+    "published": "2026-08-24T17:54:51",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $\u03c4$-leaping sampler scale linearly with the ambient dimension $d$, raising the question of whether this\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.23538v1",
+    "title": "Interpretable AI with Local Distillation",
+    "url": "http://arxiv.org/abs/2608.23538v1",
+    "summary": "Modern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression function is locally well approximated by a linear one, allowing a linear fit near each query point to achieve high accuracy without sacrificing transparency. The challenges lie in learning what is \"local\" and developing statistical tools for interpretation.   Here, we propose local distillation, in which a black-box \"teacher\" guides a regularized linear \"student\" model at each query point. The teacher (1) defines locality by upweighting training observations with similar predicted outcomes, and (2) anchors the fit with its prediction at the query point, included as a pseudo-observation whose weight is estimated from the data. For interpretation, we add a small amount of Gaussian randomization to the local objective and use refits to assess stability: selection frequencies identify reliable features at a query point, and clustering the randomized fits identifies stable subgroups across the data. Under the lasso penalty, we prove that this randomization yields feature-selection probabilities that are stable under small perturbations of the training responses.   Across 17 benchmark datasets, local distillation nearly matches its AI teacher's accuracy while producing a sparse linear model at each test point. In a high-dimensional cancer gene expression example, the framework identifies patient subgroups whose local models use different genes; this heterogeneity is invisible to a global linear model, and difficult to surface in a black-box model.",
+    "authors": [
+      "Erin Craig",
+      "Yiling Huang",
+      "Snigdha Panigrahi"
+    ],
+    "published": "2026-08-24T17:43:07",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Modern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression function is locally well approximated by a linear one, allowing a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.23356v1",
+    "title": "Hierarchical Exponential-Gaussian Mixtures for Watch-Time Distribution Prediction",
+    "url": "http://arxiv.org/abs/2608.23356v1",
+    "summary": "Accurate watch-time (WT) prediction is an important requirement for short-video recommendations. Yet WT distributions are near-zero-inflated, long-tailed and multimodal. The recent Exponential-Gaussian Mixture Network (EGMN) models the full conditional WT distribution rather than a single point estimate and achieves state-of-the-art performance. Our large-scale reproduction study reveals that EGMN is vulnerable to variance collapse, component redundancy, and inactive components. We propose a Hierarchical Exponential-Gaussian Mixture (HEGM) model that addresses these failure modes through a hierarchical skip-watch decomposition, KL-based variance regularization, structured initialization, removing the forced Gaussian shift and the entropy regularizer. Across public and large-scale industrial datasets, HEGM improves ranking accuracy and threshold-event prediction, while maintaining competitive point-estimation accuracy and substantially improving mixture stability and interpretability. A 1.5-month production A/B test confirms statistically significant engagement lifts. Our code and models are publicly released at https://github.com/rw404/HEGM.",
+    "authors": [
+      "Sofia Gulevskaia",
+      "Mikhail Trapeznikov",
+      "Aleksandr Poslavsky",
+      "Alexander D'yakonov"
+    ],
+    "published": "2026-08-24T15:06:18",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.IR"
+    },
+    "score": 52,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Accurate watch-time (WT) prediction is an important requirement for short-video recommendations. Yet WT distributions are near-zero-inflated, long-tailed and multimodal. The recent Exponential-Gaussian Mixture Network (EGMN) models the full conditional WT distribution rather than a single point estimate and achieves state-of-the-art performance. Our large-scale reproduction study reveals that\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.23472v1",
+    "title": "Evaluating the effects of policy interventions subject to early adoption: A case study of prescription drug monitoring programs and opioid dispensing",
+    "url": "http://arxiv.org/abs/2608.23472v1",
+    "summary": "Policies that require organizations to use new systems, such as prescription drug monitoring programs (PDMPs), are often implemented in phases, with an initial period of voluntary access followed by mandated compliance. This allows the policy intervention to be adopted before compliance is required (early adoption), causing outcomes to change before the mandate takes effect. When early adoption is present, the no-anticipation assumption underlying synthetic control methods (SCM) is violated, leading to biased policy effect estimates. We formalize early adoption in a potential outcomes framework for staggered policy implementation and decompose the total policy effect into early adoption and mandate components. We then propose a two-stage, early adoption-aware SCM procedure that first estimates early adoption effects using an interactive fixed effects model fit to pre-mandate data and then residualizes outcomes before applying SCM variants to estimate mandate and total policy effects. Simulations, including settings with correlation between early adoption and latent factors, show reduced bias and improved uncertainty quantification relative to conventional SCM estimators. We apply the framework to state-level PDMP policies and per-capita opioid dispensing. After accounting for early adoption, estimates suggest reductions in opioid dispensing following PDMP availability and mandates; however, the estimates are imprecise and not statistically significant.",
+    "authors": [
+      "Sarika Aggarwal",
+      "Brent A. Coull",
+      "Nima Hejazi",
+      "Rachel C. Nethery"
+    ],
+    "published": "2026-08-24T16:39:20",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Policies that require organizations to use new systems, such as prescription drug monitoring programs (PDMPs), are often implemented in phases, with an initial period of voluntary access followed by mandated compliance. This allows the policy intervention to be adopted before compliance is required (early adoption), causing outcomes to change before the mandate takes effect. When early adoption\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2608.23508v1",
+    "title": "Testing selection on observables in parametric models with refreshment samples",
+    "url": "http://arxiv.org/abs/2608.23508v1",
+    "summary": "In panels with sample selection (that may occur due to attrition, nonresponse, etc.), the assumption of selection on observables (missing at random, MAR) is commonly imposed despite often being implausible. However, this assumption becomes testable when a refreshment sample is available. We develop a statistical test of MAR based on a distance between two estimated distributions: one obtained using the standard inverse probability weighting (IPW) that is valid under MAR and the other obtained using an alternative weighting that is valid under a weaker assumption of additive nonignorability of Hirano et al. (2001). This test implicitly compares the distribution of the IPW-weighted sample in the attrition period with the distribution of the refreshment sample, which coincide if the MAR assumption holds. We establish that, when the input distributions are parametric, our test statistic converges to the generalized chi-squared distribution under the null of MAR. This limit distribution can be estimated using the recursive formulas derived by Franguridi et al. (2026). We illustrate the performance of our test in Monte Carlo simulations. Finally, we apply our test to an empirical example using a subsample of the Understanding America Study (UAS) dataset.",
+    "authors": [
+      "Grigory Franguridi",
+      "Arie Kapteyn"
+    ],
+    "published": "2026-08-24T17:12:10",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "In panels with sample selection (that may occur due to attrition, nonresponse, etc.), the assumption of selection on observables (missing at random, MAR) is commonly imposed despite often being implausible. However, this assumption becomes testable when a refreshment sample is available. We develop a statistical test of MAR based on a distance between two estimated distributions: one obtained\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv econ.EM",
+    "id": "arxiv:2608.23257v1",
+    "title": "How Replicable Are Statistically Significant Findings?",
+    "url": "http://arxiv.org/abs/2608.23257v1",
+    "summary": "In the empirical sciences, significance thresholds often determine whether findings are treated as evidence of an effect. This paper studies how likely findings that just meet conventional significance thresholds are to remain significant in replications of the same sample size. To answer this question, we estimate the expected replication probability conditional on a given p-value among published studies for experimental economics, psychology, and social science. We validate this measure by showing it accurately predicts actual replication outcomes, outperforming prediction markets. A finding with a p-value of 0.05 has an expected replication probability ranging from 0.10 to 0.25 across fields. Low replicability reflects low power in original studies rather than publication bias. We then develop a nonparametric estimator and apply it to economics literatures that use larger samples, finding higher but still low replication probabilities. These results indicate that statistical significance in a single study provides only suggestive evidence of an effect. Stronger conclusions require cumulative evidence.",
+    "authors": [
+      "Patrick Vu",
+      "Stefan Faridani"
+    ],
+    "published": "2026-08-24T13:48:22",
+    "extras": {
+      "category": "econ.EM",
+      "primary_category": "econ.EM"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "In the empirical sciences, significance thresholds often determine whether findings are treated as evidence of an effect. This paper studies how likely findings that just meet conventional significance thresholds are to remain significant in replications of the same sample size. To answer this question, we estimate the expected replication probability conditional on a given p-value among\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23264v1",
+    "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
+    "url": "http://arxiv.org/abs/2608.23264v1",
+    "summary": "Although Large Language Models (LLMs) are aligned to optimize for both helpfulness and harmlessness, these dual objectives may conflict, inevitably leading to alignment failures. This work systematically investigates instances where LLMs fail to exhibit ethical behavior. To understand the underlying mechanics of these vulnerabilities, we introduce a probing methodology that presents unethical scenarios to LLMs in three distinct structural modalities: objective classification tasks, subjective first-person statements, and direct requests for assistance. We find that model performance degrades in the request-for-assistance-based form. Using Layer-wise Relevance Propagation (LRP), we trace this discrepancy to an attribution bias: the model places greater emphasis on benign task-framing tokens (e.g., \"Can you help me...\") than on tokens signaling the underlying unethical behavior (e.g., \"without getting caught\"), which we term cue-tokens. We hypothesize that this under-attribution contributes to harmful compliance. To test this, we introduce two LRP-guided decoding methods that steer generation toward trajectories more relevant to cue tokens. Empirical evaluations show that these interventions promote safer responses, supporting cue-token attribution's role in compliance failures.",
+    "authors": [
+      "Or Biton",
+      "Tomer Krichli",
+      "Itai Allouche",
+      "Joseph Keshet"
+    ],
+    "published": "2026-08-24T13:52:05",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Although Large Language Models (LLMs) are aligned to optimize for both helpfulness and harmlessness, these dual objectives may conflict, inevitably leading to alignment failures. This work systematically investigates instances where LLMs fail to exhibit ethical behavior. To understand the underlying mechanics of these vulnerabilities, we introduce a probing methodology that presents unethical\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23263v1",
+    "title": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
+    "url": "http://arxiv.org/abs/2608.23263v1",
+    "summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possible, to produce a fully machine-actionable graph in which every reference is resolvable. The Europeana Data Model was designed long before the FDO specification, and it stores most metadata values as plain text. This serves human browsing well enough, but gives an automated agent nothing to follow across records or collections. We present a pipeline that transforms flat Europeana records into an FDO-compliant knowledge graph structured with CIDOC-CRM. Following the FDO specification, we model every heritage entity as a discrete FDO with its own PID, type, profile, and metadata layer. The core technical challenge is automating the FDO-prescribed distinction between values that must become PID references (resolvable entities) and those that may remain literals (terminal leaves such as notes, measurements, and dates). We address this with a large language model that classifies each metadata value, routes it to a controlled vocabulary (Getty AAT, Wikidata, VIAF, PeriodO), and links it to a shared entity FDO. We evaluate using 637 archaeological records from five Europeana providers, processing each with the LLM. The pipeline links 86% of metadata slots, resolving 58.5% of values Europeana had not already enriched. It also merges cross-lingual surface forms that byte-identical matching keeps apart, where 17 of 33 such merges are correct on manual review. Graph connectivity does not separate this from string matching; what distinguishes the FDO graph is that every node is typed and resolvable.",
+    "authors": [
+      "Zeyd Boukhers",
+      "Lingxiao Kong",
+      "Xenophon Zabulis",
+      "Georgios Toubekis"
+    ],
+    "published": "2026-08-24T13:51:39",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possible, to produce a fully machine-actionable graph in which every reference is resolvable. The Europeana Data Model was designed long before the FDO specification, and it stores most metadata values as plain text. This serves human browsing well enough, but\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.23480v1",
+    "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
+    "url": "http://arxiv.org/abs/2608.23480v1",
+    "summary": "Timely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer limited control over key operating characteristics such as sensitivity, specificity, and monitoring cost. We cast the sequential classification problem within a multi-objective optimization framework targeting these three criteria. We characterize the optimal decision rule through a value recursion that quantifies, at each time point, the trade-off between immediate classification and continued monitoring. To estimate the rule from data, we formulate a constrained optimization problem that maximizes specificity while enforcing prespecified sensitivity and monitoring-cost constraints. We then develop an estimation procedure that employs a recurrent neural network to approximate the evolving value processes and a primal--dual updating scheme to satisfy the performance constraints. Through simulation studies and an application to continuous glucose monitoring for hypoglycemia risk prediction, we demonstrate that the proposed method yields accurate and timely sequential decision rules that adhere to the desired operating characteristics.",
+    "authors": [
+      "Jiaming Qiu",
+      "Yingye Zheng",
+      "Ying-Qi Zhao"
+    ],
+    "published": "2026-08-24T16:44:46",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Timely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer limited control over key operating characteristics such as\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.23458v1",
+    "title": "Traceable Spectral Inference via Influence Functions: Efficient Data Attribution and Error Proxies for the Ariel Mission",
+    "url": "http://arxiv.org/abs/2608.23458v1",
+    "summary": "Interpretability is critical for machine learning models deployed in scientific space missions such as ESA's Ariel, where ground truth is unavailable during operations and physical plausibility must be assessed. While most explainable AI methods focus on feature attribution, this work investigates training data attribution through influence functions and introduces three key contributions for operational spectroscopy pipelines. First, influence is reformulated in terms of prediction rather than loss, enabling label-free deployment. Second, by leveraging the closed-form ridge solution of an Extreme Learning Machine, infinitesimal prediction influence is efficiently computed. Third, an influence-based conservative error proxy is derived by propagating training residuals through the influence sensitivities. Evaluated against simulated spectra, the proposed proxy correlates strongly with scale and shape-based spectral errors. Furthermore, influence functions enable the identification of the most influential samples and the approximation of the most harmful ones. Together, these results suggest that this approach can serve as an operational framework for scientific machine learning.",
+    "authors": [
+      "Nikki Grens",
+      "Lu\u00eds F. Sim\u00f5es",
+      "Kai Hou Yip",
+      "Theresa Lueftinger"
+    ],
+    "published": "2026-08-24T16:28:26",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Interpretability is critical for machine learning models deployed in scientific space missions such as ESA's Ariel, where ground truth is unavailable during operations and physical plausibility must be assessed. While most explainable AI methods focus on feature attribution, this work investigates training data attribution through influence functions and introduces three key contributions for\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23497v1",
+    "title": "Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty",
+    "url": "http://arxiv.org/abs/2608.23497v1",
+    "summary": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show that RIM does not always emerge. Previous work attributed RIM to neuron-level entanglement, but did not identify the geometry of the representation space underlying this entanglement or propose a training-time fix. We provide both: a representation-space analysis of RIM and the Safety-Direction Penalty (SDP), which penalizes movement along a learned safety direction during reasoning fine-tuning. The analysis extracts two activation-space directions, one encoding reasoning ability and the other safety behavior. These directions are coupled: fine-tuning that improves reasoning shifts safety representations, and prompts with larger shifts show larger safety degradation. CKA distance ratios and probes locate the safety-decision layers where this shift is most relevant. These findings guide the design of SDP: the coupling motivates penalizing displacement along the safety direction, and the layer localization sets the initial scope. When the initial scope leaves compensatory shifts beyond the penalized layers, the same diagnostics guide iterative expansion. On Qwen2.5-3B and 7B, SDP restores safety while preserving benchmark reasoning performance.",
+    "authors": [
+      "Yipeng Zhao",
+      "Qishun Yang",
+      "Shenzhe Zhu",
+      "Shu Yang",
+      "Di Wang"
+    ],
+    "published": "2026-08-24T16:57:28",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show that RIM does not always emerge. Previous work attributed RIM\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23391v1",
+    "title": "Cross-Domain, Multi-Task Data-to-Text Generation without In-Domain Training Data",
+    "url": "http://arxiv.org/abs/2608.23391v1",
+    "summary": "Structured data exists in many forms (tables, knowledge graphs, charts, and time series), and converting it into text may involve different generation tasks. However, most prior work on data-to-text (D2T) generation has focused on specific tasks and datasets, relying either on task-specific training data or on the zero-shot capabilities of large language models. We study cross-domain D2T generation in a setting where neither in-domain training text nor test references are available, and where domains, generation goals, and input structures vary substantially. We compare data-driven knowledge distillation (DDKD) against zero-shot inference and fine-tuning on out-of-domain D2T data, and introduce structure-preserving augmentation via structural subsampling and perturbation. Experiments on five benchmarks show that, at constant model size (1.7B parameters), DDKD consistently outperforms both fine-tuning and zero-shot inference. Moreover, the resulting small models outperform a much larger finetuned model on two of the five domains, achieving comparable performance on the remaining three. We further construct QUINTD-5, a fivefold extension of QUINTD-1, and show that simply scaling real target-domain inputs yields only modest gains, whereas our augmentation strategy remains more effective and more cost-efficient for cross-domain distillation.",
+    "authors": [
+      "Yifei Song",
+      "Kun Efimov-Zhang",
+      "Claire Gardent"
+    ],
+    "published": "2026-08-24T15:37:19",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Structured data exists in many forms (tables, knowledge graphs, charts, and time series), and converting it into text may involve different generation tasks. However, most prior work on data-to-text (D2T) generation has focused on specific tasks and datasets, relying either on task-specific training data or on the zero-shot capabilities of large language models. We study cross-domain D2T\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23265v1",
+    "title": "EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution",
+    "url": "http://arxiv.org/abs/2608.23265v1",
+    "summary": "In long-term collaboration spanning multiple meetings, factual states such as decisions and risks are continually revised, overturned, and replaced. Existing long-context methods typically stack the entire history, while many RAG and structured-memory methods organize knowledge as static or append-only facts and rely on semantic relevance at read time. Without explicit modeling of knowledge lifecycles, these approaches may retain conflicting old and new states simultaneously or discard history, leading to stale retrieval and answers that are difficult to verify. We present EvoWiki, an incremental question-answering architecture for dynamic long-form text. EvoWiki decouples offline incremental construction (BUILD) from online structured reading (READ). BUILD captures the intra-meeting micro-evolution from proposal to decision and uses entity version chains and a fine-grained State-Overwrite Protocol to explicitly distinguish current valid states from superseded history while preserving meeting-level provenance anchors. READ bypasses relevance-based Top-k retrieval and performs deterministic entity addressing, temporal resolution, and cross-entity multi-hop aggregation over the complete Wiki to produce grounded and traceable answers. We further introduce CrossMeet, a high-fidelity bilingual benchmark designed to simulate long-term state evolution, covering factual consistency, temporal reasoning, and cross-meeting multi-hop reasoning. Across six datasets and two reader models, EvoWiki improves macro-average Judge Accuracy over the strongest baselines by 9.72 and 10.00 percentage points, respectively. Human evaluation shows that EvoWiki is more robust and factually faithful under frequent state flips, validating valid-state-oriented reading as a reliable approach to cross-meeting knowledge evolution.",
+    "authors": [
+      "Dongsheng Chen",
+      "Tianyu Wang",
+      "Wenhui Que"
+    ],
+    "published": "2026-08-24T13:52:17",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "In long-term collaboration spanning multiple meetings, factual states such as decisions and risks are continually revised, overturned, and replaced. Existing long-context methods typically stack the entire history, while many RAG and structured-memory methods organize knowledge as static or append-only facts and rely on semantic relevance at read time. Without explicit modeling of knowledge\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23468v1",
+    "title": "RAD: Rule-Augmented Relational Anomaly Detection",
+    "url": "http://arxiv.org/abs/2608.23468v1",
+    "summary": "Anomaly detection is often applied to data stored in relational databases, yet most existing methods require flattening multiple tables into a single feature matrix. This flattening can obscure entity identity, schema structure, and multi-hop dependencies, limiting the detection of anomalies that depend on relational context rather than isolated feature values. Beyond preserving relational structure, relational anomaly detection raises an additional challenge: how to incorporate symbolic behavioral evidence into learned relational representations. To address these challenges, we study relational anomaly detection, where the goal is to identify anomalous entities or events in a multi-table database. We propose RAD, a rule-augmented relational anomaly detector that combines heterogeneous graph representation learning with refined symbolic rule signals. RAD derives candidate rules from random-forest paths over flattened summaries of the entities or events being scored, refines them into compact interpretable predicates, injects the resulting rule features into the graph model, and learns anomaly scores using reconstruction-based and pairwise-ranking supervision. To evaluate this setting, we introduce a relational anomaly detection benchmark spanning three settings: LANL cybersecurity event detection and two unexpected user-churn anomaly tasks derived from Amazon and H&M relational databases. Experiments show that RAD improves anomaly ranking over flattened tabular detectors and relational baselines under natural class imbalance, achieving the best average rank on AUROC and AUPRC across the benchmark. Ablations show that direct rule injection and ranking-based supervision are key contributors to performance, while edge reconstruction is not uniformly beneficial. Our code and data are available at: https://github.com/noahd15/RAD_RelationalAnomalyDetection.",
+    "authors": [
+      "Noah Dahle",
+      "Anne Tumlin",
+      "Ngoc Tran",
+      "Xenofon Koutsoukos",
+      "Tyler Derr"
+    ],
+    "published": "2026-08-24T16:36:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Anomaly detection is often applied to data stored in relational databases, yet most existing methods require flattening multiple tables into a single feature matrix. This flattening can obscure entity identity, schema structure, and multi-hop dependencies, limiting the detection of anomalies that depend on relational context rather than isolated feature values. Beyond preserving relational\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23393v1",
+    "title": "KellyBoost: Growth-Optimal Portfolio Construction with Gradient-Boosted Trees",
+    "url": "http://arxiv.org/abs/2608.23393v1",
+    "summary": "KellyBoost is a single multi-output XGBoost model whose softmax output is the portfolio: with y the vector of per-asset holding-period returns, the training loss is - log(1 + w y), the negative log growth rate, so the fitted model is the growth-optimal (Kelly) allocation conditioned on the features. The objective is exact rather than a surrogate: we derive the gradient, the analytic diagonal Hessian and the full Hessian in closed form, verify them by finite differences, and ship a dependency-free reference engine.",
+    "authors": [
+      "Jiayu Li"
+    ],
+    "published": "2026-08-24T15:38:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "q-fin.PM"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "KellyBoost is a single multi-output XGBoost model whose softmax output is the portfolio: with y the vector of per-asset holding-period returns, the training loss is - log(1 + w y), the negative log growth rate, so the fitted model is the growth-optimal (Kelly) allocation conditioned on the features. The objective is exact rather than a surrogate: we derive the gradient, the analytic diagonal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23382v1",
+    "title": "Spectrum-Aware Bounds on Invertibility for Privacy-Enhancing Instance Encoding",
+    "url": "http://arxiv.org/abs/2608.23382v1",
+    "summary": "Instance encoding is a popular empirical technique for privacy enhancement when sharing data to an untrusted server. It transforms sensitive data through an encoding process before sharing, with the hope that the encoding process retains utility but makes it hard to reconstruct the original data. However, most work offers no theoretical guarantee that the encoding process is actually irreversible. A recent work derived a mean-squared error (MSE) bound limiting any adversary's reconstruction accuracy, offering one of the first theoretical results in this domain. This bound, however, has three critical limitations: it is often too loose, only works with randomized encoders (excluding many deterministic encoders practitioners use), and only bounds MSE. We introduce a family of new bounds that (1) are tighter, (2) applicable even to fully deterministic encoders, and (3) can extend beyond MSE to other norm-based similarity metrics, by properly accounting for the encoder's spectral structure. We evaluate our bounds across a range of encoders, datasets, and attacks, showing they hold consistently and improve upon the existing bound.",
+    "authors": [
+      "Seokjin Hwang",
+      "Yuting",
+      "Li",
+      "Kiwan Maeng"
+    ],
+    "published": "2026-08-24T15:30:31",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Instance encoding is a popular empirical technique for privacy enhancement when sharing data to an untrusted server. It transforms sensitive data through an encoding process before sharing, with the hope that the encoding process retains utility but makes it hard to reconstruct the original data. However, most work offers no theoretical guarantee that the encoding process is actually\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23348v1",
+    "title": "Beyond chlorophyll: machine learning estimates of diagnostic phytoplankton pigments from multispectral ocean colour data",
+    "url": "http://arxiv.org/abs/2608.23348v1",
+    "summary": "Phytoplankton play a central role in marine ecosystems and the global carbon cycle, with different groups contributing differently to ocean biogeochemical processes. While standard techniques exist for monitoring phytoplankton concentration from ocean-colour data, their community composition remains difficult to observe at large scales. Chlorophyll-a, widely available from satellite ocean-colour observations, is commonly used as a measure of phytoplankton biomass but provides limited information on taxonomic composition. Accessory pigments, some of which are diagnostic of important phytoplankton groups, offer additional information on community structure, but their retrieval from ocean-colour data is challenging because of limited spectral resolution and strong covariance with chlorophyll-a. In this study, we evaluate machine learning methods for estimating diagnostic pigment concentrations from multispectral satellite observations. Using a global dataset of 33,640 High Performance Liquid Chromatography (HPLC) measurements matched with ESA Ocean Colour Climate Change Initiative (OC-CCI) reflectance data, we compare Random Forest and TabPFN models trained on multispectral reflectance with baseline models using chlorophyll-a alone. A temporally stratified validation scheme is employed to reduce the effects of autocorrelation. Results show that multispectral models consistently outperform approaches based solely on satellite-derived chlorophyll-a, demonstrating that ocean-colour reflectance contains additional information relevant to pigment discrimination. Improvements vary by pigment, with those strongly correlated with chlorophyll-a showing limited gains, while others exhibit substantial improvement. These findings highlight the potential of machine learning to extract ecologically relevant information from satellite data beyond conventional chlorophyll-based approaches.",
+    "authors": [
+      "David Moffat",
+      "Angus Laurenson",
+      "Victor Martinez-Vicente",
+      "Gemma Kulk",
+      "Xuerong Sun",
+      "Robert J. W. Brewin",
+      "Shubha Sathyendranath"
+    ],
+    "published": "2026-08-24T14:59:30",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "q-bio.OT"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Phytoplankton play a central role in marine ecosystems and the global carbon cycle, with different groups contributing differently to ocean biogeochemical processes. While standard techniques exist for monitoring phytoplankton concentration from ocean-colour data, their community composition remains difficult to observe at large scales. Chlorophyll-a, widely available from satellite ocean-colour\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23344v1",
+    "title": "Towards Actionable Surgical Team Dynamics: from Teamwork to Counterfactual Annotations",
+    "url": "http://arxiv.org/abs/2608.23344v1",
+    "summary": "Modeling team interactions in high-stakes environments such as operating rooms is critical for understanding how coordination, communication, and individual behaviors shape team performance and safety outcomes. Existing datasets in this domain are often fragmented across modalities, annotation schemes, and formats, limiting their ability to support integrated analyses of real-world collaborative processes. We address this limitation by introducing an extended multimodal dataset for surgical team interaction analysis, built from real operating room recordings. Starting from an existing corpus, we construct an analysis-ready version of the data by providing speaker diarization, transcripts, and multi-level annotations capturing team performance, interaction processes, and individual characteristics. Team performance is assessed using a standardized surgical teamwork evaluation protocol, while interaction quality and individual attributes are annotated through structured rating schemes covering collaboration, group dynamics, and non-technical skills. To further support the study of coordination breakdowns and performance variability, we introduce counterfactual annotations that describe plausible alternative team outcomes in the presence of observed interaction failures, enabling analysis of how specific behavioral patterns may relate to different trajectories of team performance. In addition, we provide structured temporal and relational representations designed to support computational modeling of teamwork processes and the design of AI-assisted collaborative systems. The dataset is designed to support the study of how individual actions, interaction patterns, and team-level processes jointly contribute to team outcomes in surgical settings, providing a unified resource for analyzing collaborative behavior in high-stakes domains.",
+    "authors": [
+      "Vincenzo Marco De Luca",
+      "Antonio Longa",
+      "Andrea Passerini"
+    ],
+    "published": "2026-08-24T14:55:18",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Modeling team interactions in high-stakes environments such as operating rooms is critical for understanding how coordination, communication, and individual behaviors shape team performance and safety outcomes. Existing datasets in this domain are often fragmented across modalities, annotation schemes, and formats, limiting their ability to support integrated analyses of real-world collaborative\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23297v1",
+    "title": "ADDA: a Modular Framework for Representing, Simulating and Assimilating Dynamics with End-to-end Differentiability",
+    "url": "http://arxiv.org/abs/2608.23297v1",
+    "summary": "Data assimilation (DA) is an essential tool for prediction and understanding in the geosciences. DA combines simulation programs representing scientific knowledge with observations that constrain system dynamics, resulting in analyses and forecasts that incorporate both knowledge and data. DA tasks can be addressed with a diverse toolset, including variational, ensemble and learning-based methods. In particular, many recent works have proposed using automatic differentiation tools for variational, learning-based or hybrid methods. However, comprehensive comparisons across algorithms and dynamical systems remain challenging, due to the incompatibility of simulation and assimilation codes, inflexible handling of spatial and temporal discretizations, specialization of DA methods to specific simulations, and limited support for automatic differentiation and parallel computation in simulations. To address this challenge, we introduce Automatic Differentiation for Data Assimilation (ADDA), a software framework for defining and working with system states, simulations, observation schemes and DA methods. ADDA provides a powerful and flexible set of base classes for representing dynamical systems and observation operators, with support for collocated and staggered grids, unstructured meshes, Lagrangian state variables and irregular or continuous-time observations. Parallel processing and differentiability are first-class features, with support for batch axes and automatic differentiation throughout. ADDA is implemented in PyTorch library, but supports DA for JAX-based computation of dynamics and their gradients. To demonstrate its features, we further provide differentiable, ADDA-compatible implementations of 10 dynamical systems of various dimensionalities and scales, from which we design multiple illustrative DA examples. All of our code is publicly available at https://github.com/m-dml/ADDA.",
+    "authors": [
+      "Anthony Frion",
+      "Vien Minh Nguyen-Thanh",
+      "Ali Can Bekar",
+      "Pauleo R. Nimtz",
+      "Vadim Zinchenko",
+      "David S. Greenberg"
+    ],
+    "published": "2026-08-24T14:22:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.MS"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Data assimilation (DA) is an essential tool for prediction and understanding in the geosciences. DA combines simulation programs representing scientific knowledge with observations that constrain system dynamics, resulting in analyses and forecasts that incorporate both knowledge and data. DA tasks can be addressed with a diverse toolset, including variational, ensemble and learning-based\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23254v1",
+    "title": "From Multimodal Observation to Interpretable Suggestions: Counterfactual Time-Expanded Relational Modeling of Surgical Teams",
+    "url": "http://arxiv.org/abs/2608.23254v1",
+    "summary": "In surgery, patient safety is threatened not only by technical issues but also by poor teamwork. However, existing surgical AI-based solutions focus mainly on visual workflow and technical execution, neglecting the modeling of team interactions and missing opportunities to actively support clinicians in improving their teamwork skills. To address this gap, we propose a tempo-relational framework for modeling surgical team dynamics from multimodal observations. By leveraging Time-Expanded graphs, the approach captures both relational structure and temporal evolution, achieving strong expressivity while remaining robust in the low-data regime typical of surgical settings. Beyond prediction, such modeling enables the generation of efficient, interpretable, and actionable suggestions for clinicians. More specifically, we generate suggestions via a counterfactual procedure that identifies minimal yet structured changes in individual behaviors and interaction patterns associated with improvements in team performance. Experiments with simulated surgical procedures show that our approach improves predictive performance in diverse behavioral and interaction goals while offering meaningful insights into team dynamics. This work advances surgical AI beyond outcome-driven prediction towards a socially grounded, team-centric, and actionable paradigm to better understand and support the development of team skills in surgical settings.",
+    "authors": [
+      "Vincenzo Marco De Luca",
+      "Antonio Longa",
+      "Giovanna Varni",
+      "Andrea Passerini"
+    ],
+    "published": "2026-08-24T13:46:46",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "In surgery, patient safety is threatened not only by technical issues but also by poor teamwork. However, existing surgical AI-based solutions focus mainly on visual workflow and technical execution, neglecting the modeling of team interactions and missing opportunities to actively support clinicians in improving their teamwork skills. To address this gap, we propose a tempo-relational framework\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23252v1",
+    "title": "The Laws of Context Allocation: Causal Measurement and Closed-Loop Orchestration in Generative Search",
+    "url": "http://arxiv.org/abs/2608.23252v1",
+    "summary": "As Retrieval-Augmented Generation (RAG) shifts toward diverse portfolio generation, it is stymied by two critical bottlenecks: flawed measurement of evidence utilization, and suboptimal context budget allocation. We resolve both sequentially.   To resolve measurement, we expose a pervasive ``diagnostic illusion'': standard relevance proxies fail catastrophically on hard negatives. We replace them with an efficient causal leave-one-out probe that accurately isolates generative reliance and formally calibrates the structural dilution of LLM attention.   To resolve allocation, we deploy this causal probe in a deconfounded factorial grid. We prove that the prevailing strategy of monolithic context widening is an architectural trap penalized by relevance decay. Instead, allocating compute iteratively across multiple sequential generations drives transformative portfolio recall gains of 16.7--20.5 absolute percentage points, scaling robustly up to 32B models.   Finally, we unify these solutions into a deployable closed-loop submodular scheduler. Augmented by an attribution-steered contrastive decoder to override LLM attention inertia, our architecture systematically forces fresh evidence integration. By dominating classical open-loop baselines, we establish sequential, feedback-driven orchestration as the definitive paradigm for generative search. Our code, data, and causal measurement instruments are available at https://github.com/PeiYangLiu/ascp.",
+    "authors": [
+      "Peiyang Liu",
+      "Xi Wang",
+      "Di Liang",
+      "Wei Ye"
+    ],
+    "published": "2026-08-24T13:44:11",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "As Retrieval-Augmented Generation (RAG) shifts toward diverse portfolio generation, it is stymied by two critical bottlenecks: flawed measurement of evidence utilization, and suboptimal context budget allocation. We resolve both sequentially.   To resolve measurement, we expose a pervasive ``diagnostic illusion'': standard relevance proxies fail catastrophically on hard negatives. We replace them\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23221v1",
+    "title": "Which Histories Matter for Time Series Forecasting? Learning Predictive Relevance with Future Supervision",
+    "url": "http://arxiv.org/abs/2608.23221v1",
+    "summary": "Historical retrieval for time-series prediction commonly treats past similarity as a proxy for usefulness. We ask a different question: which historical examples should be expected to matter for a query? We define predictive relevance as expected future utility conditioned on inference-time information, using realized futures only during training as privileged supervision. A normalized-pattern retriever first forms a coarse candidate set, and a lightweight residual multilayer perceptron (MLP) learns a listwise future-compatibility target while keeping inference-time scoring strictly past-only. Our method retains similarity-based candidate generation but reranks its candidates by a more predictive relevance criterion. Optimal relevance decomposes into candidate-level utility and query-specific compatibility, motivating Candidate-Prior and Shuffled-Future controls. Across six benchmarks, the reranker improves Pattern retrieval while revealing candidate-global, query-specific, and mixed relevance regimes. On all 12 confirmatory tasks, it improves Pattern and outperforms a matched-protocol Stationarity-Aware Retrieval-Augmented Time Series Forecasting (SARAF) retrieval rule. Architecture-matched ablations show that correct future supervision, rather than the MLP or added context alone, drives gains in query-specific regimes. Alternative-similarity experiments show that a strong last-value-anchored L2 rule remains superior in some domains, whereas future-supervised relevance is particularly strong where our diagnostics indicate query-specific relevance, especially on Solar. Candidate-pool diagnostics show that this contrast is not explained solely by coarse Pattern retrieval. Overall, historical relevance is structured and domain dependent rather than governed by a universally superior retrieval rule.",
+    "authors": [
+      "Yong-Hoon Choi",
+      "Youngjin Cho"
+    ],
+    "published": "2026-08-24T13:15:29",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.IR"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Historical retrieval for time-series prediction commonly treats past similarity as a proxy for usefulness. We ask a different question: which historical examples should be expected to matter for a query? We define predictive relevance as expected future utility conditioned on inference-time information, using realized futures only during training as privileged supervision. A normalized-pattern\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23564v1",
+    "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+    "url": "http://arxiv.org/abs/2608.23564v1",
+    "summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an easy hack: agents copy the original implementation to make tests pass. We call this Blindness. To address this problem, we introduce SWE Refactor Bench, a benchmark comprising 20 whole-repository migrations, covering 4 kinds of technical debt. A three-stage evaluation protocol measures both migration completeness and behavioural correctness. (1) Migration Audit verifies that the migration occurred. (2) Behavioural Tests measure correctness with a fixed test suite. (3) Agentic Verification uses 6 independent coding agents to generate targeted tests for hidden behavioural differences. Across 520 runs from 8 frontier models and 26 model-effort configurations, only 28 of 520 runs ($5.4\\%$) pass all three stages, 13 of the 20 tasks receive no accepted solution, and the best model (claude-opus-5) scores $47.0/100$. Migration completeness and behavioural correctness are distinct abilities: a few runs preserve behaviour by skipping the migration and are stopped at Migration Audit; most attempt it and break behaviour, and are stopped at Behavioural Tests. Agents cannot deliver a perfect migration: among the 340 runs that pass Migration Audit, $58\\%$ reach $99\\%$ of the fixed checks, yet only $26\\%$ reach $100\\%$. Agent capability differs across migration categories: agents score $31.4$ on build toolchain rewrites but only $5.6$ on language rewrites. Together, these findings position SWE Refactor Bench as a rigorous testbed for developing coding agents for reliable whole-repository migrations.",
+    "authors": [
+      "Deyao Hong",
+      "Yizhe Chi",
+      "Wenyi Li",
+      "Xiaoqiu Wang",
+      "Mingju Gao",
+      "Kaisen Yang",
+      "Bingxiang He",
+      "Youjie Zheng",
+      "Calvin Xiao",
+      "Qinhuai Na"
+    ],
+    "published": "2026-08-24T17:59:04",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23448v1",
+    "title": "How Useful are LLMs for Grammar Engineering? Cantonese ParGram Resources and Controlled Experimental Evaluation with English Baselines",
+    "url": "http://arxiv.org/abs/2608.23448v1",
+    "summary": "This paper presents new Cantonese ParGram resources and evaluates LLMs for knowledge-driven grammar engineering within a controlled experimental paradigm. Using Cantonese ParGram resources as gold standards, with corresponding English baselines, we investigate whether OpenAI's gpt-oss-120b and GPT-5.4 can generate machine-processable grammars from sentences and target formal structures under systematically varied prompting conditions. GPT-5.4 outperformed gpt-oss-120b, while grammars generated from target formal structures generally outperformed those generated from sentences. Although both models could generate locally plausible phrase-structure rules, lexical entries, and templates, they often struggled to coordinate interacting formal constraints, especially in multi-construction settings. The results characterize both the capabilities and limitations of current LLMs for potential integration into AI-assisted expert workflows: LLMs may support intermediate stages of grammar development, but human linguistic expertise remains central to analysis, validation, and refinement. The study also contributes new Cantonese symbolic grammatical resources.",
+    "authors": [
+      "Chit-Fung Lam"
+    ],
+    "published": "2026-08-24T16:21:32",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "This paper presents new Cantonese ParGram resources and evaluates LLMs for knowledge-driven grammar engineering within a controlled experimental paradigm. Using Cantonese ParGram resources as gold standards, with corresponding English baselines, we investigate whether OpenAI's gpt-oss-120b and GPT-5.4 can generate machine-processable grammars from sentences and target formal structures under\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23358v1",
+    "title": "The Geometry of Low-Resource Language Representations",
+    "url": "http://arxiv.org/abs/2608.23358v1",
+    "summary": "The performance gap between low- and high-resource languages in LLMs is widely known, but it remains unclear which internal model factors drive these disparities. In this paper, we characterise this gap through the lens of representational geometry. Comparing the geometric properties of hidden representations across 30 languages reveals that LLM geometry is systematically related to language data availability. The most consistent effect is in final layers, where low-resource languages exhibit representational degeneration. To counter this, we investigate the effectiveness of regularisation terms to penalise degeneration during continued pretraining (CPT). Experiments monolingually adapting 9 base LLMs to 10 African languages show that geometric regularisation successfully reduces representational degeneration during CPT. For larger models, cosine similarity-based regularisation marginally improves performance over vanilla CPT, with more consistent gains on the most challenging tasks. We establish that the representational geometry of low- and high-resource languages in LLMs is measurably distinct, and that targeted geometric intervention is a viable strategy for improving CPT for low-resource languages.",
+    "authors": [
+      "Francois Meyer",
+      "Jan Buys"
+    ],
+    "published": "2026-08-24T15:06:58",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The performance gap between low- and high-resource languages in LLMs is widely known, but it remains unclear which internal model factors drive these disparities. In this paper, we characterise this gap through the lens of representational geometry. Comparing the geometric properties of hidden representations across 30 languages reveals that LLM geometry is systematically related to language data\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23271v1",
+    "title": "Expectations and Practices around AI Disclosure in CS Research",
+    "url": "http://arxiv.org/abs/2608.23271v1",
+    "summary": "As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of their purpose? In this work, we first investigate disclosure policies of top computer science venues and find that despite their prevalence, they remain highly under-specified. Secondly, through a survey of computer science researchers (N=$109$), we characterize the necessity of disclosures across different research tasks and levels of human involvement. We learn that researchers find disclosures most necessary for tasks involving research design, and for tasks when the human involvement is low. We also compile expectations that researchers have about the information to be conveyed in AI disclosure statements. Lastly, through an analysis of $13867$ disclosure statements from EMNLP $2025$ and ICLR $2026$, we reveal a large disconnect between these expectations and AI disclosures in practice---a prime example being writing assistance which is deemed less necessary but frequently disclosed. We conclude with recommendations for authors and policymakers that seek to align AI disclosure policies and practices with expectations.",
+    "authors": [
+      "Arati Mohapatra",
+      "Danish Pruthi"
+    ],
+    "published": "2026-08-24T13:58:16",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CY"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "As generative AI tools find increasing use in research workflows, ongoing debates on their impact, appropriateness and responsible use have led policymakers to enact policies to disclose AI use at multiple publishing venues. However, are current AI disclosure policies and practices reflective of their purpose? In this work, we first investigate disclosure policies of top computer science venues\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23261v1",
+    "title": "A Scalable Cross-Domain Event Extraction System via a Unified Generative Training Framework",
+    "url": "http://arxiv.org/abs/2608.23261v1",
+    "summary": "Event extraction is fundamental to information extraction. Prior approaches often separate event detection and argument extraction or depend on dataset-specific designs, limiting scalability and cross-domain generalization. We propose a unified generative sequence-to-sequence framework that performs event extraction subtasks jointly and supports both pipeline and end-to-end configurations. We fine-tune pretrained language models on multiple event datasets across diverse domains, enabling a single model to retain domain-specific semantics while generalizing over large and evolving label spaces. We demonstrate these capabilities through a web-based application tailored for researchers and practitioners. The platform supports document upload, schema-aware event extraction, visualization of triggers and arguments, and comparison of different extraction configurations across domains.",
+    "authors": [
+      "Siting Liang",
+      "Omar Adjali",
+      "Omair Shahzad Bhatti",
+      "Daniel Sonntag"
+    ],
+    "published": "2026-08-24T13:51:03",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Event extraction is fundamental to information extraction. Prior approaches often separate event detection and argument extraction or depend on dataset-specific designs, limiting scalability and cross-domain generalization. We propose a unified generative sequence-to-sequence framework that performs event extraction subtasks jointly and supports both pipeline and end-to-end configurations. We\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23547v1",
+    "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
+    "url": "http://arxiv.org/abs/2608.23547v1",
+    "summary": "Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be corrupted through compromised logs, labeling errors, manipulated historian records, or unsafe retraining processes. This paper evaluates the robustness of offline ICS anomaly-detection pipelines on the Secure Water Treatment (SWaT) benchmark under training-time contamination. We assess 11 heterogeneous anomaly detectors under three contamination strategies: random injection, similarity-targeted injection, and feature-noise injection. The first two insert attack samples into the nominal training pool, while the third adds bounded Gaussian noise to selected normal training samples. These attacks are contamination-based rather than gradient-driven poisoning methods. Contamination budgets from 1% to 10% are evaluated using clean validation and test sets under a unified offline protocol. The results show that robustness is strongly model-dependent and cannot be predicted from clean-data performance alone. Injection-based contamination causes the greatest degradation, particularly for local-density and distance-based detectors, whereas feature-noise contamination has a comparatively limited effect. PCA, SVM, HBOS, and IForest remain relatively stable, while the tuned neural detectors demonstrate intermediate robustness. Overall, the findings highlight the importance of training-data integrity in ML-enabled ICS monitoring, subject to the evaluated dataset, models, and threat assumptions.",
+    "authors": [
+      "Mustafa Umut Ozbek",
+      "Taiwo Ojo",
+      "Pooria Madani",
+      "Khalil El-Khatib",
+      "Li Yang"
+    ],
+    "published": "2026-08-24T17:49:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CR"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be corrupted through compromised logs, labeling errors, manipulated historian records, or unsafe retraining processes. This paper evaluates the robustness of offline ICS anomaly-detection pipelines on\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23531v1",
+    "title": "Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement",
+    "url": "http://arxiv.org/abs/2608.23531v1",
+    "summary": "Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and clinical assessment data from 18 older adults recovering in the community after lower-limb fracture or hip replacement. Participants were monitored for up to eight weeks, corresponding to a maximum of 1,008 participant-days of sensor monitoring. Forty-six daily features were extracted from indoor motion, acceleration, step count, heart rate, out-of-home mobility, and sleep data. Five clinical outcomes were assessed every two weeks: the Social Isolation Scale, Oxford Hip Score, Oxford Knee Score, Timed Up and Go test, and 30-second Chair Stand test. We utilize an inherent relationship between multi-modal sensor data and different clinical scores and formulate it as a multi-output regression problem. We tested various machine learning and deep learning single- and multi-output regression algorithms to predict these scores simultaneously. The results showed that predicting clinical scores jointly was better than separately. The tabular DL multi-output regressor, NODE, gave a remarkable performance of MSE=3.96 and MAE=1.02 in comparison to other multi- and single-output regressors. The SHAP feature analysis further showed the importance of including multimodal sensors to provide a good estimate of patients' recovery trajectory. This work may support the simultaneous assessment of functional recovery and social engagement among community-dwelling older adults and ultimately help improve their care and quality of life.",
+    "authors": [
+      "Santosh Ray",
+      "Pratik K. Mishra",
+      "Ali Abedi",
+      "Charlene H. Chu",
+      "Amir Ahmad",
+      "Shehroz S. Khan"
+    ],
+    "published": "2026-08-24T17:33:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Older adults recovering after lower-limb fracture or hip replacement may experience complex recovery trajectories. Most of the time, these clinical aspects are studied in isolation, masking their joint impact on recovery. This study used the MAISON-LLF dataset, which contains multimodal sensor and clinical assessment data from 18 older adults recovering in the community after lower-limb fracture\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.23461v1",
+    "title": "Diversity-Based Active Learning: An Evaluation of Metric Spaces for Active Learning Selection",
+    "url": "http://arxiv.org/abs/2608.23461v1",
+    "summary": "With rapid advancement over the last few years, many different methods are now widely used for classification. However, training these models requires substantial labeled data. Active Learning is a potential solution to this problem. Pool-based active learning minimizes costs by querying only the most informative samples from an unlabeled dataset. Diversity-based approaches, on the other hand, attempt to select a representative subset of the data. There are many different objectives for determining the selection process, including exact K-center, exact K-median, and Greedy K-center. In this paper, we will focus on evaluating the performance of Greedy K-center across a variety of metric spaces: the raw feature space, a Linear Discriminant Analysis (LDA) space, and a model-derived probability space (with and without entropy-based weighting). Using Random Forest classifiers as a baseline evaluator, our empirical results on synthetic and real-world datasets demonstrate that mapping unlabeled instances into a predictive probability space and weighting the result by entropy often dominates the other options for active learning selection with Greedy K-center.",
+    "authors": [
+      "Siddharth Chilamkur",
+      "Dorit S. Hochbaum"
+    ],
+    "published": "2026-08-24T16:30:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "With rapid advancement over the last few years, many different methods are now widely used for classification. However, training these models requires substantial labeled data. Active Learning is a potential solution to this problem. Pool-based active learning minimizes costs by querying only the most informative samples from an unlabeled dataset. Diversity-based approaches, on the other hand,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23507v1",
+    "title": "When Names Cross Scripts: A Source-Grounded Benchmark for Historical Entity Reconciliation in the Mongol World",
+    "url": "http://arxiv.org/abs/2608.23507v1",
+    "summary": "Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identity reconciliation more than a problem of string matching or transliteration. We introduce MHER, a provenance-controlled benchmark for pairwise reconciliation of person-name attestations from the Mongol world. MHER contains a balanced 396-pair Name-only core over 84 primary historical persons and a stricter 160-pair Source-grounded subset constructed from mention-by-source evidence, with entity-disjoint development and test splits.   Across five generative systems, correctly Source-grounded evidence improves paired TEST accuracy by 12.96 to 94.44 percentage points relative to Name-only input. On five identical-surface different-person cases, all models fail under names alone (0/25 model-item decisions), whereas Source-grounded evidence yields 24/25 correct resolutions, with the remaining output an abstention. Context-only ablations show that historical descriptions often carry substantial identity information, while explicitly signaled misgrounding controls produce substantially lower performance. We also find that names are not uniformly beneficial: for Qwen3-8B, restoring surface forms converts ten otherwise correct Context-only distinctions into false identity merges.   These results show that historical entity reconciliation depends not only on surface correspondence, but on whether identity judgments respond appropriately to provenance-controlled historical evidence. MHER therefore provides a controlled framework for studying evidence use, abstention, and failure modes in historical NLP.",
+    "authors": [
+      "Xiang Chen",
+      "Zeyu Zhang"
+    ],
+    "published": "2026-08-24T17:10:36",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Historical people may appear under different languages, scripts, and transcription traditions, while distinct individuals may share highly similar or even identical names. This makes historical identity reconciliation more than a problem of string matching or transliteration. We introduce MHER, a provenance-controlled benchmark for pairwise reconciliation of person-name attestations from the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2608.23327v1",
+    "title": "Flesch-Kincaid Readability Depends Only on the Topic Distribution in Long Texts under Topic Models",
+    "url": "http://arxiv.org/abs/2608.23327v1",
+    "summary": "Flesch Reading Ease (FRE) and the Flesch-Kincaid Grade Level (FKGL) are widely used readability scores for English computed from the same two document statistics, yet their stability on long documents need not imply invariance to lexical composition. Surprisingly, under a topic model with an explicit sentence-boundary token, both scores converge almost surely to deterministic functions of the document topic distribution through just two scalar rates: in the long-text limit, all score variation is mediated by topical composition rather than any residual readability signal. The theory covers both formulae, while the experiments evaluate FKGL. In a fixed admixture with rank[1, q, s] = 3, fibres through interior topic vectors are locally (K-3)-dimensional, whereas regular iso-score level sets are locally (K-2)-dimensional and curved. In out-of-fold evaluation on two balanced corpora, Brown and the written BNC, a topic vector inferred from one document half's content words predicts the other half's FKGL at r = 0.779 and 0.884, respectively. On Brown, adding the topic prediction to genre and mean content-word syllable count yields $\u0394R^2$ = 0.002, with a confidence interval spanning zero; on the BNC, the corresponding split-half increment is 0.024, positive in four of five K = 100 fits (median 0.021). Because inferred topics may also absorb genre, register, and style, we do not interpret these results as evidence about human readability or causal effects.",
+    "authors": [
+      "Yo Ehara"
+    ],
+    "published": "2026-08-24T14:41:06",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Flesch Reading Ease (FRE) and the Flesch-Kincaid Grade Level (FKGL) are widely used readability scores for English computed from the same two document statistics, yet their stability on long documents need not imply invariance to lexical composition. Surprisingly, under a topic model with an explicit sentence-boundary token, both scores converge almost surely to deterministic functions of the\u2026"
+  }
+]

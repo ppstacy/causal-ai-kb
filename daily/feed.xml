@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-25</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-25/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-25/</guid>
+      <pubDate>Tue, 25 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. Transporting Randomized Trial Effects to Real-World Populations via Riesz-Calibrated Optimal Transport — Causal Inference · score 68 · arXiv stat.ME · Anik Burman, Margaret Gamalo, Promit Ghosal, Prosenjit Kundu
+2. Systematic Bias in Green Patent Classification: Silent Green and False Green — Causal LMs · score 56 · arXiv econ.EM · Hamid Bekamiri, Jan Auernhammer, Milad Abbasiharofteh, Jesper Lindgaard Christensen
+3. Provably adaptive sampling with uniform and remasking discrete diffusion models — Causal LMs · score 52 · arXiv stat.ML · Daniil Dmitriev, Zhihan Huang, Yuting Wei
+4. Interpretable AI with Local Distillation — Experimentation · score 52 · arXiv stat.ML · Erin Craig, Yiling Huang, Snigdha Panigrahi
+5. Hierarchical Exponential-Gaussian Mixtures for Watch-Time Distribution Prediction — Experimentation · score 52 · arXiv stat.ML · Sofia Gulevskaia, Mikhail Trapeznikov, Aleksandr Poslavsky, Alexander D'yakonov</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-24</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-24/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-24/</guid>
@@ -207,17 +218,6 @@
 3. GenRec: Towards LLM-Native Recommendation at Netflix — Causal LMs · score 69 · Netflix Tech Blog
 4. Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories — Uplift / HTE · score 56 · arXiv stat.ML · Mengfei Ran, Yifeng Shen, Ruijie Guan
 5. ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs — Causal LMs · score 56 · arXiv cs.LG · Ruman Wang, Hangting Ye</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-29</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-29/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-29/</guid>
-      <pubDate>Wed, 29 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. pymc-labs/CausalPy 0.9.0 — Causal Inference · score 59 · pymc-labs/CausalPy releases
-2. On the magnitude, sign and ranking of recanting-twin path-specific effects — Causal Inference · score 56 · arXiv stat.ME · Tran Trong Khoi Le, Pham Hien Trang Tu, Nhat Long Ngo, Tat-Thang Vo
-3. Tools Are Not Islands: Set-Level Tool Retrieval for LLM Agents via Query-Conditioned Hyperedge Prediction — Causal LMs · score 56 · arXiv cs.LG · Xinyi Hong, Pinjun Dong, Xinyang Yu, Binyan Jiang
-4. Can Deep Generative Models Reproduce Non-Stationary Gaussian Random Fields? — Other · score 48 · arXiv stat.ML · Daniel Kua, Yan Song
-5. Testing Microbiome Community Differences in High Dimensions: A Bootstrap Approach for Compositional Data — Other · score 48 · arXiv stat.ME · Monika Bhattacharjee, Nilanjan Chakraborty, Sayan Das, Sounak Chakraborty et al. (9 authors)</description>
     </item>
   </channel>
 </rss>
