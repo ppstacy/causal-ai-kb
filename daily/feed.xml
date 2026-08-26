@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-26</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-26/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-26/</guid>
+      <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents — Causal LMs · score 56 · arXiv cs.LG · Bo Ren, Yirong Mao, Yi Yang, Wenhui Que
+2. Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows — Causal LMs · score 56 · arXiv cs.CL · Miao Liu, Zhizhe Liu
+3. How does hazard exposure influence job choice? Evaluating time-dependent tradeoffs between salary and hazard risks — Uplift / HTE · score 52 · arXiv econ.EM · Richard Bernknopf, Leila Gonzales, Christpher Keane
+4. SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents — Causal LMs · score 52 · arXiv cs.CL · Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang et al. (8 authors)
+5. The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution… — Causal LMs · score 52 · arXiv cs.CL · Augusto Camargo</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-25</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-25/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-25/</guid>
@@ -207,17 +218,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</guid>
       <pubDate>Sat, 01 Aug 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-07-31</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-07-31/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-07-31/</guid>
-      <pubDate>Fri, 31 Jul 2026 13:00:00 +0000</pubDate>
-      <description>1. Linear Estimation of Structural and Causal Effects for Nonseparable Panel Data — Causal Inference · score 100 · arXiv econ.EM · Victor Chernozhukov, Ben Deaner, Ying Gao, Jerry Hausman et al. (5 authors)
-2. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
-3. GenRec: Towards LLM-Native Recommendation at Netflix — Causal LMs · score 69 · Netflix Tech Blog
-4. Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories — Uplift / HTE · score 56 · arXiv stat.ML · Mengfei Ran, Yifeng Shen, Ruijie Guan
-5. ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs — Causal LMs · score 56 · arXiv cs.LG · Ruman Wang, Hangting Ye</description>
     </item>
   </channel>
 </rss>
