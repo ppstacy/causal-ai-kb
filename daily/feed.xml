@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-27</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-27/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-27/</guid>
+      <pubDate>Thu, 27 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition — Causal LMs · score 56 · arXiv cs.LG · Junjie Meng, Ranxu Zhang, Zi-an Zhang, Shujun Liu et al. (9 authors)
+2. Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence — Causal LMs · score 56 · arXiv cs.CL · Ante Kapetanovic, Kemal Altwlkany, Andro Mercep, Tomislav Duricic et al. (5 authors)
+3. SciMIF: Understanding Multimodal Instruction Following in Scientific Domains — Causal LMs · score 52 · arXiv cs.LG · Ye Shen, Yuting Zheng, Dun Pei, Zijian Chen et al. (7 authors)
+4. Towards A Unified Information Bottleneck Framework for Time Series Explanations — Uplift / HTE · score 52 · arXiv cs.LG · Xu Zheng, Zichuan Liu, Zhuomin Chen, Mayur Akewar et al. (10 authors)
+5. Skill Issue: Are Skills Language-Invariant in LLMs? — Causal LMs · score 52 · arXiv cs.LG · Bobby Cheng, Adam Gaber, Zhengyuan Liu, Catherine Arnett et al. (7 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-26</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-26/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-26/</guid>
@@ -211,13 +222,6 @@
 3. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
 4. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
 5. Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil — Causal Inference · score 44 · Semantic Scholar: Guido Imbens causal · W. Guido, Imbens, B. Donald, Rubin</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-01</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-01/</guid>
-      <pubDate>Sat, 01 Aug 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
     </item>
   </channel>
 </rss>
