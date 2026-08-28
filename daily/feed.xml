@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-28</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-28/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-28/</guid>
+      <pubDate>Fri, 28 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. A Finite Sample Analysis for Quantile Temporal Difference Learning in Distributional Reinforcement Learning — Causal LMs · score 56 · arXiv stat.ML · Zijie Cheng, Xiang Li, Yang Peng, Zhihua Zhang
+2. Combining covariate adjustment with information from secondary endpoints to improve precision in randomized trials — Experimentation · score 56 · arXiv stat.ME · Jack M. Wolf, Joseph S. Koopmeiners, David M. Vock
+3. When Interference Graphs Evolve: Doubly Robust Estimation of Dynamic Peer Effects — Causal Inference · score 56 · arXiv cs.LG · Xiaojing Du
+4. MAPS: Netflix’s Multimodal Asset Personalization at Scale — Other · score 53 · Netflix Tech Blog
+5. Evidence, Calibration, and Stability: A Triadic Framework for Hypothesis Testing Under Model Uncertainty — Causal Inference · score 52 · arXiv stat.ME · Subir Hait</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-27</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-27/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-27/</guid>
@@ -211,17 +222,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-03/</guid>
       <pubDate>Mon, 03 Aug 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-02</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-02/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-02/</guid>
-      <pubDate>Sun, 02 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
-2. Causal Inference for Statistics, Social, and Biomedical Sciences: Sensitivity Analysis and Bounds — Causal Inference · score 48 · Semantic Scholar: Guido Imbens causal · G. Imbens, D. Rubin
-3. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
-4. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
-5. Identification of Causal Effects Using Instrumental Variables 1 IIiiiiil — Causal Inference · score 44 · Semantic Scholar: Guido Imbens causal · W. Guido, Imbens, B. Donald, Rubin</description>
     </item>
   </channel>
 </rss>

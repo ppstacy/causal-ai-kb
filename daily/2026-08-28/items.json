@@ -1,0 +1,504 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2608.27313v1",
+    "title": "A Finite Sample Analysis for Quantile Temporal Difference Learning in Distributional Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2608.27313v1",
+    "summary": "We establish a global finite-sample guarantee for synchronous quantile temporal-difference learning (QTD) in tabular distributional reinforcement learning. The proof separates two stability mechanisms. A global comparison argument, based on the order monotonicity of reward cumulative distribution functions and the $W_\\infty$ contraction of the distributional Bellman operator, brings an arbitrarily initialized iterate into a local neighborhood. Inside that neighborhood, we linearize the QTD mean field. Its Jacobian is a nonsingular $M$-matrix, and the associated positive semigroup permits a variance-sensitive martingale analysis. For stepsizes $\u03b1_t=c(t+1)^{-a}$ with $a\\in(1/2,1)$, the leading last-iterate fluctuation is of order $\\widetilde O\\bigl(T^{-a/2}/\\sqrt{1-\u03b3}\\bigr)$ and has no polynomial dependence on the number of quantiles. The deterministic transient and the required burn-in can still depend on the smallest Bellman-target density, which is of order $m^{-1}$ in the worst case. The result therefore distinguishes sharply between the local stochastic fluctuation and the global sample complexity.",
+    "authors": [
+      "Zijie Cheng",
+      "Xiang Li",
+      "Yang Peng",
+      "Zhihua Zhang"
+    ],
+    "published": "2026-08-27T16:16:09",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "We establish a global finite-sample guarantee for synchronous quantile temporal-difference learning (QTD) in tabular distributional reinforcement learning. The proof separates two stability mechanisms. A global comparison argument, based on the order monotonicity of reward cumulative distribution functions and the $W_\\infty$ contraction of the distributional Bellman operator, brings an\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.27289v1",
+    "title": "Combining covariate adjustment with information from secondary endpoints to improve precision in randomized trials",
+    "url": "http://arxiv.org/abs/2608.27289v1",
+    "summary": "Background/Aims: Adjustment for prognostic baseline covariates can improve precision in randomized trials. Previous work has shown that jointly modeling primary and secondary endpoints can yield additional precision by borrowing information across endpoints. We investigated whether these approaches can be combined to achieve efficiency gains beyond those obtained through covariate adjustment alone.   Methods: We extended a previously proposed one-factor structural equation modeling framework for borrowing information from secondary endpoints to incorporate baseline covariates while retaining the average treatment effect on the primary endpoint as the estimand. To mitigate sensitivity to model misspecification, we combined this estimator with a conventional covariate-adjusted estimator using cross-validated model averaging. We evaluated operating characteristics in simulations and applied the methods to a randomized trial of very low versus normal nicotine content cigarettes.   Results: When the structural equation model was correctly specified, endpoint borrowing improved efficiency beyond conventional covariate adjustment across all simulated settings. Model misspecification could induce bias and undercoverage. Model averaging reduced bias and improved coverage relative to the structural equation model estimator, although coverage remained imperfect under severe misspecification. In the trial application, the model-averaged estimate was 21% more precise than the unadjusted estimate and 13% more precise than covariate adjustment alone.   Conclusion: Secondary endpoints can contribute meaningful information about the average treatment effect on a primary endpoint even after baseline covariates have been incorporated. These gains require stronger assumptions than conventional covariate adjustment; model averaging provides a practical compromise between efficiency and robustness.",
+    "authors": [
+      "Jack M. Wolf",
+      "Joseph S. Koopmeiners",
+      "David M. Vock"
+    ],
+    "published": "2026-08-27T15:58:11",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Background/Aims: Adjustment for prognostic baseline covariates can improve precision in randomized trials. Previous work has shown that jointly modeling primary and secondary endpoints can yield additional precision by borrowing information across endpoints. We investigated whether these approaches can be combined to achieve efficiency gains beyond those obtained through covariate adjustment\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27187v1",
+    "title": "When Interference Graphs Evolve: Doubly Robust Estimation of Dynamic Peer Effects",
+    "url": "http://arxiv.org/abs/2608.27187v1",
+    "summary": "Peer effects are difficult to estimate when interaction graphs evolve because pre-assignment network history, dynamic peer exposure, and post-assignment network change have distinct causal roles. We introduce a controlled contrast framework that indexes potential outcomes by own treatment, temporally aggregated peer exposure, and a post-assignment evolution summary. Differences between the resulting means define own-treatment, peer-exposure, controlled network-evolution, and joint controlled contrasts rather than a mediation decomposition. We develop the Dynamic Network Doubly Robust estimator, DynaNet-DR, which combines a temporally factorized propensity with normalized augmentation. Under consistency, summary sufficiency, sequential exchangeability, positivity, nuisance convergence, and weak dependence, its canonical estimator is consistent when either the outcome regression or the propensity estimator is consistent. The reported implementation adds representative-score prediction, fixed clipping, and finite-sample stabilization. Semi-synthetic benchmarks on fixed real temporal graph sequences show favorable estimation accuracy among methods targeting the full profile. These benchmarks assess summary-indexed contrasts rather than counterfactual edge generation, and the MathOverflow study is an observational illustration under the stated assumptions.",
+    "authors": [
+      "Xiaojing Du"
+    ],
+    "published": "2026-08-27T14:32:40",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 56,
+    "topic": "causal-inference",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Peer effects are difficult to estimate when interaction graphs evolve because pre-assignment network history, dynamic peer exposure, and post-assignment network change have distinct causal roles. We introduce a controlled contrast framework that indexes potential outcomes by own treatment, temporally aggregated peer exposure, and a post-assignment evolution summary. Differences between the\u2026"
+  },
+  {
+    "source": "rss",
+    "source_name": "Netflix Tech Blog",
+    "id": "rss:https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
+    "title": "MAPS: Netflix\u2019s Multimodal Asset Personalization at Scale",
+    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
+    "summary": "By    Emma Yanyang Kong   ,    Aditya Deshpande   ,    Asad Abbasi   ,    Bowei Yan   ,    David Fagnan   ,    Ashish Rastogi   ,    Dhaval Patel   ,    Ray\u00a0Zhang     Introduction   The Netflix experience is a journey of discovery. Every visual cue, from the artwork on a title to the video previews that autoplay while you browse, is there to connect you with a story you will love. We call these visual cues  assets , and choosing the right one for each member is a personalization problem of its own. But which image or video preview of  Squid Game  should we show you? And what do we do right after a title launches, when there\u2019s far too little interaction data to know which asset we should recommend to each\u00a0member?  For years, our models answered the first question well and the second poorly. They learned which assets members interacted with, but treated every asset as an opaque ID, blind to what was actually  in  the artwork or video preview. Right after a title launched, its assets had no history, so we dialed up exploration on its assets to gather interaction data, and otherwise fell back to popularity heuristics that ignore your taste. Only once enough interactions had piled up could personalization take over. This is the classic  cold-start  problem.  This post shares how  multimodal embeddings  let our models see and hear the assets they recommend, so personalization can kick in far sooner, close to a title\u2019s launch. Because a new asset arrives with its embedding the model",
+    "authors": [],
+    "published": "2026-08-28T16:01:02",
+    "extras": {},
+    "score": 53,
+    "topic": "other",
+    "why_relevant": "trusted source; +15 source-type",
+    "llm_summary": "By    Emma Yanyang Kong   ,    Aditya Deshpande   ,    Asad Abbasi   ,    Bowei Yan   ,    David Fagnan   ,    Ashish Rastogi   ,    Dhaval Patel   ,    Ray\u00a0Zhang     Introduction   The Netflix experience is a journey of discovery. Every visual cue, from the artwork on a title to the video previews that autoplay while you browse, is there to connect you with a story you will love. We call these\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.27320v1",
+    "title": "Evidence, Calibration, and Stability: A Triadic Framework for Hypothesis Testing Under Model Uncertainty",
+    "url": "http://arxiv.org/abs/2608.27320v1",
+    "summary": "Statistical tests are often asked to do too much. A single reported result is expected to describe what the observed data say, reassure readers about repeated-sampling behavior, and remain convincing when the working model is perturbed. Those tasks are connected, but they are not equivalent. Fisherian inductive inference and Neyman-Pearson decision theory clarify the first two; robust testing, sensitivity analysis, fragility measures, multiverse analysis, and distributional-stability methods speak to the third. I propose Evidence-Calibration-Stability (ECS) as a framework for keeping these roles separate while reporting them together. Evidence is post-data. Calibration belongs to the design or procedure. Stability is the post-data distance from the benchmark analysis to a conclusion-reversing perturbation within a declared model neighborhood. Full ECS support is conjunctive: a strong coordinate cannot rescue a failed one. For finite-dimensional affine perturbations, I derive an exact ellipsoidal stability radius. For smooth nonlinear margins, a uniform quadratic-remainder condition yields a certified lower bound over a declared neighborhood, showing when the affine formula is only a surrogate. I also establish coordinate invariance and a matrix extension for multiple claims, and distinguish confirmatory calibration from descriptive calibration profiles when prespecification is unavailable. Simulations for the one-sample t test and Student's historical sleep data show that the three coordinates can lead to different interpretations. ECS is a formal synthesis, not a claim that evidence, power, or robustness is itself new.",
+    "authors": [
+      "Subir Hait"
+    ],
+    "published": "2026-08-27T16:21:03",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Statistical tests are often asked to do too much. A single reported result is expected to describe what the observed data say, reassure readers about repeated-sampling behavior, and remain convincing when the working model is perturbed. Those tasks are connected, but they are not equivalent. Fisherian inductive inference and Neyman-Pearson decision theory clarify the first two; robust testing,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.27143v1",
+    "title": "An approximate zero bias transformation for random sums: Applications to sampling with outliers, auto insurance, and generative AI",
+    "url": "http://arxiv.org/abs/2608.27143v1",
+    "summary": "We develop $L^1$ bounds for the difference between a test function of a random sum and a standard normal random variable, where the summands are assumed to be independent but not necessarily identically distributed. The bounds are obtained through a new version of the approximate zero bias transformation specifically developed for random sums. Although the identical distribution assumption is relaxed, the bounds are of order $1/\\sqrt{n}$, matching the order of existing bounds in the literature under the same distributional assumption on the number of summands. The main results are then applied to three real-world settings: random sums obtained from simple random sampling with outliers, total insurance claims, and generative AI response times.",
+    "authors": [
+      "Wasamon Jantai",
+      "Nathakhun Wiroonsri"
+    ],
+    "published": "2026-08-27T13:54:41",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "math.PR"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We develop $L^1$ bounds for the difference between a test function of a random sum and a standard normal random variable, where the summands are assumed to be independent but not necessarily identically distributed. The bounds are obtained through a new version of the approximate zero bias transformation specifically developed for random sums. Although the identical distribution assumption is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2608.27140v1",
+    "title": "Graph-based causal variance decompositions: When \"variance explained\" means causation",
+    "url": "http://arxiv.org/abs/2608.27140v1",
+    "summary": "Recursive application of the law of total variance decomposes the marginal variance of an outcome into components attributed to explanatory variables and a residual component. The resulting decomposition depends on the chosen conditioning order, and its components do not in general have causal interpretations. We develop a graph-based framework for defining causal counterparts of ordered variance components and establishing their identification from observed data. Under topological orderings, identification can be assessed component by component against the full causal graph, without requiring the variables included in the decomposition to form a causally sufficient system. We also consider scientifically motivated departures from topological orderings, in which selected intermediate variables are conditioned on to obtain controlled-effect interpretations, motivated by the context of disparities in healthcare delivery. We relate the resulting estimands to causal attribution and variable-importance approaches in machine learning, and propose model-based plug-in estimators together with an approximate Bayesian procedure for uncertainty quantification. A simulation study examines finite-sample performance and sensitivity to outcome-model misspecification and flexible machine-learning estimation.",
+    "authors": [
+      "Olli Saarela",
+      "Juha Karvanen"
+    ],
+    "published": "2026-08-27T13:52:25",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Recursive application of the law of total variance decomposes the marginal variance of an outcome into components attributed to explanatory variables and a residual component. The resulting decomposition depends on the chosen conditioning order, and its components do not in general have causal interpretations. We develop a graph-based framework for defining causal counterparts of ordered variance\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27370v1",
+    "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+    "url": "http://arxiv.org/abs/2608.27370v1",
+    "summary": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the academic and open-source communities. Although strong open-source efforts already exist, including open-weight models and open-source training recipes, a cost-efficient, hardware-accessible, and open-source pretraining recipe has long been missing. Even at a small scale, training Llama-3.2-3B costs over \\$1.5M, and reproducing SmolLM3-3B needs over \\$700K. In this report, we present an open pretraining recipe designed to lower this barrier. Using this recipe, we train a collection of Puro-2B models from scratch on up to 1.4 trillion tokens with FP8 precision on consumer-grade RTX 5090 GPUs. The models in the collection differ in token budgets and selected recipe variants. Our best model is trained at a compute cost of less than \\$6.9K and approaches Qwen2.5-1.5B performance under our evaluation protocol. This cost efficiency is enabled by a combination of approaches, including hardware selection, low-precision training, hyperball optimization, curriculum model averaging, and the data recipe. Beyond the recipe itself, we provide two additional results. First, across the Puro-2B collection, we derive a Puro Cost Scaling Law that relates training cost to average model performance; the fitted law suggests that about \\$4.4K, less than \\$5,090, is sufficient to reach the performance of Qwen2-1.5B. Second, as an end-to-end case study, we examine how pretraining data curricula shape downstream performance after post-training. Such controlled studies are enabled by having access to the full pretraining pipeline rather than model weights alone. We release the full training recipe for Puro-2B, including data, code, and model weights under Apache 2.0 at https://huggingface.co/collections/thu-pacman/puro-2b.",
+    "authors": [
+      "Kairong Luo",
+      "Jiarui Cui",
+      "Yaorui Yin",
+      "Shengqi Chen",
+      "Yiming Yang",
+      "Linxiang Gao",
+      "Yanmohan Wang",
+      "Mingzhe Zhang",
+      "Kaiyue Wen",
+      "Kaifeng Lyu",
+      "Wenguang Chen"
+    ],
+    "published": "2026-08-27T17:07:12",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Language model pretraining has become almost synonymous with prohibitive cost, placing it out of reach for much of the academic and open-source communities. Although strong open-source efforts already exist, including open-weight models and open-source training recipes, a cost-efficient, hardware-accessible, and open-source pretraining recipe has long been missing. Even at a small scale, training\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27153v1",
+    "title": "Inductive Correlation Clustering with Graph Neural Networks",
+    "url": "http://arxiv.org/abs/2608.27153v1",
+    "summary": "Correlation Clustering (CC) is a natural formulation of clustering in combinatorial optimization, which uses a graph representation of the input and does not require a pre-specified number of clusters. Given $n$ objects and a pairwise similarity function, the goal is to cluster the objects so that similar objects are put in the same cluster and dissimilar objects are put in different clusters. Despite its versatility, existing CC algorithms suffer from significant scalability issues and are inherently transductive: i.e., the algorithm must be executed from scratch for any new problem instance.   In this work, we bridge this gap by leveraging Graph Neural Networks (GNNs) to solve Inductive Correlation Clustering, a novel generalization of the CC problem designed to handle unseen graph instances. By learning to exploit common structural patterns and node features during training, our framework generalizes to new graphs drawn from the same distribution with minimal computational overhead with respect to standard algorithms. We demonstrate the effectiveness and scalability of our approach through extensive experiments. Our framework not only excels in the inductive setting, e.g., lowering the inference time up to $5$ order of magnitude, while maintaining an approximation ratio within $~10\\%$ of the best baseline solution, but also achieves competitive results on standard (transductive) CC benchmarks. Finally, we showcase a practical application of our framework as a learnable pooling mechanism for graph classification. Our results indicate that our method serves as an efficient pooling layer, enhancing the ability of GNNs to capture hierarchical structural information in networks.",
+    "authors": [
+      "Francesco Paolo Nerini",
+      "Francesco Bonchi",
+      "Arijit Khan",
+      "Andr\u00e9 Panisson"
+    ],
+    "published": "2026-08-27T14:05:48",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Correlation Clustering (CC) is a natural formulation of clustering in combinatorial optimization, which uses a graph representation of the input and does not require a pre-specified number of clusters. Given $n$ objects and a pairwise similarity function, the goal is to cluster the objects so that similar objects are put in the same cluster and dissimilar objects are put in different clusters.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27122v1",
+    "title": "Cone Extended Rayleigh Quotients for Directed Graph Learning: Minimax Spectral Certificates, Sensitivity, and Adaptive Control",
+    "url": "http://arxiv.org/abs/2608.27122v1",
+    "summary": "Directed graph learning naturally leads to trainable nonsymmetric propagation operators with distinct right and left spectral structures. Building on the two-sided cone Rayleigh framework for generalized pencils \\[ B_\u03b8-\u03bbG, \\] we develop a learning-oriented methodology for spectral certification, sensitivity analysis, and control without requiring symmetry, nonnegativity, or cone preservation. In the positive-orthant setting, computable lower and upper cone bounds provide an a posteriori enclosure of a distinguished cone level, while smooth soft-min/max surrogates preserve rigorous one-sided bounds with explicit approximation errors and remain differentiable with respect to the trainable parameters.   For a simple interior level, the right and left modes satisfy \\[ D\u03bb_C(B)[H]=v_C^T H u_C, \\] yielding first-order optimal graph-supported interventions under prescribed perturbation budgets and motivating adaptive spectral control. Numerical experiments demonstrate the applicability of the approach beyond cone-preserving operators and in directed learning settings. Signed nonsymmetric perturbations reveal a transition from interior eigenpairs to boundary complementary quasi-pairs, including non-spectral cone levels, while controlled experiments show that symmetrization can remove predictive information carried solely by edge direction.   On the directed Cora citation network, adaptive recomputation of the right--left sensitivity reduces the distinguished spectral level by approximately $21.5\\%$ under a cumulative edge-weight reduction budget of $0.5\\%$, with no observed change in test accuracy for the trained model and data split considered.",
+    "authors": [
+      "Yavdat Sh. Il'yasov",
+      "Nur F. Valeev"
+    ],
+    "published": "2026-08-27T13:37:02",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Directed graph learning naturally leads to trainable nonsymmetric propagation operators with distinct right and left spectral structures. Building on the two-sided cone Rayleigh framework for generalized pencils \\[ B_\u03b8-\u03bbG, \\] we develop a learning-oriented methodology for spectral certification, sensitivity analysis, and control without requiring symmetry, nonnegativity, or cone preservation. In\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27421v1",
+    "title": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
+    "url": "http://arxiv.org/abs/2608.27421v1",
+    "summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alternative learned directly from patient trajectories is in routine use. We conducted a retrospective two-cohort study on a total of 29,116 and 7,691 adult patients meeting Sepsis-3 criteria from two hospital systems in Massachusetts and Georgie, respectively.   We developed a sepsis index using 43 routinely charted variables over a 72-hour treatment window. Unlike previous studies, we use mortality as a treatment-level ranking signal rather than a per-state target, allowing credit to be redistributed non-uniformly across timesteps. Evaluation was done on a permanent 20% test holdout, using clinical vignettes and Spearman correlation. Uncertainty intervals were obtained by bootstrap resampling of whole patients. Under this ranking scheme, non-survivors scored 1.19-1.64 points higher than survivors on a 0-10 scale within all strata of baseline SOFA-2, with similar results stratifying within lactate, mean arterial pressure (MAP), and creatinine. Within-patient change in the index correlated with change in lactate (Spearman rho = 0.39; n = 1,854). Similar, weaker correlations were found for MAP and creatinine. On a cohort level, cross-institutional agreement measured by Spearman correlation between models trained on different sites, were 70-77% of same-site correlation. External within-patient correlations were 0.54 and 0.59 against ceilings of 0.92 and 0.90. Our index also correlated with established indices, while null controls stayed near zero.   Our index demonstrated hourly prognostic information that meaningfully separates patient outcomes and is consistent with clinical expectation, indicating potential as a decision support tool complementing clinical judgement.",
+    "authors": [
+      "Kevin Zhu",
+      "Ryan Zhang",
+      "Baraa Abed",
+      "Tilendra Choudhary",
+      "Malvern Madondo",
+      "Mehak Arora",
+      "Yixuan Yang",
+      "Alasdair Gent",
+      "Aditya Nagori",
+      "Omer T. Inan",
+      "Krista L. Haines",
+      "Patrick Georgoff",
+      "Suresh M. Agarwal",
+      "Vijay Krishnamoorthy",
+      "Tetsu Ohnuma",
+      "Mihai V. Podgoreanu",
+      "Michael R. Pinsky",
+      "Gilles Clermont",
+      "Craig M. Coopersmith",
+      "Craig S. Jabaley",
+      "Rishikesan Kamaleswaran"
+    ],
+    "published": "2026-08-27T17:46:21",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alternative learned directly from patient trajectories is in routine use. We conducted a retrospective two-cohort study on a total of 29,116 and 7,691 adult patients meeting Sepsis-3\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27413v1",
+    "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+    "url": "http://arxiv.org/abs/2608.27413v1",
+    "summary": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous modeling and systems challenges. We present a scalable end-to-end GNN ranking system for production social graphs, focusing on two design choices that are critical in this setting: multi-hash ID embeddings and temporal neighbor sampling. Multi-hash embeddings are common for high-cardinality features, but industrial GNN systems typically either ignore trainable IDs or accept full embedding tables, exceeding 200 GB for our graph. We integrate multi-hash as the primary node representation, reducing the ID-embedding table size by more than 98 percent while preserving ranking quality. Temporal neighbor sampling is well understood in principle, but existing implementations scan full adjacency lists, which is a non-starter for users with tens of thousands of friends. We implement timestamp-sorted CSR storage with binary search, reducing the per-node temporal sampling cost from $O(deg(v) + k)$ to $O(\\log(deg(v)) + k)$. Beyond these components, we show that this combination scales and yields measurable production impact. On a graph with 194M users and 28B edges, offline ablations isolate each design choice's contribution. In an online A/B test, our system increases friend additions from recommendations by 16 percent and unique friend adders by 11.5 percent over a strong production baseline. We release our framework for distributed training and inference on large temporal graphs.",
+    "authors": [
+      "Maksim Utushkin",
+      "Andrei Ovsiannikov",
+      "Alexander D'yakonov"
+    ],
+    "published": "2026-08-27T17:41:33",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.IR"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous modeling and systems challenges. We present a scalable end-to-end\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27372v1",
+    "title": "Universality and sharp thresholds for ellipsoid fitting",
+    "url": "http://arxiv.org/abs/2608.27372v1",
+    "summary": "We establish a sharp phase transition for fitting random vectors by an ellipsoid. The random vectors have independent subgaussian coordinates with mean zero, variance one, and a common fourth moment, and the number of vectors is proportional to the square of the dimension. We identify an explicit satisfiability threshold such that, with high probability, a positive definite ellipsoid passes through every data point below the threshold, whereas no positive semidefinite fit exists above it. We also determine the optimal squared fitting error throughout the unsatisfiable regime. In particular, the threshold depends on the coordinate distributions only through their common fourth moment, revealing a fourth moment universality phenomenon. For standard Gaussian data the threshold is $1/4$, resolving the ellipsoid fitting conjecture.",
+    "authors": [
+      "Frederic Koehler",
+      "Youngtak Sohn"
+    ],
+    "published": "2026-08-27T17:09:38",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "math.PR"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We establish a sharp phase transition for fitting random vectors by an ellipsoid. The random vectors have independent subgaussian coordinates with mean zero, variance one, and a common fourth moment, and the number of vectors is proportional to the square of the dimension. We identify an explicit satisfiability threshold such that, with high probability, a positive definite ellipsoid passes\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27259v1",
+    "title": "Making Latent Evolution Explicit: Operator-Structured Transitions for World Action Models",
+    "url": "http://arxiv.org/abs/2608.27259v1",
+    "summary": "World Action Models (WAMs) augment robot policies by predicting how task-relevant scene states may evolve under interaction. Recent WAMs increasingly perform such prediction in latent representation spaces, avoiding full appearance-level generation while preserving control-relevant information. Yet latent transitions are commonly realized with Transformer-based predictors whose inductive structure is centered on token interaction rather than temporal evolution. We study transition realization as an architectural choice distinct from predictive representation and prediction-policy coupling. We introduce the Latent Evolution Operator Network (LEON), which models latent evolution in a learned observable space through context-modulated operator-based propagation and additive forcing. Grounded in the controlled Koopman generator view of evolution, LEON organizes context-dependent transition variation around a shared evolution-operator structure while retaining a complementary path for additive change. Controlled dynamical systems verify the resulting evolution-specific inductive bias and the complementary roles of operator propagation and forcing. Across two WAM formulations that integrate latent prediction into the policy differently, LEON improves closed-loop performance and robustness while remaining effective under full transition replacement. These results establish transition realization as a consequential architectural choice in latent WAMs.",
+    "authors": [
+      "Xiaoxiao Lu",
+      "Yunlong Dong",
+      "Jiahao Shi",
+      "Ye Yuan"
+    ],
+    "published": "2026-08-27T15:43:44",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "World Action Models (WAMs) augment robot policies by predicting how task-relevant scene states may evolve under interaction. Recent WAMs increasingly perform such prediction in latent representation spaces, avoiding full appearance-level generation while preserving control-relevant information. Yet latent transitions are commonly realized with Transformer-based predictors whose inductive\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27241v1",
+    "title": "Importance Scoring of Transformer Attention Heads in Learning Tabular Data",
+    "url": "http://arxiv.org/abs/2608.27241v1",
+    "summary": "Computationally demanding and opaque deep learning models can be better understood and optimized by analyzing how they transform data. While deep transformers have been widely studied in computer vision and natural language processing, their application in tabular data remains relatively underexplored. This paper presents one of the first applications of an importance-scoring metric to interpret multi-head transformer models in learning from tabular data. Experiments conducted on 40 diverse tabular datasets demonstrate robustness to head drops based on the proposed head importance score. In 72.5\\% of experimental examples, the model remains most resilient to performance drops when heads with the lowest importance scores are gradually removed. In contrast, removing the most important attention head first results in the greatest reduction in classification performance. A closer look at individual head importance scores across six attention layers reveals that important heads are scattered across layers, with no consistent layer-specific trends. In contrast to the image and language domains, the importance of individual attention heads varies considerably across tabular datasets with different schemas and feature spaces. The proposed importance score can improve efficiency and redundancy within transformer architectures. We make the source code for measuring the importance of individual attention heads publicly available.",
+    "authors": [
+      "Ahmad Jad Allah",
+      "Kazi F. Akhter",
+      "Md. Kamrozzaman Bhuiyan",
+      "Manar D. Samad"
+    ],
+    "published": "2026-08-27T15:22:37",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Computationally demanding and opaque deep learning models can be better understood and optimized by analyzing how they transform data. While deep transformers have been widely studied in computer vision and natural language processing, their application in tabular data remains relatively underexplored. This paper presents one of the first applications of an importance-scoring metric to interpret\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27233v1",
+    "title": "HALO: A Heterogeneity-Aware Language-Aligned IMU Foundation Model for Open-Set Human Activity Recognition",
+    "url": "http://arxiv.org/abs/2608.27233v1",
+    "summary": "Human Activity Recognition (HAR) using inertial measurement units (IMUs) enables a wide range of applications, yet the field still lacks a unified model that can generalize across diverse subjects, devices, and activities. Training such a model is difficult due to two key challenges: sensing heterogeneity -- differences in sampling rates, channel configurations, and sensor placements -- and poor generalization to unseen activities and label vocabularies. We introduce HALO (Heterogeneity-Aware Language-aligned Open-set model), a domain-specific IMU foundation model that addresses both challenges through a two-stage training framework. Stage 1 pretrains the IMU encoder with heterogeneity-aware self-supervised learning, including adaptive-pooling tokenization, channel-independent feature extraction, and contextualized sensor conditioning that injects natural-language sensor descriptions into each channel embedding. Stage 2 aligns this IMU encoder with text embeddings via synonym-aware soft contrastive learning, enabling open-set recognition via cosine-similarity retrieval without per-dataset classifiers. Trained on 10 public HAR datasets and evaluated on 7 held-out datasets, HALO outperforms five state-of-the-art baselines on all 8 aggregate metrics, and still leads on 3 of 4 settings under baseline-matched inputs. Despite using only ~35M trainable parameters -- 10x fewer than the latest foundation model MOMENT (341.2M) -- HALO improves zero-shot open-set accuracy, measured over all 87 training labels, by 13.7 percentage points. On two further datasets with severe distribution shift, every model including HALO collapses zero-shot. A video demonstration of HALO's performance in real world is available at https://youtu.be/rooVKragtFU",
+    "authors": [
+      "Zihan Ding",
+      "Liyu Zhang",
+      "Xiaomin Ouyang"
+    ],
+    "published": "2026-08-27T15:17:12",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Human Activity Recognition (HAR) using inertial measurement units (IMUs) enables a wide range of applications, yet the field still lacks a unified model that can generalize across diverse subjects, devices, and activities. Training such a model is difficult due to two key challenges: sensing heterogeneity -- differences in sampling rates, channel configurations, and sensor placements -- and poor\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27182v1",
+    "title": "TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution",
+    "url": "http://arxiv.org/abs/2608.27182v1",
+    "summary": "LLM agents are increasingly applied to anomaly detection and root-cause analysis in time-series observations collected from real-world systems; however, their performance on these tasks has not been systematically evaluated under controlled conditions. We introduce TraceBench, a simulation-based framework for generating controlled root-cause attribution tasks. In each generated task, an agent receives time-series observations produced by simulating a physical dynamical system and must determine whether a system parameter was altered during the simulation and, if so, which one. Using TraceBench, we generate tasks from three interpretable mechanical systems and systematically evaluate four LLM agents across controlled experimental conditions, yielding new insights into how these agents analyze time-series observations from dynamical systems. Our results show that agents benefit substantially from domain context and explore data primarily through numerical console output rather than visualizations. We also find that agents generally perform worse when required to produce a Python script that maps each time-series sample to a predicted root-cause label than when they submit predictions directly. We release our datasets, agent trajectories, experimental results, and a leaderboard on our website, tracebench.github.io.",
+    "authors": [
+      "Tommaso Bendinelli",
+      "Artur Dox",
+      "Christian Holz"
+    ],
+    "published": "2026-08-27T14:29:13",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "LLM agents are increasingly applied to anomaly detection and root-cause analysis in time-series observations collected from real-world systems; however, their performance on these tasks has not been systematically evaluated under controlled conditions. We introduce TraceBench, a simulation-based framework for generating controlled root-cause attribution tasks. In each generated task, an agent\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27176v1",
+    "title": "When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue",
+    "url": "http://arxiv.org/abs/2608.27176v1",
+    "summary": "Understanding spoken dialogue requires joint reasoning over lexical content and paralinguistic acoustic signals such as emotion and conversational intent. However, existing evaluations often allow shortcuts based on transcripts or single-modality solutions, obscuring whether models genuinely ground predictions in speech. We formalize this failure mode as cross-modal disagreement, where transcripts suggest plausible but incorrect surface interpretations while acoustic cues such as prosody or speaking style support different answers. We develop a scalable framework that identifies text-biased surface interpretations and converts disagreement regions into conflict QA examples. We also include consistent cases where transcript-based and speech-grounded interpretations agree, enabling evaluation beyond adversarial audio dependence. This results in ContraTalk, a controlled benchmark containing 501 questions across five discourse dimensions: interaction behavior, emotion state, dialogue act, social stance, and conversational intent. We further develop an agentic-style reasoning framework that converts speech into an Audio Twin, a text-readable representation of localized acoustic cues that exposes acoustic evidence to the reasoning model. Experiments show that strong text-only LLMs exceed 90% accuracy in consistent cases but drop to 33-48% in conflict cases. Direct AudioLLMs provide only partial grounding, still selecting the transcript-biased trap in roughly 30-40% of conflict cases. Our Audio Twin framework improves conflict-case accuracy while reducing trap selection, but its consistent-case behavior remains backbone-dependent. These results identify transcript-based shortcuts as an important failure mode in spoken dialogue understanding and show that explicit acoustic evidence aggregation provides a more controllable interface for diagnosing and improving speech-grounded reasoning.",
+    "authors": [
+      "Yen-Ju Lu",
+      "Yuzhe Wang",
+      "Yaohan Guan",
+      "Xiluo He",
+      "Jiarui Hai",
+      "Mingrui Liang",
+      "Kaavya Chaparala",
+      "Thomas Thebaud",
+      "Laureano Moro-Velazquez",
+      "Najim Dehak",
+      "Jesus Villalba"
+    ],
+    "published": "2026-08-27T14:26:46",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Understanding spoken dialogue requires joint reasoning over lexical content and paralinguistic acoustic signals such as emotion and conversational intent. However, existing evaluations often allow shortcuts based on transcripts or single-modality solutions, obscuring whether models genuinely ground predictions in speech. We formalize this failure mode as cross-modal disagreement, where\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27254v1",
+    "title": "Circuit Condensation: Post-Training that Concentrates a Behavior's Causal Circuit",
+    "url": "http://arxiv.org/abs/2608.27254v1",
+    "summary": "One approach to mechanistic interpretability explains behavior through circuits: the components and connections that carry it. Frozen discovery often returns hundreds of edges, making them hard to inspect, compare, or verify exhaustively. We introduce Circuit Condensation, which post-trains models to concentrate behaviors into smaller causal graphs. Each round prunes low-attribution edges and trains a low-rank adapter to match the original through what remains, retaining the cut only if task performance and general capability survive. Across four behaviors and eight models, condensed circuits are smaller than the strongest frozen baseline in 30 of 32 settings, by $8.1\\times$ on average and up to $316\\times$. Repeating the search without weight updates produces larger circuits in 29 of 32 settings, showing that weight updates, rather than search alone, drive the reduction. Testing every subset of 19 circuits finds 11 that cannot be reduced and reveals removable edges in the rest. Pair ablations expose dependencies between edges, showing that their effects cannot be understood independently. On indirect object identification, condensation isolates 24 heads, 17 of them with documented roles, against 61 heads and 36 undocumented ones for the matched frozen circuit: a sufficient sub-circuit of the published mechanism rather than a reconstruction of it. The resulting circuit tracks the original model's next-token distribution and predicts its errors.",
+    "authors": [
+      "Sai Adith Senthil Kumar"
+    ],
+    "published": "2026-08-27T15:38:58",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "One approach to mechanistic interpretability explains behavior through circuits: the components and connections that carry it. Frozen discovery often returns hundreds of edges, making them hard to inspect, compare, or verify exhaustively. We introduce Circuit Condensation, which post-trains models to concentrate behaviors into smaller causal graphs. Each round prunes low-attribution edges and\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2608.27108v1",
+    "title": "SecureDrive-FL: Joint Differential Privacy and Gradient-Aware Selective Homomorphic Encryption for Federated Driver Monitoring",
+    "url": "http://arxiv.org/abs/2608.27108v1",
+    "summary": "Federated Learning (FL) enables privacy-aware distributed training, yet gradient updates remain exploitable: Man-in-the-Middle (MitM) interception exposes updates in transit, while model poisoning corrupts global convergence. We first introduce GASHE (Gradient-Aware Selective Homomorphic Encryption), a novel selective encryption strategy that dynamically identifies and encrypts only the gradient components exceeding a DP-calibrated sensitivity threshold, rather than encrypting all parameters uniformly as in static layer-based or full-parameter CKKS schemes. Building on GASHE, we introduce SecureDrive-FL, a federated driver monitoring framework that couples DP-SGD with GASHE to create the first closed-loop DP+HE privacy pipeline: DP-SGD calibration parameters directly derive the GASHE encryption mask, unifying training-time privacy and communication-time confidentiality. Evaluated on a ten-class distracted driver classification task under non-IID federated splits, SecureDrive-FL matches DP-SGD alone's poisoning resistance (73.6% vs. 74.0% accuracy, 3.9% Attack Success Rate for both) while additionally withstanding MitM interception, where DP-SGD alone collapses to near-random accuracy (78.2% vs. 10.4%), all under only approx. 8--10% additional runtime overhead relative to DP-SGD alone---under DP-SGD noise injection with per-round privacy parameter epsilon_0=4.",
+    "authors": [
+      "Baran Can G\u00fcl",
+      "Hanuma Siddhartha Tunuguntla",
+      "Anjana Arvind Naik",
+      "Abhishek Vijay Potekar",
+      "Nasser Jazdi",
+      "Michael Weyrich"
+    ],
+    "published": "2026-08-27T13:24:33",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CR"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Federated Learning (FL) enables privacy-aware distributed training, yet gradient updates remain exploitable: Man-in-the-Middle (MitM) interception exposes updates in transit, while model poisoning corrupts global convergence. We first introduce GASHE (Gradient-Aware Selective Homomorphic Encryption), a novel selective encryption strategy that dynamically identifies and encrypts only the gradient\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:Chaos-Hyper/dsh-econ-tools",
+    "title": "Chaos-Hyper/dsh-econ-tools \u2014 Econometrics Research Assistant \u2014 A DSH plugin with 6 tools for econometrics analysis",
+    "url": "https://github.com/Chaos-Hyper/dsh-econ-tools",
+    "summary": "Econometrics Research Assistant \u2014 A DSH plugin with 6 tools for econometrics analysis",
+    "authors": [],
+    "published": "2026-08-20T05:30:09Z",
+    "extras": {
+      "stars": 3,
+      "language": "JavaScript",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Econometrics Research Assistant \u2014 A DSH plugin with 6 tools for econometrics analysis"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:hirothreading/VARToolbox.jl",
+    "title": "hirothreading/VARToolbox.jl \u2014 A Julia port of Ambrogio Cesa-Bianchi's VAR Toolbox: VAR estimation, five identification schemes, IRFs, FEVD, historical decompositions, bootstrap bands, local projections. Validated against the MATLAB original at rtol=1e-10.",
+    "url": "https://github.com/hirothreading/VARToolbox.jl",
+    "summary": "A Julia port of Ambrogio Cesa-Bianchi's VAR Toolbox: VAR estimation, five identification schemes, IRFs, FEVD, historical decompositions, bootstrap bands, local projections. Validated against the MATLAB original at rtol=1e-10.",
+    "authors": [],
+    "published": "2026-08-05T16:01:32Z",
+    "extras": {
+      "stars": 3,
+      "language": "Julia",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A Julia port of Ambrogio Cesa-Bianchi's VAR Toolbox: VAR estimation, five identification schemes, IRFs, FEVD, historical decompositions, bootstrap bands, local projections. Validated against the MATLAB original at rtol=1e-10."
+  }
+]
