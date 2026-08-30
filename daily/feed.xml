@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-30</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-30/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-30/</guid>
+      <pubDate>Sun, 30 Aug 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-29</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-29/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-29/</guid>
@@ -211,17 +218,6 @@
 3. py-why/EconML v0.17.0 — Uplift / HTE · score 59 · py-why/EconML releases
 4. Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility — Causal LMs · score 56 · arXiv cs.LG · Mohsen Hariri, Weicong Chen, Nahal Shahini, Vikash Singh et al. (14 authors)
 5. SocietyBench: Forecasting Counterfactual Social-World Evolution — Causal LMs · score 56 · arXiv cs.CL · Zhenran Wang, Zhonghan Bian, Jinsong Li, Zhangyang Qi</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-04</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-04/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-04/</guid>
-      <pubDate>Tue, 04 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
-2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guan-Hong Chen, Haoyue Dai et al. (9 authors)
-3. GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning — Causal LMs · score 56 · arXiv cs.LG · Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang et al. (7 authors)
-4. Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation — Experimentation · score 52 · arXiv stat.ML · Jiachen Hu, Han Zhong
-5. Exact Likelihood and Sampling for Riemannian Gaussian Distributions on Correlation Matrices — Uplift / HTE · score 52 · arXiv stat.ME · Kisung You</description>
     </item>
   </channel>
 </rss>
