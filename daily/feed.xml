@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-08-31</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-31/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-31/</guid>
+      <pubDate>Mon, 31 Aug 2026 13:00:00 +0000</pubDate>
+      <description>1. rodrigorissettoterra/ai-model-studies — Experiments and studies on Machine Learning, Deep Learning and Generative AI models. — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-30</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-30/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-30/</guid>
@@ -207,17 +214,6 @@
 3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
 4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
 5. Protoreasoning in Tiny Transformers — Causal LMs · score 60 · arXiv cs.LG · Eduardo Valle, Fergal Reid</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-05</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-05/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-05/</guid>
-      <pubDate>Wed, 05 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Confidence Horizons — Uplift / HTE · score 60 · arXiv stat.ML · Chase Mathis, Ian Waudby-Smith
-2. Difference-in-differences with "bad controls" — Causal Inference · score 60 · arXiv econ.EM · Carolina Caetano, Brantly Callaway, Stroud Payne, Hugo Sant'Anna
-3. py-why/EconML v0.17.0 — Uplift / HTE · score 59 · py-why/EconML releases
-4. Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility — Causal LMs · score 56 · arXiv cs.LG · Mohsen Hariri, Weicong Chen, Nahal Shahini, Vikash Singh et al. (14 authors)
-5. SocietyBench: Forecasting Counterfactual Social-World Evolution — Causal LMs · score 56 · arXiv cs.CL · Zhenran Wang, Zhonghan Bian, Jinsong Li, Zhangyang Qi</description>
     </item>
   </channel>
 </rss>
