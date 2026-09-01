@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-01</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-01/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-01/</guid>
+      <pubDate>Tue, 01 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting — Causal LMs · score 56 · arXiv cs.LG · Xiaoyu Tao, Mingyue Cheng, Ze Guo, Bokai Pan et al. (7 authors)
+2. You Shouldn't Have Asked: A Pragmatics-Inspired Taxonomy for Evaluating LLM Refusals — Causal LMs · score 56 · arXiv cs.CL · Ruoxuan Li, Pinqiao Wang, Sheng Li, Cameron Robert Jones
+3. Aggregate Disambiguation Systems — Uplift / HTE · score 52 · arXiv stat.ME · José María Lago, Albert Castellana, Edgars Nemše
+4. Moments of Random Coefficients in Short Panels — Uplift / HTE · score 52 · arXiv econ.EM · Irene Botosaru, James L. Powell
+5. A Universal Context-Reuse Layer for Cross-Model KV Sharing — Causal LMs · score 52 · arXiv cs.LG · Yi Li, Dongming Jiang, Yi Zhao, Bingzhe Li</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-08-31</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-31/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-31/</guid>
@@ -202,18 +213,6 @@
 3. TS-RAG: Retrieval Augmented Generation for Time Series Forecasting — Causal LMs · score 56 · arXiv cs.LG · Yixiong Xiao, Congxi Xiao, Jingbo Zhou
 4. NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering — Causal LMs · score 56 · arXiv cs.CL · Jonas Gann, Michael Gertz
 5. Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts — Causal LMs · score 56 · arXiv cs.CL · Massi-Nissa Abboud, Aladin Djuhera, Elena Cabrio, Holger Boche</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-06</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-06/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-06/</guid>
-      <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. A Comment on: 
- “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
-2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
-3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
-4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
-5. Protoreasoning in Tiny Transformers — Causal LMs · score 60 · arXiv cs.LG · Eduardo Valle, Fergal Reid</description>
     </item>
   </channel>
 </rss>
