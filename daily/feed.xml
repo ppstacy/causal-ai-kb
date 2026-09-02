@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-02</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-02/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-02/</guid>
+      <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Measuring consistency via ensemble margin and local prediction variability: Auditing decision systems in the presence of… — Causal LMs · score 64 · arXiv stat.ML · Sinjini Banerjee, Tim Marrinan, Anand D. Sarwate
+2. Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation — Causal LMs · score 60 · arXiv cs.CL · Yixuan Liu, Lin Chen, Zhuoqi Liu, Jianglin Lu et al. (5 authors)
+3. Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Tian Fang, Gaël Guibon, Davide Buscaldi
+4. Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences — Causal Inference · score 56 · arXiv econ.EM · Nichole Austin, Sunny R. Karim, Erin Strumpf, Matthew D. Webb
+5. The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally — Causal LMs · score 56 · arXiv cs.LG · Jundong Hu, Shekar Ramachandran</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-01</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-01/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-01/</guid>
@@ -202,17 +213,6 @@
 3. SR-OPSD: Self-Referenced On-Policy Self-Distillation — Causal LMs · score 56 · arXiv stat.ML · Zhuo Sun, Entong Li, Yanlong Zhao, Xiaoyuan Cheng et al. (10 authors)
 4. Dynamic $e$-closure for online hypotheses with any-time-valid evidence: closure principles and projective mergers — Uplift / HTE · score 56 · arXiv stat.ME · Rianne de Heide
 5. Optimal Experimental Design and Estimation when Potential Outcomes are Bounded — Experimentation · score 56 · arXiv econ.EM · Peter Hull</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-10</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-10/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-10/</guid>
-      <pubDate>Mon, 10 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Learning Latent Memory States from Longitudinal Athlete Monitoring Data — Uplift / HTE · score 60 · arXiv stat.ML · Dae-Jin Lee
-2. Surv-IPTB: An Attention-Based Model for Estimating Individual Probability of Treatment Benefit with Survival Data — Uplift / HTE · score 56 · arXiv stat.ML · Lev V. Utkin, Stanislav K. Kogan, Andrei V. Konstantinov
-3. TS-RAG: Retrieval Augmented Generation for Time Series Forecasting — Causal LMs · score 56 · arXiv cs.LG · Yixiong Xiao, Congxi Xiao, Jingbo Zhou
-4. NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering — Causal LMs · score 56 · arXiv cs.CL · Jonas Gann, Michael Gertz
-5. Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts — Causal LMs · score 56 · arXiv cs.CL · Massi-Nissa Abboud, Aladin Djuhera, Elena Cabrio, Holger Boche</description>
     </item>
   </channel>
 </rss>
