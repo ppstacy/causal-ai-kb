@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-04</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-04/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-04/</guid>
+      <pubDate>Fri, 04 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. A location-invariant estimator of extremal quantile treatment effects for heavy-tailed distributions — Causal Inference · score 56 · arXiv stat.ME · Xin Yu, Shuwei Huang, Jicheng Liu, Jielin Tang et al. (7 authors)
+2. Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes — Causal Inference · score 56 · arXiv stat.ME · Xiaorui Wang, Juan-Juan Cai, Huixia Judy Wang, Jian Qing Shi et al. (5 authors)
+3. Natural Disasters and the Nonprofit Sector — Uplift / HTE · score 56 · arXiv econ.EM · Mayleen Cortez-Rodriguez
+4. Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference — Causal LMs · score 56 · arXiv cs.LG · Simone Ceppi, Ignacio Sanchez
+5. FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models — Causal LMs · score 52 · arXiv cs.LG · Yalun Wu, Junfeng Fang, Jiawei Wang, Haotian Liu et al. (9 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-03</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-03/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-03/</guid>
@@ -202,17 +213,6 @@
 3. SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges — Uplift / HTE · score 52 · arXiv cs.CL · Yuchao Wu, Junqin Li, XingCheng Liang, Yongjie Chen et al. (7 authors)
 4. Faithful, Sufficient and Understandable: Rethinking Graph Counterfactual Explanations via Discrete Diffusion Inversion — Uplift / HTE · score 48 · arXiv cs.LG · David Bechtoldt, Sidney Bender
 5. Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and… — Causal LMs · score 48 · arXiv cs.CL · Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-12</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-12/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-12/</guid>
-      <pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Conditional Independence Tests for Constraint-Based Causal Discovery: A Survey — Causal Inference · score 52 · arXiv stat.ML · Pavel Averin, Theodoros Moysiadis, Ioannis Katakis
-2. Self-Normalized Inference for Constant-Stepsize Temporal-Difference Learning under Markovian Sampling — Causal LMs · score 52 · arXiv stat.ML · Min Zeng, Yichen Zhang, Xiaofeng Shao
-3. Finite-sample correction for the covariate-adjusted log-rank test — Experimentation · score 52 · arXiv stat.ME · Pavla Krotka, Dominic Magirr
-4. Scheduling Mixed RL Rollouts Beyond Prefix Locality — Causal LMs · score 52 · arXiv cs.LG · Zetao Hong, Song Yuan, Yuanhao Ding, Yibo Zhu et al. (7 authors)
-5. The Illusion of Cross-Lingual Safety in Low-Resource Languages — Causal LMs · score 52 · arXiv cs.CL · Abigail Oppong, P Sam Sahil, Tadesse Destaw Belay, Maryam Ibrahim Mukhtar et al. (15 authors)</description>
     </item>
   </channel>
 </rss>
