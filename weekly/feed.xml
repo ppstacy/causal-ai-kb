@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W36</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W36/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W36/</guid>
+      <pubDate>Fri, 04 Sep 2026 22:00:00 +0000</pubDate>
+      <description>1. Measuring consistency via ensemble margin and local prediction variability: Auditing decision systems in the presence of… — Causal LMs · score 64 · arXiv stat.ML · Sinjini Banerjee, Tim Marrinan, Anand D. Sarwate
+2. Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation — Causal LMs · score 60 · arXiv cs.CL · Yixuan Liu, Lin Chen, Zhuoqi Liu, Jianglin Lu et al. (5 authors)
+3. Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Tian Fang, Gaël Guibon, Davide Buscaldi
+4. A location-invariant estimator of extremal quantile treatment effects for heavy-tailed distributions — Causal Inference · score 56 · arXiv stat.ME · Xin Yu, Shuwei Huang, Jicheng Liu, Jielin Tang et al. (7 authors)
+5. Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes — Causal Inference · score 56 · arXiv stat.ME · Xiaorui Wang, Juan-Juan Cai, Huixia Judy Wang, Jian Qing Shi et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W35</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W35/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W35/</guid>
