@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-05</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</guid>
+      <pubDate>Sat, 05 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. yichaoli921/did-placebo-guide — DID 安慰剂检验的结构化 Stata 工作流（陈强/齐霁/颜冠鹏 2025 实践指南）。覆盖时间/空间/混合/外部四类 placebo，TWFE 默认、CSDID 升级。 — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-04</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-04/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-04/</guid>
@@ -202,17 +209,6 @@
 3. Learning about Treatment Effects in Panels under Unknown Interference — Uplift / HTE · score 60 · arXiv econ.EM · Shengbin Wei
 4. Defensive Boosting for Online Probabilistic Forecasting — Uplift / HTE · score 56 · arXiv stat.ML · Georgy Noarov, Aaron Roth
 5. Causal Mediation Analysis for Network Data with Graph Neural Network — Uplift / HTE · score 56 · arXiv stat.ME · Peikai Wu, Zhiguo Xiao</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-13</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-13/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-13/</guid>
-      <pubDate>Thu, 13 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. pymc-labs/CausalPy 0.9.0 — Causal Inference · score 59 · pymc-labs/CausalPy releases
-2. Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge — Causal LMs · score 52 · arXiv cs.CL · Arda Uzunoglu, Benjamin van Durme, Daniel Khashabi
-3. SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges — Uplift / HTE · score 52 · arXiv cs.CL · Yuchao Wu, Junqin Li, XingCheng Liang, Yongjie Chen et al. (7 authors)
-4. Faithful, Sufficient and Understandable: Rethinking Graph Counterfactual Explanations via Discrete Diffusion Inversion — Uplift / HTE · score 48 · arXiv cs.LG · David Bechtoldt, Sidney Bender
-5. Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and… — Causal LMs · score 48 · arXiv cs.CL · Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian</description>
     </item>
   </channel>
 </rss>
