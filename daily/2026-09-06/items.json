@@ -1,0 +1,292 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Vasilis Syrgkanis causal",
+    "id": "s2:edc2ca77e1f67cb3a71dbb7288992e0865269fca",
+    "title": "Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity",
+    "url": "https://www.semanticscholar.org/paper/edc2ca77e1f67cb3a71dbb7288992e0865269fca",
+    "summary": "We study causal representation learning, the task of recovering high-level latent variables and their causal relationships in the form of a causal graph from low-level observed data (such as text and images), assuming access to observations generated from multiple environments. Prior results on the identifiability of causal representations typically assume access to single-node interventions which is rather unrealistic in practice, since the latent variables are unknown in the first place. In this work, we consider the task of learning causal representation learning with data collected from general environments . We show that even when the causal model and the mixing function are both linear, there exists a surrounded-node ambiguity (SNA) [46] which is basically unavoidable in our setting. On the other hand, in the same linear case, we show that identification up to SNA is possible under mild conditions, and propose an algorithm, LiNGCReL which provably achieves such identifiability guarantee. We conduct extensive experiments on synthetic data and demonstrate the effectiveness of LiNGCReL in the finite-sample regime.",
+    "authors": [
+      "Jikai Jin",
+      "Vasilis Syrgkanis"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Vasilis Syrgkanis causal"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Vasilis Syrgkanis); +10 source-type",
+    "llm_summary": "We study causal representation learning, the task of recovering high-level latent variables and their causal relationships in the form of a causal graph from low-level observed data (such as text and images), assuming access to observations generated from multiple environments. Prior results on the identifiability of causal representations typically assume access to single-node interventions\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Vasilis Syrgkanis causal",
+    "id": "s2:4f6177c134653299974c315ab623fe1c1545c2f9",
+    "title": "Orthogonal Causal Calibration (Extended Abstract)",
+    "url": "https://www.semanticscholar.org/paper/4f6177c134653299974c315ab623fe1c1545c2f9",
+    "summary": "",
+    "authors": [
+      "Justin Whitehouse",
+      "Christopher Jung",
+      "Vasilis Syrgkanis",
+      "Bryan Wilder",
+      "Zhiwei Steven Wu"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Conference Computational Learning Theory",
+      "query": "Vasilis Syrgkanis causal"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Vasilis Syrgkanis); +10 source-type",
+    "llm_summary": "Orthogonal Causal Calibration (Extended Abstract)"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:013b1e73a335ad3874b52075546c3e9f108480d6",
+    "title": "Causal discovery from observational and interventional data across multiple environments",
+    "url": "https://www.semanticscholar.org/paper/013b1e73a335ad3874b52075546c3e9f108480d6",
+    "summary": "A fundamental problem in many sciences is the learning of causal structure underlying a system, typically through observation and experimentation. Commonly, one even collects data across multiple domains, such as gene sequencing from different labs, or neural recordings from different species. Although there exist methods for learning the equivalence class of causal diagrams from observational and experimental data, they are meant to operate in a single domain. In this paper, we develop a fundamental approach to structure learning in non-Markovian systems (i.e. when there exist latent confounders) leveraging observational and interventional data collected from multiple domains. Specifically, we start by showing that learning from observational data in multiple domains is equivalent to learning from interventional data with unknown targets in a single domain. But there are also subtleties when considering observational and experimental data. Using causal invariances derived from do-calculus, we define a property called S-Markov that connects interventional distributions from multiple-domains to graphical criterion on a selection diagram. Leveraging the S-Markov property, we introduce a new constraint-based causal discovery algorithm, S-FCI, that can learn from observational and interventional data from different domains. We prove that the algorithm is sound and subsumes existing constraint-based causal discovery algorithms.",
+    "authors": [
+      "Adam Li",
+      "Amin Jaber",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 48,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "A fundamental problem in many sciences is the learning of causal structure underlying a system, typically through observation and experimentation. Commonly, one even collects data across multiple domains, such as gene sequencing from different labs, or neural recordings from different species. Although there exist methods for learning the equivalence class of causal diagrams from observational\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:adcf035b8aed1a23ba4d85cd18c5eec5b080df83",
+    "title": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning",
+    "url": "https://www.semanticscholar.org/paper/adcf035b8aed1a23ba4d85cd18c5eec5b080df83",
+    "summary": "",
+    "authors": [
+      "Drago Ple\u010dko",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Found. Trends Mach. Learn.",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:07d1b1daae6a675761ef74374153d4270b57241b",
+    "title": "Causal Discovery over Clusters of Variables in Markovian Systems",
+    "url": "https://www.semanticscholar.org/paper/07d1b1daae6a675761ef74374153d4270b57241b",
+    "summary": "Causal discovery methods are powerful tools for uncovering the structure of relationships among variables, yet they face significant challenges in scalability and interpretability, especially in high-dimensional settings. In many domains, researchers are not only interested in causal links between individual variables, but also in relationships among sets or clusters of variables. Learning causal structure at the cluster level can both reveal higher-order relationships of interest and improve scalability. In this work, we introduce an approach for causal discovery over clusters in Markov causal systems. We propose a new graphical model that encodes knowledge of relationships between user-defined clusters while fully representing independencies and dependencies over clusters, faithful to a given distribution. We then define and characterize a graphical equivalence class of these models that share cluster-level independence information. Lastly, we present a sound and complete algorithm for causal discovery to represent learnable causal relationships between clusters of variables.",
+    "authors": [
+      "Tara V. Anand",
+      "A. Ribeiro",
+      "Jin Tian",
+      "G. Hripcsak",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal discovery methods are powerful tools for uncovering the structure of relationships among variables, yet they face significant challenges in scalability and interpretability, especially in high-dimensional settings. In many domains, researchers are not only interested in causal links between individual variables, but also in relationships among sets or clusters of variables. Learning causal\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:381ba148f67e9f96e8cd190f84d49a51469a7231",
+    "title": "Causal Imitation Learning via Inverse Reinforcement Learning",
+    "url": "https://www.semanticscholar.org/paper/381ba148f67e9f96e8cd190f84d49a51469a7231",
+    "summary": "",
+    "authors": [
+      "Kangrui Ruan",
+      "Junzhe Zhang",
+      "Xuan Di",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Learning Representations",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Imitation Learning via Inverse Reinforcement Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:1816156806a8d70316bc2abf8efa36240ab4c435",
+    "title": "Causal Imitation for Markov Decision Processes: a Partial Identification Approach",
+    "url": "https://www.semanticscholar.org/paper/1816156806a8d70316bc2abf8efa36240ab4c435",
+    "summary": "Imitation learning enables an agent to learn from expert demonstrations when the performance measure is unknown and the reward signal is not specified. Standard imitation methods do not generally apply when the learner and the expert\u2019s sensory capabilities mismatch and demonstrations are contaminated with unobserved confounding bias. To address these challenges, recent advancements in causal imitation learning have been pursued. However, these methods often require access to underlying causal structures that might not always be available, posing practical challenges. In this paper, we investigate robust imitation learning within the framework of canonical Markov Decision Processes (MDPs) using partial identification, allowing the agent to achieve expert performance even when the system dynamics are not uniquely determined from the confounded expert demonstrations. Specifically, first, we theoretically demonstrate that when unobserved confounders (UCs) exist in an MDP, the learner is generally unable to imitate expert performance. We then explore imitation learning in partially identifiable settings \u2014 either transition distribution or reward function is non-identifiable from the available data and knowledge. Augmenting the celebrated GAIL method (Ho & Ermon, 2016), our analysis leads to two novel causal imitation algorithms that can obtain effective policies guaranteed to achieve expert performance.",
+    "authors": [
+      "Kangrui Ruan",
+      "Junzhe Zhang",
+      "Xuan Di",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Imitation learning enables an agent to learn from expert demonstrations when the performance measure is unknown and the reward signal is not specified. Standard imitation methods do not generally apply when the learner and the expert\u2019s sensory capabilities mismatch and demonstrations are contaminated with unobserved confounding bias. To address these challenges, recent advancements in causal\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:e4525fe4d2ade0c5b7c824a958df1a7103c078c0",
+    "title": "Disentangled Representation Learning in Non-Markovian Causal Systems",
+    "url": "https://www.semanticscholar.org/paper/e4525fe4d2ade0c5b7c824a958df1a7103c078c0",
+    "summary": "",
+    "authors": [
+      "Adam Li",
+      "Yushu Pan",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Disentangled Representation Learning in Non-Markovian Causal Systems"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:af23e97c4864eea679880c7526c7a5cc26b34aae",
+    "title": "On Measuring Causal Contributions via do-interventions",
+    "url": "https://www.semanticscholar.org/paper/af23e97c4864eea679880c7526c7a5cc26b34aae",
+    "summary": "",
+    "authors": [
+      "Yonghan Jung",
+      "S. Kasiviswanathan",
+      "Jin Tian",
+      "D. Janzing",
+      "Patrick Bl\u00f6baum",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Machine Learning",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "On Measuring Causal Contributions via do-interventions"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:c2747bb5851e676691aa7e9434252dd1a8a75871",
+    "title": "Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation",
+    "url": "https://www.semanticscholar.org/paper/c2747bb5851e676691aa7e9434252dd1a8a75871",
+    "summary": "",
+    "authors": [
+      "Junzhe Zhang",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Conference on Uncertainty in Artificial Intelligence",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Causal Eligibility Traces for Confounding Robust Off-Policy Evaluation"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "title": "Experimental Design for Learning Causal Graphs with Latent Variables",
+    "url": "https://www.semanticscholar.org/paper/12613bcbdf7ec9eebf09a1cfc652058f017375ac",
+    "summary": "",
+    "authors": [
+      "Murat Kocaoglu",
+      "Karthikeyan Shanmugam",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Experimental Design for Learning Causal Graphs with Latent Variables"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Elias Bareinboim causal",
+    "id": "s2:7fd5e4347783caedf5ac1756f34d4db1b9556cc1",
+    "title": "Characterization and Learning of Causal Graphs with Latent Variables from Soft Interventions",
+    "url": "https://www.semanticscholar.org/paper/7fd5e4347783caedf5ac1756f34d4db1b9556cc1",
+    "summary": "",
+    "authors": [
+      "Murat Kocaoglu",
+      "Amin Jaber",
+      "Karthikeyan Shanmugam",
+      "E. Bareinboim"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Elias Bareinboim causal"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Characterization and Learning of Causal Graphs with Latent Variables from Soft Interventions"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:ClusterPilot-System/worldbisect",
+    "title": "ClusterPilot-System/worldbisect \u2014 WorldBisect: bounded causal diagnostics for Linux command/runtime failure analysis",
+    "url": "https://github.com/ClusterPilot-System/worldbisect",
+    "summary": "WorldBisect: bounded causal diagnostics for Linux command/runtime failure analysis",
+    "authors": [],
+    "published": "2026-09-01T17:03:08Z",
+    "extras": {
+      "stars": 3,
+      "language": "Go",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "WorldBisect: bounded causal diagnostics for Linux command/runtime failure analysis"
+  }
+]

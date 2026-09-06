@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-06</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-06/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-06/</guid>
+      <pubDate>Sun, 06 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
+2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
+3. Causal discovery from observational and interventional data across multiple environments — Experimentation · score 48 · Semantic Scholar: Elias Bareinboim causal · Adam Li, Amin Jaber, E. Bareinboim
+4. Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Drago Plečko, E. Bareinboim
+5. Causal Discovery over Clusters of Variables in Markovian Systems — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Tara V. Anand, A. Ribeiro, Jin Tian, G. Hripcsak et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-05</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</guid>
@@ -198,17 +209,6 @@
 3. likhechman/sargwr — Spatial Autoregressive Geographically Weighted Regression (SARGWR) implemented in Python. — Causal LMs · score 34 · GitHub topic:econometrics
 4. hanlulong/econ-auto-research — Vision: an economist-directed AI system that takes an economics research question from idea to… — Other · score 30 · GitHub topic:causal-inference
 5. cacoleman16/tsecon — High-performance time series econometrics: Rust core, Python-first API — validated estimators, a 15-chapter… — Other · score 30 · GitHub topic:econometrics</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-14</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-14/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-14/</guid>
-      <pubDate>Fri, 14 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Chance-constrained selection of sequential intervention strategies from counterfactual estimates — Uplift / HTE · score 64 · arXiv stat.ML · Minkyoung Kim, Beakcheol Jang
-2. When Can LLMs Replace Humans in A/B Tests? — Causal LMs · score 61 · Spotify R&amp;D
-3. Learning about Treatment Effects in Panels under Unknown Interference — Uplift / HTE · score 60 · arXiv econ.EM · Shengbin Wei
-4. Defensive Boosting for Online Probabilistic Forecasting — Uplift / HTE · score 56 · arXiv stat.ML · Georgy Noarov, Aaron Roth
-5. Causal Mediation Analysis for Network Data with Graph Neural Network — Uplift / HTE · score 56 · arXiv stat.ME · Peikai Wu, Zhiguo Xiao</description>
     </item>
   </channel>
 </rss>
