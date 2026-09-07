@@ -6,6 +6,18 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-07</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-07/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-07/</guid>
+      <pubDate>Mon, 07 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. A Comment on: 
+ “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
+2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yu-Chen Hu, Shuangning Li, Stefan Wager
+3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
+4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
+5. brycewang-stanford/p-hacking-skills — How fast can a coding agent p-hack? Measured: on known-zero data, realistic searches… — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-06</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-06/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-06/</guid>
@@ -198,17 +210,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-16/</guid>
       <pubDate>Sun, 16 Aug 2026 13:00:00 +0000</pubDate>
       <description>1. rodrigorissettoterra/ai-model-studies — Experiments and studies on Machine Learning, Deep Learning and Generative AI models. — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-15</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-15/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-15/</guid>
-      <pubDate>Sat, 15 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Experimental Design for Learning Causal Graphs with Latent Variables — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Murat Kocaoglu, Karthikeyan Shanmugam, E. Bareinboim
-2. Characterization and Learning of Causal Graphs with Latent Variables from Soft Interventions — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Murat Kocaoglu, Amin Jaber, Karthikeyan Shanmugam, E. Bareinboim
-3. likhechman/sargwr — Spatial Autoregressive Geographically Weighted Regression (SARGWR) implemented in Python. — Causal LMs · score 34 · GitHub topic:econometrics
-4. hanlulong/econ-auto-research — Vision: an economist-directed AI system that takes an economics research question from idea to… — Other · score 30 · GitHub topic:causal-inference
-5. cacoleman16/tsecon — High-performance time series econometrics: Rust core, Python-first API — validated estimators, a 15-chapter… — Other · score 30 · GitHub topic:econometrics</description>
     </item>
   </channel>
 </rss>
