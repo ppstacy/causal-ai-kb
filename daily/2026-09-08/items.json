@@ -1,0 +1,41 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Peng Ding causal inference",
+    "id": "s2:bd08cc727e00d8fd50906cbd31f0ed3c6a8e81a1",
+    "title": "A Paradox from Randomization-Based Causal Inference 1",
+    "url": "https://www.semanticscholar.org/paper/bd08cc727e00d8fd50906cbd31f0ed3c6a8e81a1",
+    "summary": "",
+    "authors": [
+      "Peng Ding"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Peng Ding causal inference"
+    },
+    "score": 94,
+    "topic": "causal-inference",
+    "why_relevant": "tracked author (Peng Ding); 1 keyword hits; +10 source-type",
+    "llm_summary": "A Paradox from Randomization-Based Causal Inference 1"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:Dicklesworthstone/franken_alignment",
+    "title": "Dicklesworthstone/franken_alignment \u2014 Evidence-carrying control system for powerful AI agents, featuring epistemic MVCC, authority graphs, progressive ATP evidence, and decision-sensitive introspection in pure safe Rust.",
+    "url": "https://github.com/Dicklesworthstone/franken_alignment",
+    "summary": "Evidence-carrying control system for powerful AI agents, featuring epistemic MVCC, authority graphs, progressive ATP evidence, and decision-sensitive introspection in pure safe Rust.",
+    "authors": [],
+    "published": "2026-09-08T05:17:27Z",
+    "extras": {
+      "stars": 6,
+      "language": "Rust",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Evidence-carrying control system for powerful AI agents, featuring epistemic MVCC, authority graphs, progressive ATP evidence, and decision-sensitive introspection in pure safe Rust."
+  }
+]
