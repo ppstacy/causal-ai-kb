@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-09</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-09/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-09/</guid>
+      <pubDate>Wed, 09 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Why Spotify Is Not Using Bayesian A/B Testing — Experimentation · score 57 · Spotify R&amp;D
+2. NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting — Causal LMs · score 56 · arXiv cs.LG · Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov, Özgün Turgut et al. (8 authors)
+3. Do Reasoning Representations Help Humans Evaluate LLM Outputs? — Causal LMs · score 56 · arXiv cs.LG · Jaewoo Lim, Sungbok Shin, Sanghyun Hong
+4. TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context — Causal LMs · score 56 · arXiv cs.LG · Fritz Cremer, Jonathan Cremer
+5. Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation — Causal LMs · score 56 · arXiv cs.CL · Xingyu Deng, Mingzi Cao, Nikolaos Aletras, Xi Wang et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-08</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-08/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-08/</guid>
@@ -203,14 +214,6 @@
 3. NP-LEAP: Nonparametric Latent Exchangeability Prior for Model-Lean Borrowing from Historical Data — Experimentation · score 56 · arXiv stat.ME · Ethan M. Alt, Miheer Dewaskar, Jacob M. Maronge, Yuelin Lu et al. (5 authors)
 4. Bessel-Debiased Pseudo-Marginal MCMC for Generalised Bayesian Inference — Uplift / HTE · score 56 · arXiv stat.ME · Yingkai Lu, Jeong Eun Lee, Geoff K. Nicholls
 5. Randomization inference for treatment effects on survival outcomes — Experimentation · score 56 · arXiv stat.ME · Lucy D'Agostino McGowan, Joseph Rigdon, Xinran Li, Dylan Small</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-17</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-17/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-17/</guid>
-      <pubDate>Mon, 17 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
-2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)</description>
     </item>
   </channel>
 </rss>
