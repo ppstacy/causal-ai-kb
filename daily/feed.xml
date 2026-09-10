@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-10</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-10/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-10/</guid>
+      <pubDate>Thu, 10 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Agent-Based ML-LLM Fusion with Self-Optimizing Prompts for Plateau Weather Alerts — Causal LMs · score 56 · arXiv cs.LG · Shuai Yan, Yang Xu, Shan He
+2. An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order — Experimentation · score 52 · arXiv stat.ML · Xuan Li
+3. Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning — Causal LMs · score 52 · arXiv cs.LG · Jing Guan, Yachao Yang, Zhaoliang Liu, Yuyao Zhang et al. (6 authors)
+4. Semiparametric Inference for Conditional Shapley Feature Importance — Other · score 48 · arXiv stat.ME · Agostino Gnasso
+5. Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization — Causal LMs · score 48 · arXiv cs.LG · Andy Zeyi Liu, Haoran Sun, Lucas Baker, Randall Balestriero et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-09</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-09/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-09/</guid>
@@ -203,17 +214,6 @@
 3. Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving — Causal LMs · score 56 · arXiv cs.CL · Mehdi Azarafza, Faezeh Pasandideh, Ali Ehteshami Bejnordi, Stefan Henkler et al. (5 authors)
 4. Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records — Causal LMs · score 52 · arXiv cs.LG · Jun Ni Du, Lukas Adamek, Maxim Kryukov, Flavio Dormont et al. (7 authors)
 5. Decoding silent reading from non-invasive EEG — Causal LMs · score 52 · arXiv cs.LG · Ingo Marquardt, Anthilia Alchanat, Priyanka Jain</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-20</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-20/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-20/</guid>
-      <pubDate>Thu, 20 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Toward Better Assessment of LLMs' Performance in Clinical Error Detection — Causal LMs · score 60 · arXiv cs.LG · Yifan Zhang, Rahmatollah Beheshti
-2. Pattern-Based Sequential Multiple Imputation for Missing Data in Clinical Trials: An Extension for Baseline-Only Early Dropout… — Experimentation · score 56 · arXiv stat.ME · Chen Zhang, Junyu Nie, Kexuan Li, Ning Ding
-3. NP-LEAP: Nonparametric Latent Exchangeability Prior for Model-Lean Borrowing from Historical Data — Experimentation · score 56 · arXiv stat.ME · Ethan M. Alt, Miheer Dewaskar, Jacob M. Maronge, Yuelin Lu et al. (5 authors)
-4. Bessel-Debiased Pseudo-Marginal MCMC for Generalised Bayesian Inference — Uplift / HTE · score 56 · arXiv stat.ME · Yingkai Lu, Jeong Eun Lee, Geoff K. Nicholls
-5. Randomization inference for treatment effects on survival outcomes — Experimentation · score 56 · arXiv stat.ME · Lucy D'Agostino McGowan, Joseph Rigdon, Xinran Li, Dylan Small</description>
     </item>
   </channel>
 </rss>
