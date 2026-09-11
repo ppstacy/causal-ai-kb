@@ -6,6 +6,18 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W37</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W37/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W37/</guid>
+      <pubDate>Fri, 11 Sep 2026 22:00:00 +0000</pubDate>
+      <description>1. A Comment on: 
+ “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
+2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yu-Chen Hu, Shuangning Li, Stefan Wager
+3. A Paradox from Randomization-Based Causal Inference 1 — Causal Inference · score 94 · Semantic Scholar: Peng Ding causal inference · Peng Ding
+4. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
+5. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W36</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W36/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W36/</guid>
