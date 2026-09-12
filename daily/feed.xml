@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-12</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-12/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-12/</guid>
+      <pubDate>Sat, 12 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner et al. (84 authors)
+2. Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey — Causal LMs · score 56 · Semantic Scholar: causal language models · Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan et al. (13 authors)
+3. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
+4. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xinbo Wu, Lav R. Varshney
+5. Evaluating Pretrained Causal Language Models for Synonymy — Causal LMs · score 44 · Semantic Scholar: causal language models · I. Ivan, Carlos Ramisch, Alexis Nasr</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-11</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-11/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-11/</guid>
@@ -202,18 +213,6 @@
 3. 0 A ug 2 01 7 Finite Sample Inference for Targeted Learning — Uplift / HTE · score 44 · Semantic Scholar: Mark van der Laan targeted learning · M. Laan
 4. NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS — Other · score 40 · Semantic Scholar: Guido Imbens causal · S. Athey, M. Bayati, Nikolay Doudchenko, G. Imbens et al. (5 authors)
 5. Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. J. Laan, Alexander Luedtke</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-22</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-22/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-22/</guid>
-      <pubDate>Sat, 22 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. A Comment on: 
- “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
-2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yuchen Hu, Shuangning Li, Stefan Wager
-3. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Guido Imbens causal · †. EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
-4. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
-5. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)</description>
     </item>
   </channel>
 </rss>
