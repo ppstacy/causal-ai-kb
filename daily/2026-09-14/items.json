@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:kirilklein/causal-sandbox",
+    "title": "kirilklein/causal-sandbox \u2014 Learn causal inference by changing the world. Guided lessons and a sandbox with confounders, mediators, colliders, and six estimators, live in the browser",
+    "url": "https://github.com/kirilklein/causal-sandbox",
+    "summary": "Learn causal inference by changing the world. Guided lessons and a sandbox with confounders, mediators, colliders, and six estimators, live in the browser",
+    "authors": [],
+    "published": "2026-09-12T08:38:02Z",
+    "extras": {
+      "stars": 3,
+      "language": "JavaScript",
+      "topic": "causal-inference"
+    },
+    "score": 34,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits",
+    "llm_summary": "Learn causal inference by changing the world. Guided lessons and a sandbox with confounders, mediators, colliders, and six estimators, live in the browser"
+  }
+]
