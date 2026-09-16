@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-16</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-16/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-16/</guid>
+      <pubDate>Wed, 16 Sep 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-14</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-14/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-14/</guid>
@@ -202,13 +209,6 @@
 3. Provably adaptive sampling with uniform and remasking discrete diffusion models — Causal LMs · score 52 · arXiv stat.ML · Daniil Dmitriev, Zhihan Huang, Yuting Wei
 4. Interpretable AI with Local Distillation — Experimentation · score 52 · arXiv stat.ML · Erin Craig, Yiling Huang, Snigdha Panigrahi
 5. Hierarchical Exponential-Gaussian Mixtures for Watch-Time Distribution Prediction — Experimentation · score 52 · arXiv stat.ML · Sofia Gulevskaia, Mikhail Trapeznikov, Aleksandr Poslavsky, Alexander D'yakonov</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-24</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-24/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-24/</guid>
-      <pubDate>Mon, 24 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. JingxuanC/causal-memory — Causal memory layer for AI agents — MCP server that records decision→outcome relationships. Survives… — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
