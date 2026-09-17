@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-17</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-17/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-17/</guid>
+      <pubDate>Thu, 17 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Beyond Pretrends: A Discordance-Based Sensitivity Analysis for Difference-in-Differences — Causal Inference · score 60 · arXiv stat.ME · Thomas Leavitt
+2. Efficient transport and generalization of survival treatment effects — Uplift / HTE · score 60 · arXiv stat.ME · Axel Martin, Iván Díaz, Michele Santacatterina
+3. Weakening Neurons: An Input-Output Functionality in Transformers with Outsize Influence — Causal LMs · score 60 · arXiv cs.LG · Sebastian Gerstner, Hilal AlQuabeh, Kentaro Inui, Hinrich Schütze
+4. Doubly valid and doubly sharp sensitivity analysis to unobserved confounding for survival outcomes — Causal Inference · score 56 · arXiv stat.ME · Jean-Baptiste Baitairian, Bernard Sebastien, Rana Jreich, Sandrine Katsahian et al. (5 authors)
+5. Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data — Causal LMs · score 56 · arXiv cs.LG · Matteo Marchi, João Pedro Silvestre, Bahman Gharesifard, Paulo Tabuada</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-16</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-16/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-16/</guid>
@@ -198,17 +209,6 @@
 3. How does hazard exposure influence job choice? Evaluating time-dependent tradeoffs between salary and hazard risks — Uplift / HTE · score 52 · arXiv econ.EM · Richard Bernknopf, Leila Gonzales, Christpher Keane
 4. SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents — Causal LMs · score 52 · arXiv cs.CL · Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang et al. (8 authors)
 5. The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution… — Causal LMs · score 52 · arXiv cs.CL · Augusto Camargo</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-25</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-25/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-25/</guid>
-      <pubDate>Tue, 25 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. Transporting Randomized Trial Effects to Real-World Populations via Riesz-Calibrated Optimal Transport — Causal Inference · score 68 · arXiv stat.ME · Anik Burman, Margaret Gamalo, Promit Ghosal, Prosenjit Kundu
-2. Systematic Bias in Green Patent Classification: Silent Green and False Green — Causal LMs · score 56 · arXiv econ.EM · Hamid Bekamiri, Jan Auernhammer, Milad Abbasiharofteh, Jesper Lindgaard Christensen
-3. Provably adaptive sampling with uniform and remasking discrete diffusion models — Causal LMs · score 52 · arXiv stat.ML · Daniil Dmitriev, Zhihan Huang, Yuting Wei
-4. Interpretable AI with Local Distillation — Experimentation · score 52 · arXiv stat.ML · Erin Craig, Yiling Huang, Snigdha Panigrahi
-5. Hierarchical Exponential-Gaussian Mixtures for Watch-Time Distribution Prediction — Experimentation · score 52 · arXiv stat.ML · Sofia Gulevskaia, Mikhail Trapeznikov, Aleksandr Poslavsky, Alexander D'yakonov</description>
     </item>
   </channel>
 </rss>
