@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-18</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-18/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-18/</guid>
+      <pubDate>Fri, 18 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Parallelism, critical windows, and separations among diffusion language models — Causal LMs · score 64 · arXiv stat.ML · Sitan Chen, Liye Wang
+2. Xeno-Interpretability: Investigating the Alien Minds of LLMs — Causal LMs · score 60 · arXiv cs.CL · F. Pierucci, M. Bracale Syrnikov, M. Prandi, M. Galisai et al. (6 authors)
+3. dQwen3.5: Hybrid-Attention Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Anton Xue, Litu Rout, Aditya Akella, Adam Klivans et al. (6 authors)
+4. Relational Attention for Data-Efficient Language Modeling — Causal LMs · score 56 · arXiv cs.LG · Adrian Brasoveanu, Ece Takmaz, Jakub Dotlačil
+5. TAP Accuracy Below the Fluctuation Scale and Universal Posterior Geometry in Spherical Linear Models — Uplift / HTE · score 52 · arXiv stat.ML · Jingbo Liu, Zhiyuan Yu</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-17</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-17/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-17/</guid>
@@ -198,17 +209,6 @@
 3. SciMIF: Understanding Multimodal Instruction Following in Scientific Domains — Causal LMs · score 52 · arXiv cs.LG · Ye Shen, Yuting Zheng, Dun Pei, Zijian Chen et al. (7 authors)
 4. Towards A Unified Information Bottleneck Framework for Time Series Explanations — Uplift / HTE · score 52 · arXiv cs.LG · Xu Zheng, Zichuan Liu, Zhuomin Chen, Mayur Akewar et al. (10 authors)
 5. Skill Issue: Are Skills Language-Invariant in LLMs? — Causal LMs · score 52 · arXiv cs.LG · Bobby Cheng, Adam Gaber, Zhengyuan Liu, Catherine Arnett et al. (7 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-26</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-26/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-26/</guid>
-      <pubDate>Wed, 26 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents — Causal LMs · score 56 · arXiv cs.LG · Bo Ren, Yirong Mao, Yi Yang, Wenhui Que
-2. Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows — Causal LMs · score 56 · arXiv cs.CL · Miao Liu, Zhizhe Liu
-3. How does hazard exposure influence job choice? Evaluating time-dependent tradeoffs between salary and hazard risks — Uplift / HTE · score 52 · arXiv econ.EM · Richard Bernknopf, Leila Gonzales, Christpher Keane
-4. SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents — Causal LMs · score 52 · arXiv cs.CL · Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang et al. (8 authors)
-5. The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution… — Causal LMs · score 52 · arXiv cs.CL · Augusto Camargo</description>
     </item>
   </channel>
 </rss>
