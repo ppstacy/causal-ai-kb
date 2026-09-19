@@ -1,0 +1,40 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:shubham303/meelu-analytics-mcp",
+    "title": "shubham303/meelu-analytics-mcp \u2014 Ask your AI assistant real questions about your data and get answers you can rely on \u2014 an MCP server with 45 analysis tools that pick the right statistical method themselves and tell you how much to trust the result.",
+    "url": "https://github.com/shubham303/meelu-analytics-mcp",
+    "summary": "Ask your AI assistant real questions about your data and get answers you can rely on \u2014 an MCP server with 45 analysis tools that pick the right statistical method themselves and tell you how much to trust the result.",
+    "authors": [],
+    "published": "2026-09-06T04:38:00Z",
+    "extras": {
+      "stars": 8,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Ask your AI assistant real questions about your data and get answers you can rely on \u2014 an MCP server with 45 analysis tools that pick the right statistical method themselves and tell you how much to trust the result."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:teerthsharma/resolvent",
+    "title": "teerthsharma/resolvent \u2014 One causal attention head, three switches: softmax attention, unnormalized-kernel attention and the exact Markov path product as settings of one operator. Proved in Lean 4; every failure kept on the record.",
+    "url": "https://github.com/teerthsharma/resolvent",
+    "summary": "One causal attention head, three switches: softmax attention, unnormalized-kernel attention and the exact Markov path product as settings of one operator. Proved in Lean 4; every failure kept on the record.",
+    "authors": [],
+    "published": "2026-09-19T11:34:13Z",
+    "extras": {
+      "stars": 3,
+      "language": "Python",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "One causal attention head, three switches: softmax attention, unnormalized-kernel attention and the exact Markov path product as settings of one operator. Proved in Lean 4; every failure kept on the record."
+  }
+]
