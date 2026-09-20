@@ -6,6 +6,15 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-20</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-20/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-20/</guid>
+      <pubDate>Sun, 20 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+2. WillianFuks/tfcausalimpact v0.0.19 — Other · score 55 · WillianFuks/tfcausalimpact releases
+3. yichaoli921/did-placebo-guide — DID 安慰剂检验的结构化 Stata 工作流（陈强/齐霁/颜冠鹏 2025 实践指南）。覆盖时间/空间/混合/外部四类 placebo，TWFE 默认、CSDID 升级。 — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-19</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-19/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-19/</guid>
@@ -195,17 +204,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-29/</guid>
       <pubDate>Sat, 29 Aug 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-28</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-28/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-28/</guid>
-      <pubDate>Fri, 28 Aug 2026 13:00:00 +0000</pubDate>
-      <description>1. A Finite Sample Analysis for Quantile Temporal Difference Learning in Distributional Reinforcement Learning — Causal LMs · score 56 · arXiv stat.ML · Zijie Cheng, Xiang Li, Yang Peng, Zhihua Zhang
-2. Combining covariate adjustment with information from secondary endpoints to improve precision in randomized trials — Experimentation · score 56 · arXiv stat.ME · Jack M. Wolf, Joseph S. Koopmeiners, David M. Vock
-3. When Interference Graphs Evolve: Doubly Robust Estimation of Dynamic Peer Effects — Causal Inference · score 56 · arXiv cs.LG · Xiaojing Du
-4. MAPS: Netflix’s Multimodal Asset Personalization at Scale — Other · score 53 · Netflix Tech Blog
-5. Evidence, Calibration, and Stability: A Triadic Framework for Hypothesis Testing Under Model Uncertainty — Causal Inference · score 52 · arXiv stat.ME · Subir Hait</description>
     </item>
   </channel>
 </rss>

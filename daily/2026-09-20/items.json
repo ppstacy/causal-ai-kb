@@ -1,0 +1,68 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "summary": "",
+    "authors": [
+      "Loka Li",
+      "Haoyue Dai",
+      "Hanin Al Ghothani",
+      "Biwei Huang",
+      "Jiji Zhang",
+      "Shahar Harel",
+      "Isaac Bentwich",
+      "Guan-Hong Chen",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "github_release",
+    "source_name": "WillianFuks/tfcausalimpact releases",
+    "id": "ghrel:WillianFuks/tfcausalimpact:v0.0.19",
+    "title": "WillianFuks/tfcausalimpact v0.0.19",
+    "url": "https://github.com/WillianFuks/tfcausalimpact/releases/tag/v0.0.19",
+    "summary": "Adds support for Python 3.13",
+    "authors": [],
+    "published": "2026-09-20T13:01:23",
+    "extras": {
+      "repo": "WillianFuks/tfcausalimpact",
+      "tag": "v0.0.19",
+      "prerelease": false
+    },
+    "score": 55,
+    "topic": "other",
+    "why_relevant": "+25 source-type",
+    "llm_summary": "Adds support for Python 3.13"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:yichaoli921/did-placebo-guide",
+    "title": "yichaoli921/did-placebo-guide \u2014 DID \u5b89\u6170\u5242\u68c0\u9a8c\u7684\u7ed3\u6784\u5316 Stata \u5de5\u4f5c\u6d41\uff08\u9648\u5f3a/\u9f50\u9701/\u989c\u51a0\u9e4f 2025 \u5b9e\u8df5\u6307\u5357\uff09\u3002\u8986\u76d6\u65f6\u95f4/\u7a7a\u95f4/\u6df7\u5408/\u5916\u90e8\u56db\u7c7b placebo\uff0cTWFE \u9ed8\u8ba4\u3001CSDID \u5347\u7ea7\u3002",
+    "url": "https://github.com/yichaoli921/did-placebo-guide",
+    "summary": "DID \u5b89\u6170\u5242\u68c0\u9a8c\u7684\u7ed3\u6784\u5316 Stata \u5de5\u4f5c\u6d41\uff08\u9648\u5f3a/\u9f50\u9701/\u989c\u51a0\u9e4f 2025 \u5b9e\u8df5\u6307\u5357\uff09\u3002\u8986\u76d6\u65f6\u95f4/\u7a7a\u95f4/\u6df7\u5408/\u5916\u90e8\u56db\u7c7b placebo\uff0cTWFE \u9ed8\u8ba4\u3001CSDID \u5347\u7ea7\u3002",
+    "authors": [],
+    "published": "2026-08-21T14:18:20Z",
+    "extras": {
+      "stars": 3,
+      "language": null,
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "DID \u5b89\u6170\u5242\u68c0\u9a8c\u7684\u7ed3\u6784\u5316 Stata \u5de5\u4f5c\u6d41\uff08\u9648\u5f3a/\u9f50\u9701/\u989c\u51a0\u9e4f 2025 \u5b9e\u8df5\u6307\u5357\uff09\u3002\u8986\u76d6\u65f6\u95f4/\u7a7a\u95f4/\u6df7\u5408/\u5916\u90e8\u56db\u7c7b placebo\uff0cTWFE \u9ed8\u8ba4\u3001CSDID \u5347\u7ea7\u3002"
+  }
+]
