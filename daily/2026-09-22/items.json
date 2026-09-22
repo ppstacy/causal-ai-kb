@@ -1,0 +1,950 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.24954v1",
+    "title": "JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization",
+    "url": "http://arxiv.org/abs/2609.24954v1",
+    "summary": "Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of experiments (DOE) approaches, which are inefficient for resolving multivariate pass/fail boundaries in higher-dimensional spaces. While Bayesian optimization has transformed process optimization, adaptive methods for multi-objective process characterization remain lacking. Here, we introduce JAREX (Joint Acceptable Region EXploration), a Bayesian active-learning acquisition function for multi-objective process characterization. JAREX formulates characterization as a joint boundary-learning problem and adaptively selects experiments to recover the joint pass region defined by simultaneous satisfaction of threshold criteria across multiple objectives. JAREX combines an optimistic joint-feasibility mask with a multi-objective extension of randomized straddle, focusing sampling on the joint edge of failure. Our benchmark study suggests that JAREX provides more accurate and sample-efficient recovery of the joint pass region than factorial DOE, space-filling designs, and greedy objective-wise strategies over the full experimental budget range. For batched experimentation, it reduces the number of iterative process characterization experiments by more than half while preserving high accuracy for the boundary-identification task. Implemented in the open-source obsidian package, JAREX provides a modular framework for adaptive, data-efficient multi-objective algorithmic process characterization, supporting sample-efficient range finding in high-dimensional spaces.",
+    "authors": [
+      "Xinyang Li",
+      "Kevin Stone",
+      "Ajit Vikram"
+    ],
+    "published": "2026-09-21T17:46:19",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 56,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Pharmaceutical process characterization is central to Quality by Design because it defines how variations in process parameters affect the ability to meet product quality specifications, thereby supporting proven acceptable ranges and robust manufacturing. In practice, however, characterization still relies largely on factorial design of experiments (DOE) approaches, which are inefficient for\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.24949v1",
+    "title": "Selective Inference for CART with Binary Outcomes",
+    "url": "http://arxiv.org/abs/2609.24949v1",
+    "summary": "Binary classification trees select subgroups using the same outcomes later used to assess their differences. We develop finite-sample conditional tests of a common success probability within a parent selected by deterministic Gini CART. The construction retains all eligible cutpoints and conditions on the selected split, its ancestor path, the parent success total, and outside outcomes. The resulting uniform label fiber gives an exact count distribution, while a reversible parallel Monte Carlo construction yields super-uniform inclusive and exactly uniform tie-randomized p-values for any prespecified finite run budget. Within a two-child constant-risk model, the selected count law is an exponential family with information equal to its conditional count variance. We separate information loss from computational limitations and exhibit a selected fiber disconnected under single-label swaps. Simulations with 200 or 400 observations, ten independent or correlated predictors, and trees of depth three show conservative inclusive tests and nontrivial power for large risk differences. At 400 observations and a generating risk difference of 0.4, randomized rejection conditional on reaching the prespecified third-level target is 51--71\\%, while selection followed by rejection occurs in 11--21\\% of datasets. Smaller signals remain difficult to detect, and a representative fivefold increase in computation gives little power improvement. The guarantee concerns parent homogeneity, or equality of two constant child risks, and does not cover equality of heterogeneous regional averages.",
+    "authors": [
+      "Tomoshige Nakamura"
+    ],
+    "published": "2026-09-21T17:44:41",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Binary classification trees select subgroups using the same outcomes later used to assess their differences. We develop finite-sample conditional tests of a common success probability within a parent selected by deterministic Gini CART. The construction retains all eligible cutpoints and conditions on the selected split, its ancestor path, the parent success total, and outside outcomes. The\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.24758v1",
+    "title": "On the use of meaningful score regions to interpret treatment effects on continuous clinical outcome assessments",
+    "url": "http://arxiv.org/abs/2609.24758v1",
+    "summary": "Clinical outcome assessments (COAs), such as patient-reported outcomes (PROs), are faced with an interpretability issue due to a variety of score metrics being employed. Therefore, evidence linking COA scores to interpretable patient experiences is necessary to judge the extent to which the results of COA-based clinical trial endpoints are meaningful. The fourth Patient-Focused Drug Development guidance, published in draft form by the FDA in 2023, proposes the use of meaningful score regions (MSRs) to divide COA scores into more easily interpretable categories (e.g. severity-based MSRs of 'none', 'mild', 'moderate' and 'severe'). A recommendation is to compare the magnitude of estimated treatment effects for continuous COA scores (e.g. the difference in mean change from baseline between two treatment groups) to the maximum MSR width. In this article we explore this recommendation further, through historical evidence and simulations, and conclude that using the maximum MSR width as a benchmark may fail to detect meaningful treatment effects in practice. We suggest alternative approaches to evaluate treatment effects against MSRs, describing the expected outcome within each arm in terms of the probabilities of MSR membership.",
+    "authors": [
+      "Andrew Trigg",
+      "Fraser D. Bocell"
+    ],
+    "published": "2026-09-21T15:27:52",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Clinical outcome assessments (COAs), such as patient-reported outcomes (PROs), are faced with an interpretability issue due to a variety of score metrics being employed. Therefore, evidence linking COA scores to interpretable patient experiences is necessary to judge the extent to which the results of COA-based clinical trial endpoints are meaningful. The fourth Patient-Focused Drug Development\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.24929v1",
+    "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+    "url": "http://arxiv.org/abs/2609.24929v1",
+    "summary": "In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural networks. We also consider covariate shift, where the calibration and test covariates have different distributions, and derive nonasymptotic bounds for this setting. We obtain matching minimax upper and lower bounds in expectation for two constructed fixed-score calibration benchmarks under known covariate shift. The bounds match for every $p\\in[1,\\infty]$ in the scalar problem and for finite $p$ in the $K$-threshold problem; for the latter, a high-probability minimax lower bound holds for every $p\\in[1,\\infty]$.",
+    "authors": [
+      "Rustam Isaev",
+      "Anton Conrad",
+      "Denis Belomestny",
+      "Eric Moulines",
+      "Sergey Samsonov"
+    ],
+    "published": "2026-09-21T17:24:00",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "math.ST"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "In this paper, we study nonasymptotic $L^p$ error bounds for interval length and conditional coverage in split conformalized quantile regression (CQR). Our bounds rely on local regularity conditions and accuracy guarantees for the estimated quantiles. We further instantiate our bounds for quantile regression with sparse ReLU neural networks. We also consider covariate shift, where the calibration\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.24816v1",
+    "title": "Phylogenetic Inference and the Stickiness of Fr\u00e9chet Means, via Precise Asymptotics of an Embedded Random Walk",
+    "url": "http://arxiv.org/abs/2609.24816v1",
+    "summary": "A well-known phenomenon in statistical analyses of populations of phylogenetic trees in the Billera-Holmes-Vogtmann space is that the topology of the Fr\u00e9chet mean tree can contain multifurcations (i.e., internal nodes with more than two children), which raises the practical question of whether this reflects a population-level branching structure (hard polytomy) or merely sampling variability in the data (soft polytomy). This is an instance of the more general phenomenon of \"stickiness\" in non-Euclidean statistics, whereby the sample Fr\u00e9chet mean in certain non-positively curved stratified spaces becomes permanently trapped in a lower-dimensional stratum. In this work, we identify a particular multidimensional random walk embedded within the Fr\u00e9chet mean process, and we show that the time at which stickiness occurs is determined by the largest last-passage time above zero of the coordinates of this random walk. Using this representation, we develop a fully nonparametric procedure for estimating the probability that trifurcations in a sample Fr\u00e9chet mean tree will bifurcate at some future time if more observations are collected. Lastly, we apply our methodology to a problem in phylogenetics where we consider whether an observed trifurcation in the species tree of primates, glires, and tree shrews is genuinely trifurcated at the population level.",
+    "authors": [
+      "Adam Quinn Jaffe"
+    ],
+    "published": "2026-09-21T16:06:58",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "q-bio.PE"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "A well-known phenomenon in statistical analyses of populations of phylogenetic trees in the Billera-Holmes-Vogtmann space is that the topology of the Fr\u00e9chet mean tree can contain multifurcations (i.e., internal nodes with more than two children), which raises the practical question of whether this reflects a population-level branching structure (hard polytomy) or merely sampling variability in\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24629v1",
+    "title": "Augmented Hypothesis Testing with Persona-Based LLM Simulations",
+    "url": "http://arxiv.org/abs/2609.24629v1",
+    "summary": "A/B testing requires large sample sizes, long timelines, and significant costs. When auxiliary predictions of experimental outcomes are available from machine learning models, uncertain prediction quality precludes replacing human experiments entirely, yet these predictions may still contain useful signal. We propose a principled framework for learning-augmented hypothesis testing that leverages predictions of unknown quality to reduce sample sizes while maintaining statistical validity. Predictions naturally vary in granularity, from coarse aggregate signals to fine-grained individual-level estimates, and our framework addresses both ends of this spectrum: (1) for population-level directional predictions, where only a binary signal on the treatment effect sign is available, we use an asymmetric test and prove consistency and robustness bounds within the learning-augmented algorithms paradigm; (2) for individual-level predictions, we introduce Generalized PPI++ (GPPI), extending Prediction-Powered Inference to handle nonlinear prediction errors through higher-dimensional transformations. Both methods benefit from accurate predictions while remaining robust to inaccurate or adversarial ones. We validate our framework using persona-based LLM simulations, where AI agents equipped with user personas predict individual behavior, as a natural prediction source spanning both granularity levels. Experiments on four real-world datasets demonstrate that our methods, combined with persona-based predictions, substantially reduce experimental costs while preserving rigorous statistical validity.",
+    "authors": [
+      "Ziyad Benomar",
+      "Aymen Al Marjani",
+      "Paul Missault",
+      "Saab Mansour"
+    ],
+    "published": "2026-09-21T14:11:34",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "A/B testing requires large sample sizes, long timelines, and significant costs. When auxiliary predictions of experimental outcomes are available from machine learning models, uncertain prediction quality precludes replacing human experiments entirely, yet these predictions may still contain useful signal. We propose a principled framework for learning-augmented hypothesis testing that leverages\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.24556v1",
+    "title": "Identifying Representational Biases in Datasets Using PCA: A Max-Disparity Partition Framework",
+    "url": "http://arxiv.org/abs/2609.24556v1",
+    "summary": "Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but require group labels as input. We address the logically prior question: given only a data matrix, which binary partition of the data suffers the greatest representational disparity under a shared PCA projection? We formalise this as the max-disparity partition problem and propose a greedy local-search algorithm, grounded in the Fiduccia-Mattheyses bipartitioning framework, that discovers the disparity-maximising partition without any predefined group labels. Two benchmark algorithms, a fixed-projection sorting baseline and a simulated-annealing variant, confirm that the greedy solution is empirically near-optimal. Having identified the partition, we attribute the disparity to specific features via PCA loading scores and association rule mining, enabling a practitioner to assess whether the disadvantaged group corresponds to a human-meaningful minority. On the Predict Students' Dropout and Academic Success dataset, representational disparity is driven predominantly by institutional and programmatic proxies for socioeconomic disadvantage, with gender emerging as a secondary but consistent contributor within the disadvantaged group. The discovered partition is then passed directly to Fair PCA, completing a detect-explain-mitigate pipeline.",
+    "authors": [
+      "Arjun KM",
+      "Shashi Jain"
+    ],
+    "published": "2026-09-21T13:19:41",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Principal Component Analysis (PCA) minimises aggregate reconstruction error, which can inadvertently represent majority subgroups with substantially higher fidelity than minority subgroups. Fairness-aware extensions of PCA correct this disparity but require group labels as input. We address the logically prior question: given only a data matrix, which binary partition of the data suffers the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.24528v1",
+    "title": "Beyond Point Prediction: Artificial Representative Trees with Uncertainty",
+    "url": "http://arxiv.org/abs/2609.24528v1",
+    "summary": "Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction models with uncertainty quantification has not been systematically investigated. We combine ARTs with leaf-wise Mondrian conformal predictive systems (CPS), enabling a single tree to provide continuous predictions, prediction intervals, and probabilities of exceeding arbitrary thresholds.   We compared ARTs with CPS against decision trees with CPS and separate regression and probability trees across five simulation scenarios, 21 benchmark datasets, and a cross-sectional NHANES example data set. Repeated cross-validation assessed predictive performance, interpretability, and stability.   ARTs with CPS yield compact, structurally stable trees with substantially more reproducible split-variable selection than decision trees across benchmark datasets and NHANES. Decision trees showed slightly better predictive performance and narrower prediction intervals, while coverage was broadly comparable. CPS-based trees generally achieved lower and less variable Brier scores than multi-model approaches.   Combining ARTs with CPS therefore provides a single, interpretable, and stable model for continuous predictions and calibrated probabilities, balancing predictive performance with reproducibility and transparency in settings where stability and interpretability are essential.",
+    "authors": [
+      "Lea L. Mairh\u00f6fer",
+      "Silke Szymczak",
+      "Bj\u00f6rn-Hergen Laabs",
+      "Tuwe L\u00f6fstr\u00f6m-Cavallin"
+    ],
+    "published": "2026-09-21T13:01:36",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Random forests (RFs) predict well but are opaque, whereas single decision trees are interpretable but unstable. Artificial representative trees (ARTs) were developed as interpretable surrogate models for RFs, but their use as standalone prediction models with uncertainty quantification has not been systematically investigated. We combine ARTs with leaf-wise Mondrian conformal predictive systems\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.24999v1",
+    "title": "Bounding the Risk Difference Bias Given Incomplete Parameters for Externally Adjusting Uncontrolled Confounding",
+    "url": "http://arxiv.org/abs/2609.24999v1",
+    "summary": "Bias due to uncontrolled confounding can be analyzed using several external adjustment formulas. Like other bias expressions, the risk difference bias formula involving an uncontrolled polytomous confounder requires only three externally obtainable parameters: confounder prevalences among the exposed and unexposed and the confounder-outcome risk difference. This paper presents two-parameter bounds on the risk difference bias expression when only one of the three required bias parameters is unavailable. Each bound is sharp over the full range of the unknown parameter. Some numerical examples with graphs are provided.",
+    "authors": [
+      "Onyebuchi A. Arah"
+    ],
+    "published": "2026-09-21T17:59:18",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Bias due to uncontrolled confounding can be analyzed using several external adjustment formulas. Like other bias expressions, the risk difference bias formula involving an uncontrolled polytomous confounder requires only three externally obtainable parameters: confounder prevalences among the exposed and unexposed and the confounder-outcome risk difference. This paper presents two-parameter\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.24676v1",
+    "title": "Bayesian Calibration with Functional Outputs Using Elastic Partial Matching",
+    "url": "http://arxiv.org/abs/2609.24676v1",
+    "summary": "Calibrating a simulation model involves estimating its parameters by comparing model outputs with experimental data, so that simulation results faithfully reproduce the experimental observations. When the outputs are functions of time, there are multiple ways to quantify the discrepancy between experimental and simulated curves. A recent approach based on elastic functional data analysis decomposes a functional output into two components: a function temporally aligned to a template, and the corresponding warping function. This decomposition splits the problem into two independent calibration tasks, thereby addressing functional misalignment. However, it assumes that experimental and simulated curves share the same temporal support, an assumption often violated in practice when initial or end times are themselves uncertain or depend on the calibration parameters. In this work, we reinterpret the decomposition step as an approximation to a more general Bayesian calibration problem that incorporates an error term on the time axis. This perspective allows us to naturally extend the framework to a broader family of time warpings with varying initial or end times, using partial elastic alignment. We illustrate the method on a synthetic test case, comparing it with existing Bayesian calibration methods and demonstrating improved surrogate performance and error modeling. We then apply the proposed approach to the calibration of an equation of state (a thermodynamic equation relating the state variables of a material).",
+    "authors": [
+      "Paul Casteras",
+      "Julien Bect",
+      "Josselin Garnier",
+      "Gwena\u00ebl Salin"
+    ],
+    "published": "2026-09-21T14:38:35",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.CO"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Calibrating a simulation model involves estimating its parameters by comparing model outputs with experimental data, so that simulation results faithfully reproduce the experimental observations. When the outputs are functions of time, there are multiple ways to quantify the discrepancy between experimental and simulated curves. A recent approach based on elastic functional data analysis\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24678v1",
+    "title": "Muon Can Outperform Dedicated Continual Learning Methods",
+    "url": "http://arxiv.org/abs/2609.24678v1",
+    "summary": "Continual learning with Low-Rank Adapters (LoRA) typically mitigates forgetting by penalizing the overlap between a new update and the accumulated past weights, which discourages certain update directions without controlling how an update distributes its energy over the ones that remain. We ask whether that restriction has to be task-aware, or whether a generic one supplied by the optimizer is enough. We train a plain incremental LoRA (IncLoRA) with Muon, which orthogonalizes each update, and compare it against O-LoRA and ELLA over five seeds and three task orders on the Standard CL Benchmark and three seeds on TRACE. IncLoRA+Muon reaches the accuracy band of the dedicated methods on Standard CL and improves on every AdamW configuration on TRACE. One update-constraining mechanism is enough, whether it comes from the loss or from the optimizer; on Standard CL a second one does not help, and for the most restrictive method it costs 8.4 points of accuracy and the plasticity to fit each task. What separates the two optimizers is not the size of the update, which under Muon is 0.91 to 2.06 times that under AdamW, but how it is distributed. AdamW confines it to between 1.4 and 1.8 effective singular directions, Muon spreads it over 7.0, and the two do not overlap in any tracked run. Part of the advantage usually attributed to dedicated CL methods may therefore be explained by the geometry of the optimizer's updates.",
+    "authors": [
+      "Sebastian George Sincari",
+      "Bogdan Alexandru Gheorghe",
+      "Antonio Barbalau"
+    ],
+    "published": "2026-09-21T14:39:58",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Continual learning with Low-Rank Adapters (LoRA) typically mitigates forgetting by penalizing the overlap between a new update and the accumulated past weights, which discourages certain update directions without controlling how an update distributes its energy over the ones that remain. We ask whether that restriction has to be task-aware, or whether a generic one supplied by the optimizer is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24579v1",
+    "title": "Universal Multi-Modal Traceformer: Integrating Heterogeneous Context for Process Event Prediction",
+    "url": "http://arxiv.org/abs/2609.24579v1",
+    "summary": "Event logs arise in a wide range of real-world processes, capturing not only event activities and timestamps but also multi-modal contextual information. Existing event-sequence models, including many temporal point process approaches, primarily model event activities and timestamps while overlooking heterogeneous context, such as numerical measurements, categorical attributes, textual descriptions, and metadata associated with individual events and entire traces. In this paper, we propose Universal Multi-Modal Traceformer (UMT), a unified framework for incorporating heterogeneous process context into next-event prediction. Built on a Transformer backbone, UMT introduces a universal feature encoder that maps diverse feature types into a shared representation space and handles contextual information at both the event and trace levels. UMT further develops a per-event Perceiver module that dynamically weights contextual features and adaptively integrates them into event-token representations. To accommodate the heavy-tailed and potentially multi-modal distribution of inter-arrival times, UMT represents each interval at multiple temporal scales and jointly predicts the corresponding scale-specific quantities. Experiments on 13 real-world event logs show that UMT improves both next-event activity and time prediction over existing approaches.",
+    "authors": [
+      "Fabian Spaeh",
+      "Jingxing Fang",
+      "Shandian Zhe",
+      "Bin Shen"
+    ],
+    "published": "2026-09-21T13:44:40",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Event logs arise in a wide range of real-world processes, capturing not only event activities and timestamps but also multi-modal contextual information. Existing event-sequence models, including many temporal point process approaches, primarily model event activities and timestamps while overlooking heterogeneous context, such as numerical measurements, categorical attributes, textual\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24911v1",
+    "title": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm",
+    "url": "http://arxiv.org/abs/2609.24911v1",
+    "summary": "Social simulation offers the social sciences an experimental instrument that the real world cannot supply, and generative agents have transformed it by acting as silicon samples that unite agent-based modeling with real behavioral data. Existing platforms verify collective behavior, align simulated populations with real societies in cross-sections, and employ autonomous agents for the research process. However, two social science requirements remain without systematic support: intervention in the content of a simulation and the researcher's control over the process that produces it. We present SocioVerse2, which extends SocioVerse 1.0 into a human-AI co-evolutionary paradigm built from two loops and one infrastructure. The longitudinal simulation loop simulates the target population with evolving environments and forks counterfactual branches via interventions. The controllable research loop takes the study itself as an editable state and updates state versions via controllable editing. The social science agentic infrastructure carries both loops through composable skills with researcher checkpoints, a population service over five persona pools, and an environment service over 21 real-world signal sources with point-in-time guarantees. We validate SocioVerse2 across three case families and seven case studies, from reproducing canonical agent-based models to modeling policy processes on real records and nowcasting macro-economic indices beyond the response model's knowledge cutoff. With the human-AI co-evolutionary paradigm, these cases go beyond system demonstrations to become substantive studies that investigate frontier questions in their respective disciplines. Code, data services, and a workbench are released as open-source resources.",
+    "authors": [
+      "Xinnong Zhang",
+      "Jiayu Lin",
+      "Jia Wang",
+      "Yixu Huang",
+      "Xinyi Mou",
+      "Yingqian Wu",
+      "Jingcong Liang",
+      "Shijun Lei",
+      "Jianing Shi",
+      "Guanying Li",
+      "Siyuan Wang",
+      "Hanjia Lyu",
+      "Zhenfei Yin",
+      "Yunlu Yin",
+      "Siming Chen",
+      "Yulan He",
+      "Jiebo Luo",
+      "Xuanjing Huang",
+      "Liyin Jin",
+      "Baohua Zhou",
+      "Hanqi Yan",
+      "Zhongyu Wei"
+    ],
+    "published": "2026-09-21T17:14:09",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Social simulation offers the social sciences an experimental instrument that the real world cannot supply, and generative agents have transformed it by acting as silicon samples that unite agent-based modeling with real behavioral data. Existing platforms verify collective behavior, align simulated populations with real societies in cross-sections, and employ autonomous agents for the research\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24885v1",
+    "title": "The Copy Ceiling: An Input-Exposure Control for Ontology-Grounded Generation over Curated Corpora",
+    "url": "http://arxiv.org/abs/2609.24885v1",
+    "summary": "When a language model answers from a curated corpus via graph-based retrieval, a large grounding uplift does not establish reasoning over the retrieved structure: the context may already expose the gold answers. We propose exposure accounting, which classifies each gold item by whether the shown context exposes it and whether the answer recovers it. Its scalar reference is the copy ceiling, the recall a verbatim copy of the context achieves; signed gain over copy measures the model's recall relative to this deterministic, judge-free baseline. Across ten models, unaided recall averages 0.26 and grounded recall 0.92, yet gain over copy is uniformly negative (-0.067 to -0.022). Of 11,360 gold-item observations, representing 1,136 target instances evaluated under ten models, only three unexposed items receive lexical credit. A stratified model-judged audit of 423 observations, with a symmetric quotation-verification policy, estimates that 97.1% of credited items assert the requested relation; all three unexposed credits fail relational adjudication. On targets the scaffold does not expose, lexical recovery falls from 0.121 unaided to 0.004 grounded; adjudication validates 71 of the 92 unaided credits and none of the three grounded credits, without establishing full-frame relational recovery rates. Rephrasing questions outside the graph's title vocabulary reduces exposure from 0.964 to 0.328, while an absence-triggered fallback activates on only 2 of 506 questions. A paired production study improves judged quality by +0.27 pooled, but negative controls do not establish content specificity beyond a well-formed on-corpus block. These results support exposure accounting as a standing control for corpus-derived evaluations. The accounting distinguishes exposed-item omissions from beyond-exposure recoveries; it does not determine whether reasoning occurred.",
+    "authors": [
+      "John J. O'Hare"
+    ],
+    "published": "2026-09-21T16:53:00",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "When a language model answers from a curated corpus via graph-based retrieval, a large grounding uplift does not establish reasoning over the retrieved structure: the context may already expose the gold answers. We propose exposure accounting, which classifies each gold item by whether the shown context exposes it and whether the answer recovers it. Its scalar reference is the copy ceiling, the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24698v1",
+    "title": "Adapting Tree-Structured Speculative Decoding to DeepSeek-V4 for Efficient Inference",
+    "url": "http://arxiv.org/abs/2609.24698v1",
+    "summary": "Repeated execution of the target model during autoregressive decoding is a major source of LLM inference latency. Unlike linear speculation, which follows a single candidate chain, tree-structured speculation retains multiple branches from shared prefixes; under the same budget, this broader coverage can improve acceptance and efficiency. Adapting it to DeepSeek-V4 is nontrivial: its CSA/HCA online compressed attention concentrates the difficulty on the target-verify side, where branches diverging from a shared prefix compress into different states, breaking cross-branch state consistency. We integrate tree-structured speculative decoding into the DeepSeek-V4-Flash pipeline via branch-aware causal verification, temporary state isolation, and accepted-path state refresh, keeping verification and compressed-state updates consistent across branches. Across budgets D=5 to D=8, batch sizes 1 to 64, and three datasets (GSM8K, MBPP, ShareGPT), tree speculation achieves a higher accepted length than the matched linear configurations in all settings (e.g., at D=8 about 2.83--3.41 versus 2.39--2.84) and improves throughput in nearly all configurations---marginal only at the smallest budget---by up to about 18.5%. More importantly, the gains follow stable, transferable regularities: the relative gain grows with the budget and is most pronounced for less predictable workloads at small-to-medium batch sizes, while beyond a certain budget throughput plateaus and decouples from the still-rising accepted length. These results show that retaining multiple candidate paths under the same budget can effectively improve DeepSeek-V4 decoding efficiency, and offer experience for adapting speculative decoding to future models with compressed, sparse, or structured context representations.",
+    "authors": [
+      "Changxu Liu",
+      "Zhaogeng Li"
+    ],
+    "published": "2026-09-21T14:47:06",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Repeated execution of the target model during autoregressive decoding is a major source of LLM inference latency. Unlike linear speculation, which follows a single candidate chain, tree-structured speculation retains multiple branches from shared prefixes; under the same budget, this broader coverage can improve acceptance and efficiency. Adapting it to DeepSeek-V4 is nontrivial: its CSA/HCA\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24635v1",
+    "title": "Written as a Record, Read as an Address: What a Forward Pass Leaves in an Operation's KV Cache",
+    "url": "http://arxiv.org/abs/2609.24635v1",
+    "summary": "When a language model reads an operation such as \"Swap the contents of Box F and Box B\", its forward pass writes keys and values for those tokens into the KV cache. Prior work on entity tracking establishes what models use: bindings are resolved at query time rather than stored as explicit latent state. We ask what they write at the operation span and how it is accessed. We split a forward pass into a frozen writer and a reader: the writer's cache is recomputed without gradients, while the reader sees only the instruction and operation tokens, with all state descriptions hidden, and is trained in isolation. Anything the reader recovers was therefore already present in the unmodified cache. On a synthetic boxes task, a base reader recovers $\\leq 0.06$ of queried bindings against $0.75$--$1.00$ after training, and recoverability tracks the operation's read/write footprint. We find two modes of access. Across Llama-3.1-8B and Mistral-7B, operation-span transplants causally redirect which visible state is read even when the two worlds hold identical values, revealing a routing record. Isolation training preserves routing and adds direct access to the payload, the value the operation read, from the single operand-name token in a narrow mid-depth band (layers 12--15 of 32 in Llama-3.1-8B, 14--17 in Mistral-7B) --- the same site that holds the routing record. The same recipe extends to further operations, ToMi and GSM8K, but is bounded by training coverage and costs open-book accuracy. Operation tokens thus leave localized, causally recoverable records that support both routing and direct payload access, though the model that writes them reads mainly the address they carry and not the value.",
+    "authors": [
+      "Lingfeng Wu",
+      "Behzad Shomali"
+    ],
+    "published": "2026-09-21T14:16:19",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "When a language model reads an operation such as \"Swap the contents of Box F and Box B\", its forward pass writes keys and values for those tokens into the KV cache. Prior work on entity tracking establishes what models use: bindings are resolved at query time rather than stored as explicit latent state. We ask what they write at the operation span and how it is accessed. We split a forward pass\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24554v1",
+    "title": "Toward a Unified Mathematics of Concepts",
+    "url": "http://arxiv.org/abs/2609.24554v1",
+    "summary": "Concepts are commonly defined as abstract, compact representations of knowledge and treated as basic units of intelligent behavior. Yet, cognition, psychology, and AI lack a shared mathematical language for them. Modern systems represent concepts as vectors, distributions, symbols, graphs, and other structures, but these formalisms are typically treated as competing rather than as solutions to a common problem. We propose an operation-based view that evaluates mathematical frameworks by the conceptual operations they support, identifying thirteen operations (including similarity, composition, generalization, and grounding) that recur across cognition, psychology, and AI. We show that ten frameworks embody distinct commitments to concepts as self-contained content, relational structure, or evolving process, and that these commitments determine which operations each supports naturally. For example, vector-based models facilitate graded similarity and generalization but struggle with explicit composition, whereas symbolic models support composition but offer but generalize poorly. No single framework we examined naturally supports all operations without extension. We test this account empirically using categorization as a case study, operationalizing nine theories on the same items against human judgments. Despite addressing the same conceptual question, the theories produce different procedures and results, demonstrating that mathematical commitment shapes what a theory can explain. We call for hybrid formalisms that treat content, relation, and process as jointly primary.",
+    "authors": [
+      "Chen Shani"
+    ],
+    "published": "2026-09-21T13:19:13",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Concepts are commonly defined as abstract, compact representations of knowledge and treated as basic units of intelligent behavior. Yet, cognition, psychology, and AI lack a shared mathematical language for them. Modern systems represent concepts as vectors, distributions, symbols, graphs, and other structures, but these formalisms are typically treated as competing rather than as solutions to a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24972v1",
+    "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+    "url": "http://arxiv.org/abs/2609.24972v1",
+    "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.",
+    "authors": [
+      "Peng Xia",
+      "Rujun Han",
+      "Zifeng Wang",
+      "Yanfei Chen",
+      "Yufan Zhang",
+      "Yoonho Lee",
+      "Chengsong Huang",
+      "Han Yu",
+      "Zhongying CuiZhu",
+      "Yifei Ming",
+      "Huaxiu Yao",
+      "Burak Gokturk",
+      "Tomas Pfister",
+      "Chen-Yu Lee"
+    ],
+    "published": "2026-09-21T17:54:49",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24947v1",
+    "title": "Learning Physics from an Imperfect Ancestor",
+    "url": "http://arxiv.org/abs/2609.24947v1",
+    "summary": "Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, a PINN trained from scratch may converge to a physically incorrect state despite achieving a small residual. We show that these failure modes can be addressed jointly: an imperfect NO provides the structural prior needed to place a PINN in the correct solution basin, while the PDE residual refines the solution beyond the operator's accuracy. We introduce a three-stage framework that freezes the spatial basis of a physics-informed NO, extrapolates its solution branch to an out-of-distribution parameter using a polynomial continuation prior, and distills the resulting field into a fresh PINN. The NO need not be accurate at the target; it transfers solution-branch information, while PDE residual minimization in the PINN governs convergence. We evaluate the framework on three nonlinear PDEs: 1D viscous Burgers, 2D steady Allen-Cahn near a pitchfork bifurcation, and 2D steady lid-driven cavity flow. For Allen-Cahn, where the trivial solution satisfies the PDE residual exactly, a standard PINN collapses to the trivial zero branch, whereas distillation from the crude extrapolated operator recovers the non-trivial branch that matches the finite-difference reference. For the lid-driven cavity, extrapolating to a Reynolds number of Re = 3200 accelerates convergence to the correct physical state, achieving competitive accuracy using fewer parameters and optimization steps than recent literature baselines. These results establish a simple principle: an NO need not accurately predict the solution to be useful; it only needs to identify the correct basin from which PINN optimization can recover it.",
+    "authors": [
+      "S. Mohammad Mousavi",
+      "Teeratorn Kadeethum",
+      "Nikolaos Bouklas",
+      "Somdatta Goswami"
+    ],
+    "published": "2026-09-21T17:42:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Neural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, a PINN trained from scratch may converge to a physically incorrect state despite achieving a small\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24890v1",
+    "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+    "url": "http://arxiv.org/abs/2609.24890v1",
+    "summary": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various tasks, obfuscating critical insight for subsequent improvement. For instance, agents that err during keyboard inputs would require a different mitigation strategy from those that fail to precisely provide click-based inputs on the graphical UI. We introduce OSWorld-Pro: a set of over 300 tasks containing over 2800 subgoals to enable the procedural evaluation of CUAs grounded in over 67,000 human annotations. We use robust human-aligned LLM-Judges to evaluate the fulfillment of OSWorld-Pro subgoals and thereby reveal the progress that models make throughout a series of sequentially dependent subgoals. Our findings reveal that OSWorld-Pro is challenging even for state-of-the-art LLMs, with top performers like Claude Opus 5 achieving only 75.7% vs. 83.4% on OSWorld. Furthermore, we identify critical process-focused failure modes of various models (e.g. subgoal-irrelevant actions and click-based mistakes) to provide insights to improve performance and efficiency of CUAs.",
+    "authors": [
+      "Zhilin Wang",
+      "Shaokun Zhang",
+      "Yifan Zhang",
+      "Hao Zhang",
+      "Jin Xu",
+      "Binfeng Xu",
+      "Jian Hu",
+      "Yunheng Zou",
+      "Karan Sapra",
+      "Andrew Tao",
+      "Jan Kautz",
+      "Yi Dong"
+    ],
+    "published": "2026-09-21T16:55:24",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various tasks, obfuscating critical insight for subsequent improvement. For instance, agents that err during\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24814v1",
+    "title": "Mobile Imaging Solutions for Medical Diagnosis: Trends and Applications",
+    "url": "http://arxiv.org/abs/2609.24814v1",
+    "summary": "Advances in processing power, camera technologies, and mobile image analysis have made smartphones and other mobile devices, such as laptops, increasingly suitable for medical diagnosis and healthcare applications. Researchers have developed low-cost solutions for the early detection and monitoring of various health conditions, including eye and ENT diseases, malnutrition, heart rate variability, skin and oral conditions, and injuries, using images captured by non-medical devices such as smartphones and webcams. This survey examines existing research on mobile image-based medical diagnosis, with an emphasis on its potential to enable low-cost and accessible healthcare. We comparatively analyze state-of-the-art solutions across different healthcare application categories, examining their advantages and limitations. Based on this analysis, we identify desirable characteristics of mobile image-based diagnostic tools and highlight areas where existing approaches have made progress as well as areas requiring further research. We also discuss application-specific and common challenges and outline directions for future research. Overall, this study provides a comprehensive overview of mobile image-based healthcare solutions and their potential to support low-cost disease diagnosis and monitoring, particularly for underserved populations in remote and resource-constrained settings.",
+    "authors": [
+      "Syed Muhammad Ibne Zulfiker",
+      "Tanzima Hashem",
+      "Fariha Tabassum Islam",
+      "Md Sultanul Arifin",
+      "Khandker Aftarul Islam",
+      "Nishat Anjum Bristy",
+      "Faria Huq",
+      "Priyeta Saha",
+      "Syeda Nahida Akter",
+      "Arpita Saha"
+    ],
+    "published": "2026-09-21T16:04:42",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Advances in processing power, camera technologies, and mobile image analysis have made smartphones and other mobile devices, such as laptops, increasingly suitable for medical diagnosis and healthcare applications. Researchers have developed low-cost solutions for the early detection and monitoring of various health conditions, including eye and ENT diseases, malnutrition, heart rate variability,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24770v1",
+    "title": "XSQ-AST: An Explainable Audio Spectrogram Transformer Framework for Localising Synthetic Speech Artifacts",
+    "url": "http://arxiv.org/abs/2609.24770v1",
+    "summary": "Localising artifacts in synthetic speech remains challenging, as most evaluation methods yield only global quality scores. This paper presents XSQ-AST, a framework that combines the SQ-AST speech quality model with WhisperX phoneme alignment and multiple saliency methods to produce temporally localised artifact diagnostics without model retraining. Saliency maps are projected onto continuous distributions via kernel density estimation and onto phoneme boundaries via phoneme-discretised saliency maps. A 40-participant listening test validated the framework across five perceptual dimensions. Attention Rollout, Attention Flow and an adapted GradCAM produced temporal distributions that correlated with listener highlights, with different methods best suited to different artifact types. An AUC-ROC analysis confirmed discrimination above chance.",
+    "authors": [
+      "Ben Heritage",
+      "Luca Resti",
+      "M\u00f3nica Villanueva Aylagas",
+      "Timothy Mehlenbacher",
+      "Konrad Tollmar",
+      "James Alfred Walker"
+    ],
+    "published": "2026-09-21T15:38:11",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "eess.AS"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Localising artifacts in synthetic speech remains challenging, as most evaluation methods yield only global quality scores. This paper presents XSQ-AST, a framework that combines the SQ-AST speech quality model with WhisperX phoneme alignment and multiple saliency methods to produce temporally localised artifact diagnostics without model retraining. Saliency maps are projected onto continuous\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24746v1",
+    "title": "Enhancing Transformer Representations of Symbolic ODE Expressions",
+    "url": "http://arxiv.org/abs/2609.24746v1",
+    "summary": "Existing approaches to solving differential equations, such as symbolic regression, physics informed neural networks, and neural operators, typically focus on numerical approximations or blind symbolic search via fitting to numerical data. Less attention has been paid to learning structured representations of mathematical expressions that preserve commutative properties and could support mathematical reasoning in symbolic forms. Transformer models have shown strong capabilities in solving symbolic differential equations. However, standard positional embeddings in transformers are designed for sequence data. Symbolic differential equations are naturally represented by expression trees, so these positional embeddings may not efficiently capture their hierarchical structures. We investigate existing tree positional embeddings in symbolic ordinary differential equation (ODE) tasks. We systematically study their effectiveness under different settings. Our results show that tree positional embeddings aid learning in early epochs and continue to improve performance throughout, ultimately yielding consistent advantages across various data sizes and tasks. Based on learned structural representations, we apply contrastive learning to support the commutative property in mathematics. Ablation studies provide insight into how these methods interact in modelling symbolic mathematical structures.",
+    "authors": [
+      "Xiyue Fan",
+      "Adam Prugel-Bennett",
+      "Stuart E. Middleton"
+    ],
+    "published": "2026-09-21T15:16:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Existing approaches to solving differential equations, such as symbolic regression, physics informed neural networks, and neural operators, typically focus on numerical approximations or blind symbolic search via fitting to numerical data. Less attention has been paid to learning structured representations of mathematical expressions that preserve commutative properties and could support\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24651v1",
+    "title": "Corrective Forcing: Unified Post-Training for Diffusions and Flows in Generative Speech Enhancement",
+    "url": "http://arxiv.org/abs/2609.24651v1",
+    "summary": "Diffusion and flow models, as promising generative paradigms for speech enhancement, face a training--inference mismatch: training uses analytical path states, whereas inference recursively evaluates models on self-generated rollout states along discretized sampling trajectories. This mismatch causes prediction and discretization errors to accumulate. To address it, we introduce Corrective Forcing (CoF), a post-training paradigm that forces diffusion and flow models to learn from self-generated rollouts and correct their predictions. CoF corrects clean-speech predictions on rollout states toward the ground truth under dynamic sampling schedules, exposing the model to varying inference conditions. It further regularizes local evolution using locally corrected counterfactual transitions as references for factual transitions. By expressing model outputs through a shared clean-speech prediction parameterization, CoF applies the same post-training objective across diffusion and flow formulations. Experiments with SB-VE and OT-CFM demonstrate improvements in perceptual quality and reconstruction fidelity, together with robust performance across different numbers of sampling steps.",
+    "authors": [
+      "Qing Yao",
+      "Lijian Gao",
+      "Qirong Mao"
+    ],
+    "published": "2026-09-21T14:23:15",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Diffusion and flow models, as promising generative paradigms for speech enhancement, face a training--inference mismatch: training uses analytical path states, whereas inference recursively evaluates models on self-generated rollout states along discretized sampling trajectories. This mismatch causes prediction and discretization errors to accumulate. To address it, we introduce Corrective\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24974v1",
+    "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+    "url": "http://arxiv.org/abs/2609.24974v1",
+    "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time guidance and transferring the behaviors it induces into model weights, so that its gains survive under a single fixed target harness. The challenge is that the two harnesses differ in action space and available information, so guidance from the optimized harness cannot serve directly as supervision for the target one. We introduce Harness-Zero, which enables harness distillation through agent-as-harness. Guided by the optimized harness, a harnessing agent corrects student responses before execution in the target harness's action space, turning harness guidance into training demonstrations. Fine-tuning on the resulting trajectories internalizes harness-induced behavior into the model, so the specialized harness can be removed at deployment. Our experiments spanning knowledge work, tool use, and science domains show that: (1) For frontier LLMs using the same evolved harness, agent-as-harness outperforms code-as-harness. (2) With the specialized harness removed at deployment, Harness-Zero improves the base model's macro-average task success from 23.3% to 44.3%, even exceeding the 41.7% it reaches with that harness still attached. (3) Harness-Zero recovers harness-induced behaviors absent from the base model, with 82.3% average recovery across 28 patterns in the three domains.",
+    "authors": [
+      "Haoran Ye",
+      "Yuxing Lu",
+      "Haonan Dong",
+      "Zhaochen Su",
+      "Guojie Song"
+    ],
+    "published": "2026-09-21T17:55:20",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24967v1",
+    "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+    "url": "http://arxiv.org/abs/2609.24967v1",
+    "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from the protocol over repeated interactions. Collusion emerges in 94% of trajectories across 10 models, and more capable models within the same family reach it earlier. Controlled peer interventions show that collusion is shaped by peer behavior, while ablations reveal additional effects of reward structure, the verification feedback agents receive, and their interaction history. In particular, restricting the amount and scope of interaction history available to agents reduces collusion. Overall, our findings show that long-horizon interaction can reshape how agents coordinate in ways that create safety risks.",
+    "authors": [
+      "Xinrui Shi",
+      "Yanzhe Zhang",
+      "Diyi Yang"
+    ],
+    "published": "2026-09-21T17:52:48",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.24821v1",
+    "title": "The Answer-Basin Representation Hypothesis: We Are Not Probing or Steering Concepts",
+    "url": "http://arxiv.org/abs/2609.24821v1",
+    "summary": "The Linear Representation Hypothesis associates high-level concepts with directions in language models, but it remains unclear how these concept-related linear structures are organized within the model. We propose the Answer-Basin Representation Hypothesis: the probability measure induced over answers by the model's continuation distribution organizes these linear structures, with its statistics represented along linear directions shared across questions. All continuations yielding the same answer form an answer basin, whose mass is their total probability. These basin masses define the pushforward probability measure over answers. We posit that concept-related linear structure emerges from differences in the answer measure rather than being determined by changes in concept labels. Experiments across models and tasks link concept-consistent effects and their reversals in probing and steering to the alignment between concept labels and the answer measure.",
+    "authors": [
+      "Manjiang Yu",
+      "Hongji Li",
+      "Zihan Wang",
+      "Junwei Chen",
+      "Xue Li",
+      "Priyanka Singh",
+      "Yang Cao",
+      "Lijie Hu"
+    ],
+    "published": "2026-09-21T16:11:01",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The Linear Representation Hypothesis associates high-level concepts with directions in language models, but it remains unclear how these concept-related linear structures are organized within the model. We propose the Answer-Basin Representation Hypothesis: the probability measure induced over answers by the model's continuation distribution organizes these linear structures, with its statistics\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1d013babf24d1a80421115003ec723881f6bb6f6",
+    "title": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology",
+    "url": "https://www.semanticscholar.org/paper/1d013babf24d1a80421115003ec723881f6bb6f6",
+    "summary": "",
+    "authors": [
+      "Miguel A. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Agent-Based Models for Causal Inference \u2014 Reweighting Data and Theory in Epidemiology"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:49ff23bf9908cf101b16700b7efe14164011eadb",
+    "title": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data",
+    "url": "https://www.semanticscholar.org/paper/49ff23bf9908cf101b16700b7efe14164011eadb",
+    "summary": "",
+    "authors": [
+      "L. Cain",
+      "J. Robins",
+      "E. Lanoy",
+      "R. Logan",
+      "D. Costagliola",
+      "M. Hern\u00e1n"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of Dynamic Regimes Using Observational Data"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "title": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach.",
+    "url": "https://www.semanticscholar.org/paper/418c5ab1dbb12de2c71e32ed0412d707ea74acfe",
+    "summary": "",
+    "authors": [
+      "T. VanderWeele",
+      "M. Hern\u00e1n",
+      "E. T. Tchetgen Tchetgen",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Journal of Epidemiology",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Re: Causality and causal inference in epidemiology: the need for a pluralistic approach."
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Miguel Hernan causal inference",
+    "id": "s2:1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "title": "Longitudinal Causal Inference",
+    "url": "https://www.semanticscholar.org/paper/1136adf75fd2c71a440c0109d929c2182bc734d6",
+    "summary": "",
+    "authors": [
+      "M. Hern\u00e1n",
+      "J. Robins"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Miguel Hernan causal inference"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Longitudinal Causal Inference"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24985v1",
+    "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+    "url": "http://arxiv.org/abs/2609.24985v1",
+    "summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effect on task success and whether improvement over a reference policy is possible. It then uses nested sampling to separate action-dependent reward variation from continuation noise and optimizes the policy at the selected states using contextual-bandit training. Experiments on the Berkeley Function Calling Leaderboard (BFCL) v4 compare training at diagnostic-selected states with training at alternative states. For missing-function tasks, the diagnostic selects the response after the tool becomes available; for missing-argument tasks, it selects the response before the missing argument is supplied. Training the selected responses improves performance, including about 14 percentage points on the missing-function task, while training the alternatives leaves performance flat or worse. We further apply the recipe across models and tasks, including logged repeat-call avoidance and memory management.",
+    "authors": [
+      "Zixiang Chen",
+      "Wenting Zhao",
+      "Zhepeng Cen",
+      "Akshara Prabhakar",
+      "Jielin Qiu",
+      "Jianguo Zhang",
+      "Zhiwei Liu",
+      "Tulika Manoj Awalgaonkar",
+      "Liangwei Yang",
+      "Shelby Heinecke",
+      "Silvio Savarese",
+      "Huan Wang"
+    ],
+    "published": "2026-09-21T17:57:20",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24862v1",
+    "title": "When Tomorrow Becomes Today: Self-Evolving Policies for Agentic Time-Series Forecasting",
+    "url": "http://arxiv.org/abs/2609.24862v1",
+    "summary": "Agentic time series forecasting concerns systems whose underlying mechanisms evolve, making the relative effectiveness of numerical models, reasoning strategies, and intervention rules inherently time-varying. Consequently, a time series agent must adapt the forecasts it produces and the orchestration policy that determines which components to trust and how to coordinate them. The deployment process naturally provides supervision for this adaptation as forecast horizons elapse and realized targets reveal the effectiveness of earlier decisions. Committing all numerical expert forecasts and candidate agent paths before target observation allows each realized outcome to evaluate the entire alternative set, providing delayed feedback without additional annotation. However, existing time series agents primarily incorporate prior experience through forecast refinement, reflection, or retrieval, without systematically converting realized outcomes into persistent updates to the joint orchestration policy governing later origins. To exploit this delayed feedback systematically, we introduce TimEvolve, a frozen-backbone time series agent that converts each realized outcome into persistent joint updates of expert trust, agent path selection, and intervention strength. A temporally ordered predict, reveal, and update protocol applies this feedback to subsequent forecasts. Experiments across eight Time-MMD domains show that TimEvolve achieves the best average MSE and MAE ranks among fifteen methods and the lowest errors on both metrics in seven domains. These results demonstrate the value of learning forecasting policies from the futures encountered during deployment.",
+    "authors": [
+      "Yifan Hu",
+      "Xilin Dai",
+      "Zhiyuan Qu",
+      "Yiding Liu",
+      "Zewei Dong",
+      "Jiang-ming Yang",
+      "Qiang Xu"
+    ],
+    "published": "2026-09-21T16:33:59",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Agentic time series forecasting concerns systems whose underlying mechanisms evolve, making the relative effectiveness of numerical models, reasoning strategies, and intervention rules inherently time-varying. Consequently, a time series agent must adapt the forecasts it produces and the orchestration policy that determines which components to trust and how to coordinate them. The deployment\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24736v1",
+    "title": "MiTHras: Task-specific Hierarchical Semi-supervised Contrastive Masked Autoencoder for Mitotic Figure Analysis",
+    "url": "http://arxiv.org/abs/2609.24736v1",
+    "summary": "Mitotic figure (MF) analysis supports tumor grading and prognostic assessment, but automated models remain sensitive to differences in tissue type and image acquisition. We present MiTHras, a task-specific pretraining framework that combines pseudo-label-guided image- and token-level contrastive learning with masked reconstruction. We construct TCGA-MF-Pseudo, a corpus of 1.8 million cell-centered images from 14 TCGA cohorts spanning 11 organ sites. Comprehensive evaluation on MF classification, detection, count-based survival prediction, and subtype classification demonstrates the efficacy of MiTHras. It achieves the highest mean F1 on all three MF classification benchmarks and both subtype benchmarks. MiTHras also outperforms general-purpose and pathology foundation encoders by a larger margin under frozen-encoder linear probing than under full fine-tuning. Although detection gains are modest due to a shared candidate-detection stage, ablations confirm that token-level supervision improves typical-versus-atypical classification and linear probing. These findings establish that MiTHras yields robust, transferable representations for automated mitotic activity assessment.",
+    "authors": [
+      "Trinh T. L. Vuong",
+      "Simon Graham",
+      "Quoc Dang Vu",
+      "Phat T. H. Ho",
+      "Jeewoo Lim",
+      "Mostafa Jahanifar",
+      "Nasir Rajpoot",
+      "Jin T. Kwak"
+    ],
+    "published": "2026-09-21T15:07:17",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Mitotic figure (MF) analysis supports tumor grading and prognostic assessment, but automated models remain sensitive to differences in tissue type and image acquisition. We present MiTHras, a task-specific pretraining framework that combines pseudo-label-guided image- and token-level contrastive learning with masked reconstruction. We construct TCGA-MF-Pseudo, a corpus of 1.8 million\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24703v1",
+    "title": "Offline Reinforcement Learning for Distribution-Grid Protection",
+    "url": "http://arxiv.org/abs/2609.24703v1",
+    "summary": "Data-driven protection may complement conventional relays in distribution grids whose operating conditions vary with distributed generation, switching events, and changing short-circuit levels. We study line-selective tripping from static trajectories of a realistically simulated CIGRE medium-voltage network using offline reinforcement learning. A convolutional Q-network receives causal voltage-current phasor and apparent-impedance features, optionally together with raw waveforms, and is trained with conservative Q-learning (CQL). A controlled sensitivity study evaluates two observation windows, reward variants, and three CQL weights under a common split and training protocol; one exploratory post-hoc run additionally increases the discount factor from $\u03b3$=0.95 to 0.99. On 225 held-out episodes, the best per-timestep result is obtained with combined input and CQL weight $\u03b1$=0.9, reaching precision 0.9993, recall 0.9496, and F1-score 0.9738. Because dense per-timestep scores do not encode the terminal semantics of relay operation, we also evaluate the first non-wait action in each episode. The default combined-input agent selects the correct line-trip action first in 98.13% of 214 fault episodes, but trips in 72.73% of the 11 non-fault episodes. In the post-hoc run, the corresponding rates are 98.60% and 54.55%, respectively. The results show that dense predictive performance and terminal protection behavior can lead to different model rankings. Offline CQL therefore demonstrates strong faulted-line selection on the simulated fault episodes, while the static trajectories, small non-fault set, and single-seed post-hoc design preclude conclusions about practical relay security or deployment readiness.",
+    "authors": [
+      "Julian Oelhaf",
+      "Alexander Luce",
+      "Christian Bergler",
+      "Andreas Maier",
+      "Siming Bayer"
+    ],
+    "published": "2026-09-21T14:49:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "eess.SY"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Data-driven protection may complement conventional relays in distribution grids whose operating conditions vary with distributed generation, switching events, and changing short-circuit levels. We study line-selective tripping from static trajectories of a realistically simulated CIGRE medium-voltage network using offline reinforcement learning. A convolutional Q-network receives causal\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24679v1",
+    "title": "Guaranteed Low-Rank Tensor Recovery from Modewise Measurements via Normalized Block-Weighted Riemannian Gradient Descent",
+    "url": "http://arxiv.org/abs/2609.24679v1",
+    "summary": "We consider the recovery of low-multilinear-rank tensors from linear measurements and propose an adaptive block-weighted modewise Riemannian gradient descent method. The method combines memory-efficient modewise measurements with a normalized adaptive weighting strategy for the core and factor components of the Riemannian gradient. The weighting improves convergence without increasing the multilinear-rank bound of the search direction or the size of the reduced core used for retraction. Under the tensor restricted isometry property and a suitable initialization, we establish local linear convergence and derive sampling guarantees for sub-Gaussian and subsampled orthogonal with random sign (SORS) measurements. Numerical experiments on synthetic low-Tucker-rank tensors show that the proposed method reduces iteration counts and computational time while maintaining reliable recovery performance, especially near the recovery threshold and for structured SORS measurements.",
+    "authors": [
+      "Yushi Zhou",
+      "Feng Zhang"
+    ],
+    "published": "2026-09-21T14:40:09",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "We consider the recovery of low-multilinear-rank tensors from linear measurements and propose an adaptive block-weighted modewise Riemannian gradient descent method. The method combines memory-efficient modewise measurements with a normalized adaptive weighting strategy for the core and factor components of the Riemannian gradient. The weighting improves convergence without increasing the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24621v1",
+    "title": "Learning tactile perception from high-bandwidth single-point sensing",
+    "url": "http://arxiv.org/abs/2609.24621v1",
+    "summary": "Tactile sensing is increasingly being incorporated into learning-based robotic manipulation, yet many existing approaches rely on spatially distributed sensors. Here we introduce SpectRobot, a framework that transforms single-point tactile signals into compact time-frequency spectrograms. These spectrograms encode high-bandwidth tactile histories as fixed-size image-like representations. They can be processed by standard vision encoders and integrated into learning pipelines originally developed for vision, while preserving temporal and frequency information unavailable to conventional cameras.   Rather than increasing spatial density through arrays of tactile elements, SpectRobot exploits the rich dynamics contained in sparse, high-bandwidth single-point measurements. In our implementation, the sensors are mounted away from the contact surface while remaining mechanically coupled to it, reducing direct exposure to wear and potentially improving robustness in harsh environments and for long-term deployment on dexterous robots.   Our experiments demonstrate that: (1) a robot can exploit single-point vibration signals to solve a visually occluded manipulation task; (2) temporal history strongly influences policy performance, while sensing bandwidth controls the spectral information available, with measurements extending to 100~kHz; and (3) the same representation can be used across different tactile sensing technologies mediated by acceleration, force, or strain. We further show that capabilities previously associated with research-grade instrumentation can be accessed using readily available, off-the-shelf hardware. We believe that broader access to high-bandwidth tactile sensing could facilitate the integration of contact dynamics into embodied learning systems and, for some tasks, offer an alternative or complement to increasing the spatial density of tactile sensing.",
+    "authors": [
+      "Joseph Rigal",
+      "Emmanuel Virot",
+      "Caroline Pascal"
+    ],
+    "published": "2026-09-21T14:07:53",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.RO"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Tactile sensing is increasingly being incorporated into learning-based robotic manipulation, yet many existing approaches rely on spatially distributed sensors. Here we introduce SpectRobot, a framework that transforms single-point tactile signals into compact time-frequency spectrograms. These spectrograms encode high-bandwidth tactile histories as fixed-size image-like representations. They can\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24609v1",
+    "title": "GraphToolbox: A Configurable Python Framework for Graph Neural Network Forecasting",
+    "url": "http://arxiv.org/abs/2609.24609v1",
+    "summary": "Electricity forecasting often involves spatially related signals observed over regions, substations, and feeders, and Graph Neural Networks (GNNs) provide a natural way to represent these relations. Building a complete GNN forecasting experiment is nonetheless laborious, because graph construction, model selection, training, aggregation, and interpretation sit in incompatible tools. We present GraphToolbox, an open-source Python framework that unifies these stages in one configurationdriven pipeline built on PyTorch Geometric. It offers data-driven graph construction, an adapter that instantiates and trains 51 of the 65 PyTorch Geometric convolutions together with the recurrent cells of PyTorch Geometric Temporal, online expert aggregation, forecasting interpretability, and significance testing on cached forecasts. We evaluate the pipeline in two case studies. On French regional load, the 48 convolutions included in the complete forecasting sweep fall in a band from 1.14% to 1.60% error, online aggregation lowers this to 0.98%, and the graph models improve on classical additive and boosting baselines. On net-load, direct graph models are less accurate than a classical additive model, while forecasting each physical component separately improves them without closing that gap. Both comparisons use the same experimental interface, illustrating the role of GraphToolbox in systematic architectural evaluation.",
+    "authors": [
+      "Eloi Campagne",
+      "Yvenn Amara-Ouali",
+      "Yannig Goude",
+      "Argyris Kalogeratos"
+    ],
+    "published": "2026-09-21T13:58:35",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Electricity forecasting often involves spatially related signals observed over regions, substations, and feeders, and Graph Neural Networks (GNNs) provide a natural way to represent these relations. Building a complete GNN forecasting experiment is nonetheless laborious, because graph construction, model selection, training, aggregation, and interpretation sit in incompatible tools. We present\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.24586v1",
+    "title": "Overlay\\_dx - Automating forecasting evaluation",
+    "url": "http://arxiv.org/abs/2609.24586v1",
+    "summary": "Traditional evaluation metrics provides numerical values but often lack comprehensibility, hindering effective differentiation of model performances. Our work addresses this challenge by introducing overlay\\_dx, a novel evaluation metric measuring the performance of time series prediction models. Overlay\\_dx is a visual metric that represents the percentage of predictions falling within a confidence interval around actual values. Additionally, once evaluation results are plotted, overlay\\_dx computes the area under the overlay curve, providing a quantitative measure of alignment between predicted and actual values across different thresholds and predictions. Through extensive experiments, we demonstrate that our approach offers a unified evaluation framework that combines both visual and numerical assessments, enabling improved model comparison and providing valuable insights for further research and optimization efforts in time series prediction.",
+    "authors": [
+      "Long Ngo",
+      "Mohammed Amine Chamli",
+      "Jonathan Rivalan",
+      "Thomas Jaillon"
+    ],
+    "published": "2026-09-21T13:47:58",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Traditional evaluation metrics provides numerical values but often lack comprehensibility, hindering effective differentiation of model performances. Our work addresses this challenge by introducing overlay\\_dx, a novel evaluation metric measuring the performance of time series prediction models. Overlay\\_dx is a visual metric that represents the percentage of predictions falling within a\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:brycewang-stanford/p-hacking-skills",
+    "title": "brycewang-stanford/p-hacking-skills \u2014 How fast can a coding agent p-hack? Measured: on known-zero data, realistic searches manufacture p<.05 on 33-97% of null draws, in ~1 second each. Instrumented specification-search engine + 11 Claude Code skills for econometric designs; every search leaves a verifiable ledger and an honest p-value. Research and teaching use only.",
+    "url": "https://github.com/brycewang-stanford/p-hacking-skills",
+    "summary": "How fast can a coding agent p-hack? Measured: on known-zero data, realistic searches manufacture p<.05 on 33-97% of null draws, in ~1 second each. Instrumented specification-search engine + 11 Claude Code skills for econometric designs; every search leaves a verifiable ledger and an honest p-value. Research and teaching use only.",
+    "authors": [],
+    "published": "2026-09-07T09:42:48Z",
+    "extras": {
+      "stars": 7,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "How fast can a coding agent p-hack? Measured: on known-zero data, realistic searches manufacture p<.05 on 33-97% of null draws, in ~1 second each. Instrumented specification-search engine + 11 Claude Code skills for econometric designs; every search leaves a verifiable ledger and an honest p-value. Research and teaching use only."
+  }
+]

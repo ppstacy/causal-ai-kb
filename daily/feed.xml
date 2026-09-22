@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-22</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-22/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-22/</guid>
+      <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization — Experimentation · score 56 · arXiv stat.ML · Xinyang Li, Kevin Stone, Ajit Vikram
+2. Selective Inference for CART with Binary Outcomes — Uplift / HTE · score 56 · arXiv stat.ML · Tomoshige Nakamura
+3. On the use of meaningful score regions to interpret treatment effects on continuous clinical outcome assessments — Uplift / HTE · score 56 · arXiv stat.ME · Andrew Trigg, Fraser D. Bocell
+4. Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift — Uplift / HTE · score 52 · arXiv stat.ML · Rustam Isaev, Anton Conrad, Denis Belomestny, Eric Moulines et al. (5 authors)
+5. Phylogenetic Inference and the Stickiness of Fréchet Means, via Precise Asymptotics of an Embedded Random Walk — Uplift / HTE · score 52 · arXiv stat.ME · Adam Quinn Jaffe</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-21</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-21/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-21/</guid>
@@ -197,13 +208,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-31/</guid>
       <pubDate>Mon, 31 Aug 2026 13:00:00 +0000</pubDate>
       <description>1. rodrigorissettoterra/ai-model-studies — Experiments and studies on Machine Learning, Deep Learning and Generative AI models. — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-08-30</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-08-30/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-08-30/</guid>
-      <pubDate>Sun, 30 Aug 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
     </item>
   </channel>
 </rss>
