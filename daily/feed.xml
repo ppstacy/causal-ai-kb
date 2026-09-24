@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-24</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-24/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-24/</guid>
+      <pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Interpreting Hierarchical Composite Endpoints with Survival and Longitudinal Outcomes: Application to Amyotrophic Lateral… — Uplift / HTE · score 56 · arXiv stat.ME · Arlina Shen, Dehua Bi, Ruben P. A. van Eijk, Lu Tian et al. (5 authors)
+2. PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety — Causal LMs · score 56 · arXiv cs.CL · Jiapeng Sun, Yujin Zhou, Han Zhu, Pengcheng Wen et al. (7 authors)
+3. NPBoost: Neural Processes with Gradient-Boosted Fixed Effects — Uplift / HTE · score 52 · arXiv stat.ML · Andrea Nava, Ken Rölli, Armin Begic, Fabio Sigrist
+4. Adaptive confidence intervals with missing data — Causal Inference · score 52 · arXiv stat.ME · Tianyi Ma, Kabir A. Verchand, Chao Gao, Richard J. Samworth
+5. Simultaneous comparison of the predictive values of two binary diagnostic tests in the presence of categorical covariates — Uplift / HTE · score 52 · arXiv stat.ME · Jose A. Roldan-Nofuentes, Saad-Bouh Regad</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-23</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-23/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-23/</guid>
@@ -201,17 +212,6 @@
 3. Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Tian Fang, Gaël Guibon, Davide Buscaldi
 4. Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences — Causal Inference · score 56 · arXiv econ.EM · Nichole Austin, Sunny R. Karim, Erin Strumpf, Matthew D. Webb
 5. The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally — Causal LMs · score 56 · arXiv cs.LG · Jundong Hu, Shekar Ramachandran</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-01</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-01/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-01/</guid>
-      <pubDate>Tue, 01 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting — Causal LMs · score 56 · arXiv cs.LG · Xiaoyu Tao, Mingyue Cheng, Ze Guo, Bokai Pan et al. (7 authors)
-2. You Shouldn't Have Asked: A Pragmatics-Inspired Taxonomy for Evaluating LLM Refusals — Causal LMs · score 56 · arXiv cs.CL · Ruoxuan Li, Pinqiao Wang, Sheng Li, Cameron Robert Jones
-3. Aggregate Disambiguation Systems — Uplift / HTE · score 52 · arXiv stat.ME · José María Lago, Albert Castellana, Edgars Nemše
-4. Moments of Random Coefficients in Short Panels — Uplift / HTE · score 52 · arXiv econ.EM · Irene Botosaru, James L. Powell
-5. A Universal Context-Reuse Layer for Cross-Model KV Sharing — Causal LMs · score 52 · arXiv cs.LG · Yi Li, Dongming Jiang, Yi Zhao, Bingzhe Li</description>
     </item>
   </channel>
 </rss>

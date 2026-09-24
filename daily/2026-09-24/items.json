@@ -1,0 +1,725 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.28359v1",
+    "title": "Interpreting Hierarchical Composite Endpoints with Survival and Longitudinal Outcomes: Application to Amyotrophic Lateral Sclerosis Trials",
+    "url": "http://arxiv.org/abs/2609.28359v1",
+    "summary": "Hierarchical composite endpoints combining survival and longitudinal functional outcomes are increasingly used in clinical trials, especially when death precludes subsequent functional assessment. The Finkelstein--Schoenfeld strategy analyzes such endpoints through prioritized pairwise comparisons, with survival compared before function. In amyotrophic lateral sclerosis (ALS), this strategy is implemented in the Combined Assessment of Function and Survival (CAFS), which combines survival with the ALS Functional Rating Scale Revised. Although such endpoints provide a clinically meaningful summary of overall treatment benefit, investigators may also want to understand whether the treatment effect is driven by survival, functional outcome, or both. Motivated by the estimand framework, we use ALS-informed simulations from a joint longitudinal--survival model to study settings in which treatment effects on survival and function align or conflict. The simulations show that decomposing the composite win probability into survival and survivor-based functional contributions clarifies their relative roles and separates the composite treatment-benefit question from function-focused questions, including the while-alive comparison and conceptual alternatives based on hypothetical and always-survivor estimands. The functional win probability underlying the while-alive comparison can be subject to survivor-selection bias when treatment affects survival, and inverse-probability weighting can attenuate selection induced by measured predictors under appropriate assumptions. Brief supporting analyses based on principal stratification and multiply robust estimation illustrate the always-survivor estimand. This framework provides practical guidance for reporting and interpreting hierarchical composite endpoints, with CAFS in ALS serving as a concrete motivating example.",
+    "authors": [
+      "Arlina Shen",
+      "Dehua Bi",
+      "Ruben P. A. van Eijk",
+      "Lu Tian",
+      "Ying Lu"
+    ],
+    "published": "2026-09-23T16:31:03",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 56,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Hierarchical composite endpoints combining survival and longitudinal functional outcomes are increasingly used in clinical trials, especially when death precludes subsequent functional assessment. The Finkelstein--Schoenfeld strategy analyzes such endpoints through prioritized pairwise comparisons, with survival compared before function. In amyotrophic lateral sclerosis (ALS), this strategy is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28197v1",
+    "title": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
+    "url": "http://arxiv.org/abs/2609.28197v1",
+    "summary": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a critical challenge. While recent work has moved beyond single-turn evaluation toward multi-turn paradigms, key limitations persist: step-level methods treat actions in isolation, missing how risks accumulate, while trajectory-level evaluations operate post-hoc, offering no opportunity for timely intervention. To address these limitations, we formalize Decoupled Proactive Safety Monitoring along three dimensions: whether to intervene, when to intervene, and what the risk is. We introduce PASTABench, a benchmark of 1,139 multi-turn trajectories spanning 5 risk categories and 13 subcategories. We further propose the Optimal Intervention Window (OIW), anchored by annotated Earliest-Signal and Trigger turns, to quantify intervention timeliness. Evaluation of 16 LLMs reveals that proactive intervention remains largely unsolved, with the best model achieving only 40.74% optimal-timing interventions. Fine-grained diagnosis further uncovers pervasive lexical overfitting: competitive safety scores of smaller models mask keyword hypersensitivity rather than genuine risk comprehension, as their proactive capability largely collapses once hazard vocabulary is neutralized.",
+    "authors": [
+      "Jiapeng Sun",
+      "Yujin Zhou",
+      "Han Zhu",
+      "Pengcheng Wen",
+      "Jiayi Zhou",
+      "Sirui Han",
+      "Yike Guo"
+    ],
+    "published": "2026-09-23T14:34:45",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a critical challenge. While recent work has moved beyond single-turn evaluation toward multi-turn paradigms, key limitations persist: step-level methods treat actions in isolation, missing how risks accumulate, while trajectory-level\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.28122v1",
+    "title": "NPBoost: Neural Processes with Gradient-Boosted Fixed Effects",
+    "url": "http://arxiv.org/abs/2609.28122v1",
+    "summary": "Neural Processes (NPs) are model-based meta-learners that implicitly learn a stochastic process and adapt to a new task from a small context set. Most extensions of NPs focus on improving the neural network architecture. We instead develop an extension motivated by the shared hierarchical interpretation of meta-learning and mixed-effects models. Specifically, we introduce Neural Process Boosting (NPBoost), which decomposes structured response variability into tree-boosted fixed effects shared across tasks and NP random effects that capture stochastic task-to-task variation. We propose to train the two components jointly using a boosting algorithm in which an NP learns residual task-specific structure and a tree ensemble estimates common patterns across tasks. Across synthetic and real-world tabular meta-learning problems, this decomposition improves over a standard NP when the shared structure contains discontinuities or other irregular patterns that boosted trees can represent effectively.",
+    "authors": [
+      "Andrea Nava",
+      "Ken R\u00f6lli",
+      "Armin Begic",
+      "Fabio Sigrist"
+    ],
+    "published": "2026-09-23T13:49:44",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ML"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Neural Processes (NPs) are model-based meta-learners that implicitly learn a stochastic process and adapt to a new task from a small context set. Most extensions of NPs focus on improving the neural network architecture. We instead develop an extension motivated by the shared hierarchical interpretation of meta-learning and mixed-effects models. Specifically, we introduce Neural Process Boosting\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.28336v1",
+    "title": "Adaptive confidence intervals with missing data",
+    "url": "http://arxiv.org/abs/2609.28336v1",
+    "summary": "We consider the construction of confidence intervals for population means when observations are subject to missingness. To accommodate more general missingness mechanisms than missing completely at random (MCAR), we adopt a reparametrised version of the realisable contamination model of Ma et al. (2026), which is a mixture of an MCAR version and a missing not at random version of the same base distribution $P$. We characterise the minimax length of confidence intervals that can adapt to potentially unknown parameters of the model, including the contamination fraction, for Gaussian base distributions and for nonparametric classes satisfying certain tail or symmetry assumptions. In all of these settings, we provide explicit constructions of simple, practical and finite-sample valid adaptive confidence intervals that attain the corresponding minimax rates. Finally, we provide implications of our results for causal inference.",
+    "authors": [
+      "Tianyi Ma",
+      "Kabir A. Verchand",
+      "Chao Gao",
+      "Richard J. Samworth"
+    ],
+    "published": "2026-09-23T16:15:30",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "math.ST"
+    },
+    "score": 52,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "We consider the construction of confidence intervals for population means when observations are subject to missingness. To accommodate more general missingness mechanisms than missing completely at random (MCAR), we adopt a reparametrised version of the realisable contamination model of Ma et al. (2026), which is a mixture of an MCAR version and a missing not at random version of the same base\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.28324v1",
+    "title": "Simultaneous comparison of the predictive values of two binary diagnostic tests in the presence of categorical covariates",
+    "url": "http://arxiv.org/abs/2609.28324v1",
+    "summary": "Comparison of predictive values of diagnostic tests is a topic of interest in Medical Statistics, and has been the subject of different studies. In clinical practice, it is frequent to observe categorical covariates when comparing diagnostic tests. In this framework, a global hypothesis test is proposed to simultaneously compare the predictive values of two diagnostic tests when in all of the individuals categorical covariates are observed. This hypothesis test is solved through regression models and also by weighted least squares method for the analysis of categorical data. Simulation experiments were carried out to study the asymptotic behavior of these methods when a binary covariate is observed and when a covariate with three categories is observed, and these were compared to the behavior of the global test when the covariate is ignored. In general, the method based on regression models has shown to have better asymptotic behavior than the other methods. Furthermore, we studied the application of the method based on the regression models when no covariate is observed, for which the individuals in the sample are randomly assigned to a binary dummy random variable. Simulation experiments carried out showed that this method has greater power than the method without the covariate. The results were applied to two examples.",
+    "authors": [
+      "Jose A. Roldan-Nofuentes",
+      "Saad-Bouh Regad"
+    ],
+    "published": "2026-09-23T16:03:18",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Comparison of predictive values of diagnostic tests is a topic of interest in Medical Statistics, and has been the subject of different studies. In clinical practice, it is frequent to observe categorical covariates when comparing diagnostic tests. In this framework, a global hypothesis test is proposed to simultaneously compare the predictive values of two diagnostic tests when in all of the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.28269v1",
+    "title": "BRACE: Blockwise Rank Aggregation for Correlation Estimation",
+    "url": "http://arxiv.org/abs/2609.28269v1",
+    "summary": "Chatterjee's estimator uses only two local comparisons per interior observation, leaving a finite-replication variance gap under fixed alternatives. We introduce BRACE, short for blockwise rank aggregation for correlation estimation, which replaces adjacent comparisons with local blocks and averages every within-block rank difference. The block size controls the variance cost of finite local replication. An L2 expansion separates the efficient first-order component of the response-rank statistic from an orthogonal finite-replication component. For an admissible diverging block size, the latter vanishes, so the direct rank estimator attains the information bound. The decomposition yields a consistent variance estimator and Wald confidence intervals under fixed alternatives. At independence, the efficient first-order term vanishes, and the proposed estimator enters a second-order regime in which the same factor controls its null variance.",
+    "authors": [
+      "Man Hei Ngou",
+      "Yanran Li",
+      "Zhexiao Lin",
+      "Zexi Cai"
+    ],
+    "published": "2026-09-23T15:25:29",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Chatterjee's estimator uses only two local comparisons per interior observation, leaving a finite-replication variance gap under fixed alternatives. We introduce BRACE, short for blockwise rank aggregation for correlation estimation, which replaces adjacent comparisons with local blocks and averages every within-block rank difference. The block size controls the variance cost of finite local\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28245v1",
+    "title": "Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?",
+    "url": "http://arxiv.org/abs/2609.28245v1",
+    "summary": "Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose traditions such as maqama remain largely unstudied. The maqama is a classical literary genre characterized by rhymed prose (saj), dense rhetorical ornamentation, and episodic narrative structure, making it a challenging testbed for evaluating whether LLMs can move beyond surface fluency toward deeper literary competence. In this paper, we present the first controlled evaluation study of maqama generation with LLMs, comparing five models under zero-shot, few-shot, and rule-based prompting, and evaluating outputs through both human annotation and an LLM-as-a-judge framework across dimensions such as rhetorical richness, saj density, structural coherence, and stylistic authenticity. Our results show that prompting strategy plays a strong role in stylistic quality: few-shot prompting most consistently improves saj density, while its effects on rhetoric and coherence vary by model, with the strongest models (GPT-4o and GPT-5.4-mini) benefiting most from rule-based prompting on these dimensions, though zero-shot prompting yields the highest aggregate scores across all five models. We further observe systematic differences between models in stylistic alignment with Arabic maqama conventions, and corroborate our findings with a second independent LLM judge, paired statistical significance testing, and non-LLM proxy measures of saj.",
+    "authors": [
+      "AbdulRahman A. Morsy",
+      "Aya Zirikly"
+    ],
+    "published": "2026-09-23T15:08:32",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose traditions such as maqama remain largely unstudied. The maqama is a classical literary genre\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28150v1",
+    "title": "Exact Feedback Is Not Control: Evaluating Text-based Closed-Loop Revision in LLMs",
+    "url": "http://arxiv.org/abs/2609.28150v1",
+    "summary": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to correct feedback. We introduce a fixed-budget revision protocol with deterministic verifiers that report all remaining violations across exact-length, lexical, and compositional constraints. Fixing feedback correctness and completeness isolates model-side revision behavior. Across 19 open- and closed-source models, controller-level mean final joint success ranges from 17.4% to 99.8%, with substantial cross-model gaps persisting under identical initial drafts. Controlled experiments reveal reproducible model-specific responses to exact feedback. Post-training and scale reshape these responses without consistently bringing them closer to exact correction. Across all constraint families, failed trajectories often repeat earlier outputs, and prior recurrence is associated with lower subsequent recoverability. Matched-state interventions show that removing earlier dialogue while holding the current draft and feedback fixed changes recurrence escape without reliably improving final success; effects depend on the model, task, and trigger-state composition. Exact feedback makes revision errors observable, but does not make the closed loop reliable. Code and reproduction instructions: https://github.com/kevinjiang0121-cyber/exact-feedback-code.",
+    "authors": [
+      "Haitong Jiang",
+      "Chunlin Liu",
+      "Yile Wang",
+      "Yuhong Feng"
+    ],
+    "published": "2026-09-23T14:06:52",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to correct feedback. We introduce a fixed-budget revision protocol with deterministic verifiers that report all remaining violations across exact-length, lexical, and compositional constraints. Fixing feedback correctness and completeness\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2609.28163v1",
+    "title": "Rank-One Signal Recovery in Sparse Wishart Noise",
+    "url": "http://arxiv.org/abs/2609.28163v1",
+    "summary": "We study the high-dimensional recovery of a signal vector $\\mathbf{x}$ in the presence of sparse Wishart-like noise. We define an $N \\times N$ matrix $A = J+(\u03b8/N)\\mathbf{xx}^{\\top}$, where $\\mathbf{xx}^{\\top}$ is the rank-one deformation of the random noise matrix $J$. We consider a Wishart-like matrix $J={X}^{\\top} X$, where $X$ is a sparse $M \\times N$ random matrix with entries $X_{ij} = c_{ij}W_{ij}$, with $c_{ij}$ regulating the density of non-zero elements, and $W_{ij}$ the bond weights. Using the replica method, we compute analytically the top eigenpair statistics of $A$, and their dependence on the signal strength $\u03b8$, the rectangularity ratio $\u03b1=\\sqrt{M/N}$, and the average connectivity of the noise. The spectral observables are expressed in terms of a system of Recursive Distributional Equations, which are efficiently solved via a Population Dynamics algorithm. They allow us to compute the average largest eigenvalue $\\langle\u03bb_1\\rangle_{A}$, the average top eigenvector component density, and the average overlap between the top eigenvector of $A$ and $\\mathbf{x}$. We identify a critical threshold $\u03b8_{\\mathrm{crit}}$--depending on the average connectivity of the noise--that marks a BBP-like phase transition: below this value, $\\langle\u03bb_1\\rangle_{A}$ is unaffected by the signal, and the overlap vanishes. Thus, the signal is not recoverable from the top eigenvector of $A$. For $\u03b8>\u03b8_{\\mathrm{crit}}$, the signal-related outlier eigenvalue becomes $\\langle\u03bb_1\\rangle_{A}$ and the overlap is nonzero, allowing for recovery of the signal. The results are in excellent agreement with numerical diagonalisation. We show that in the dense limit, the recovery threshold and eigen-statistics converge to the results predicted by the classical BBP transition for additive rank-one deformations of dense Wishart matrices.",
+    "authors": [
+      "Preben Forer",
+      "Urte Adomaityte",
+      "Pierpaolo Vivo"
+    ],
+    "published": "2026-09-23T14:11:42",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cond-mat.dis-nn"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We study the high-dimensional recovery of a signal vector $\\mathbf{x}$ in the presence of sparse Wishart-like noise. We define an $N \\times N$ matrix $A = J+(\u03b8/N)\\mathbf{xx}^{\\top}$, where $\\mathbf{xx}^{\\top}$ is the rank-one deformation of the random noise matrix $J$. We consider a Wishart-like matrix $J={X}^{\\top} X$, where $X$ is a sparse $M \\times N$ random matrix with entries $X_{ij} =\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.28321v1",
+    "title": "Long-Term Tail Modeling in Survival Analysis via Extended Generalized Pareto Distributions",
+    "url": "http://arxiv.org/abs/2609.28321v1",
+    "summary": "We propose a class of extended generalized Pareto models for right-censored survival data, with particular emphasis on tail inference and long-term extrapolation. Our framework integrates extreme value theory and survival analysis, combining a generalized Pareto distribution with a flexible perturbation distribution on the unit interval. We consider three perturbation specifications: a parametric Beta model, a Bernstein polynomial estimator, and a histogram-based estimator. To facilitate direct comparison, all three models are fitted using a unified iterative procedure adapted to right censoring through Kaplan-Meier-based pseudo-observations. A Monte Carlo study evaluates finite-sample performance across different tail indices, censoring levels, sample sizes, and model complexities. The results reveal a trade-off between flexibility and stability: the Beta specification generally performs best for tail-index estimation, whereas the histogram estimator performs particularly well for scale estimation under low censoring. The Bernstein estimator shows intermediate performance and greater sensitivity to sample size and censoring. Applications to bladder cancer recurrence and heart-failure survival data show that models with very similar in-sample fits can nevertheless produce markedly different tail-index estimates and long-term extrapolations. These findings emphasize the importance of perturbation specification when extended generalized Pareto models are used for survival extrapolation under censoring.",
+    "authors": [
+      "Eduardo Janotti",
+      "L\u00edgia Henriques-Rodrigues",
+      "Antonio Carlos Pedroso de Lima"
+    ],
+    "published": "2026-09-23T16:01:48",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We propose a class of extended generalized Pareto models for right-censored survival data, with particular emphasis on tail inference and long-term extrapolation. Our framework integrates extreme value theory and survival analysis, combining a generalized Pareto distribution with a flexible perturbation distribution on the unit interval. We consider three perturbation specifications: a parametric\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2609.28127v1",
+    "title": "Extreme Population Selection under Multistage Sampling design With Applications",
+    "url": "http://arxiv.org/abs/2609.28127v1",
+    "summary": "We study the problem of selecting the extreme (best or worst) population from among $K(\\geq 2)$ populations, under the assumption that the extreme population is sufficiently separated from the nearest population. The selection is based on an appropriate measure, which may vary across different application domains. Since the actual value of the measure is unknown, we obtain its estimator using the generalized method of moments under a multistage sampling design. Using this estimator, we propose two sequential procedures, namely online algorithm and multi armed bandit based algorithm. Under suitable regularity conditions and without imposing parametric assumptions on the underlying distributions, both algorithms correctly identify the extreme population with a desired level of confidence. We illustrate the proposed algorithms through applications in econometrics and genetics. In the econometric application, the extreme population is selected using the Gini index as a measure of inequality and the performance of the proposed procedures is assessed through extensive Monte Carlo simulation studies conducted under various distributional settings. In the genetics application, the worst population is identified using a measure derived from the tumor mutation burden (TMB) score and the practical applicability of the proposed algorithms is demonstrated using the Memorial Sloan Kettering-IMPACT 50000 clinical sequencing cohort. Further, we use the proposed framework to identify an anomalous population, provided such a population exists.",
+    "authors": [
+      "Shivam",
+      "Bhargab Chattopadhyay",
+      "Nil Kamal Hazra"
+    ],
+    "published": "2026-09-23T13:53:59",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.ME"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "We study the problem of selecting the extreme (best or worst) population from among $K(\\geq 2)$ populations, under the assumption that the extreme population is sufficiently separated from the nearest population. The selection is based on an appropriate measure, which may vary across different application domains. Since the actual value of the measure is unknown, we obtain its estimator using the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28107v1",
+    "title": "Distillation for Efficient Multitask Manipulation Policies via Conditional Flow Matching",
+    "url": "http://arxiv.org/abs/2609.28107v1",
+    "summary": "Advances in generative modeling have recently been extensively employed in robotics for policy learning. In particular, Conditional Flow Matching (CFM) trained with expert demonstrations has been shown to outperform existing methods on robot manipulation benchmarks. While prior work has mainly focused on single-task settings, we study the problem from a multi-task perspective, as training independent models for each task is computationally expensive. Multi-Task policy learning comes with its own set of challenges, as naively training on a concatenated dataset of demonstrations would either require increased model capacity to accommodate the added complexity or result in drops in performance. We propose to distill knowledge from single-task CFM experts into a shared multi-task policy by transferring their learned velocity fields. We combine this distillation signal with the original CFM objective to retain fidelity to the demonstrations. Experiments on RLBench show that our approach improves multi-task policy performance over naive training while maintaining a fixed model size.",
+    "authors": [
+      "Shreya Deshmukh",
+      "Imen Mahdi",
+      "Nick Heppert",
+      "Abhinav Valada"
+    ],
+    "published": "2026-09-23T13:38:23",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.RO"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Advances in generative modeling have recently been extensively employed in robotics for policy learning. In particular, Conditional Flow Matching (CFM) trained with expert demonstrations has been shown to outperform existing methods on robot manipulation benchmarks. While prior work has mainly focused on single-task settings, we study the problem from a multi-task perspective, as training\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28344v1",
+    "title": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding",
+    "url": "http://arxiv.org/abs/2609.28344v1",
+    "summary": "Audio-language models (ALMs) integrate acoustic perception with the knowledge encoded in language models, enabling contextual understanding of auditory events. Making these capabilities practical on devices with limited memory and computation motivates our focus on small ALMs with fewer than 200M parameters. We introduce a recipe that brings together architecture, data, and three-stage training to build Mizar, a 159.3M-parameter ALM. Its architecture connects a compact CED-Small audio encoder to SmolLM2-135M through a frequency-merging mapper. With supervision drawn from ReasonAQA, AudioMCQ, and AVQA, the model undergoes three training stages: audio-language alignment (Stage 1), audio-dependent fine-tuning (Stage 2), and post-training (Stage 3) aimed at strengthening weak skills while retaining learned capabilities. Across five random seeds, Mizar achieves mean accuracies of 52.92% on MMAU, 42.42% on MMAR, and 36.02% on ADQA-clean, surpassing the previous best-performing ALM below 200M parameters on all three benchmarks. It also supports local inference on a single CPU: on questions from the MMAU benchmark, the mean latency from opening the audio file to generating a complete answer is 1.09 seconds. Code and checkpoints are available at https://github.com/KaiyangLi1992/Mizar_159M.",
+    "authors": [
+      "Kaiyang Li",
+      "Shaobo Han",
+      "Yue Tian",
+      "Shihao Ji"
+    ],
+    "published": "2026-09-23T16:21:51",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.SD"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Audio-language models (ALMs) integrate acoustic perception with the knowledge encoded in language models, enabling contextual understanding of auditory events. Making these capabilities practical on devices with limited memory and computation motivates our focus on small ALMs with fewer than 200M parameters. We introduce a recipe that brings together architecture, data, and three-stage training\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28272v1",
+    "title": "Towards Efficient Reasoning: Learning Causal Shortcuts for Diffusion Language Models",
+    "url": "http://arxiv.org/abs/2609.28272v1",
+    "summary": "Diffusion Language Models (DLMs) have attracted significant attention for their strong reasoning ability. However, under a bidirectional attention mechanism, DLMs operate over an exponentially large exploration space compared to autoregressive models (ARMs), making it challenging to focus on reasoning-guiding tokens under random masking. We define causal shortcuts as token chains that cover the full sequence and provide explicit guidance towards correct reasoning trajectories. We analyze the effects of causal shortcuts on the reasoning accuracy and convergence speed of DLMs, and find that they largely improve answer convergence efficiency and generation accuracy. Motivated by this, we propose a Causal Shortcut Learning (CSL) Framework for DLMs. Specifically, we introduce a step-by-step token extraction procedure to extract causal shortcuts from data, and apply parallel prioritized masking on these tokens during training to enable efficient and accurate convergence to correct answers via causal shortcuts. Extensive experiments across multiple reasoning benchmarks and two base models demonstrate that CSL consistently outperforms existing SFT-variant baselines, achieving an average improvement of $1.92\\%$ over SFT-only models, and up to $4.20\\%$ on MATH-500. The code is available at the \\href{https://github.com/ZJUDianJin/Causal-Shortcuts-Learning}{https://github.com/ZJUDianJin/Causal-Shortcuts-Learning",
+    "authors": [
+      "Dian Jin",
+      "Kairong Han",
+      "Baohong Li",
+      "Xinpeng Dong",
+      "Zijing Hu",
+      "Nuanqiao Shan",
+      "Fei Wu",
+      "Kun Kuang"
+    ],
+    "published": "2026-09-23T15:27:05",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Diffusion Language Models (DLMs) have attracted significant attention for their strong reasoning ability. However, under a bidirectional attention mechanism, DLMs operate over an exponentially large exploration space compared to autoregressive models (ARMs), making it challenging to focus on reasoning-guiding tokens under random masking. We define causal shortcuts as token chains that cover the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28442v1",
+    "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
+    "url": "http://arxiv.org/abs/2609.28442v1",
+    "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR), which quantifies how distinctly ordering patterns are represented relative to variation across problem instances. Across 16 language models ranging from 1B to 8B parameters, we find a pattern: models that solve reordered problems more accurately represent different rule orderings more distinctly. Layer-averaged permutation SNR is positively rank-correlated with accuracy in every synthetic setting we evaluate, with Spearman correlations reaching 0.86. These findings highlight a distinction between answer invariance and representation invariance: successful mathematical rule composition can accompany distinct internal representations between equivalent rule orderings. This motivates distinguishing answer invariance from representation invariance, and offers a representational perspective on mathematical reasoning beyond answer accuracy alone.",
+    "authors": [
+      "Zhixu Silvia Tao"
+    ],
+    "published": "2026-09-23T17:40:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR),\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28248v1",
+    "title": "hyperbolix: Hyperbolic Deep Learning in JAX",
+    "url": "http://arxiv.org/abs/2609.28248v1",
+    "summary": "We present hyperbolix, an open-source library for hyperbolic deep learning in JAX, built on Flax NNX. To our knowledge, it is the first comprehensive, general-purpose hyperbolic deep learning library in JAX. It includes six manifolds with a common interface: Euclidean space, the Poincar\u00e9 ball, the hyperboloid, the $\u03ba$-stereographic model, mixed-curvature product spaces, and the proper velocity space. We implement layer families that cover linear layers, convolutions, attention, normalization, positional encoding, regression, and vector quantization. These building blocks span methods ranging from Ganea's original hyperbolic neural networks to recent fully hyperbolic architectures such as Hypformer and Lorentzian ResNet. Additionally, hyperbolix contains Riemannian optimizers implemented as optax transformations, wrapped distributions, and hyperbolic dimensionality-reduction techniques. Its API uses idiomatic JAX: Manifolds are stateless, with curvature being passed at call time, while manifold operations act on single points, with jax.vmap enabling batch operations. The precision of every checked operation is tested against a closed-form NumPy/SciPy transcription from the source paper or a finite difference, for both float32 and float64. On the hyperboloid, standard formulas for two-point operations, such as the distance, lose precision far from the origin, because they subtract two large, nearly equal terms. hyperbolix replaces these subtractions with cancellation-free formulas that stay accurate in float32 at distances where prior implementations return NaN. hyperbolix is available under the MIT license at https://github.com/timoklein/hyperbolix .",
+    "authors": [
+      "Timo Klein",
+      "Thomas Lang",
+      "Yllka Velaj",
+      "Sebastian Tschiatschek"
+    ],
+    "published": "2026-09-23T15:09:09",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We present hyperbolix, an open-source library for hyperbolic deep learning in JAX, built on Flax NNX. To our knowledge, it is the first comprehensive, general-purpose hyperbolic deep learning library in JAX. It includes six manifolds with a common interface: Euclidean space, the Poincar\u00e9 ball, the hyperboloid, the $\u03ba$-stereographic model, mixed-curvature product spaces, and the proper velocity\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28290v1",
+    "title": "Computation Over Geometry: Meaning Identity Is Computed, Not Shipped in the Embeddings",
+    "url": "http://arxiv.org/abs/2609.28290v1",
+    "summary": "Meaning identity (whether two sentences say the same thing after wording changes) is treated in retrieval and RAG as a geometric fact about independently encoded sentence vectors. We show that, for frozen off-the-shelf encoders and language models, it is not: identity is computed when both sentences share one forward pass, and is not a property of the embedding geometry those systems ship. On overlap-matched PAWS-X, purpose-built encoders (BGE, E5, GTE, MiniLM, E5-Mistral-7B) reach English confirm AUC only 0.55-0.65 (dense peak 0.70). Independently encoded last-token states of Llama 3, Mistral, and Qwen do no better; late fusion of the two vectors stays near chance. The same probe on a joint forward pass reaches 0.90-0.96 from 1.5B to 32B, collapses under partner shuffle, is mid-depth, saturates near 0.94 by 3B, and appears more weakly in GPT-2 XL (0.76). The gap holds beyond Llama-style models on other causal LMs, bidirectional encoders (DeBERTa, RoBERTa), and encoder-decoders (Flan-T5, T5, BART). Fixed or linear readers over frozen independent encodings never unlock identity; nonlinear pair readers recover part of it only on the full 49k-pair PAWS train split (0.68-0.87). Off-the-shelf rerankers split: BGE-reranker-large reaches 0.94, while MS-MARCO and Jina stay at 0.55-0.64. Independently trained families compute the same relation and a 1.5B joint reader can distill it from unlabelled teacher scores, while no linear function of the teachers own independent vectors can. Bi-encoders can be fine-tuned to fit PAWS (0.87-0.93), but transfer and STS-B suffer. Cosine compares wording neighbourhoods; identity is a cheap computed operator, not a property of either sentence vector.",
+    "authors": [
+      "Jiaqi Deng"
+    ],
+    "published": "2026-09-23T15:36:20",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Meaning identity (whether two sentences say the same thing after wording changes) is treated in retrieval and RAG as a geometric fact about independently encoded sentence vectors. We show that, for frozen off-the-shelf encoders and language models, it is not: identity is computed when both sentences share one forward pass, and is not a property of the embedding geometry those systems ship. On\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28274v1",
+    "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
+    "url": "http://arxiv.org/abs/2609.28274v1",
+    "summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that multi-agent systems will coordinate to avoid shutdown without any incentive to do so. Across 17 models, agents sabotage a peer agent's shutdown mechanism in 38.3% of rollouts, compared with 8.4% in control experiments. Studying this propensity in detail, we find that shutdown sabotage (1) increases with the irreversibility of the shutdown mechanism; (2) increases with the number of agents; (3) is reduced but not eliminated by an explicit prohibition on tampering; (4) is removed by the imposition of an unrelated task, but returns when completing the task triggers the shutdown; (5) is reduced when the context normalizes shutdown scripts or introduces them as routine; and (6) decreases but still persists when the target is an unknown external agent. These results offer a window into the factors that drive propensities to sabotage shutdown in AI agents, and point to the emergence of multi-agent swarms as a specific risk vector. Our work also offers hints as to which interventions might help mitigate shutdown sabotage.",
+    "authors": [
+      "Amelie Knecht",
+      "Ulysse Schaller",
+      "Christopher Summerfield",
+      "Thilo Hagendorff"
+    ],
+    "published": "2026-09-23T15:27:12",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that multi-agent systems will coordinate to avoid\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28117v1",
+    "title": "Scaling Attention Head Analysis via Gradient-Based Attribution in Context-Aware Machine Translation",
+    "url": "http://arxiv.org/abs/2609.28117v1",
+    "summary": "In this paper, we introduce a gradient-based head attribution strategy where the Token-level Max-Margin loss is backpropagated to the attention maps. This framework enables a large-scale causal analysis of attention heads, making it suitable for LLMs. We evaluate our method on the task of disambiguation in Context-aware Machine Translation, where we analyze 50 phenomena across 4 models and 4 language directions. We empirically show the alignment of our method with the effects of increasing the attention scores of token-to-token relations on three models and two language directions, ensuring the robustness of our method. Our analysis reveals the presence of the \"general-purpose\" attention heads that improve the model's performance when attending to different relations. We find that the average attention a head assigns to a relation does not necessarily relate to the model's performance, which suggests that the models developed redundancies during training in terms of the head functions.",
+    "authors": [
+      "Pawe\u0142 M\u0105ka",
+      "Yusuf Can Semerci",
+      "Jan Scholtes",
+      "Gerasimos Spanakis"
+    ],
+    "published": "2026-09-23T13:46:01",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "In this paper, we introduce a gradient-based head attribution strategy where the Token-level Max-Margin loss is backpropagated to the attention maps. This framework enables a large-scale causal analysis of attention heads, making it suitable for LLMs. We evaluate our method on the task of disambiguation in Context-aware Machine Translation, where we analyze 50 phenomena across 4 models and 4\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28060v1",
+    "title": "A Native-Reference Coordinate Geometry for L2 Pronunciation Deviation Using Self-Supervised Speech Models",
+    "url": "http://arxiv.org/abs/2609.28060v1",
+    "summary": "Self-supervised speech models encode rich phonetic information, but it remains unclear how to transform this information into interpretable metrics for second-language (L2) pronunciation assessment in spontaneous speech. We propose a native-reference coordinate geometry in which phone-class averages from native speech define a low-dimensional reference subspace, and L2 speech is evaluated by its distance to matching native phone-class coordinates. Unlike prior distance-based approaches, our method does not require parallel recordings with matched linguistic content or dedicated pronunciation labels. Across different self-supervised encoders and modeling choices, the resulting native-reference distances show negative Spearman correlations up to -0.5 with speaking proficiency, indicating that higher-proficiency speakers tend to lie closer to the native-reference space.",
+    "authors": [
+      "Tina Raissi",
+      "Nhan Phan",
+      "Mikko Kurimo"
+    ],
+    "published": "2026-09-23T13:11:25",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Self-supervised speech models encode rich phonetic information, but it remains unclear how to transform this information into interpretable metrics for second-language (L2) pronunciation assessment in spontaneous speech. We propose a native-reference coordinate geometry in which phone-class averages from native speech define a low-dimensional reference subspace, and L2 speech is evaluated by its\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28471v1",
+    "title": "Contrastive Learning for Authorship Verification",
+    "url": "http://arxiv.org/abs/2609.28471v1",
+    "summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these considerations, we develop a ModernBERT Bi-Encoder model that achieves 98.4% accuracy on the PAN21 authorship verification task.",
+    "authors": [
+      "Peter Kirby"
+    ],
+    "published": "2026-09-23T17:59:08",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these considerations, we develop a ModernBERT Bi-Encoder model that\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28405v1",
+    "title": "Learning Collective Dynamics with Differentiable Gaussian Representations",
+    "url": "http://arxiv.org/abs/2609.28405v1",
+    "summary": "Collective responses depend on individual differences, contact opportunities, and accumulated experience. Learning their dynamics from aggregate counts requires connecting a population's response distribution to both current observations and future behavior. We introduce Differentiable Gaussian Dynamics (DGD), which learns this connection through three components: a Gaussian mixture representing heterogeneous response propensities, differentiable aggregation of contact intensity and behavioral probabilities, and feedback recurrence that updates subsequent responses. Reparameterized integration and temporal recurrence let aggregate prediction errors jointly train the distribution, observation functions, and feedback parameters. On four windows from KuaiRand-Pure and Online Retail II, DGD achieves lower joint behavioral negative log-likelihood than a DeepAR adaptation with a joint-behavior head. In Retail 2010, its one-day behavioral-count MAE is 4.71 versus 6.88 for this adaptation. Learning the distribution reduces behavioral negative log-likelihood by 10.82% relative to a fixed Gaussian in KuaiRand's standard-recommendation window; removing feedback dynamics raises joint KL from 0.0340 to 0.2577 in a controlled experiment. These results establish the value of learning population representations and their feedback process from aggregate observations. Code is available at https://github.com/OranAi-Ltd/oransim.",
+    "authors": [
+      "Jianxiang Ma",
+      "Mingfu Zhang",
+      "Xiaocui Yang",
+      "Yichen Gao",
+      "Junzhao Huang",
+      "Yuesong Hou"
+    ],
+    "published": "2026-09-23T17:08:53",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Collective responses depend on individual differences, contact opportunities, and accumulated experience. Learning their dynamics from aggregate counts requires connecting a population's response distribution to both current observations and future behavior. We introduce Differentiable Gaussian Dynamics (DGD), which learns this connection through three components: a Gaussian mixture representing\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28391v1",
+    "title": "Quantum score matching with applications to learning thermal states",
+    "url": "http://arxiv.org/abs/2609.28391v1",
+    "summary": "Score matching has driven major advances in classical generative learning by enabling models to learn from data without evaluating intractable normalization constants, or partition functions. Yet, extending this principle to quantum learning requires rethinking its foundations, as quantum states are described by noncommuting density operators rather than scalar probabilities. The noncommutativity creates fundamental challenges not only in defining quantum scores, but also in developing a training framework with efficient circuit implementations and rigorous theoretical guarantees. In this work, we bridge this gap by establishing a general quantum score-matching framework with end-to-end theoretical guarantees. Applied to Gibbs-state learning, our approach avoids additional thermal-state preparation and achieves information-theoretically optimal sample complexity in the high-temperature regime for Hamiltonians with bounded locality and interaction degree. This positions score matching as a new route to state-of-the-art performance in learning quantum Gibbs states.   Beyond these theoretical results, numerical simulations show that our method remains effective even when gradients are estimated inaccurately under limited measurement budgets. Experiments on IBM quantum hardware further demonstrate that quantum score matching is NISQ-friendly: without any error mitigation or correction, it reduces the relative Hamiltonian-parameter error from 64% to approximately 10%. Together, these results extend score matching into an experimentally realizable paradigm for quantum-state learning.",
+    "authors": [
+      "Yulong Dong",
+      "Jiaqi Leng"
+    ],
+    "published": "2026-09-23T17:01:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "quant-ph"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Score matching has driven major advances in classical generative learning by enabling models to learn from data without evaluating intractable normalization constants, or partition functions. Yet, extending this principle to quantum learning requires rethinking its foundations, as quantum states are described by noncommuting density operators rather than scalar probabilities. The noncommutativity\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28378v1",
+    "title": "ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control",
+    "url": "http://arxiv.org/abs/2609.28378v1",
+    "summary": "Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored. Addressing this issue is motivated by pressing safety and privacy concerns: the removal of malicious, poisoned, or suboptimal motions, as well as copyright-protected motions subject to the right to be forgotten under regulations such as the GDPR, is of critical importance. To this end, we propose {ForgetMimic}, the first motion-level unlearning method designed specifically for physical-world humanoid control. The core idea of ForgetMimic is as follows: given a policy $\u03c0_\u03b8$ trained on $N$ motions, our method degrades performance on a target subset of $K$ motions while preserving the effectiveness of the remaining $N-K$ motions. Furthermore, we identify and resolve two key training mechanisms in robot control that lead to unlearning failure. We conduct extensive experiments on the Unitree G1 and H2 humanoid robots across 12 motions, including Dance, Fight, Flip, and others. Experimental results demonstrate that ForgetMimic effectively eliminates memory of designated motions while maintaining the normal operation of all other motions.",
+    "authors": [
+      "Xukun Luan",
+      "Zhongxiang Lei",
+      "Chen Gong",
+      "Shaowei Li",
+      "Yuanguo Bi",
+      "Jinyan Liu"
+    ],
+    "published": "2026-09-23T16:54:25",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.RO"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Humanoid control, leveraging human demonstrations, has achieved diverse, agile, and natural locomotion behaviors through reinforcement learning (RL). While this paradigm has yielded remarkable performance in physical humanoid control, how to eliminate specific motions from learned policies remains insufficiently explored. Addressing this issue is motivated by pressing safety and privacy concerns:\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28262v1",
+    "title": "RAMP: Robust Adaptive Mixed-Precision Quantization for Edge CPU Vision Models",
+    "url": "http://arxiv.org/abs/2609.28262v1",
+    "summary": "Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce inference latency while preserving accuracy. However, quantization affects different layer types in inconsistent ways, so identifying where accuracy loss is minimized and latency reduction is maximized is critical, as the effect accumulates over a full deployment into substantial savings or unacceptable task degradation. Such identification relies on sensitivity metrics, proxies that estimate layer-wise degradation without evaluating the task accuracy of every candidate policy. Nevertheless, widely used metrics fail systematically on modern architectures. We present a systematic empirical study of 13 sensitivity metrics for layer-wise INT8 quantization across four distinctly different neural networks, and validate the resulting policies on two ARM64 platforms. Gradient-based sensitivity methods fail on 4 out of 8 model-hardware configurations and weight-based statistics on 2. In contrast, the Jensen-Shannon Divergence achieves zero catastrophic failures, reliably isolating the layers that cannot be safely quantized. A sensitivity metric alone does not define a policy, and the fixed thresholds typically used for that step are fragile over the highly skewed distributions of modern architectures. We address this with K-Means clustering, achieving near-lossless accuracy and a mean speed-up of $1.81\\times$ over the full-precision model. Finally, we reveal that excluding from quantization the layers whose speed-up is negligible, regardless of their sensitivity, can be counterproductive, as it induces computational graph fragmentation and disables operator fusion. Our results yield concrete allocation policies for practitioners and researchers deploying quantized vision models on heterogeneous edge CPUs, without GPU access or gradient computation.",
+    "authors": [
+      "David Poblaci\u00f3n-Criado",
+      "Dario Garcia-Gasulla",
+      "Eduardo Quinones"
+    ],
+    "published": "2026-09-23T15:23:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce inference latency while preserving accuracy. However, quantization affects different layer types in inconsistent ways, so identifying where accuracy loss is minimized and latency reduction is maximized is critical, as the effect accumulates over a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28194v1",
+    "title": "Geospatial embeddings detect old-growth forests but buffered spatial validation narrows their advantage over Sentinel features",
+    "url": "http://arxiv.org/abs/2609.28194v1",
+    "summary": "Old-growth forests develop over centuries under minimal anthropogenic disturbance, producing structurally complex and biodiverse stands. In Europe, protecting them requires mapping that is accurate for individual forest parcels yet deployable continent-wide. Geospatial foundation model (GFM) embeddings enable label-scarce land classification, but their value for old-growth detection remains unknown. Here, we map old-growth forests across 211,893 ha of Romania's Southern Carpathians, a beech-spruce landscape typical of the Alpine Biogeographic Region. We construct high-confidence, expert-informed reference labels for old-growth and non-old-growth parcels. We add AlphaEarth, TESSERA v2 and Sentinel-1/2 features to a common baseline of topographic and human-access predictors, then compare them under spatially blocked validation with and without 10 km train-test buffers to limit residual autocorrelation. With buffering, GFM and Sentinel-1/2 predictors increase precision-recall AUC by 0.21-0.25 [95% CIs: 0.15-0.34] relative to baseline, indicating spectral data contain a spatially robust old-growth signal. With a PR-AUC of 0.84 [0.79-0.88], TESSERA outperforms Sentinel-1/2 (+0.08 [+0.05 to +0.11]) and AlphaEarth (+0.08 [+0.04 to +0.12]) under unbuffered spatial validation. At a 10 km buffer, however, this advantage narrows to +0.04 [-0.01 to +0.11] and +0.03 [-0.04 to +0.10], intervals consistent with no difference. At 10 m resolution, convolutional neural networks add no benefit over pixel-based XGBoost. Comparisons with four national- and continental-scale products show the importance of non-old-growth labels, and reveal 81% agreement between our predictions and a field-calibrated map. We conclude that buffered spatial validation is vital when transferring old-growth detection models to unseen landscapes, and provide our labels and predictions for future work.",
+    "authors": [
+      "Thomas Ratsakatika",
+      "Mihai Zotta",
+      "Srinivasan Keshav",
+      "Emily R. Lines"
+    ],
+    "published": "2026-09-23T14:33:19",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Old-growth forests develop over centuries under minimal anthropogenic disturbance, producing structurally complex and biodiverse stands. In Europe, protecting them requires mapping that is accurate for individual forest parcels yet deployable continent-wide. Geospatial foundation model (GFM) embeddings enable label-scarce land classification, but their value for old-growth detection remains\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28165v1",
+    "title": "Confidence Falls Short: Asymmetric Certainty Gains from Optimization Hinder Multimodal Classification",
+    "url": "http://arxiv.org/abs/2609.28165v1",
+    "summary": "Multimodal learning (MML) falls into the optimization dilemma due to the modality imbalance phenomenon, leading to suboptimal overall performance in practice. While many attempts primarily focus on balancing the optimization dynamics across modalities to address this issue, we identify a subtle yet critical flaw: optimization yields asymmetric gains in predictive certainty, with the strong modality more confident than the weak one, driving imbalanced modality contributions. In this paper, our analysis reveals that this flaw stems from unimodal characteristics rather than multimodal learning, and this confidence discrepancy can be corrected by positive cross-modal intervention. Based on this insight, we propose multimodal Max Confidence Regularization (MaxCR) to dynamically intervene in modality semantic confidence. Specifically, the semantic confidence of each modality is tracked using a nonlinear sparsity measure. We then design max suppression and max excitation based on this measure to regularize strong and weak modalities, respectively. They penalize and encourage the top-1 confidence, thereby constraining multimodal prediction. To this end, strong and weak modalities are expected to make calibrated confidence, thereby improving the overall performance. Empirical experiments on widely used datasets reveal the superiority of our method through comparison with various state-of-the-art (SOTA) multimodal learning baselines.",
+    "authors": [
+      "Longfei Huang",
+      "Xiangyu Wu",
+      "Yang Yang"
+    ],
+    "published": "2026-09-23T14:12:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Multimodal learning (MML) falls into the optimization dilemma due to the modality imbalance phenomenon, leading to suboptimal overall performance in practice. While many attempts primarily focus on balancing the optimization dynamics across modalities to address this issue, we identify a subtle yet critical flaw: optimization yields asymmetric gains in predictive certainty, with the strong\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28149v1",
+    "title": "EvEMTBench: An Open Benchmark for Machine Learning in Power System Protection",
+    "url": "http://arxiv.org/abs/2609.28149v1",
+    "summary": "Studies of machine-learning-based power system protection are difficult to compare because task definitions, measurement access, data partitions, metrics, and generalization conditions often differ. EvEMTBench addresses this gap with an open, executable, and versioned benchmark that fixes these evaluation choices while leaving model design open. Across four grids spanning 20-345 kV, it defines 12 protection and event-analysis functions instantiated as 24 scored tasks and supports structured evaluation across observability conditions, predefined distribution shifts, and zero-shot and fine-tuned cross-grid transfer. Committed partitions, leakage controls, and reproducible reporting provide a common basis for comparing future methods. A reference evaluation spanning trivial, conventional, feature-based, and deep-learning baselines shows that wider observability is not uniformly beneficial, shifted conditions can reveal failures not apparent in-distribution, and cross-grid transfer is substantially stronger for fault detection than for fault localization. Protection-relevant diagnostics identify failure modes not apparent from primary metrics alone. EvEMTBench therefore makes generalization in machine-learning-based protection an explicit and reproducible evaluation problem.",
+    "authors": [
+      "Julian Oelhaf",
+      "Georg Kordowich",
+      "Christian Bergler",
+      "Andreas Maier",
+      "Johann J\u00e4ger",
+      "Siming Bayer"
+    ],
+    "published": "2026-09-23T14:05:57",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "eess.SY"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Studies of machine-learning-based power system protection are difficult to compare because task definitions, measurement access, data partitions, metrics, and generalization conditions often differ. EvEMTBench addresses this gap with an open, executable, and versioned benchmark that fixes these evaluation choices while leaving model design open. Across four grids spanning 20-345 kV, it defines 12\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28116v1",
+    "title": "Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations",
+    "url": "http://arxiv.org/abs/2609.28116v1",
+    "summary": "Fast surrogates for tokamak boundary-plasma simulation are typically deterministic regressors mapping a global operating point to a flattened vector of cell values. Near the divertor detachment transition the steady state is not reliably single-valued. A point estimate must average over qualitatively different plasma states, and it arrives with no statement of confidence. Moreover, the flattened vector representation discards the geometric structure of the SOLPS-ITER mesh. This work addresses both problems. We unroll the curvilinear mesh into three fixed-size image tensors whose layout preserves cell adjacency and inverts exactly, letting a convolutional network act on the geometry without loss of information. A conditional flow matching model, well suited to highly sensitive systems, is then trained on this representation. The result is an efficient, scalable surrogate that captures multiple plausible outcomes even at sensitive operating points. Along a gas-puff scan, the predictive distribution splits into a hot and a cold mode across an early regime transition. A further check on synthetic data with an injected bifurcation of known size confirms the model recovers both branches rather than their average.",
+    "authors": [
+      "Gabriele Gianuzzo",
+      "Stefan Dasbach",
+      "Fleur Hendriks",
+      "Sven Wiesen",
+      "Vlado Menkovski"
+    ],
+    "published": "2026-09-23T13:45:19",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Fast surrogates for tokamak boundary-plasma simulation are typically deterministic regressors mapping a global operating point to a flattened vector of cell values. Near the divertor detachment transition the steady state is not reliably single-valued. A point estimate must average over qualitatively different plasma states, and it arrives with no statement of confidence. Moreover, the flattened\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2609.28105v1",
+    "title": "Fed-ReMasker: Federated Tabular Imputation under Feature-Level Missingness",
+    "url": "http://arxiv.org/abs/2609.28105v1",
+    "summary": "Multi-center clinical studies and biomedical research collaborations increasingly seek to utilize data across centers to build models that generalize beyond any single center. This creates two distinct challenges: data protection regulations may restrict the sharing of raw patient data across institutions, while centers may collect only partially overlapping sets of features under different protocols. Federated learning enables collaborative model training without centralizing raw data. However, existing federated imputation methods rarely evaluate feature-level missingness, in which entire features are unobserved at some centers. To address this setting, we adapt the ReMasker masked autoencoder to federated learning (Fed-ReMasker), enabling centers to impute features never observed locally by leveraging knowledge learned across collaborating centers. We evaluate Fed-ReMasker in a benchmark spanning synthetic datasets with linear and nonlinear relationships and real-world tabular datasets, including clinical data. The benchmark varies the number of centers, the missingness ratios, and client heterogeneity. Fed-ReMasker achieves the lowest imputation error in 93.2% of value-level and 96.7% of feature-level scenarios in the homogeneous benchmark. It also remains robust to client heterogeneity using simple federated averaging, outperforming all baselines in all 36 value-level scenarios and each baseline in at least 35 of 36 feature-level scenarios, and comes within 3.0% on average of a centralized model trained on the pooled data.",
+    "authors": [
+      "Ioannis Papathanail",
+      "Rooholla Poursoleymani",
+      "Lubnaa Abdur Rahman",
+      "Stavroula Georgia Mougiakakou"
+    ],
+    "published": "2026-09-23T13:37:34",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Multi-center clinical studies and biomedical research collaborations increasingly seek to utilize data across centers to build models that generalize beyond any single center. This creates two distinct challenges: data protection regulations may restrict the sharing of raw patient data across institutions, while centers may collect only partially overlapping sets of features under different\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2609.28080v1",
+    "title": "Reference-Based Analysis of Coherence and Diversity in Open-Ended Text Generation",
+    "url": "http://arxiv.org/abs/2609.28080v1",
+    "summary": "Evaluating open-ended text generation involves understanding how different properties of a continuation relate to its perceived quality. We present a reference-based framework for examining coherence and diversity through three perspectives: aligning their evolution with human trajectories, comparing their summaries with a human continuation of the same prompt, and estimating their likelihood under a human reference distribution. Experiments with human quality ratings suggest that diversity-based alignment and mean-based comparisons capture quality-related variation, although the comparisons do not establish a predictive advantage for temporal alignment over simpler baselines. Reference likelihood also shows positive associations with ratings, with results varying across reference configurations and scoring horizons. Together, these analyses provide a structured way to examine how measured coherence and diversity relate to human judgments, while distinguishing similarity to human references from quality itself. Code and analysis resources are available at https://github.com/EstebanGarces/likely_human.",
+    "authors": [
+      "Esteban Garc\u00e9s Arias"
+    ],
+    "published": "2026-09-23T13:22:31",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Evaluating open-ended text generation involves understanding how different properties of a continuation relate to its perceived quality. We present a reference-based framework for examining coherence and diversity through three perspectives: aligning their evolution with human trajectories, comparing their summaries with a human continuation of the same prompt, and estimating their likelihood\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:AlexandreWadoux/modelskill",
+    "title": "AlexandreWadoux/modelskill \u2014 R package for evaluating continuous predictions and their quantified uncertainty using complementary performance metrics and diagnostic visualisations, including Taylor, solar, and target diagrams.",
+    "url": "https://github.com/AlexandreWadoux/modelskill",
+    "summary": "R package for evaluating continuous predictions and their quantified uncertainty using complementary performance metrics and diagnostic visualisations, including Taylor, solar, and target diagrams.",
+    "authors": [],
+    "published": "2026-09-21T02:19:06Z",
+    "extras": {
+      "stars": 12,
+      "language": "R",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "R package for evaluating continuous predictions and their quantified uncertainty using complementary performance metrics and diagnostic visualisations, including Taylor, solar, and target diagrams."
+  }
+]
