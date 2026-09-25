@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W39</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W39/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W39/</guid>
+      <pubDate>Fri, 25 Sep 2026 22:00:00 +0000</pubDate>
+      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+2. Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic… — Causal LMs · score 60 · arXiv cs.CL · David Torres-Moreno, Jorge Hermosillo-Valadez
+3. Intrinsic-Extrinsic Coupling in Learning Dynamics — Uplift / HTE · score 56 · arXiv stat.ML · Qinyou Wang
+4. Nuclear Norm-Regularized Bayesian Matrix Completion — Uplift / HTE · score 56 · arXiv stat.ML · Calvin Tolbert
+5. Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale — Causal LMs · score 56 · arXiv cs.CL · Edesio Alcoba, Kevin Rossell, Aman Gupta, Shao Tang et al. (16 authors)</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W38</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W38/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W38/</guid>
