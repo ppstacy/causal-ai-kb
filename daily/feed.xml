@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-25</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-25/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-25/</guid>
+      <pubDate>Fri, 25 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Intrinsic-Extrinsic Coupling in Learning Dynamics — Uplift / HTE · score 56 · arXiv stat.ML · Qinyou Wang
+2. Nuclear Norm-Regularized Bayesian Matrix Completion — Uplift / HTE · score 56 · arXiv stat.ML · Calvin Tolbert
+3. Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale — Causal LMs · score 56 · arXiv cs.CL · Edesio Alcoba, Kevin Rossell, Aman Gupta, Shao Tang et al. (16 authors)
+4. MILO: Efficient Many-shot In-Context Learning with Block-wise Low-rank Compression — Causal LMs · score 56 · arXiv cs.CL · Youpeng Zhao, Tian Tan, Liqian Peng, Jun Wang et al. (5 authors)
+5. Shrinking-Tube Concentration for Adaptive Markovian Stochastic Approximation — Uplift / HTE · score 52 · arXiv stat.ML · Jin Li, Ye Luo, Xiaowei Zhang</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-24</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-24/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-24/</guid>
@@ -201,17 +212,6 @@
 3. Quantum mutual information statistics for detecting dependence-structure change points in time series — Uplift / HTE · score 52 · arXiv stat.ME · Jiwon Kang, Yun Am Seo
 4. Off-policy causal estimation in networks — Experimentation · score 52 · arXiv stat.ME · Sahil Loomba, Dean Eckles
 5. UE5M3 FP4 Block Scaling for Stable Language Model Pretraining — Causal LMs · score 52 · arXiv cs.LG · Robert Hu, Carlo Luschi, Paul Balanca</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-02</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-02/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-02/</guid>
-      <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Measuring consistency via ensemble margin and local prediction variability: Auditing decision systems in the presence of… — Causal LMs · score 64 · arXiv stat.ML · Sinjini Banerjee, Tim Marrinan, Anand D. Sarwate
-2. Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation — Causal LMs · score 60 · arXiv cs.CL · Yixuan Liu, Lin Chen, Zhuoqi Liu, Jianglin Lu et al. (5 authors)
-3. Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models — Causal LMs · score 60 · arXiv cs.CL · Tian Fang, Gaël Guibon, Davide Buscaldi
-4. Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences — Causal Inference · score 56 · arXiv econ.EM · Nichole Austin, Sunny R. Karim, Erin Strumpf, Matthew D. Webb
-5. The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally — Causal LMs · score 56 · arXiv cs.LG · Jundong Hu, Shekar Ramachandran</description>
     </item>
   </channel>
 </rss>
