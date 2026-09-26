@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-26</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-26/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-26/</guid>
+      <pubDate>Sat, 26 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Causal Identification under Markov equivalence: Calculus, Algorithm, and Completeness — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Amin Jaber, A. H. Ribeiro, Jiji Zhang, E. Bareinboim
+2. Structural Causal Bandits under Markov Equivalence — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Min Woo Park, Andy Arditi, E. Bareinboim, Sanghack Lee
+3. Unified Covariate Adjustment for Causal Inference — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, Jin Tian, E. Bareinboim
+4. Causal Discovery over Clusters of Variables in Markovian Systems — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · T. Anand, A. H. Ribeiro, Jin Tian, G. Hripcsak et al. (5 authors)
+5. Causal Imitation Learning via Inverse Reinforcement Learning — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, E. Bareinboim</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-25</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-25/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-25/</guid>
@@ -201,17 +212,6 @@
 3. Natural Disasters and the Nonprofit Sector — Uplift / HTE · score 56 · arXiv econ.EM · Mayleen Cortez-Rodriguez
 4. Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference — Causal LMs · score 56 · arXiv cs.LG · Simone Ceppi, Ignacio Sanchez
 5. FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models — Causal LMs · score 52 · arXiv cs.LG · Yalun Wu, Junfeng Fang, Jiawei Wang, Haotian Liu et al. (9 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-03</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-03/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-03/</guid>
-      <pubDate>Thu, 03 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Untangling the Mechanisms of Misleading Context in Medical Question Answering — Causal LMs · score 56 · arXiv cs.LG · Robin Linzmayer, Noémie Elhadad
-2. Full-Model Optimality for Tunable Linear Generative Priors in Compressed Sensing — Uplift / HTE · score 52 · arXiv stat.ML · Zhaoming Li, Paul Hand
-3. Quantum mutual information statistics for detecting dependence-structure change points in time series — Uplift / HTE · score 52 · arXiv stat.ME · Jiwon Kang, Yun Am Seo
-4. Off-policy causal estimation in networks — Experimentation · score 52 · arXiv stat.ME · Sahil Loomba, Dean Eckles
-5. UE5M3 FP4 Block Scaling for Stable Language Model Pretraining — Causal LMs · score 52 · arXiv cs.LG · Robert Hu, Carlo Luschi, Paul Balanca</description>
     </item>
   </channel>
 </rss>
