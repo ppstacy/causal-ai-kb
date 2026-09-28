@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-28</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-28/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-28/</guid>
+      <pubDate>Mon, 28 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. ishandutta2007/Awesome-Causal-AI-Platform — Top Causal AI Platform (Opensource) 🌟 Star if you like it! 🌟 — Other · score 30 · GitHub topic:causal-inference</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-26</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-26/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-26/</guid>
@@ -201,17 +208,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</guid>
       <pubDate>Sat, 05 Sep 2026 13:00:00 +0000</pubDate>
       <description>1. yichaoli921/did-placebo-guide — DID 安慰剂检验的结构化 Stata 工作流（陈强/齐霁/颜冠鹏 2025 实践指南）。覆盖时间/空间/混合/外部四类 placebo，TWFE 默认、CSDID 升级。 — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-04</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-04/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-04/</guid>
-      <pubDate>Fri, 04 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. A location-invariant estimator of extremal quantile treatment effects for heavy-tailed distributions — Causal Inference · score 56 · arXiv stat.ME · Xin Yu, Shuwei Huang, Jicheng Liu, Jielin Tang et al. (7 authors)
-2. Causal Inference for Heterogeneous Extreme Quantiles with Heavy-Tailed Outcomes — Causal Inference · score 56 · arXiv stat.ME · Xiaorui Wang, Juan-Juan Cai, Huixia Judy Wang, Jian Qing Shi et al. (5 authors)
-3. Natural Disasters and the Nonprofit Sector — Uplift / HTE · score 56 · arXiv econ.EM · Mayleen Cortez-Rodriguez
-4. Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference — Causal LMs · score 56 · arXiv cs.LG · Simone Ceppi, Ignacio Sanchez
-5. FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models — Causal LMs · score 52 · arXiv cs.LG · Yalun Wu, Junfeng Fang, Jiawei Wang, Haotian Liu et al. (9 authors)</description>
     </item>
   </channel>
 </rss>
