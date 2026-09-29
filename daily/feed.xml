@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-29</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-29/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-29/</guid>
+      <pubDate>Tue, 29 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Identifying Neural Source Dynamics from Unknown Local Interventions — Uplift / HTE · score 94 · arXiv cs.LG · Ayana Mussabayeva, Jiaqi Sun, Anuar Aimoldin, Olivier Oullier et al. (5 authors)
+2. A problem well-defined is half solved: Measuring Hypothesis Quality at Booking.com — Experimentation · score 61 · Booking.com Data Science
+3. Competitive optimality in testing by betting via Bell-Cover randomization — Uplift / HTE · score 56 · arXiv stat.ME · Aaditya Ramdas
+4. d-OPD: Future-Aware On-Policy Distillation for Block Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Ruitao Liu, Qinghao Hu, Song Han
+5. Epistemic Policy Divergence in Multi-Turn LLM Contamination: A Protocol-Gradient Investigation — Causal LMs · score 56 · arXiv cs.CL · Fahrell Giovanny, Geby Bayuningtyas, Sahrul Mukharom, Hafiz Budi Firmansyah</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-28</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-28/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-28/</guid>
@@ -201,13 +212,6 @@
 3. Causal discovery from observational and interventional data across multiple environments — Experimentation · score 48 · Semantic Scholar: Elias Bareinboim causal · Adam Li, Amin Jaber, E. Bareinboim
 4. Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Drago Plečko, E. Bareinboim
 5. Causal Discovery over Clusters of Variables in Markovian Systems — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Tara V. Anand, A. Ribeiro, Jin Tian, G. Hripcsak et al. (5 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-05</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-05/</guid>
-      <pubDate>Sat, 05 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. yichaoli921/did-placebo-guide — DID 安慰剂检验的结构化 Stata 工作流（陈强/齐霁/颜冠鹏 2025 实践指南）。覆盖时间/空间/混合/外部四类 placebo，TWFE 默认、CSDID 升级。 — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
