@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-09-30</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-30/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-30/</guid>
+      <pubDate>Wed, 30 Sep 2026 13:00:00 +0000</pubDate>
+      <description>1. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)
+2. Misunderstandings among Experimentalists and Observationalists about Causal Inference — Causal Inference · score 94 · Semantic Scholar: Guido Imbens causal · Kosuke Imai, Gary King, Elizabeth A. Stuart, Alberto Abadie et al. (15 authors)
+3. Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling — Causal LMs · score 60 · arXiv cs.LG · Panagiotis Theodoropoulos, Nan Jiang, Xintong Duan, Ali Hasan et al. (7 authors)
+4. ReCAP: Retrieval-Guided Capability Reuse for Multimodal Continual Instruction Tuning — Causal LMs · score 60 · arXiv cs.LG · Tao Hu, Zhinuo Zhou, Xialiang Tong, De-Chuan Zhan et al. (5 authors)
+5. Gender bias across LLMs is common and highly heterogenous — Causal LMs · score 60 · arXiv cs.CL · Edoardo Bolzoni, Valerio Capraro</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-29</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-29/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-29/</guid>
@@ -201,17 +212,6 @@
 3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
 4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
 5. brycewang-stanford/p-hacking-skills — How fast can a coding agent p-hack? Measured: on known-zero data, realistic searches… — Other · score 30 · GitHub topic:econometrics</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-06</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-06/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-06/</guid>
-      <pubDate>Sun, 06 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
-2. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
-3. Causal discovery from observational and interventional data across multiple environments — Experimentation · score 48 · Semantic Scholar: Elias Bareinboim causal · Adam Li, Amin Jaber, E. Bareinboim
-4. Causal Fairness Analysis: A Causal Toolkit for Fair Machine Learning — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Drago Plečko, E. Bareinboim
-5. Causal Discovery over Clusters of Variables in Markovian Systems — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Tara V. Anand, A. Ribeiro, Jin Tian, G. Hripcsak et al. (5 authors)</description>
     </item>
   </channel>
 </rss>
