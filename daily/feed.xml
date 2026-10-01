@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-01</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-01/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-01/</guid>
+      <pubDate>Thu, 01 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference — Causal Inference · score 94 · Semantic Scholar: Vasilis Syrgkanis causal · Ji-Yuan Tan, Vasilis Syrgkanis
+2. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
+3. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
+4. Estimands and estimation in trials with time trends — Causal LMs · score 56 · arXiv stat.ME · Marta Bofill Roig, Ekkehard Glimm, Kelly Van Lancker, Martin Posch
+5. Days Alive at Home vs Out of Hospital: Why the Difference Matters for Trial Endpoints — Uplift / HTE · score 56 · arXiv stat.ME · Letao Yuan, Sarah N. Dawson, David S. Robertson, Yue Lan et al. (8 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-09-30</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-30/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-30/</guid>
@@ -200,18 +211,6 @@
       <pubDate>Tue, 08 Sep 2026 13:00:00 +0000</pubDate>
       <description>1. A Paradox from Randomization-Based Causal Inference 1 — Causal Inference · score 94 · Semantic Scholar: Peng Ding causal inference · Peng Ding
 2. Dicklesworthstone/franken_alignment — Evidence-carrying control system for powerful AI agents, featuring epistemic MVCC,… — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-07</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-07/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-07/</guid>
-      <pubDate>Mon, 07 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. A Comment on: 
- “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
-2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yu-Chen Hu, Shuangning Li, Stefan Wager
-3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yinchu Zhu
-4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · M. Laan, Stefan Wager, Sherri RoseMark, vander Laan et al. (15 authors)
-5. brycewang-stanford/p-hacking-skills — How fast can a coding agent p-hack? Measured: on known-zero data, realistic searches… — Other · score 30 · GitHub topic:econometrics</description>
     </item>
   </channel>
 </rss>
