@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-02</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-02/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-02/</guid>
+      <pubDate>Fri, 02 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Pragmatic DML with AI-Learned Representations — Causal Inference · score 100 · arXiv stat.ML · Andres Aradillas Fernandez, Victor Chernozhukov, Carlos Cinelli, Sven Klaassen et al. (8 authors)
+2. Sample complexity bounds for categorical Markov random fields via Discrete Diffusions — Uplift / HTE · score 60 · arXiv stat.ML · Shivam Kumar, Nabarun Deb
+3. Do MLLM Judges Judge the Edit? Auditing Bias in Image Editing Evaluation with Verified Quality Preservation — Causal LMs · score 60 · arXiv cs.LG · Yuan Huang, Zirui Song, Xiuying Chen
+4. A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be… — Causal LMs · score 60 · arXiv cs.CL · Zhangshu Joshua Jiang, Zina Ibrahim, James T. Teo
+5. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Junda Wu, Tong Yu, Xiang Chen, Hao-Liang Wang et al. (8 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-01</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-01/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-01/</guid>
@@ -203,14 +214,6 @@
 3. Do Reasoning Representations Help Humans Evaluate LLM Outputs? — Causal LMs · score 56 · arXiv cs.LG · Jaewoo Lim, Sungbok Shin, Sanghyun Hong
 4. TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context — Causal LMs · score 56 · arXiv cs.LG · Fritz Cremer, Jonathan Cremer
 5. Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation — Causal LMs · score 56 · arXiv cs.CL · Xingyu Deng, Mingzi Cao, Nikolaos Aletras, Xi Wang et al. (5 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-08</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-08/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-08/</guid>
-      <pubDate>Tue, 08 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. A Paradox from Randomization-Based Causal Inference 1 — Causal Inference · score 94 · Semantic Scholar: Peng Ding causal inference · Peng Ding
-2. Dicklesworthstone/franken_alignment — Evidence-carrying control system for powerful AI agents, featuring epistemic MVCC,… — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>

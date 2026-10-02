@@ -1,0 +1,1508 @@
+[
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2610.01935v1",
+    "title": "Pragmatic DML with AI-Learned Representations",
+    "url": "http://arxiv.org/abs/2610.01935v1",
+    "summary": "Text, images, and other rich covariates are increasingly compressed into AI-learned representations and then used as controls in causal analysis. We study when this approach is valid and develop a practical framework for causal inference with learned representations. For a broad class of estimands, an imperfect representation distorts the target causal parameter by the product of two representation errors: one in the outcome regression and one in the balancing weight (or Riesz representer). This yields three constructive results. First, cross-fitted double machine learning (DML) provides valid Wald inference for the representation-dependent target. When representation errors are small, the same interval covers the causal parameter, and it can even attain the semiparametric efficiency bound. Second, fold-wise representation learning (or fine-tuning) is compatible with DML inference for the causal parameter. To this end, we develop convex- and star-aggregation pipelines for learning and combining representations. Third, when representation errors are substantial, we can provide interpretable sensitivity regions and root-$n$ inference for their endpoints. In a multi-modal demand application, seven representation-specific estimates and their star aggregate all imply a negative near-unit elasticity for rank-based price response, and the result remains robust over the reported sensitivity grid.",
+    "authors": [
+      "Andres Aradillas Fernandez",
+      "Victor Chernozhukov",
+      "Carlos Cinelli",
+      "Sven Klaassen",
+      "Whitney Newey",
+      "Martin Spindler",
+      "Jan Teichert-Kluge",
+      "Suhas Vijaykumar"
+    ],
+    "published": "2026-10-01T16:05:18",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "econ.EM"
+    },
+    "score": 100,
+    "topic": "causal-inference",
+    "why_relevant": "tracked author (Victor Chernozhukov); 3 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Text, images, and other rich covariates are increasingly compressed into AI-learned representations and then used as controls in causal analysis. We study when this approach is valid and develop a practical framework for causal inference with learned representations. For a broad class of estimands, an imperfect representation distorts the target causal parameter by the product of two\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2610.02128v1",
+    "title": "Sample complexity bounds for categorical Markov random fields via Discrete Diffusions",
+    "url": "http://arxiv.org/abs/2610.02128v1",
+    "summary": "Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learning, discrete diffusions have emerged as a flexible approach for sampling such data, with strong empirical performance. Motivated by this, we develop learning methods with end-to-end sample complexity bounds for discrete diffusion with uniform noising under local dependence, which we model through low order Markov random fields (MRFs). Our main technical insight is a new \\emph{pinning decomposition} of the discrete score. It shows that unlike in continuous diffusions, the score decomposes into components where the dependence on time separates multiplicatively from the dependence on the target. Building on this decomposition, we propose a \\emph{weight-sharing neural score learner} and combine it with $\u03c4$-leaping to obtain an end-to-end sampling procedure. Rather than treating score-learning error as a black-box input, as is common in existing sampling analyses, we study the score learning error from finite data and derive optimal sampling guarantees with explicit dependence on the vocabulary size, the interaction order of the MRF, and the sample size. Moreover, our strategy trains a single score network across uniform noise levels while leaving the sampling discretization to be chosen at inference-time. This allows the same trained model to trade accuracy for computational cost as inference-time budgets vary. Numerical experiments on Potts, Ising, and tree-structured models show that weight-sharing score networks outperform fully connected ones for sampling long sequences.",
+    "authors": [
+      "Shivam Kumar",
+      "Nabarun Deb"
+    ],
+    "published": "2026-10-01T17:40:21",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "math.ST"
+    },
+    "score": 60,
+    "topic": "uplift",
+    "why_relevant": "3 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learning, discrete diffusions have emerged as a flexible approach for sampling such data, with strong\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01670v1",
+    "title": "Do MLLM Judges Judge the Edit? Auditing Bias in Image Editing Evaluation with Verified Quality Preservation",
+    "url": "http://arxiv.org/abs/2610.01670v1",
+    "summary": "Multimodal large language models (MLLMs) are increasingly used as automated judges for instruction-based image editing and as reward signals for model training. However, systematically auditing whether these judges are influenced by cues irrelevant to editing quality is challenging because visual interventions may themselves alter the quality being evaluated. A judgment shift can therefore be attributed to bias only when the intervention is verified to preserve the underlying editing quality. To address this challenge, we introduce EditJudgeBias, a counterfactual benchmark with verified quality preservation, comprising 1,196 real editing samples and 13 cues injected across four evaluation sites. We verify quality preservation for the requested edit using calibrated multimodal validators, controls, and human inspection. We then audit five MLLM judges along three complementary dimensions: invariance to quality-preserving cues, agreement with human judgments, and stability of pairwise preferences. Importantly, observed shifts are evaluated against each judge's own zero-dose and re-query noise floors rather than against zero. Experiments show that quality-preserving cues move every judge beyond its own noise. Fabricated majority opinions increase ratings, irrelevant visual elements cause larger shifts than whole-image manipulations, and swapping candidate order reverses up to 60.9% of pairwise decisions. Edit-region cues also tend to reduce human agreement. The three measures characterize judges differently, showing that robustness cannot be captured by a single metric.",
+    "authors": [
+      "Yuan Huang",
+      "Zirui Song",
+      "Xiuying Chen"
+    ],
+    "published": "2026-10-01T13:30:07",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Multimodal large language models (MLLMs) are increasingly used as automated judges for instruction-based image editing and as reward signals for model training. However, systematically auditing whether these judges are influenced by cues irrelevant to editing quality is challenging because visual interventions may themselves alter the quality being evaluated. A judgment shift can therefore be\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.01938v1",
+    "title": "A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be combined",
+    "url": "http://arxiv.org/abs/2610.01938v1",
+    "summary": "Exam-style accuracy does not establish whether large language models (LLMs) reason well over clinical records. We define clinical reasoning as integrating and updating evidence across time and sources to form, revise and justify a patient's problem representation and a defensible plan.   This structured narrative review maps three literatures: medical education assessment instruments, clinical LLM benchmarks published from 2023 onwards, and general-domain methods for evaluating long-form generation. We examine six dimensions: problem representation, temporal synthesis, differential and management reasoning, counterfactual reasoning, calibrated uncertainty, and reasoning faithfulness. Preprints are included and flagged.   No single instrument covers all six dimensions. Problem representation and differential or management reasoning are reasonably covered, although reliability varies by instrument and setting. TIMER-Eval targets temporal synthesis, and ER-Reason assesses sequential diagnostic belief updating. Dedicated uncertainty and counterfactual evaluations are emerging, but their applicability to longitudinal free-text reasoning remains limited. Factual completeness is well theorised in general-domain evaluation, with early clinical evidence of important omissions. Faithfulness remains the weakest dimension, with one identified clinical causal-ablation study on multiple-choice questions.   Existing tools should be combined through binary rubric items, separate completeness and correctness scores, case-specific importance weighting with non-compensable safety caps, temporal order-consistency checks, and chance-corrected reliability reporting. Further design work is needed for calibrated uncertainty, counterfactual reasoning and faithfulness over longitudinal free-text records. This review provides a design rationale, not a validated instrument.",
+    "authors": [
+      "Zhangshu Joshua Jiang",
+      "Zina Ibrahim",
+      "James T. Teo"
+    ],
+    "published": "2026-10-01T16:07:12",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Exam-style accuracy does not establish whether large language models (LLMs) reason well over clinical records. We define clinical reasoning as integrating and updating evidence across time and sources to form, revise and justify a patient's problem representation and a defensible plan.   This structured narrative review maps three literatures: medical education assessment instruments, clinical\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:ebda8d187f83876e37922c4105b171e6d7f99b05",
+    "title": "DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention",
+    "url": "https://www.semanticscholar.org/paper/ebda8d187f83876e37922c4105b171e6d7f99b05",
+    "summary": "Large language models (LLMs) often require 001 task-relevant knowledge to augment their inter-002 nal knowledge through prompts. However, sim-003 ply injecting external knowledge into prompts 004 does not guarantee that LLMs can identify 005 and use relevant information in the prompts to 006 conduct chain-of-thought reasoning, especially 007 when the LLM\u2019s internal knowledge is derived 008 from the biased information on the pretraining 009 data. In this paper, we propose a novel causal 010 view to formally explain the internal knowl-011 edge bias of LLMs via a Structural Causal 012 Model (SCM). We review the chain-of-thought 013 (CoT) prompting from a causal perspective, and 014 discover that the biased information from pre-015 trained models can impair LLMs\u2019 reasoning 016 abilities. When the CoT reasoning paths are 017 misled by irrelevant information from prompts 018 and are logically incorrect, simply editing fac-019 tual information is insufficient to reach the cor-020 rect answer. To estimate the confounding effect 021 on CoT reasoning in LLMs, we use external 022 knowledge as an instrumental variable. We fur-023 ther introduce CoT as a mediator to conduct 024 front-door adjustment and generate logically 025 correct CoTs where the spurious correlation be-026 tween LLMs\u2019 pretrained knowledge and task 027 queries is reduced. With extensive experiments, 028 we validate that our approach enables more 029 accurate CoT reasoning and enhances LLM 030 generation on knowledge-int",
+    "authors": [
+      "Junda Wu",
+      "Tong Yu",
+      "Xiang Chen",
+      "Hao-Liang Wang",
+      "Ryan A. Rossi",
+      "Sungchul Kim",
+      "Anup B. Rao",
+      "Julian J. McAuley"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 60,
+    "topic": "causal-lm",
+    "why_relevant": "5 keyword hits; +10 source-type",
+    "llm_summary": "Large language models (LLMs) often require 001 task-relevant knowledge to augment their inter-002 nal knowledge through prompts. However, sim-003 ply injecting external knowledge into prompts 004 does not guarantee that LLMs can identify 005 and use relevant information in the prompts to 006 conduct chain-of-thought reasoning, especially 007 when the LLM\u2019s internal knowledge is derived 008 from\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02117v1",
+    "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+    "url": "http://arxiv.org/abs/2610.02117v1",
+    "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains largely unexplored. Recent approaches use privileged visual information, such as image crops corresponding to a question, to improve fine-grained perception, but their gains are confined to tasks that benefit from such visual zooming and require either human-annotated grounding data or external teacher models. We introduce a different form of on-policy self-distillation for MLLMs that provides the teacher with textual, spatially grounded guidance identifying the visual elements relevant to a query. We use procedurally generated scenes with automatically available object identities and spatial coordinates, enabling scalable and annotation-free post-training. The teacher uses this spatial guidance to locate and integrate evidence from multiple relevant image regions, while the student learns to reproduce the resulting behavior from the image and question alone. Our approach consistently improves performance on counting, document and chart understanding benchmarks across multiple models. Importantly, although post-training uses only synthetic scenes, the resulting improvements transfer to real-world perception benchmarks, yielding a 3.23-point gain in average performance across CVBench, V*, ZoomBench, BLINK, HR-Bench, and MME-RealWorld. These results show that spatially grounded privileged information can induce broader perceptual capabilities through on-policy self-distillation, enabling substantial synthetic-to-real transfer beyond the task and data distribution used for post-training. Project page: https://github.com/sirkosophia/Where-OPD",
+    "authors": [
+      "Sophia Sirko-Galouchenko",
+      "Monika Wysoczanska",
+      "Andrei Bursuc",
+      "Nicolas Thome",
+      "Spyros Gidaris"
+    ],
+    "published": "2026-10-01T17:34:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains largely unexplored. Recent approaches use privileged visual information, such as image crops\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01963v1",
+    "title": "Counterfactual Auditing of Bias in Open-Source Large Language Models for Clinical Triage",
+    "url": "http://arxiv.org/abs/2610.01963v1",
+    "summary": "Emergency department (ED) triage is a high-stakes prioritization task in which demographic, socioeconomic, and system-context information may improperly influence acuity assignment. Although open-source large language models (LLMs) are increasingly considered for local and privacy-preserving clinical decision support, it remains unclear how counterfactual bias varies across model families, sizes, medical-domain models, and domain-adapted models. We present a comparative counterfactual audit of ten open-source LLMs for pediatric Emergency Severity Index (ESI) prediction. Starting from real and handbook-style clinical vignettes, we construct paired counterfactual variants that change only one injected demographic, socioeconomic, healthcare-access, behavioral, social, or system-context variable while holding the clinical presentation fixed. Models include Qwen2.5-7B, Qwen2.5-14B-Instruct, a QLoRA fine-tuned Qwen2.5-7B, MedGemma variants, MedLLaMA2-7B, GPT-OSS-20B, and GPT-OSS-120B. We measure any counterfactual shift, undertriage, overtriage, shifts greater than one ESI level, mean shift, and mean absolute shift. Counterfactual sensitivity varied substantially and did not consistently decrease with larger model size or medical-domain pretraining. The fine-tuned Qwen2.5-7B showed the lowest overall sensitivity, with a 5.27% any-shift rate and mean absolute shift of 0.0534, versus 16.02% and 0.1706 for the base model. Several larger or medical-domain models showed more significant shifts. Stratified and correlation analyses further revealed clinically important directionality and shared failure patterns hidden by aggregate rates. These findings support counterfactual auditing as a lightweight, clinically interpretable framework for comparing fairness risks in open-source LLMs before clinical deployment.",
+    "authors": [
+      "Manar Aljohani",
+      "Brandon Ho",
+      "Kenneth McKinley",
+      "Dennis Ren",
+      "Xuan Wang"
+    ],
+    "published": "2026-10-01T16:17:43",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Emergency department (ED) triage is a high-stakes prioritization task in which demographic, socioeconomic, and system-context information may improperly influence acuity assignment. Although open-source large language models (LLMs) are increasingly considered for local and privacy-preserving clinical decision support, it remains unclear how counterfactual bias varies across model families, sizes,\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.02002v1",
+    "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
+    "url": "http://arxiv.org/abs/2610.02002v1",
+    "summary": "Large Language Model (LLM) agents now take part in organizational work, where many authors record decisions across documents over months. Because a revised decision arrives as a new document rather than an edit, answering a question requires knowing which version held at a given time. However, most memory systems compress the record at write time. By distilling each document into facts, notes or graph edges, these methods fix what can be answered before any question is asked. To address this, we propose Mem++, a non-destructive memory framework shifting from write-time distillation to read-time selection. Mem++ stores every document whole with its date and author, and it calls no generative model at write time. At read time, it retrieves only documents dated up to the time a question asks about and fuses lexical and semantic rankings. Unlike systems that overwrite older versions, Mem++ keeps them and leaves the choice to the answering model. Evaluations on the organizational benchmark OrgMemBench demonstrate that Mem++ surpasses the strongest memory system baseline by 8.0 to 13.1 points across two answering models. With gpt-4.1-mini, it also achieves the best overall score, 2.6 points above RAG. In addition, Mem++ achieves the best average LLM-judge score on LoCoMo and ranks second on LongMemEval-S, behind only its entity-graph variant. Code for benchmark evaluation is available at https://github.com/AIDAChip-Inc/mem-plus-plus.",
+    "authors": [
+      "Ahmad Yehia",
+      "Aly O. Abdelkareem",
+      "Islam Ahmed",
+      "Hesham Omran",
+      "Khaled Alashmouny",
+      "Christian Claudel",
+      "Abduallah Mohamed"
+    ],
+    "published": "2026-10-01T16:32:38",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Large Language Model (LLM) agents now take part in organizational work, where many authors record decisions across documents over months. Because a revised decision arrives as a new document rather than an edit, answering a question requires knowing which version held at a given time. However, most memory systems compress the record at write time. By distilling each document into facts, notes or\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:3a74772a6011675ce2bdc87100fffcf4d18f5907",
+    "title": "Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey",
+    "url": "https://www.semanticscholar.org/paper/3a74772a6011675ce2bdc87100fffcf4d18f5907",
+    "summary": "Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has signi\ufb01cantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on evaluating and improving LLMs from a causal view in the following areas: understanding and improving the LLMs\u2019 reasoning capacity, addressing fairness and safety issues in LLMs, complementing LLMs with explanations, and handling multimodality. Meanwhile, LLMs\u2019 strong reasoning capacities can in turn contribute to the \ufb01eld of causal inference by aiding causal relationship discovery and causal e\ufb00ect estimations. This review explores the interplay between causal inference frameworks and LLMs from both perspectives, emphasizing their collective potential to further the development of more advanced and equitable arti\ufb01cial intelligence systems.",
+    "authors": [
+      "Xiaoyu Liu",
+      "Paiheng Xu",
+      "Jun-Da Wu",
+      "Jiaxin Yuan",
+      "Yifan Yang",
+      "Yu-Hang Zhou",
+      "Fuxiao Liu",
+      "Tianrui Guan",
+      "Hao-Liang Wang",
+      "Tong Yu",
+      "Julian J. McAuley",
+      "Wei Ai",
+      "Furong Huang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has signi\ufb01cantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:2efeab0a6209177211e8c688cc6be625e1dba3bc",
+    "title": "CausalBench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models",
+    "url": "https://www.semanticscholar.org/paper/2efeab0a6209177211e8c688cc6be625e1dba3bc",
+    "summary": "Causal reasoning, a core aspect of human cognition, is essential for advancing large language models (LLMs) towards artificial general intelligence (AGI) and reducing their propensity for generating hallucinations. However, existing datasets for evaluating causal reasoning in LLMs are limited by narrow domain coverage and a focus on cause-to-effect reasoning through textual problems, which does not comprehensively assess whether LLMs truly grasp causal relationships or merely guess correct answers. To address these shortcomings, we introduce a novel benchmark that spans textual, mathematical, and coding problem domains. Each problem is crafted to probe causal understanding from four perspectives: cause-to-effect, effect-to-cause, cause-to-effect with intervention, and effect-to-cause with intervention. This multi-dimensional evaluation method ensures that LLMs must exhibit a genuine understanding of causal structures by correctly answering questions across all four dimensions, mitigating the possibility of correct responses by chance. Furthermore, our benchmark explores the relationship between an LLM\u2019s causal reasoning performance and its tendency to produce hallucinations. We present evaluations of state-of-the-art LLMs using our benchmark, providing valuable insights into their current causal reasoning capabilities across diverse domains. The dataset is publicly available for download at https://huggingface.co/datasets/CCLV/CausalBench",
+    "authors": [
+      "Zeyu Wang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Workshop on Chinese Language Processing",
+      "query": "causal language models"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Causal reasoning, a core aspect of human cognition, is essential for advancing large language models (LLMs) towards artificial general intelligence (AGI) and reducing their propensity for generating hallucinations. However, existing datasets for evaluating causal reasoning in LLMs are limited by narrow domain coverage and a focus on cause-to-effect reasoning through textual problems, which does\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2610.01980v1",
+    "title": "The Curvature of Regret in Contextual Linear Optimization",
+    "url": "http://arxiv.org/abs/2610.01980v1",
+    "summary": "Decision-focused learning for linear optimization is complicated by the discontinuity of the optimizer, where small cost errors may leave the decision unchanged or move it to a different vertex. We show that this non-smooth pointwise behavior becomes locally quadratic after averaging over the data distribution, and we derive the curvature in closed form, specifically, a matrix-valued measure supported on the walls of the normal fan. This measure depends only on the feasible set, with the data distribution entering only as a weight. We then offer a tractable approximation for this curvature, computable with just one projection to the feasible set. We prove that the approximation weakly converges to the true population curvature. We offer one application of our findings, a decision-aware scenario generation method for expected-cost linear optimization. Our experiments test the quadratic and weak convergence laws and show a 30.8% regret improvement over uniform allocation on battery arbitrage.",
+    "authors": [
+      "Konstantinos Ziliaskopoulos",
+      "Alexander Vinel",
+      "Alice E. Smith"
+    ],
+    "published": "2026-10-01T16:25:09",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "Decision-focused learning for linear optimization is complicated by the discontinuity of the optimizer, where small cost errors may leave the decision unchanged or move it to a different vertex. We show that this non-smooth pointwise behavior becomes locally quadratic after averaging over the data distribution, and we derive the curvature in closed form, specifically, a matrix-valued measure\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2610.01823v1",
+    "title": "Generalized Engression Models",
+    "url": "http://arxiv.org/abs/2610.01823v1",
+    "summary": "We consider estimating the conditional distribution of a multivariate outcome given covariates when its coordinates may be continuous, binary, categorical, ordinal or rankings, and are conditionally dependent on one another. Different statistical methods have been developed for each outcome type, and most of them target a summary of the conditional distribution, such as the mean of each coordinate, rather than the joint distribution of the outcome vector. We develop generalized engression models, a unified nonparametric distributional regression framework for outcomes of any type. The proposed method builds upon engression, a scoring-rule-based deep generative model, and introduces a data-type-specific link function and a stochastic perturbation that smooths the loss, enabling gradient-based training even with discontinuous links. We establish universal representation results for continuous, discrete and mixed outcomes. In simulations and in two applications, 242 species in a community ecology benchmark and a 17-dimensional mixed-type health outcome, the method matches type-specific models on marginal scores, improves on them on the joint distribution, and matches or exceeds purpose-built state-of-the-art joint species distribution models. Software is available in Python.",
+    "authors": [
+      "Xinwei Shen",
+      "Zijian Guo",
+      "Francis Bach"
+    ],
+    "published": "2026-10-01T14:57:35",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "stat.ME"
+    },
+    "score": 52,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; trusted source; +10 source-type",
+    "llm_summary": "We consider estimating the conditional distribution of a multivariate outcome given covariates when its coordinates may be continuous, binary, categorical, ordinal or rankings, and are conditionally dependent on one another. Different statistical methods have been developed for each outcome type, and most of them target a summary of the conditional distribution, such as the mean of each\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02199v1",
+    "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
+    "url": "http://arxiv.org/abs/2610.02199v1",
+    "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon optimizer reduces optimizer memory through matrix-valued updates. Still, its geometry differs from AdamW and can lead to performance degradation when fine-tuning AdamW-pretrained models. To reduce optimizer memory without sacrificing accuracy or computational efficiency in LLM fine-tuning, we propose Ternary Absolute-max Column-wise One-sparse optimizer, or TACO, which follows Muon's operator-norm steepest-descent view but takes the geometric route further. TACO computes the exact steepest-descent direction under a dimension-normalized $1\\to1$ operator norm by selecting the sign of the largest magnitude entry in each column of two-dimensional weight matrices. This retains first-order gradients while making optimizer state memory nearly negligible. Our practical TACO optimizer maintains only a small set of low precision gradient components per column, reducing persistent optimizer state by $174\\times$ relative to AdamW8bit (from 27.7 GB to 0.16 GB) and peak training memory by $2.9\\times$ (from 80.6 GB to 27.5 GB) on OPT-13B, while achieving comparable accuracy and runtime. TACO further enables full-parameter fine-tuning of 30-32B-parameter models on a single 80 GB H100 GPU across multiple model families and tasks.",
+    "authors": [
+      "Jichao Jiang",
+      "Cristian McGee",
+      "El Houcine Bergou",
+      "Hanqin Cai",
+      "Aritra Dutta"
+    ],
+    "published": "2026-10-01T17:59:42",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon optimizer reduces optimizer memory through matrix-valued updates.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02150v1",
+    "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+    "url": "http://arxiv.org/abs/2610.02150v1",
+    "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely treated as repeated access rather than an opportunity to progressively improve understanding of that source. We study source learning: developing reusable source-specific competence over a persistent authoritative source. We represent this competence with a persistent source model that captures reusable understanding of the source, including how its knowledge is structured, interpreted, and applied. To construct and progressively refine such models, we propose SourceLearn, which combines two complementary learning mechanisms. Self-Directed Source Learning identifies what remains incompletely understood and adaptively revisits the source, while Task-Guided Source Learning uses downstream experience to reveal local representational gaps and recurring needs in how source knowledge should be organized. In both cases, learning signals determine what should be reconsidered, while persistent updates are reconstructed from the authoritative source. Across five benchmarks and three LLM backends, SourceLearn achieves the best performance in 13 of 15 settings, with gains of up to 22.6 points over Hybrid RAG and substantial overall improvements over static source representations and experience-based memory baselines.",
+    "authors": [
+      "Lucheng Fu",
+      "Kejing Xia",
+      "Yiyang Wang",
+      "Yiqiao Jin",
+      "Jinjin He",
+      "Xiyuan Yang",
+      "Haoxin Liu",
+      "Ye Yu",
+      "Haibo Jin",
+      "Yijia Xiao",
+      "Wenke Lee",
+      "B. Aditya Prakash",
+      "Haohan Wang"
+    ],
+    "published": "2026-10-01T17:50:16",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CL"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely treated as repeated access rather than an opportunity to\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02039v1",
+    "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2610.02039v1",
+    "summary": "Recent years have witnessed the rapid adoption of reinforcement learning (RL) in large language model (LLM) post-training, with substantial gains in mathematical reasoning and code generation. In practical systems, however, policy updates and differences between rollout and training engines can make sampled responses off-policy. Sequence-level masking addresses this mismatch by deciding whether an entire response should contribute to optimization. A common masking rule uses the length-normalized geometric mean of sampled token probability ratios. Its signed log-ratios can cancel across positions, concealing substantial bidirectional policy drift. We propose \\emph{Cancellation-Aware Response Masking} (CARM), a sequence-level mask that takes the absolute value of each token log-ratio before averaging, preventing opposing probability changes from canceling. We prove that accepted responses satisfy a joint bound on the fraction of sampled-token ratios outside a prescribed band and their mean log-distance beyond its boundaries. Experiments on mathematical reasoning and code generation show that CARM improves mean@16 averaged over AIME 2024/2025/2026 and BeyondAIME by up to $3.13$ percentage points over geometric-mean masking, and increases average pass@1 across four code benchmarks by $2.88$ points over the strongest evaluated baseline. These findings support CARM as a theoretically grounded and effective method for response-level off-policy control in LLM reinforcement learning.",
+    "authors": [
+      "Yafei Zhang",
+      "Songshuo Lu",
+      "Sicong Liao",
+      "Zhi Chen",
+      "Yaohua Tang"
+    ],
+    "published": "2026-10-01T16:51:56",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Recent years have witnessed the rapid adoption of reinforcement learning (RL) in large language model (LLM) post-training, with substantial gains in mathematical reasoning and code generation. In practical systems, however, policy updates and differences between rollout and training engines can make sampled responses off-policy. Sequence-level masking addresses this mismatch by deciding whether\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01934v1",
+    "title": "Learning to Predict Distributions over Weight Updates for Test-Time Adaptation",
+    "url": "http://arxiv.org/abs/2610.01934v1",
+    "summary": "Hypernetworks have recently shown success in dynamically adapting the parameters of Large Language Models (LLMs) at runtime based on signals such as task descriptions or additional demostrations. Here we ask: how much adaptation signal can be obtained using only the input query to an LLM?. To answer this, we study query-conditioned Hypernetworks for LoRA estimation. Further, we introduce distributional Hypernetworks, able to produce not only point estimates of parameter adaptors, but also a distribution over possible LoRAs. For this we propose a simple end-to-end loss using a differentiable Monte Carlo approximation and explore multiple distribution parametrizations including regression and convex combination variants. Results show that even using the mean of the learned distribution can outperform deterministic hypernetworks. Crucially, the learned distribution enables a different form of test-time scaling: instead of spending additional compute only by sampling more token sequences from a fixed model, we sample weight updates, yielding multiple adapted models for the same query. Performance improves as more weight samples are considered and remains stronger than corresponding token-sampling adaptation baselines. Finally, we find that generated updates can transfer across queries, suggesting that the hypernetwork learns reusable structure in how the model should adapt. Together, these results show that query-conditioned distributions over weight updates can support both adaptation and test-time scaling.",
+    "authors": [
+      "Azal Ahmad Khan",
+      "Keshav Ramji",
+      "Tahira Naseem",
+      "Ali Anwar",
+      "Ram\u00f3n Fernandez Astudillo"
+    ],
+    "published": "2026-10-01T16:05:09",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Hypernetworks have recently shown success in dynamically adapting the parameters of Large Language Models (LLMs) at runtime based on signals such as task descriptions or additional demostrations. Here we ask: how much adaptation signal can be obtained using only the input query to an LLM?. To answer this, we study query-conditioned Hypernetworks for LoRA estimation. Further, we introduce\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01821v1",
+    "title": "Beyond Linear Concepts: Discovering and Aligning Non-Linear Concept Manifolds in Large Language Models",
+    "url": "http://arxiv.org/abs/2610.01821v1",
+    "summary": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations. While existing mechanistic interpretability (MI) methods seek to extract concepts, they are constrained by a strong linearity assumption challenged by evidence of non-linear feature manifolds. We move beyond linear concepts by adapting Non-Linear Multi-Dimensional Concept Discovery (NLMCD) from computer vision to token-level LLM activations, modeling concepts as low-dimensional manifolds. To compare concept manifolds across layers and models, we introduce a concept-based alignment (CBA) score, a generalized Rand index that measures geometric proximity without explicit feature matching. Our analysis yields six key findings: (i) a neighboring-layer sanity check shows CBA is more sensitive than PCA- or CKA-based linear baselines; (ii) layer-by-layer alignment matrices reveal two block structures in intermediate and late layers, consistent across models and obscured by linear metrics; (iii) concept composition remains syntax-dominated through most of the network before giving way to increasingly mixed syntactic-semantic concepts in later layers, with increasing output-orientation toward the final layers; (iv) multilingual concept sharing between English and Mandarin is training-dependent rather than universal, strongest in Qwen, weaker in Llama, and absent in GPT-2; (v) inter-model alignment mirrors this structure, with strong correspondence between same-family Qwen models of different scale but weak alignment across model families; and (vi) across Tulu-3 training stages, alignment is highest between adjacent stages, with the largest shift between the base model and SFT, while subsequent preference-alignment stages (DPO, RLVR) leave early layers largely unchanged and RLVR mostly preserves DPO's concepts in late layers.",
+    "authors": [
+      "Tido Specht",
+      "Elias Benedict Krey",
+      "Nils Neukirch",
+      "Nils Strodthoff"
+    ],
+    "published": "2026-10-01T14:55:03",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations. While existing mechanistic interpretability (MI) methods seek to extract concepts, they are constrained by a strong linearity assumption challenged by evidence of non-linear feature manifolds. We move beyond linear concepts by adapting\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01799v1",
+    "title": "SkillEvoLean: Mutation-enhanced skill evolution for Lean provers",
+    "url": "http://arxiv.org/abs/2610.01799v1",
+    "summary": "Skill evolution offers a promising way to improve large language model agents without updating their parameters, but its use in formal theorem proving remains underexplored. Existing methods mainly target natural-language reasoning, improving skills by analyzing successful and failed trajectories and incrementally revising solving strategies. Although the Lean verifier provides reliable execution feedback, when all sampled trajectories fail, existing skill evolution methods lack successful trajectories from which to infer effective update directions. Furthermore, these methods also focus mainly on the root instruction file, thus underexploring the evolution of reference knowledge including mathematical concepts and proving techniques. To address these limitations, we propose a mutation-enhanced skill self-evolution framework for building skill-augmented Lean provers. The framework jointly evolves a high-level solving policy and its reference knowledge through progressive and mutation-based updates. Progressive evolution derives local improvements from successful and failed trajectories, while mutation is triggered when no complete proof can be generated, sampling mathematical concepts to produce and select new skill candidates under verifier feedback. We evaluate our method on MiniF2F, PutnamBench, the 2025 International Mathematical Olympiad (IMO 2025), and the 2026 USA Mathematical Olympiad (USAMO 2026). Under the same backbone model, trajectorysampling budget, and test-time compute, our method achieves proof success rates of 100.0%, 90.6%, 4/6, and 4/6, respectively, with GPT-5.5, outperforming the baseline methods. Further analysis shows that concept-guided mutation outperforms random-text-guided mutation by 6.9 and 8.2 percentage points on MiniF2F and PutnamBench, respectively, while solving one additional problem on both IMO 2025 and USAMO 2026.",
+    "authors": [
+      "Kuo Zhou",
+      "ZiXion Yang",
+      "Lu Zhang"
+    ],
+    "published": "2026-10-01T14:42:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Skill evolution offers a promising way to improve large language model agents without updating their parameters, but its use in formal theorem proving remains underexplored. Existing methods mainly target natural-language reasoning, improving skills by analyzing successful and failed trajectories and incrementally revising solving strategies. Although the Lean verifier provides reliable execution\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.01847v1",
+    "title": "Detecting Inconsistencies in Model Specifications with LLM-as-Verifier Reasoning",
+    "url": "http://arxiv.org/abs/2610.01847v1",
+    "summary": "Model specifications define how large language models (LLMs) should behave, guiding alignment training, inference-time behavior, and evaluation. Yet these specifications may themselves contain defects: two individually reasonable principles may prescribe incompatible behavior when applied to the same situation, leaving no response that satisfies both. Detecting such inconsistencies is challenging. Formalizing natural-language specifications risks losing subtle distinctions, while behavior-based testing cannot reliably distinguish specification defects from differences in model behavior. We introduce VeriSpec, the first approach to directly detect inconsistencies in model specifications by auditing the specification text itself. Our key insight is to preserve the specification in natural language while using an LLM as a verifier. VeriSpec extracts structured, context-aware rules, constructs a topic-guided graph to cluster behaviorally related rules at the same authority level, and applies LLM-as-verifier reasoning to detect inconsistencies. Applying VeriSpec to the OpenAI Model Spec, we extract 405 rules and manually validate five inconsistencies, all reported to its developers, who responded positively and have initiated internal discussions. Compared with five baselines, VeriSpec identifies the most validated inconsistencies, achieves the highest precision (38.5%), and incurs the lowest cost per validated inconsistency ($11.12). These results establish direct specification auditing as a practical complement to behavioral alignment evaluation, catching defects at the source before they shape any model. The code is available at https://github.com/HIPREL-Group/VeriSpec.",
+    "authors": [
+      "Zichen Xie",
+      "Mrigank Pawagi",
+      "Lize Shao",
+      "Yang Hu",
+      "Wenxi Wang"
+    ],
+    "published": "2026-10-01T15:13:31",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.SE"
+    },
+    "score": 52,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; +10 source-type",
+    "llm_summary": "Model specifications define how large language models (LLMs) should behave, guiding alignment training, inference-time behavior, and evaluation. Yet these specifications may themselves contain defects: two individually reasonable principles may prescribe incompatible behavior when applied to the same situation, leaving no response that satisfies both. Detecting such inconsistencies is\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ML",
+    "id": "arxiv:2610.01712v1",
+    "title": "In-context Learning of Single-index Targets: Comparing Kernel and Feature Learners",
+    "url": "http://arxiv.org/abs/2610.01712v1",
+    "summary": "In-context learning (ICL) enables a pretrained model to infer a task from demonstrations without updating its parameters. While much of the existing theory focuses on linear target functions, in this paper we study nonlinear cases by comparing two one-layer attention architectures on the same family of single-index tasks. A kernel learner first maps inputs through a fixed nonlinear feature map and then applies linear attention, whereas a feature learner applies attention to the original input, followed by a learned nonlinear readout. We derive predictions for their memorization and generalization errors using the replica method, retaining the effects of pretraining size, task-pool diversity, and training and inference context lengths. The resulting predictions closely match numerical experiments across a broad range of regimes. Our analysis yields phase diagrams that characterize when each architecture is advantageous as the amount of pretraining data, task diversity, and context lengths vary. We further identify qualitatively different context-length scalings for the two learners. Together, these results clarify how architectural choices interact with the dataset and govern nonlinear in-context learning.",
+    "authors": [
+      "Haotian Gu",
+      "Yizhou Xu",
+      "Lenka Zdeborov\u00e1"
+    ],
+    "published": "2026-10-01T13:54:52",
+    "extras": {
+      "category": "stat.ML",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "In-context learning (ICL) enables a pretrained model to infer a task from demonstrations without updating its parameters. While much of the existing theory focuses on linear target functions, in this paper we study nonlinear cases by comparing two one-layer attention architectures on the same family of single-index tasks. A kernel learner first maps inputs through a fixed nonlinear feature map\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv stat.ME",
+    "id": "arxiv:2610.01720v1",
+    "title": "Model-Agnostic Influential Outlier Detection for Mixed Effects and Multi-Level Models",
+    "url": "http://arxiv.org/abs/2610.01720v1",
+    "summary": "Influential Outlier Detection is developed for mixed-effects models on clustered data. The Influential Outlier Metric is defined as a combination of SHapley Additive exPlanantion (SHAP) values and model residuals, both of which undergo a change of measure transformation. Building on previous work showcasing the suitability of using Normalizing flows to map arbitrary distributions to a flexible base distribution for statistical inference, the Normalizing Flows are constructed to allows contextual information and also provide a goodness of fit diagnostic for model evaluation. The use of SHAP values in the construction moves away from model specific tools and instead provides point-wise model agnostic influential outlier. The advantages and limitations of this approach are examined in several models including the linear model, the random forest, and gradient-boosted trees.",
+    "authors": [
+      "Colin C Jones",
+      "David A Campbell",
+      "Yan Liu"
+    ],
+    "published": "2026-10-01T13:57:59",
+    "extras": {
+      "category": "stat.ME",
+      "primary_category": "stat.CO"
+    },
+    "score": 48,
+    "topic": "other",
+    "why_relevant": "trusted source; +10 source-type",
+    "llm_summary": "Influential Outlier Detection is developed for mixed-effects models on clustered data. The Influential Outlier Metric is defined as a combination of SHapley Additive exPlanantion (SHAP) values and model residuals, both of which undergo a change of measure transformation. Building on previous work showcasing the suitability of using Normalizing flows to map arbitrary distributions to a flexible\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02190v1",
+    "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
+    "url": "http://arxiv.org/abs/2610.02190v1",
+    "summary": "Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the direction and performs zeroth-order evaluations only along this one-dimensional subspace to choose how far to move. Using the current {gradient information} and two additional objective function evaluations, ZFO instances construct a local model of the objective function along the proposed direction and select a curvature-aware step within a bounded search interval. This yields an adaptive step-selection mechanism that costs less than a full line search. We provide theoretical guarantees to show that shared-sample evaluations produce reliable finite-difference curvature estimates, that the induced local model selects a near-optimal step along the search interval, and that ZFO converges to a neighborhood of a stationary point. Across the evaluated settings, language models and datasets, ZFO frequently improves optimization and final performance relative to fixed-step first-order baselines, with the magnitude and preferred local model depending on the objective. Our code is publicly available at: https://github.com/nizswan/Zeroth-First-Order-Framework.",
+    "authors": [
+      "Cristian McGee",
+      "El Houcine Bergou",
+      "Aritra Dutta"
+    ],
+    "published": "2026-10-01T17:59:28",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02179v1",
+    "title": "From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation",
+    "url": "http://arxiv.org/abs/2610.02179v1",
+    "summary": "Multi-teacher on-policy distillation (MOPD) aims to combine the strengths of RL-trained teachers in a single student, but how teacher signals affect parameter changes remains underexplored. We study Qwen3-1.7B with four domain teachers trained with RL from the same initialization as the student, comparing gradients, optimizer updates, and task learning curves, with additional SmolLM3-3B diagnostics. We find that several factors influence teacher signals. First, loss averaging implicitly weights responses: token averaging favors longer responses, and equalizing domain contributions retains this weighting within domains. Second, Adam's first moment reduces differences in parameter updates: the cosine similarity is 0.83 between teachers and 0.96 between averaging rules, despite differences in raw gradients. Third, BF16 rounding hides small changes: about 97\\% of FP32 master weights differ from initialization, but only 7--11\\% of BF16 weights do. Finally, the top-64 intersection KL gradient closely matches Qwen's full-vocabulary gradient, but the effect on task performance depends on averaging: mathematics accuracy is 2.6 points higher than with sampled-token policy-gradient (PG) under response averaging and 2.1 points lower under global token averaging.",
+    "authors": [
+      "Siqi Zhu",
+      "Suozhi Huang",
+      "Kaixuan Zhang",
+      "Yuheng Yang",
+      "Zhanyang Jin",
+      "Yihang Sun",
+      "Jiaxuan You"
+    ],
+    "published": "2026-10-01T17:57:44",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Multi-teacher on-policy distillation (MOPD) aims to combine the strengths of RL-trained teachers in a single student, but how teacher signals affect parameter changes remains underexplored. We study Qwen3-1.7B with four domain teachers trained with RL from the same initialization as the student, comparing gradients, optimizer updates, and task learning curves, with additional SmolLM3-3B\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02173v1",
+    "title": "Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair",
+    "url": "http://arxiv.org/abs/2610.02173v1",
+    "summary": "Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a single explanation. We argue that it has one: a gain already present before any ablation. Any intervention on a causally important component can be viewed as a point on a coordinate axis $\u03bb$, the signed strength of a counterfactual contrast. Hence, conventional ablation methods are uncalibrated points on this axis. We show that the causal repair response for a fine-grained unit $r$ is governed by an affine law, $E_r(\u03bb)=\\mathrm{own}_r+\u03b3_r\u03bb$. The slope $\u03b3_r$ is a fixed coefficient that consistently influences the model, with or without ablation, and its sign determines whether the unit counteracts or reinforces the removed signal. On a factual-verdict task across four models from distinct families (Gemma, Qwen, LLaMA, and Mistral), we identify components including MLP neurons, OV neurons, and singular directions that follow this affine law, 68 of 81 downstream directions in all. Moreover, we can anticipate the magnitude of $\u03b3_r$ from the fixed weights. On the IOI circuit of GPT-2 Small, seven of the ten heads the intervention can reach follow the law, and all seven are counterweights. From this perspective, what may appear as self-repair is a counterweight performing its usual operation when the contrastive signal emerges at the core.",
+    "authors": [
+      "Areeb Ahmad",
+      "Pratinav Seth",
+      "Vinay Kumar Sankarapu"
+    ],
+    "published": "2026-10-01T17:57:04",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a single explanation. We argue that it has one: a gain already present before any ablation. Any\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02144v1",
+    "title": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
+    "url": "http://arxiv.org/abs/2610.02144v1",
+    "summary": "We introduce Faynt, a family of 10M- and 75M-parameter Transformer policies for Super Smash Bros. Melee, each controlling all 26 characters with a single checkpoint. After reinforcement learning (RL), the 10M wins 240 of 244 same-character games (98.4%) against fourteen specialist and multi-character releases on their supported rosters, with a winning record against every release. These opponents retain 21- or 24-frame action delays; Faynt uses no added delay, and we have not isolated the effect of this difference. In a separate evaluation against a privately supplied zero-delay Slippi-AI model, the 10M wins all 68 games across two conditioning settings. We study architecture, optimization, scaling, and hyperparameter transfer to guide pretraining on approximately 840,000 human replays. Post-training combines rank- and outcome-based curricula, 75M-to-10M distillation, and RL restricted to Fox mirror matches. On the initial 152-game benchmark, the supervised 10M wins 69.7% of games, compared with 45.4% for the pretrained 75M, despite higher overall held-out controller-prediction loss. The weighted validation loss used for supervised checkpoint selection agrees with the win-rate ordering of all four pretrained and supervised policies. After supervised post-training, both models take less damage per minute, build larger early leads, and win more often after losing the first life. Optimized inference on recorded game states averages 5.2 ms per decision for the 10M and 8.7 ms for the 75M on an NVIDIA T4, excluding emulator execution and communication. We open-source the weights, both benchmark suites, and a platform for automated model tournaments.",
+    "authors": [
+      "Ali Janati",
+      "Nikita Kuzmin",
+      "Rohit Swamy",
+      "Charles Niu"
+    ],
+    "published": "2026-10-01T17:48:38",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "We introduce Faynt, a family of 10M- and 75M-parameter Transformer policies for Super Smash Bros. Melee, each controlling all 26 characters with a single checkpoint. After reinforcement learning (RL), the 10M wins 240 of 244 same-character games (98.4%) against fourteen specialist and multi-character releases on their supported rosters, with a winning record against every release. These opponents\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02131v1",
+    "title": "Linear Programming Representations and Strongly Polynomial Algorithms for Robust Markov Decision Processes",
+    "url": "http://arxiv.org/abs/2610.02131v1",
+    "summary": "We study linear programming (LP) representations and strongly polynomial algorithms for robust Markov decision processes (RMDPs) with rational polyhedral state-action rectangular uncertainty in rewards and transitions. By encoding a finite sequence of robust policy-iteration steps, we construct a single LP whose optimal solutions recover the robust optimal value and all optimal stationary randomized policies. At fixed discount, the LP has polynomial dimension and encoding length and can be constructed in strongly polynomial time. We also develop a general complexity analysis of robust policy iteration that combines the cost of minimizing over uncertainty sets with the number of iterations needed to evaluate a policy. For a fixed discount factor, we use this analysis to improve the known complexity bounds for $\\ell_1$ and $\\ell_\\infty$ RMDPs and establish new strongly polynomial bounds for general interval, weighted $\\ell_1$, and Wasserstein RMDPs, as well as turn-based stochastic games with these uncertainty sets.",
+    "authors": [
+      "Han Zhong",
+      "Yinyu Ye"
+    ],
+    "published": "2026-10-01T17:41:29",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "We study linear programming (LP) representations and strongly polynomial algorithms for robust Markov decision processes (RMDPs) with rational polyhedral state-action rectangular uncertainty in rewards and transitions. By encoding a finite sequence of robust policy-iteration steps, we construct a single LP whose optimal solutions recover the robust optimal value and all optimal stationary\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01981v1",
+    "title": "Universal interpolation for deep residual self-attention networks",
+    "url": "http://arxiv.org/abs/2610.01981v1",
+    "summary": "Universal approximation is a necessary qualitative property of learning architectures to benefit from scaling laws. While it is generically verified on a variety of neural architectures and random feature models, it typically involves infinite width limits. In this work, we focus on deep self-attention models and consider instead the `dual' regime, where approximation power is enabled entirely by depth, and featuring strong parameter sharing across layers, motivated by recent models such as the Looped Transformers. More specifically, we ask whether one can find a predefined finite set of parameters, each defining an attention block, such that the resulting finite set of transformations can map any collection of $N$ sequences of $n$ tokens to any other collection of $N$ sequences of $n$ tokens. Crucially, these transformations are \\emph{fixed independently of the input and output} collections: only the order in which the blocks are applied, their signs, and their durations depend on the particular interpolation task. Our main result establishes it for residual softmax attention using only two frozen single-head blocks with Gaussian-initialized projection matrices. The result holds at both continuous and finite depth. We also characterize the restrictions imposed by causal masking and establish corresponding universal interpolation guarantees.",
+    "authors": [
+      "Sibylle Marcotte",
+      "Joan Bruna"
+    ],
+    "published": "2026-10-01T16:25:13",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Universal approximation is a necessary qualitative property of learning architectures to benefit from scaling laws. While it is generically verified on a variety of neural architectures and random feature models, it typically involves infinite width limits. In this work, we focus on deep self-attention models and consider instead the `dual' regime, where approximation power is enabled entirely by\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01908v1",
+    "title": "Same Reward, Different Skills: When Multimodal RL Learns to Look",
+    "url": "http://arxiv.org/abs/2610.01908v1",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) improves vision-language benchmark scores even without visual information during training. With images at test, blind-trained models recover roughly half of the real-image gain at 3B and nearly four fifths at 7B. Prolonged real-image training can erode grounding while benchmark gains persist. Both findings expose the same gap: an image in the prompt is not an image in the learning signal. Our design rule, visual resolvability, asks that visual evidence be necessary for a correct answer and that the task remain learnable. We test it on counterfactual coordinate scenes in which the question stays fixed and the target is never named, so a correct answer requires finding the target in the image. With standard GRPO and correctness-and-format rewards, a 7B model raises its accuracy at finding the target (discovery) from 0.425 to 0.875 on held-out scenes denser than any it trained on, and it improves on question types it never trained on. Two controls locate the source of the gain. Replacing test images with gray canvases drops discovery to zero; training on gray canvases instead, at matched step 30 and in each of four seeds, yields essentially none of the gain even when the model is then tested with real images. The learned skill carries over to grounding tasks built independently of the training corpus. A caption that answers the training question, added to the same images, reward and budget, cuts the gain by nearly two thirds. Changing what reward requires changes what RL learns.",
+    "authors": [
+      "Haocun Ye",
+      "Xinlong Jiang",
+      "Qile Chen",
+      "Bingyu Wang",
+      "Teng Zhang",
+      "Shubai Chen",
+      "Tingyu Wu",
+      "Zhenkun Zheng",
+      "Yiqiang Chen"
+    ],
+    "published": "2026-10-01T15:53:22",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Reinforcement learning with verifiable rewards (RLVR) improves vision-language benchmark scores even without visual information during training. With images at test, blind-trained models recover roughly half of the real-image gain at 3B and nearly four fifths at 7B. Prolonged real-image training can erode grounding while benchmark gains persist. Both findings expose the same gap: an image in the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01882v1",
+    "title": "Flowing Faster to Coordinate: One-Step Online Multi-Agent Flow Policies",
+    "url": "http://arxiv.org/abs/2610.01882v1",
+    "summary": "Multi-agent reinforcement learning (MARL) provides a powerful framework for learning coordinated behaviors through interactions with the environment. Developing MARL policies requires balancing expressive modeling of complex and multimodal action distributions with efficient training and execution. Generative policies, particularly diffusionbased policies, can faithfully capture complex and multimodal behaviors, but costly iterative sampling hinders their scalability in online multi-agent settings. We propose an Online MARL framework via one-step Flow model (OMAF) that combines expressive generative policies with efficient one-step action generation. OMAF employs a Transformer-based flow policy to capture complex coordination behaviors, while its approximate path score surrogate provides a principled route to synchronized flow policy optimization. To enable stable and sampleefficient learning, we further develop a joint optimization scheme coupling softmax Q-value estimation with a joint flow policy objective for coordinated policy learning. By eliminating iterative sampling, OMAF dramatically reduces training overhead without sacrificing policy expressiveness. Extensive experiments across 10 standard tasks from MPE and MAMuJoCo show that OMAF consistently achieves superior performance, with up to 3.4x higher returns and 10.5x sample efficiency improvement compared with baseline methods. These results validate the effectiveness of OMAF as an expressive and computationally efficient one-step flow policy paradigm for online MARL.",
+    "authors": [
+      "Zhuoran Li",
+      "Yunzhan Li",
+      "Xun Wang",
+      "Yihan Du",
+      "Longbo Huang"
+    ],
+    "published": "2026-10-01T15:36:31",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Multi-agent reinforcement learning (MARL) provides a powerful framework for learning coordinated behaviors through interactions with the environment. Developing MARL policies requires balancing expressive modeling of complex and multimodal action distributions with efficient training and execution. Generative policies, particularly diffusionbased policies, can faithfully capture complex and\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01846v1",
+    "title": "Beyond Decodability: Do Acoustic Factors Drive Predictions in Speech-Based Alzheimer's Assessment?",
+    "url": "http://arxiv.org/abs/2610.01846v1",
+    "summary": "Speech-based Alzheimer's disease (AD) assessments increasingly rely on pretrained self-supervised learning (SSL) models that learn acoustic representations directly from raw audio, exposing the model to recording factors. We ask whether such factors are merely encoded in SSL representations or can systematically alter predictions. Using ADReSSo and three large SSL backbones, we apply controlled noise and reverberation interventions to participant-speech-only, non-speech, and full-recording audio. We combine layer-wise linear decoding, input- and representation-space interventions, and geometric alignment analysis to distinguish acoustic decodability from influence on AD prediction. Our results show that controlled acoustic interventions alter AD predictions across all three SSL backbones. Noise, despite showing no significant diagnostic-group difference in the original data, produces the strongest intervention effects. Importantly, these effects are systematically structured relative to the classifier's decision direction, replicate on the held-out test set and reverse when the representation-space intervention direction is reversed. Together, these findings show that high predictive performance and the absence of a significant diagnostic-group difference in a measured acoustic factor are not sufficient for robustness. We argue that intervention-based robustness tests should become standard for trustworthy clinical speech models.",
+    "authors": [
+      "Serli Kopar",
+      "Alkis Koudounas",
+      "Roshan P. Rane",
+      "Sam Gijsen",
+      "Paula A. Perez-Toro",
+      "Kerstin Ritter"
+    ],
+    "published": "2026-10-01T15:13:19",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.SD"
+    },
+    "score": 48,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Speech-based Alzheimer's disease (AD) assessments increasingly rely on pretrained self-supervised learning (SSL) models that learn acoustic representations directly from raw audio, exposing the model to recording factors. We ask whether such factors are merely encoded in SSL representations or can systematically alter predictions. Using ADReSSo and three large SSL backbones, we apply controlled\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.02116v1",
+    "title": "A Comparative Explainability Framework for DeBERTa-v3 in Zero-Shot Medical Abstract Classification",
+    "url": "http://arxiv.org/abs/2610.02116v1",
+    "summary": "A comparative explainability framework is presented to audit DeBERTa-v3 under zero-shot classification of medical abstracts. The work addresses the disagreement problem in Explainable Artificial Intelligence, where different attribution methods produce divergent explanations for the same input and prediction. A natural language inference engine is implemented over the Medical Abstracts corpus with five enriched hypotheses per diagnostic category and a balanced sample of one thousand texts per class. Five explanation methods are compared: SHAP and LIME as model-agnostic approaches, occlusion and Input x Gradient as deep-learning-specific approaches, and Attention x Gradient as a transformer-specific approach. Explanations are standardized through top-token attribution, and pairwise agreement is quantified using the Jaccard index. High predictive accuracy is achieved across well-defined clinical domains, whereas performance degrades under high semantic ambiguity. Explanatory stability directly mirrors predictive certainty, exhibiting strong convergence in univalent categories and a marked drop under diagnostic uncertainty. Furthermore, qualitative error auditing uncovers three systemic failure mechanisms: lexical hypersensitivity, semantic overlap, and loss of attribution coherence. The results support the combined use of several explanation methods and quantitative agreement metrics when auditing transformer-based models in medical text classification, and suggest prioritizing specific clinical ontologies over broad diagnostic labels.",
+    "authors": [
+      "Javier Diaz Esteban-Herreros",
+      "David Mu\u00f1oz-Valero",
+      "Raquel Mart\u00ednez-Espa\u00f1a",
+      "Jose M. Juarez",
+      "Juan Moreno-Garcia"
+    ],
+    "published": "2026-10-01T17:34:02",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "A comparative explainability framework is presented to audit DeBERTa-v3 under zero-shot classification of medical abstracts. The work addresses the disagreement problem in Explainable Artificial Intelligence, where different attribution methods produce divergent explanations for the same input and prediction. A natural language inference engine is implemented over the Medical Abstracts corpus\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.01917v1",
+    "title": "MoLE: Mixture of Latent Experts for Complementary Visual Reasoning",
+    "url": "http://arxiv.org/abs/2610.01917v1",
+    "summary": "Latent visual reasoning equips vision--language models with continuous intermediate states that can process visual evidence without explicit textual reasoning traces or repeated image operations. However, existing methods often allow multiple latent tokens to access the same visual evidence through shared value projections, providing no mechanism for them to extract complementary visual information; simply increasing the latent budget can therefore yield redundant latent representations. We argue that effective latent reasoning should encourage different latent tokens to extract complementary visual information, and thereby act as specialized visual experts. Based on this insight, we propose MoLE, a Mixture of Latent Experts framework that controls both what visual evidence each latent visual expert observes and how it transforms that evidence. MoLE isolates latent visual experts during evidence extraction and uses dedicated latent summary experts to aggregate the complementary representations of latent visual experts. A two-stage training pipeline first forces visual evidence through this latent pathway and then restores direct visual access, requiring neither predefined expert roles nor intermediate visual targets. Across five visual reasoning benchmarks, MoLE achieves an average score of 78.6, outperforming data-matched supervised fine-tuning by 4.9 and the strongest evaluated latent visual reasoning baseline at the same latent budget by 3.6. Representation analyses show lower latent-state similarity and more diverse visual attention, while masking the latent pathway reduces average performance by 9.2. These results demonstrate that specializing latent computation is more effective than merely increasing the number of latent tokens.",
+    "authors": [
+      "Yingcheng Liu",
+      "Tianyi Jiang",
+      "Yujuan Ding",
+      "jiangbo Ai",
+      "Xun Jiang",
+      "Guoqing Wang",
+      "Wei Ye",
+      "Yi Bin"
+    ],
+    "published": "2026-10-01T15:54:37",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CV"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Latent visual reasoning equips vision--language models with continuous intermediate states that can process visual evidence without explicit textual reasoning traces or repeated image operations. However, existing methods often allow multiple latent tokens to access the same visual evidence through shared value projections, providing no mechanism for them to extract complementary visual\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:5a6c4782577663d7e5d930a2db951ef88a421d35",
+    "title": "Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification",
+    "url": "https://www.semanticscholar.org/paper/5a6c4782577663d7e5d930a2db951ef88a421d35",
+    "summary": "",
+    "authors": [
+      "Ruichu Cai",
+      "Shengyin Yu",
+      "Jiahao Zhang",
+      "Wei Chen",
+      "Boyan Xu",
+      "Ke-Li Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:7bf7fc6aaac51ae971358bdea0cd79d946c4334b",
+    "title": "Clusters Emerge in Transformer-based Causal Language Models",
+    "url": "https://www.semanticscholar.org/paper/7bf7fc6aaac51ae971358bdea0cd79d946c4334b",
+    "summary": "",
+    "authors": [
+      "Xin-Bo Wu",
+      "Lav R. Varshney"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "causal language models"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Clusters Emerge in Transformer-based Causal Language Models"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02159v1",
+    "title": "When Do Intrinsic Rewards Lead to Exploration?",
+    "url": "http://arxiv.org/abs/2610.02159v1",
+    "summary": "Intrinsic rewards are designed to guide exploration in reinforcement learning by assigning value to an agent's experience, for example through prediction error or learning progress. However, maximizing these rewards need not produce the most informative experience available. We propose a formal criterion for exploration that compares policies by the counterfactual information they acquire: how well their histories can substitute for experience under alternative policies. We construct a single, simple environment in which specified count-based, prediction-error, empowerment, and information-gain objectives have maximizing policies that are Pareto-suboptimal at acquiring counterfactual information. We explain these failures and establish conditions under which existing intrinsic rewards successfully encourage optimal exploration. We also construct an objective that assigns a higher value whenever exploration strictly improves under our criterion.",
+    "authors": [
+      "Scott W. Viteri",
+      "Laura Gomezjurado Gonzalez",
+      "Clark Barrett"
+    ],
+    "published": "2026-10-01T17:52:41",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-inference",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Intrinsic rewards are designed to guide exploration in reinforcement learning by assigning value to an agent's experience, for example through prediction error or learning progress. However, maximizing these rewards need not produce the most informative experience available. We propose a formal criterion for exploration that compares policies by the counterfactual information they acquire: how\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02140v1",
+    "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+    "url": "http://arxiv.org/abs/2610.02140v1",
+    "summary": "Introducing new capabilities to frontier models has long been the goal of posttraining, which predominantly employs supervised finetuning (SFT) and reinforcement learning (RL) to this end. Conventional wisdom dictates that RL enables strong generalization on new tasks without losing existing capabilities, while SFT is prone to weak generalization and catastrophic forgetting. At the same time, SFT can learn from off-policy expert data, whereas RL must rely on a model's ability to find successful trajectories with repeated sampling. In our work, we seek to leverage the strength of on-policy learning while utilizing the privileged information contained in off-policy data. However, rather than modifying the learning objective to accommodate this data, we instead tailor the data distribution to better suit the learner. We introduce a Markov chain Monte Carlo (MCMC) sampling algorithm that progressively transforms off-policy traces to be more on-policy given a reference model for finetuning. Across tasks like scientific skill acquisition, mathematical reasoning, and open-ended expertise, our sampling algorithm enables SFT to rival prevailing posttraining techniques, often generalizing better and forgetting less than strong on-policy baselines. In addition, the resulting finetuned models exhibit strong distributional performance and are capable of learning beyond sharpening the base model distribution. At a higher level, our approach presents sampling as a model-native operator that shapes data for learnability, offering broader utility as a general-purpose primitive throughout the posttraining stack.",
+    "authors": [
+      "Aayush Karan",
+      "Sitan Chen",
+      "Yilun Du"
+    ],
+    "published": "2026-10-01T17:45:07",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Introducing new capabilities to frontier models has long been the goal of posttraining, which predominantly employs supervised finetuning (SFT) and reinforcement learning (RL) to this end. Conventional wisdom dictates that RL enables strong generalization on new tasks without losing existing capabilities, while SFT is prone to weak generalization and catastrophic forgetting. At the same time, SFT\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02033v1",
+    "title": "Relative Transitions, Not Absolute Destinations: A Transfer-and-Ground Framework for Target-Trajectory-Free Human Mobility Generation",
+    "url": "http://arxiv.org/abs/2610.02033v1",
+    "summary": "Individual mobility trajectories support urban analysis and location-based services, yet most trajectory generators require observations from their deployment city. This assumption excludes precisely the cities where trajectories are unavailable even though points of interest (POIs) and their attributes can be obtained from public maps. We study target-trajectory-free generation: learning from POIs and trajectories in source cities while utilizing only POI coordinates and categories in a target city, with no target trajectory or trajectory-derived statistic available for training, model selection, or generation. Existing trajectory generators typically predict absolute destinations, entangling reusable movement behavior with city-specific POI identities and spatial layouts. Our core insight is to replace this city-bound output with context-conditioned relative transitions. We propose Nomad, a transfer-and-ground framework that separates learning how people move from determining where those movements are realized. Specifically, a history-conditioned flow-matching model learns from source trajectories a transition prior over semantic displacement between POI contexts, geographic displacement, and elapsed time; at inference, a behavior graph and an exploration--return walk ground sampled transitions onto the target POI map. This factorization enables a direct test of representation level transferability without assuming invariance of the full mobility distribution. Extensive experiments across ten cities and 14 transfers show that Nomad outperforms adaptation baselines in trajectory fidelity and downstream utility, lowering the average error over the best baseline of each metric by about 15% in distributional fidelity and about 3% in downstream utility.",
+    "authors": [
+      "Yidi Wang",
+      "Yunhe Zhang",
+      "Bangchao Deng",
+      "Dingqi Yang",
+      "Pengyang Wang"
+    ],
+    "published": "2026-10-01T16:49:30",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Individual mobility trajectories support urban analysis and location-based services, yet most trajectory generators require observations from their deployment city. This assumption excludes precisely the cities where trajectories are unavailable even though points of interest (POIs) and their attributes can be obtained from public maps. We study target-trajectory-free generation: learning from\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01962v1",
+    "title": "SIEVE: Selective attention-value Suppression for Vision-Language Models Unlearning",
+    "url": "http://arxiv.org/abs/2610.01962v1",
+    "summary": "The ability of vision-language models (VLMs) to associate visual identities with biographical information creates a need for selective unlearning of personally identifiable information (PII) while preserving permitted knowledge about the same individual. This setting is challenging because both sensitive and retained information can share the same visual inputs and intermediate representations. We introduce SIEVE, a simple and effective framework for selective VLM unlearning. SIEVE directly regularizes attention-value representations while also controlling model outputs. SIEVE suppresses attention values for forget examples toward a constant zero, while preserving retain-example representations by matching them to a frozen reference model. These objectives are combined with sequence-level forget and retain supervision, enabling targeted forgetting without largely affecting retained knowledge. Extensive experiments show that SIEVE achieves state-of-the-art performance on unlearning with multiple model-modality settings, while maintaining competitive retained utility. Ablation studies further show that value suppression and negative cross-entropy contribute complementary forgetting signals, while reference-based value matching substantially reduces utility degradation. These results demonstrate that attention values provide an effective intervention point for selective multimodal unlearning when sensitive and retained knowledge are closely related.",
+    "authors": [
+      "Si Qi Goh",
+      "Cap Dang Xuan Kiet",
+      "Tat-Jen Cham",
+      "Kwok-Yan Lam"
+    ],
+    "published": "2026-10-01T16:16:53",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "The ability of vision-language models (VLMs) to associate visual identities with biographical information creates a need for selective unlearning of personally identifiable information (PII) while preserving permitted knowledge about the same individual. This setting is challenging because both sensitive and retained information can share the same visual inputs and intermediate representations.\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01843v1",
+    "title": "Optimal Stochastic Bilevel Optimization with First-Order Oracles",
+    "url": "http://arxiv.org/abs/2610.01843v1",
+    "summary": "We study nonconvex--strongly-convex bilevel optimization under a stochastic first-order oracle. We introduce MRT-FD, a single-loop first-order method that simultaneously tracks the upper-level variable, the lower-level solution, and the auxiliary response arising from implicit differentiation of the hyperobjective. MRT-FD performs one update of each variable per iteration and approximates the second-order derivative actions using order-$p$ finite differences. For any fixed finite smoothness order $p\\ge1$ in the lower-level variable, MRT-FD finds an $\\varepsilon$-stationary point using $\\mathcal{O}(\\varepsilon^{-4-2/p})$ stochastic gradient queries. We also prove a matching $\u03a9(\\varepsilon^{-4-2/p})$ oracle lower bound. The lower-bound construction starts from a hard nonconvex minimization chain with a stronger stochastic oracle, and lifts it to a bilevel problem through a sinusoidal coupling with a scalar lower-level variable. Consequently, the dependence on $\\varepsilon$ is optimal for every fixed finite $p$, closing the upper--lower complexity gap in this stochastic first-order oracle setting.",
+    "authors": [
+      "Linxuan Pan",
+      "Junchi Yang"
+    ],
+    "published": "2026-10-01T15:11:24",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "math.OC"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "We study nonconvex--strongly-convex bilevel optimization under a stochastic first-order oracle. We introduce MRT-FD, a single-loop first-order method that simultaneously tracks the upper-level variable, the lower-level solution, and the auxiliary response arising from implicit differentiation of the hyperobjective. MRT-FD performs one update of each variable per iteration and approximates the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01789v1",
+    "title": "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization",
+    "url": "http://arxiv.org/abs/2610.01789v1",
+    "summary": "Reinforcement learning based post training of diffusion models, such as Denoising Diffusion Policy Optimization (DDPO), optimizes a reverse diffusion process under a reward function. However, current approaches to reward optimizations do so at the cost of diversity and quality. In this paper, we provide better tradeoffs through careful theoretical considerations and method design. We analyze the theoretical framework and mathematically demonstrate that \\emph{only-latter timestep} updates of diffusion model may be harmful for diversity contrary to the conclusions presented in a previous work. Additionally, we propose an incremental Feynman-Kac training based on strong theoretical foundations in order to achieve the best-yet alignment-diversity tradeoffs. We perform extensive experiments and compare our method against related diffusion policy optimization approaches in three different tasks and also provide strong ablations for each component, thus validating strong performance gains in both alignment and diversity.",
+    "authors": [
+      "Ashok Prasad Neupane",
+      "Saugat Adhikari",
+      "Pramish Paudel",
+      "Ajad Chhatkuli",
+      "Danda Pani Paudel"
+    ],
+    "published": "2026-10-01T14:35:26",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Reinforcement learning based post training of diffusion models, such as Denoising Diffusion Policy Optimization (DDPO), optimizes a reverse diffusion process under a reward function. However, current approaches to reward optimizations do so at the cost of diversity and quality. In this paper, we provide better tradeoffs through careful theoretical considerations and method design. We analyze the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01739v1",
+    "title": "Fixed-point neural samplers on discrete spaces",
+    "url": "http://arxiv.org/abs/2610.01739v1",
+    "summary": "Sampling from discrete, unnormalized distributions without access to data is a challenging problem. Neural samplers offer a promising approach by training generative models from density evaluations directly. Despite recent progress, existing discrete neural samplers are prone to mode collapse, come without convergence guarantees when trained via fixed-point iterations, and are often tied to a specific reference process such as masked or uniform diffusion. In this work, we introduce Discrete Gibbs Iterative Neural Sampler, a fixed-point neural sampler that addresses these limitations, enabling efficient, scalable learning, substantially reducing mode collapse in practice. Our framework builds on masked diffusion and also extends to transport between pairs of distributions. We demonstrate that the resulting method scales effectively to high-dimensional systems, supports amortized sampling across different conditions, and enables accurate estimation of alloy phase diagrams.",
+    "authors": [
+      "Jiajun He",
+      "Denis Blessing",
+      "Mouyang Cheng",
+      "Yuanqi Du",
+      "Carles Domingo-Enrich"
+    ],
+    "published": "2026-10-01T14:11:02",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Sampling from discrete, unnormalized distributions without access to data is a challenging problem. Neural samplers offer a promising approach by training generative models from density evaluations directly. Despite recent progress, existing discrete neural samplers are prone to mode collapse, come without convergence guarantees when trained via fixed-point iterations, and are often tied to a\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01649v1",
+    "title": "CrossGMN: Graph Metanetworks for Cross-Architecture Weight-Space Transformations",
+    "url": "http://arxiv.org/abs/2610.01649v1",
+    "summary": "Weight-space networks operate directly on parameters of other neural networks, enabling tasks such as predicting model properties, editing trained models, and generating weights. Weight-space symmetries such as neuron permutations make equivariance a key design principle. However, existing equivariant weight-space architectures have primarily been studied for transformations that preserve the network architecture. In contrast, many practical transformations, including model compression and upscaling, map a trained source network into a target network with a different architecture. In this setting, the source and target permutation symmetries act on different parameter spaces, making equivariance less straightforward to formulate. Our key idea for addressing this mismatch is to reformulate cross-architecture operators with two inputs: a trained source network and an initialization of the target network. This lets us define equivariant cross-architecture operators that refine the initialization of the target network using information from the source network, while being invariant to source-network permutations and equivariant to target-network permutations. Based on this formulation, we introduce CrossGMN, a graph metanetwork that jointly processes both networks through symmetry-preserving cross-network message passing. We prove CrossGMN is universal for continuous cross-architecture operators on compact sets under a general-position assumption. We evaluate CrossGMN for model compression, predicting a smaller network's parameters to accelerate subsequent knowledge distillation. Across 2-D and 3-D INRs and image classification with MLPs, CNNs, and Vision Transformers, CrossGMN speeds up distillation by up to 8.89x, transfers across datasets without retraining (3.78x), and a single model can accelerate compression from heterogeneous source architectures into a common target architecture.",
+    "authors": [
+      "Adir Dayan",
+      "Yam Eitan",
+      "Haggai Maron"
+    ],
+    "published": "2026-10-01T13:13:55",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Weight-space networks operate directly on parameters of other neural networks, enabling tasks such as predicting model properties, editing trained models, and generating weights. Weight-space symmetries such as neuron permutations make equivariance a key design principle. However, existing equivariant weight-space architectures have primarily been studied for transformations that preserve the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.02040v1",
+    "title": "Typological Alignment of Stack-Based Language Models on Mildly Context-Sensitive Artificial Languages",
+    "url": "http://arxiv.org/abs/2610.02040v1",
+    "summary": "Some properties of languages, e.g., subject-object-verb (SOV) word order, are more prevalent than others among the thousands of attested natural languages (NLs). Such typological commonality is often attributed to learning biases. Computational simulations, recently with language models (LMs), have facilitated the exploration of this theory. In this paper, we extend existing analyses of the relationship between LMs' learning biases and typological commonality on both data and model sides, focusing on: (i) cross-serial dependencies, the upper limit of attested syntactic complexity, and (ii) stack-based LMs (SLMs), potentially facilitating learning of hierarchical patterns. We first evaluate generalization of SLMs on cross-serial dependencies across diverse artificial languages and confirm that they struggle with such constructions. However, SLMs with limited working memory generalize better suggesting a possible basis for such inductive bias and thus the typological commonality of some word order configurations.",
+    "authors": [
+      "Nadine El-Naggar",
+      "Tatsuki Kuribayashi",
+      "Ted Briscoe"
+    ],
+    "published": "2026-10-01T16:52:08",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Some properties of languages, e.g., subject-object-verb (SOV) word order, are more prevalent than others among the thousands of attested natural languages (NLs). Such typological commonality is often attributed to learning biases. Computational simulations, recently with language models (LMs), have facilitated the exploration of this theory. In this paper, we extend existing analyses of the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.01688v1",
+    "title": "Compound interpretation is based on analogy",
+    "url": "http://arxiv.org/abs/2610.01688v1",
+    "summary": "How compound meanings are best predicted from constituent meanings remains a central question in computational models of lexical semantics. Comparing different computational models provides a way to evaluate alternative accounts of how semantic information is combined during compound comprehension. We propose a new model, the Compound Analogy Model (CAM), that predicts a compound's embedding by adding its constituent embeddings together with the average shift vectors of the two constituents' compound families. The resulting model is parameter-free and exploits local analogical structure in the semantic space. We evaluated CAM against the CAOSS model on Mandarin Chinese compounds. CAM consistently achieved higher prediction accuracy than CAOSS on both training and held-out data, with the exception of three-character compounds, for which analogical generalization is constrained by both small constituent families and a pronounced imbalance in family size between the two constituents. The advantage of CAM remained when evaluation was based on frequency-defined train-test splits that better approximate generalization from familiar to novel compounds. To assess the cognitive plausibility of the two models, we further examined whether model-derived semantic measures predict visual lexical decision latencies for two-character compounds. Predictors derived from CAM provided improved prediction for response latencies compared to predictors derived from the CAOSS model. These findings indicate that compound meaning is better characterized as local analogical generalization than as the application of a learned global linear transformation, and demonstrate that analogical semantic structure provides a cognitively plausible basis for compound comprehension.",
+    "authors": [
+      "Tian Shen",
+      "Harald Baayen"
+    ],
+    "published": "2026-10-01T13:44:27",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.CL"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "How compound meanings are best predicted from constituent meanings remains a central question in computational models of lexical semantics. Comparing different computational models provides a way to evaluate alternative accounts of how semantic information is combined during compound comprehension. We propose a new model, the Compound Analogy Model (CAM), that predicts a compound's embedding by\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:1cba5922682a730623a284d56c421f7f040eef7f",
+    "title": "Evaluating Pretrained Causal Language Models for Synonymy",
+    "url": "https://www.semanticscholar.org/paper/1cba5922682a730623a284d56c421f7f040eef7f",
+    "summary": "",
+    "authors": [
+      "I. Ivan",
+      "Carlos Ramisch",
+      "Alexis Nasr"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Evaluating Pretrained Causal Language Models for Synonymy"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:24afcfbbfb98dc0e884151db4c5678b468e62c5e",
+    "title": "An Approach to Stylometry using Causal Language Models An Approach to Stylometry using Causal Language Models",
+    "url": "https://www.semanticscholar.org/paper/24afcfbbfb98dc0e884151db4c5678b468e62c5e",
+    "summary": "",
+    "authors": [
+      "Harrison Stropkay"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "causal language models"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "An Approach to Stylometry using Causal Language Models An Approach to Stylometry using Causal Language Models"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02195v1",
+    "title": "Cost-augmented Schr\u00f6dinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
+    "url": "http://arxiv.org/abs/2610.02195v1",
+    "summary": "The generalized Schr\u00f6dinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge against the tilted reference, and the penalty is unnecessary. The bridge is computed exactly by alternating two endpoint rescalings, each one sparse matrix-exponential application; nothing is discretized in time or learned. The alternation converges at a rate set by the endpoint coupling alone. For a quadratic congestion cost on time-averaged occupancies, damped best response around the exact bridge is gradient descent on a strongly convex function, and its residual bounds its error. On a protein-folding model, a free-energy cost lowers the expected barrier of the folding paths. On the learned approach's road network, roll-outs of the exact bridge match the target within sampling error, and on networks with millions of intersections its memory grows linearly.",
+    "authors": [
+      "Akshay Balsubramani"
+    ],
+    "published": "2026-10-01T17:59:39",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "The generalized Schr\u00f6dinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02175v1",
+    "title": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
+    "url": "http://arxiv.org/abs/2610.02175v1",
+    "summary": "Protein function annotation needs to know which predictions to distrust, not only what a model predicts. We ask whether tissue-specific interaction structure carries that information. Our candidate signal is effective resistance, used previously to relieve over-squashing by rewiring. Across 24 tissue-specific interactomes it is dominated by inverse degree, and the degeneration deepens as the co-expression filtered network grows, with a Spearman correlation of -0.955. The residual departure from that limit exceeds degree-preserving null graphs in all 24 networks. Controlling for predictive entropy, degree, annotation cardinality, local structure and feature-only difficulty, the residual explains additional per-node loss in 19 of 24 held-out networks once a permutation floor is subtracted, at every depth, and the effect strengthens monotonically with depth. The increment reaches 0.37% of the variance the controls leave unexplained, 5.6 times a permutation floor, against 1.5 times when the model is retrained in a degree-preserving null world. Selective prediction improves negligibly. The signal is reproducible; degree degeneration bounds it.",
+    "authors": [
+      "Jianru Shen"
+    ],
+    "published": "2026-10-01T17:57:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Protein function annotation needs to know which predictions to distrust, not only what a model predicts. We ask whether tissue-specific interaction structure carries that information. Our candidate signal is effective resistance, used previously to relieve over-squashing by rewiring. Across 24 tissue-specific interactomes it is dominated by inverse degree, and the degeneration deepens as the\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02098v1",
+    "title": "Are We Recovering Mechanisms? Objective-Level Recovery Gaps in Mechanistic Interpretability",
+    "url": "http://arxiv.org/abs/2610.02098v1",
+    "summary": "Mechanistic interpretability aims to recover the internal computations responsible for model behavior. Progress in automated circuit discovery is often framed as a search problem: better attribution or optimization should identify better mechanisms. This assumes that the evaluation objective can recognize a better circuit once it is found. We show that intervention-defined faithfulness can instead prefer an equally sized circuit that reproduces the model's behavior less well, creating an objective-level recovery gap. Across four human-reference tasks and InterpBench, we compare validation faithfulness with behavior on held-out prompts under fixed ordinary resampling. The behavioral criterion is agreement with the intact model, including its mistakes, except on Greater-Than, where we use semantic accuracy. Controlled reference edits reveal misranking without any discovery algorithm, and outputs of EAP, EAP-IG, ACDC, and Edge-SP exhibit the same failure. Under resampling, KL misranks 9.4%-41.2% of candidate pairs across these methods on the human-reference tasks. We investigate context distortion as an explanation: replacing excluded signals changes the inputs on which retained components operate. Restoring selected signals from the recipient's intact-model execution repairs 96 of 100 persistent KL misrankings from the discovery pool on both validation and held-out prompts. The circuits and their original behavioral scores remain unchanged. These findings show why better discovery alone is insufficient when its objective rewards the wrong candidate.",
+    "authors": [
+      "Chuqin Geng",
+      "Li Zhang",
+      "Haolin Ye",
+      "Mark Zhang",
+      "Luke Zhang",
+      "Xujie Si"
+    ],
+    "published": "2026-10-01T17:25:23",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Mechanistic interpretability aims to recover the internal computations responsible for model behavior. Progress in automated circuit discovery is often framed as a search problem: better attribution or optimization should identify better mechanisms. This assumes that the evaluation objective can recognize a better circuit once it is found. We show that intervention-defined faithfulness can\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.02000v1",
+    "title": "Weather-Aware Domain Adaptation for Street-View Weather Recognition",
+    "url": "http://arxiv.org/abs/2610.02000v1",
+    "summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation (WA-ADDA), which conditions the domain discriminator on predicted weather to promote features that are both domain-invariant and weather-sensitive. We also assemble a multi-dataset benchmark by unifying diverse non-street-view weather collections as sources and real street-view images as targets, and define a standardized evaluation protocol with macro accuracy as the primary metric. Across backbones (ResNet-50, EfficientNet, VGG, DenseNet), WA-ADDA consistently improves street-view performance and yields strong per-class recalls in challenging conditions while preserving clear-weather accuracy. These findings highlight the feasibility of domain-adapted weather recognition and the value of our benchmark for advancing robust, on-board perception.",
+    "authors": [
+      "Hossein Maghsoumi",
+      "George Atia",
+      "Yaser P. Fallah"
+    ],
+    "published": "2026-10-01T16:31:43",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CV"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Adverse conditions such as rain, snow, fog, and dust remain challenging for camera-based perception in autonomous driving. We study multi-class weather recognition from street-view images under domain shift, where most available training data come from non-street-view sources that differ markedly from real driving scenes. We propose Weather-Aware Adversarial Discriminative Domain Adaptation\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01974v1",
+    "title": "Sim+Real: Joint Simulation - Experiment Training Improves Balanced Prediction in Physical Systems",
+    "url": "http://arxiv.org/abs/2610.01974v1",
+    "summary": "Simulation and experimental measurements provide complementary data for learning spatiotemporal physical systems, but standard simulation-to-experiment fine-tuning optimizes only the experimental objective after transfer and can degrade simulation performance. We formulate simulation--experiment prediction as a multi-objective learning problem with domain-specific simulation and experimental risks. On four fluid systems from RealPDEBench and two model capacities, we compare Simulation only, Experiment only, Sim$\\rightarrow$Exp, and Joint training, evaluating every final model on both held-out domains. Sim$\\rightarrow$Exp tends to specialize more strongly to experimental data at the cost of simulation-domain forgetting. Joint training consistently achieves the best balanced performance over a broad range of simulation--experiment evaluation weightings, while substantially improving simulation retention over Sim$\\rightarrow$Exp. Joint also better preserves simulation-only fields absent from experimental measurements. Project page: https://mahindrautela.github.io/morph.",
+    "authors": [
+      "Mahindra Rautela",
+      "Alexander Scheinker",
+      "Ayan Biswas",
+      "Diane Oyen",
+      "Nathan DeBardeleben",
+      "Earl Lawrence"
+    ],
+    "published": "2026-10-01T16:22:46",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Simulation and experimental measurements provide complementary data for learning spatiotemporal physical systems, but standard simulation-to-experiment fine-tuning optimizes only the experimental objective after transfer and can degrade simulation performance. We formulate simulation--experiment prediction as a multi-objective learning problem with domain-specific simulation and experimental\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01834v1",
+    "title": "Code Owns the Simulation, Jev Owns the Evaluation",
+    "url": "http://arxiv.org/abs/2610.01834v1",
+    "summary": "Judgment models such as \\jev{} return, in a single call and without reasoning text, a probability for each described option. This makes them attractive as an agent's action-selection layer, but it is unclear which decisions they can be trusted with. We test \\jev{} on reflection tests, one-shot matrix games, the text game ALFWorld and robot control, and find a sharp boundary. \\jev{} succeeds when the right option can be judged from what the input describes, which we call \\emph{evaluation}. Specifically, it solves 99\\% of the counterintuitive Cognitive Reflection Test questions. However, it fails when the right option depends on \\emph{simulation} (i.e., predicting something not in the input), such as the opponent's action or the subgoal that must come first. In games, \\jev{} plays suboptimally as if its rational opponent acted at random, because the opponent's action is not given. In ALFWorld, \\jev{} favors commands that mention an object or place named in the task description. For example, given the task ``put a clean knife in the drawer'', \\jev{} carries an unwashed knife straight to the drawer instead of first washing it at the sink. Surprisingly, many of these failures are not due to a lack of knowledge. Asked separately what the opponent will do, \\jev{} usually answers correctly, and it responds well given the opponent's action. It fails when one call must both perform the simulation and evaluate based on it. This suggests letting code make the prediction or simulation. When code supplies it, such as a lookahead in ALFWorld and physics simulation in robot control, \\jev{} becomes an expert controller through its general evaluation ability.",
+    "authors": [
+      "Yaodong Yang",
+      "Hongyao Tang",
+      "Yi Ma",
+      "Xingyu Fan",
+      "Weixun Wang",
+      "Jinpeng Li",
+      "Tianpei Yang"
+    ],
+    "published": "2026-10-01T15:06:40",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Judgment models such as \\jev{} return, in a single call and without reasoning text, a probability for each described option. This makes them attractive as an agent's action-selection layer, but it is unclear which decisions they can be trusted with. We test \\jev{} on reflection tests, one-shot matrix games, the text game ALFWorld and robot control, and find a sharp boundary. \\jev{} succeeds when\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01831v1",
+    "title": "Pooling Helps, Learned Weighting Hurts In-Context: Decomposing Group Attention",
+    "url": "http://arxiv.org/abs/2610.01831v1",
+    "summary": "Group attention, introduced by the time series forecasting model Chronos-2, attends over the variates of a group at a fixed patch index and serves both multivariate (MV) and in-context learning (ICL) forecasting. Rather than evaluating this cross-variate attention design as a whole, we ask which part of the mechanism earns the benefit and probe its applicability to both MV and ICL regimes. By editing the attention matrix $\u03b1$ at inference we separate the two pathways a head comprises: V/O, which projects a weighted summary of the group, and Q/K, which decides the weights. Uniform pooling (V/O without any Q/K weighting) is positive on 18 of our 20 sensor-network configurations, while the learned weighting (Q/K) splits by group type: its contribution is positive or negligible for MV, but materially degrades 8 of the 10 sensor-network ICL configurations, leaving 4 of them worse than univariate inference. By isolating the impact of different layers, we find that uniforming $\u03b1$ in the first block alone improves every ICL configuration we test.",
+    "authors": [
+      "Michael Fore",
+      "James Mason Inder",
+      "Mrishika Nair",
+      "Praneetha Vaddamanu",
+      "Sharlina Keshava"
+    ],
+    "published": "2026-10-01T15:05:41",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Group attention, introduced by the time series forecasting model Chronos-2, attends over the variates of a group at a fixed patch index and serves both multivariate (MV) and in-context learning (ICL) forecasting. Rather than evaluating this cross-variate attention design as a whole, we ask which part of the mechanism earns the benefit and probe its applicability to both MV and ICL regimes. By\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01827v1",
+    "title": "Scientific Discovery under Validation Congestion via Multi-Fidelity Pairwise Rankings",
+    "url": "http://arxiv.org/abs/2610.01827v1",
+    "summary": "Modern computational methods can now propose candidate molecules, materials, and other scientific designs at an unprecedented scale, creating a validation congestion where candidates are abundant, but experimental capacity to physically evaluate them remains scarce. Discovering novel scientific designs has therefore become increasingly dependent on curation: selecting a small set of promising designs for slow and costly experiments. Existing curation methods typically rely on data-driven regression models that predict absolute scores, but training these models requires substantial experimental data to begin with. Yet, useful curation signals do not have to take the form of absolute measurements, as scientific design discovery is often comparative in nature. Here, we propose that curation can instead be primarily driven by expert pairwise rankings, which are substantially easier to gather. The expertise can come from computational tools or human input of multiple levels of fidelity, ranging from empirical rules of thumb to agentic workflows and experienced scientists. We introduce PRISMS, a framework that uses pairwise rankings from one or more experts, potentially spanning multiple levels of expertise, to identify the most promising candidates without relying on data-hungry regressors. When experts differ in fidelity and cost, PRISMS escalates pairwise queries from lower- to higher-fidelity rankers based on a Fisher-information criterion. In iterative screening that selects designs from fixed drug discovery libraries, PRISMS achieves 50% top-10 discovery recall in ~42% fewer rounds than regression-only active learning, and in ~15% fewer rounds than the ranking-based method with no selective escalation. In optimization that generates new designs without restriction to a predefined library, PRISMS achieves ~18.8% higher hypervolume than the Bayesian optimization baseline.",
+    "authors": [
+      "Kevin Tirta Wijaya",
+      "Alston Lo",
+      "Michael Sun",
+      "Wojciech Matusik",
+      "Vahid Babaei"
+    ],
+    "published": "2026-10-01T15:04:03",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Modern computational methods can now propose candidate molecules, materials, and other scientific designs at an unprecedented scale, creating a validation congestion where candidates are abundant, but experimental capacity to physically evaluate them remains scarce. Discovering novel scientific designs has therefore become increasingly dependent on curation: selecting a small set of promising\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01819v1",
+    "title": "MECHVAR: Variance-Guided Mechanism Discrimination for Autonomous Machine Learning Experiment Selection",
+    "url": "http://arxiv.org/abs/2610.01819v1",
+    "summary": "Benchmark gains are often mechanism-ambiguous: reproducing an improvement does not by itself identify why it occurs. We study finite-library mechanism discrimination, where posterior-weighted candidate mechanisms, executable probes, and a limited experimental budget define a sequential experiment-selection problem. MECHVAR selects the next probe by maximizing the posterior-weighted variance of its predicted responses. Under a shared-Gaussian predictive model, this score is exactly proportional to the classical Box--Hill posterior-weighted pairwise-KL criterion, yet it admits O(KE) vectorized rescoring and a transparent additive audit over mechanism pairs. A local expansion further links the score to expected information gain (EIG) when predicted response separations are small. In a 25-block stress audit, MECHVAR outperforms confirmation-first in several moderate misspecification regimes, while its primary comparisons with EIG remain statistically unresolved. In a held-out Digits loop, normalized mechanism-identification AUC is 0.8975 for MECHVAR, 0.7825 for a score-greedy policy, and 0.9092 for EIG. At K = 100, E = 200, median single-thread full-library scoring is 10.36 microseconds for MECHVAR versus 57.69 ms for six-node quadrature EIG in the recorded environment. MECHVAR therefore provides a lightweight, auditable acquisition rule for finite-library experiment selection when a shared predictive scale is a defensible approximation.",
+    "authors": [
+      "Yifan Guo"
+    ],
+    "published": "2026-10-01T14:53:09",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Benchmark gains are often mechanism-ambiguous: reproducing an improvement does not by itself identify why it occurs. We study finite-library mechanism discrimination, where posterior-weighted candidate mechanisms, executable probes, and a limited experimental budget define a sequential experiment-selection problem. MECHVAR selects the next probe by maximizing the posterior-weighted variance of\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01815v1",
+    "title": "Debias Anything: Fairness with Diversity without Supervision in Diffusion Models",
+    "url": "http://arxiv.org/abs/2610.01815v1",
+    "summary": "Although diffusion models produce high-quality images, they also reproduce and amplify demographic imbalances in their training data. Debiasing their generation process post-training w.r.t. some sensitive attribute usually relies on classifier guidance or explicit text extra-conditioning, but this reduces methods' applicability and output diversity. Conversely, methods promoting diversity alone do not ensure fair attribute representation. In this paper, we propose a method tackling fairness and diversity jointly that is generally applicable to any diffusion model and any sensitive attribute. To this end, an adapter connects the frozen diffusion model to a pretrained vision-language embedding space, enabling fairness and diversity guidance without sensitive-attribute annotations. For fairness, pairs of text prompts define attribute directions which guide batch composition towards specific proportions. For diversity, we introduce a score measuring disagreement between the semantic estimates derived from this representation. The formulation supports unconditional and text-conditional diffusion models, while requiring no prior knowledge or data of sensitive attribute. Experiments confirm that our method improves quality and diversity scores at comparable fairness levels.",
+    "authors": [
+      "Th\u00e9au d'Audiffret",
+      "Mariia Vladimirova",
+      "Jean-Yves Franceschi"
+    ],
+    "published": "2026-10-01T14:51:03",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Although diffusion models produce high-quality images, they also reproduce and amplify demographic imbalances in their training data. Debiasing their generation process post-training w.r.t. some sensitive attribute usually relies on classifier guidance or explicit text extra-conditioning, but this reduces methods' applicability and output diversity. Conversely, methods promoting diversity alone\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01792v1",
+    "title": "Learnt Attacks on Quantum Key Distribution under Channel Noise and Device Drift",
+    "url": "http://arxiv.org/abs/2610.01792v1",
+    "summary": "Quantum key distribution (QKD) links are provisioned from security analyses of stationary channels, whereas the devices that determine the channel drift between recalibrations. Whether an eavesdropper who cannot alter the channel's own noise gains by following that drift has not been quantified. Adaptive eavesdropping is posed here as a constrained Markov decision process in which the attacker selects one circuit per round while the noise level follows an Ornstein--Uhlenbeck process and the abort condition is a budget over each block of rounds. The value of adaptation is bounded by the best fixed circuit and a dynamic-programming upper bound. The actions are learnt attacks. Whereas Decker et al. trained a parametrised circuit on a fixed gate template against a fixed channel, here the gate structure and rotation angles are searched jointly. This yields circuits compact enough to form a discrete action set, extending the construction to noise models lacking a known template, including the amplitude damping channel. On device-independent E91 under bilateral depolarising noise, a reinforcement-learning attacker raises her Holevo information from $0.135$ for the best fixed circuit to $0.348$ at zero detection, $98\\%$ of the upper bound. On BB84 under a drifting bit-flip channel, she exceeds a conservative noise-indexed rule by $0.024$ in fidelity, reaching $99\\%$ of the upper bound. Under stationary noise, the attacker's gain from basis asymmetry changes sign between an averaged and a per-basis error-rate constraint. The search, started from random gate sequences, recovers the analytical cloners and the collective-attack key rate, and meets the lower bound of the Winick--L\u00fctkenhaus--Coles objective from above.",
+    "authors": [
+      "Marcel Mordarski",
+      "Benjamin Gras",
+      "Abdelrahman Shehata",
+      "Daniel Budina",
+      "Roberto Bondesan"
+    ],
+    "published": "2026-10-01T14:36:30",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "quant-ph"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Quantum key distribution (QKD) links are provisioned from security analyses of stationary channels, whereas the devices that determine the channel drift between recalibrations. Whether an eavesdropper who cannot alter the channel's own noise gains by following that drift has not been quantified. Adaptive eavesdropping is posed here as a constrained Markov decision process in which the attacker\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01781v1",
+    "title": "Q-Learning for Reachability in MEC-Free MDPs",
+    "url": "http://arxiv.org/abs/2610.01781v1",
+    "summary": "Reinforcement learning (RL) for reachability specifications is fundamental to sequential decision-making. Prior work establishes asymptotic convergence to optimal policies, but only through model-based methods that must explicitly estimate the transition probabilities of the underlying Markov Decision Process (MDP). We present Quasar, the first model-free algorithm with asymptotic guarantees for reachability on the fragment of MDPs free of non-terminal maximal end components (MECs), a building block to which every MDP reduces by the standard MEC quotient. Our algorithm follows the classical Q-learning approach, using temporal-difference updates to converge to an optimal policy without ever learning the transition probabilities. The resulting learner reduces the memory footprint from the O(|S|^2|A|) that model-based methods require to O(|S||A|). On the standardized Quantitative Verification Benchmark Set, our algorithm converges to the optimal policy with orders of magnitude fewer samples than the previous model-based state-of-the-art. Together these results are a concrete step toward the practical deployment of reachability learning and, with it, of specification-guided RL.",
+    "authors": [
+      "Lu-Chin Chang",
+      "Suguman Bansal"
+    ],
+    "published": "2026-10-01T14:32:10",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Reinforcement learning (RL) for reachability specifications is fundamental to sequential decision-making. Prior work establishes asymptotic convergence to optimal policies, but only through model-based methods that must explicitly estimate the transition probabilities of the underlying Markov Decision Process (MDP). We present Quasar, the first model-free algorithm with asymptotic guarantees for\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01738v1",
+    "title": "Participation-Sensitive Convergence and the Fragment First, Converge Later Pattern in Asynchronous Online Learning: A Topological Analysis Across 22 OULAD Courses",
+    "url": "http://arxiv.org/abs/2610.01738v1",
+    "summary": "Asynchronous online learning offers temporal flexibility at a structural cost: learning communities tend to fragment rather than cohere. $\u03b2_0$, the number of disconnected behavioral clusters from Zigzag Persistent Homology, serves as a cohort-level indicator of this structure. Two questions remained unverified at scale: (1) does apparent $\u03b2_0$ convergence reflect genuine behavioral alignment or learner dropout? and (2) do assessment deadlines produce reproducible fragmentation-convergence cycles? We address both across all 22 OULAD courses (N > 22,000; 857 week-pairs). Changes in $\u03b2_0$ strongly co-vary with active learner changes (pooled r = 0.387; median per-course r_delta = 0.459, 20/22 courses), identifying $\u03b2_0$ as a participation-sensitive indicator: $\u03b2_0$ and active learner counts co-respond to deadline events rather than one causing the other. Deadlines produced fragmentation in 82.6% of assessments and the full Fragment First, Converge Later (FFCL) cycle in 60.2%. 3-phase analysis confirmed structural fragmentation as the dominant long-term trajectory (90.9% of courses), moderated by curriculum structure. These findings establish $\u03b2_0$ as a participation-sensitive structural indicator with direct implications for AI-augmented learning analytics design.",
+    "authors": [
+      "Hitoshi Inoue",
+      "Koichi Yasutake"
+    ],
+    "published": "2026-10-01T14:10:36",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.CY"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Asynchronous online learning offers temporal flexibility at a structural cost: learning communities tend to fragment rather than cohere. $\u03b2_0$, the number of disconnected behavioral clusters from Zigzag Persistent Homology, serves as a cohort-level indicator of this structure. Two questions remained unverified at scale: (1) does apparent $\u03b2_0$ convergence reflect genuine behavioral alignment or\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01725v1",
+    "title": "RelICL: Training-free Relational Learning with Tabular Foundation Models",
+    "url": "http://arxiv.org/abs/2610.01725v1",
+    "summary": "Tabular foundation models achieve state-of-the-art performance on single-table tasks without any training. Recent work suggests that they are also well-suited for relational learning via deep feature synthesis (DFS), which flattens a relational schema into a single table by adding aggregates of the other tables' columns as features. This approach is appealing because it directly benefits from improvements to or customization of the underlying tabular foundation model. In this paper, we identify two key problems with DFS: feature explosion and interaction blindness. The first problem arises because the number of DFS features grows quickly as the schema becomes more complex, limiting scalability and performance. The second problem arises because column-wise aggregates do not account for feature interactions, limiting performance. We propose and explore an alternative method termed RelICL, which keeps the benefits of DFS but alleviates these two problems. At its heart, RelICL propagates and fuses information step by step through the schema graph, using the same tabular foundation model that is eventually used for prediction to do so. In our experimental study using RelBench tasks, RelICL was on par with the strongest approach based on deep feature synthesis.",
+    "authors": [
+      "Simon Forbat",
+      "Rainer Gemulla"
+    ],
+    "published": "2026-10-01T14:00:23",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Tabular foundation models achieve state-of-the-art performance on single-table tasks without any training. Recent work suggests that they are also well-suited for relational learning via deep feature synthesis (DFS), which flattens a relational schema into a single table by adding aggregates of the other tables' columns as features. This approach is appealing because it directly benefits from\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01692v1",
+    "title": "Artifact Annotations Partially Substitute for Per-User Calibration: SAFE-EDA and a Normalization-Controlled Evaluation of Wrist-EDA Affect Recognition",
+    "url": "http://arxiv.org/abs/2610.01692v1",
+    "summary": "Wrist electrodermal activity (EDA) differs in amplitude from one person to the next, so affect-recognition models normalize their input before classification. Studies that test such models on held-out subjects seldom report where the normalization statistics come from, yet statistics computed from the held-out subject's own recording give the model information that a device does not have when it is first worn. We asked how this choice alters the measured benefit of pretraining. A compact convolutional network, SAFE-EDA, was pretrained on expert artifact annotations from 43 subjects and compared with the same network trained from scratch on the Wearable Stress and Affect Detection (WESAD) dataset (15 subjects, leave-one-subject-out), with two normalization sources crossed with four window hops. When the statistics came only from training subjects, pretraining raised macro-F1 by 0.078 to 0.227; when they came from the held-out user's full recording, the gain fell to between 0.020 and 0.050 and was no longer significant. Artifact supervision was far more useful than self-supervised pretraining on the same recordings (0.078 versus 0.008). Across 13 configurations in two datasets, the pretrained network was better in 12, but on the second dataset (26 subjects) per-user normalization increased the gain instead of reducing it, so the interaction depends on the data. Only five of 50 published WESAD studies state which data were used for normalization. Reporting this choice is necessary to separate first-use performance from performance after calibration.",
+    "authors": [
+      "Haochen Chai",
+      "Xinbi Luo",
+      "Zining Liu",
+      "Fangfang Jiang"
+    ],
+    "published": "2026-10-01T13:45:54",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Wrist electrodermal activity (EDA) differs in amplitude from one person to the next, so affect-recognition models normalize their input before classification. Studies that test such models on held-out subjects seldom report where the normalization statistics come from, yet statistics computed from the held-out subject's own recording give the model information that a device does not have when it\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01674v1",
+    "title": "Invent a Dataset: Measuring dataset generation abilities with zero seed",
+    "url": "http://arxiv.org/abs/2610.01674v1",
+    "summary": "Building datasets remains one of the most manual and brittle parts of AI development. In this technical report, we focus on the most extreme but also most prevalent setting real world practitioners face: a zero data regime. Here, practitioners don't have any data for the capability they want to learn. We introduce Invent-A-Dataset which is a prompt based system to go from dataset description to realistic and large scale post-training datasets. We evaluate Invent-A-Dataset against five frontier model APIs including Anthropic, Google, Open AI, DeepSeek, Zai. Across eight task types and dataset sizes up to 20K samples, Invent-A-Dataset significantly outperforms with both the highest quality (17% relative gains) while simultaneously producing the most diverse samples (19% relative gains). Its diversity advantage widens with scale of training dataset size (from parity at 200 samples to 37% relative gains at 20K samples). This translates into considerable downstream training gains, resulting in far more performant post-trained models. Invent-A-Dataset fine-tune consistently ranks higher compared to other generator fine-tunes across different post-trained model architectures.",
+    "authors": [
+      "Shivalika Singh",
+      "Andrija Djurisic",
+      "Gbemileke Onilude",
+      "Sudip Roy",
+      "Sara Hooker"
+    ],
+    "published": "2026-10-01T13:32:06",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.LG"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Building datasets remains one of the most manual and brittle parts of AI development. In this technical report, we focus on the most extreme but also most prevalent setting real world practitioners face: a zero data regime. Here, practitioners don't have any data for the capability they want to learn. We introduce Invent-A-Dataset which is a prompt based system to go from dataset description to\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.LG",
+    "id": "arxiv:2610.01647v1",
+    "title": "Towards a Cloud Fog Edge System for Smart Building",
+    "url": "http://arxiv.org/abs/2610.01647v1",
+    "summary": "In this article, we present our vision and recent advancements toward creating a decentralized system capable of learning from real-time data within buildings to support sustainable and privacy-preserving smart environments. Our approach promotes the concept of the building itself as the data center, aligning with the principles of edge computing to safeguard confidentiality and reduce reliance on external cloud infrastructure. This is particularly valuable in humanitarian contexts, where data sovereignty, energy efficiency, and infrastructure constraints are critical. We detail a lightweight, \"Kubernetes-like\" orchestration framework for deploying AI services within such environments and demonstrate our progress in implementing AI algorithms on low-power, cost-effective microcontrollers such as those in the Arduino ecosystem. By enabling in-situ learning directly on sensors or microcontrollers, our work aims to bring intelligent services to resource-limited settings, fostering autonomy, resilience, and sustainable development in vulnerable or underserved communities. The contributions in this article are related, firstly, to our project \"Online Machine Learning Algorithms for Embedded Systems\" and the evaluation of two new online algorithms. Secondly, we envision a cloud-fog-edge architecture based on the KOptim and FIWARE components, and we propose a methodology for coupling them. Experimental results of the online algorithms are also presented, showcasing real-world traces.",
+    "authors": [
+      "Christophe C\u00e9rin",
+      "Mamadou Sow",
+      "Fr\u00e9d\u00e9ric Andr\u00e8s"
+    ],
+    "published": "2026-10-01T13:13:21",
+    "extras": {
+      "category": "cs.LG",
+      "primary_category": "cs.DC"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "In this article, we present our vision and recent advancements toward creating a decentralized system capable of learning from real-time data within buildings to support sustainable and privacy-preserving smart environments. Our approach promotes the concept of the building itself as the data center, aligning with the principles of edge computing to safeguard confidentiality and reduce reliance\u2026"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv cs.CL",
+    "id": "arxiv:2610.02001v1",
+    "title": "Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks",
+    "url": "http://arxiv.org/abs/2610.02001v1",
+    "summary": "Small open-weight models (2-9B) run on ordinary laptops, but under cloud-scale agent harnesses they rarely complete real tasks: tool prefill overflows the context, self-correction diverges, tool demonstrations loop, and tasks are silently abandoned. We present evidence, from a controlled single-machine comparison and one third-party benchmark, that a substantial share of these failures is attributable to the harness rather than the model. We introduce Mingbird, a local-first agent harness for Windows and Ollama whose ten mechanisms compensate point-by-point for small-model failure forms, three of them representative: a byte-level net-zero prefill budget, a finish gate that re-reads the task before accepting completion, and signature-level loop detection. On LRAB, a controlled comparison holding machine, models, budgets, and scoring fixed (4 harnesses $\\times$ 4 open models (2B-35B) $\\times$ 18 real tasks, deterministic artifact scoring), Mingbird reaches 0.886 overall against 0.631 (goose), 0.479 (opencode), and 0.405 (agent-mini), with all 288 cells published; on $\u03c4^2$-bench (278 tasks, three arms, one protocol) it totals 0.856 against 0.791 and 0.737; and a frontier-model probe on the same 18 tasks spans 0.997 to 0.478 across harnesses, with well-formed scaffolds staying within 0.072 of each other. A leave-one-mechanism-out ablation is reported as directional only: same-night replications of the same arm move its mean by up to 0.069, the size of every nominal single-trial delta, and the one batch-matched comparison (full mechanism stack versus text re-read alone) gives the executable completion guards a paired +0.10 across three replications. The evidence carries stated limits: a self-built benchmark, a single machine, and single-trial scoring.",
+    "authors": [
+      "Hao Wang",
+      "Ting Huang"
+    ],
+    "published": "2026-10-01T16:32:07",
+    "extras": {
+      "category": "cs.CL",
+      "primary_category": "cs.AI"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Small open-weight models (2-9B) run on ordinary laptops, but under cloud-scale agent harnesses they rarely complete real tasks: tool prefill overflows the context, self-correction diverges, tool demonstrations loop, and tasks are silently abandoned. We present evidence, from a controlled single-machine comparison and one third-party benchmark, that a substantial share of these failures is\u2026"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:Flintkreadapt/IBM-SPSS-Statistics-Pro",
+    "title": "Flintkreadapt/IBM-SPSS-Statistics-Pro \u2014 IBM SPSS Statistics Pro for Windows \u2014 the complete professional build with every module enabled: statistical modeling, econometrics, and data analysis, no edition limits after install.",
+    "url": "https://github.com/Flintkreadapt/IBM-SPSS-Statistics-Pro",
+    "summary": "IBM SPSS Statistics Pro for Windows \u2014 the complete professional build with every module enabled: statistical modeling, econometrics, and data analysis, no edition limits after install.",
+    "authors": [],
+    "published": "2026-10-01T18:39:32Z",
+    "extras": {
+      "stars": 27,
+      "language": null,
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "IBM SPSS Statistics Pro for Windows \u2014 the complete professional build with every module enabled: statistical modeling, econometrics, and data analysis, no edition limits after install."
+  }
+]
