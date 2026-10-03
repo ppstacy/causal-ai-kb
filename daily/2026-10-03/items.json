@@ -1,0 +1,17 @@
+[
+  {
+    "source": "rss",
+    "source_name": "Booking.com Data Science",
+    "id": "rss:https://booking.ai/introducing-agenthub-booking-com-platform-for-modular-travel-ai-agents-68bc521a0f50?source=rss----4d265f07defc---4",
+    "title": "Introducing AgentHub: Booking.com Platform for Modular Travel AI Agents",
+    "url": "https://booking.ai/introducing-agenthub-booking-com-platform-for-modular-travel-ai-agents-68bc521a0f50?source=rss----4d265f07defc---4",
+    "summary": "Authors:   Moran Beladev ,  Hadas Harush ,  Chana\u00a0Ross      At Booking.com we developed AgentHub, a platform to power intelligent, modular, and multi-modal travel experiences through LLM-driven agents. Our platform provides configurable agents capable of performing a wide range of tasks, along with out-of-the-box agent management and monitoring capabilities. With AgentHub, different teams can build and deploy AI agents in a matter of hours, based on configuration and reusable components.  Background  As AI capabilities continue to advance rapidly, agentic AI is becoming a defining force in the technology landscape. Unlike traditional generative systems, agentic AI extends large language models (LLMs) with iterative planning, autonomous decision-making, and the ability to take action through tools. By enabling direct interaction with internal systems and APIs, these agents can leverage proprietary data and orchestrate workflows end to end\u200a\u2014\u200a unlocking deeper contextual understanding and highly personalized user experiences.     The Evolution from Generative AI to Agentic AI\u00a0( source )   To support a wide range of GenAI use cases at Booking.com, from simple LLM-powered features to fully agentic capabilities, we built the  AgentHub platform.  AgentHub enables rapid agent creation through configuration-driven setups, backed by robust shared infrastructure. This approach democratizes GenAI across the company, empowering diverse roles such as UX writers, product managers, developer",
+    "authors": [],
+    "published": "2026-10-02T16:12:51",
+    "extras": {},
+    "score": 65,
+    "topic": "causal-lm",
+    "why_relevant": "3 keyword hits; trusted source; +15 source-type",
+    "llm_summary": "Authors:   Moran Beladev ,  Hadas Harush ,  Chana\u00a0Ross      At Booking.com we developed AgentHub, a platform to power intelligent, modular, and multi-modal travel experiences through LLM-driven agents. Our platform provides configurable agents capable of performing a wide range of tasks, along with out-of-the-box agent management and monitoring capabilities. With AgentHub, different teams can\u2026"
+  }
+]

@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-03</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</guid>
+      <pubDate>Sat, 03 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Introducing AgentHub: Booking.com Platform for Modular Travel AI Agents — Causal LMs · score 65 · Booking.com Data Science</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-02</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-02/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-02/</guid>
@@ -203,17 +210,6 @@
 3. Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning — Causal LMs · score 52 · arXiv cs.LG · Jing Guan, Yachao Yang, Zhaoliang Liu, Yuyao Zhang et al. (6 authors)
 4. Semiparametric Inference for Conditional Shapley Feature Importance — Other · score 48 · arXiv stat.ME · Agostino Gnasso
 5. Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization — Causal LMs · score 48 · arXiv cs.LG · Andy Zeyi Liu, Haoran Sun, Lucas Baker, Randall Balestriero et al. (5 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-09</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-09/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-09/</guid>
-      <pubDate>Wed, 09 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Why Spotify Is Not Using Bayesian A/B Testing — Experimentation · score 57 · Spotify R&amp;D
-2. NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting — Causal LMs · score 56 · arXiv cs.LG · Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov, Özgün Turgut et al. (8 authors)
-3. Do Reasoning Representations Help Humans Evaluate LLM Outputs? — Causal LMs · score 56 · arXiv cs.LG · Jaewoo Lim, Sungbok Shin, Sanghyun Hong
-4. TontaubeV1: Streaming Text-to-Speech with Hierarchical Codec Modeling and Bounded Context — Causal LMs · score 56 · arXiv cs.LG · Fritz Cremer, Jonathan Cremer
-5. Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation — Causal LMs · score 56 · arXiv cs.CL · Xingyu Deng, Mingzi Cao, Nikolaos Aletras, Xi Wang et al. (5 authors)</description>
     </item>
   </channel>
 </rss>
