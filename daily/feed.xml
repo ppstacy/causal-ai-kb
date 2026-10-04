@@ -6,6 +6,16 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-04</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-04/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-04/</guid>
+      <pubDate>Sun, 04 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
+2. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
+3. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
+4. NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS — Other · score 40 · Semantic Scholar: Guido Imbens causal · S. Athey, M. Bayati, Nikolay Doudchenko, G. Imbens et al. (5 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-03</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</guid>
@@ -199,17 +209,6 @@
 3. Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens — Causal LMs · score 56 · arXiv cs.CL · Carl Edwards, Edward De Brouwer, Xiner Li, Namkyeong Lee et al. (8 authors)
 4. Recognizing Is Not Reversing: A Controlled Inversion Test of Fact-Preserving News Framing — Causal LMs · score 56 · arXiv cs.CL · Yi Liu
 5. Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact — Causal Inference · score 52 · arXiv stat.ML · Masahiro Kato, Daiki Honma, Taka Kato</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-10</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-10/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-10/</guid>
-      <pubDate>Thu, 10 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Agent-Based ML-LLM Fusion with Self-Optimizing Prompts for Plateau Weather Alerts — Causal LMs · score 56 · arXiv cs.LG · Shuai Yan, Yang Xu, Shan He
-2. An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order — Experimentation · score 52 · arXiv stat.ML · Xuan Li
-3. Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning — Causal LMs · score 52 · arXiv cs.LG · Jing Guan, Yachao Yang, Zhaoliang Liu, Yuyao Zhang et al. (6 authors)
-4. Semiparametric Inference for Conditional Shapley Feature Importance — Other · score 48 · arXiv stat.ME · Agostino Gnasso
-5. Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization — Causal LMs · score 48 · arXiv cs.LG · Andy Zeyi Liu, Haoran Sun, Lucas Baker, Randall Balestriero et al. (5 authors)</description>
     </item>
   </channel>
 </rss>
