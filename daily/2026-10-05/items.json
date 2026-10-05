@@ -1,0 +1,40 @@
+[
+  {
+    "source": "github_release",
+    "source_name": "WillianFuks/tfcausalimpact releases",
+    "id": "ghrel:WillianFuks/tfcausalimpact:v0.0.19",
+    "title": "WillianFuks/tfcausalimpact v0.0.19",
+    "url": "https://github.com/WillianFuks/tfcausalimpact/releases/tag/v0.0.19",
+    "summary": "Adds support for Python 3.13",
+    "authors": [],
+    "published": "2026-09-20T13:01:23",
+    "extras": {
+      "repo": "WillianFuks/tfcausalimpact",
+      "tag": "v0.0.19",
+      "prerelease": false
+    },
+    "score": 55,
+    "topic": "other",
+    "why_relevant": "+25 source-type",
+    "llm_summary": "Adds support for Python 3.13"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:DavidBustamanteL/EconR",
+    "title": "DavidBustamanteL/EconR \u2014 EconR is a developing R package for econometric estimation with a consistent interface and model-specific missing-data handling.",
+    "url": "https://github.com/DavidBustamanteL/EconR",
+    "summary": "EconR is a developing R package for econometric estimation with a consistent interface and model-specific missing-data handling.",
+    "authors": [],
+    "published": "2026-10-04T19:19:43Z",
+    "extras": {
+      "stars": 4,
+      "language": "R",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "EconR is a developing R package for econometric estimation with a consistent interface and model-specific missing-data handling."
+  }
+]

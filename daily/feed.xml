@@ -6,6 +6,14 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-05</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-05/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-05/</guid>
+      <pubDate>Mon, 05 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. WillianFuks/tfcausalimpact v0.0.19 — Other · score 55 · WillianFuks/tfcausalimpact releases
+2. DavidBustamanteL/EconR — EconR is a developing R package for econometric estimation with a consistent interface and… — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-04</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-04/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-04/</guid>
@@ -198,17 +206,6 @@
 3. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
 4. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xinbo Wu, Lav R. Varshney
 5. Evaluating Pretrained Causal Language Models for Synonymy — Causal LMs · score 44 · Semantic Scholar: causal language models · I. Ivan, Carlos Ramisch, Alexis Nasr</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-11</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-11/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-11/</guid>
-      <pubDate>Fri, 11 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. A distribution-free certification framework for trustworthy crash-severity prediction — Uplift / HTE · score 56 · arXiv stat.ML · Amir Rafe, Subasish Das
-2. Nuha-Speech: Building General-Purpose Arabic Speech-LLMs — Causal LMs · score 56 · arXiv cs.CL · Yingzhi Wang, Reem Alhazzani, Muhammad Alqurishi
-3. Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens — Causal LMs · score 56 · arXiv cs.CL · Carl Edwards, Edward De Brouwer, Xiner Li, Namkyeong Lee et al. (8 authors)
-4. Recognizing Is Not Reversing: A Controlled Inversion Test of Fact-Preserving News Framing — Causal LMs · score 56 · arXiv cs.CL · Yi Liu
-5. Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact — Causal Inference · score 52 · arXiv stat.ML · Masahiro Kato, Daiki Honma, Taka Kato</description>
     </item>
   </channel>
 </rss>
