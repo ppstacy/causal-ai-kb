@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-06</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-06/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-06/</guid>
+      <pubDate>Tue, 06 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. SOL: Measuring Gaps between Text Distributions by Double Sliced Wasserstein Metrics — Causal LMs · score 60 · arXiv stat.ML · Gregor Kornhardt, Moritz Piening, Jannis Chemseddine, Gabriele Steidl
+2. Learning to Read the Contextual Tokens in Diffusion Transformers — Causal LMs · score 56 · arXiv cs.LG · Omer Dahary, Etai Sella, Hadar Averbuch-Elor, Daniel Cohen-Or et al. (5 authors)
+3. BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents — Causal LMs · score 56 · arXiv cs.LG · Ziyan Wang, Shuqing Shi, James Oldfield, Samuele Marro et al. (8 authors)
+4. pymc-labs/CausalPy 1.0.0rc1 — Other · score 55 · pymc-labs/CausalPy releases
+5. Private online learning and prediction for Littlestone classes — Uplift / HTE · score 52 · arXiv stat.ML · Amartya Sanyal</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-05</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-05/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-05/</guid>
@@ -195,17 +206,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-14/</guid>
       <pubDate>Mon, 14 Sep 2026 13:00:00 +0000</pubDate>
       <description>1. kirilklein/causal-sandbox — Learn causal inference by changing the world. Guided lessons and a sandbox with confounders,… — Causal Inference · score 34 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-12</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-12/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-12/</guid>
-      <pubDate>Sat, 12 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner et al. (84 authors)
-2. Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey — Causal LMs · score 56 · Semantic Scholar: causal language models · Xiaoyu Liu, Paiheng Xu, Junda Wu, Jiaxin Yuan et al. (13 authors)
-3. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Ruichu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
-4. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xinbo Wu, Lav R. Varshney
-5. Evaluating Pretrained Causal Language Models for Synonymy — Causal LMs · score 44 · Semantic Scholar: causal language models · I. Ivan, Carlos Ramisch, Alexis Nasr</description>
     </item>
   </channel>
 </rss>
