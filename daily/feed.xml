@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-07</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-07/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-07/</guid>
+      <pubDate>Wed, 07 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Measuring Gift Card Program Incrementality via Causal Data Fusion — Uplift / HTE · score 100 · arXiv stat.ME · Justin Whitehouse, William Betz, Yan Zhang, Peter Coles et al. (6 authors)
+2. Feature Information Dynamics in Diffusion — Uplift / HTE · score 52 · arXiv stat.ML · Jia-Shu Pan, Tao Zhang, Yufei Huang, Yanjun Sheng et al. (5 authors)
+3. Bayesian heterogeneous copula mixtures with nonparametric margins: consistency, identifiability and tail asymmetry in physical… — Uplift / HTE · score 52 · arXiv stat.ME · Yujian Liu
+4. Probabilistic Counterfactual Inference for Discrete Outcomes in Gaussian-Process Causal Models — Causal Inference · score 52 · arXiv cs.LG · Juliette Sinnott, Amir-Hossein Karimi, Mohammad Kohandel
+5. Latent space bias directions in LLMs capture confidence, not fairness — Causal LMs · score 52 · arXiv cs.LG · Stephanie Buttigieg, Maeve Madigan, Parameswaran Kamalaruban, Stuart Burrell</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-06</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-06/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-06/</guid>
@@ -199,13 +210,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-16/</guid>
       <pubDate>Wed, 16 Sep 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-14</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-14/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-14/</guid>
-      <pubDate>Mon, 14 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. kirilklein/causal-sandbox — Learn causal inference by changing the world. Guided lessons and a sandbox with confounders,… — Causal Inference · score 34 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
