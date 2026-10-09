@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-09</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-09/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-09/</guid>
+      <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. CausalDreamer: Learning Predictive World Models with Latent Disentanglement — Other · score 90 · arXiv cs.LG · Prince Jha, Nils Lukas, Kun Zhang, Salem Lahlou
+2. Prediction-Powered Data Fusion for Treatment Effect Estimation — Uplift / HTE · score 60 · arXiv stat.ML · Yonghan Jung, Shu Yang
+3. Formalization and consistency of clone-censor-weight — Uplift / HTE · score 56 · arXiv stat.ME · Iqraa Meah, Charlotte Voinot, Stefan Michiels, Noémie Simon-Tillaux et al. (8 authors)
+4. Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search — Causal LMs · score 56 · arXiv cs.LG · Ziming Dai, Dabiao Ma, Ziheng Guo, Jack Dong et al. (5 authors)
+5. Overcoming Prior Barriers: Supervised Fine-Tuning under Long-Tail Distribution — Causal LMs · score 56 · arXiv cs.LG · Haohui Wang, Jiahao Xu, Wangzhi Zhan, Tong Zeng et al. (12 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-08</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-08/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-08/</guid>
@@ -203,17 +214,6 @@
 3. dQwen3.5: Hybrid-Attention Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Anton Xue, Litu Rout, Aditya Akella, Adam Klivans et al. (6 authors)
 4. Relational Attention for Data-Efficient Language Modeling — Causal LMs · score 56 · arXiv cs.LG · Adrian Brasoveanu, Ece Takmaz, Jakub Dotlačil
 5. TAP Accuracy Below the Fluctuation Scale and Universal Posterior Geometry in Spherical Linear Models — Uplift / HTE · score 52 · arXiv stat.ML · Jingbo Liu, Zhiyuan Yu</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-17</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-17/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-17/</guid>
-      <pubDate>Thu, 17 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Beyond Pretrends: A Discordance-Based Sensitivity Analysis for Difference-in-Differences — Causal Inference · score 60 · arXiv stat.ME · Thomas Leavitt
-2. Efficient transport and generalization of survival treatment effects — Uplift / HTE · score 60 · arXiv stat.ME · Axel Martin, Iván Díaz, Michele Santacatterina
-3. Weakening Neurons: An Input-Output Functionality in Transformers with Outsize Influence — Causal LMs · score 60 · arXiv cs.LG · Sebastian Gerstner, Hilal AlQuabeh, Kentaro Inui, Hinrich Schütze
-4. Doubly valid and doubly sharp sensitivity analysis to unobserved confounding for survival outcomes — Causal Inference · score 56 · arXiv stat.ME · Jean-Baptiste Baitairian, Bernard Sebastien, Rana Jreich, Sandrine Katsahian et al. (5 authors)
-5. Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data — Causal LMs · score 56 · arXiv cs.LG · Matteo Marchi, João Pedro Silvestre, Bahman Gharesifard, Paulo Tabuada</description>
     </item>
   </channel>
 </rss>
