@@ -6,6 +6,17 @@
     <description>Weekly roundup of new research and engineering posts on causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI weekly digest — 2026-W41</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W41/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W41/</guid>
+      <pubDate>Fri, 09 Oct 2026 22:00:00 +0000</pubDate>
+      <description>1. Policy Learning with Weak Signals — Uplift / HTE · score 100 · arXiv stat.ME · Benedikt Koch, Winston Chou, Aurélien Bibaut, Nathan Kallus
+2. Measuring Gift Card Program Incrementality via Causal Data Fusion — Uplift / HTE · score 100 · arXiv stat.ME · Justin Whitehouse, William Betz, Yan Zhang, Peter Coles et al. (6 authors)
+3. CausalDreamer: Learning Predictive World Models with Latent Disentanglement — Other · score 90 · arXiv cs.LG · Prince Jha, Nils Lukas, Kun Zhang, Salem Lahlou
+4. When Can You Ship on Evals Alone? Trial-Level Surrogacy for Offline Evaluation of LLM Systems — Experimentation · score 68 · arXiv stat.ME · Mårten Schultzberg
+5. Prediction-Powered Data Fusion for Treatment Effect Estimation — Uplift / HTE · score 60 · arXiv stat.ML · Yonghan Jung, Shu Yang</description>
+    </item>
+    <item>
       <title>Causal AI weekly digest — 2026-W40</title>
       <link>https://ppstacy.github.io/causal-ai-kb/weekly/2026-W40/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/weekly/2026-W40/</guid>
