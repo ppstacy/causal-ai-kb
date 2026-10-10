@@ -6,6 +6,18 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-10</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-10/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-10/</guid>
+      <pubDate>Sat, 10 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. A Comment on: 
+ “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
+2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yu-Chen Hu, Shuang-Ning Li, Stefan Wager
+3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yin-Chu Zhu
+4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · P. Rosenbaum, M. V. van der Laan, Stefan Wager, Donald Rubin-Tba et al. (6 authors)
+5. Causal Discovery from Soft Interventions with Unknown Targets: Characterization and Learning — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Amin Jaber, Murat Kocaoglu, Karthikeyan Shanmugam, Elias Bareinboim</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-09</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-09/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-09/</guid>
@@ -203,17 +215,6 @@
       <pubDate>Sat, 19 Sep 2026 13:00:00 +0000</pubDate>
       <description>1. shubham303/meelu-analytics-mcp — Ask your AI assistant real questions about your data and get answers you can rely on — an MCP… — Other · score 30 · GitHub topic:causal-inference
 2. teerthsharma/resolvent — One causal attention head, three switches: softmax attention, unnormalized-kernel attention and the… — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-18</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-18/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-18/</guid>
-      <pubDate>Fri, 18 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Parallelism, critical windows, and separations among diffusion language models — Causal LMs · score 64 · arXiv stat.ML · Sitan Chen, Liye Wang
-2. Xeno-Interpretability: Investigating the Alien Minds of LLMs — Causal LMs · score 60 · arXiv cs.CL · F. Pierucci, M. Bracale Syrnikov, M. Prandi, M. Galisai et al. (6 authors)
-3. dQwen3.5: Hybrid-Attention Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Anton Xue, Litu Rout, Aditya Akella, Adam Klivans et al. (6 authors)
-4. Relational Attention for Data-Efficient Language Modeling — Causal LMs · score 56 · arXiv cs.LG · Adrian Brasoveanu, Ece Takmaz, Jakub Dotlačil
-5. TAP Accuracy Below the Fluctuation Scale and Universal Posterior Geometry in Spherical Linear Models — Uplift / HTE · score 52 · arXiv stat.ML · Jingbo Liu, Zhiyuan Yu</description>
     </item>
   </channel>
 </rss>
