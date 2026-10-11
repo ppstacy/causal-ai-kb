@@ -1,0 +1,88 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:9a8385e082bbc4479d7054cc9d8c64ec9ed0b7b3",
+    "title": "Online Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/9a8385e082bbc4479d7054cc9d8c64ec9ed0b7b3",
+    "summary": "",
+    "authors": [
+      "M. V. van der Laan",
+      "S. Lendle"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Online Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:396207031c986b8e4edb94b3f233a3e0659ee137",
+    "title": "Online targeted learning for time series",
+    "url": "https://www.semanticscholar.org/paper/396207031c986b8e4edb94b3f233a3e0659ee137",
+    "summary": "",
+    "authors": [
+      "M. V. van der Laan",
+      "A. Chambaz",
+      "S. Lendle"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Online targeted learning for time series"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fbfcb895fe963cf46bbbf3c3171a2e43d1fe6184",
+    "title": "Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints",
+    "url": "https://www.semanticscholar.org/paper/fbfcb895fe963cf46bbbf3c3171a2e43d1fe6184",
+    "summary": "",
+    "authors": [
+      "Boriska Toth",
+      "M. V. van der Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:eddc2deb1dc88b61137df2877ec6970d669a8997",
+    "title": "Targeted Learning for Causality and Statistical Analysis in Medical Research",
+    "url": "https://www.semanticscholar.org/paper/eddc2deb1dc88b61137df2877ec6970d669a8997",
+    "summary": "",
+    "authors": [
+      "S. Rose",
+      "R. Starmans",
+      "M. V. van der Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning for Causality and Statistical Analysis in Medical Research"
+  }
+]

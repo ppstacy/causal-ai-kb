@@ -6,6 +6,16 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-11</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-11/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-11/</guid>
+      <pubDate>Sun, 11 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Online Targeted Learning — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan, S. Lendle
+2. Online targeted learning for time series — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan, A. Chambaz, S. Lendle
+3. Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · Boriska Toth, M. V. van der Laan
+4. Targeted Learning for Causality and Statistical Analysis in Medical Research — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · S. Rose, R. Starmans, M. V. van der Laan</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-10</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-10/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-10/</guid>
@@ -207,14 +217,6 @@
       <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
 2. WillianFuks/tfcausalimpact v0.0.19 — Other · score 55 · WillianFuks/tfcausalimpact releases
 3. yichaoli921/did-placebo-guide — DID 安慰剂检验的结构化 Stata 工作流（陈强/齐霁/颜冠鹏 2025 实践指南）。覆盖时间/空间/混合/外部四类 placebo，TWFE 默认、CSDID 升级。 — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-19</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-19/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-19/</guid>
-      <pubDate>Sat, 19 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. shubham303/meelu-analytics-mcp — Ask your AI assistant real questions about your data and get answers you can rely on — an MCP… — Other · score 30 · GitHub topic:causal-inference
-2. teerthsharma/resolvent — One causal attention head, three switches: softmax attention, unnormalized-kernel attention and the… — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
