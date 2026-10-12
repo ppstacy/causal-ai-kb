@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-12</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-12/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-12/</guid>
+      <pubDate>Mon, 12 Oct 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-11</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-11/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-11/</guid>
@@ -208,15 +215,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-21/</guid>
       <pubDate>Mon, 21 Sep 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-20</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-20/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-20/</guid>
-      <pubDate>Sun, 20 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Loka Li, Haoyue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
-2. WillianFuks/tfcausalimpact v0.0.19 — Other · score 55 · WillianFuks/tfcausalimpact releases
-3. yichaoli921/did-placebo-guide — DID 安慰剂检验的结构化 Stata 工作流（陈强/齐霁/颜冠鹏 2025 实践指南）。覆盖时间/空间/混合/外部四类 placebo，TWFE 默认、CSDID 升级。 — Other · score 30 · GitHub topic:causal-inference</description>
     </item>
   </channel>
 </rss>
