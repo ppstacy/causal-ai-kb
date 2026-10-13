@@ -1,0 +1,162 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "summary": "",
+    "authors": [
+      "Lo-Ka Li",
+      "Hao-Yue Dai",
+      "Hanin Al Ghothani",
+      "Biwei Huang",
+      "Ji-Ji Zhang",
+      "Shahar Harel",
+      "Isaac Bentwich",
+      "Guang-Yi Chen",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:deb9e9261b851004322a476a7b7e5d35e530e2d4",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/deb9e9261b851004322a476a7b7e5d35e530e2d4",
+    "summary": "",
+    "authors": [
+      "Hanin Al Ghothani",
+      "Isaac Bentwich",
+      "Guang-Yi Chen",
+      "Hao-Yue Dai",
+      "Shahar Harel",
+      "Biwei Huang",
+      "Lo-Ka Li",
+      "Ji-Ji Zhang",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "github_release",
+    "source_name": "uber/causalml releases",
+    "id": "ghrel:uber/causalml:v0.18.0",
+    "title": "uber/causalml v0.18.0",
+    "url": "https://github.com/uber/causalml/releases/tag/v0.18.0",
+    "summary": "This release **deprecates positional `treatment` and `y`** ahead of the v1.0 switch to `fit(X, y, treatment, ...)`, makes **causal trees and forests estimate leaves honestly by default**, and moves the **uplift trees and forests onto the shared Cython tree kernel**, with native missing-value support. It also adds benchmark dataset loaders with ground-truth metrics, new CATE evaluation scores, model `save()` / `load()`, and a rebuilt [documentation site](https://causalml.readthedocs.io/en/stable/) with an end-to-end tutorial, an estimator guide and an FAQ.\r\n\r\nThe full notes, with measurements, are in the [changelog](https://causalml.readthedocs.io/en/stable/changelog.html).\r\n\r\n## \u26a0\ufe0f Breaking Changes\r\n* **`BaseSLearner.estimate_ate` always returns `(ate, lb, ub)` and no longer accepts `return_ci`.** `ate = learner.estimate_ate(...)` now binds a tuple, and passing `return_ci` raises `TypeError`; unpack instead: `ate, lb, ub = learner.estimate_ate(...)`. By @su-jin1425 in https://github.com/uber/causalml/pull/1031\r\n\r\n## Deprecations\r\n* **Positional `treatment` and `y` emit a `FutureWarning` (#854).** In v1.0 the positional order becomes `fit(X, y, treatment, ...)`, the scikit-learn convention. Pass both by keyword \u2014 `learner.fit(X=X, treatment=treatment, y=y)` \u2014 which is correct before and after the flip. A call left positional will silently train on swapped arguments at v1.0 rather than raise. See the [migration guide](https://causalml.readthedocs.io/en/stable/migration.html). B",
+    "authors": [],
+    "published": "2026-10-12T15:51:26",
+    "extras": {
+      "repo": "uber/causalml",
+      "tag": "v0.18.0",
+      "prerelease": false
+    },
+    "score": 63,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits; +25 source-type",
+    "llm_summary": "This release **deprecates positional `treatment` and `y`** ahead of the v1.0 switch to `fit(X, y, treatment, ...)`, makes **causal trees and forests estimate leaves honestly by default**, and moves the **uplift trees and forests onto the shared Cython tree kernel**, with native missing-value support. It also adds benchmark dataset loaders with ground-truth metrics, new CATE evaluation scores,\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "title": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning",
+    "url": "https://www.semanticscholar.org/paper/fd7d092f01bed73e8dd5fe100efee243e0cc18e8",
+    "summary": "",
+    "authors": [
+      "M. V. van der Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 44,
+    "topic": "uplift",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "0 A ug 2 01 7 Finite Sample Inference for Targeted Learning"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:77d8191e1127630b4d5404616a0fc162c45eba5b",
+    "title": "Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders",
+    "url": "https://www.semanticscholar.org/paper/77d8191e1127630b4d5404616a0fc162c45eba5b",
+    "summary": "",
+    "authors": [
+      "A. Chambaz",
+      "S. Rose",
+      "J. Bouyer",
+      "M. V. van der Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Mark van der Laan targeted learning",
+    "id": "s2:78162d4873a44139739711c37f3203cb451336f5",
+    "title": "Submitted to the Annals of Statistics TARGETED SEQUENTIAL DESIGN FOR TARGETED LEARNING INFERENCE OF THE OPTIMAL TREATMENT RULE AND ITS MEAN REWARD / SUPPLEMENTAL ARTICLE By",
+    "url": "https://www.semanticscholar.org/paper/78162d4873a44139739711c37f3203cb451336f5",
+    "summary": "",
+    "authors": [
+      "A. Chambaz",
+      "Wen-Jing Zheng",
+      "M. Van der",
+      "Laan"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "Mark van der Laan targeted learning"
+    },
+    "score": 40,
+    "topic": "other",
+    "why_relevant": "+10 source-type",
+    "llm_summary": "Submitted to the Annals of Statistics TARGETED SEQUENTIAL DESIGN FOR TARGETED LEARNING INFERENCE OF THE OPTIMAL TREATMENT RULE AND ITS MEAN REWARD / SUPPLEMENTAL ARTICLE By"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:ishandutta2007/Awesome-Causal-AI-Platform",
+    "title": "ishandutta2007/Awesome-Causal-AI-Platform \u2014 Top Causal AI Platform (Opensource) \ud83c\udf1f Star if you like it! \ud83c\udf1f",
+    "url": "https://github.com/ishandutta2007/Awesome-Causal-AI-Platform",
+    "summary": "Top Causal AI Platform (Opensource) \ud83c\udf1f Star if you like it! \ud83c\udf1f",
+    "authors": [],
+    "published": "2026-09-27T23:47:26Z",
+    "extras": {
+      "stars": 4,
+      "language": null,
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Top Causal AI Platform (Opensource) \ud83c\udf1f Star if you like it! \ud83c\udf1f"
+  }
+]

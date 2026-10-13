@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-13</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-13/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-13/</guid>
+      <pubDate>Tue, 13 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Lo-Ka Li, Hao-Yue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
+2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guang-Yi Chen, Hao-Yue Dai et al. (9 authors)
+3. uber/causalml v0.18.0 — Uplift / HTE · score 63 · uber/causalml releases
+4. 0 A ug 2 01 7 Finite Sample Inference for Targeted Learning — Uplift / HTE · score 44 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan
+5. Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · A. Chambaz, S. Rose, J. Bouyer, M. V. van der Laan</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-12</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-12/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-12/</guid>
@@ -208,13 +219,6 @@
 3. On the use of meaningful score regions to interpret treatment effects on continuous clinical outcome assessments — Uplift / HTE · score 56 · arXiv stat.ME · Andrew Trigg, Fraser D. Bocell
 4. Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift — Uplift / HTE · score 52 · arXiv stat.ML · Rustam Isaev, Anton Conrad, Denis Belomestny, Eric Moulines et al. (5 authors)
 5. Phylogenetic Inference and the Stickiness of Fréchet Means, via Precise Asymptotics of an Embedded Random Walk — Uplift / HTE · score 52 · arXiv stat.ME · Adam Quinn Jaffe</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-21</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-21/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-21/</guid>
-      <pubDate>Mon, 21 Sep 2026 13:00:00 +0000</pubDate>
-      <description>_No picks today._</description>
     </item>
   </channel>
 </rss>
