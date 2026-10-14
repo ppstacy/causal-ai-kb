@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-14</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-14/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-14/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. From Fourier Amplitudes to Persistence Images for Impact-Echo Defect Detection — Uplift / HTE · score 56 · arXiv stat.ML · Keunsu Kim, Suyoung Choi, Meiyan Kang
+2. Minimax rates for pointwise CATE estimation: the role of design smoothness — Uplift / HTE · score 56 · arXiv stat.ML · Yuxuan Hou, Zhenghan Li
+3. MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization — Causal LMs · score 56 · arXiv cs.LG · Yangchengyu Zhou, Zhiping Wu, Runchang Jiang, Dongdong Ren et al. (8 authors)
+4. Multi-Stream Residual Computation in Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Ekaterina Alimaskina, Suren Kazarian, Gleb Molodtsov, Aleksandr Beznosikov
+5. Read the Room Before Your Model Generates — Causal LMs · score 56 · arXiv cs.CL · Muyao Kong, Zhihao Lin</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-13</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-13/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-13/</guid>
@@ -208,17 +219,6 @@
 3. Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning — Causal LMs · score 56 · arXiv cs.CL · Ismail Labiad, Matthieu Kowalski, Marc Schoenauer, Rémi Munos et al. (5 authors)
 4. Context-Adaptive Thresholding for Conditionally Representative Monitoring and Classification — Causal LMs · score 52 · arXiv stat.ML · Ansgar Steland
 5. On Basis Function Selection for Sparse Gaussian Process Regression — Uplift / HTE · score 52 · arXiv stat.ML · Marnix Van Soom, Ivan De Boi</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-22</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-22/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-22/</guid>
-      <pubDate>Tue, 22 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. JAREX: An Acquisition Function for Multi-Objective Algorithmic Process Characterization — Experimentation · score 56 · arXiv stat.ML · Xinyang Li, Kevin Stone, Ajit Vikram
-2. Selective Inference for CART with Binary Outcomes — Uplift / HTE · score 56 · arXiv stat.ML · Tomoshige Nakamura
-3. On the use of meaningful score regions to interpret treatment effects on continuous clinical outcome assessments — Uplift / HTE · score 56 · arXiv stat.ME · Andrew Trigg, Fraser D. Bocell
-4. Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift — Uplift / HTE · score 52 · arXiv stat.ML · Rustam Isaev, Anton Conrad, Denis Belomestny, Eric Moulines et al. (5 authors)
-5. Phylogenetic Inference and the Stickiness of Fréchet Means, via Precise Asymptotics of an Embedded Random Walk — Uplift / HTE · score 52 · arXiv stat.ME · Adam Quinn Jaffe</description>
     </item>
   </channel>
 </rss>
