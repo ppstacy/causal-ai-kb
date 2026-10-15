@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-15</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-15/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-15/</guid>
+      <pubDate>Thu, 15 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. CASI: Credit Assignment via Set Intervention for Agentic Retrieval — Causal LMs · score 60 · arXiv cs.LG · Xinyi Cheng, Tianfu Zhang, Jiwen Li, Xuesen Zhang et al. (8 authors)
+2. DataJunction as Netflix’s answer to the missing piece of the modern data stack — Experimentation · score 57 · Netflix Tech Blog
+3. The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale — Causal LMs · score 57 · Netflix Tech Blog
+4. From Plato to Aristotle: Toward a General Theory of Representation Hypotheses — Causal LMs · score 56 · arXiv stat.ML · Dai Shi, Andi Han, Xiaoyu Li, Luke Thompson et al. (5 authors)
+5. MAEM: Mitigating Recency Bias via a Replay-Free, Capacity-Controlled Dynamic Mixture of Experts for Class-Incremental Graph… — Uplift / HTE · score 56 · arXiv stat.ML · Junlin Chen, Wenhao Wang, Junchao Xu, Qingsong Yao et al. (8 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-14</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-14/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-14/</guid>
@@ -208,17 +219,6 @@
 3. NPBoost: Neural Processes with Gradient-Boosted Fixed Effects — Uplift / HTE · score 52 · arXiv stat.ML · Andrea Nava, Ken Rölli, Armin Begic, Fabio Sigrist
 4. Adaptive confidence intervals with missing data — Causal Inference · score 52 · arXiv stat.ME · Tianyi Ma, Kabir A. Verchand, Chao Gao, Richard J. Samworth
 5. Simultaneous comparison of the predictive values of two binary diagnostic tests in the presence of categorical covariates — Uplift / HTE · score 52 · arXiv stat.ME · Jose A. Roldan-Nofuentes, Saad-Bouh Regad</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-23</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-23/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-23/</guid>
-      <pubDate>Wed, 23 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic… — Causal LMs · score 60 · arXiv cs.CL · David Torres-Moreno, Jorge Hermosillo-Valadez
-2. Sample-Efficient Multiple Testing with Adaptive Data Collection — Uplift / HTE · score 56 · arXiv stat.ME · Zhanran Lin, Wanteng Ma, Zhimei Ren, Yuting Wei
-3. Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning — Causal LMs · score 56 · arXiv cs.CL · Ismail Labiad, Matthieu Kowalski, Marc Schoenauer, Rémi Munos et al. (5 authors)
-4. Context-Adaptive Thresholding for Conditionally Representative Monitoring and Classification — Causal LMs · score 52 · arXiv stat.ML · Ansgar Steland
-5. On Basis Function Selection for Sparse Gaussian Process Regression — Uplift / HTE · score 52 · arXiv stat.ML · Marnix Van Soom, Ivan De Boi</description>
     </item>
   </channel>
 </rss>
