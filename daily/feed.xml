@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-16</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-16/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-16/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. In-Context Learning Before Specialisation: Theory of Learning in a Solvable Topic Model — Causal LMs · score 56 · arXiv stat.ML · Francesco Cagnetta, Casper L. Christensen
+2. MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering — Causal LMs · score 56 · arXiv cs.LG · Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu et al. (10 authors)
+3. Change the Number, Change the Answer: Assessing Rating Scale Sensitivity in LLM-Based Text Scoring — Causal LMs · score 56 · arXiv cs.CL · Wonjeong Jo, Gyuwan Kim, Ming Shan Hee
+4. Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling — Causal LMs · score 56 · arXiv cs.CL · Tong Zhu, Zhe Xu, Zefeng He, Yunkai Chai et al. (10 authors)
+5. Extending the Oracle Approximating Shrinkage to General Distributions — Uplift / HTE · score 52 · arXiv stat.ME · Michael J. Lewis</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-15</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-15/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-15/</guid>
@@ -208,17 +219,6 @@
 3. Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale — Causal LMs · score 56 · arXiv cs.CL · Edesio Alcoba, Kevin Rossell, Aman Gupta, Shao Tang et al. (16 authors)
 4. MILO: Efficient Many-shot In-Context Learning with Block-wise Low-rank Compression — Causal LMs · score 56 · arXiv cs.CL · Youpeng Zhao, Tian Tan, Liqian Peng, Jun Wang et al. (5 authors)
 5. Shrinking-Tube Concentration for Adaptive Markovian Stochastic Approximation — Uplift / HTE · score 52 · arXiv stat.ML · Jin Li, Ye Luo, Xiaowei Zhang</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-24</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-24/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-24/</guid>
-      <pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Interpreting Hierarchical Composite Endpoints with Survival and Longitudinal Outcomes: Application to Amyotrophic Lateral… — Uplift / HTE · score 56 · arXiv stat.ME · Arlina Shen, Dehua Bi, Ruben P. A. van Eijk, Lu Tian et al. (5 authors)
-2. PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety — Causal LMs · score 56 · arXiv cs.CL · Jiapeng Sun, Yujin Zhou, Han Zhu, Pengcheng Wen et al. (7 authors)
-3. NPBoost: Neural Processes with Gradient-Boosted Fixed Effects — Uplift / HTE · score 52 · arXiv stat.ML · Andrea Nava, Ken Rölli, Armin Begic, Fabio Sigrist
-4. Adaptive confidence intervals with missing data — Causal Inference · score 52 · arXiv stat.ME · Tianyi Ma, Kabir A. Verchand, Chao Gao, Richard J. Samworth
-5. Simultaneous comparison of the predictive values of two binary diagnostic tests in the presence of categorical covariates — Uplift / HTE · score 52 · arXiv stat.ME · Jose A. Roldan-Nofuentes, Saad-Bouh Regad</description>
     </item>
   </channel>
 </rss>
