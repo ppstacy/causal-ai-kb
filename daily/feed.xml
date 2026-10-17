@@ -6,6 +6,16 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-17</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-17/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-17/</guid>
+      <pubDate>Sat, 17 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale — Experimentation · score 57 · Netflix Tech Blog
+2. The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of… — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · L. Cain, J. Robins, E. Lanoy, R. Logan et al. (6 authors)
+3. Re: Causality and causal inference in epidemiology: the need for a pluralistic approach. — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · T. VanderWeele, M. Hernán, E. T. Tchetgen Tchetgen, J. Robins
+4. Longitudinal Causal Inference — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Hernán, J. Robins</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-16</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-16/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-16/</guid>
@@ -208,17 +218,6 @@
 3. Unified Covariate Adjustment for Causal Inference — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, Jin Tian, E. Bareinboim
 4. Causal Discovery over Clusters of Variables in Markovian Systems — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · T. Anand, A. H. Ribeiro, Jin Tian, G. Hripcsak et al. (5 authors)
 5. Causal Imitation Learning via Inverse Reinforcement Learning — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, E. Bareinboim</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-25</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-25/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-25/</guid>
-      <pubDate>Fri, 25 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Intrinsic-Extrinsic Coupling in Learning Dynamics — Uplift / HTE · score 56 · arXiv stat.ML · Qinyou Wang
-2. Nuclear Norm-Regularized Bayesian Matrix Completion — Uplift / HTE · score 56 · arXiv stat.ML · Calvin Tolbert
-3. Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale — Causal LMs · score 56 · arXiv cs.CL · Edesio Alcoba, Kevin Rossell, Aman Gupta, Shao Tang et al. (16 authors)
-4. MILO: Efficient Many-shot In-Context Learning with Block-wise Low-rank Compression — Causal LMs · score 56 · arXiv cs.CL · Youpeng Zhao, Tian Tan, Liqian Peng, Jun Wang et al. (5 authors)
-5. Shrinking-Tube Concentration for Adaptive Markovian Stochastic Approximation — Uplift / HTE · score 52 · arXiv stat.ML · Jin Li, Ye Luo, Xiaowei Zhang</description>
     </item>
   </channel>
 </rss>
