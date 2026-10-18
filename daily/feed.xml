@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-18</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-18/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-18/</guid>
+      <pubDate>Sun, 18 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-17</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-17/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-17/</guid>
@@ -207,17 +214,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-28/</guid>
       <pubDate>Mon, 28 Sep 2026 13:00:00 +0000</pubDate>
       <description>1. ishandutta2007/Awesome-Causal-AI-Platform — Top Causal AI Platform (Opensource) 🌟 Star if you like it! 🌟 — Other · score 30 · GitHub topic:causal-inference</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-26</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-26/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-26/</guid>
-      <pubDate>Sat, 26 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Causal Identification under Markov equivalence: Calculus, Algorithm, and Completeness — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Amin Jaber, A. H. Ribeiro, Jiji Zhang, E. Bareinboim
-2. Structural Causal Bandits under Markov Equivalence — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Min Woo Park, Andy Arditi, E. Bareinboim, Sanghack Lee
-3. Unified Covariate Adjustment for Causal Inference — Causal Inference · score 44 · Semantic Scholar: Elias Bareinboim causal · Yonghan Jung, Jin Tian, E. Bareinboim
-4. Causal Discovery over Clusters of Variables in Markovian Systems — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · T. Anand, A. H. Ribeiro, Jin Tian, G. Hripcsak et al. (5 authors)
-5. Causal Imitation Learning via Inverse Reinforcement Learning — Other · score 40 · Semantic Scholar: Elias Bareinboim causal · Kangrui Ruan, Junzhe Zhang, Xuan Di, E. Bareinboim</description>
     </item>
   </channel>
 </rss>
