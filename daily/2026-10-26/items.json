@@ -1,0 +1,248 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:3a74772a6011675ce2bdc87100fffcf4d18f5907",
+    "title": "Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey",
+    "url": "https://www.semanticscholar.org/paper/3a74772a6011675ce2bdc87100fffcf4d18f5907",
+    "summary": "Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has signi\ufb01cantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on evaluating and improving LLMs from a causal view in the following areas: understanding and improving the LLMs\u2019 reasoning capacity, addressing fairness and safety issues in LLMs, complementing LLMs with explanations, and handling multimodality. Meanwhile, LLMs\u2019 strong reasoning capacities can in turn contribute to the \ufb01eld of causal inference by aiding causal relationship discovery and causal e\ufb00ect estimations. This review explores the interplay between causal inference frameworks and LLMs from both perspectives, emphasizing their collective potential to further the development of more advanced and equitable arti\ufb01cial intelligence systems.",
+    "authors": [
+      "Xiaoyu Liu",
+      "Paiheng Xu",
+      "Jun-Da Wu",
+      "Jiaxin Yuan",
+      "Yifan Yang",
+      "Yu-Hang Zhou",
+      "Fuxiao Liu",
+      "Tianrui Guan",
+      "Hao-Liang Wang",
+      "Tong Yu",
+      "Julian J. McAuley",
+      "Wei Ai",
+      "Furong Huang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "North American Chapter of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 56,
+    "topic": "causal-lm",
+    "why_relevant": "4 keyword hits; +10 source-type",
+    "llm_summary": "Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has signi\ufb01cantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:5a6c4782577663d7e5d930a2db951ef88a421d35",
+    "title": "Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification",
+    "url": "https://www.semanticscholar.org/paper/5a6c4782577663d7e5d930a2db951ef88a421d35",
+    "summary": "",
+    "authors": [
+      "Rui-Chu Cai",
+      "Shengyin Yu",
+      "Jiahao Zhang",
+      "Wei Chen",
+      "Boyan Xu",
+      "Ke-Li Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:7bf7fc6aaac51ae971358bdea0cd79d946c4334b",
+    "title": "Clusters Emerge in Transformer-based Causal Language Models",
+    "url": "https://www.semanticscholar.org/paper/7bf7fc6aaac51ae971358bdea0cd79d946c4334b",
+    "summary": "",
+    "authors": [
+      "Xin-Bo Wu",
+      "Lav R. Varshney"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "causal language models"
+    },
+    "score": 48,
+    "topic": "causal-lm",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Clusters Emerge in Transformer-based Causal Language Models"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "title": "Variance Reduction for Experiments with One-Sided Triggering using CUPED",
+    "url": "https://www.semanticscholar.org/paper/0ef3cc828e4ab9589107c5d0f1f20c31b4fb3b23",
+    "summary": "",
+    "authors": [
+      "Alex Deng",
+      "Lo-Hua Yuan",
+      "Alexandre Salama-Manteau"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 48,
+    "topic": "experimentation",
+    "why_relevant": "2 keyword hits; +10 source-type",
+    "llm_summary": "Variance Reduction for Experiments with One-Sided Triggering using CUPED"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: causal language models",
+    "id": "s2:1cba5922682a730623a284d56c421f7f040eef7f",
+    "title": "Evaluating Pretrained Causal Language Models for Synonymy",
+    "url": "https://www.semanticscholar.org/paper/1cba5922682a730623a284d56c421f7f040eef7f",
+    "summary": "",
+    "authors": [
+      "I. Ivan",
+      "C. Ramisch",
+      "Alexis Nasr"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "query": "causal language models"
+    },
+    "score": 44,
+    "topic": "causal-lm",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Evaluating Pretrained Causal Language Models for Synonymy"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "title": "Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks",
+    "url": "https://www.semanticscholar.org/paper/22bf3a0875f530ac43643d8a39193fc86da6f2af",
+    "summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first formulate local optimization problems at each node, which are subsequently addressed using the Alternating Direction Method of Multipliers (ADMM). Three subproblems naturally arise from ADMM, each resolved in an online manner with low computational costs. Specifically, the first one is solved using stochastic gradient descent (SGD), while the other two are handled using the conjugate gradient descent method to avoid matrix inversion operations. To further enhance performance, a variance reduction algorithm is incorporated into the SGD. Simulation results validate the effectiveness of the proposed algorithm.",
+    "authors": [
+      "Yitong Chen",
+      "Danqi Jin",
+      "Jie Chen",
+      "C\u00e9dric Richard",
+      "Wen Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "IEEE Signal Processing Letters",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Modeling the relationships that may connect optimal parameter vectors is essential for the performance of parameter estimation methods in distributed networks. In this paper, we consider a low-rank relationship and introduce matrix factorization to promote this low-rank property. To devise a distributed algorithm that does not require any prior knowledge about the low-rank space, we first\u2026"
+  },
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: online experimentation variance reduction",
+    "id": "s2:111478dfeba28a12cb8398893eead2de62087b85",
+    "title": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction",
+    "url": "https://www.semanticscholar.org/paper/111478dfeba28a12cb8398893eead2de62087b85",
+    "summary": "",
+    "authors": [
+      "Yichen Wu",
+      "Long-Kai Huang",
+      "Ren-Zhen Wang",
+      "De-Yu Meng",
+      "Ying Wei"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "International Conference on Learning Representations",
+      "query": "online experimentation variance reduction"
+    },
+    "score": 44,
+    "topic": "experimentation",
+    "why_relevant": "1 keyword hits; +10 source-type",
+    "llm_summary": "Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:uplift-modeling",
+    "id": "github:hannahxuhang-hue/causal-uplift-targeting-guide",
+    "title": "hannahxuhang-hue/causal-uplift-targeting-guide \u2014 A practical guide for CDFIs, credit unions and community banks to measure and target the incremental effect of outreach. Spreadsheet + Python.",
+    "url": "https://github.com/hannahxuhang-hue/causal-uplift-targeting-guide",
+    "summary": "A practical guide for CDFIs, credit unions and community banks to measure and target the incremental effect of outreach. Spreadsheet + Python.",
+    "authors": [],
+    "published": "2026-10-09T15:21:26Z",
+    "extras": {
+      "stars": 18,
+      "language": null,
+      "topic": "uplift-modeling"
+    },
+    "score": 38,
+    "topic": "uplift",
+    "why_relevant": "2 keyword hits",
+    "llm_summary": "A practical guide for CDFIs, credit unions and community banks to measure and target the incremental effect of outreach. Spreadsheet + Python."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-inference",
+    "id": "github:openteams-ai/whybook",
+    "title": "openteams-ai/whybook \u2014 A question-driven view of Jupyter notebooks, as a JupyterLab extension",
+    "url": "https://github.com/openteams-ai/whybook",
+    "summary": "A question-driven view of Jupyter notebooks, as a JupyterLab extension",
+    "authors": [],
+    "published": "2026-10-22T08:48:33Z",
+    "extras": {
+      "stars": 5,
+      "language": "TypeScript",
+      "topic": "causal-inference"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "A question-driven view of Jupyter notebooks, as a JupyterLab extension"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:DavidBustamanteL/EconR",
+    "title": "DavidBustamanteL/EconR \u2014 EconR is a developing R package for econometric estimation with a consistent interface and model-specific missing-data handling.",
+    "url": "https://github.com/DavidBustamanteL/EconR",
+    "summary": "EconR is a developing R package for econometric estimation with a consistent interface and model-specific missing-data handling.",
+    "authors": [],
+    "published": "2026-10-26T14:42:41Z",
+    "extras": {
+      "stars": 4,
+      "language": "R",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "EconR is a developing R package for econometric estimation with a consistent interface and model-specific missing-data handling."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:Plokies-2/stata-research-guard",
+    "title": "Plokies-2/stata-research-guard \u2014 Codex plugin for readable Stata research code, official command help, paper examples, and peer review.",
+    "url": "https://github.com/Plokies-2/stata-research-guard",
+    "summary": "Codex plugin for readable Stata research code, official command help, paper examples, and peer review.",
+    "authors": [],
+    "published": "2026-10-22T15:34:47Z",
+    "extras": {
+      "stars": 4,
+      "language": "Stata",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Codex plugin for readable Stata research code, official command help, paper examples, and peer review."
+  }
+]
