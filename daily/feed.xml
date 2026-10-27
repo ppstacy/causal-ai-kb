@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-27</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-27/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-27/</guid>
+      <pubDate>Tue, 27 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. Model Selection for Off-Policy Evaluation via Pairwise Bellman Validation — Causal LMs · score 100 · arXiv stat.ML · Lars van der Laan, Vasilis Syrgkanis, Nathan Kallus
+2. CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference — Causal Inference · score 94 · Semantic Scholar: Vasilis Syrgkanis causal · Ji-Yuan Tan, Vasilis Syrgkanis
+3. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
+4. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
+5. Recertifying decisions via e-closure: uniform improvements of conformal risk control and randomized e-BH — Uplift / HTE · score 60 · arXiv stat.ML · Tian Bai, Aaditya Ramdas</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-26</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-26/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-26/</guid>
@@ -207,17 +218,6 @@
 3. Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling — Causal LMs · score 60 · arXiv cs.LG · Panagiotis Theodoropoulos, Nan Jiang, Xintong Duan, Ali Hasan et al. (7 authors)
 4. ReCAP: Retrieval-Guided Capability Reuse for Multimodal Continual Instruction Tuning — Causal LMs · score 60 · arXiv cs.LG · Tao Hu, Zhinuo Zhou, Xialiang Tong, De-Chuan Zhan et al. (5 authors)
 5. Gender bias across LLMs is common and highly heterogenous — Causal LMs · score 60 · arXiv cs.CL · Edoardo Bolzoni, Valerio Capraro</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-09-29</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-09-29/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-09-29/</guid>
-      <pubDate>Tue, 29 Sep 2026 13:00:00 +0000</pubDate>
-      <description>1. Identifying Neural Source Dynamics from Unknown Local Interventions — Uplift / HTE · score 94 · arXiv cs.LG · Ayana Mussabayeva, Jiaqi Sun, Anuar Aimoldin, Olivier Oullier et al. (5 authors)
-2. A problem well-defined is half solved: Measuring Hypothesis Quality at Booking.com — Experimentation · score 61 · Booking.com Data Science
-3. Competitive optimality in testing by betting via Bell-Cover randomization — Uplift / HTE · score 56 · arXiv stat.ME · Aaditya Ramdas
-4. d-OPD: Future-Aware On-Policy Distillation for Block Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Ruitao Liu, Qinghao Hu, Song Han
-5. Epistemic Policy Divergence in Multi-Turn LLM Contamination: A Protocol-Gradient Investigation — Causal LMs · score 56 · arXiv cs.CL · Fahrell Giovanny, Geby Bayuningtyas, Sahrul Mukharom, Hafiz Budi Firmansyah</description>
     </item>
   </channel>
 </rss>
