@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-29</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-29/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-29/</guid>
+      <pubDate>Thu, 29 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. XuQingAcademic/research-paper-workflow — General evidence-grounded workflow for quantitative research, with first-class support… — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-28</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-28/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-28/</guid>
@@ -207,17 +214,6 @@
 3. Do MLLM Judges Judge the Edit? Auditing Bias in Image Editing Evaluation with Verified Quality Preservation — Causal LMs · score 60 · arXiv cs.LG · Yuan Huang, Zirui Song, Xiuying Chen
 4. A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be… — Causal LMs · score 60 · arXiv cs.CL · Zhangshu Joshua Jiang, Zina Ibrahim, James T. Teo
 5. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Junda Wu, Tong Yu, Xiang Chen, Hao-Liang Wang et al. (8 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-01</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-01/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-01/</guid>
-      <pubDate>Thu, 01 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference — Causal Inference · score 94 · Semantic Scholar: Vasilis Syrgkanis causal · Ji-Yuan Tan, Vasilis Syrgkanis
-2. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
-3. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
-4. Estimands and estimation in trials with time trends — Causal LMs · score 56 · arXiv stat.ME · Marta Bofill Roig, Ekkehard Glimm, Kelly Van Lancker, Martin Posch
-5. Days Alive at Home vs Out of Hospital: Why the Difference Matters for Trial Endpoints — Uplift / HTE · score 56 · arXiv stat.ME · Letao Yuan, Sarah N. Dawson, David S. Robertson, Yue Lan et al. (8 authors)</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:XuQingAcademic/research-paper-workflow",
+    "title": "XuQingAcademic/research-paper-workflow \u2014 General evidence-grounded workflow for quantitative research, with first-class support for econometrics and quantitative economics\u2014from idea discovery to reproducible delivery.",
+    "url": "https://github.com/XuQingAcademic/research-paper-workflow",
+    "summary": "General evidence-grounded workflow for quantitative research, with first-class support for econometrics and quantitative economics\u2014from idea discovery to reproducible delivery.",
+    "authors": [],
+    "published": "2026-09-29T21:36:06Z",
+    "extras": {
+      "stars": 3,
+      "language": "Python",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "General evidence-grounded workflow for quantitative research, with first-class support for econometrics and quantitative economics\u2014from idea discovery to reproducible delivery."
+  }
+]
