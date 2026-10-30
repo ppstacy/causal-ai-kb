@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-30</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-30/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-30/</guid>
+      <pubDate>Fri, 30 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender — Causal LMs · score 56 · arXiv cs.CL · Qiyao Ma, Xiaodong Liu, Weiwei Yang, Mingqian Feng et al. (12 authors)
+2. Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns — Causal LMs · score 56 · arXiv cs.CL · Eric Rudolph, Philipp Steigerwald, Jens Albrecht
+3. AI Cosmos: An Agentic Infra for Situated Learning — Causal LMs · score 56 · arXiv cs.CL · AI Cosmos Team, Jinfeng Zhou, Yuxuan Chen, Fangming Chang et al. (35 authors)
+4. Statistical Analysis of Synthetic Data with Verification: A Linear Regression Framework — Uplift / HTE · score 52 · arXiv stat.ML · Heejune Sheen, Harrison H. Zhou
+5. Conformal Annotation with Randomized Expert Review: Application to Online Cell-Type Labeling — Experimentation · score 52 · arXiv stat.ML · Xuhe Zhang, Zhi Huang, Ying Jin</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-29</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-29/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-29/</guid>
@@ -203,17 +214,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</guid>
       <pubDate>Sat, 03 Oct 2026 13:00:00 +0000</pubDate>
       <description>1. Introducing AgentHub: Booking.com Platform for Modular Travel AI Agents — Causal LMs · score 65 · Booking.com Data Science</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-02</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-02/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-02/</guid>
-      <pubDate>Fri, 02 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Pragmatic DML with AI-Learned Representations — Causal Inference · score 100 · arXiv stat.ML · Andres Aradillas Fernandez, Victor Chernozhukov, Carlos Cinelli, Sven Klaassen et al. (8 authors)
-2. Sample complexity bounds for categorical Markov random fields via Discrete Diffusions — Uplift / HTE · score 60 · arXiv stat.ML · Shivam Kumar, Nabarun Deb
-3. Do MLLM Judges Judge the Edit? Auditing Bias in Image Editing Evaluation with Verified Quality Preservation — Causal LMs · score 60 · arXiv cs.LG · Yuan Huang, Zirui Song, Xiuying Chen
-4. A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be… — Causal LMs · score 60 · arXiv cs.CL · Zhangshu Joshua Jiang, Zina Ibrahim, James T. Teo
-5. DeCoT: Debiasing Chain-of-Thought for Knowledge-Intensive Tasks in Large Language Models via Causal Intervention — Causal LMs · score 60 · Semantic Scholar: causal language models · Junda Wu, Tong Yu, Xiang Chen, Hao-Liang Wang et al. (8 authors)</description>
     </item>
   </channel>
 </rss>
