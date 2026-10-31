@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:mehmetsongur/Machine-Learning-in-Economics-and-Finance",
+    "title": "mehmetsongur/Machine-Learning-in-Economics-and-Finance \u2014 Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish.",
+    "url": "https://github.com/mehmetsongur/Machine-Learning-in-Economics-and-Finance",
+    "summary": "Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish.",
+    "authors": [],
+    "published": "2026-10-30T23:52:27Z",
+    "extras": {
+      "stars": 3,
+      "language": "Jupyter Notebook",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish."
+  }
+]

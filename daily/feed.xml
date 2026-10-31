@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-10-31</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-31/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-31/</guid>
+      <pubDate>Sat, 31 Oct 2026 13:00:00 +0000</pubDate>
+      <description>1. mehmetsongur/Machine-Learning-in-Economics-and-Finance — Weekly materials for the Dicle University course Machine Learning in… — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-30</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-30/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-30/</guid>
@@ -207,13 +214,6 @@
 2. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
 3. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
 4. NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS — Other · score 40 · Semantic Scholar: Guido Imbens causal · S. Athey, M. Bayati, Nikolay Doudchenko, G. Imbens et al. (5 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-03</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-03/</guid>
-      <pubDate>Sat, 03 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Introducing AgentHub: Booking.com Platform for Modular Travel AI Agents — Causal LMs · score 65 · Booking.com Data Science</description>
     </item>
   </channel>
 </rss>
