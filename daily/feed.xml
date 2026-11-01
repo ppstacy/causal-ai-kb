@@ -6,6 +6,18 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-01</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-01/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-01/</guid>
+      <pubDate>Sun, 01 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. A Comment on: 
+ “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
+2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yu-Chen Hu, Shuang-Ning Li, Stefan Wager
+3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yin-Chu Zhu
+4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · P. Rosenbaum, M. V. van der Laan, Stefan Wager, Donald Rubin-Tba et al. (6 authors)
+5. Targeted Learning of an Optimal Dynamic Treatment, and Statistical Inference for its Mean Outcome — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan, Alexander Luedtke</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-10-31</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-31/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-31/</guid>
@@ -204,16 +216,6 @@
       <pubDate>Mon, 05 Oct 2026 13:00:00 +0000</pubDate>
       <description>1. WillianFuks/tfcausalimpact v0.0.19 — Other · score 55 · WillianFuks/tfcausalimpact releases
 2. DavidBustamanteL/EconR — EconR is a developing R package for econometric estimation with a consistent interface and… — Other · score 30 · GitHub topic:econometrics</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-04</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-04/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-04/</guid>
-      <pubDate>Sun, 04 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
-2. Conjugate Gradient and Variance Reduction Based Online ADMM for Low-Rank Distributed Networks — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yitong Chen, Danqi Jin, Jie Chen, Cédric Richard et al. (5 authors)
-3. Meta Continual Learning Revisited: Implicitly Enhancing Online Hessian Approximation via Variance Reduction — Experimentation · score 44 · Semantic Scholar: online experimentation variance reduction · Yichen Wu, Long-Kai Huang, Renzhen Wang, Deyu Meng et al. (5 authors)
-4. NBER WORKING PAPER SERIES MATRIX COMPLETION METHODS FOR CAUSAL PANEL DATA MODELS — Other · score 40 · Semantic Scholar: Guido Imbens causal · S. Athey, M. Bayati, Nikolay Doudchenko, G. Imbens et al. (5 authors)</description>
     </item>
   </channel>
 </rss>
