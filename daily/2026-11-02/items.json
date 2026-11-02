@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:JayJiangEcon/faster-firm-dynamics",
+    "title": "JayJiangEcon/faster-firm-dynamics \u2014 Algorithms and implementation techniques for accelerating heterogeneous-firm dynamic models.",
+    "url": "https://github.com/JayJiangEcon/faster-firm-dynamics",
+    "summary": "Algorithms and implementation techniques for accelerating heterogeneous-firm dynamic models.",
+    "authors": [],
+    "published": "2026-11-02T04:47:04Z",
+    "extras": {
+      "stars": 4,
+      "language": "Fortran",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Algorithms and implementation techniques for accelerating heterogeneous-firm dynamic models."
+  }
+]
