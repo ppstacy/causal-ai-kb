@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-03</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-03/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-03/</guid>
+      <pubDate>Tue, 03 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. Studentized inference in randomized experiments when a few units dominate the outcome variation — Uplift / HTE · score 56 · arXiv stat.ME · Xinyuan Chen, Jonathan W. Kiesel, Jonathan R. Woody
+2. Causal Inference from Self-controlled Case Series — Causal Inference · score 56 · arXiv stat.ME · Gellért Perényi, Marco Piccininni, Mats J. Stensrud
+3. Data integration using propensity score weighting under missing at random — Uplift / HTE · score 56 · arXiv stat.ME · Caleb Leedy, Jae Kwang Kim
+4. IdeaTaste: Do LLMs Share the Research Taste of Human Researchers? — Causal LMs · score 56 · arXiv cs.CL · Shanshan Zhong, Chen Xu, Jingjie Ning, Zhengzhong Liu et al. (6 authors)
+5. Tilted Convexity and an Exact Offline-Online Separation — Experimentation · score 52 · arXiv stat.ML · Mohammad Pedramfar, Rajiv Khanna, Christopher John Quinn, Vaneet Aggarwal</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-02</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-02/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-02/</guid>
@@ -204,17 +215,6 @@
 3. Bayesian heterogeneous copula mixtures with nonparametric margins: consistency, identifiability and tail asymmetry in physical… — Uplift / HTE · score 52 · arXiv stat.ME · Yujian Liu
 4. Probabilistic Counterfactual Inference for Discrete Outcomes in Gaussian-Process Causal Models — Causal Inference · score 52 · arXiv cs.LG · Juliette Sinnott, Amir-Hossein Karimi, Mohammad Kohandel
 5. Latent space bias directions in LLMs capture confidence, not fairness — Causal LMs · score 52 · arXiv cs.LG · Stephanie Buttigieg, Maeve Madigan, Parameswaran Kamalaruban, Stuart Burrell</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-06</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-06/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-06/</guid>
-      <pubDate>Tue, 06 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. SOL: Measuring Gaps between Text Distributions by Double Sliced Wasserstein Metrics — Causal LMs · score 60 · arXiv stat.ML · Gregor Kornhardt, Moritz Piening, Jannis Chemseddine, Gabriele Steidl
-2. Learning to Read the Contextual Tokens in Diffusion Transformers — Causal LMs · score 56 · arXiv cs.LG · Omer Dahary, Etai Sella, Hadar Averbuch-Elor, Daniel Cohen-Or et al. (5 authors)
-3. BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents — Causal LMs · score 56 · arXiv cs.LG · Ziyan Wang, Shuqing Shi, James Oldfield, Samuele Marro et al. (8 authors)
-4. pymc-labs/CausalPy 1.0.0rc1 — Other · score 55 · pymc-labs/CausalPy releases
-5. Private online learning and prediction for Littlestone classes — Uplift / HTE · score 52 · arXiv stat.ML · Amartya Sanyal</description>
     </item>
   </channel>
 </rss>
