@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-04</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-04/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-04/</guid>
+      <pubDate>Wed, 04 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. Estimating Treatment Effects with a Single Arm Clinical Trial and Data Summaries from an External Control Group: is it Possible? — Uplift / HTE · score 60 · arXiv stat.ME · Riddhiman Saha, Lorenzo Trippa
+2. Exact Selective Inference for Spectral Clustering via Piecewise-Constant Graph Perturbation — Uplift / HTE · score 56 · arXiv stat.ML · Naotoshi Nakamura
+3. Unifying and Beyond the Theory of Pervasive Capability Degradation in LLM Post-training SFT from Feature Interference — Causal LMs · score 56 · arXiv cs.LG · Hang Chen, Jiaying Zhu, Wenya Wang
+4. The Right Source Is Not Enough: Understanding History Interference in Speech-LLM Memory — Causal LMs · score 56 · arXiv cs.CL · HongJin Song, Weiqiao Shan, Runwu Shi, Yifei Wu et al. (14 authors)
+5. Post-stratified importance sampling — Uplift / HTE · score 52 · arXiv stat.ME · Yuling Yao, Sergei Tikhonov</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-03</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-03/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-03/</guid>
@@ -204,17 +215,6 @@
 3. Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds — Causal LMs · score 60 · arXiv stat.ML · Yunxiao Zhao, Changxiao Cai
 4. Adaptively Combining Randomized and External Control Data Using a Mixture Prior in the Presence of Heterogeneity — Experimentation · score 56 · arXiv stat.ME · Xinyi He, Peter F. Thall, Ying Yuan, Suyu Liu
 5. SemanticFold: Latent Sequence Compression SeparatesLanguage Modeling, Decodability, and Reasoning — Causal LMs · score 56 · arXiv cs.LG · Mingyan Liu, Min Huang</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-07</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-07/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-07/</guid>
-      <pubDate>Wed, 07 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Measuring Gift Card Program Incrementality via Causal Data Fusion — Uplift / HTE · score 100 · arXiv stat.ME · Justin Whitehouse, William Betz, Yan Zhang, Peter Coles et al. (6 authors)
-2. Feature Information Dynamics in Diffusion — Uplift / HTE · score 52 · arXiv stat.ML · Jia-Shu Pan, Tao Zhang, Yufei Huang, Yanjun Sheng et al. (5 authors)
-3. Bayesian heterogeneous copula mixtures with nonparametric margins: consistency, identifiability and tail asymmetry in physical… — Uplift / HTE · score 52 · arXiv stat.ME · Yujian Liu
-4. Probabilistic Counterfactual Inference for Discrete Outcomes in Gaussian-Process Causal Models — Causal Inference · score 52 · arXiv cs.LG · Juliette Sinnott, Amir-Hossein Karimi, Mohammad Kohandel
-5. Latent space bias directions in LLMs capture confidence, not fairness — Causal LMs · score 52 · arXiv cs.LG · Stephanie Buttigieg, Maeve Madigan, Parameswaran Kamalaruban, Stuart Burrell</description>
     </item>
   </channel>
 </rss>
