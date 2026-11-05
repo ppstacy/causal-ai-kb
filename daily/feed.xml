@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-05</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-05/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-05/</guid>
+      <pubDate>Thu, 05 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. Approximate minimax regret for conditionally similar tests — Uplift / HTE · score 56 · arXiv econ.EM · Andrés Aradillas Fernández
+2. Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge — Causal LMs · score 56 · arXiv cs.CL · Zohreh Abbasi Liasi, Batoul Hammoud, Anas Madkoor, Ehsaneddin Asgari
+3. Regression with Many Generated Controls — Causal Inference · score 52 · arXiv stat.ML · Timothy Christensen, Daniel Vebman
+4. Finite-width shift of the edge of chaos in deep neural networks — Uplift / HTE · score 52 · arXiv stat.ML · Arn Caesar
+5. A Framework for Context Enrichment and Selective Robustness in LLM Social Agents — Causal LMs · score 52 · arXiv cs.LG · Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-04</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-04/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-04/</guid>
@@ -204,17 +215,6 @@
 3. Formalization and consistency of clone-censor-weight — Uplift / HTE · score 56 · arXiv stat.ME · Iqraa Meah, Charlotte Voinot, Stefan Michiels, Noémie Simon-Tillaux et al. (8 authors)
 4. Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search — Causal LMs · score 56 · arXiv cs.LG · Ziming Dai, Dabiao Ma, Ziheng Guo, Jack Dong et al. (5 authors)
 5. Overcoming Prior Barriers: Supervised Fine-Tuning under Long-Tail Distribution — Causal LMs · score 56 · arXiv cs.LG · Haohui Wang, Jiahao Xu, Wangzhi Zhan, Tong Zeng et al. (12 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-08</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-08/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-08/</guid>
-      <pubDate>Thu, 08 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Policy Learning with Weak Signals — Uplift / HTE · score 100 · arXiv stat.ME · Benedikt Koch, Winston Chou, Aurélien Bibaut, Nathan Kallus
-2. When Can You Ship on Evals Alone? Trial-Level Surrogacy for Offline Evaluation of LLM Systems — Experimentation · score 68 · arXiv stat.ME · Mårten Schultzberg
-3. Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds — Causal LMs · score 60 · arXiv stat.ML · Yunxiao Zhao, Changxiao Cai
-4. Adaptively Combining Randomized and External Control Data Using a Mixture Prior in the Presence of Heterogeneity — Experimentation · score 56 · arXiv stat.ME · Xinyi He, Peter F. Thall, Ying Yuan, Suyu Liu
-5. SemanticFold: Latent Sequence Compression SeparatesLanguage Modeling, Decodability, and Reasoning — Causal LMs · score 56 · arXiv cs.LG · Mingyan Liu, Min Huang</description>
     </item>
   </channel>
 </rss>
