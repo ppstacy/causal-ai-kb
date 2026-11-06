@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-06</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-06/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-06/</guid>
+      <pubDate>Fri, 06 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines — Causal LMs · score 56 · arXiv cs.LG · Roko Parac, Christos Ziakas, Leo Ardon, Alessandra Russo
+2. Identifying Neural Dynamics Using Nonlinear Interventional State Space Models — Uplift / HTE · score 52 · arXiv stat.ML · Hanna M. Tolle, Carles Balsells-Rodas, Yixin Wang, Pedro A. M. Mediano et al. (5 authors)
+3. Doubly-robust causal inference for multi-valued treatment regimes with recurrent neural networks — Causal Inference · score 52 · arXiv stat.ML · Jason Poulos
+4. From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations? — Causal LMs · score 52 · arXiv cs.CL · Hanyu Qiu, Ze Liu, Zhe Zhao, Kuang Xiong et al. (7 authors)
+5. Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning — Other · score 48 · arXiv stat.ML · Chenruo Liu, Zihan Wang, Yijun Dong, Qi Lei</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-05</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-05/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-05/</guid>
@@ -204,17 +215,6 @@
 3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yin-Chu Zhu
 4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · P. Rosenbaum, M. V. van der Laan, Stefan Wager, Donald Rubin-Tba et al. (6 authors)
 5. Causal Discovery from Soft Interventions with Unknown Targets: Characterization and Learning — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Amin Jaber, Murat Kocaoglu, Karthikeyan Shanmugam, Elias Bareinboim</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-09</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-09/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-09/</guid>
-      <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. CausalDreamer: Learning Predictive World Models with Latent Disentanglement — Other · score 90 · arXiv cs.LG · Prince Jha, Nils Lukas, Kun Zhang, Salem Lahlou
-2. Prediction-Powered Data Fusion for Treatment Effect Estimation — Uplift / HTE · score 60 · arXiv stat.ML · Yonghan Jung, Shu Yang
-3. Formalization and consistency of clone-censor-weight — Uplift / HTE · score 56 · arXiv stat.ME · Iqraa Meah, Charlotte Voinot, Stefan Michiels, Noémie Simon-Tillaux et al. (8 authors)
-4. Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search — Causal LMs · score 56 · arXiv cs.LG · Ziming Dai, Dabiao Ma, Ziheng Guo, Jack Dong et al. (5 authors)
-5. Overcoming Prior Barriers: Supervised Fine-Tuning under Long-Tail Distribution — Causal LMs · score 56 · arXiv cs.LG · Haohui Wang, Jiahao Xu, Wangzhi Zhan, Tong Zeng et al. (12 authors)</description>
     </item>
   </channel>
 </rss>
