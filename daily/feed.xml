@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-07</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-07/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-07/</guid>
+      <pubDate>Sat, 07 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. w4s7jksf68-ai/piet — PIET + CoBrA — a free, offline, Stata-syntax-compatible econometrics tool (GPL-3.0-or-later): desktop app +… — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-06</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-06/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-06/</guid>
@@ -203,18 +210,6 @@
 2. Online targeted learning for time series — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan, A. Chambaz, S. Lendle
 3. Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · Boriska Toth, M. V. van der Laan
 4. Targeted Learning for Causality and Statistical Analysis in Medical Research — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · S. Rose, R. Starmans, M. V. van der Laan</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-10</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-10/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-10/</guid>
-      <pubDate>Sat, 10 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. A Comment on: 
- “Fisher–Schultz Lecture: Generic Machine Learning Inference on Heterogeneous Treatment Effects in Randomized… — Uplift / HTE · score 100 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager
-2. Average Treatment Effects in the Presence of Interference — Experimentation · score 98 · Semantic Scholar: Stefan Wager treatment effects · Yu-Chen Hu, Shuang-Ning Li, Stefan Wager
-3. Title Sparsity Double Robust Inference of Average Treatment Effects Permalink — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · Stefan Wager, Yin-Chu Zhu
-4. Causal Conference Program 2016 Causal Conference Titles and Abstracts Title: Efficient Inference of Average Treatment Effects in… — Causal Inference · score 94 · Semantic Scholar: Stefan Wager treatment effects · P. Rosenbaum, M. V. van der Laan, Stefan Wager, Donald Rubin-Tba et al. (6 authors)
-5. Causal Discovery from Soft Interventions with Unknown Targets: Characterization and Learning — Other · score 90 · Semantic Scholar: Elias Bareinboim causal · Amin Jaber, Murat Kocaoglu, Karthikeyan Shanmugam, Elias Bareinboim</description>
     </item>
   </channel>
 </rss>

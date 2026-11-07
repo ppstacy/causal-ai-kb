@@ -1,0 +1,21 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:w4s7jksf68-ai/piet",
+    "title": "w4s7jksf68-ai/piet \u2014 PIET + CoBrA \u2014 a free, offline, Stata-syntax-compatible econometrics tool (GPL-3.0-or-later): desktop app + C++ engine",
+    "url": "https://github.com/w4s7jksf68-ai/piet",
+    "summary": "PIET + CoBrA \u2014 a free, offline, Stata-syntax-compatible econometrics tool (GPL-3.0-or-later): desktop app + C++ engine",
+    "authors": [],
+    "published": "2026-11-06T22:42:36Z",
+    "extras": {
+      "stars": 9,
+      "language": "C++",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "PIET + CoBrA \u2014 a free, offline, Stata-syntax-compatible econometrics tool (GPL-3.0-or-later): desktop app + C++ engine"
+  }
+]
