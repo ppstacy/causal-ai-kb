@@ -1,0 +1,49 @@
+[
+  {
+    "source": "semantic_scholar",
+    "source_name": "Semantic Scholar: Kun Zhang causal discovery",
+    "id": "s2:8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "title": "On Causal Discovery in the Presence of Deterministic Relations",
+    "url": "https://www.semanticscholar.org/paper/8ad365f76e6497fc7e1b7f895d106ac68d819807",
+    "summary": "",
+    "authors": [
+      "Lo-Ka Li",
+      "Hao-Yue Dai",
+      "Hanin Al Ghothani",
+      "Bi-Wei Huang",
+      "Ji-Ji Zhang",
+      "Shahar Harel",
+      "Isaac Bentwich",
+      "Guang-Yi Chen",
+      "Kun Zhang"
+    ],
+    "published": "",
+    "extras": {
+      "venue": "Neural Information Processing Systems",
+      "query": "Kun Zhang causal discovery"
+    },
+    "score": 90,
+    "topic": "other",
+    "why_relevant": "tracked author (Kun Zhang); +10 source-type",
+    "llm_summary": "On Causal Discovery in the Presence of Deterministic Relations"
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:kobaltgit/StatCraft",
+    "title": "kobaltgit/StatCraft \u2014 High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust",
+    "url": "https://github.com/kobaltgit/StatCraft",
+    "summary": "High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust",
+    "authors": [],
+    "published": "2026-11-08T08:27:17Z",
+    "extras": {
+      "stars": 20,
+      "language": "Rust",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust"
+  }
+]

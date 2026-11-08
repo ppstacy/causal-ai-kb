@@ -6,6 +6,14 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-08</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-08/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-08/</guid>
+      <pubDate>Sun, 08 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Lo-Ka Li, Hao-Yue Dai, Hanin Al Ghothani, Bi-Wei Huang et al. (9 authors)
+2. kobaltgit/StatCraft — High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-07</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-07/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-07/</guid>
@@ -200,16 +208,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-12/</guid>
       <pubDate>Mon, 12 Oct 2026 13:00:00 +0000</pubDate>
       <description>_No picks today._</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-11</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-11/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-11/</guid>
-      <pubDate>Sun, 11 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Online Targeted Learning — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan, S. Lendle
-2. Online targeted learning for time series — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan, A. Chambaz, S. Lendle
-3. Targeted Learning of Optimal Individualized Treatment Rules Under Cost Constraints — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · Boriska Toth, M. V. van der Laan
-4. Targeted Learning for Causality and Statistical Analysis in Medical Research — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · S. Rose, R. Starmans, M. V. van der Laan</description>
     </item>
   </channel>
 </rss>
