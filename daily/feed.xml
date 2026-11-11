@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-11</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-11/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-11/</guid>
+      <pubDate>Wed, 11 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets — Causal LMs · score 56 · arXiv stat.ML · Audrey Huang, Nan Jiang, Sham M. Kakade, Sadhika Malladi et al. (6 authors)
+2. Nonparametric Maximum Likelihood Estimation for Mixtures of Logistic Regressions — Uplift / HTE · score 52 · arXiv stat.ML · Muheng Li, Peize Zhang, Xin Bing
+3. Hedging out the HEDGE Bias: Identifying Dynamic Partial-Equilibrium Effects with Panel LP-IV — Causal Inference · score 52 · arXiv econ.EM · Endong Wang, Ren Zhang
+4. Semiparametric Inference in Panel Data with Interactive and High-dimensional Confounding — Causal Inference · score 52 · arXiv econ.EM · Bin Chen, Yukun Ma, Qiyang Yu
+5. ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows — Causal LMs · score 52 · arXiv cs.LG · Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya, Rohith Nama et al. (9 authors)</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-09</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-09/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-09/</guid>
@@ -200,17 +211,6 @@
 3. MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization — Causal LMs · score 56 · arXiv cs.LG · Yangchengyu Zhou, Zhiping Wu, Runchang Jiang, Dongdong Ren et al. (8 authors)
 4. Multi-Stream Residual Computation in Diffusion Language Models — Causal LMs · score 56 · arXiv cs.LG · Ekaterina Alimaskina, Suren Kazarian, Gleb Molodtsov, Aleksandr Beznosikov
 5. Read the Room Before Your Model Generates — Causal LMs · score 56 · arXiv cs.CL · Muyao Kong, Zhihao Lin</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-13</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-13/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-13/</guid>
-      <pubDate>Tue, 13 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Lo-Ka Li, Hao-Yue Dai, Hanin Al Ghothani, Biwei Huang et al. (9 authors)
-2. On Causal Discovery in the Presence of Deterministic Relations — Other · score 90 · Semantic Scholar: Kun Zhang causal discovery · Hanin Al Ghothani, Isaac Bentwich, Guang-Yi Chen, Hao-Yue Dai et al. (9 authors)
-3. uber/causalml v0.18.0 — Uplift / HTE · score 63 · uber/causalml releases
-4. 0 A ug 2 01 7 Finite Sample Inference for Targeted Learning — Uplift / HTE · score 44 · Semantic Scholar: Mark van der Laan targeted learning · M. V. van der Laan
-5. Targeted Learning of The Probability of Success of An In Vitro Fertilization Program Controlling for Time-dependent Confounders — Other · score 40 · Semantic Scholar: Mark van der Laan targeted learning · A. Chambaz, S. Rose, J. Bouyer, M. V. van der Laan</description>
     </item>
   </channel>
 </rss>
