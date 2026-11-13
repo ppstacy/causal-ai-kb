@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-13</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-13/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-13/</guid>
+      <pubDate>Fri, 13 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity — Causal LMs · score 60 · arXiv stat.ML · Kuancheng Ye
+2. When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems — Causal LMs · score 56 · arXiv stat.ME · Hannah Li
+3. Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey — Causal LMs · score 56 · Semantic Scholar: causal language models · Xiao-Yu Liu, Paiheng Xu, Jun-Da Wu, Jiaxin Yuan et al. (13 authors)
+4. CausalBench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models — Causal LMs · score 56 · Semantic Scholar: causal language models · Zeyu Wang
+5. Sketching Language Models for Context Attribution — Causal LMs · score 52 · arXiv stat.ML · Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Felix Zhou</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-12</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-12/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-12/</guid>
@@ -196,17 +207,6 @@
 3. Change the Number, Change the Answer: Assessing Rating Scale Sensitivity in LLM-Based Text Scoring — Causal LMs · score 56 · arXiv cs.CL · Wonjeong Jo, Gyuwan Kim, Ming Shan Hee
 4. Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling — Causal LMs · score 56 · arXiv cs.CL · Tong Zhu, Zhe Xu, Zefeng He, Yunkai Chai et al. (10 authors)
 5. Extending the Oracle Approximating Shrinkage to General Distributions — Uplift / HTE · score 52 · arXiv stat.ME · Michael J. Lewis</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-15</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-15/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-15/</guid>
-      <pubDate>Thu, 15 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. CASI: Credit Assignment via Set Intervention for Agentic Retrieval — Causal LMs · score 60 · arXiv cs.LG · Xinyi Cheng, Tianfu Zhang, Jiwen Li, Xuesen Zhang et al. (8 authors)
-2. DataJunction as Netflix’s answer to the missing piece of the modern data stack — Experimentation · score 57 · Netflix Tech Blog
-3. The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale — Causal LMs · score 57 · Netflix Tech Blog
-4. From Plato to Aristotle: Toward a General Theory of Representation Hypotheses — Causal LMs · score 56 · arXiv stat.ML · Dai Shi, Andi Han, Xiaoyu Li, Luke Thompson et al. (5 authors)
-5. MAEM: Mitigating Recency Bias via a Replay-Free, Capacity-Controlled Dynamic Mixture of Experts for Class-Incremental Graph… — Uplift / HTE · score 56 · arXiv stat.ML · Junlin Chen, Wenhao Wang, Junchao Xu, Qingsong Yao et al. (8 authors)</description>
     </item>
   </channel>
 </rss>
