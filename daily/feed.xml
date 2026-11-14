@@ -6,6 +6,13 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-14</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-14/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-14/</guid>
+      <pubDate>Sat, 14 Nov 2026 13:00:00 +0000</pubDate>
+      <description>_No picks today._</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-13</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-13/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-13/</guid>
@@ -196,17 +203,6 @@
 2. The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of… — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · L. Cain, J. Robins, E. Lanoy, R. Logan et al. (6 authors)
 3. Re: Causality and causal inference in epidemiology: the need for a pluralistic approach. — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · T. VanderWeele, M. Hernán, E. T. Tchetgen Tchetgen, J. Robins
 4. Longitudinal Causal Inference — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Hernán, J. Robins</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-16</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-16/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-16/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. In-Context Learning Before Specialisation: Theory of Learning in a Solvable Topic Model — Causal LMs · score 56 · arXiv stat.ML · Francesco Cagnetta, Casper L. Christensen
-2. MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering — Causal LMs · score 56 · arXiv cs.LG · Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu et al. (10 authors)
-3. Change the Number, Change the Answer: Assessing Rating Scale Sensitivity in LLM-Based Text Scoring — Causal LMs · score 56 · arXiv cs.CL · Wonjeong Jo, Gyuwan Kim, Ming Shan Hee
-4. Intern-Decision: Efficient Multimodal Decision Making with Autoregressive Masked Language Modeling — Causal LMs · score 56 · arXiv cs.CL · Tong Zhu, Zhe Xu, Zefeng He, Yunkai Chai et al. (10 authors)
-5. Extending the Oracle Approximating Shrinkage to General Distributions — Uplift / HTE · score 52 · arXiv stat.ME · Michael J. Lewis</description>
     </item>
   </channel>
 </rss>
