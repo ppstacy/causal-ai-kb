@@ -6,6 +6,14 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-16</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-16/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-16/</guid>
+      <pubDate>Mon, 16 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. PantomathX/Novalie — Novalie 1.0: told nothing, it finds the laws of any world it lives in, the real one included, by one rule of… — Other · score 30 · GitHub topic:causal-discovery
+2. mehmetsongur/Machine-Learning-in-Economics-and-Finance — Weekly materials for the Dicle University course Machine Learning in… — Other · score 30 · GitHub topic:econometrics</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-14</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-14/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-14/</guid>
@@ -193,16 +201,6 @@
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-18/</guid>
       <pubDate>Sun, 18 Oct 2026 13:00:00 +0000</pubDate>
       <description>1. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-17</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-17/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-17/</guid>
-      <pubDate>Sat, 17 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale — Experimentation · score 57 · Netflix Tech Blog
-2. The International Journal of Biostatistics CAUSAL INFERENCE When to Start Treatment ? A Systematic Approach to the Comparison of… — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · L. Cain, J. Robins, E. Lanoy, R. Logan et al. (6 authors)
-3. Re: Causality and causal inference in epidemiology: the need for a pluralistic approach. — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · T. VanderWeele, M. Hernán, E. T. Tchetgen Tchetgen, J. Robins
-4. Longitudinal Causal Inference — Causal Inference · score 44 · Semantic Scholar: Miguel Hernan causal inference · M. Hernán, J. Robins</description>
     </item>
   </channel>
 </rss>

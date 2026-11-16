@@ -1,0 +1,40 @@
+[
+  {
+    "source": "github",
+    "source_name": "GitHub topic:causal-discovery",
+    "id": "github:PantomathX/Novalie",
+    "title": "PantomathX/Novalie \u2014 Novalie 1.0: told nothing, it finds the laws of any world it lives in, the real one included, by one rule of evidence. Pure Python.",
+    "url": "https://github.com/PantomathX/Novalie",
+    "summary": "Novalie 1.0: told nothing, it finds the laws of any world it lives in, the real one included, by one rule of evidence. Pure Python.",
+    "authors": [],
+    "published": "2026-11-03T13:45:42Z",
+    "extras": {
+      "stars": 16,
+      "language": "Python",
+      "topic": "causal-discovery"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Novalie 1.0: told nothing, it finds the laws of any world it lives in, the real one included, by one rule of evidence. Pure Python."
+  },
+  {
+    "source": "github",
+    "source_name": "GitHub topic:econometrics",
+    "id": "github:mehmetsongur/Machine-Learning-in-Economics-and-Finance",
+    "title": "mehmetsongur/Machine-Learning-in-Economics-and-Finance \u2014 Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish.",
+    "url": "https://github.com/mehmetsongur/Machine-Learning-in-Economics-and-Finance",
+    "summary": "Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish.",
+    "authors": [],
+    "published": "2026-11-07T22:22:36Z",
+    "extras": {
+      "stars": 31,
+      "language": "Jupyter Notebook",
+      "topic": "econometrics"
+    },
+    "score": 30,
+    "topic": "other",
+    "why_relevant": "matches keyword filter",
+    "llm_summary": "Weekly materials for the Dicle University course Machine Learning in Economics and Finance: slides, lecture videos and code. Course taught in Turkish."
+  }
+]
