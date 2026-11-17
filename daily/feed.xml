@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-17</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-17/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-17/</guid>
+      <pubDate>Tue, 17 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. Sharp High-Dimensional Gaussian Approximations over Rectangles without Covariance Restrictions — Other · score 98 · arXiv econ.EM · Victor Chernozhukov, Denis Chetverikov, Kengo Kato, Yuta Koike
+2. Anytime-Valid PAC-Bayes Certificates for Adaptive Test-Time Scaling — Uplift / HTE · score 60 · arXiv stat.ML · Xiaoyu Li, Jiangxuan Long
+3. Who Is the Regression About? Auditing AI-Labeled Treatments When Effects Differ — Causal LMs · score 56 · arXiv econ.EM · Ayman Farahat
+4. Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse — Causal LMs · score 56 · arXiv cs.CL · Jorge Valverde-Rebaza, Nathan Garcia-Larios, Karime Ruvalcaba-Perez, Alejandro Rendon et al. (6 authors)
+5. Almost Controlled: The FDR of Benjamini-Hochberg on Weighted Conformal p-Values — Uplift / HTE · score 52 · arXiv stat.ML · Ryan Lim</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-16</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-16/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-16/</guid>
@@ -194,13 +205,6 @@
 3. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xin-Bo Wu, Lav R. Varshney
 4. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
 5. Evaluating Pretrained Causal Language Models for Synonymy — Causal LMs · score 44 · Semantic Scholar: causal language models · I. Ivan, C. Ramisch, Alexis Nasr</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-18</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-18/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-18/</guid>
-      <pubDate>Sun, 18 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Causal Inference under Interference through Designed Markets ∗ — Experimentation · score 98 · Semantic Scholar: Susan Athey causal · EvanMunro, Claudia Allende-Santa, Allende-Santa Cruz, Susan Athey et al. (11 authors)</description>
     </item>
   </channel>
 </rss>
