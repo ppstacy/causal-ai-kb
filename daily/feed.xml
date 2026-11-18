@@ -6,6 +6,17 @@
     <description>Top-5 daily picks from new research, engineering posts, and tools across causal inference, causal ML, causal language models, and online experimentation.</description>
     <language>en-us</language>
     <item>
+      <title>Causal AI daily picks — 2026-11-18</title>
+      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-18/</link>
+      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-18/</guid>
+      <pubDate>Wed, 18 Nov 2026 13:00:00 +0000</pubDate>
+      <description>1. Inference for Heterogeneous Treatment Effects with Deep Survival Learners — Uplift / HTE · score 64 · arXiv stat.ME · Sattwik Ghosal, Xuran Meng, Yuming Sun, Yi Li
+2. Engineering AI Discover — Causal LMs · score 57 · Netflix Tech Blog
+3. RSI-Prime: Training Models to Train Models — Causal LMs · score 56 · arXiv cs.LG · Dewu Zheng, Yang Ye, Hongyu Zhang, Jun Yu et al. (5 authors)
+4. Beyond Attribute-Centric Fairness: Modelling and Mitigating Unified Bias Representation in Omni-modal Large Language Models — Causal LMs · score 56 · arXiv cs.LG · Runqi Lin, Suqin Yuan, Zihao Fu, Chris Russell
+5. Dynamic Task Allocation with Dialogue — Causal LMs · score 56 · arXiv cs.CL · Matthew Groholski, Weiwei Gu, Nakul Gopalan</description>
+    </item>
+    <item>
       <title>Causal AI daily picks — 2026-11-17</title>
       <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-11-17/</link>
       <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-11-17/</guid>
@@ -194,17 +205,6 @@
 3. Learning Linear Causal Representations from General Environments: Identifiability and Intrinsic Ambiguity — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Jikai Jin, Vasilis Syrgkanis
 4. Orthogonal Causal Calibration (Extended Abstract) — Other · score 90 · Semantic Scholar: Vasilis Syrgkanis causal · Justin Whitehouse, Christopher Jung, Vasilis Syrgkanis, Bryan Wilder et al. (5 authors)
 5. Recertifying decisions via e-closure: uniform improvements of conformal risk control and randomized e-BH — Uplift / HTE · score 60 · arXiv stat.ML · Tian Bai, Aaditya Ramdas</description>
-    </item>
-    <item>
-      <title>Causal AI daily picks — 2026-10-26</title>
-      <link>https://ppstacy.github.io/causal-ai-kb/daily/2026-10-26/</link>
-      <guid isPermaLink="true">https://ppstacy.github.io/causal-ai-kb/daily/2026-10-26/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:00:00 +0000</pubDate>
-      <description>1. Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey — Causal LMs · score 56 · Semantic Scholar: causal language models · Xiaoyu Liu, Paiheng Xu, Jun-Da Wu, Jiaxin Yuan et al. (13 authors)
-2. Dr.ECI: Infusing Large Language Models with Causal Knowledge for Decomposed Reasoning in Event Causality Identification — Causal LMs · score 48 · Semantic Scholar: causal language models · Rui-Chu Cai, Shengyin Yu, Jiahao Zhang, Wei Chen et al. (6 authors)
-3. Clusters Emerge in Transformer-based Causal Language Models — Causal LMs · score 48 · Semantic Scholar: causal language models · Xin-Bo Wu, Lav R. Varshney
-4. Variance Reduction for Experiments with One-Sided Triggering using CUPED — Experimentation · score 48 · Semantic Scholar: online experimentation variance reduction · Alex Deng, Lo-Hua Yuan, Alexandre Salama-Manteau
-5. Evaluating Pretrained Causal Language Models for Synonymy — Causal LMs · score 44 · Semantic Scholar: causal language models · I. Ivan, C. Ramisch, Alexis Nasr</description>
     </item>
   </channel>
 </rss>
